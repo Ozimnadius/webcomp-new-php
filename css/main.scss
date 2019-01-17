@@ -1,0 +1,95 @@
+//variables
+//fonts
+$font: 'Exo 2', Arial, sans-serif;
+
+//colors
+$text: #ffffff;
+$bg: #000000;
+$Selective-yellow: #ffba00;
+$Battleship-grey: #838383;
+$Battleship-grey2: #848484;
+$White: #fefefe;
+
+//another
+$font-size: 17px;
+
+//layout
+/*-----------------SECTION-MIXINS--------------------*/
+@import "layout/mixins";
+/*------------------------SECTION-FONTS----------------*/
+@import "layout/fonts";
+/*------------------------SECTION-SMART-GRID----------------*/
+@import "layout/smart-grid";
+/*------------------------SECTION-ADJUSTMENT----------------*/
+@import "layout/adjustment";
+/*------------------------SECTION-COMMON----------------*/
+@import "layout/common";
+
+//sections
+/*------------------------SECTION-HEADER----------------*/
+@import "sections/header";
+/*-----------------SECTION-ASIDE--------------------*/
+@import "sections/aside";
+/*-----------------SECTION-INDEX--------------------*/
+@import "sections/index";
+/*-----------------SECTION-BEST--------------------*/
+@import "sections/best";
+/*-----------------SECTION-REV--------------------*/
+@import "sections/rev";
+/*-----------------SECTION-BLOG--------------------*/
+@import "sections/blog";
+/*-----------------SECTION-WORK--------------------*/
+@import "sections/work";
+/*-----------------SECTION-SEND--------------------*/
+@import "sections/send";
+/*-----------------SECTION-WHY--------------------*/
+@import "sections/why";
+/*-----------------SECTION-EDGE--------------------*/
+@import "sections/edge";
+/*-----------------SECTION-BOTTOM--------------------*/
+@import "sections/bottom";
+/*-----------------SECTION-FIRST--------------------*/
+@import "sections/site";
+/*-----------------SECTION-PROMOTE--------------------*/
+@import "sections/promote";
+/*-----------------SECTION-SEO--------------------*/
+@import "sections/seo";
+/*-----------------SECTION-SMM--------------------*/
+@import "sections/smm";
+/*-----------------SECTION-THEME--------------------*/
+@import "sections/theme";
+/*-----------------SECTION-REKLAMA--------------------*/
+@import "sections/reklama";
+/*-----------------SECTION-SLIDER--------------------*/
+@import "sections/slider";
+/*-----------------SECTION-PORTFOLIO--------------------*/
+@import "sections/portfolio";
+/*-----------------SECTION-HOSTING--------------------*/
+@import "sections/hosting";
+/*-----------------SECTION-BANNER-SEND--------------------*/
+@import "sections/banner-send";
+/*-----------------SECTION-NEWS--------------------*/
+@import "sections/news";
+/*-----------------SECTION-ARTICLES--------------------*/
+@import "sections/articles";
+/*-----------------SECTION-ARTICLE--------------------*/
+@import "sections/article";
+/*-----------------SECTION-CONTACTS--------------------*/
+@import "sections/contacts";
+/*-----------------SECTION-TEST--------------------*/
+@import "sections/test";
+/*-----------------SECTION-COMPANY--------------------*/
+@import "sections/company";
+/*-----------------SECTION-TEXT--------------------*/
+@import "sections/text";
+/*-----------------SECTION-POPUP--------------------*/
+@import "sections/popup";
+/*------------------------SECTION-FOOTER---------------------*/
+@import "sections/footer";
+
+
+.debug {
+  //@include debug(rgba(0,0,0,0.3), 1px solid red);
+  //z-index: 100;
+  //top: 0;
+}

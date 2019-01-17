@@ -1,0 +1,531 @@
+.rek {
+  background: url("../images/bg/promoteBg.jpg") 0 0 no-repeat;
+  background-size: cover;
+
+  &-first {
+    padding-top: 250px;
+    padding-bottom: 200px;
+    background: url(../images/bg/rekBg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__bread {
+      margin-bottom: 105px;
+    }
+
+    &__title {
+      font-size: 60px;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    &__subtitle {
+      color: #a4a4a4;
+      font-size: 33px;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 65px;
+    }
+
+    &__middle {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 55px;
+    }
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &:hover {
+        .rek-first__item-title {
+          color: $Selective-yellow;
+        }
+        .rek-first__item-arrow {
+          .arrow {
+
+            &__line {
+              width: 100%;
+              height: 1px;
+              background: linear-gradient(to right, rgba($text, 0) 0%, rgba($text, 1) 100%);
+            }
+
+            &__triangle {
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 5.5px 0 5.5px 7px;
+              border-color: transparent transparent transparent rgba($text, 1);
+            }
+          }
+        }
+      }
+
+      &-title {
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: -0.19px;
+        margin-bottom: 14px;
+        transition: .4s;
+      }
+
+      &-arrow {
+        width: 280px;
+        margin-bottom: 10px;
+      }
+
+      &-desc {
+        display: flex;
+        align-items: center;
+      }
+      &-svg {
+        width: 29px;
+        height: 29px;
+        fill: $Selective-yellow;
+        margin-right: 25px;
+        &_2 {
+          margin-right: 0;
+          margin-left: 25px;
+        }
+      }
+
+      &-text {
+        font-weight: 300;
+        line-height: 1;
+      }
+      &-val {
+        font-size: 39px;
+      }
+      &-type {
+        font-size: 31px;
+      }
+    }
+
+    &__button {
+      position: relative;
+
+      &:after,&:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 1px;
+        left: 50%;
+        background-color: rgba($text,.5);
+      }
+
+      &:before {
+        height: 130px;
+        bottom: 100%;
+      }
+      &:after {
+        height: 1000px;
+        top: 100%;
+      }
+
+      &-squad {
+        position: absolute;
+        bottom: calc(100% + 130px);
+        left: 50%;
+        margin-left: -3px;
+        width: 7px;
+        height: 7px;
+        border: 1px solid rgba($text,.5);
+      }
+
+      .btn3 {
+        width: 339px;
+        height: 70px;
+      }
+    }
+
+
+  }
+
+  &-desc {
+    background-color: $text;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 110px;
+    padding-right: 640px;
+    position: relative;
+    border-bottom: 1px solid #acadbf;
+
+    &__title {
+      color: $bg;
+      font-size: 40px;
+      text-transform: uppercase;
+      margin-bottom: 60px;
+    }
+
+    &__block {
+      margin-bottom: 70px;
+    }
+
+    &__content{
+      color: $bg;
+
+      ul {
+        li {
+          color: #505050;
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    &__button {
+      width: 346px;
+      height: 51px;
+      border: 1px solid rgba($bg,.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: $bg;
+      font-family: "Exo 2";
+      font-size: 13px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    &__list {
+      position: absolute;
+      top: 220px;
+      right: 0;
+      width: 384px;
+    }
+
+    &__item {
+      padding: 55px 50px 55px 13px;
+      border-bottom: 1px solid rgba($bg,.5);
+      display: flex;
+      align-items: center;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &-img {
+        margin-right: 30px;
+        min-width: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+      }
+
+      &-text {
+        color: $bg;
+        font-size: 19px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &-slider {
+    background-color: $text;
+    padding: 80px 0;
+
+    &__title {
+      color: $bg;
+      font-size: 30px;
+      text-transform: uppercase;
+      margin-bottom: 65px;
+      padding-left: 110px;
+    }
+  }
+
+  &-price {
+    background-color: $text;
+    padding-top: 20px;
+    padding-bottom: 110px;
+
+    &__title {
+      color: $bg;
+      font-size: 40px;
+      text-transform: uppercase;
+      padding-left: 100px;
+      margin-bottom: 60px;
+    }
+
+    &__switches {
+      position: relative;
+      margin-bottom: 70px;
+
+      &-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 14px;
+        justify-content: space-between;
+        position: relative;
+      }
+    }
+
+    &__switch {
+      color: #8c8c8c;
+      font-size: 30px;
+      font-weight: 400;
+      transition: .3s;
+
+      display: flex;
+      justify-content: center;
+
+      &:first-child {
+        justify-content: flex-end;
+        padding-left: 100px;
+      }
+      &:last-child {
+        justify-content: flex-start;
+        padding-right: 100px;
+      }
+
+      &.active {
+        color: $bg;
+      }
+    }
+
+    &__line {
+      width: 100%;
+      height: 2px;
+      position: relative;
+    }
+
+    &__subline {
+      position: absolute;
+      height: 100%;
+      width: 346px;
+      left: 0;
+      top: 0;
+      background: $Selective-yellow;
+      transition: .4s;
+    }
+
+    &__tab {
+      display: none;
+      &.active {
+        display: block;
+      }
+
+      padding: 0 100px;
+    }
+
+    &__row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -15px;
+      margin-right: -15px;
+      position: relative;
+      padding: 43px 0;
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: -15px;
+        right: 15px;
+        height: 1px;
+        background: linear-gradient(to right, rgba($bg,0) 0%,rgba($bg,0.5) 30%,rgba($bg,0.5) 70%,rgba($bg,0) 100%);
+      }
+
+      &:last-child {
+        &:after {
+          display: none;
+        }
+      }
+    }
+
+    &__item {
+      width: calc(50% - 30px);
+      margin-left: 15px;
+      margin-right: 15px;
+
+      &_bottom {
+        align-self: flex-end;
+      }
+
+      &-title {
+        color: $bg;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+      }
+
+      &-price {
+        color: #c70541;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+
+      &-text {
+        color: #505050;
+        font-size: 25px;
+      }
+
+      &-li {
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: #505050;
+
+        b {
+          font-weight: 500;
+          color: #c70541;
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &__price {
+      color: #c70541;
+      font-size: 70px;
+    }
+  }
+
+  &-bud {
+    background: url("../images/bg/rekBudgetBg.jpg") 0 0 no-repeat;
+    background-size: cover;
+    padding: 110px;
+
+    &__title {
+      font-size: 40px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -15px;
+      margin-right: -15px;
+      padding-bottom: 60px;
+      margin-bottom: 60px;
+      position: relative;
+
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+      }
+
+    }
+
+    &__item {
+      width: calc(25% - 30px);
+      margin-left: 15px;
+      margin-right: 15px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        color: $Selective-yellow;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+      &-val {
+        font-size: 50px;
+      }
+      &-type {
+        font-size: 35px;
+      }
+
+      &-text {
+        opacity: 0.5;
+        color: rgba($text,.5);
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 27.14px;
+        text-align: center;
+      }
+    }
+
+    &__subtitle {
+      color: $text;
+      font-size: 30px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    &__checks {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -15px;
+      margin-right: -15px;
+      margin-bottom: 100px;
+    }
+
+    &__check {
+      width: calc(25% - 30px);
+      margin-left: 15px;
+      margin-right: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-check {
+        width: 29px;
+        height: 29px;
+        border: 1px solid #363636;
+        border-radius: 5px;
+        background-color: $bg;
+        margin-bottom: 25px;
+        padding: 5px;
+
+        &:after {
+          content: url("../images/icons/tick.svg");
+        }
+      }
+      &-title {
+        color: $text;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 29.99px;
+        text-align: center;
+      }
+    }
+
+    &__button {
+      width: 286px;
+      height: 60px;
+      border: 1px solid rgba($text,.7);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: $text;
+      font-family: "Exo 2";
+      font-size: 13px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+
+
+  .bottom {
+    background: none;
+    //padding-top: 120px;
+  }
+}

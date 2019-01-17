@@ -1,0 +1,147 @@
+.rev {
+
+  &__title {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+  }
+
+  &__slider {
+    height: 832px;
+    margin-top: -200px;
+  }
+
+  &__container {
+    height: 100%;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+
+    &:hover {
+      .rev__link {
+        border: 1px solid $Selective-yellow;
+
+        &-svg {
+          fill: $Selective-yellow;
+        }
+      }
+      .rev__text {
+        opacity: 0.8;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__img {
+    width: 40%;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+
+    &:after {
+      content: '';
+      display: block;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.1) 100%);
+      background: rgba(#000,.1);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transition: .4s;
+    }
+  }
+
+  &__middle {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    transition: .4s;
+  }
+
+  &__link {
+    width: 81px;
+    height: 81px;
+    border: 1px solid rgba(#ebebeb,.5);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+
+    &-svg {
+      height: 28px;
+      fill: rgba(#ebebeb,.5);
+      margin-left: 6px;
+      transition: .4s;
+    }
+  }
+
+  &__desc {
+    width: calc(35% - 70px);
+    padding-right: 70px;
+    opacity: 1;
+    transition: .4s;
+  }
+  &__item-title {
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: vh(30);
+  }
+  &__text {
+    opacity: 0.3;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    transition: .4s;
+  }
+
+  &__data {
+    width: 8%;
+    opacity: 1;
+    transition: .4s;
+  }
+
+  .swiper-slide {
+
+    &.inactive {
+      opacity: .9;
+
+      .rev{
+        &__middle, &__desc, &__data {
+          opacity: 0;
+          visibility: hidden;
+        }
+        &__img:after {
+          background: rgba(#000,.8);
+        }
+      }
+    }
+
+    &.swiper-slide-next {
+      .rev{
+        &__desc {
+          opacity: 0.5;
+          visibility: visible;
+        }
+
+        &__item {
+          &:hover {
+            .rev__text {
+              opacity: 0.3;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
