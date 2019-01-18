@@ -20,4 +20,4 @@
 <body>
 
 <div class="wrapper">
-    <? include 'header.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/header.php'?>

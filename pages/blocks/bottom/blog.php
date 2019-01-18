@@ -32,7 +32,7 @@
         <div class="blog__right-top">
             <div class="blog__title">SEO оптимизатор Анатолий Васильев</div>
             <div class="blog__img">
-                <div class="blog__img-wrap"><img class="blog__pic" src="images/content/blogPhoto.jpg"></div>
+                <div class="blog__img-wrap"><img class="blog__pic" src="/images/content/blogPhoto.jpg"></div>
             </div>
         </div>
         <div class="blog__desc">

@@ -1,7 +1,7 @@
 <aside class="aside">
     <a class="aside__logo" href="./">
         <div class="logo">
-            <img class="logo__img" src="images/bg/logo.png" title="Web-comp">
+            <img class="logo__img" src="/images/bg/logo.png" title="Web-comp">
         </div>
     </a>
 
@@ -19,12 +19,12 @@
     </div>
     <div class="aside__nav">
         <nav class="nav">
-            <a class="nav__item" href="./hosting.php">Хостинг</a>
-            <a class="nav__item" href="./company.php">О компании</a>
-            <a class="nav__item" href="./portfolio.php">Портфолио</a>
-            <a class="nav__item" href="./">Стоимость</a>
-            <a class="nav__item" href="./contacts.php">Контакты</a>
-            <a class="nav__item" href="./news.php">Блог</a>
+            <a class="nav__item" href="/hosting.php">Хостинг</a>
+            <a class="nav__item" href="/company.php">О компании</a>
+            <a class="nav__item" href="/portfolio.php">Портфолио</a>
+            <a class="nav__item" href="/">Стоимость</a>
+            <a class="nav__item" href="/contacts.php">Контакты</a>
+            <a class="nav__item" href="/news.php">Блог</a>
         </nav>
     </div>
     <div class="aside__search">
@@ -45,13 +45,13 @@
         <div class="controls">
             <button class="control callorderOpen" type="button">
                 <svg class="control__svg">
-                    <use xlink:href="images/icons/sprite.svg#tel"></use>
+                    <use xlink:href="/images/icons/sprite.svg#tel"></use>
                 </svg>
                 <div class="control__title">Заказать звонок</div>
             </button>
             <button class="control callorderOpen" type="button">
                 <svg class="control__svg">
-                    <use xlink:href="images/icons/sprite.svg#question"></use>
+                    <use xlink:href="/images/icons/sprite.svg#question"></use>
                 </svg>
                 <div class="control__title">Задать вопрос</div>
             </button>
@@ -60,7 +60,7 @@
     <div class="aside__map">
         <a class="control" target="_blank" href="https://goo.gl/maps/ToWQuJwyTNs">
             <svg class="control__svg">
-                <use xlink:href="images/icons/sprite.svg#pin"></use>
+                <use xlink:href="/images/icons/sprite.svg#pin"></use>
             </svg>
             <div class="control__map">м. Марьино
                 <div class="control__map_grey">На карте</div>
@@ -70,15 +70,15 @@
         <div class="socials">
             <a class="socials__item socials__item_vk" href="https://vk.com/webcomp" target="_blank">
                 <svg class="socials__item-svg">
-                    <use xlink:href="images/icons/sprite.svg#vk"></use>
+                    <use xlink:href="/images/icons/sprite.svg#vk"></use>
                 </svg></a>
             <a class="socials__item socials__item_fb" href="https://www.facebook.com/webcompru/" target="_blank">
                 <svg class="socials__item-svg">
-                    <use xlink:href="images/icons/sprite.svg#fb"></use>
+                    <use xlink:href="/images/icons/sprite.svg#fb"></use>
                 </svg></a>
             <a class="socials__item socials__item_insta" href="https://www.instagram.com/" target="_blank">
                 <svg class="socials__item-svg">
-                    <use xlink:href="images/icons/sprite.svg#insta"></use>
+                    <use xlink:href="/images/icons/sprite.svg#insta"></use>
                 </svg></a>
         </div>
     </div>

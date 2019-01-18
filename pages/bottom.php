@@ -4,7 +4,7 @@
 <!-- popup -->
 <div class="popup">
     <button class="popup__close" type="button">
-        <img class="popup__close-img" src="images/icons/close.png">
+        <img class="popup__close-img" src="/images/icons/close.png">
     </button>
     <div class="popup__wrapper"></div>
 </div>
