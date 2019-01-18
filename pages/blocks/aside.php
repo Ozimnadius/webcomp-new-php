@@ -28,7 +28,7 @@
         </nav>
     </div>
     <div class="aside__search">
-        <form class="search" action="#" method="post" autocomplete="off">
+        <form class="search" action="search-result.php" method="post" autocomplete="off">
             <button class="search__btn" type="button">
                 <div class="search__btn-line"></div>
                 <div class="search__btn-round"></div>
