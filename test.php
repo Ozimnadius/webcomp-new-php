@@ -1,8 +1,8 @@
-<? include 'pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
 
 <!-- main -->
 <main class="page">
-    <? include 'pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="testing">
             <div class="container3">
@@ -1411,4 +1411,4 @@
 </main>
 <!-- END main -->
 
-<? include 'pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>

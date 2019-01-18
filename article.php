@@ -25,19 +25,19 @@
                                 <div class="art-first__thematic">Создание сайтов</div>
                                 <div class="art-first__view">
                                     <svg class="art-first__view-svg">
-                                        <use xlink:href="images/icons/sprite.svg#eye"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#eye"></use>
                                     </svg>
                                     <div class="art-first__view-text">321 тыс.</div>
                                 </div>
                                 <div class="art-first__time">
                                     <svg class="art-first__time-svg">
-                                        <use xlink:href="images/icons/sprite.svg#time2"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#time2"></use>
                                     </svg>
                                     <div class="art-first__time-text">7 мин.</div>
                                 </div>
                                 <div class="art-first__comment">
                                     <svg class="art-first__comment-svg">
-                                        <use xlink:href="images/icons/sprite.svg#comment"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#comment"></use>
                                     </svg>
                                     <div class="art-first__comment-text">7 мин.</div>
                                 </div>
@@ -76,15 +76,15 @@
                             </div>
                             <div class="art-desc__socials"><a class="art-desc__social" href="./" target="_blank">
                                     <svg class="art-desc__social-svg">
-                                        <use xlink:href="images/icons/sprite.svg#vk"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#vk"></use>
                                     </svg>
                                     <div class="art-desc__social-count">2</div></a><a class="art-desc__social" href="./" target="_blank">
                                     <svg class="art-desc__social-svg">
-                                        <use xlink:href="images/icons/sprite.svg#fb"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#fb"></use>
                                     </svg>
                                     <div class="art-desc__social-count">3</div></a><a class="art-desc__social" href="./" target="_blank">
                                     <svg class="art-desc__social-svg">
-                                        <use xlink:href="images/icons/sprite.svg#insta"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#insta"></use>
                                     </svg>
                                     <div class="art-desc__social-count">1</div></a></div>
                         </div>
@@ -179,7 +179,7 @@
                                     </div>
                                     <div class="comment__like">
                                         <svg class="comment__like-svg">
-                                            <use xlink:href="images/icons/sprite.svg#like"></use>
+                                            <use xlink:href="/images/icons/sprite.svg#like"></use>
                                         </svg>
                                         <div class="comment__like-count">2</div>
                                     </div>
@@ -187,7 +187,7 @@
                                 <div class="comment__text">У NVidia программный интерфейс проще. Что делается в OpenCL долго, то на NVidia заметно проще. Ну и ещё чуточку быстрее, т.к. общий стандарт OpenCL расходует часть мощностей на обеспечение совместимости всех со всеми. Сам в подобных проектах не участвовал, но слышал что NVidia стал стандартом де-факто.</div><a class="comment__feed" href="#">
                                     <div class="comment__feed-title">Ответить</div>
                                     <svg class="comment__feed-svg">
-                                        <use xlink:href="images/icons/sprite.svg#feed"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#feed"></use>
                                     </svg></a>
                             </div>
                             <div class="comment">
@@ -201,7 +201,7 @@
                                     </div>
                                     <div class="comment__like">
                                         <svg class="comment__like-svg">
-                                            <use xlink:href="images/icons/sprite.svg#like"></use>
+                                            <use xlink:href="/images/icons/sprite.svg#like"></use>
                                         </svg>
                                         <div class="comment__like-count">2</div>
                                     </div>
@@ -209,7 +209,7 @@
                                 <div class="comment__text">У NVidia программный интерфейс проще. Что делается в OpenCL долго, то на NVidia заметно проще. Ну и ещё чуточку быстрее, т.к. общий стандарт OpenCL расходует часть мощностей на обеспечение совместимости всех со всеми. Сам в подобных проектах не участвовал, но слышал что NVidia стал стандартом де-факто.</div><a class="comment__feed" href="#">
                                     <div class="comment__feed-title">Ответить</div>
                                     <svg class="comment__feed-svg">
-                                        <use xlink:href="images/icons/sprite.svg#feed"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#feed"></use>
                                     </svg></a>
                             </div>
                         </div>

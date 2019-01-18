@@ -1,8 +1,8 @@
-<? include 'pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
 
 <!-- main -->
 <main class="page page_second">
-    <? include 'pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="conts">
             <div class="container3">
@@ -13,18 +13,18 @@
                     <div class="conts-first__pins">
                         <button class="conts-first__pin" type="button">
                             <svg class="conts-first__pin-svg">
-                                <use xlink:href="images/icons/sprite.svg#tel"></use>
+                                <use xlink:href="/images/icons/sprite.svg#tel"></use>
                             </svg>
                             <div class="conts-first__pin-title">Заказать звонок</div>
                         </button>
                         <button class="conts-first__pin" type="button">
                             <svg class="conts-first__pin-svg">
-                                <use xlink:href="images/icons/sprite.svg#question"></use>
+                                <use xlink:href="/images/icons/sprite.svg#question"></use>
                             </svg>
                             <div class="conts-first__pin-title">Задать вопрос</div>
                         </button><a class="conts-first__pin" href="#">
                             <svg class="conts-first__pin-svg">
-                                <use xlink:href="images/icons/sprite.svg#pin"></use>
+                                <use xlink:href="/images/icons/sprite.svg#pin"></use>
                             </svg>
                             <div class="conts-first__pin-title">м. Марьино</div></a>
                     </div>
@@ -45,10 +45,10 @@
                 <div class="bottom">
                     <div class="container2">
                         <div class="bottom__send">
-                            <? include '/pages/blocks/bottom/send.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
                         </div>
                         <div class="bottom__footer">
-                            <? include '/pages/blocks/bottom/footer.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
                         </div>
                     </div>
                 </div>
@@ -58,4 +58,4 @@
 </main>
 <!-- END main -->
 
-<? include 'pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>

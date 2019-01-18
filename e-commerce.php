@@ -1,14 +1,16 @@
-<? include 'pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
 
 <!-- main -->
 <main class="page page_second">
-    <? include 'pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="site">
             <section class="site-first">
                 <div class="container">
                     <div class="site-first__bread">
-                        <div class="bread"><a class="bread__item" href="./">Главная</a><a class="bread__item active">E-commerce</a>
+                        <div class="bread">
+                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item active">E-commerce</a>
                         </div>
                     </div>
                     <div class="site-first__title">Сделаем продающий интернет-магазин<br>за 50 000 Р всего за 1 месяц</div>
@@ -40,19 +42,19 @@
                             <div class="site-dev__swiper-wrap">
                                 <div class="swiper-container site-dev__container">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/bg/no-logo.png" data-desc="Мульти брендовый интернет-магазин сантехники" data-goal="Разработка масштабного магазина сантехники с подключение базы склада и системой оплаты и доставки">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/bg/no-logo.png" data-desc="Мульти брендовый интернет-магазин сантехники" data-goal="Разработка масштабного магазина сантехники с подключение базы склада и системой оплаты и доставки">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/ecomm/img1.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/bg/no-logo.png" data-desc="Разработка интернет-магазина стоматологического оборудования" data-goal="Создание магазина с товарными предложениями и функционалом удобного заказа с сайта">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/bg/no-logo.png" data-desc="Разработка интернет-магазина стоматологического оборудования" data-goal="Создание магазина с товарными предложениями и функционалом удобного заказа с сайта">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/ecomm/img2.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/bg/no-logo.png" data-desc="Интернет-магазин кондитерских изделий" data-goal="Создание яркого сайта для кондитерской студии">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/bg/no-logo.png" data-desc="Интернет-магазин кондитерских изделий" data-goal="Создание яркого сайта для кондитерской студии">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/ecomm/img3.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/bg/no-logo.png" data-desc="Интернет-магазин электрогенераторов" data-goal="Создание интернет-магазина с удобным фильтром по оборудованию">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/bg/no-logo.png" data-desc="Интернет-магазин электрогенераторов" data-goal="Создание интернет-магазина с удобным фильтром по оборудованию">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/ecomm/img4.jpg"></div>
                                         </div>
@@ -460,10 +462,10 @@
                 <div class="bottom">
                     <div class="container2">
                         <div class="bottom__rev">
-                            <? include '/pages/blocks/bottom/rev.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/rev.php'?>
                         </div>
                         <div class="bottom__send">
-                            <? include '/pages/blocks/bottom/send.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
                         </div>
                         <div class="bottom__why">
                             <div class="why">
@@ -577,7 +579,7 @@
                             </div>
                         </div>
                         <div class="bottom__footer">
-                            <? include '/pages/blocks/bottom/footer.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
                         </div>
                     </div>
                 </div>
@@ -587,4 +589,4 @@
 </main>
 <!-- END main -->
 
-<? include 'pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>

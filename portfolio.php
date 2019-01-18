@@ -1,14 +1,14 @@
-<? include 'pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
 
 <!-- main -->
 <main class="page page_second">
-    <? include 'pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="theme">
             <section class="theme-first">
                 <div class="container promote-first__wrapper">
                     <div class="theme-first__bread">
-                        <div class="bread"><a class="bread__item" href="./">Главная</a><a class="bread__item active">Портфолио</a>
+                        <div class="bread"><a class="bread__item" href="/">Главная</a><a class="bread__item active">Портфолио</a>
                         </div>
                     </div>
                     <div class="theme-first__title">Мы создадим продающий сайт<br>по вашей тематике</div>
@@ -221,7 +221,7 @@
                                         <div class="edge__name">Лидируем в рейтингах<br>надежных исполнителей
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge1"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge1"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -238,7 +238,7 @@
                                         <div class="edge__name">Имеем опыт в<br>более 350 нишах
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge2"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge2"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -257,7 +257,7 @@
                                         <div class="edge__name">Даем результат<br>быстрее
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge3"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge3"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -274,7 +274,7 @@
                                         <div class="edge__name">Применяем уникальные<br>технологии
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge4"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge4"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -591,11 +591,11 @@
                 </section>
             </div>
             <section class="theme-bottom">
-                <? include '/pages/blocks/bottom.php'?>
+                <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom.php'?>
             </section>
         </div>
     </main>
 </main>
 <!-- END main -->
 
-<? include 'pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>

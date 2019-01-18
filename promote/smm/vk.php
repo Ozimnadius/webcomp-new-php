@@ -22,7 +22,7 @@
                                 <div class="smm-first__img">
                                     <!--img(src=item.src).smm-first__img-img-->
                                     <svg class="smm-first__img-img">
-                                        <use xlink:href="images/icons/sprite.svg#insta2"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#insta2"></use>
                                     </svg>
                                 </div>
                                 <div class="smm-first__val">900 000 000</div>
@@ -37,7 +37,7 @@
                                 <div class="smm-first__img">
                                     <!--img(src=item.src).smm-first__img-img-->
                                     <svg class="smm-first__img-img">
-                                        <use xlink:href="images/icons/sprite.svg#fb2"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#fb2"></use>
                                     </svg>
                                 </div>
                                 <div class="smm-first__val">2 589 236 658 чел</div>
@@ -52,7 +52,7 @@
                                 <div class="smm-first__img">
                                     <!--img(src=item.src).smm-first__img-img-->
                                     <svg class="smm-first__img-img">
-                                        <use xlink:href="images/icons/sprite.svg#youtube2"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#youtube2"></use>
                                     </svg>
                                 </div>
                                 <div class="smm-first__val">Более 80 %</div>
@@ -67,7 +67,7 @@
                                 <div class="smm-first__img">
                                     <!--img(src=item.src).smm-first__img-img-->
                                     <svg class="smm-first__img-img">
-                                        <use xlink:href="images/icons/sprite.svg#vk"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#vk"></use>
                                     </svg>
                                 </div>
                                 <div class="smm-first__val">5 965 896 чел</div>
@@ -173,7 +173,7 @@
                                     <div class="smm-str__work">
                                         <div class="smm-str__work-img">
                                             <svg class="smm-str__work-svg">
-                                                <use xlink:href="images/icons/sprite.svg#time"></use>
+                                                <use xlink:href="/images/icons/sprite.svg#time"></use>
                                             </svg>
                                         </div>
                                         <div class="smm-str__work-text">Время работы: 1 неделя</div>
@@ -198,7 +198,7 @@
                                     <div class="smm-str__work">
                                         <div class="smm-str__work-img">
                                             <svg class="smm-str__work-svg">
-                                                <use xlink:href="images/icons/sprite.svg#time"></use>
+                                                <use xlink:href="/images/icons/sprite.svg#time"></use>
                                             </svg>
                                         </div>
                                         <div class="smm-str__work-text">Время работы: 1 неделя</div>
@@ -223,7 +223,7 @@
                                     <div class="smm-str__work">
                                         <div class="smm-str__work-img">
                                             <svg class="smm-str__work-svg">
-                                                <use xlink:href="images/icons/sprite.svg#time"></use>
+                                                <use xlink:href="/images/icons/sprite.svg#time"></use>
                                             </svg>
                                         </div>
                                         <div class="smm-str__work-text">Время работы: 1 неделя</div>
@@ -248,7 +248,7 @@
                                     <div class="smm-str__work">
                                         <div class="smm-str__work-img">
                                             <svg class="smm-str__work-svg">
-                                                <use xlink:href="images/icons/sprite.svg#time"></use>
+                                                <use xlink:href="/images/icons/sprite.svg#time"></use>
                                             </svg>
                                         </div>
                                         <div class="smm-str__work-text">Время работы: 1 неделя</div>
@@ -273,7 +273,7 @@
                                     <div class="smm-str__work">
                                         <div class="smm-str__work-img">
                                             <svg class="smm-str__work-svg">
-                                                <use xlink:href="images/icons/sprite.svg#time"></use>
+                                                <use xlink:href="/images/icons/sprite.svg#time"></use>
                                             </svg>
                                         </div>
                                         <div class="smm-str__work-text">Время работы: 1 неделя</div>
@@ -298,7 +298,7 @@
                                     <div class="smm-str__work">
                                         <div class="smm-str__work-img">
                                             <svg class="smm-str__work-svg">
-                                                <use xlink:href="images/icons/sprite.svg#time"></use>
+                                                <use xlink:href="/images/icons/sprite.svg#time"></use>
                                             </svg>
                                         </div>
                                         <div class="smm-str__work-text">Время работы: 1 неделя</div>
@@ -406,7 +406,7 @@
                                         <div class="edge__name">Лидируем в<br>SEO-рейтингах
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge1"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge1"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -423,7 +423,7 @@
                                         <div class="edge__name">Знаем о продвижении<br>сайта все
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge2"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge2"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -442,7 +442,7 @@
                                         <div class="edge__name">Даем результат<br>быстрее
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge3"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge3"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -459,7 +459,7 @@
                                         <div class="edge__name">Применяем уникальные<br>технологии
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge4"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge4"></use>
                                                 </svg>
                                             </div>
                                         </div>

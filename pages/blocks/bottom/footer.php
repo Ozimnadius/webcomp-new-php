@@ -4,14 +4,14 @@
         <div class="footer__cols">
             <div class="footer__col">
                 <div class="footer__items">
-                    <a class="footer__item" href="/promote-seo.php">SEO продвижение сайта</a>
-                    <a class="footer__item" href="/promote-reklama.php">Контекстная реклама</a>
+                    <a class="footer__item" href="/promote/seo.php">SEO продвижение сайта</a>
+                    <a class="footer__item" href="/promote/reklama.php">Контекстная реклама</a>
                 </div>
             </div>
             <div class="footer__col">
                 <div class="footer__items">
                     <a class="footer__item" href="/">Размещение на выделенном сервере</a>
-                    <a class="footer__item" href="/promote-smm.php">Продвижение в социальных сетях</a>
+                    <a class="footer__item" href="/promote/smm.php">Продвижение в социальных сетях</a>
                 </div>
             </div>
             <div class="footer__col">

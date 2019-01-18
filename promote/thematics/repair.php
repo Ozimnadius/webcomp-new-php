@@ -392,7 +392,7 @@
                                         <div class="edge__name">Лидируем в<br>SEO-рейтингах
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge1"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge1"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -409,7 +409,7 @@
                                         <div class="edge__name">Знаем о продвижении<br>сайта все
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge2"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge2"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -428,7 +428,7 @@
                                         <div class="edge__name">Даем результат<br>быстрее
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge3"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge3"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -445,7 +445,7 @@
                                         <div class="edge__name">Применяем уникальные<br>технологии
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge4"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge4"></use>
                                                 </svg>
                                             </div>
                                         </div>

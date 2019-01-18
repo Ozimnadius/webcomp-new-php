@@ -1,8 +1,8 @@
-<? include 'pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
 
 <!-- main -->
 <main class="page">
-    <? include 'pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="comp">
             <div class="container">
@@ -217,16 +217,16 @@
                             </div>
                         </div>
                         <div class="index__rev">
-                            <? include '/pages/blocks/bottom/rev.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/rev.php'?>
                         </div>
                         <div class="index__send">
-                            <? include '/pages/blocks/bottom/send.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
                         </div>
                         <div class="index__why">
-                            <? include '/pages/blocks/bottom/why.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/why.php'?>
                         </div>
                         <div class="index__footer">
-                            <? include '/pages/blocks/bottom/footer.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
                         </div>
                     </div>
                 </section>
@@ -236,4 +236,4 @@
 </main>
 <!-- END main -->
 
-<? include 'pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>

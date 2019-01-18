@@ -1,8 +1,8 @@
-<? include 'pages/top.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top.php'?>
 
 <!-- main -->
 <main class="page">
-    <? include 'pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="index">
             <div class="container">
@@ -41,7 +41,7 @@
                                 <div class="test__text">и получите скидку</div>
                             </div></a></div>
                     <div class="index-first__menu">
-                        <? include '/pages/blocks/menu.php'?>
+                        <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/menu.php'?>
                     </div>
                 </section>
                 <section class="index-about" id="02">
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div class="index-about__menu">
-                        <? include '/pages/blocks/menuTop.php'?>
+                        <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/menuTop.php'?>
                     </div>
                 </section>
                 <section class="index-price">
@@ -238,7 +238,7 @@
                         </form>
                     </div>
                     <div class="index-price__menu">
-                        <? include '/pages/blocks/menuTop.php'?>
+                        <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/menuTop.php'?>
                     </div>
                 </section>
                 <section class="index-cat">
@@ -271,7 +271,7 @@
                             <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site8.png"></div></a>
                     </div>
                     <div class="index-cat__menu">
-                        <? include '/pages/blocks/menuTop.php'?>
+                        <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/menuTop.php'?>
                     </div>
                 </section>
                 <section class="index-seo">
@@ -380,42 +380,42 @@
                         </div>
                     </form>
                     <div class="index-seo__menu">
-                        <? include '/pages/blocks/menuTop.php'?>
+                        <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/menuTop.php'?>
                     </div>
                 </section>
                 <section class="index-bottom">
                     <div class="index-bottom__menu">
-                        <? include '/pages/blocks/menuTop.php'?>
+                        <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/menuTop.php'?>
                     </div>
                     <div class="index-bottom__wrapper">
                         <div class="index__best">
-                            <? include '/pages/blocks/bottom/best.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/best.php'?>
                         </div>
                         <div class="index__rev">
-                            <? include '/pages/blocks/bottom/rev.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/rev.php'?>
                         </div>
                         <div class="index__blog">
-                            <? include '/pages/blocks/bottom/blog.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/blog.php'?>
                         </div>
                         <div class="index__work">
-                            <? include '/pages/blocks/bottom/work.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/work.php'?>
                         </div>
                         <div class="index__send">
-                            <? include '/pages/blocks/bottom/send.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
                         </div>
                         <div class="index__why">
-                            <? include '/pages/blocks/bottom/why.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/why.php'?>
                         </div>
                         <div class="index__footer">
-                            <? include '/pages/blocks/bottom/footer.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
                         </div>
                     </div>
                 </section>
             </div>
         </div>
     </main>
-    <? include 'pages/blocks/pagination.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/pagination.php'?>
 </main>
 <!-- END main -->
 
-<? include 'pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>

@@ -28,7 +28,7 @@
                             </div>
                             <div class="rek-first__item-desc">
                                 <svg class="rek-first__item-svg">
-                                    <use xlink:href="images/icons/sprite.svg#man"></use>
+                                    <use xlink:href="/images/icons/sprite.svg#man"></use>
                                 </svg>
                                 <div class="rek-first__item-text"><span class="rek-first__item-val">59</span><span class="rek-first__item-type"> млн.</span></div>
                             </div></a>
@@ -44,7 +44,7 @@
                                 <div class="rek-first__item-desc">
                                     <div class="rek-first__item-text"><span class="rek-first__item-val">59</span><span class="rek-first__item-type"> млн.</span></div>
                                     <svg class="rek-first__item-svg rek-first__item-svg_2">
-                                        <use xlink:href="images/icons/sprite.svg#man"></use>
+                                        <use xlink:href="/images/icons/sprite.svg#man"></use>
                                     </svg>
                                 </div></a></div>
                     </div>

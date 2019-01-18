@@ -1,8 +1,8 @@
-<? include 'pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
 
 <!-- main -->
 <main class="page page_second">
-    <? include 'pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="promote">
             <section class="promote-first">
@@ -324,7 +324,7 @@
                                         <div class="edge__name">Лидируем в<br>SEO-рейтингах
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge1"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge1"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -341,7 +341,7 @@
                                         <div class="edge__name">Знаем о продвижении<br>сайта все
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge2"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge2"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -360,7 +360,7 @@
                                         <div class="edge__name">Даем результат<br>быстрее
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge3"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge3"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -377,7 +377,7 @@
                                         <div class="edge__name">Применяем уникальные<br>технологии
                                             <div class="edge__img">
                                                 <svg class="promote-edge__svg">
-                                                    <use xlink:href="images/icons/sprite.svg#edge4"></use>
+                                                    <use xlink:href="/images/icons/sprite.svg#edge4"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -413,7 +413,7 @@
                     <div class="promote-rec__list"><a class="promote-rec__item" href="/" download>
                             <div class="promote-rec__img">
                                 <svg class="promote-rec__pic">
-                                    <use xlink:href="images/icons/sprite.svg#recImg"></use>
+                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
                                 </svg>
                                 <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
                                 <div class="promote-rec__logo"><img class="promote-rec__logo-img" src="/images/content/promote/recLogo.png"></div>
@@ -421,7 +421,7 @@
                             <div class="promote-rec__name">Рекомендательное письмо</div></a><a class="promote-rec__item" href="/" download>
                             <div class="promote-rec__img">
                                 <svg class="promote-rec__pic">
-                                    <use xlink:href="images/icons/sprite.svg#recImg"></use>
+                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
                                 </svg>
                                 <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
                                 <div class="promote-rec__logo"><img class="promote-rec__logo-img" src="/images/content/promote/recLogo.png"></div>
@@ -429,7 +429,7 @@
                             <div class="promote-rec__name">Рекомендательное письмо</div></a><a class="promote-rec__item" href="/" download>
                             <div class="promote-rec__img">
                                 <svg class="promote-rec__pic">
-                                    <use xlink:href="images/icons/sprite.svg#recImg"></use>
+                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
                                 </svg>
                                 <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
                                 <div class="promote-rec__logo"><img class="promote-rec__logo-img" src="/images/content/promote/recLogo.png"></div>
@@ -437,7 +437,7 @@
                             <div class="promote-rec__name">Рекомендательное письмо</div></a><a class="promote-rec__item" href="/" download>
                             <div class="promote-rec__img">
                                 <svg class="promote-rec__pic">
-                                    <use xlink:href="images/icons/sprite.svg#recImg"></use>
+                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
                                 </svg>
                                 <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
                                 <div class="promote-rec__logo"><img class="promote-rec__logo-img" src="/images/content/promote/recLogo.png"></div>
@@ -445,7 +445,7 @@
                             <div class="promote-rec__name">Рекомендательное письмо</div></a><a class="promote-rec__item" href="/" download>
                             <div class="promote-rec__img">
                                 <svg class="promote-rec__pic">
-                                    <use xlink:href="images/icons/sprite.svg#recImg"></use>
+                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
                                 </svg>
                                 <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
                                 <div class="promote-rec__logo"><img class="promote-rec__logo-img" src="/images/content/promote/recLogo.png"></div>
@@ -458,10 +458,10 @@
                 <div class="bottom">
                     <div class="container2">
                         <div class="bottom__rev">
-                            <? include '/pages/blocks/bottom/rev.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/rev.php'?>
                         </div>
                         <div class="bottom__send">
-                            <? include '/pages/blocks/bottom/send.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
                         </div>
                         <div class="bottom__why">
                             <div class="why">
@@ -475,7 +475,7 @@
                             </div>
                         </div>
                         <div class="bottom__footer">
-                            <? include '/pages/blocks/bottom/footer.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
                         </div>
                     </div>
                 </div>
@@ -485,4 +485,4 @@
 </main>
 <!-- END main -->
 
-<? include 'pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>

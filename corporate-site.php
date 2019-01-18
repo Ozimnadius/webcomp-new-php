@@ -1,14 +1,16 @@
-<? include 'pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
 
 <!-- main -->
 <main class="page page_second">
-    <? include 'pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="site">
             <section class="site-first">
                 <div class="container">
                     <div class="site-first__bread">
-                        <div class="bread"><a class="bread__item" href="./">Главная</a><a class="bread__item active">Корпоративный сайт</a>
+                        <div class="bread">
+                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item active">Корпоративный сайт</a>
                         </div>
                     </div>
                     <div class="site-first__title">Сделаем продающий корпоративный сайт<br>за 50 000 Р всего за 1 месяц</div>
@@ -40,23 +42,23 @@
                             <div class="site-dev__swiper-wrap">
                                 <div class="swiper-container site-dev__container">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/bg/no-logo.png" data-desc="Создание корпоративного сайта для мед. центра" data-goal="Разработать удобный сайт для презентации медицинских услуг">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/bg/no-logo.png" data-desc="Создание корпоративного сайта для мед. центра" data-goal="Разработать удобный сайт для презентации медицинских услуг">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/corp/img1.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/content/dev/corp/logo2.png" data-desc="Корпоративный портал завода «Корвет»" data-goal="Разработать портал с каталогом продукции и обширной внутренней структурой с размещением необходимой документации и удобным взаимодействием с сайтом">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/content/dev/corp/logo2.png" data-desc="Корпоративный портал завода «Корвет»" data-goal="Разработать портал с каталогом продукции и обширной внутренней структурой с размещением необходимой документации и удобным взаимодействием с сайтом">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/corp/img2.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/bg/no-logo.png" data-desc="Корпоративный сайт строительной компании" data-goal="Разработать продающее решение по строительству домов под ключ">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/bg/no-logo.png" data-desc="Корпоративный сайт строительной компании" data-goal="Разработать продающее решение по строительству домов под ключ">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/corp/img3.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/content/dev/corp/logo4.png" data-desc="Создание корпоративного сайта для компании «Animals Travel» " data-goal="Разработка корпоративного сайта для презентации услуг с акцентами на удобство и простоту с применением яркого дизайна">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/content/dev/corp/logo4.png" data-desc="Создание корпоративного сайта для компании «Animals Travel» " data-goal="Разработка корпоративного сайта для презентации услуг с акцентами на удобство и простоту с применением яркого дизайна">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/corp/img4.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/content/dev/corp/logo5.png" data-desc="Корпоративный сайт пекарни" data-goal="Создание корпоративного сайта с меню выпечки и возможностью оформление заказа на сайте">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/content/dev/corp/logo5.png" data-desc="Корпоративный сайт пекарни" data-goal="Создание корпоративного сайта с меню выпечки и возможностью оформление заказа на сайте">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/corp/img5.jpg"></div>
                                         </div>
@@ -464,10 +466,10 @@
                 <div class="bottom">
                     <div class="container2">
                         <div class="bottom__rev">
-                            <? include '/pages/blocks/bottom/rev.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/rev.php'?>
                         </div>
                         <div class="bottom__send">
-                            <? include '/pages/blocks/bottom/send.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
                         </div>
                         <div class="bottom__why">
                             <div class="why">
@@ -635,7 +637,7 @@
                             </div>
                         </div>
                         <div class="bottom__footer">
-                            <? include '/pages/blocks/bottom/footer.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
                         </div>
                     </div>
                 </div>
@@ -645,4 +647,4 @@
 </main>
 <!-- END main -->
 
-<? include 'pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>

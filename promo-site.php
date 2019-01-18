@@ -1,14 +1,14 @@
-<? include 'pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
 
 <!-- main -->
 <main class="page page_second">
-    <? include 'pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="site">
             <section class="site-first">
                 <div class="container">
                     <div class="site-first__bread">
-                        <div class="bread"><a class="bread__item" href="./">Главная</a><a class="bread__item active">Промо-сайт</a>
+                        <div class="bread"><a class="bread__item" href="/">Главная</a><a class="bread__item active">Промо-сайт</a>
                         </div>
                     </div>
                     <div class="site-first__title">Сделаем продающий промо-сайт<br>за 50 000 Р всего за 1 месяц</div>
@@ -40,23 +40,23 @@
                             <div class="site-dev__swiper-wrap">
                                 <div class="swiper-container site-dev__container">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/content/dev/devLogo.png" data-desc="Сайт по подбору автомобилей" data-goal="Разработка продающего сайта для увеличения продаж в контекстной рекламе">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/content/dev/devLogo.png" data-desc="Сайт по подбору автомобилей" data-goal="Разработка продающего сайта для увеличения продаж в контекстной рекламе">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/dev1.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/content/dev/logo2.png" data-desc="Сайт компании по производству сырья для косметики" data-goal="Разработать сайт для создания имиджа компании в интернете">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/content/dev/logo2.png" data-desc="Сайт компании по производству сырья для косметики" data-goal="Разработать сайт для создания имиджа компании в интернете">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/dev2.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/content/dev/logo3.png" data-desc="Сайт компании по юридической помощи авиапассажирам" data-goal="Увеличение продаж по дополнительным услугам юридической компании">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/content/dev/logo3.png" data-desc="Сайт компании по юридической помощи авиапассажирам" data-goal="Увеличение продаж по дополнительным услугам юридической компании">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/dev3.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/content/dev/logo4.png" data-desc="Сайт для компании Биофолика" data-goal="Презентация товаров и услуг бренда с акцентами на индивидуальность">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/content/dev/logo4.png" data-desc="Сайт для компании Биофолика" data-goal="Презентация товаров и услуг бренда с акцентами на индивидуальность">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/dev4.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="images/content/dev/logo5.jpg" data-desc="Сайт для детского лагеря" data-goal="Разработка продающего решения для детского лагеря">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/content/dev/logo5.jpg" data-desc="Сайт для детского лагеря" data-goal="Разработка продающего решения для детского лагеря">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/dev5.jpg"></div>
                                         </div>
@@ -464,10 +464,10 @@
                 <div class="bottom">
                     <div class="container2">
                         <div class="bottom__rev">
-                            <? include '/pages/blocks/bottom/rev.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/rev.php'?>
                         </div>
                         <div class="bottom__send">
-                            <? include '/pages/blocks/bottom/send.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
                         </div>
                         <div class="bottom__why">
                             <div class="why">
@@ -520,7 +520,7 @@
                             </div>
                         </div>
                         <div class="bottom__footer">
-                            <? include '/pages/blocks/bottom/footer.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
                         </div>
                     </div>
                 </div>
@@ -530,4 +530,4 @@
 </main>
 <!-- END main -->
 
-<? include 'pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>
