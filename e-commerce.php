@@ -74,7 +74,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="site-dev__works"><a class="site-dev__works-link" href="./theme.php">
+                        <div class="site-dev__works"><a class="site-dev__works-link" href="./portfolio.php">
                                 <div class="btn">
                                     <div class="btn__title">Все работы</div>
                                     <div class="btn__lines">
