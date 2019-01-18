@@ -1,5 +1,5 @@
 <aside class="aside">
-    <a class="aside__logo" href="./">
+    <a class="aside__logo" href="/">
         <div class="logo">
             <img class="logo__img" src="/images/bg/logo.png" title="Web-comp">
         </div>
