@@ -1,0 +1,39 @@
+.forbidden {
+  height: 100%;
+  background-image: url(/images/bg/404.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container2 {
+    height: 100%;
+  }
+
+
+
+  &__wrapper {
+    padding-top: 106px;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    opacity: 0.8;
+    font-size: 182px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: vh(30);
+  }
+
+  &__subtitle {
+    color: #a4a4a4;
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 49px;
+    text-align: center;
+    margin-bottom: vh(80);
+  }
+}
