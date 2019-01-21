@@ -146,7 +146,8 @@ function throttleScroll(e) {
 
 document.addEventListener("DOMContentLoaded", scrolling, false);
 
-let numberAll = document.querySelectorAll('.number');
+let numberAll = document.querySelectorAll('.number'),
+    numbers = document.querySelector('.numbers');
 
 if (numberAll) {
 
@@ -156,7 +157,11 @@ if (numberAll) {
             let number = numberAll[i],
                 val = number.querySelector('.number__val'),
                 from = parseInt(val.dataset.from),
-                to = parseInt(val.dataset.to);
+                to = parseInt(val.dataset.to),
+                time = 2000;
+            if (numbers) {
+                time = numbers.dataset.timer;
+            }
 
             if (number.classList.contains('active')) {
                 continue;
@@ -164,7 +169,7 @@ if (numberAll) {
 
             if (isFullyVisible(number)) {
                 number.classList.add('active');
-                counting(val, from, to, 2000);
+                counting(val, from, to, time);
             }
         }
 

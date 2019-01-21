@@ -52,4 +52,22 @@
         }
     }
 
+    let blacksmithButtons = document.querySelectorAll('.blacksmith__button'),
+        projectImage = document.querySelector('.port-proj__img-img');
+
+    if (blacksmithButtons) {
+        for (let i = 0; i < blacksmithButtons.length; i++) {
+            blacksmithButtons[i].addEventListener('click', function (e) {
+                let src = this.dataset.src;
+
+                for (let j=0; j<blacksmithButtons.length; j++) {
+                    blacksmithButtons[j].classList.remove('active');
+                }
+
+                projectImage.src = src;
+                this.classList.add('active');
+            });
+        }
+    }
+
 }());
