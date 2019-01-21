@@ -9,15 +9,15 @@
                 <div class="container">
                     <div class="site-first__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item active">Корпоративный сайт</a>
                         </div>
                     </div>
-                    <div class="site-first__title">Сделаем продающий корпоративный сайт<br>за 50 000 Р всего за 1 месяц</div>
+                    <div class="site-first__title">Сделаем продающий корпоративный сайт<br>за 79 920 Р всего за 1 месяц</div>
                     <div class="site-first__subtitle">Комплексный подход к проектированию прототипов<br>и программной разработке</div>
                     <button class="site-first__button callorderOpen" type="submit">
                         <div class="btn3">
-                            <div class="btn3__title">Узнать стоимость продвижения</div>
+                            <div class="btn3__title">Обсудить условия</div>
                             <div class="btn3__lines">
                                 <div class="btn3__line-topRight"></div>
                                 <div class="btn3__line-right"></div>
@@ -42,7 +42,7 @@
                             <div class="site-dev__swiper-wrap">
                                 <div class="swiper-container site-dev__container">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide site-dev__slide" data-logo="/images/bg/no-logo.png" data-desc="Создание корпоративного сайта для мед. центра" data-goal="Разработать удобный сайт для презентации медицинских услуг">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/content/dev/corp/logo1.png" data-desc="Создание корпоративного сайта для мед. центра" data-goal="Разработать удобный сайт для презентации медицинских услуг">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/corp/img1.jpg"></div>
                                         </div>
@@ -50,7 +50,7 @@
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/corp/img2.jpg"></div>
                                         </div>
-                                        <div class="swiper-slide site-dev__slide" data-logo="/images/bg/no-logo.png" data-desc="Корпоративный сайт строительной компании" data-goal="Разработать продающее решение по строительству домов под ключ">
+                                        <div class="swiper-slide site-dev__slide" data-logo="/images/content/dev/corp/logo3.png" data-desc="Корпоративный сайт строительной компании" data-goal="Разработать продающее решение по строительству домов под ключ">
                                             <div class="proportion proportion_750x470"></div>
                                             <div class="site-dev__slide-img"><img class="site-dev__slide-pic" src="/images/content/dev/corp/img3.jpg"></div>
                                         </div>
@@ -88,7 +88,7 @@
                                         <div class="btn__line-left"></div>
                                     </div>
                                 </div></a></div>
-                        <div class="site-dev__title">Как мы разрабатываем сайты</div>
+                        <div class="site-dev__title">Создание корпоративног осайта включает</div>
                         <div class="site-dev__chart">
                             <!--img(src='images/content/dev/devChart.png').site-dev__chart-img-->
                             <div class="site-dev__list">
@@ -192,6 +192,96 @@
                                 </div>
                             </div>
                         </div>
+                        <section class="theme-price">
+                            <h1 class="theme-price__title">Стоимость создания корпоративного сайта</h1>
+                            <div class="theme-price__switches">
+                                <div class="theme-price__switches-list">
+                                    <button class="active theme-price__switch" data-id="1"><span class="theme-price__switch-title">Корпоративный сайт</span></button>
+                                </div>
+                                <div class="theme-price__line">
+                                    <div class="theme-price__subline"></div>
+                                </div>
+                            </div>
+                            <div class="theme-price__tabs">
+                                <div class="active theme-price__tab" data-id="1">
+                                    <div class="theme-price__list">
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-title">Креативный сайт</div>
+                                                <div class="theme-price__item-price">10 000 Р / 7 дней</div>
+                                                <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-title">Типовой сайт</div>
+                                                <div class="theme-price__item-price">7 000 Р / 2 дней</div>
+                                                <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
+                                            </div>
+                                        </div>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">5 000 Р / 7 дней</div>
+                                                <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">5 000 Р / 7 дней</div>
+                                                <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
+                                            </div>
+                                        </div>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">4 000 Р / 10 дней</div>
+                                                <div class="theme-price__item-text">Верстка страниц — 10</div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">3 000 Р / 5 дней</div>
+                                                <div class="theme-price__item-text">Верстка страниц — 6</div>
+                                            </div>
+                                        </div>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">4 000 Р / 7 дней</div>
+                                                <div class="theme-price__item-text">Програмная часть страниц — 10</div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">4 000 Р / 5 дней</div>
+                                                <div class="theme-price__item-text">Програмная часть страниц — 6</div>
+                                            </div>
+                                        </div>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">+</div>
+                                                <div class="theme-price__item-list">
+                                                    <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
+                                                    <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                                    <div class="theme-price__item-li">Написание подробного тех.задания — <b>5 000 Р</b></div>
+                                                    <div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
+                                                    <div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b></div>
+                                                </div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">+</div>
+                                                <div class="theme-price__item-list">
+                                                    <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
+                                                    <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                                    <div class="theme-price__item-li">Написание подробного тех.задания — <b>2 000 Р</b></div>
+                                                    <div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
+                                                    <div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__price">163 500 Р</div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__price">79 500 Р</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="theme-price__button button button_red callorderOpen" type="button">Получить индивидуальный расчет</button>
+                                </div>
+                            </div>
+                        </section>
                         <div class="site__banner">
                             <div class="banner">
                                 <div class="banner__left">
@@ -210,8 +300,8 @@
                         <div class="site-team__text">Специалист по SEO более 10 лет. Более 50 успешных проектов</div><img class="site-team__img" src="/images/content/team.png">
                     </div>
                     <div class="site-cost">
-                        <div class="site-cost__title">Сколько стоит ваш сайт</div>
-                        <div class="site-cost__sub">Заполнение брифа онлайн для расчёта точной стоимости<br>или загрузите свое ТЗ для оценки</div>
+                        <div class="site-cost__title">Сколько стоит корпоративный сайт</div>
+                        <div class="site-cost__sub">Заполнение брифа онлайн для расчёта стоимости корпоративного сайта<br>или загрузите свое ТЗ для оценки</div>
                         <form class="form site-cost__form site-cost__tabs" action="#" method="post">
                             <div class="site-cost__tab active" data-id="1">
                                 <div class="form__wrapper">
@@ -238,25 +328,32 @@
                                         <div class="form__field">
                                             <select class="select" name="siteType">
                                                 <option value="">Тип сайта</option>
-                                                <option>Вариант 1</option>
-                                                <option>Вариант 2</option>
-                                                <option>Вариант 3</option>
+                                                <option>Промо-сайт</option>
+                                                <option>Корпоративный сайт</option>
+												<option>Интернет-магазин</option>
+                                                <option>Лендинг</option>
+												<option>Нужна ваша консультация</option>
                                             </select>
                                         </div>
                                         <div class="form__field">
                                             <select class="select" name="endTime">
-                                                <option value="">Срок сдачи</option>
-                                                <option>Вариант 1</option>
-                                                <option>Вариант 2</option>
-                                                <option>Вариант 3</option>
+                                                <option value="">Время на разработку</option>
+                                                <option>До 2х недель</option>
+                                                <option>1 месяц</option>
+                                                <option>2 месяца</option>
+												<option>3 месяца</option>
+												<option>6 месяцев</option>
+												<option>Есть время творить</option>
                                             </select>
                                         </div>
                                         <div class="form__field">
                                             <select class="select" name="buisinessArea">
-                                                <option value="">Сфера деятельности</option>
-                                                <option>Вариант 1</option>
-                                                <option>Вариант 2</option>
-                                                <option>Вариант 3</option>
+                                                <option value="">Вид деятельности</option>
+                                                <option>Оказание услуги</option>
+                                                <option>Торговля</option>
+                                                <option>Производство</option>
+												<option>Консультирование</option>
+												<option>СМИ</option>
                                             </select>
                                         </div>
                                     </div>
@@ -356,8 +453,8 @@
                                     <div class="form__row">
                                         <div class="form__field">
                                             <select class="select" name="logo">
-                                                <option value="">Разработка лого</option>
-                                                <option>Есть фирменный стиль</option>
+                                                <option value="">Разработка логотипа</option>
+                                                <option>Есть логотип</option>
                                                 <option>Нужно разработать</option>
                                             </select>
                                         </div>
@@ -367,8 +464,8 @@
                                         <div class="form__field">
                                             <select class="select" name="dopDesign">
                                                 <option value="">Дизайн доп. материалов к сайту</option>
-                                                <option>Да</option>
-                                                <option>Нет</option>
+                                                <option>Предоставим</option>
+                                                <option>Отсутствуют</option>
                                             </select>
                                         </div>
                                     </div>
@@ -428,13 +525,13 @@
                                     </div>
                                     <div class="form__row">
                                         <div class="form__field">
-                                            <input class="input" type="file" name="files" placeholder="Доп файлы">
+                                            <input class="input" type="file" name="files" placeholder="Подробное задание">
                                         </div>
                                         <div class="form__field">
-                                            <input class="input" type="text" name="goodSites" placeholder="Список сайтов которые нравятся">
+                                            <input class="input" type="text" name="goodSites" placeholder="Сайты, которые вам нравятся">
                                         </div>
                                         <div class="form__field">
-                                            <input class="input" type="text" name="badSites" placeholder="Список сайтов которые не нравятся">
+                                            <input class="input" type="text" name="badSites" placeholder="Сайты, которые вам не нравятся">
                                         </div>
                                     </div>
                                     <div class="form__row">
@@ -474,7 +571,7 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Создание сайта</div>
+                                <div class="why__title">Создание корпоративного сайта</div>
                                 <div class="why__content">
                                     <p>
                                         Корпоративные ресурсы выполняют множество функций сразу; в современном мире они —главная
