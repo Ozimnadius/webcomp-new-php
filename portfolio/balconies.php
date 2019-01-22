@@ -5,7 +5,15 @@
     <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/aside.php' ?>
     <main class="main">
         <div class="port balconies">
-            <section class="port-lap" style="background-image: url(/images/content/portfolio/project2/bg.jpg)">
+            <section class="port-lap">
+
+                <div class="port-lap__bgvideo">
+                    <video autoplay loop class="port-lap__bgvideo-video" src="/images/content/portfolio/project4/videoplayback.mp4" poster="/images/content/portfolio/project4/bg.jpg">
+                        <source src="/images/content/portfolio/project4/videoplayback.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
@@ -14,6 +22,7 @@
                             <a class="bread__item active">Балконы</a>
                         </div>
                     </div>
+
                     <div class="port-lap__wrapper">
                         <div class="proportion proportion_1214x685"></div>
                         <div class="port-lap__wrap">
@@ -31,6 +40,9 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="port-lap__bottom"></div>
+
                 </div>
             </section>
             <div class="container3">

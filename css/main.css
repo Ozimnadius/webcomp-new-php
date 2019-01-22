@@ -643,6 +643,8 @@ input, textarea, select {
   width: 100%; }
   .proportion_1x1 {
     padding-top: calc((1 / 1) * 100%); }
+  .proportion_16x9 {
+    padding-top: calc((9 / 16) * 100%); }
   .proportion_1006x591 {
     padding-top: calc((591 / 1006) * 100%); }
   .proportion_1214x685 {
@@ -5756,8 +5758,21 @@ input, textarea, select {
   .port-lap {
     background-size: cover;
     background-position: 0 0;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10; }
+    .port-lap__bgvideo {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden; }
+      .port-lap__bgvideo-video {
+        width: 100%; }
     .port-lap .container3 {
+      position: relative;
+      z-index: 20;
       padding: 0 175px;
       padding-top: 250px;
       display: -webkit-box;
@@ -5770,10 +5785,18 @@ input, textarea, select {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
+    .port-lap__bottom {
+      position: absolute;
+      z-index: 10;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100px; }
     .port-lap__bread {
       margin-bottom: 40px; }
     .port-lap__wrapper {
       position: relative;
+      z-index: 20;
       width: 100%; }
     .port-lap__wrap {
       background-image: url(../images/bg/laptop.png);
@@ -6260,6 +6283,9 @@ input, textarea, select {
     text-decoration: underline;
     color: #fbfbfb; }
 
+.blacksmith .port-lap__bottom {
+  background: #121212; }
+
 .blacksmith .port-desc {
   padding-top: 165px;
   margin-top: -80px; }
@@ -6324,6 +6350,9 @@ input, textarea, select {
   background-size: 100% auto;
   background-position: 0 bottom; }
 
+.akademi .port-lap__bottom {
+  background: #353535; }
+
 .akademi .port-desc {
   padding-top: 165px;
   margin-top: -80px;
@@ -6367,9 +6396,12 @@ input, textarea, select {
   background-size: 100% auto;
   background-position: 0 bottom; }
 
+.balconies .port-lap__bottom {
+  background: #26283d; }
+
 .balconies .port-desc {
   padding-top: 165px;
-  margin-top: -80px;
+  margin-top: 0;
   background: #26283d; }
 
 .balconies .port-slider {
