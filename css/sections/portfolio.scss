@@ -3,6 +3,9 @@
   background-size: cover;
 
   &-lap {
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
 
     .container3 {
       padding: 0 175px;
@@ -608,32 +611,30 @@
 
       &__block {
         &:nth-child(1) {
-          padding: 0 0 90px 90px;
+          padding: 0 15px 90px 90px;
           background: #050a15;
         }
         &:nth-child(2){
-          padding: 130px 60px 155px 100px;
+          padding: 100px 15px 153px 100px;
         }
         &:nth-child(3){
           background: linear-gradient(to left, #ec7d41 0%, #ec3c3e 100%);
-          padding: 130px 60px;
-          padding-bottom: 135px;
+          padding: 115px 15px 120px 60px;
         }
         &:nth-child(4){
-          padding-bottom: 738px;
+          padding-bottom: 737px;
         }
         &:nth-child(5){
           background: linear-gradient(to left, #ec7d41 0%, #ec3c3e 100%);
-          padding: 110px 60px;
+          padding: 176px 15px 110px 60px;
           padding-top: 176px;
         }
         &:nth-child(6){
-          padding-bottom: 789px;
+          padding-bottom: 791px;
         }
         &:nth-child(7){
           background: linear-gradient(to left, #ec7d41 0%, #ec3c3e 100%);
-          padding: 170px 60px;
-          padding-bottom: 186px;
+          padding: 170px 15px 154px 60px;
         }
         &:nth-child(8) {
           padding-bottom: 286px;
@@ -669,5 +670,139 @@
         font-size: 80px;
       }
     }
+  }
+}
+
+.akademi {
+  .port {
+
+    &-desc {
+      padding-top: 165px;
+      margin-top: -80px;
+      background: #353535;
+    }
+
+    &-slider {
+      background: $text;
+
+      &__bottom {
+        background: #353535;
+      }
+
+    }
+
+    &-icons {
+      background: #353535;
+      color: $text;
+      padding: 80px 110px;
+      padding-right: 0;
+    }
+
+    &-proj {
+      background: $text;
+      padding-bottom: 180px;
+
+      &__left {
+        z-index: 10;
+      }
+
+      &__block {
+        &:nth-child(1) {
+          background: #353535;
+          padding: 0 15px 90px 90px;
+        }
+        &:nth-child(2){
+          padding: 70px 0 160px 100px;
+        }
+      }
+
+      &__item {
+        &:nth-child(1) {
+          margin-bottom: 750px;
+        }
+        &:nth-child(2){
+          margin-bottom: 850px;
+        }
+        &:nth-child(3){
+          margin-bottom: 1050px;
+        }
+      }
+    }
+
+    &-team {
+      background: $text;
+    }
+
+    &-adapt {
+
+      &__title {
+        padding: 250px 15px 170px 35px;
+        font-size: 80px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      &__top {
+        padding: 0 170px;
+      }
+
+      &__list {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+      }
+
+      &__item {
+        &-img {
+          margin-bottom: 30px;
+        }
+
+        &-desc {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+        }
+
+        &-title {
+          font-size: 30px;
+          font-weight: 300;
+        }
+
+        &-px {
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
+
+      &__middle {
+        background: #353535;
+        padding: 680px 170px 210px 170px;
+        margin-top: -520px;
+
+
+        color: rgba($text,.8);
+        font-size: 33px;
+        font-weight: 100;
+        line-height: 48.56px;
+        text-align: center;
+      }
+
+      &__bottom {
+        padding: 270px 150px;
+        background: $text;
+      }
+
+      &__proj{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+    }
+
+    &-team {
+      padding-top: 0;
+    }
+
   }
 }

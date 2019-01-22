@@ -5753,83 +5753,87 @@ input, textarea, select {
 .port {
   background: url("../images/bg/promoteBg.jpg") 0 0 no-repeat;
   background-size: cover; }
-  .port-lap .container3 {
-    padding: 0 175px;
-    padding-top: 250px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .port-lap__bread {
-    margin-bottom: 40px; }
-  .port-lap__wrapper {
-    position: relative;
-    width: 100%; }
-  .port-lap__wrap {
-    background-image: url(../images/bg/laptop.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
+  .port-lap {
     background-size: cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0; }
-  .port-lap__container {
-    position: absolute;
-    top: 2.5%;
-    left: 11%;
-    right: 11%; }
-  .port-lap__drug {
-    width: 60px;
-    position: absolute;
-    right: -30px;
-    top: 0;
-    bottom: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    cursor: pointer;
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s;
-    background: url("../images/bg/beforeAfterRound.png") center center no-repeat; }
-  .port-lap__before, .port-lap__after {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; }
-  .port-lap__before {
-    z-index: 20;
-    right: 50%;
-    text-align: left;
-    border-right: 1px dashed #c70541; }
-    .port-lap__before-wrap {
-      overflow: hidden;
-      width: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat; }
+    .port-lap .container3 {
+      padding: 0 175px;
+      padding-top: 250px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .port-lap__bread {
+      margin-bottom: 40px; }
+    .port-lap__wrapper {
+      position: relative;
+      width: 100%; }
+    .port-lap__wrap {
+      background-image: url(../images/bg/laptop.png);
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+    .port-lap__container {
+      position: absolute;
+      top: 2.5%;
+      left: 11%;
+      right: 11%; }
+    .port-lap__drug {
+      width: 60px;
+      position: absolute;
+      right: -30px;
+      top: 0;
+      bottom: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      cursor: pointer;
+      -webkit-transition: .4s;
+      -o-transition: .4s;
+      transition: .4s;
+      background: url("../images/bg/beforeAfterRound.png") center center no-repeat; }
+    .port-lap__before, .port-lap__after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .port-lap__before {
+      z-index: 20;
+      right: 50%;
+      text-align: left;
+      border-right: 1px dashed #c70541; }
+      .port-lap__before-wrap {
+        overflow: hidden;
+        width: 100%;
+        height: 100%; }
+    .port-lap__after {
+      z-index: 10;
+      text-align: right;
+      overflow: hidden; }
+    .port-lap__img {
+      width: auto;
+      max-width: initial;
       height: 100%; }
-  .port-lap__after {
-    z-index: 10;
-    text-align: right;
-    overflow: hidden; }
-  .port-lap__img {
-    width: auto;
-    max-width: initial;
-    height: 100%; }
   .port-desc {
     margin-top: -175px;
     padding: 0 180px;
@@ -6210,35 +6214,33 @@ input, textarea, select {
   .blacksmith .port-proj__left {
     z-index: 10; }
   .blacksmith .port-proj__block:nth-child(1) {
-    padding: 0 0 90px 90px;
+    padding: 0 15px 90px 90px;
     background: #050a15; }
   .blacksmith .port-proj__block:nth-child(2) {
-    padding: 130px 60px 155px 100px; }
+    padding: 100px 15px 153px 100px; }
   .blacksmith .port-proj__block:nth-child(3) {
     background: -webkit-gradient(linear, right top, left top, from(#ec7d41), to(#ec3c3e));
     background: -webkit-linear-gradient(right, #ec7d41 0%, #ec3c3e 100%);
     background: -o-linear-gradient(right, #ec7d41 0%, #ec3c3e 100%);
     background: linear-gradient(to left, #ec7d41 0%, #ec3c3e 100%);
-    padding: 130px 60px;
-    padding-bottom: 135px; }
+    padding: 115px 15px 120px 60px; }
   .blacksmith .port-proj__block:nth-child(4) {
-    padding-bottom: 738px; }
+    padding-bottom: 737px; }
   .blacksmith .port-proj__block:nth-child(5) {
     background: -webkit-gradient(linear, right top, left top, from(#ec7d41), to(#ec3c3e));
     background: -webkit-linear-gradient(right, #ec7d41 0%, #ec3c3e 100%);
     background: -o-linear-gradient(right, #ec7d41 0%, #ec3c3e 100%);
     background: linear-gradient(to left, #ec7d41 0%, #ec3c3e 100%);
-    padding: 110px 60px;
+    padding: 176px 15px 110px 60px;
     padding-top: 176px; }
   .blacksmith .port-proj__block:nth-child(6) {
-    padding-bottom: 789px; }
+    padding-bottom: 791px; }
   .blacksmith .port-proj__block:nth-child(7) {
     background: -webkit-gradient(linear, right top, left top, from(#ec7d41), to(#ec3c3e));
     background: -webkit-linear-gradient(right, #ec7d41 0%, #ec3c3e 100%);
     background: -o-linear-gradient(right, #ec7d41 0%, #ec3c3e 100%);
     background: linear-gradient(to left, #ec7d41 0%, #ec3c3e 100%);
-    padding: 170px 60px;
-    padding-bottom: 186px; }
+    padding: 170px 15px 154px 60px; }
   .blacksmith .port-proj__block:nth-child(8) {
     padding-bottom: 286px; }
   .blacksmith .port-proj__title {
@@ -6259,6 +6261,112 @@ input, textarea, select {
   padding-top: 40px; }
   .blacksmith .port-team__title {
     font-size: 80px; }
+
+.akademi .port-desc {
+  padding-top: 165px;
+  margin-top: -80px;
+  background: #353535; }
+
+.akademi .port-slider {
+  background: #ffffff; }
+  .akademi .port-slider__bottom {
+    background: #353535; }
+
+.akademi .port-icons {
+  background: #353535;
+  color: #ffffff;
+  padding: 80px 110px;
+  padding-right: 0; }
+
+.akademi .port-proj {
+  background: #ffffff;
+  padding-bottom: 180px; }
+  .akademi .port-proj__left {
+    z-index: 10; }
+  .akademi .port-proj__block:nth-child(1) {
+    background: #353535;
+    padding: 0 15px 90px 90px; }
+  .akademi .port-proj__block:nth-child(2) {
+    padding: 70px 0 160px 100px; }
+  .akademi .port-proj__item:nth-child(1) {
+    margin-bottom: 750px; }
+  .akademi .port-proj__item:nth-child(2) {
+    margin-bottom: 850px; }
+  .akademi .port-proj__item:nth-child(3) {
+    margin-bottom: 1050px; }
+
+.akademi .port-team {
+  background: #ffffff; }
+
+.akademi .port-adapt__title {
+  padding: 250px 15px 170px 35px;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.akademi .port-adapt__top {
+  padding: 0 170px; }
+
+.akademi .port-adapt__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.akademi .port-adapt__item-img {
+  margin-bottom: 30px; }
+
+.akademi .port-adapt__item-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }
+
+.akademi .port-adapt__item-title {
+  font-size: 30px;
+  font-weight: 300; }
+
+.akademi .port-adapt__item-px {
+  font-size: 20px;
+  font-weight: 300; }
+
+.akademi .port-adapt__middle {
+  background: #353535;
+  padding: 680px 170px 210px 170px;
+  margin-top: -520px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 33px;
+  font-weight: 100;
+  line-height: 48.56px;
+  text-align: center; }
+
+.akademi .port-adapt__bottom {
+  padding: 270px 150px;
+  background: #ffffff; }
+
+.akademi .port-adapt__proj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.akademi .port-team {
+  padding-top: 0; }
 
 /*-----------------SECTION-HOSTING--------------------*/
 .host {

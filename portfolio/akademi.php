@@ -4,14 +4,14 @@
 <main class="page page_second">
     <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/aside.php' ?>
     <main class="main">
-        <div class="port blacksmith">
-            <section class="port-lap" style="background-image: url(/images/content/portfolio/project2/bg.jpg);">
+        <div class="port akademi">
+            <section class="port-lap" style="background-image: url(/images/content/portfolio/project2/bg.jpg)">
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
                             <a class="bread__item" href="/">Главная</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
-                            <a class="bread__item active">Кузнец</a>
+                            <a class="bread__item active">Akademigroup</a>
                         </div>
                     </div>
                     <div class="port-lap__wrapper">
@@ -22,11 +22,11 @@
                                 <div class="port-lap__before">
                                     <div class="port-lap__drug draggable"></div>
                                     <div class="port-lap__before-wrap"><img class="port-lap__img"
-                                                                            src="/images/content/portfolio/project2/before.jpg">
+                                                                            src="/images/content/portfolio/project3/before.jpg">
                                     </div>
                                 </div>
                                 <div class="port-lap__after"><img class="port-lap__img"
-                                                                  src="/images/content/portfolio/project2/after.jpg">
+                                                                  src="/images/content/portfolio/project3/after.jpg">
                                 </div>
                             </div>
                         </div>
@@ -35,22 +35,23 @@
             </section>
             <div class="container3">
                 <!-- desc -->
-                <section class="port-desc" style="background: #121212;">
+                <div class="port-desc">
                     <!-- logo -->
                     <div class="port-desc__logo">
-                        <img class="port-desc__logo-img" src="/images/content/portfolio/project2/logo.png"></div>
+                        <img class="port-desc__logo-img" src="/images/content/portfolio/project3/logo.png"></div>
                     <!-- END logo -->
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка главной страницы сайта по продаже и установке кухонной гарнируты
+                        Разработка Лендинга с уникальным дизайном, с адаптивной версией для корректного отображения на
+                        всех устройствах
                     </div>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Дизайн был предоставлен в двух вариантах <br>
-                        <i style="font-weight: 600;">тёмном и светлом</i>
+                        Широкопрофильный поставщик IT оборудования, оргтехники, расходных материалов, бытовой техники и
+                        канцелярских товаров.
                     </div>
                     <!-- END subtitle -->
 
@@ -67,7 +68,7 @@
                         </div>
                         <div class="port-desc__item number">
                             <div class="port-desc__item-title">
-                                <span class="number__val port-desc__item-val" data-from="0" data-to="2">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="3">
                                     0
                                 </span>
                             </div>
@@ -75,15 +76,15 @@
                         </div>
                         <div class="port-desc__item number">
                             <div class="port-desc__item-title">
-                                <span class="number__val port-desc__item-val" data-from="0" data-to="1">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="2">
                                     0
                                 </span>
                             </div>
-                            <div class="port-desc__item-text">адаптивная стр.</div>
+                            <div class="port-desc__item-text">адаптивных стр.</div>
                         </div>
                         <div class="port-desc__item number">
                             <div class="port-desc__item-title">
-                                <span class="number__val port-desc__item-val" data-from="0" data-to="8">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="14">
                                     0
                                 </span>
                                 <span class="port-desc__item-type"> дней</span>
@@ -93,11 +94,11 @@
                     </div>
                     <!-- END numbers -->
 
-                </section>
+                </div>
                 <!-- END desc -->
 
                 <!-- slider -->
-                <section class="port-slider" style="background: #ffffff;">
+                <div class="port-slider">
 
                     <!-- top -->
                     <div class="port-slider__top">
@@ -128,22 +129,22 @@
                         <div class="swiper-container port-slider__container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide port-slider__slide">
-                                    <img class="port-slider__img" src="/images/content/portfolio/project2/slide1.jpg">
+                                    <img class="port-slider__img" src="/images/content/portfolio/project3/slide1.jpg">
                                 </div>
                                 <div class="swiper-slide port-slider__slide">
-                                    <img class="port-slider__img" src="/images/content/portfolio/project2/slide2.jpg">
+                                    <img class="port-slider__img" src="/images/content/portfolio/project3/slide2.jpg">
                                 </div>
                                 <div class="swiper-slide port-slider__slide">
-                                    <img class="port-slider__img" src="/images/content/portfolio/project2/slide1.jpg">
+                                    <img class="port-slider__img" src="/images/content/portfolio/project3/slide1.jpg">
                                 </div>
                                 <div class="swiper-slide port-slider__slide">
-                                    <img class="port-slider__img" src="/images/content/portfolio/project2/slide2.jpg">
+                                    <img class="port-slider__img" src="/images/content/portfolio/project3/slide2.jpg">
                                 </div>
                                 <div class="swiper-slide port-slider__slide">
-                                    <img class="port-slider__img" src="/images/content/portfolio/project2/slide1.jpg">
+                                    <img class="port-slider__img" src="/images/content/portfolio/project3/slide1.jpg">
                                 </div>
                                 <div class="swiper-slide port-slider__slide">
-                                    <img class="port-slider__img" src="/images/content/portfolio/project2/slide2.jpg">
+                                    <img class="port-slider__img" src="/images/content/portfolio/project3/slide2.jpg">
                                 </div>
 
                             </div>
@@ -152,28 +153,28 @@
                     <!-- END slider -->
 
                     <!-- bottom -->
-                    <div class="port-slider__bottom" style="background: #050a15;"></div>
+                    <div class="port-slider__bottom"></div>
                     <!-- END bottom -->
 
-                </section>
+                </div>
                 <!-- END slider -->
 
                 <!-- icons -->
-                <section class="port-icons" style="background: #050a15;">
-                    <div class="port-icons__title" style="color: #ec423e;">Иконки</div>
+                <div class="port-icons">
+                    <div class="port-icons__title">Иконки</div>
                     <div class="port-icons__icons">
-                        <img class="port-icons__img" src="/images/content/portfolio/project2/icons.png">
+                        <img class="port-icons__img" src="/images/content/portfolio/project3/icons.png">
                     </div>
-                </section>
+                </div>
                 <!-- END icons -->
 
                 <!-- project -->
-                <section class="port-proj">
+                <div class="port-proj">
 
                     <!-- left -->
                     <div class="port-proj__left">
                         <div class="port-proj__img">
-                            <img class="port-proj__img-img" src="/images/content/portfolio/project2/project.jpg">
+                            <img class="port-proj__img-img" src="/images/content/portfolio/project3/project.jpg">
                         </div>
                     </div>
                     <!-- END left -->
@@ -189,17 +190,6 @@
                                 СТРАНИЦА
                             </div>
                             <!-- END title -->
-
-                            <!-- subtitle -->
-                            <div class="blacksmith__buttons">
-                                <button type="button" class="blacksmith__button active"
-                                        data-src="/images/content/portfolio/project2/project.jpg">темный
-                                </button>
-                                <button type="button" class="blacksmith__button"
-                                        data-src="/images/content/portfolio/project2/project2.jpg">светлый
-                                </button>
-                            </div>
-                            <!-- END subtitle -->
                         </div>
                         <!-- END block 1-->
 
@@ -216,11 +206,32 @@
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">КАТЕГОРИ КУХОНЬ
+                                    <div class="port-proj__item-title">виды услуг
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобная и продуманнная карточка <br> услуг с учетом запросов пользователя
+                                        Улсуги отображены красивыми, <br>
+                                        передающими смысл иконками
+                                    </div>
+                                </div>
+                                <div class="port-proj__item">
+                                    <div class="port-proj__item-title">форма захвата
+                                        <div class="port-proj__item-line"></div>
+                                    </div>
+                                    <div class="port-proj__item-desc">
+                                        Список перспектив сотрудничества <br>
+                                        оформлен иконками, для лучшего <br>
+                                        восприятия, что повлечет за собой <br>
+                                        призыв к действию по кнопке
+                                    </div>
+                                </div>
+                                <div class="port-proj__item">
+                                    <div class="port-proj__item-title">футер
+                                        <div class="port-proj__item-line"></div>
+                                    </div>
+                                    <div class="port-proj__item-desc">
+                                        Адрес и контакты организации с формой <br>
+                                        обратной связи
                                     </div>
                                 </div>
                             </div>
@@ -228,81 +239,90 @@
                         </div>
                         <!-- END block 2 -->
 
-                        <!-- block 3 -->
-                        <div class="port-proj__block">
-                            <!-- recom -->
-                            <div class="port-proj__recom">
-                                <div class="port-proj__recom-title">фильтр для подбора <br> кухни
-                                    <div class="port-proj__recom-line"></div>
-                                </div>
-                                <div class="port-proj__recom-desc">
-                                    Реализован удобный функционал <br>
-                                    для подбора нужной формы, цвета <br>
-                                    материала и цвета кухни на любой вкус
-                                </div>
-                            </div>
-                            <!-- END recom -->
-                        </div>
-                        <!-- END block 3 -->
-
-                        <!-- block 4 -->
-                        <div class="port-proj__block"></div>
-                        <!-- END block 4 -->
-
-                        <!-- block 5 -->
-                        <div class="port-proj__block">
-                            <!-- recom -->
-                            <div class="port-proj__recom">
-                                <div class="port-proj__recom-title">онлайн подбор
-                                    <div class="port-proj__recom-line"></div>
-                                </div>
-                                <div class="port-proj__recom-desc">
-                                    Можно ознакомится с видами покрытий <br>
-                                    кухоной гарнитуры, и добавить к заказу <br>
-                                    понравившийся вариант
-                                </div>
-                            </div>
-                            <!-- END recom -->
-                        </div>
-                        <!-- END block 5 -->
-
-                        <!-- block 6 -->
-                        <div class="port-proj__block"></div>
-                        <!-- END block 6 -->
-
-                        <!-- block 7 -->
-                        <div class="port-proj__block">
-                            <!-- recom -->
-                            <div class="port-proj__recom">
-                                <div class="port-proj__recom-title">ПРОЦЕСС РАБОТЫ
-                                    <div class="port-proj__recom-line"></div>
-                                </div>
-                                <div class="port-proj__recom-desc">
-                                    Пошаговая инструкция процесса <br>
-                                    работы. Были разработаны уникальные <br>
-                                    3D иконки
-                                </div>
-                            </div>
-                            <!-- END recom -->
-                        </div>
-                        <!-- END block 7 -->
-
-                        <!-- block 8 -->
-                        <div class="port-proj__block"></div>
-                        <!-- END block 8 -->
-
-
                     </div>
                     <!-- END right -->
 
-                </section>
+                </div>
                 <!-- END project -->
 
+                <!-- adapt -->
+                <div class="port-adapt">
+
+                    <!-- title -->
+                    <div class="port-adapt__title">
+                        Адаптивная версия
+                    </div>
+                    <!-- END title -->
+
+                    <!-- top -->
+                    <div class="port-adapt__top">
+
+                        <!-- list -->
+                        <div class="port-adapt__list">
+                            <div class="port-adapt__item">
+                                <!-- img -->
+                                <div class="port-adapt__item-img">
+                                    <img src="/images/content/portfolio/project3/tablet.png" alt=""
+                                         class="port-adapt__item-pic">
+                                </div>
+                                <!-- END img -->
+
+                                <!-- desc -->
+                                <div class="port-adapt__item-desc">
+                                    <div class="port-adapt__item-title">Планшетная</div>
+                                    <div class="port-adapt__item-px">768 px</div>
+                                </div>
+                                <!-- END desc -->
+
+                            </div>
+                            <div class="port-adapt__item">
+                                <!-- img -->
+                                <div class="port-adapt__item-img">
+                                    <img src="/images/content/portfolio/project3/phone.png" alt=""
+                                         class="port-adapt__item-pic">
+                                </div>
+                                <!-- END img -->
+
+                                <!-- desc -->
+                                <div class="port-adapt__item-desc">
+                                    <div class="port-adapt__item-title">Мобильная</div>
+                                    <div class="port-adapt__item-px">320 px</div>
+                                </div>
+                                <!-- END desc -->
+
+                            </div>
+                        </div>
+                        <!-- END  list-->
+
+                    </div>
+                    <!-- END top -->
+
+                    <!-- middle -->
+                    <div class="port-adapt__middle">
+                        Разработана адаптивная верстка для корректного отображения на всех устройствах
+                    </div>
+                    <!-- END middle -->
+
+
+                    <!-- bottom -->
+                    <div class="port-adapt__bottom">
+                        <div class="port-adapt__proj">
+                            <img src="/images/content/portfolio/project3/project-tablet.jpg" alt=""
+                                 class="port-adapt__proj-tab">
+                            <img src="/images/content/portfolio/project3/project-phone.jpg" alt=""
+                                 class="port-adapt__proj-tab">
+                        </div>
+                    </div>
+                    <!-- END bottom -->
+                </div>
+                <!-- END adapt -->
+
                 <!-- team -->
-                <section class="port-team">
+                <div class="port-team">
                     <div class="port-team__title">Команда<br>проекта</div>
-                    <div class="port-team__img"><img class="port-team__img-img"
-                                                     src="/images/content/portfolio/team.png"></div>
+                    <div class="port-team__img">
+                        <img class="port-team__img-img" src="/images/content/portfolio/team.png">
+                    </div>
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
@@ -339,7 +359,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
                 <!-- END team -->
 
             </div>
