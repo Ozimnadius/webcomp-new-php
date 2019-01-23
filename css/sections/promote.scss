@@ -45,7 +45,7 @@
       bottom: 0;
       left: 325px;
       right: 0;
-      background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.5) 20%,rgba(0,0,0,0.5) 100%);
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 100%);
 
       display: none;
       flex-direction: column;
@@ -61,7 +61,7 @@
 
   &-calc {
 
-    &__close{
+    &__close {
       cursor: pointer;
       width: 43px;
       height: 43px;
@@ -81,6 +81,7 @@
         margin-top: -0.5px;
         background: $text;
       }
+
       &:before {
         display: block;
         content: '';
@@ -199,11 +200,60 @@
     }
   }
 
+  &-slider {
+    &__prev, &__next {
+      position: absolute;
+      z-index: 10;
+      width: 280px;
+      top: 90px;
+      //margin-top: -30px;
+      cursor: pointer;
+      outline: none;
+      padding: 25px 0;
+
+      &:hover {
+        .seporator_prev {
+          .seporator__line {
+            background: linear-gradient(to right, rgba($text, 1) 0%, rgba($text, 0) 100%)
+          }
+          .seporator__triangle {
+            border-width: 5.5px 7px 5.5px 0px;
+            border-color: transparent rgba($text, 1) transparent transparent;
+          }
+        }
+
+        .seporator__line {
+          background: linear-gradient(to right, rgba($text, 0) 0%, rgba($text, 1) 100%);
+        }
+        .seporator__triangle {
+          border-color: transparent transparent transparent rgba($text, 1);
+        }
+      }
+
+
+
+    }
+    &__prev {
+      left: 65px;
+    }
+    &__next {
+      right: 65px;
+    }
+  }
+
+  &-slide {
+    overflow: hidden;
+  }
+
   &-result {
     //margin-left: 325px;
     padding-top: 100px;
     background: url(../images/bg/promoteResultBg.jpg) center center no-repeat;
+    background: #353538;
+    background: radial-gradient(ellipse at center, #353538, #050505);
     background-size: cover;
+    position: relative;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -225,7 +275,32 @@
         left: 0;
         right: 0;
         height: 1px;
-        background: linear-gradient(to right, rgba($text,0) 0%,rgba($text,0.2) 30%,rgba($text,0.2) 70%,rgba($text,0) 100%);
+        background: linear-gradient(to right, rgba($text, 0) 0%, rgba($text, 0.2) 30%, rgba($text, 0.2) 70%, rgba($text, 0) 100%);
+      }
+    }
+
+    &__logo {
+      height: 90px;
+      width: 100%;
+
+      padding-bottom: 25px;
+      margin-bottom: 30px;
+      position: relative;
+      text-align: center;
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(to right, rgba($text, 0) 0%, rgba($text, 0.2) 30%, rgba($text, 0.2) 70%, rgba($text, 0) 100%);
+      }
+
+      &-img {
+        max-height: 100%;
       }
     }
 
@@ -262,7 +337,7 @@
       padding-right: 140px;
       padding-top: 50px;
       padding-bottom: 120px;
-      background: url("../images/content/promoteResultImg.png") 0 bottom no-repeat;
+      //background: url("../images/content/promoteResultImg.png") 0 bottom no-repeat;
       background-position: left bottom -3px;
       background-size: cover;
     }
@@ -274,10 +349,12 @@
       margin-right: -25px;
       width: 100%;
       margin-bottom: 100px;
+      position: relative;
+      z-index: 20;
     }
 
     &__item {
-      width: calc(100%/4 - 50px);
+      width: calc(100% / 4 - 50px);
       margin-left: 25px;
       margin-right: 25px;
       display: flex;
@@ -308,7 +385,7 @@
         left: 0;
         right: 0;
         height: 1px;
-        background: linear-gradient(to right, rgba($text,0) 0%,rgba($text,0.2) 20%,rgba($text,0.2) 80%,rgba($text,0) 100%);
+        background: linear-gradient(to right, rgba($text, 0) 0%, rgba($text, 0.2) 20%, rgba($text, 0.2) 80%, rgba($text, 0) 100%);
       }
 
       &-val {
@@ -319,6 +396,7 @@
         transition: .4s;
         //opacity: 0;
       }
+
       &-type {
         font-size: 43px;
         font-weight: 300;
@@ -334,13 +412,67 @@
     &__button {
       width: 266px;
       height: 60px;
-      border: 1px solid rgba($text,.7);
+      border: 1px solid rgba($text, .7);
       color: $text;
       font-family: "Exo 2";
       font-size: 13px;
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 1.67px;
+      position: relative;
+      z-index: 20;
+    }
+
+    &__graph {
+      position: absolute;
+      z-index: 10;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+
+      &-img1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        overflow: hidden;
+
+        &.active {
+          //animation: img1 3s linear 0s infinite;
+          animation-name: img1;
+          animation-duration: 3s;
+          animation-timing-function: linear;
+          animation-delay: 0s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+        }
+
+
+      }
+
+      &-img2 {
+        position: absolute;
+        bottom: -2px;
+        left: 30px;
+        width: 0%;
+        overflow: hidden;
+
+        &.active {
+          //animation: img1 3s linear 0s infinite;
+          animation-name: img1;
+          animation-duration: 2.5s;
+          animation-timing-function: linear;
+          animation-delay: 0.5s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+        }
+      }
+
+      &-pic {
+        display: block;
+        width: auto;
+        max-width: initial;
+      }
     }
 
   }
@@ -393,7 +525,7 @@
       }
 
     }
-    
+
     &__number {
       min-width: 257px;
       width: 257px;
@@ -413,6 +545,7 @@
         font-size: 65px;
         font-weight: 100;
       }
+
       &-img {
         align-self: flex-end;
       }
@@ -496,12 +629,12 @@
     &__svg {
       max-width: 36px;
       max-height: 36px;
-      fill: rgba($bg,.8);
+      fill: rgba($bg, .8);
       transition: .4s;
     }
 
     &__name {
-      color: rgba($bg,.8);
+      color: rgba($bg, .8);
       font-size: 21px;
       line-height: 30px;
       margin-bottom: 25px;
@@ -523,7 +656,7 @@
     }
 
     &__col {
-      color: rgba($bg,.7);
+      color: rgba($bg, .7);
       font-size: 15px;
       line-height: 26.13px;
       width: calc(50% - 80px);
@@ -534,7 +667,7 @@
     &__button {
       width: 196px;
       height: 51px;
-      border: 1px solid rgba($bg,.7);
+      border: 1px solid rgba($bg, .7);
       margin: 0 auto;
 
       display: flex;
@@ -593,8 +726,9 @@
         right: 0;
         top: 34px;
         bottom: 0;
-        background-color: rgba(#b7b7b7,.5);
+        background-color: rgba(#b7b7b7, .5);
       }
+
       &:before {
         content: '';
         display: block;
@@ -611,6 +745,7 @@
         .promote-rec__pic {
           stroke: #c70541;
         }
+
         .promote-rec__name {
           text-decoration: underline;
         }
@@ -656,5 +791,11 @@
   .bottom {
     background: none;
     padding-top: 120px;
+  }
+}
+
+@keyframes img1 {
+  100% {
+    width: 100%;
   }
 }

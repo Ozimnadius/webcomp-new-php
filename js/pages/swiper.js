@@ -47,7 +47,7 @@ window.onload = function () {
 
     });
 
-    function setDevDesc (slide) {
+    function setDevDesc(slide) {
         let logoObj = document.querySelector('.site-dev__img'),
             descObj = document.querySelectorAll('.site-dev__desc-item')[0].querySelector('.site-dev__desc-val'),
             goalObj = document.querySelectorAll('.site-dev__desc-item')[1].querySelector('.site-dev__desc-val'),
@@ -158,5 +158,24 @@ window.onload = function () {
                 percents.innerHTML = Math.round((activeIndex / allSlides) * 100) + ' %';
             }
         },
+    });
+
+    let promoteSwiper = new Swiper('.promote-slider', {
+        // Optional parameters
+        direction: 'horizontal',
+        // Navigation arrows
+        navigation: {
+            nextEl: '.promote-slider__next',
+            prevEl: '.promote-slider__prev',
+        },
+        on: {
+            init: function () {
+            },
+            slideChange: function (e) {
+                activePromoteSlide = this.slides[this.activeIndex];
+                resetPromoteSlides();
+                animateNumbersGraphs();
+            }
+        }
     });
 };

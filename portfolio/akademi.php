@@ -8,7 +8,7 @@
             <section class="port-lap">
 
                 <div class="port-lap__bgvideo">
-                    <video autoplay loop class="port-lap__bgvideo-video" src="/images/content/portfolio/project3/videoplayback.mp4" poster="/images/content/portfolio/project4/bg.jpg">
+                    <video autoplay loop class="port-lap__bgvideo-video" src="/images/content/portfolio/project3/videoplayback.mp4" poster="/images/content/portfolio/project3/bg.jpg">
                         <source src="/images/content/portfolio/project3/videoplayback.mp4" type="video/mp4">
                     </video>
                 </div>

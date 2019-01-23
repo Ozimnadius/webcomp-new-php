@@ -44,7 +44,7 @@
                                         <div class="arrow__line"></div>
                                         <div class="arrow__triangle"></div>
                                     </div>
-                                </div></a><a class="tube smm-first__social" href="./">
+                                </div></a><a class="tube smm-first__social" href="/promote/smm/youtube.php">
                                 <div class="smm-first__img">
                                     <!--img(src=item.src).smm-first__img-img-->
                                     <svg class="smm-first__img-img">

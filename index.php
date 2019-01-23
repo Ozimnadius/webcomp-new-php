@@ -244,28 +244,39 @@
                 <section class="index-cat">
                     <div class="index-cat__title">Нам есть чем гордиться</div>
                     <div class="index-cat__subtitle">Не гонимся за количеством, работаем на результат</div>
-                    <div class="index-cat__list"><a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#fdd752">
+                    <div class="index-cat__list">
+                        <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#363471">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site1.png"></div></a><a class="index-cat__item" href="/portfolio/blacksmith.php" title="Промо-сайт" style="background-color:#013243">
+                            <div class="index-cat__item-img">
+                                <img class="index-cat__item-pic" src="/images/content/portfolio/logo.png">
+                            </div>
+                        </a>
+                        <a class="index-cat__item" href="/portfolio/blacksmith.php" title="Промо-сайт" style="background-color:#050A15">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site2.png"></div></a><a class="index-cat__item" href="/portfolio/akademi.php" title="Промо-сайт" style="background-color:#00a2ff">
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project2/logo.png"></div></a>
+                        <a class="index-cat__item" href="/portfolio/akademi.php" title="Промо-сайт" style="background-color:#353535">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site3.png"></div></a><a class="index-cat__item" href="/portfolio/balconies.php" title="Промо-сайт" style="background-color:#c70541">
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project3/logo.png"></div></a>
+                        <a class="index-cat__item" href="/portfolio/balconies.php" title="Промо-сайт" style="background-color:#26283D">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site4.png"></div></a><a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#000000">
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project4/logo.png"></div></a>
+                        <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#000000">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site5.png"></div></a><a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#bd0808">
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site5.png"></div></a>
+                        <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#bd0808">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site6.png"></div></a><a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#e8b4c6">
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site6.png"></div></a>
+                        <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#e8b4c6">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site7.png"></div></a><a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#040a1a">
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site7.png"></div></a>
+                        <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#040a1a">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site8.png"></div></a>

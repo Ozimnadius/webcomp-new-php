@@ -671,6 +671,10 @@
 
 .blacksmith {
 
+  &.port {
+    background: url("/images/content/portfolio/project2/bottom.jpg") 0 bottom no-repeat;
+  }
+
   &__button {
     font-size: 26px;
     font-style: italic;
@@ -690,6 +694,7 @@
   }
 
   .port {
+    background: url("/images/content/portfolio/project2/bottom.jpg") 0 0 no-repeat;
 
     &-lap {
       &__bottom {
@@ -787,8 +792,7 @@
 .akademi {
 
   &.port {
-    background-size: 100% auto;
-    background-position: 0 bottom;
+    background: url("/images/content/portfolio/project3/bottom.jpg") 0 bottom no-repeat;
   }
 
   .port {
@@ -870,8 +874,7 @@
 .balconies {
 
   &.port {
-    background-size: 100% auto;
-    background-position: 0 bottom;
+    background: url("/images/content/portfolio/project4/bottom.jpg") 0 bottom no-repeat;
   }
 
   .port {

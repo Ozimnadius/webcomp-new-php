@@ -231,6 +231,8 @@
       &-pic {
         display: block;
         transition: .4s;
+        max-width: 70%;
+        max-height: 100px;
       }
       &-title {
         color: rgba($text, .7);
