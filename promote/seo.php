@@ -8,7 +8,10 @@
             <section class="seo-first">
                 <div class="container">
                     <div class="seo-first__bread">
-                        <div class="bread"><a class="bread__item" href="/">Главная</a><a class="bread__item" href="/promote.php">Продвижение</a><a class="bread__item active">Продвижение SEO</a>
+                        <div class="bread">
+                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/promote.php">Продвижение</a>
+                            <a class="bread__item active">SEO</a>
                         </div>
                     </div>
                     <div class="seo-first__title">SEO продвижение<br>с оплатой за результат</div>

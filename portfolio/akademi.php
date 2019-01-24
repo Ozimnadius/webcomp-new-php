@@ -8,7 +8,7 @@
             <section class="port-lap">
 
                 <div class="port-lap__bgvideo">
-                    <video autoplay loop class="port-lap__bgvideo-video" src="/images/content/portfolio/project3/videoplayback.mp4" poster="/images/content/portfolio/project3/bg.jpg">
+                    <video autoplay muted loop class="port-lap__bgvideo-video" src="/images/content/portfolio/project3/videoplayback.mp4" poster="/images/content/portfolio/project3/bg.jpg">
                         <source src="/images/content/portfolio/project3/videoplayback.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -194,7 +194,7 @@
                         <div class="port-proj__block">
                             <!-- title -->
                             <div class="port-proj__title">
-                                ГЛАВНАЯ <br>
+                                ГЛАВНАЯ
                                 СТРАНИЦА
                             </div>
                             <!-- END title -->
@@ -206,11 +206,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">уникальный дизайн <br> баннеров
+                                    <div class="port-proj__item-title">уникальный дизайн баннеров
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Разработка уникального дизайна <br> баннеров, для каждой категории <br> кухонь
+                                        Разработка уникального дизайна баннеров, для каждой категории кухонь
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -218,7 +218,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Улсуги отображены красивыми, <br>
+                                        Улсуги отображены красивыми,
                                         передающими смысл иконками
                                     </div>
                                 </div>
@@ -227,9 +227,9 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Список перспектив сотрудничества <br>
-                                        оформлен иконками, для лучшего <br>
-                                        восприятия, что повлечет за собой <br>
+                                        Список перспектив сотрудничества
+                                        оформлен иконками, для лучшего
+                                        восприятия, что повлечет за собой
                                         призыв к действию по кнопке
                                     </div>
                                 </div>
@@ -238,7 +238,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Адрес и контакты организации с формой <br>
+                                        Адрес и контакты организации с формой
                                         обратной связи
                                     </div>
                                 </div>

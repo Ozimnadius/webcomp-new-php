@@ -148,14 +148,17 @@ document.addEventListener("DOMContentLoaded", scrolling, false);
 
 let promoSlides = document.querySelectorAll('.promote-slide'),
     activePromoteSlide = document.querySelector('.promote-slide');
+if (!activePromoteSlide) {
+    activePromoteSlide = document;
+}
 
 
-if (activePromoteSlide) {
+// if (activePromoteSlide) {
 
     function scrolling(e) {
         animateNumbersGraphs();
     }
-}
+// }
 
 function animateNumbersGraphs() {
     let numberAll = activePromoteSlide.querySelectorAll('.number'),
@@ -183,8 +186,12 @@ function animateNumbersGraphs() {
             number.classList.add('active');
             counting(val, from, to, time);
 
-            graphImg1.classList.add('active');
-            graphImg2.classList.add('active');
+            if (graphImg1) {
+                graphImg1.classList.add('active');
+            }
+            if (graphImg2) {
+                graphImg2.classList.add('active');
+            }
         }
     }
 }

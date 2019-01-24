@@ -11,59 +11,18 @@
                         <div class="bread">
                             <a class="bread__item" href="/">Главная</a>
                             <a class="bread__item" href="/promote.php">Продвижение</a>
-                            <a class="bread__item" href="/promote/smm.php">SMM Продвижение</a>
-                            <a class="bread__item active">Реклама во ВКонтакте</a>
+                            <a class="bread__item" href="/promote/smm.php">SMM</a>
+                            <a class="bread__item active">ВКонтакте</a>
                         </div>
                     </div>
-                    <div class="smm-first__title">Хотите увеличить продажи<br>и узнаваемость бренда</div>
-                    <div class="smm-first__subtitle">Продвижение в социальных сетях, SMM от 20 000 Р</div>
+                    <div class="smm-first__title">НАСТРОЙКА РЕКЛАМЫ В <span style="color: #4582B3;">VK</span></div>
+                    <div class="smm-first__subtitle">
+                        Платёжеспособная аудитория с прогрессивными <br>
+                        взглядами на жизнь
+                    </div>
                     <div class="smm-first__socials">
-                        <div class="smm-first__socials-wrap"><a class="inst smm-first__social" href="./">
-                                <div class="smm-first__img">
-                                    <!--img(src=item.src).smm-first__img-img-->
-                                    <svg class="smm-first__img-img">
-                                        <use xlink:href="/images/icons/sprite.svg#insta2"></use>
-                                    </svg>
-                                </div>
-                                <div class="smm-first__val">900 000 000</div>
-                                <div class="smm-first__text">Активных пользователей <br> из Москвы и области <br> старше 25 лет
-                                </div>
-                                <div class="smm-first__arrow">
-                                    <div class="arrow">
-                                        <div class="arrow__line"></div>
-                                        <div class="arrow__triangle"></div>
-                                    </div>
-                                </div></a><a class="fb smm-first__social" href="./">
-                                <div class="smm-first__img">
-                                    <!--img(src=item.src).smm-first__img-img-->
-                                    <svg class="smm-first__img-img">
-                                        <use xlink:href="/images/icons/sprite.svg#fb2"></use>
-                                    </svg>
-                                </div>
-                                <div class="smm-first__val">2 589 236 658 чел</div>
-                                <div class="smm-first__text">Взрослые платежеспособные <br> люди от 18 до 45 лет, <br> бизнесмены
-                                </div>
-                                <div class="smm-first__arrow">
-                                    <div class="arrow">
-                                        <div class="arrow__line"></div>
-                                        <div class="arrow__triangle"></div>
-                                    </div>
-                                </div></a><a class="tube smm-first__social" href="/promote/smm/youtube.php">
-                                <div class="smm-first__img">
-                                    <!--img(src=item.src).smm-first__img-img-->
-                                    <svg class="smm-first__img-img">
-                                        <use xlink:href="/images/icons/sprite.svg#youtube2"></use>
-                                    </svg>
-                                </div>
-                                <div class="smm-first__val">Более 80 %</div>
-                                <div class="smm-first__text">Интернет-пользователей <br> в России ежедневно смотрят <br> онлайн-видео
-                                </div>
-                                <div class="smm-first__arrow">
-                                    <div class="arrow">
-                                        <div class="arrow__line"></div>
-                                        <div class="arrow__triangle"></div>
-                                    </div>
-                                </div></a><a class="vk smm-first__social" href="./">
+                        <div class="smm-first__socials-wrap">
+                            <a class="vk smm-first__social active">
                                 <div class="smm-first__img">
                                     <!--img(src=item.src).smm-first__img-img-->
                                     <svg class="smm-first__img-img">
@@ -73,12 +32,7 @@
                                 <div class="smm-first__val">5 965 896 чел</div>
                                 <div class="smm-first__text">Это крупнейшая сеть России и СНГ <br> В ВК лучше продавать недорогие <br> товары
                                 </div>
-                                <div class="smm-first__arrow">
-                                    <div class="arrow">
-                                        <div class="arrow__line"></div>
-                                        <div class="arrow__triangle"></div>
-                                    </div>
-                                </div></a>
+                            </a>
                         </div>
                     </div>
                     <button class="smm-first__button callorderOpen" type="button">

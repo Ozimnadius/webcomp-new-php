@@ -5,20 +5,24 @@
     <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/aside.php' ?>
     <main class="main">
         <div class="site">
-            <section class="site-first">
+            <section class="site-first" style="background-image: url(/images/content/sites/landingBg.jpg);">
                 <div class="container">
                     <div class="site-first__bread">
                         <div class="bread"><a class="bread__item" href="/">Создание сайтов</a><a
                                     class="bread__item active">Landing page</a>
                         </div>
                     </div>
-                    <div class="site-first__title">Сделаем продающий лендинг<br>за 68 000 Р всего за 1 месяц</div>
-                    <div class="site-first__subtitle">Комплексный подход к проектированию прототипов<br>и программной
-                        разработке
+                    <div class="site-first__title">
+                        СДЕЛАем лендинг с бесплатной <br>
+                        настройкой <span style="color: #f12e2e;">Я</span>ндекс директ
+                    </div>
+                    <div class="site-first__subtitle">
+                        Используем авторские методы прямого и косвенного <br>
+                        маркетинга
                     </div>
                     <button class="site-first__button callorderOpen" type="submit">
                         <div class="btn3">
-                            <div class="btn3__title">Обсудить условия</div>
+                            <div class="btn3__title">УЗНАТЬ стоимость</div>
                             <div class="btn3__lines">
                                 <div class="btn3__line-topRight"></div>
                                 <div class="btn3__line-right"></div>

@@ -5,7 +5,7 @@
     <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="rek">
-            <section class="rek-first">
+            <section class="rek-first" style="background-image: url(/images/content/rek/yandexBg.jpg);">
                 <div class="container">
                     <div class="rek-first__bread">
                         <div class="bread">
@@ -15,8 +15,14 @@
                             <a class="bread__item active">Яндек Директ</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Контекстная реклама</div>
-                    <div class="rek-first__subtitle">Настройка рекламы сегодня — горячие клиенты завтра</div>
+                    <div class="rek-first__title">
+                        ПРОФЕСИОНАЛЬНАЯ НАСТРОЙКА КОНТЕКСТНОЙ <br>
+                        РЕКЛАМЫ <span style="color: #f44545;">Я</span>НДЕКС ДИРЕКТ
+                    </div>
+                    <div class="rek-first__subtitle">
+                        От сертифицированых специалистов <br>
+                        Web-Comp
+                    </div>
                     <div class="rek-first__middle">
                         <div class="rek-first__left"></div><a class="rek-first__item" href="./">
                             <div class="rek-first__item-title">Яндекс директ</div>

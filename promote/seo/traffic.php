@@ -11,7 +11,7 @@
                         <div class="bread">
                             <a class="bread__item" href="/">Главная</a>
                             <a class="bread__item" href="/promote.php">Продвижение</a>
-                            <a class="bread__item" href="/promote/seo.php">Продвижение SEO</a>
+                            <a class="bread__item" href="/promote/seo.php">SEO</a>
                             <a class="bread__item active">С оплатой за трафик</a>
                         </div>
                     </div>

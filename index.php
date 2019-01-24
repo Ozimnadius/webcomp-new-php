@@ -264,10 +264,10 @@
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project4/logo.png"></div></a>
-                        <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#000000">
+                        <a class="index-cat__item" href="/portfolio/bosh.php" title="Промо-сайт" style="background-color:#2c3e50">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site5.png"></div></a>
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project5/logo.png"></div></a>
                         <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#bd0808">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>

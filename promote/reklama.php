@@ -8,7 +8,9 @@
             <section class="rek-first">
                 <div class="container">
                     <div class="rek-first__bread">
-                        <div class="bread"><a class="bread__item" href="/">Главная</a><a class="bread__item" href="/promote.php">Продвижение</a><a class="bread__item active">Контекстная реклама</a>
+                        <div class="bread"><a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/promote.php">Продвижение</a>
+                            <a class="bread__item active">Контекстная реклама</a>
                         </div>
                     </div>
                     <div class="rek-first__title">Контекстная реклама</div>

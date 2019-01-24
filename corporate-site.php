@@ -5,7 +5,7 @@
     <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="site">
-            <section class="site-first">
+            <section class="site-first" style="background-image: url(/images/content/sites/corporateBg.jpg);">
                 <div class="container">
                     <div class="site-first__bread">
                         <div class="bread">
@@ -13,11 +13,17 @@
                             <a class="bread__item active">Корпоративный сайт</a>
                         </div>
                     </div>
-                    <div class="site-first__title">Сделаем продающий корпоративный сайт<br>за 79 920 Р всего за 1 месяц</div>
-                    <div class="site-first__subtitle">Комплексный подход к проектированию прототипов<br>и программной разработке</div>
+                    <div class="site-first__title">
+                        СДЕЛАЕМ КОРПОРАТИВНЫЙ САЙТ <br>
+                        ЗА 80 000 Р ВСЕГО ЗА 1 МЕСЯЦ
+                    </div>
+                    <div class="site-first__subtitle">
+                        Усилим имидж вашей компании в интернете. Привлечём <br>
+                        внимание к вашему продукту или услуге
+                    </div>
                     <button class="site-first__button callorderOpen" type="submit">
                         <div class="btn3">
-                            <div class="btn3__title">Обсудить условия</div>
+                            <div class="btn3__title">УЗНАТЬ стоимость </div>
                             <div class="btn3__lines">
                                 <div class="btn3__line-topRight"></div>
                                 <div class="btn3__line-right"></div>

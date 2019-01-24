@@ -131,19 +131,22 @@
                         </div>
                     </div>
                     <div class="port-proj__right">
+
                         <!-- block -->
-                        <div class="port-proj__block" style="">
-                            <div class="port-proj__title">Каталог<br>товаров</div>
+                        <div class="port-proj__block">
+                            <div class="port-proj__title">Каталог товаров</div>
                         </div>
                         <!-- END block 1-->
                         <!-- block 2 -->
                         <div class="port-proj__block">
                             <div class="port-proj__list">
                                 <div class="port-proj__item" style="margin-bottom: 305px;">
-                                    <div class="port-proj__item-title">умный фильтр
+                                    <div class="port-proj__item-title">
+                                        умный фильтр
                                         <div class="port-proj__item-line"></div>
                                     </div>
-                                    <div class="port-proj__item-desc">Разработка умного фильтра по типу выбора товара и
+                                    <div class="port-proj__item-desc">
+                                        Разработка умного фильтра по типу выбора товара и
                                         отображение полных характеристик в карточке товара.
                                     </div>
                                 </div>
@@ -151,7 +154,8 @@
                                     <div class="port-proj__item-title">Карточка товара
                                         <div class="port-proj__item-line" style="width: 870px;"></div>
                                     </div>
-                                    <div class="port-proj__item-desc">Удобная и продуманнная карточка товра с учетом
+                                    <div class="port-proj__item-desc">
+                                        Удобная и продуманнная карточка товра с учетом
                                         запросов пользователя
                                     </div>
                                 </div>
@@ -161,7 +165,7 @@
 
                         <!-- block 3 -->
                         <div class="port-proj__block">
-                            <div class="port-proj__recom" style="">
+                            <div class="port-proj__recom">
                                 <div class="port-proj__recom-title">Рекомендации
                                     <div class="port-proj__recom-line"></div>
                                 </div>

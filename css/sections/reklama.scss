@@ -529,3 +529,59 @@
     //padding-top: 120px;
   }
 }
+
+
+.subject {
+  .rek {
+    &-first {
+      &__subtitle {
+        margin-bottom: 180px;
+      }
+    }
+  }
+
+  .site {
+    &-dev {
+      &__slide{
+        &-img {
+          overflow: hidden;
+        }
+      }
+
+      &__prev, &__next {
+        position: absolute;
+        width: 280px;
+        top: 50%;
+        margin-top: -30px;
+        cursor: pointer;
+        outline: none;
+        padding: 25px 0;
+
+        &:hover {
+          .arrow_prev {
+            .arrow__line {
+              background: linear-gradient(to right, rgba($bg, 1) 0%, rgba($bg, 0) 100%)
+            }
+            .arrow_black {
+              .arrow__triangle {
+                border-color: transparent transparent transparent $bg !important;
+              }
+            }
+          }
+
+          .arrow {
+            .arrow__line {
+              background: linear-gradient(to right, rgba($bg, 0) 0%, rgba($bg, 1) 100%);
+            }
+
+            .arrow__triangle {
+              border-color: transparent transparent transparent rgba($bg, 1) !important;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+}

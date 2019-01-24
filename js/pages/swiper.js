@@ -48,16 +48,18 @@ window.onload = function () {
     });
 
     function setDevDesc(slide) {
-        let logoObj = document.querySelector('.site-dev__img'),
+        let logoObj = document.querySelector('.site-dev__img');
+        if(logoObj) {
             descObj = document.querySelectorAll('.site-dev__desc-item')[0].querySelector('.site-dev__desc-val'),
-            goalObj = document.querySelectorAll('.site-dev__desc-item')[1].querySelector('.site-dev__desc-val'),
-            logo = slide.dataset.logo,
-            desc = slide.dataset.desc,
-            goal = slide.dataset.goal;
+                goalObj = document.querySelectorAll('.site-dev__desc-item')[1].querySelector('.site-dev__desc-val'),
+                logo = slide.dataset.logo,
+                desc = slide.dataset.desc,
+                goal = slide.dataset.goal;
 
-        logoObj.src = logo;
-        descObj.innerText = desc;
-        goalObj.innerText = goal;
+            logoObj.src = logo;
+            descObj.innerText = desc;
+            goalObj.innerText = goal;
+        }
     }
 
     let seoCatsSwiper = new Swiper('.slider__container', {

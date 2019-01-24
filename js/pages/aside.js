@@ -28,7 +28,7 @@
                 $.ajax({
                     dataType: "json",
                     type: "POST",
-                    url: 'php/ajax.php',
+                    url: '/php/ajax.php',
                     data: data,
                     success: function (result) {
                         if (result.status) {

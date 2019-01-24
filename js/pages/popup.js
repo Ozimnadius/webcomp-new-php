@@ -22,7 +22,7 @@ if (callorderOpenAll) {
             $.ajax({
                 dataType: "json",
                 type: "POST",
-                url: 'php/ajax.php',
+                url: '/php/ajax.php',
                 data: data,
                 success: function (result) {
                     if (result.status) {
@@ -79,7 +79,7 @@ if (promotionOpenAll) {
             $.ajax({
                 dataType: "json",
                 type: "POST",
-                url: 'php/ajax.php',
+                url: '/php/ajax.php',
                 data: data,
                 success: function (result) {
                     if (result.status) {
@@ -131,7 +131,7 @@ if (pushOpenAll) {
             $.ajax({
                 dataType: "json",
                 type: "POST",
-                url: 'php/ajax.php',
+                url: '/php/ajax.php',
                 data: data,
                 success: function (result) {
                     if (result.status) {
@@ -187,7 +187,7 @@ function getTimerForm(formId) {
     $.ajax({
         dataType: "json",
         type: "POST",
-        url: 'php/ajax.php',
+        url: '/php/ajax.php',
         data: data,
         success: function (result) {
             if (result.status) {
@@ -235,7 +235,7 @@ if (tarifs) {
             $.ajax({
                 dataType: "json",
                 type: "POST",
-                url: 'php/ajax.php',
+                url: '/php/ajax.php',
                 data: data,
                 success: function (result) {
                     if (result.status) {

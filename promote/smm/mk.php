@@ -11,8 +11,8 @@
                         <div class="bread">
                             <a class="bread__item" href="/">Главная</a>
                             <a class="bread__item" href="/promote.php">Продвижение</a>
-                            <a class="bread__item" href="/promote/smm.php">SMM Продвижение</a>
-                            <a class="bread__item active">Реклама в MK</a>
+                            <a class="bread__item" href="/promote/smm.php">SMM</a>
+                            <a class="bread__item active">MK</a>
                         </div>
                     </div>
                     <div class="smm-first__title">Хотите увеличить продажи<br>и узнаваемость бренда</div>

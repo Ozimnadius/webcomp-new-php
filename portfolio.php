@@ -135,13 +135,49 @@
                 <section class="theme-iss">
                     <div class="theme-iss__title">Направления в которых у нас есть опыт создания сайтов</div>
                     <div class="theme-iss__list">
-                        <div class="theme-iss__col"><a class="theme-iss__item" href="./promote-seo.php">Автосалоны</a><a class="theme-iss__item" href="./promote-seo.php">Автосервисы</a><a class="theme-iss__item" href="./promote-seo.php">Автозапчасти</a><a class="theme-iss__item" href="./promote-seo.php">Бухгалтерские услуги</a><a class="theme-iss__item" href="./promote-seo.php">Гостиницы и отели</a><a class="theme-iss__item" href="./promote-seo.php">Агентства недвижимости</a><a class="theme-iss__item" href="./promote-seo.php">Детские игрушки</a><a class="theme-iss__item" href="./promote-seo.php">Сайт знакомств</a><a class="theme-iss__item" href="./promote-seo.php">Женская тематика</a>
+                        <div class="theme-iss__col">
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Автосалоны</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Автосервисы</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Автозапчасти</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Бухгалтерские услуги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Гостиницы и отели</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Агентства недвижимости</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Детские игрушки</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Сайт знакомств</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Женская тематика</a>
                         </div>
-                        <div class="theme-iss__col"><a class="theme-iss__item" href="./promote-seo.php">Клиники</a><a class="theme-iss__item" href="./promote-seo.php">Книги</a><a class="theme-iss__item" href="./promote-seo.php">Мебельный сайт</a><a class="theme-iss__item" href="./promote-seo.php">Медицинские услуги</a><a class="theme-iss__item" href="./promote-seo.php">Салоны красоты</a><a class="theme-iss__item" href="./promote-seo.php">Свадебные агентства</a><a class="theme-iss__item" href="./promote-seo.php">Страхование</a><a class="theme-iss__item" href="./promote-seo.php">Строительная тематика</a><a class="theme-iss__item" href="./promote-seo.php">Рестораны</a>
+                        <div class="theme-iss__col">
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Клиники</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Книги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Мебельный сайт</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Медицинские услуги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Салоны красоты</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Свадебные агентства</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Страхование</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Строительная тематика</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Рестораны</a>
                         </div>
-                        <div class="theme-iss__col"><a class="theme-iss__item" href="./promote-seo.php">Туристическая тематика</a><a class="theme-iss__item" href="./promote-seo.php">Турфирмы</a><a class="theme-iss__item" href="./promote-seo.php">Ювелирные салоны</a><a class="theme-iss__item" href="./promote-seo.php">Магазин одежда</a><a class="theme-iss__item" href="./promote-seo.php">Оргтехника</a><a class="theme-iss__item" href="./promote-seo.php">Юридические услуги</a><a class="theme-iss__item" href="./promote-seo.php">Грузоперевозоки</a><a class="theme-iss__item" href="./promote-seo.php">Фармацевтическая продукция</a><a class="theme-iss__item" href="./promote-seo.php">Стоматологические клиники</a>
+                        <div class="theme-iss__col">
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Туристическая тематика</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Турфирмы</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Ювелирные салоны</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Магазин одежда</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Оргтехника</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Юридические услуги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Грузоперевозоки</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Фармацевтическая продукция</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Стоматологические клиники</a>
                         </div>
-                        <div class="theme-iss__col"><a class="theme-iss__item" href="./promote-seo.php">Фитнес-клубы</a><a class="theme-iss__item" href="./promote-seo.php">Деловые услуги</a><a class="theme-iss__item" href="./promote-seo.php">Банки</a><a class="theme-iss__item" href="./promote-seo.php">Сантехника</a><a class="theme-iss__item" href="./promote-seo.php">Магазины цветов</a><a class="theme-iss__item" href="./promote-seo.php">Товары для дома</a><a class="theme-iss__item" href="./promote-seo.php">Строительные материалы</a><a class="theme-iss__item" href="./promote-seo.php">Спортивные товары</a><a class="theme-iss__item" href="./promote-seo.php">Зоотовары</a>
+                        <div class="theme-iss__col">
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Фитнес-клубы</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Деловые услуги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Банки</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Сантехника</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Магазины цветов</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Товары для дома</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Строительные материалы</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Спортивные товары</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Зоотовары</a>
                         </div>
                     </div>
                     <!--button.theme-iss__button показать еще-->

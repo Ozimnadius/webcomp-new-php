@@ -8,7 +8,7 @@
             <section class="port-lap">
 
                 <div class="port-lap__bgvideo">
-                    <video autoplay loop class="port-lap__bgvideo-video" src="/images/content/portfolio/project4/videoplayback.mp4" poster="/images/content/portfolio/project4/bg.jpg">
+                    <video autoplay muted loop class="port-lap__bgvideo-video" src="/images/content/portfolio/project4/videoplayback.mp4" poster="/images/content/portfolio/project4/bg.jpg">
                         <source src="/images/content/portfolio/project4/videoplayback.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -197,7 +197,7 @@
                         <div class="port-proj__block">
                             <!-- title -->
                             <div class="port-proj__title">
-                                ГЛАВНАЯ <br>
+                                ГЛАВНАЯ
                                 СТРАНИЦА
                             </div>
                             <!-- END title -->
@@ -209,11 +209,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">уникальный дизайн <br> баннеров
+                                    <div class="port-proj__item-title">уникальный дизайн баннеров
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Разработка уникального дизайна <br> баннеров, для каждой категории <br> кухонь
+                                        Разработка уникального дизайна баннеров, для каждой категории кухонь
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -239,7 +239,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Реализован удобный функционал <br>
+                                        Реализован удобный функционал
                                         для рассчёта стоимости остекления
                                     </div>
                                 </div>
@@ -261,8 +261,8 @@
                                     <div class="port-proj__recom-line"></div>
                                 </div>
                                 <div class="port-proj__recom-desc">
-                                    Удобный и продуманный экспресс <br>
-                                    калькулятор для моментального рассчета <br>
+                                    Удобный и продуманный экспресс
+                                    калькулятор для моментального рассчета
                                     заказа
                                 </div>
                             </div>
@@ -337,7 +337,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Цифромой таймер, показывающий время <br>
+                                        Цифромой таймер, показывающий время
                                         об окончании акции или предложения
                                     </div>
                                 </div>
@@ -346,7 +346,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобные и понятные карточки, <br>
+                                        Удобные и понятные карточки,
                                         предлагающие определенную услугу
                                     </div>
                                 </div>
@@ -369,7 +369,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Объемные иконки демонстрирующие <br>
+                                        Объемные иконки демонстрирующие
                                         выгодное предложение для клиентов
                                     </div>
                                 </div>
@@ -378,8 +378,8 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Посетители сайта могут в любое время <br>
-                                        оставить заявку, и связатся с <br>
+                                        Посетители сайта могут в любое время
+                                        оставить заявку, и связатся с
                                         менеджерами
                                     </div>
                                 </div>

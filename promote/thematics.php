@@ -8,7 +8,9 @@
             <section class="theme-first">
                 <div class="container promote-first__wrapper">
                     <div class="theme-first__bread">
-                        <div class="bread"><a class="bread__item" href="/">Главная</a><a class="bread__item" href="/promote.php">Продвижение</a><a class="bread__item active">Продвижение по тематике</a>
+                        <div class="bread"><a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/promote.php">Продвижение</a>
+                            <a class="bread__item active">По тематике</a>
                         </div>
                     </div>
                     <div class="theme-first__title">Мы создадим продающий сайт<br>по вашей тематике</div>

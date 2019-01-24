@@ -1,11 +1,15 @@
 .smm {
-  background: url("../images/bg/promoteBg.jpg") 0 0 no-repeat;
+  background-image: url("/images/bg/promoteBg.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
   background-size: cover;
 
   &-first {
     padding-top: 230px;
     padding-bottom: 80px;
-    background: url(../images/bg/smmBg.jpg) 0 0 no-repeat;
+    background-image: url("/images/bg/smmBg.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
     background-size: cover;
 
     &__bread {
@@ -44,7 +48,7 @@
       flex-direction: column;
       align-items: center;
 
-      &:hover {
+      &:hover,&.active {
         .arrow {
 
           &__line {

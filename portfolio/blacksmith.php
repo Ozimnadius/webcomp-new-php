@@ -8,7 +8,7 @@
             <section class="port-lap"">
 
                 <div class="port-lap__bgvideo">
-                    <video autoplay loop class="port-lap__bgvideo-video" src="/images/content/portfolio/project2/videoplayback.mp4" poster="/images/content/portfolio/project2/bg.jpg">
+                    <video autoplay muted loop class="port-lap__bgvideo-video" src="/images/content/portfolio/project2/videoplayback.mp4" poster="/images/content/portfolio/project2/bg.jpg">
                         <source src="/images/content/portfolio/project2/videoplayback.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -193,7 +193,7 @@
                         <div class="port-proj__block">
                             <!-- title -->
                             <div class="port-proj__title">
-                                ГЛАВНАЯ <br>
+                                ГЛАВНАЯ
                                 СТРАНИЦА
                             </div>
                             <!-- END title -->
@@ -216,11 +216,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">уникальный дизайн <br> баннеров
+                                    <div class="port-proj__item-title">уникальный дизайн баннеров
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Разработка уникального дизайна <br> баннеров, для каждой категории <br> кухонь
+                                        Разработка уникального дизайна баннеров, для каждой категории кухонь
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -228,7 +228,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобная и продуманнная карточка <br> услуг с учетом запросов пользователя
+                                        Удобная и продуманнная карточка услуг с учетом запросов пользователя
                                     </div>
                                 </div>
                             </div>
@@ -240,12 +240,12 @@
                         <div class="port-proj__block">
                             <!-- recom -->
                             <div class="port-proj__recom">
-                                <div class="port-proj__recom-title">фильтр для подбора <br> кухни
+                                <div class="port-proj__recom-title">фильтр для подбора кухни
                                     <div class="port-proj__recom-line"></div>
                                 </div>
                                 <div class="port-proj__recom-desc">
-                                    Реализован удобный функционал <br>
-                                    для подбора нужной формы, цвета <br>
+                                    Реализован удобный функционал
+                                    для подбора нужной формы, цвета
                                     материала и цвета кухни на любой вкус
                                 </div>
                             </div>
@@ -265,8 +265,8 @@
                                     <div class="port-proj__recom-line"></div>
                                 </div>
                                 <div class="port-proj__recom-desc">
-                                    Можно ознакомится с видами покрытий <br>
-                                    кухоной гарнитуры, и добавить к заказу <br>
+                                    Можно ознакомится с видами покрытий
+                                    кухоной гарнитуры, и добавить к заказу
                                     понравившийся вариант
                                 </div>
                             </div>
@@ -286,8 +286,8 @@
                                     <div class="port-proj__recom-line"></div>
                                 </div>
                                 <div class="port-proj__recom-desc">
-                                    Пошаговая инструкция процесса <br>
-                                    работы. Были разработаны уникальные <br>
+                                    Пошаговая инструкция процесса
+                                    работы. Были разработаны уникальные
                                     3D иконки
                                 </div>
                             </div>

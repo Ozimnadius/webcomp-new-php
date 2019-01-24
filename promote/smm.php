@@ -8,13 +8,17 @@
             <section class="smm-first">
                 <div class="container">
                     <div class="smm-first__bread">
-                        <div class="bread"><a class="bread__item" href="/">Главная</a><a class="bread__item" href="/promote.php">Продвижение</a><a class="bread__item active">SMM Продвижение</a>
+                        <div class="bread">
+                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/promote.php">Продвижение</a>
+                            <a class="bread__item active">SMM</a>
                         </div>
                     </div>
                     <div class="smm-first__title">Хотите увеличить продажи<br>и узнаваемость бренда</div>
                     <div class="smm-first__subtitle">Продвижение в социальных сетях, SMM от 20 000 Р</div>
                     <div class="smm-first__socials">
-                        <div class="smm-first__socials-wrap"><a class="inst smm-first__social" href="./">
+                        <div class="smm-first__socials-wrap">
+                            <a class="inst smm-first__social" href="/promote/smm/insta.php">
                                 <div class="smm-first__img">
                                     <!--img(src=item.src).smm-first__img-img-->
                                     <svg class="smm-first__img-img">
@@ -29,7 +33,9 @@
                                         <div class="arrow__line"></div>
                                         <div class="arrow__triangle"></div>
                                     </div>
-                                </div></a><a class="fb smm-first__social" href="./">
+                                </div>
+                            </a>
+                            <a class="fb smm-first__social" href="/promote/smm/fb.php">
                                 <div class="smm-first__img">
                                     <!--img(src=item.src).smm-first__img-img-->
                                     <svg class="smm-first__img-img">
@@ -44,7 +50,9 @@
                                         <div class="arrow__line"></div>
                                         <div class="arrow__triangle"></div>
                                     </div>
-                                </div></a><a class="tube smm-first__social" href="/promote/smm/youtube.php">
+                                </div>
+                            </a>
+                            <a class="tube smm-first__social" href="/promote/smm/youtube.php">
                                 <div class="smm-first__img">
                                     <!--img(src=item.src).smm-first__img-img-->
                                     <svg class="smm-first__img-img">
@@ -59,7 +67,9 @@
                                         <div class="arrow__line"></div>
                                         <div class="arrow__triangle"></div>
                                     </div>
-                                </div></a><a class="vk smm-first__social" href="./">
+                                </div>
+                            </a>
+                            <a class="vk smm-first__social" href="/promote/smm/vk.php">
                                 <div class="smm-first__img">
                                     <!--img(src=item.src).smm-first__img-img-->
                                     <svg class="smm-first__img-img">
