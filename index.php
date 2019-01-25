@@ -268,14 +268,14 @@
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project5/logo.png"></div></a>
-                        <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#bd0808">
+                        <a class="index-cat__item" href="/portfolio/svda.php" title="Промо-сайт" style="background-color:#252525;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site6.png"></div></a>
-                        <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#e8b4c6">
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project6/logo.png"></div></a>
+                        <a class="index-cat__item" href="/portfolio/vita.php" title="Промо-сайт" style="background-color:#f9f9fa">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/sites/site7.png"></div></a>
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project7/logo.png"></div></a>
                         <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#040a1a">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>

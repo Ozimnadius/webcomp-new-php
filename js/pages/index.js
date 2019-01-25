@@ -1,27 +1,5 @@
 (function () {
 
-    // let canvas = document.querySelector('.smoke'),
-    //     ctx = canvas.getContext('2d');
-    // canvas.width = innerWidth;
-    // canvas.height = innerHeight;
-    //
-    // let party = smokemachine(ctx, [131, 145, 206]);
-    // party.start(); // start animating
-    // party.setPreDrawCallback(function (dt) {
-    //     party.addSmoke(innerWidth - 200, innerHeight + 400, .9);
-    //     canvas.width = innerWidth;
-    //     canvas.height = innerHeight;
-    // });
-    // onmousemove = function (e) {
-    //     let x = e.clientX,
-    //         y = e.clientY,
-    //         n = .9,
-    //         t = Math.floor(Math.random() * 200) + 7600;
-    //     party.addsmoke(x, y, n, t)
-    // }
-
-
-
     let pagItems = document.querySelector('.pag__items'),
         pagAllItem = document.querySelectorAll('.pag__item'),
         sections = document.querySelectorAll('section'),
@@ -38,11 +16,12 @@
         historyPage = localStorage.getItem('page');
 
 
+    // простенькая история, чтоб не скролить до определенной секции
     if (historySection && !page.classList.contains('page_second') && document.querySelector('.' + historyPage)) {
         scrollToSection(localStorage.getItem('sectionIndex'));
     }
 
-
+    //one-page-scroll до нужной секции
     function scrollToSection(sectionIndex) {
         let position = sectionIndex * -100 + 'vh',
             section = sections[sectionIndex],
@@ -78,23 +57,11 @@
         }
 
         if (section.classList.contains('comp-rew')) {
-            for (let i = 0; i < numberAll.length; i++) {
-                let number = numberAll[i],
-                    val = number.querySelector('.number__val'),
-                    from = parseInt(val.dataset.from),
-                    to = parseInt(val.dataset.to);
-
-                if (number.classList.contains('active')) {
-                    continue;
-                }
-
-                number.classList.add('active');
-                counting(val, from, to, 2000);
-            }
+            animateNumbers();
         }
 
         if (pagItems) {
-            if (sectionIndex === 3) {
+            if (sectionIndex == 3) {
                 document.querySelector('.pag__arrow-line').style.opacity = 0;
             } else {
                 document.querySelector('.pag__arrow-line').style.opacity = 1;
@@ -116,9 +83,11 @@
 
     }
 
+    //если нет класса page_second значит есть one-page-scroll
     if (!page.classList.contains('page_second')) {
 
 
+        //если есть пагинация вешаем клик на пагинацию
         if (pagItems) {
             pagItems.addEventListener('click', function (e) {
                 if (e.target.classList.contains('pag__item')) {
@@ -128,7 +97,9 @@
             });
         }
 
+
         if (sections.length > 1) {
+            //вешаем на прокрутку one-page-scroll
             document.addEventListener('wheel', function (e) {
 
 

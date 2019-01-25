@@ -45,19 +45,19 @@
                     <div class="comp-rew__list">
                         <div class="comp-rew__item number">
                             <div class="comp-rew__item-title">
-                                <div class="number__val comp-rew__item-val" data-from="0" data-to="60">60</div>
+                                <div class="number__val comp-rew__item-val" data-from="0" data-to="60">0</div>
                             </div>
                             <div class="comp-rew__item-text">постоянных <br> сотрудников</div>
                         </div>
                         <div class="comp-rew__item number">
                             <div class="comp-rew__item-title">
-                                <div class="number__val comp-rew__item-val" data-from="0" data-to="25">25</div>
+                                <div class="number__val comp-rew__item-val" data-from="0" data-to="25">0</div>
                             </div>
                             <div class="comp-rew__item-text">и номинаций <br> наград</div>
                         </div>
                         <div class="comp-rew__item number">
                             <div class="comp-rew__item-title">
-                                <div class="number__val comp-rew__item-val" data-from="0" data-to="20">20</div>
+                                <div class="number__val comp-rew__item-val" data-from="0" data-to="20">0</div>
                                 <div class="comp-rew__item-type">лет</div>
                             </div>
                             <div class="comp-rew__item-text">на рынке в интернет <br> пространстве</div>

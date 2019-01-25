@@ -130,7 +130,6 @@ function Switches(prop) {
     }
 }
 
-
 let isScrolling = false;
 window.addEventListener('scroll', throttleScroll, false);
 
@@ -152,13 +151,34 @@ if (!activePromoteSlide) {
     activePromoteSlide = document;
 }
 
+function scrolling(e) {
+    animateNumbersGraphs();
+}
 
-// if (activePromoteSlide) {
+function animateNumbers() {
+    let numberAll = activePromoteSlide.querySelectorAll('.number'),
+        numbers = activePromoteSlide.querySelector('.numbers');
 
-    function scrolling(e) {
-        animateNumbersGraphs();
+    for (let i = 0; i < numberAll.length; i++) {
+        let number = numberAll[i],
+            val = number.querySelector('.number__val'),
+            from = parseInt(val.dataset.from),
+            to = parseInt(val.dataset.to),
+            time = 2000;
+        if (numbers) {
+            time = numbers.dataset.timer;
+        }
+
+
+        if (number.classList.contains('active')) {
+            continue;
+        }
+
+
+        number.classList.add('active');
+        counting(val, from, to, time);
     }
-// }
+}
 
 function animateNumbersGraphs() {
     let numberAll = activePromoteSlide.querySelectorAll('.number'),

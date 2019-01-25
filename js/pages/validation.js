@@ -13,6 +13,7 @@ $('.form').each(function (indx, elem) {
             },
 
             submitHandler: function (form) {
+                form.reset();
                 getTimerForm();
             },
             invalidHandler: function (event, validator) {
@@ -40,6 +41,7 @@ $('.calc').validate(
         },
 
         submitHandler: function (form) {
+            form.reset();
             getTimerForm();
         },
         invalidHandler: function (event, validator) {
@@ -68,6 +70,7 @@ if (smmForm.length > 0) {
             },
 
             submitHandler: function (form) {
+                form.reset();
                 getTimerForm();
             },
             invalidHandler: function (event, validator) {
@@ -97,6 +100,7 @@ if (siteForm.length > 0) {
             },
 
             submitHandler: function (form) {
+                form.reset();
                 getTimerForm();
             },
             invalidHandler: function (event, validator) {
