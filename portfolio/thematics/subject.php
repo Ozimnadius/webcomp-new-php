@@ -1,8 +1,8 @@
-<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'] . '/pages/top2.php' ?>
 
 <!-- main -->
 <main class="page page_second">
-    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/aside.php' ?>
     <main class="main">
         <div class="rek subject">
             <section class="rek-first">
@@ -13,7 +13,7 @@
                             <a class="bread__item active">Создание сайтов для </a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Создание сайтов для </div>
+                    <div class="rek-first__title">Создание сайтов для</div>
                     <div class="rek-first__subtitle">
                         Комплексный подход к разработке вашего проекта <br>
                         с учётом особенностей вашей сферы <br>
@@ -41,12 +41,16 @@
                         <div class="rek-desc__block">
                             <h3>Кому подходит контекстная реклама</h3>
                             <ul>
-                                <li>Контекстная реклама подходит для ниши услуг где доходность от 2 000 р с одного обращения.</li>
+                                <li>Контекстная реклама подходит для ниши услуг где доходность от 2 000 р с одного
+                                    обращения.
+                                </li>
                                 <li>Для компаний, которые хотят быстро увеличить поток заявок.</li>
                                 <li>Для компаний, которым важно точно понимать стоимость привлечения клиента.</li>
                                 <li>Для компаний, которые хотят видеть прозрачную схему привлечения заявок.</li>
-                                <li>Для компаний, которые хотят динамично управлять рекламными акциями, увеличивать или снижать активность продаж в разное время суток.</li>
-                                <li>Для тех, кто хочет увеличить охват аудитории. </li>
+                                <li>Для компаний, которые хотят динамично управлять рекламными акциями, увеличивать или
+                                    снижать активность продаж в разное время суток.
+                                </li>
+                                <li>Для тех, кто хочет увеличить охват аудитории.</li>
                             </ul>
                         </div>
                         <div class="rek-desc__block">
@@ -71,26 +75,33 @@
                             </ul>
                         </div>
                     </div>
-                    <button class="rek-desc__button button button_red promotionOpen" type="button">Получить прогноз по бюджету</button>
+                    <button class="rek-desc__button button button_red promotionOpen" type="button">Получить прогноз по
+                        бюджету
+                    </button>
                     <div class="rek-desc__list">
                         <div class="rek-desc__item">
-                            <div class="rek-desc__item-img"><img class="rek-first__item-pic" src="/images/content/rek/desc/rekDesc1.png"></div>
+                            <div class="rek-desc__item-img"><img class="rek-first__item-pic"
+                                                                 src="/images/content/rek/desc/rekDesc1.png"></div>
                             <div class="rek-desc__item-text">Официальные партнёры Яндекс</div>
                         </div>
                         <div class="rek-desc__item">
-                            <div class="rek-desc__item-img"><img class="rek-first__item-pic" src="/images/content/rek/desc/rekDesc2.png"></div>
+                            <div class="rek-desc__item-img"><img class="rek-first__item-pic"
+                                                                 src="/images/content/rek/desc/rekDesc2.png"></div>
                             <div class="rek-desc__item-text">Используем сквозную аналитику</div>
                         </div>
                         <div class="rek-desc__item">
-                            <div class="rek-desc__item-img"><img class="rek-first__item-pic" src="/images/content/rek/desc/rekDesc3.png"></div>
+                            <div class="rek-desc__item-img"><img class="rek-first__item-pic"
+                                                                 src="/images/content/rek/desc/rekDesc3.png"></div>
                             <div class="rek-desc__item-text">Считаем стоимость привличения клиента</div>
                         </div>
                         <div class="rek-desc__item">
-                            <div class="rek-desc__item-img"><img class="rek-first__item-pic" src="/images/content/rek/desc/rekDesc4.png"></div>
+                            <div class="rek-desc__item-img"><img class="rek-first__item-pic"
+                                                                 src="/images/content/rek/desc/rekDesc4.png"></div>
                             <div class="rek-desc__item-text">Снижаем стоимость рекламы</div>
                         </div>
                         <div class="rek-desc__item">
-                            <div class="rek-desc__item-img"><img class="rek-first__item-pic" src="/images/content/rek/desc/rekDesc5.png"></div>
+                            <div class="rek-desc__item-img"><img class="rek-first__item-pic"
+                                                                 src="/images/content/rek/desc/rekDesc5.png"></div>
                             <div class="rek-desc__item-text">Улучшаем конверсионные показатели сайта</div>
                         </div>
                     </div>
@@ -102,28 +113,32 @@
                         <div class="site-dev__swiper-wrap">
                             <div class="swiper-container site-dev__container">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide site-dev__slide" >
+                                    <div class="swiper-slide site-dev__slide">
                                         <div class="proportion proportion_750x470"></div>
                                         <div class="site-dev__slide-img">
-                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/project2/after.jpg">
+                                            <img class="site-dev__slide-pic"
+                                                 src="/images/content/portfolio/project2/after.jpg">
                                         </div>
                                     </div>
-                                    <div class="swiper-slide site-dev__slide" >
+                                    <div class="swiper-slide site-dev__slide">
                                         <div class="proportion proportion_750x470"></div>
                                         <div class="site-dev__slide-img">
-                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/project3/after.jpg">
+                                            <img class="site-dev__slide-pic"
+                                                 src="/images/content/portfolio/project3/after.jpg">
                                         </div>
                                     </div>
-                                    <div class="swiper-slide site-dev__slide" >
+                                    <div class="swiper-slide site-dev__slide">
                                         <div class="proportion proportion_750x470"></div>
                                         <div class="site-dev__slide-img">
-                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/project4/after.jpg">
+                                            <img class="site-dev__slide-pic"
+                                                 src="/images/content/portfolio/project4/after.jpg">
                                         </div>
                                     </div>
-                                    <div class="swiper-slide site-dev__slide" >
+                                    <div class="swiper-slide site-dev__slide">
                                         <div class="proportion proportion_750x470"></div>
                                         <div class="site-dev__slide-img">
-                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/project5/after.jpg">
+                                            <img class="site-dev__slide-pic"
+                                                 src="/images/content/portfolio/project5/after.jpg">
                                         </div>
                                     </div>
 
@@ -148,10 +163,14 @@
                     <div class="rek-price__title">Стоимость продвижения</div>
                     <div class="rek-price__switches">
                         <div class="rek-price__switches-list">
-                            <button class="active rek-price__switch" data-id="1"><span class="rek-price__switch-title">Яндекс Директ</span></button>
-                            <button class="rek-price__switch" data-id="2"><span class="rek-price__switch-title">Google AdWords</span></button>
-                            <button class="rek-price__switch" data-id="3"><span class="rek-price__switch-title">Яндекс / Google</span></button>
-                            <button class="rek-price__switch" data-id="4"><span class="rek-price__switch-title">Маркетинговое исследование</span></button>
+                            <button class="active rek-price__switch" data-id="1"><span class="rek-price__switch-title">Яндекс Директ</span>
+                            </button>
+                            <button class="rek-price__switch" data-id="2"><span class="rek-price__switch-title">Google AdWords</span>
+                            </button>
+                            <button class="rek-price__switch" data-id="3"><span class="rek-price__switch-title">Яндекс / Google</span>
+                            </button>
+                            <button class="rek-price__switch" data-id="4"><span class="rek-price__switch-title">Маркетинговое исследование</span>
+                            </button>
                         </div>
                         <div class="rek-price__line">
                             <div class="rek-price__subline"></div>
@@ -172,7 +191,7 @@
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
+                                        <div class="rek-price__item-price">0.30 коп.</div>
                                         <div class="rek-price__item-text">За переход на сайт</div>
                                     </div>
                                     <div class="rek-price__item">
@@ -203,7 +222,9 @@
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
                                             <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на
+                                                сайте
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -228,7 +249,7 @@
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
+                                        <div class="rek-price__item-price">0.30 коп.</div>
                                         <div class="rek-price__item-text">За переход на сайт</div>
                                     </div>
                                     <div class="rek-price__item">
@@ -259,7 +280,9 @@
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
                                             <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на
+                                                сайте
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -284,7 +307,7 @@
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
+                                        <div class="rek-price__item-price">0.30 коп.</div>
                                         <div class="rek-price__item-text">За переход на сайт</div>
                                     </div>
                                     <div class="rek-price__item">
@@ -315,7 +338,9 @@
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
                                             <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на
+                                                сайте
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -340,7 +365,7 @@
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
+                                        <div class="rek-price__item-price">0.30 коп.</div>
                                         <div class="rek-price__item-text">За переход на сайт</div>
                                     </div>
                                     <div class="rek-price__item">
@@ -371,7 +396,9 @@
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
                                             <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на
+                                                сайте
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -386,24 +413,31 @@
                 </section>
                 <section class="rek-bud">
                     <div class="rek-bud__title">Снижаем бюджет на контекстную рекламу</div>
-                    <div class="rek-bud__list">
-                        <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">150 Р</span>
+                    <div class="rek-bud__list numbers" data-timer="2000">
+                        <div class="rek-bud__item number">
+                            <div class="rek-bud__item-title">
+                                <span class="rek-bud__item-val"><span class="number__val" data-from="0"
+                                                                      data-to="150">0</span> Р</span>
                             </div>
                             <div class="rek-bud__item-text">Средняя стоимость <br> клика</div>
                         </div>
-                        <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">3</span><span class="rek-bud__item-type"> % CTR</span>
+                        <div class="rek-bud__item number">
+                            <div class="rek-bud__item-title"><span class="rek-bud__item-val number__val" data-from="0"
+                                                                   data-to="3">0</span><span class="rek-bud__item-type"> % CTR</span>
                             </div>
                             <div class="rek-bud__item-text">Показатель <br> кликабельности</div>
                         </div>
-                        <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">45</span><span class="rek-bud__item-type"> % Bonus rate</span>
+                        <div class="rek-bud__item number">
+                            <div class="rek-bud__item-title"><span class="rek-bud__item-val number__val" data-from="0"
+                                                                   data-to="45">0</span><span
+                                        class="rek-bud__item-type"> % Bonus rate</span>
                             </div>
                             <div class="rek-bud__item-text">Показатель отказа <br> поситителей</div>
                         </div>
-                        <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">25</span><span class="rek-bud__item-type"> % ROI</span>
+                        <div class="rek-bud__item number">
+                            <div class="rek-bud__item-title"><span class="rek-bud__item-val number__val" data-from="0"
+                                                                   data-to="25">0</span><span
+                                        class="rek-bud__item-type"> % ROI</span>
                             </div>
                             <div class="rek-bud__item-text">Окупаемость инфестиций <br> в рекламу</div>
                         </div>
@@ -411,36 +445,57 @@
                     <div class="rek-bud__subtitle">Как наша работа влияет на стоимость рекламы</div>
                     <div class="rek-bud__checks">
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="0">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Реклама только <br> для ЦА</div>
                         </div>
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="1">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Исключение <br> не целевых запросов</div>
                         </div>
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="2">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Реклама когда ЦА <br> готова покупать</div>
                         </div>
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="3">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Привлекательные <br> объявления</div>
                         </div>
                     </div>
-                    <button class="rek-bud__button button promotionOpen" type="button">Узнайте стоимость клиента</button>
+                    <button class="rek-bud__button button promotionOpen" type="button">Узнайте стоимость клиента
+                    </button>
                 </section>
             </div>
             <section class="rek-bottom">
                 <div class="bottom">
                     <div class="container2">
                         <div class="bottom__rev">
-                            <? require $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/rev.php'?>
+                            <? require $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/rev.php' ?>
                         </div>
                         <div class="bottom__send">
-                            <? require $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
+                            <? require $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
                         <div class="bottom__footer">
-                            <? require $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
+                            <? require $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>
                     </div>
                 </div>
@@ -450,4 +505,4 @@
 </main>
 <!-- END main -->
 
-<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'] . '/pages/bottom.php' ?>

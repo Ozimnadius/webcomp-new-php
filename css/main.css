@@ -5653,14 +5653,18 @@ input:-webkit-autofill {
         background-color: #000000;
         margin-bottom: 25px;
         padding: 5px; }
-        .rek-bud__check-check:after {
-          content: url("../images/icons/tick.svg"); }
       .rek-bud__check-title {
         color: #ffffff;
         font-size: 25px;
         font-weight: 300;
         line-height: 29.99px;
         text-align: center; }
+      .rek-bud__check-input {
+        display: none; }
+        .rek-bud__check-input:checked + .rek-bud__check-fake {
+          display: block; }
+      .rek-bud__check-fake {
+        display: none; }
     .rek-bud__button {
       width: 286px;
       height: 60px;

@@ -164,6 +164,10 @@ function NumbersCounting(object, settings) {
     this.numbers = object;
     this.itemClass = settings.item || '.number';
     this.time = this.numbers.dataset.timer || '2000';
+    this.parent = this.numbers.parentNode.parentNode;
+    this.graphImg1 = this.parent.querySelector('.promote-result__graph-img1');
+    this.graphImg2 = this.parent.querySelector('.promote-result__graph-img2');
+    let that = this;
 
     this.animateNumbers = function () {
         let numbers = this.numbers,
@@ -178,17 +182,33 @@ function NumbersCounting(object, settings) {
 
             number.classList.add('active');
             let numberObj = new NumberCounting(number, this.time).counting();
+
+            if (this.graphImg1) {
+                this.graphImg1.classList.add('active');
+            }
+            if (this.graphImg2) {
+                this.graphImg2.classList.add('active');
+            }
+
         }
     };
     this.clearValues = function () {
         let numbers = this.numbers,
             numberAll = numbers.querySelectorAll(this.itemClass);
 
+
         for (let i = 0; i < numberAll.length; i++) {
             let number = numberAll[i];
 
             number.classList.remove('active');
             let numberObj = new NumberCounting(number, this.time).clear();
+
+            if (this.graphImg1) {
+                this.graphImg1.classList.remove('active');
+            }
+            if (this.graphImg2) {
+                this.graphImg2.classList.remove('active');
+            }
         }
     }
 
@@ -198,7 +218,8 @@ function ScrollTo(object, f) {
     this.isScrolling = false;
     this.object = object;
     let that = this;
-    let callback = f || function(){};
+    let callback = f || function () {
+    };
 
     window.addEventListener('scroll', throttleScroll, false);
 
@@ -237,6 +258,23 @@ function ScrollTo(object, f) {
     };
 
 
+}
+
+function Graphs(graphs){
+    this.graphs = graphs;
+
+    this.animate = function () {
+        for ( let key in this.graphs){
+            let graph = this.graphs[key];
+            graph.classList.add('active');
+        }
+    };
+    this.clear = function () {
+        for ( let key in this.graphs){
+            let graph = this.graphs[key];
+            graph.classList.remove('active');
+        }
+    };
 }
 
 let numbersAll = document.querySelectorAll('.numbers');
