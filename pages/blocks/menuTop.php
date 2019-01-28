@@ -5,7 +5,7 @@
         </div></a>
     <a class="menu__item" href="/corporate-site.php">
         <div class="menu__item-container">
-            <div class="menu__item-title">Копроративный сайт</div>
+            <div class="menu__item-title">Корпоративный сайт</div>
         </div></a>
     <a class="menu__item" href="/e-commerce.php">
         <div class="menu__item-container">

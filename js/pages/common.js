@@ -130,145 +130,269 @@ function Switches(prop) {
     }
 }
 
-let isScrolling = false;
-window.addEventListener('scroll', throttleScroll, false);
+function NumberCounting(num, time) {
+    this.number = num;
+    this.val = this.number.querySelector('.number__val');
+    this.from = parseInt(this.val.dataset.from);
+    this.to = parseInt(this.val.dataset.to);
+    this.time = time;
+    let that = this;
 
-function throttleScroll(e) {
-    if (isScrolling == false) {
-        window.requestAnimationFrame(function () {
-            scrolling(e);
-            isScrolling = false;
-        });
-    }
-    isScrolling = true;
-}
+    this.counting = function () {
+        let i = that.from,
+            frame = that.time / that.to;
 
-document.addEventListener("DOMContentLoaded", scrolling, false);
+        let numInterval = setInterval(function (e) {
 
-let promoSlides = document.querySelectorAll('.promote-slide'),
-    activePromoteSlide = document.querySelector('.promote-slide');
-if (!activePromoteSlide) {
-    activePromoteSlide = document;
-}
+            if (i <= that.to) {
 
-function scrolling(e) {
-    animateNumbersGraphs();
-}
+                that.val.innerHTML = i;
+                i++;
+            } else {
+                clearInterval(numInterval);
+            }
 
-function animateNumbers() {
-    let numberAll = activePromoteSlide.querySelectorAll('.number'),
-        numbers = activePromoteSlide.querySelector('.numbers');
+        }, frame)
 
-    for (let i = 0; i < numberAll.length; i++) {
-        let number = numberAll[i],
-            val = number.querySelector('.number__val'),
-            from = parseInt(val.dataset.from),
-            to = parseInt(val.dataset.to),
-            time = 2000;
-        if (numbers) {
-            time = numbers.dataset.timer;
-        }
-
-
-        if (number.classList.contains('active')) {
-            continue;
-        }
-
-
-        number.classList.add('active');
-        counting(val, from, to, time);
+    };
+    this.clear = function () {
+        this.val.innerHTML = 0;
     }
 }
 
-function animateNumbersGraphs() {
-    let numberAll = activePromoteSlide.querySelectorAll('.number'),
-        numbers = activePromoteSlide.querySelector('.numbers'),
-        graphImg1 = activePromoteSlide.querySelector('.promote-result__graph-img1'),
-        graphImg2 = activePromoteSlide.querySelector('.promote-result__graph-img2');
+function NumbersCounting(object, settings) {
+    this.numbers = object;
+    this.itemClass = settings.item || '.number';
+    this.time = this.numbers.dataset.timer || '2000';
 
-    for (let i = 0; i < numberAll.length; i++) {
-        let number = numberAll[i],
-            val = number.querySelector('.number__val'),
-            from = parseInt(val.dataset.from),
-            to = parseInt(val.dataset.to),
-            time = 2000;
-        if (numbers) {
-            time = numbers.dataset.timer;
-        }
+    this.animateNumbers = function () {
+        let numbers = this.numbers,
+            numberAll = numbers.querySelectorAll(this.itemClass);
 
+        for (let i = 0; i < numberAll.length; i++) {
+            let number = numberAll[i];
 
-        if (number.classList.contains('active')) {
-            continue;
-        }
+            if (number.classList.contains('active')) {
+                continue;
+            }
 
-
-        if (isFullyVisible(number)) {
             number.classList.add('active');
-            counting(val, from, to, time);
-
-            if (graphImg1) {
-                graphImg1.classList.add('active');
-            }
-            if (graphImg2) {
-                graphImg2.classList.add('active');
-            }
+            let numberObj = new NumberCounting(number, this.time).counting();
         }
-    }
-}
+    };
+    this.clearValues = function () {
+        let numbers = this.numbers,
+            numberAll = numbers.querySelectorAll(this.itemClass);
 
-function resetPromoteSlides() {
-    for (let i = 0; i < promoSlides.length; i++) {
-        let slide = promoSlides[i],
-            numberAll = slide.querySelectorAll('.number'),
-            numbers = slide.querySelector('.numbers'),
-            graphImg1 = slide.querySelector('.promote-result__graph-img1'),
-            graphImg2 = slide.querySelector('.promote-result__graph-img2');
+        for (let i = 0; i < numberAll.length; i++) {
+            let number = numberAll[i];
 
-        for (let j = 0; j < numberAll.length; j++) {
-            let number = numberAll[j],
-                val = number.querySelector('.number__val');
-            val.innerHTML = 0;
             number.classList.remove('active');
-            graphImg1.classList.remove('active');
-            graphImg2.classList.remove('active');
+            let numberObj = new NumberCounting(number, this.time).clear();
         }
+    }
+
+}
+
+function ScrollTo(object, f) {
+    this.isScrolling = false;
+    this.object = object;
+    let that = this;
+    let callback = f || function(){};
+
+    window.addEventListener('scroll', throttleScroll, false);
+
+    this.scrolling = function () {
+        if (that.isFullyVisible(that.object)) {
+            callback();
+        }
+    };
+
+    function throttleScroll(e) {
+        if (that.isScrolling == false) {
+            window.requestAnimationFrame(function () {
+                that.scrolling();
+                that.isScrolling = false;
+            });
+        }
+        that.isScrolling = true;
+    }
+
+    this.isFullyVisible = function () {
+        var elementBoundary = that.object.getBoundingClientRect();
+
+        var top = elementBoundary.top;
+        var bottom = elementBoundary.bottom;
+
+        return ((top >= 0) && (bottom <= window.innerHeight));
+    };
+    this.isPartiallyVisible = function () {
+        var elementBoundary = that.object.getBoundingClientRect();
+
+        var top = elementBoundary.top;
+        var bottom = elementBoundary.bottom;
+        var height = elementBoundary.height;
+
+        return ((top + height >= 0) && (height + window.innerHeight >= bottom));
+    };
+
+
+}
+
+let numbersAll = document.querySelectorAll('.numbers');
+
+if (numbersAll.length) {
+    for (let i = 0; i < numbersAll.length; i++) {
+        let numbers = numbersAll[i];
+        let numbersObj = new NumbersCounting(numbers, {
+            item: '.number'
+        });
+        let scroll = new ScrollTo(numbers, function () {
+            numbersObj.animateNumbers();
+        }).scrolling();
     }
 }
 
-function counting(val, from, to, time) {
-    let i = from,
-        frame = time / to;
 
-    let numInterval = setInterval(function (e) {
-        if (i <= to) {
-            val.innerHTML = i;
-            i++;
-        } else {
-            clearInterval(numInterval);
-        }
-
-    }, frame)
-
-}
-
-function isPartiallyVisible(el) {
-    var elementBoundary = el.getBoundingClientRect();
-
-    var top = elementBoundary.top;
-    var bottom = elementBoundary.bottom;
-    var height = elementBoundary.height;
-
-    return ((top + height >= 0) && (height + window.innerHeight >= bottom));
-}
-
-function isFullyVisible(el) {
-    var elementBoundary = el.getBoundingClientRect();
-
-    var top = elementBoundary.top;
-    var bottom = elementBoundary.bottom;
-
-    return ((top >= 0) && (bottom <= window.innerHeight));
-}
+// let isScrolling = false;
+// window.addEventListener('scroll', throttleScroll, false);
+//
+// function throttleScroll(e) {
+//     if (isScrolling == false) {
+//         window.requestAnimationFrame(function () {
+//             scrolling(e);
+//             isScrolling = false;
+//         });
+//     }
+//     isScrolling = true;
+// }
+//
+// document.addEventListener("DOMContentLoaded", scrolling, false);
+//
+// let promoSlides = document.querySelectorAll('.promote-slide'),
+//     activePromoteSlide = document.querySelector('.promote-slide');
+// if (!activePromoteSlide) {
+//     activePromoteSlide = document;
+// }
+//
+// function scrolling(e) {
+//     animateNumbersGraphs();
+// }
+//
+// function animateNumbers() {
+//     let numberAll = activePromoteSlide.querySelectorAll('.number'),
+//         numbers = activePromoteSlide.querySelector('.numbers');
+//
+//     for (let i = 0; i < numberAll.length; i++) {
+//         let number = numberAll[i],
+//             val = number.querySelector('.number__val'),
+//             from = parseInt(val.dataset.from),
+//             to = parseInt(val.dataset.to),
+//             time = 2000;
+//         if (numbers) {
+//             time = numbers.dataset.timer;
+//         }
+//
+//
+//         if (number.classList.contains('active')) {
+//             continue;
+//         }
+//
+//
+//         number.classList.add('active');
+//         counting(val, from, to, time);
+//     }
+// }
+//
+// function animateNumbersGraphs() {
+//     let numberAll = activePromoteSlide.querySelectorAll('.number'),
+//         numbers = activePromoteSlide.querySelector('.numbers'),
+//         graphImg1 = activePromoteSlide.querySelector('.promote-result__graph-img1'),
+//         graphImg2 = activePromoteSlide.querySelector('.promote-result__graph-img2');
+//
+//     for (let i = 0; i < numberAll.length; i++) {
+//         let number = numberAll[i],
+//             val = number.querySelector('.number__val'),
+//             from = parseInt(val.dataset.from),
+//             to = parseInt(val.dataset.to),
+//             time = 2000;
+//         if (numbers) {
+//             time = numbers.dataset.timer;
+//         }
+//
+//
+//         if (number.classList.contains('active')) {
+//             continue;
+//         }
+//
+//
+//         if (isFullyVisible(number)) {
+//             number.classList.add('active');
+//             counting(val, from, to, time);
+//
+//             if (graphImg1) {
+//                 graphImg1.classList.add('active');
+//             }
+//             if (graphImg2) {
+//                 graphImg2.classList.add('active');
+//             }
+//         }
+//     }
+// }
+//
+// function resetPromoteSlides() {
+//     for (let i = 0; i < promoSlides.length; i++) {
+//         let slide = promoSlides[i],
+//             numberAll = slide.querySelectorAll('.number'),
+//             numbers = slide.querySelector('.numbers'),
+//             graphImg1 = slide.querySelector('.promote-result__graph-img1'),
+//             graphImg2 = slide.querySelector('.promote-result__graph-img2');
+//
+//         for (let j = 0; j < numberAll.length; j++) {
+//             let number = numberAll[j],
+//                 val = number.querySelector('.number__val');
+//             val.innerHTML = 0;
+//             number.classList.remove('active');
+//             graphImg1.classList.remove('active');
+//             graphImg2.classList.remove('active');
+//         }
+//     }
+// }
+//
+// function counting(val, from, to, time) {
+//     let i = from,
+//         frame = time / to;
+//
+//     let numInterval = setInterval(function (e) {
+//         if (i <= to) {
+//             val.innerHTML = i;
+//             i++;
+//         } else {
+//             clearInterval(numInterval);
+//         }
+//
+//     }, frame)
+//
+// }
+//
+// function isPartiallyVisible(el) {
+//     var elementBoundary = el.getBoundingClientRect();
+//
+//     var top = elementBoundary.top;
+//     var bottom = elementBoundary.bottom;
+//     var height = elementBoundary.height;
+//
+//     return ((top + height >= 0) && (height + window.innerHeight >= bottom));
+// }
+//
+// function isFullyVisible(el) {
+//     var elementBoundary = el.getBoundingClientRect();
+//
+//     var top = elementBoundary.top;
+//     var bottom = elementBoundary.bottom;
+//
+//     return ((top >= 0) && (bottom <= window.innerHeight));
+// }
 
 $('select').selectize();
 

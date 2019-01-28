@@ -50,7 +50,7 @@ window.onload = function () {
     function setDevDesc(slide) {
         let logoObj = document.querySelector('.site-dev__img');
         if(logoObj) {
-            descObj = document.querySelectorAll('.site-dev__desc-item')[0].querySelector('.site-dev__desc-val'),
+            let descObj = document.querySelectorAll('.site-dev__desc-item')[0].querySelector('.site-dev__desc-val'),
                 goalObj = document.querySelectorAll('.site-dev__desc-item')[1].querySelector('.site-dev__desc-val'),
                 logo = slide.dataset.logo,
                 desc = slide.dataset.desc,
@@ -118,6 +118,7 @@ window.onload = function () {
             prevEl: '.art-desc__prev',
         }
     });
+
     let textSwiper = new Swiper('.text-desc__swiper', {
         // Optional parameters
         direction: 'horizontal',
@@ -174,9 +175,16 @@ window.onload = function () {
             init: function () {
             },
             slideChange: function (e) {
-                activePromoteSlide = this.slides[this.activeIndex];
-                resetPromoteSlides();
-                animateNumbersGraphs();
+                // activePromoteSlide = this.slides[this.activeIndex];
+                // resetPromoteSlides();
+                // animateNumbersGraphs();
+                let slide = this.slides[this.activeIndex],
+                    numbers = slide.querySelector('.numbers'),
+                    numbersObj = new NumbersCounting(numbers, {
+                        item: '.number'
+                    });
+                    numbersObj.clearValues();
+                    numbersObj.animateNumbers();
             }
         }
     });

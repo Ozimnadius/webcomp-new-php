@@ -1248,7 +1248,7 @@
           }
         }
 
-        &-val {
+        &-val,&-type {
           color: #cc0000;
         }
         &-text {
@@ -1389,44 +1389,190 @@
 }
 
 .vita{
+   &.port {
+     background: url("/images/content/portfolio/project7/bottom.jpg") 0 bottom no-repeat;
+   }
+
+   .port {
+
+     &-lap {
+       &__bottom {
+         background: #f9f9fa;
+       }
+     }
+
+     &-desc {
+       padding-top: 165px;
+       margin-top: -80px;
+       background: #f9f9fa;
+
+       &__title {
+         color: $bg;
+       }
+
+       &__sub {
+         color: $bg;
+       }
+
+       &__item{
+
+         &-title {
+           &:after {
+             background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(#0c0c0c, 0.2) 20%, rgba(#0c0c0c, 0.2) 80%, rgba(255, 255, 255, 0) 100%);
+           }
+         }
+
+         &-val,&-type {
+           color: #633278;
+         }
+         &-text {
+           color: $bg;
+           opacity: 0.5;
+         }
+       }
+     }
+
+     &-slider {
+       background: #f9f9fa;
+       padding-bottom: 180px;
+
+       &__bottom {
+         background: #f9f9fa;
+       }
+
+     }
+
+
+     &-proj {
+
+       &__title {
+         color: $bg;
+       }
+
+       &_1 {
+         background: #f9f9fa;
+         padding-bottom: 260px;
+
+         .port-proj__block {
+
+           &:nth-child(1) {
+             padding: 0 15px 265px 90px;
+           }
+           &:nth-child(2) {
+             padding: 120px 15px 120px 60px;
+             background: $text;
+
+             .port-proj__item {
+               &:nth-child(1) {
+                 margin-bottom: 460px;
+                 padding-left: 40px;
+               }
+             }
+
+           }
+
+           &:nth-child(3) {
+             padding-bottom: 25px;
+           }
+         }
+
+       }
+
+       &_2 {
+         background: #f9f9fa;
+         padding-bottom: 340px;
+
+         .port-proj__block {
+
+           &:nth-child(1) {
+             padding: 0 15px 90px 90px;
+           }
+           &:nth-child(2) {
+             padding: 150px 15px 215px 60px;
+             background: $text;
+
+             .port-proj__item {
+               &:nth-child(1) {
+                 margin-bottom: 1460px;
+                 padding-left: 40px;
+               }
+             }
+           }
+
+           &:nth-child(3) {
+             padding-bottom: 30px;
+
+           }
+         }
+
+       }
+
+       &_3 {
+         background: #f9f9fa;
+         padding-bottom: 0;
+
+         .port-proj__block {
+
+           &:nth-child(1) {
+             padding: 0 15px 90px 90px;
+           }
+
+           &:nth-child(2) {
+             padding: 300px 15px 320px 60px;
+             background: $text;
+           }
+
+         }
+
+       }
+
+       &__left {
+         //z-index: 10;
+         box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14);
+       }
+     }
+
+
+     &-team {
+       padding-top: 170px;
+       background: $text;
+     }
+   }
+ }
+
+.kavkaz{
   &.port {
-    background: url("/images/content/portfolio/project7/bottom.jpg") 0 bottom no-repeat;
+    background: url("/images/content/portfolio/project8/bottom.jpg") 0 bottom no-repeat;
   }
 
   .port {
 
     &-lap {
       &__bottom {
-        background: #f9f9fa;
+        background: #1d1d1d;
       }
     }
 
     &-desc {
       padding-top: 165px;
       margin-top: -80px;
-      background: #f9f9fa;
+      background: #1d1d1d;
 
-      &__title {
-        color: $bg;
-      }
-
-      &__sub {
-        color: $bg;
-      }
 
       &__item{
 
         &-title {
           &:after {
+            display: none;
             background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(#0c0c0c, 0.2) 20%, rgba(#0c0c0c, 0.2) 80%, rgba(255, 255, 255, 0) 100%);
           }
         }
 
-        &-val {
-          color: #633278;
+        &-val,&-type {
+          color: #b90808;
         }
         &-text {
-          color: $bg;
+          color: $text;
           opacity: 0.5;
         }
       }
@@ -1437,7 +1583,8 @@
       padding-bottom: 180px;
 
       &__bottom {
-        background: #f9f9fa;
+        height: 550px;
+        background: #7d020e;
       }
 
     }
@@ -1445,12 +1592,9 @@
 
     &-proj {
 
-      &__title {
-        color: $bg;
-      }
 
       &_1 {
-        background: #f9f9fa;
+        background: #7d020e;
         padding-bottom: 260px;
 
         .port-proj__block {
@@ -1459,48 +1603,57 @@
             padding: 0 15px 265px 90px;
           }
           &:nth-child(2) {
-            padding: 120px 15px 120px 60px;
+            padding: 120px 15px 40px 60px;
             background: $text;
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 460px;
+                margin-bottom: 253px;
                 padding-left: 40px;
+              }
+              &:nth-child(2) {
+                margin-bottom: 253px;
+              }
+              &:nth-child(3) {
+                margin-bottom: 310px;
+              }
+              &:nth-child(4) {
+                margin-bottom: 185px;
               }
             }
 
           }
 
           &:nth-child(3) {
-            padding-bottom: 25px;
+            padding-bottom: 150px;
           }
         }
 
       }
 
       &_2 {
-        background: #f9f9fa;
-        padding-bottom: 340px;
+        background: #7d020e;
+        padding-bottom: 300px;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
+            padding: 0 15px 112px 90px;
           }
           &:nth-child(2) {
-            padding: 150px 15px 215px 60px;
+            padding: 200px 15px 390px 60px;
             background: $text;
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 1460px;
+                margin-bottom: 590px;
                 padding-left: 40px;
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 30px;
+            padding-bottom: 120px;
 
           }
         }
@@ -1508,18 +1661,27 @@
       }
 
       &_3 {
-        background: #f9f9fa;
+        background: #7d020e;
         padding-bottom: 0;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
+            padding: 0 15px 75px 90px;
           }
 
           &:nth-child(2) {
-            padding: 300px 15px 320px 60px;
+            padding: 160px 15px 470px 60px;
             background: $text;
+
+            .port-proj__item {
+              &:nth-child(1) {
+                margin-bottom: 320px;
+              }
+              &:nth-child(2) {
+                margin-bottom: 340px;
+              }
+            }
           }
 
         }
@@ -1534,7 +1696,7 @@
 
 
     &-team {
-      padding-top: 170px;
+      padding-top: 240px;
       background: $text;
     }
   }
