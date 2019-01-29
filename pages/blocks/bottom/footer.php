@@ -4,20 +4,20 @@
         <div class="footer__cols">
             <div class="footer__col">
                 <div class="footer__items">
-                    <a class="footer__item" href="/promote/seo.php">SEO продвижение сайта</a>
+                    <a class="footer__item" href="/promote.php">Продвижение сайта</a>
                     <a class="footer__item" href="/promote/reklama.php">Контекстная реклама</a>
                 </div>
             </div>
             <div class="footer__col">
                 <div class="footer__items">
-                    <a class="footer__item" href="/">Размещение на выделенном сервере</a>
+                    <a class="footer__item" href="/hosting.php">Размещение на выделенном сервере</a>
                     <a class="footer__item" href="/promote/smm.php">Продвижение в социальных сетях</a>
                 </div>
             </div>
             <div class="footer__col">
                 <div class="footer__items">
-                    <a class="footer__item" href="/">Наполнение сайтов</a>
-                    <a class="footer__item" href="/">Написание контента</a>
+                    <a class="footer__item" href="/portfolio.php">Примеры работ</a>
+                    <a class="footer__item" href="/news.php">Полезная информация</a>
                 </div>
             </div>
         </div>

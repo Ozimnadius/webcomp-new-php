@@ -191,9 +191,6 @@
                         <section class="theme-price">
                             <h1 class="theme-price__title">Стоимость создания интернет-магазина</h1>
                             <div class="theme-price__switches">
-                                <div class="theme-price__switches-list">
-                                    <button class="active theme-price__switch" data-id="1"><span class="theme-price__switch-title">Интернет-магазин</span></button>
-                                </div>
                                 <div class="theme-price__line">
                                     <div class="theme-price__subline"></div>
                                 </div>

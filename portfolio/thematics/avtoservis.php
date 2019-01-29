@@ -10,13 +10,13 @@
                     <div class="rek-first__bread">
                         <div class="bread"><a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/promote.php">Портфолио</a>
-                            <a class="bread__item active">Сайт для автосалона</a>
+                            <a class="bread__item active">Сайт для автосервиса</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Сайт для автосалона</div>
+                    <div class="rek-first__title">Сайт для автосервиса</div>
                     <div class="rek-first__subtitle">
                         Комплексный подход к разработке вашего проекта <br>
-                        с учётом особенностей вашего автосалона <br>
+                        с учётом особенностей вашего автосервиса<br>
                         Гарантированные результат с минимальными вложениями
                     </div>
                     <button class="rek-first__button callorderOpen" type="button">
@@ -36,7 +36,7 @@
             </section>
             <div class="container3">
                 <section class="rek-desc">
-                    <div class="rek-desc__title">Мы умеем создавать сайты для автосалона</div>
+                    <div class="rek-desc__title">Мы умеем создавать сайты для автосервиса</div>
                     <div class="rek-desc__content content">
                         <div class="rek-desc__block">
                             <h3>Кому подходит контекстная реклама</h3>
@@ -105,19 +105,19 @@
                                     <div class="swiper-slide site-dev__slide" >
                                         <div class="proportion proportion_750x470"></div>
                                         <div class="site-dev__slide-img">
-                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/avtosalon1.png">
+                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/avtoservis1.png">
                                         </div>
                                     </div>
                                     <div class="swiper-slide site-dev__slide" >
                                         <div class="proportion proportion_750x470"></div>
                                         <div class="site-dev__slide-img">
-                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/avtosalon2.png">
+                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/avtoservis2.jpg">
                                         </div>
                                     </div>
                                     <div class="swiper-slide site-dev__slide" >
                                         <div class="proportion proportion_750x470"></div>
                                         <div class="site-dev__slide-img">
-                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/avtosalon3.png">
+                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/avtoservis3.png">
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@
                     </div>
                 </section>
                 <section class="theme-price">
-                    <h1 class="theme-price__title">Стоимость создания сайта для автосалона</h1>
+                    <h1 class="theme-price__title">Стоимость создания сайта для автосервиса</h1>
                     <div class="theme-price__switches">
                         <div class="theme-price__switches-list">
                             <button class="active theme-price__switch" data-id="1"><span class="theme-price__switch-title">Корпоративный сайт</span></button>
@@ -545,13 +545,13 @@
                         </div>
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
-                                <span class="rek-bud__item-val number__val"  data-from="0" data-to="10">0</span><span class="rek-bud__item-type"> % Bonus rate</span>
+                                <span class="rek-bud__item-val number__val" data-from="0" data-to="10">0</span><span class="rek-bud__item-type"> % Bonus rate</span>
                             </div>
                             <div class="rek-bud__item-text">Снижение показателя<br>отказа</div>
                         </div>
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
-                                <span class="rek-bud__item-val number__val" data-from="0" data-to="25">0</span><span class="rek-bud__item-type"> % ROI</span>
+                                <span class="rek-bud__item-val  number__val"  data-from="0" data-to="25">0</span><span class="rek-bud__item-type"> % ROI</span>
                             </div>
                             <div class="rek-bud__item-text">Окупаемость инфестиций <br> в рекламу</div>
                         </div>

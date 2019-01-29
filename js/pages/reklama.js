@@ -12,7 +12,7 @@
     }
 
     let checboxes = document.querySelectorAll('.rek-bud__check-input');
-    if (checboxes) {
+    if (checboxes.length) {
         let numbers = document.querySelector('.rek-bud__list'),
             numberAll = numbers.querySelectorAll('.number'),
             time = numbers.dataset.timer;

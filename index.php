@@ -276,7 +276,7 @@
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project7/logo.png"></div></a>
-                        <a class="index-cat__item" href="/portfolio/project.php" title="Промо-сайт" style="background-color:#1D1D1D">
+                        <a class="index-cat__item" href="/portfolio/kavkaz.php" title="Промо-сайт" style="background-color:#1D1D1D">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project8/logo.png"></div></a>

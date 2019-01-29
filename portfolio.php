@@ -137,8 +137,8 @@
                     <div class="theme-iss__list">
                         <div class="theme-iss__col">
                             <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Автосалоны</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Автосервисы</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Автозапчасти</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/avtoservis.php">Автосервисы</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/avtozapchasti.php">Автозапчасти</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Бухгалтерские услуги</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Гостиницы и отели</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Агентства недвижимости</a>
