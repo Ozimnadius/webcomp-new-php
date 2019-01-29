@@ -7018,6 +7018,267 @@ input:-webkit-autofill {
   padding-top: 240px;
   background: #ffffff; }
 
+.santehnika.port {
+  background: url("/images/content/portfolio/project9/bottom.jpg") 0 bottom no-repeat; }
+
+.santehnika .port-lap__bottom {
+  background: #f8f9fb; }
+
+.santehnika .port-desc {
+  padding-top: 165px;
+  margin-top: 0;
+  background: #f8f9fb; }
+  .santehnika .port-desc__title, .santehnika .port-desc__sub {
+    color: #000000; }
+  .santehnika .port-desc__item-val, .santehnika .port-desc__item-type {
+    color: #c02525; }
+  .santehnika .port-desc__item-text {
+    color: #000000;
+    opacity: .5; }
+
+.santehnika .port-slider {
+  background: #ffffff;
+  padding-bottom: 170px; }
+  .santehnika .port-slider__bottom {
+    background: #f8f9fb; }
+
+.santehnika .port-proj_1 {
+  background: #f8f9fb;
+  padding-bottom: 260px; }
+  .santehnika .port-proj_1 .port-proj__block:nth-child(1) {
+    padding: 0 15px 275px 90px; }
+  .santehnika .port-proj_1 .port-proj__block:nth-child(2) {
+    padding: 250px 15px 524px 100px;
+    background: #ffffff; }
+    .santehnika .port-proj_1 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 650px; }
+    .santehnika .port-proj_1 .port-proj__block:nth-child(2) .port-proj__item:nth-child(2) {
+      margin-bottom: 590px; }
+  .santehnika .port-proj_1 .port-proj__block:nth-child(3) {
+    padding-bottom: 235px; }
+
+.santehnika .port-proj_2 {
+  background: #f8f9fb;
+  padding-bottom: 280px; }
+  .santehnika .port-proj_2 .port-proj__block:nth-child(1) {
+    padding: 0 15px 108px 100px; }
+  .santehnika .port-proj_2 .port-proj__block:nth-child(2) {
+    background: #ffffff;
+    padding: 390px 15px 1135px 100px; }
+  .santehnika .port-proj_2 .port-proj__block:nth-child(3) {
+    padding-bottom: 160px; }
+
+.santehnika .port-proj_3 {
+  background: #f8f9fb;
+  padding-bottom: 240px; }
+  .santehnika .port-proj_3 .port-proj__block:nth-child(1) {
+    padding: 0 15px 90px 90px; }
+  .santehnika .port-proj_3 .port-proj__block:nth-child(2) {
+    padding: 140px 15px 170px 100px;
+    background: #ffffff; }
+    .santehnika .port-proj_3 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 265px; }
+    .santehnika .port-proj_3 .port-proj__block:nth-child(2) .port-proj__item:nth-child(2) {
+      margin-bottom: 442px; }
+  .santehnika .port-proj_3 .port-proj__block:nth-child(3) {
+    padding-bottom: 245px; }
+
+.santehnika .port-proj_4 {
+  background: #f8f9fb;
+  padding-bottom: 240px; }
+  .santehnika .port-proj_4 .port-proj__block:nth-child(1) {
+    padding: 0 15px 108px 90px; }
+  .santehnika .port-proj_4 .port-proj__block:nth-child(2) {
+    padding: 200px 15px 200px 100px;
+    background: #ffffff; }
+    .santehnika .port-proj_4 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 400px; }
+    .santehnika .port-proj_4 .port-proj__block:nth-child(2) .port-proj__item:nth-child(2) {
+      margin-bottom: 330px; }
+  .santehnika .port-proj_4 .port-proj__block:nth-child(3) {
+    padding: 80px 15px 60px 100px; }
+
+.santehnika .port-proj_5 {
+  padding-bottom: 0;
+  background: #f8f9fb; }
+  .santehnika .port-proj_5 .port-proj__block:nth-child(1) {
+    padding: 0 15px 108px 90px; }
+  .santehnika .port-proj_5 .port-proj__block:nth-child(2) {
+    padding: 70px 15px 720px 100px;
+    background: #ffffff; }
+    .santehnika .port-proj_5 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 550px; }
+    .santehnika .port-proj_5 .port-proj__block:nth-child(2) .port-proj__item:nth-child(2) {
+      margin-bottom: 700px; }
+
+.santehnika .port-proj__left {
+  -webkit-box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14);
+  box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14); }
+
+.santehnika .port-proj__title {
+  color: #b41819; }
+
+.santehnika .port-pages {
+  background: #ffffff;
+  padding: 250px 145px 100px 100px; }
+  .santehnika .port-pages__title {
+    color: #b41819; }
+  .santehnika .port-pages-bottom {
+    background: #ffffff;
+    padding-bottom: 850px; }
+  .santehnika .port-pages__imgs {
+    width: 1571px;
+    height: 652px;
+    top: 400px;
+    left: 0; }
+
+.santehnika .port-adapt__middle {
+  background: #b21f1f; }
+
+.santehnika .port-adapt__bottom {
+  padding: 160px 130px;
+  padding-bottom: 0; }
+
+.santehnika .port-team {
+  padding-top: 240px;
+  background: #ffffff; }
+
+.santehnika__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .santehnika__title-right {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: none; }
+
+.santehnika__subtitle {
+  opacity: 0.5;
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+  color: #000000;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 20px; }
+
+.animals.port {
+  background: url("/images/content/portfolio/project10/bottom.jpg") 0 bottom no-repeat; }
+
+.animals .port-lap__bottom {
+  background: #2b7de0; }
+
+.animals .port-desc {
+  padding-top: 165px;
+  margin-top: 0;
+  background: #2b7de0; }
+
+.animals .port-slider {
+  background: #ffffff;
+  padding-bottom: 170px; }
+  .animals .port-slider__bottom {
+    background: #2b7de0; }
+
+.animals .port-proj_1 {
+  background: #2b7de0;
+  padding-bottom: 320px; }
+  .animals .port-proj_1 .port-proj__block:nth-child(1) {
+    padding: 0 15px 90px 90px; }
+  .animals .port-proj_1 .port-proj__block:nth-child(2) {
+    padding: 140px 15px 140px 100px;
+    background: #ffffff; }
+    .animals .port-proj_1 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 420px; }
+    .animals .port-proj_1 .port-proj__block:nth-child(2) .port-proj__item:nth-child(2) {
+      margin-bottom: 590px; }
+    .animals .port-proj_1 .port-proj__block:nth-child(2) .port-proj__item:nth-child(3) {
+      margin-bottom: 160px; }
+  .animals .port-proj_1 .port-proj__block:nth-child(3) {
+    padding-bottom: 120px; }
+
+.animals .port-proj_2 {
+  background: #2b7de0;
+  padding-bottom: 340px; }
+  .animals .port-proj_2 .port-proj__block:nth-child(1) {
+    padding: 0 15px 290px 100px; }
+  .animals .port-proj_2 .port-proj__block:nth-child(2) {
+    background: #ffffff;
+    padding: 240px 15px 470px 100px; }
+  .animals .port-proj_2 .port-proj__block:nth-child(3) {
+    padding-bottom: 150px; }
+
+.animals .port-proj_3 {
+  background: #2b7de0;
+  padding-bottom: 0; }
+  .animals .port-proj_3 .port-proj__block:nth-child(1) {
+    padding: 0 15px 160px 90px; }
+  .animals .port-proj_3 .port-proj__block:nth-child(2) {
+    padding: 700px 15px 70px 100px;
+    background: #ffffff; }
+    .animals .port-proj_3 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 950px; }
+
+.animals .port-proj__left {
+  -webkit-box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14);
+  box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14); }
+
+.animals .port-proj__title {
+  color: #ffffff; }
+
+.animals .port-pages {
+  background: #ffffff;
+  padding: 250px 145px 100px 100px; }
+  .animals .port-pages__title {
+    color: #2b7de0; }
+  .animals .port-pages-bottom {
+    background: #ffffff;
+    padding-bottom: 850px; }
+  .animals .port-pages__imgs {
+    width: 1563px;
+    height: 742px;
+    top: 400px;
+    left: 0; }
+
+.animals .port-adapt__middle {
+  background: #2b7de0; }
+
+.animals .port-adapt__bottom {
+  padding: 160px 130px;
+  padding-bottom: 0; }
+
+.animals .port-team {
+  padding-top: 240px;
+  background: #ffffff; }
+
+.animals__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .animals__title-right {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: none; }
+
+.animals__subtitle {
+  opacity: 0.5;
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+  color: #000000;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 20px; }
+
 /*-----------------SECTION-HOSTING--------------------*/
 .host {
   background: url("../images/bg/hostingBg.jpg") 0 0 no-repeat;

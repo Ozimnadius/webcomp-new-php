@@ -16,6 +16,7 @@
       left: 0;
       right: 0;
       overflow: hidden;
+
       &-video {
         width: 100%;
       }
@@ -30,7 +31,6 @@
       flex-direction: column;
       align-items: center;
     }
-
 
 
     &__bottom {
@@ -962,7 +962,7 @@
             padding: 0 15px 748px 80px;
           }
 
-          &:nth-child(2){
+          &:nth-child(2) {
             background: #f4b953;
             padding: 100px 15px 70px 50px;
 
@@ -973,10 +973,11 @@
             }
           }
 
-          &:nth-child(3){
+          &:nth-child(3) {
             padding-bottom: 1280px;
           }
-          &:nth-child(4){
+
+          &:nth-child(4) {
             padding: 60px 15px 250px 50px;
 
             .port-proj__item {
@@ -1097,6 +1098,7 @@
             padding: 0 15px 90px 90px;
             background: #2f4051;
           }
+
           &:nth-child(2) {
             padding: 70px 15px 346px 100px;
             background: $text;
@@ -1105,6 +1107,7 @@
               &:nth-child(1) {
                 margin-bottom: 750px;
               }
+
               &:nth-child(2) {
                 margin-bottom: 700px;
               }
@@ -1120,6 +1123,7 @@
               &-title {
                 color: $text;
               }
+
               &-desc {
                 color: $text;
               }
@@ -1139,6 +1143,7 @@
             padding: 0 15px 90px 90px;
             background: #2f4051;
           }
+
           &:nth-child(2) {
             padding: 550px 15px 340px 60px;
             background: $text;
@@ -1153,27 +1158,28 @@
       }
 
       &_3 {
-         background: #2f4051;
-         padding-bottom: 330px;
+        background: #2f4051;
+        padding-bottom: 330px;
 
-         .port-proj__block {
+        .port-proj__block {
 
-           &:nth-child(1) {
-             padding: 0 15px 90px 90px;
-             background: #2f4051;
-           }
-           &:nth-child(2) {
-             padding: 560px 15px 430px 60px;
-             background: $text;
-           }
+          &:nth-child(1) {
+            padding: 0 15px 90px 90px;
+            background: #2f4051;
+          }
 
-           &:nth-child(3) {
-             padding-bottom: 180px;
-             background: #2f4051;
-           }
-         }
+          &:nth-child(2) {
+            padding: 560px 15px 430px 60px;
+            background: $text;
+          }
 
-       }
+          &:nth-child(3) {
+            padding-bottom: 180px;
+            background: #2f4051;
+          }
+        }
+
+      }
 
       &_4 {
         background: $text;
@@ -1185,6 +1191,7 @@
             padding: 0 15px 210px 90px;
             background: #2f4051;
           }
+
           &:nth-child(2) {
             padding: 180px 15px 180px 60px;
             background: $text;
@@ -1214,7 +1221,7 @@
   }
 }
 
-.svda{
+.svda {
   &.port {
     background: url("/images/content/portfolio/project6/bottom.jpg") 0 bottom no-repeat;
   }
@@ -1240,7 +1247,7 @@
         color: $bg;
       }
 
-      &__item{
+      &__item {
 
         &-title {
           &:after {
@@ -1248,9 +1255,10 @@
           }
         }
 
-        &-val,&-type {
+        &-val, &-type {
           color: #cc0000;
         }
+
         &-text {
           color: $bg;
           opacity: 0.5;
@@ -1288,6 +1296,7 @@
             background: #252525;
             padding: 0 15px 90px 90px;
           }
+
           &:nth-child(2) {
             padding: 320px 15px 100px 60px;
             background: $text;
@@ -1297,9 +1306,11 @@
                 margin-bottom: 240px;
                 padding-left: 40px;
               }
+
               &:nth-child(2) {
                 margin-bottom: 270px;
               }
+
               &:nth-child(3) {
                 margin-bottom: 378px;
               }
@@ -1323,6 +1334,7 @@
           &:nth-child(1) {
             padding: 0 15px 250px 90px;
           }
+
           &:nth-child(2) {
             padding: 550px 15px 893px 60px;
             background: $text;
@@ -1366,6 +1378,7 @@
             padding: 0 15px 210px 90px;
             background: #2f4051;
           }
+
           &:nth-child(2) {
             padding: 180px 15px 180px 60px;
             background: $text;
@@ -1388,159 +1401,162 @@
   }
 }
 
-.vita{
-   &.port {
-     background: url("/images/content/portfolio/project7/bottom.jpg") 0 bottom no-repeat;
-   }
+.vita {
+  &.port {
+    background: url("/images/content/portfolio/project7/bottom.jpg") 0 bottom no-repeat;
+  }
 
-   .port {
+  .port {
 
-     &-lap {
-       &__bottom {
-         background: #f9f9fa;
-       }
-     }
+    &-lap {
+      &__bottom {
+        background: #f9f9fa;
+      }
+    }
 
-     &-desc {
-       padding-top: 165px;
-       margin-top: -80px;
-       background: #f9f9fa;
+    &-desc {
+      padding-top: 165px;
+      margin-top: -80px;
+      background: #f9f9fa;
 
-       &__title {
-         color: $bg;
-       }
+      &__title {
+        color: $bg;
+      }
 
-       &__sub {
-         color: $bg;
-       }
+      &__sub {
+        color: $bg;
+      }
 
-       &__item{
+      &__item {
 
-         &-title {
-           &:after {
-             background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(#0c0c0c, 0.2) 20%, rgba(#0c0c0c, 0.2) 80%, rgba(255, 255, 255, 0) 100%);
-           }
-         }
+        &-title {
+          &:after {
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(#0c0c0c, 0.2) 20%, rgba(#0c0c0c, 0.2) 80%, rgba(255, 255, 255, 0) 100%);
+          }
+        }
 
-         &-val,&-type {
-           color: #633278;
-         }
-         &-text {
-           color: $bg;
-           opacity: 0.5;
-         }
-       }
-     }
+        &-val, &-type {
+          color: #633278;
+        }
 
-     &-slider {
-       background: #f9f9fa;
-       padding-bottom: 180px;
+        &-text {
+          color: $bg;
+          opacity: 0.5;
+        }
+      }
+    }
 
-       &__bottom {
-         background: #f9f9fa;
-       }
+    &-slider {
+      background: #f9f9fa;
+      padding-bottom: 180px;
 
-     }
+      &__bottom {
+        background: #f9f9fa;
+      }
 
-
-     &-proj {
-
-       &__title {
-         color: $bg;
-       }
-
-       &_1 {
-         background: #f9f9fa;
-         padding-bottom: 260px;
-
-         .port-proj__block {
-
-           &:nth-child(1) {
-             padding: 0 15px 265px 90px;
-           }
-           &:nth-child(2) {
-             padding: 120px 15px 120px 60px;
-             background: $text;
-
-             .port-proj__item {
-               &:nth-child(1) {
-                 margin-bottom: 460px;
-                 padding-left: 40px;
-               }
-             }
-
-           }
-
-           &:nth-child(3) {
-             padding-bottom: 25px;
-           }
-         }
-
-       }
-
-       &_2 {
-         background: #f9f9fa;
-         padding-bottom: 340px;
-
-         .port-proj__block {
-
-           &:nth-child(1) {
-             padding: 0 15px 90px 90px;
-           }
-           &:nth-child(2) {
-             padding: 150px 15px 215px 60px;
-             background: $text;
-
-             .port-proj__item {
-               &:nth-child(1) {
-                 margin-bottom: 1460px;
-                 padding-left: 40px;
-               }
-             }
-           }
-
-           &:nth-child(3) {
-             padding-bottom: 30px;
-
-           }
-         }
-
-       }
-
-       &_3 {
-         background: #f9f9fa;
-         padding-bottom: 0;
-
-         .port-proj__block {
-
-           &:nth-child(1) {
-             padding: 0 15px 90px 90px;
-           }
-
-           &:nth-child(2) {
-             padding: 300px 15px 320px 60px;
-             background: $text;
-           }
-
-         }
-
-       }
-
-       &__left {
-         //z-index: 10;
-         box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14);
-       }
-     }
+    }
 
 
-     &-team {
-       padding-top: 170px;
-       background: $text;
-     }
-   }
- }
+    &-proj {
 
-.kavkaz{
+      &__title {
+        color: $bg;
+      }
+
+      &_1 {
+        background: #f9f9fa;
+        padding-bottom: 260px;
+
+        .port-proj__block {
+
+          &:nth-child(1) {
+            padding: 0 15px 265px 90px;
+          }
+
+          &:nth-child(2) {
+            padding: 120px 15px 120px 60px;
+            background: $text;
+
+            .port-proj__item {
+              &:nth-child(1) {
+                margin-bottom: 460px;
+                padding-left: 40px;
+              }
+            }
+
+          }
+
+          &:nth-child(3) {
+            padding-bottom: 25px;
+          }
+        }
+
+      }
+
+      &_2 {
+        background: #f9f9fa;
+        padding-bottom: 340px;
+
+        .port-proj__block {
+
+          &:nth-child(1) {
+            padding: 0 15px 90px 90px;
+          }
+
+          &:nth-child(2) {
+            padding: 150px 15px 215px 60px;
+            background: $text;
+
+            .port-proj__item {
+              &:nth-child(1) {
+                margin-bottom: 1460px;
+                padding-left: 40px;
+              }
+            }
+          }
+
+          &:nth-child(3) {
+            padding-bottom: 30px;
+
+          }
+        }
+
+      }
+
+      &_3 {
+        background: #f9f9fa;
+        padding-bottom: 0;
+
+        .port-proj__block {
+
+          &:nth-child(1) {
+            padding: 0 15px 90px 90px;
+          }
+
+          &:nth-child(2) {
+            padding: 300px 15px 320px 60px;
+            background: $text;
+          }
+
+        }
+
+      }
+
+      &__left {
+        //z-index: 10;
+        box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14);
+      }
+    }
+
+
+    &-team {
+      padding-top: 170px;
+      background: $text;
+    }
+  }
+}
+
+.kavkaz {
   &.port {
     background: url("/images/content/portfolio/project8/bottom.jpg") 0 bottom no-repeat;
   }
@@ -1559,7 +1575,7 @@
       background: #1d1d1d;
 
 
-      &__item{
+      &__item {
 
         &-title {
           &:after {
@@ -1568,9 +1584,10 @@
           }
         }
 
-        &-val,&-type {
+        &-val, &-type {
           color: #b90808;
         }
+
         &-text {
           color: $text;
           opacity: 0.5;
@@ -1602,6 +1619,7 @@
           &:nth-child(1) {
             padding: 0 15px 265px 90px;
           }
+
           &:nth-child(2) {
             padding: 120px 15px 40px 60px;
             background: $text;
@@ -1611,12 +1629,15 @@
                 margin-bottom: 253px;
                 padding-left: 40px;
               }
+
               &:nth-child(2) {
                 margin-bottom: 253px;
               }
+
               &:nth-child(3) {
                 margin-bottom: 310px;
               }
+
               &:nth-child(4) {
                 margin-bottom: 185px;
               }
@@ -1640,6 +1661,7 @@
           &:nth-child(1) {
             padding: 0 15px 112px 90px;
           }
+
           &:nth-child(2) {
             padding: 200px 15px 390px 60px;
             background: $text;
@@ -1678,6 +1700,7 @@
               &:nth-child(1) {
                 margin-bottom: 320px;
               }
+
               &:nth-child(2) {
                 margin-bottom: 340px;
               }
@@ -1699,5 +1722,474 @@
       padding-top: 240px;
       background: $text;
     }
+  }
+}
+
+.santehnika {
+
+  &.port {
+    background: url("/images/content/portfolio/project9/bottom.jpg") 0 bottom no-repeat;
+  }
+
+  .port {
+
+    &-lap {
+      &__bottom {
+        background: #f8f9fb;
+      }
+    }
+
+    &-desc {
+      padding-top: 165px;
+      margin-top: 0;
+      background: #f8f9fb;
+
+      &__title, &__sub {
+        color: $bg;
+      }
+
+      &__item {
+        &-val, &-type {
+          color: #c02525;
+        }
+
+        &-text {
+          color: $bg;
+          opacity: .5;
+        }
+      }
+    }
+
+    &-slider {
+      background: $text;
+      padding-bottom: 170px;
+
+      &__bottom {
+        background: #f8f9fb;
+      }
+
+    }
+
+    &-proj {
+
+      &_1 {
+        background: #f8f9fb;
+        padding-bottom: 260px;
+
+        .port-proj__block {
+
+          &:nth-child(1) {
+            padding: 0 15px 275px 90px;
+          }
+
+          &:nth-child(2) {
+            padding: 250px 15px 524px 100px;
+            background: $text;
+
+            .port-proj__item {
+              &:nth-child(1) {
+                margin-bottom: 650px;
+              }
+
+              &:nth-child(2) {
+                margin-bottom: 590px;
+              }
+            }
+          }
+
+          &:nth-child(3) {
+            padding-bottom: 235px;
+          }
+        }
+
+      }
+
+      &_2 {
+        background: #f8f9fb;
+        padding-bottom: 280px;
+
+        .port-proj__block {
+          &:nth-child(1) {
+            padding: 0 15px 108px 100px;
+          }
+
+          &:nth-child(2) {
+            background: $text;
+            padding: 390px 15px 1135px 100px;
+          }
+
+          &:nth-child(3) {
+            padding-bottom: 160px;
+          }
+        }
+      }
+
+      &_3 {
+        background: #f8f9fb;
+        padding-bottom: 240px;
+
+        .port-proj__block {
+
+
+          &:nth-child(1) {
+            padding: 0 15px 90px 90px;
+          }
+
+          &:nth-child(2) {
+            padding: 140px 15px 170px 100px;
+            background: $text;
+
+            .port-proj__item {
+              &:nth-child(1) {
+                margin-bottom: 265px;
+              }
+
+              &:nth-child(2) {
+                margin-bottom: 442px;
+              }
+            }
+          }
+
+          &:nth-child(3) {
+            padding-bottom: 245px;
+          }
+        }
+
+      }
+
+      &_4 {
+        background: #f8f9fb;
+        padding-bottom: 240px;
+
+        .port-proj__block {
+
+
+          &:nth-child(1) {
+            padding: 0 15px 108px 90px;
+          }
+
+          &:nth-child(2) {
+            padding: 200px 15px 200px 100px;
+            background: $text;
+
+            .port-proj__item {
+              &:nth-child(1) {
+                margin-bottom: 400px;
+              }
+
+              &:nth-child(2) {
+                margin-bottom: 330px;
+              }
+            }
+          }
+
+          &:nth-child(3) {
+            padding: 80px 15px 60px 100px;
+          }
+        }
+
+      }
+
+      &_5 {
+        padding-bottom: 0;
+        background: #f8f9fb;
+
+        .port-proj__block {
+
+          &:nth-child(1) {
+            padding: 0 15px 108px 90px;
+          }
+
+          &:nth-child(2) {
+            padding: 70px 15px 720px 100px;
+            background: $text;
+
+            .port-proj__item {
+              &:nth-child(1) {
+                margin-bottom: 550px;
+              }
+
+              &:nth-child(2) {
+                margin-bottom: 700px;
+              }
+            }
+          }
+        }
+
+      }
+
+
+      &__left {
+        //z-index: 10;
+        box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14);
+      }
+
+      &__title {
+        color: #b41819;
+      }
+    }
+
+    &-pages {
+      background: #ffffff;
+      padding: 250px 145px 100px 100px;
+
+      &__title {
+        color: #b41819;
+      }
+
+      &-bottom {
+        background: $text;
+        padding-bottom: 850px;
+      }
+
+
+      &__imgs {
+        width: 1571px;
+        height: 652px;
+        top: 400px;
+        left: 0;
+      }
+    }
+
+    &-adapt {
+
+      &__middle {
+        background: #b21f1f;
+      }
+
+      &__bottom {
+        padding: 160px 130px;
+        padding-bottom: 0;
+      }
+    }
+
+    &-team {
+      padding-top: 240px;
+      background: $text;
+    }
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-right {
+      font-size: 18px;
+      font-weight: 100;
+      text-transform: none;
+    }
+  }
+
+  &__subtitle {
+    opacity: 0.5;
+    text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+    color: $bg;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+}
+
+.animals {
+
+  &.port {
+    background: url("/images/content/portfolio/project10/bottom.jpg") 0 bottom no-repeat;
+  }
+
+  .port {
+
+    &-lap {
+      &__bottom {
+        background: #2b7de0;
+      }
+    }
+
+    &-desc {
+      padding-top: 165px;
+      margin-top: 0;
+      background: #2b7de0;
+
+      &__title, &__sub {
+        //color: $bg;
+      }
+
+      &__item {
+        &-val, &-type {
+          //color: #c02525;
+        }
+
+        &-text {
+          //color: $bg;
+          //opacity: .5;
+        }
+      }
+    }
+
+    &-slider {
+      background: $text;
+      padding-bottom: 170px;
+
+      &__bottom {
+        background: #2b7de0;
+      }
+
+    }
+
+    &-proj {
+
+      &_1 {
+        background: #2b7de0;
+        padding-bottom: 320px;
+
+        .port-proj__block {
+
+          &:nth-child(1) {
+            padding: 0 15px 90px 90px;
+          }
+
+          &:nth-child(2) {
+            padding: 140px 15px 140px 100px;
+            background: $text;
+
+            .port-proj__item {
+              &:nth-child(1) {
+                margin-bottom: 420px;
+              }
+
+              &:nth-child(2) {
+                margin-bottom: 590px;
+              }
+              &:nth-child(3) {
+                margin-bottom: 160px;
+              }
+            }
+          }
+
+          &:nth-child(3) {
+            padding-bottom: 120px;
+          }
+        }
+
+      }
+
+      &_2 {
+        background: #2b7de0;
+        padding-bottom: 340px;
+
+        .port-proj__block {
+          &:nth-child(1) {
+            padding: 0 15px 290px 100px;
+          }
+
+          &:nth-child(2) {
+            background: $text;
+            padding: 240px 15px 470px 100px;
+          }
+
+          &:nth-child(3) {
+            padding-bottom: 150px;
+          }
+        }
+      }
+
+      &_3 {
+        background: #2b7de0;
+        padding-bottom: 0;
+
+        .port-proj__block {
+
+
+          &:nth-child(1) {
+            padding: 0 15px 160px 90px;
+          }
+
+          &:nth-child(2) {
+            padding: 700px 15px 70px 100px;
+            background: $text;
+
+            .port-proj__item {
+              &:nth-child(1) {
+                margin-bottom: 950px;
+              }
+            }
+          }
+
+        }
+
+      }
+
+
+      &__left {
+        //z-index: 10;
+        box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14);
+      }
+
+      &__title {
+        color: $text;
+      }
+    }
+
+    &-pages {
+      background: #ffffff;
+      padding: 250px 145px 100px 100px;
+
+      &__title {
+        color: #2b7de0;
+      }
+
+      &-bottom {
+        background: $text;
+        padding-bottom: 850px;
+      }
+
+
+      &__imgs {
+        width: 1563px;
+        height: 742px;
+        top: 400px;
+        left: 0;
+      }
+    }
+
+    &-adapt {
+
+      &__middle {
+        background: #2b7de0;
+      }
+
+      &__bottom {
+        padding: 160px 130px;
+        padding-bottom: 0;
+      }
+    }
+
+    &-team {
+      padding-top: 240px;
+      background: $text;
+    }
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-right {
+      font-size: 18px;
+      font-weight: 100;
+      text-transform: none;
+    }
+  }
+
+  &__subtitle {
+    opacity: 0.5;
+    text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+    color: $bg;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
   }
 }
