@@ -5078,18 +5078,18 @@ input:-webkit-autofill {
       text-align: center; }
   .theme-price {
     background-color: #e6e6e6;
-    padding-top: 120px;
-    padding-bottom: 130px; }
+    padding-top: 20px;
+    padding-bottom: 60px; }
     .theme-price__title {
       color: #000000;
       font-size: 40px;
       text-transform: uppercase;
       padding-left: 100px;
-      margin-bottom: 60px;
+      margin-bottom: 20px;
       font-weight: 400; }
     .theme-price__switches {
       position: relative;
-      margin-bottom: 70px; }
+      margin-bottom: 20px; }
       .theme-price__switches-list {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -5103,7 +5103,7 @@ input:-webkit-autofill {
         position: relative; }
     .theme-price__switch {
       color: #8c8c8c;
-      font-size: 30px;
+      font-size: 24px;
       font-weight: 400;
       -webkit-transition: .3s;
       -o-transition: .3s;
@@ -5154,7 +5154,7 @@ input:-webkit-autofill {
       margin-left: -15px;
       margin-right: -15px;
       position: relative;
-      padding: 43px 0; }
+      padding: 20px 0; }
       .theme-price__row:after {
         content: '';
         display: block;
@@ -5178,21 +5178,21 @@ input:-webkit-autofill {
         align-self: flex-end; }
       .theme-price__item-title {
         color: #000000;
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 400;
         text-transform: uppercase;
-        margin-bottom: 50px; }
+        margin-bottom: 35px; }
       .theme-price__item-price {
         color: #c70541;
-        font-size: 40px;
+        font-size: 22px;
         font-weight: 500;
         margin-bottom: 10px; }
       .theme-price__item-text {
         color: #505050;
-        font-size: 25px; }
+        font-size: 20px; }
       .theme-price__item-li {
-        font-size: 25px;
-        margin-bottom: 30px;
+        font-size: 20px;
+        margin-bottom: 14px;
         color: #505050; }
         .theme-price__item-li b {
           font-weight: 500;
@@ -5201,7 +5201,7 @@ input:-webkit-autofill {
           margin-bottom: 0; }
     .theme-price__price {
       color: #c70541;
-      font-size: 70px; }
+      font-size: 46px; }
     .theme-price__button {
       padding: 15px 20px;
       border: 1px solid rgba(0, 0, 0, 0.7);
@@ -7271,6 +7271,80 @@ input:-webkit-autofill {
     text-transform: none; }
 
 .animals__subtitle {
+  opacity: 0.5;
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+  color: #000000;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 20px; }
+
+.invision__list {
+  padding: 0 100px;
+  background: #232323;
+  padding-bottom: 260px; }
+
+.invision__item {
+  margin-bottom: 210px;
+  position: relative; }
+  .invision__item:last-child {
+    margin-bottom: 0; }
+  .invision__item-title {
+    color: #ffffff;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 60px; }
+  .invision__item-num {
+    text-shadow: 0 0 51px rgba(0, 0, 0, 0.42);
+    color: #232323;
+    font-size: 279px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 10;
+    top: -80px;
+    right: -15px;
+    line-height: 1; }
+  .invision__item-img {
+    position: relative;
+    z-index: 20;
+    display: block;
+    width: 100%; }
+
+.invision.port {
+  background: url("/images/content/portfolio/project11/bottom.jpg") 0 bottom no-repeat; }
+
+.invision .port-lap__bottom {
+  background: #232323; }
+
+.invision .port-desc {
+  padding-top: 165px;
+  padding-bottom: 290px;
+  margin-top: 0;
+  background: #232323; }
+  .invision .port-desc__item-val, .invision .port-desc__item-type {
+    color: #c59946; }
+
+.invision .port-team {
+  padding-top: 160px;
+  background: #ffffff; }
+
+.invision__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .invision__title-right {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: none; }
+
+.invision__subtitle {
   opacity: 0.5;
   text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
   color: #000000;

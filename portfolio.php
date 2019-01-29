@@ -267,11 +267,19 @@
                             </div>
                         </a>
                         <a class="index-cat__item index-cat__item_5" href="/portfolio/animals.php" title="Промо-сайт"
-                           style="background-color: #2b7de0">
+                               style="background: #2b7de0">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project10/logo.png">
+                            </div>
+                        </a>
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/invision.php" title="Промо-сайт"
+                           style="background-color: #232323">
+                            <div class="proportion proportion_1x1"></div>
+                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic"
+                                                                  src="/images/content/portfolio/project11/logo.png">
                             </div>
                         </a>
 
