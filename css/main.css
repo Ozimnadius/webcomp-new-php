@@ -7353,6 +7353,155 @@ input:-webkit-autofill {
   text-transform: uppercase;
   margin-top: 20px; }
 
+.gazon.port {
+  background: url("/images/content/portfolio/project9/bottom.jpg") 0 bottom no-repeat; }
+
+.gazon .port-lap__bottom {
+  background: #f8f9fb; }
+
+.gazon .port-desc {
+  padding-top: 165px;
+  margin-top: 0;
+  background: #f8f9fb; }
+  .gazon .port-desc__title, .gazon .port-desc__sub {
+    color: #000000; }
+  .gazon .port-desc__item-val, .gazon .port-desc__item-type {
+    color: #c02525; }
+  .gazon .port-desc__item-text {
+    color: #000000;
+    opacity: .5; }
+
+.gazon .port-slider {
+  background: #ffffff;
+  padding-bottom: 170px; }
+  .gazon .port-slider__bottom {
+    background: #f8f9fb; }
+
+.gazon .port-proj_1 {
+  background: #f8f9fb;
+  padding-bottom: 260px; }
+  .gazon .port-proj_1 .port-proj__block:nth-child(1) {
+    padding: 0 15px 275px 90px; }
+  .gazon .port-proj_1 .port-proj__block:nth-child(2) {
+    padding: 250px 15px 524px 100px;
+    background: #ffffff; }
+    .gazon .port-proj_1 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 650px; }
+    .gazon .port-proj_1 .port-proj__block:nth-child(2) .port-proj__item:nth-child(2) {
+      margin-bottom: 590px; }
+  .gazon .port-proj_1 .port-proj__block:nth-child(3) {
+    padding-bottom: 235px; }
+
+.gazon .port-proj_2 {
+  background: #f8f9fb;
+  padding-bottom: 280px; }
+  .gazon .port-proj_2 .port-proj__block:nth-child(1) {
+    padding: 0 15px 108px 100px; }
+  .gazon .port-proj_2 .port-proj__block:nth-child(2) {
+    background: #ffffff;
+    padding: 390px 15px 1135px 100px; }
+  .gazon .port-proj_2 .port-proj__block:nth-child(3) {
+    padding-bottom: 160px; }
+
+.gazon .port-proj_3 {
+  background: #f8f9fb;
+  padding-bottom: 240px; }
+  .gazon .port-proj_3 .port-proj__block:nth-child(1) {
+    padding: 0 15px 90px 90px; }
+  .gazon .port-proj_3 .port-proj__block:nth-child(2) {
+    padding: 140px 15px 170px 100px;
+    background: #ffffff; }
+    .gazon .port-proj_3 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 265px; }
+    .gazon .port-proj_3 .port-proj__block:nth-child(2) .port-proj__item:nth-child(2) {
+      margin-bottom: 442px; }
+  .gazon .port-proj_3 .port-proj__block:nth-child(3) {
+    padding-bottom: 245px; }
+
+.gazon .port-proj_4 {
+  background: #f8f9fb;
+  padding-bottom: 240px; }
+  .gazon .port-proj_4 .port-proj__block:nth-child(1) {
+    padding: 0 15px 108px 90px; }
+  .gazon .port-proj_4 .port-proj__block:nth-child(2) {
+    padding: 200px 15px 200px 100px;
+    background: #ffffff; }
+    .gazon .port-proj_4 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 400px; }
+    .gazon .port-proj_4 .port-proj__block:nth-child(2) .port-proj__item:nth-child(2) {
+      margin-bottom: 330px; }
+  .gazon .port-proj_4 .port-proj__block:nth-child(3) {
+    padding: 80px 15px 60px 100px; }
+
+.gazon .port-proj_5 {
+  padding-bottom: 0;
+  background: #f8f9fb; }
+  .gazon .port-proj_5 .port-proj__block:nth-child(1) {
+    padding: 0 15px 108px 90px; }
+  .gazon .port-proj_5 .port-proj__block:nth-child(2) {
+    padding: 70px 15px 720px 100px;
+    background: #ffffff; }
+    .gazon .port-proj_5 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 550px; }
+    .gazon .port-proj_5 .port-proj__block:nth-child(2) .port-proj__item:nth-child(2) {
+      margin-bottom: 700px; }
+
+.gazon .port-proj__left {
+  -webkit-box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14);
+  box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14); }
+
+.gazon .port-proj__title {
+  color: #b41819; }
+
+.gazon .port-pages {
+  background: #ffffff;
+  padding: 250px 145px 100px 100px; }
+  .gazon .port-pages__title {
+    color: #b41819; }
+  .gazon .port-pages-bottom {
+    background: #ffffff;
+    padding-bottom: 850px; }
+  .gazon .port-pages__imgs {
+    width: 1571px;
+    height: 652px;
+    top: 400px;
+    left: 0; }
+
+.gazon .port-adapt__middle {
+  background: #b21f1f; }
+
+.gazon .port-adapt__bottom {
+  padding: 160px 130px;
+  padding-bottom: 0; }
+
+.gazon .port-team {
+  padding-top: 240px;
+  background: #ffffff; }
+
+.gazon__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .gazon__title-right {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: none; }
+
+.gazon__subtitle {
+  opacity: 0.5;
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+  color: #000000;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 20px; }
+
 /*-----------------SECTION-HOSTING--------------------*/
 .host {
   background: url("../images/bg/hostingBg.jpg") 0 0 no-repeat;
