@@ -18,7 +18,7 @@
                         <div class="bread">
                             <a class="bread__item" href="/">Главная</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
-                            <a class="bread__item active">Сантехника</a>
+                            <a class="bread__item active">VipGazon.ru</a>
                         </div>
                     </div>
 
@@ -55,14 +55,13 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка интернет магазина с уникальным дизайном, с адаптивной версией для корректного
-                        отображения на всех устройствах
+                        Разработка сайта «Каталог» с уникальным дизайном, с  адаптивной версией для корректного отображения на всех устройствах
                     </div>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Продажа инженерной сантехники
+                        Продажа рулонного газона
                     </div>
                     <!-- END subtitle -->
 
@@ -200,20 +199,19 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">категории
+                                    <div class="port-proj__item-title">виды услуг
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        список категорий товаров
+                                        Превью услуг, красиво оформлены тематическими фотографиями
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">карточки товара
+                                    <div class="port-proj__item-title">портфолио
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        удобные карточки с фото, со статусом
-                                        и ценой
+                                        Выполненные проекты
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -221,7 +219,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Краткая истори о миссии деятельности компании
+                                        Кратко о компании, достоинства, преимущества и некоторые факты
                                     </div>
                                 </div>
                             </div>
@@ -269,13 +267,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">карточки категорий
+                                    <div class="port-proj__item-title">виды услуг
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Список категорий каждого товара
-                                        с фото, с краткой характеристикой и
-                                        с возможностью перехода по клику
+                                        Список услуг с возможностью перехода на неё
                                     </div>
                                 </div>
                             </div>
@@ -311,8 +307,8 @@
                         <div class="port-proj__block">
                             <!-- title -->
                             <div class="port-proj__title">
-                                картчока
-                                товара
+                                страница
+                                услуги
                             </div>
                             <!-- END title -->
                         </div>
@@ -323,29 +319,27 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">картчока
-                                        товара
+                                    <div class="port-proj__item-title">таблица цен
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Дтеальная информация о товаре
+                                        Соотношение площади равана итогой цене
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">характеристика
+                                    <div class="port-proj__item-title">видео
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Описание
-
+                                        Можно посмотреть видео
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">рекомендации
+                                    <div class="port-proj__item-title">заметка
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Предложение магазина
+                                        Информация об оплате и стоимости
                                     </div>
                                 </div>
                             </div>
@@ -382,7 +376,7 @@
                         <div class="port-proj__block">
                             <!-- title -->
                             <div class="port-proj__title">
-                                сотрудники
+                                прайс-лист
                             </div>
                             <!-- END title -->
                         </div>
@@ -390,53 +384,9 @@
 
                         <!-- block 2 -->
                         <div class="port-proj__block">
-                            <!-- list -->
-                            <div class="port-proj__list">
-                                <div class="port-proj__item">
-                                    <div class="port-proj__item-title">руководители
-                                        <div class="port-proj__item-line"></div>
-                                    </div>
-                                    <div class="port-proj__item-desc">
-                                        Контакты сотрудника
-                                    </div>
-                                </div>
-                                <div class="port-proj__item">
-                                    <div class="port-proj__item-title">отдел продаж
-                                        <div class="port-proj__item-line"></div>
-                                    </div>
-                                    <div class="port-proj__item-desc">
-                                        Контакты сотрудника
-                                    </div>
-                                </div>
-                                <div class="port-proj__item">
-                                    <div class="port-proj__item-title">отдел логистики
-                                        <div class="port-proj__item-line"></div>
-                                    </div>
-                                    <div class="port-proj__item-desc">
-                                        Контакты сотрудника
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- END list -->
+
                         </div>
                         <!-- END block 2 -->
-
-                        <!-- block 3 -->
-                        <div class="port-proj__block">
-                            <!-- list -->
-                            <div class="port-proj__list">
-                                <div class="port-proj__item">
-                                    <div class="port-proj__item-title">отдел техподдержки
-                                        <div class="port-proj__item-line"></div>
-                                    </div>
-                                    <div class="port-proj__item-desc">
-                                        Контакты сотрудника
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- END list -->
-                        </div>
-                        <!-- END block 3 -->
 
                     </div>
                     <!-- END right -->
@@ -444,73 +394,11 @@
                 </div>
                 <!-- END project 4 -->
 
-                <!-- project 5 -->
-                <div class="port-proj port-proj_5">
-
-                    <!-- left -->
-                    <div class="port-proj__left">
-                        <div class="port-proj__img">
-                            <img class="port-proj__img-img" src="/images/content/portfolio/project12/project5.jpg">
-                        </div>
-                    </div>
-                    <!-- END left -->
-
-                    <!-- right -->
-                    <div class="port-proj__right">
-
-                        <!-- block 1-->
-                        <div class="port-proj__block">
-                            <!-- title -->
-                            <div class="port-proj__title">
-                                контакты
-                            </div>
-                            <!-- END title -->
-                        </div>
-                        <!-- END block 1-->
-
-                        <!-- block 2 -->
-                        <div class="port-proj__block">
-                            <!-- list -->
-                            <div class="port-proj__list">
-                                <div class="port-proj__item">
-                                    <div class="port-proj__item-title">онлайн карта
-                                        <div class="port-proj__item-line"></div>
-                                    </div>
-                                    <div class="port-proj__item-desc">
-                                        Адреса магазинов
-                                    </div>
-                                </div>
-                                <div class="port-proj__item">
-                                    <div class="port-proj__item-title">в москве
-                                        <div class="port-proj__item-line"></div>
-                                    </div>
-                                    <div class="port-proj__item-desc">
-                                        Адреса магазинов
-                                    </div>
-                                </div>
-                                <div class="port-proj__item">
-                                    <div class="port-proj__item-title">в поволжье
-                                        <div class="port-proj__item-line"></div>
-                                    </div>
-                                    <div class="port-proj__item-desc">
-                                        Адреса магазинов
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- END list -->
-                        </div>
-                        <!-- END block 2 -->
-
-                    </div>
-                    <!-- END right -->
-
-                </div>
-                <!-- END project 5 -->
-
                 <!-- pages -->
                 <div class="port-pages">
                     <div class="port-pages__title">
-                        другие страницы
+                        внутренние
+                        страницы
                     </div>
                     <div class="port-pages__imgs">
                         <img class="port-pages__img" src="/images/content/portfolio/project12/pages.png"></div>

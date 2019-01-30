@@ -2305,7 +2305,7 @@
 .gazon {
 
   &.port {
-    background: url("/images/content/portfolio/project9/bottom.jpg") 0 bottom no-repeat;
+    background: url("/images/content/portfolio/project12/bottom.jpg") 0 bottom no-repeat;
   }
 
   .port {
@@ -2326,8 +2326,15 @@
       }
 
       &__item {
+
+        &-title {
+          &:after {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0) 100%);
+          }
+        }
+
         &-val, &-type {
-          color: #c02525;
+          color: #06801e;
         }
 
         &-text {
@@ -2342,7 +2349,8 @@
       padding-bottom: 170px;
 
       &__bottom {
-        background: #f8f9fb;
+        height: 510px;
+        background: #2b881b;
       }
 
     }
@@ -2350,146 +2358,102 @@
     &-proj {
 
       &_1 {
-        background: #f8f9fb;
-        padding-bottom: 260px;
+        background: #2b881b;
+        padding-bottom: 360px;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 275px 90px;
+            padding: 0 15px 273px 90px;
           }
 
           &:nth-child(2) {
-            padding: 250px 15px 524px 100px;
+            padding: 250px 15px 60px 100px;
             background: $text;
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 650px;
+                margin-bottom: 330px;
               }
 
               &:nth-child(2) {
-                margin-bottom: 590px;
+                margin-bottom: 624px;
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 235px;
+            padding-bottom: 280px;
           }
         }
 
       }
 
       &_2 {
-        background: #f8f9fb;
-        padding-bottom: 280px;
+        background: #2b881b;
+        padding-bottom: 190px;
 
         .port-proj__block {
           &:nth-child(1) {
-            padding: 0 15px 108px 100px;
+            padding: 0 15px 160px 100px;
           }
 
           &:nth-child(2) {
             background: $text;
-            padding: 390px 15px 1135px 100px;
+            padding: 220px 15px 569px 100px;
           }
 
           &:nth-child(3) {
-            padding-bottom: 160px;
+            padding-bottom: 280px;
           }
         }
       }
 
       &_3 {
-        background: #f8f9fb;
-        padding-bottom: 240px;
+        background: #2b881b;
+        padding-bottom: 270px;
 
         .port-proj__block {
-
 
           &:nth-child(1) {
             padding: 0 15px 90px 90px;
           }
 
           &:nth-child(2) {
-            padding: 140px 15px 170px 100px;
+            padding: 140px 15px 280px 100px;
             background: $text;
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 265px;
+                margin-bottom: 520px;
               }
 
               &:nth-child(2) {
-                margin-bottom: 442px;
+                margin-bottom: 600px;
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 245px;
+            padding-bottom: 270px;
           }
         }
 
       }
 
       &_4 {
-        background: #f8f9fb;
-        padding-bottom: 240px;
-
-        .port-proj__block {
-
-
-          &:nth-child(1) {
-            padding: 0 15px 108px 90px;
-          }
-
-          &:nth-child(2) {
-            padding: 200px 15px 200px 100px;
-            background: $text;
-
-            .port-proj__item {
-              &:nth-child(1) {
-                margin-bottom: 400px;
-              }
-
-              &:nth-child(2) {
-                margin-bottom: 330px;
-              }
-            }
-          }
-
-          &:nth-child(3) {
-            padding: 80px 15px 60px 100px;
-          }
-        }
-
-      }
-
-      &_5 {
-        padding-bottom: 0;
-        background: #f8f9fb;
+        background: #2b881b;
+        padding-bottom: 0px;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 108px 90px;
+            padding: 0 15px 180px 90px;
           }
 
           &:nth-child(2) {
-            padding: 70px 15px 720px 100px;
+            padding-bottom: 1000px;
             background: $text;
-
-            .port-proj__item {
-              &:nth-child(1) {
-                margin-bottom: 550px;
-              }
-
-              &:nth-child(2) {
-                margin-bottom: 700px;
-              }
-            }
           }
         }
 
@@ -2502,16 +2466,16 @@
       }
 
       &__title {
-        color: #b41819;
+        //color: #b41819;
       }
     }
 
     &-pages {
       background: #ffffff;
-      padding: 250px 145px 100px 100px;
+      padding: 200px 145px 100px 100px;
 
       &__title {
-        color: #b41819;
+        color: #2b881b;
       }
 
       &-bottom {
@@ -2521,8 +2485,8 @@
 
 
       &__imgs {
-        width: 1571px;
-        height: 652px;
+        width: 1546px;
+        height: 724px;
         top: 400px;
         left: 0;
       }
@@ -2531,7 +2495,7 @@
     &-adapt {
 
       &__middle {
-        background: #b21f1f;
+        background: #2b881b;
       }
 
       &__bottom {
@@ -2541,8 +2505,9 @@
     }
 
     &-team {
-      padding-top: 240px;
+      padding-top: 0;
       background: $text;
+      margin-top: -500px;
     }
   }
 
