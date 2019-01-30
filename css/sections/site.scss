@@ -9,6 +9,7 @@
     background-position: 0 0;
     background-repeat: no-repeat;
 
+
     .container {
       display: flex;
       flex-direction: column;
@@ -19,6 +20,9 @@
     &__bread {
       margin-top: vh(230);
       margin-bottom: vh(185);
+      @include xlg{
+        margin-bottom: 70px;
+      };
     }
 
     &__title {
@@ -27,6 +31,10 @@
       text-transform: uppercase;
       text-align: center;
       margin-bottom: vh(60);
+
+      @include xlg{
+        font-size: 50px;
+      };
     }
 
     &__subtitle {
@@ -57,6 +65,10 @@
     padding-top: 80px;
     //padding-bottom: 80px;
 
+    @include xlg{
+      padding-top: 20px;
+    };
+
     &__logo {
       display: flex;
       justify-content: center;
@@ -77,6 +89,13 @@
         background: linear-gradient(to right, rgba($text,0) 0%,rgba($text,0.2) 30%,rgba($text,0.2) 70%,rgba($text,0) 100%);
       }
 
+      @include xlg{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      };
+
     }
     &__img {
       height: 102px;
@@ -89,8 +108,10 @@
       align-items: center;
       padding: 0 160px;
       margin-bottom: 55px;
-
-
+      @include xlg{
+        padding: 0 60px;
+        margin-bottom: 25px;
+      };
 
       &-item {
         text-align: center;
@@ -98,16 +119,25 @@
 
         &:last-child {
           min-height: 70px;
+          @include xlg{
+            min-height: 50px;
+          };
         }
       }
 
       &-name {
         font-size: 21px;
         font-weight: 500;
+        @include xlg{
+          font-size: 18px;
+        };
       }
       &-val {
         font-size: 21px;
         font-weight: 300;
+        @include xlg{
+          font-size: 18px;
+        };
       }
     }
 
@@ -115,6 +145,11 @@
       margin: 0 295px;
       position: relative;
       margin-bottom: 25px;
+
+      @include xlg{
+        margin-right: 180px;
+        margin-left: 180px;
+      };
 
 
       &-wrap {
@@ -147,6 +182,10 @@
       padding-left: 300px;
       padding-right: 300px;
       margin-bottom: 170px;
+      @include xlg{
+        padding-left: 60px;
+        padding-right: 60px;
+      };
     }
 
     &__list {
@@ -175,6 +214,10 @@
       display: flex;
       align-items: center;
       margin-bottom: 50px;
+
+      @include xlg{
+        margin-bottom: 20px;
+      };
 
       &:last-child {
         margin-bottom: 0;
@@ -258,6 +301,10 @@
       outline: none;
       padding: 25px 0;
 
+      @include xlg{
+        width: 210px;
+      };
+
       &:hover {
         .seporator_prev {
           .seporator__line {
@@ -296,6 +343,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include xlg{
+      padding-top: 60px;
+    };
 
     &__title {
       font-size: 40px;
@@ -313,6 +363,11 @@
       font-size: 30px;
       margin-bottom: 70px;
     }
+    &__img {
+      @include xlg{
+        width: 700px;
+      };
+    }
   }
 
   &-cost {
@@ -320,24 +375,39 @@
     background: url("../images/bg/costBg.jpg") 0 0  no-repeat;
     background-size: cover;
 
+    @include xlg{
+      padding: 50px;
+    };
+
     &__title {
       font-size: 40px;
       text-transform: uppercase;
       text-align: center;
       margin-bottom: 50px;
+      @include xlg{
+        font-size: 32px;
+        margin-bottom: 20px;
+      };
     }
 
     &__sub {
       opacity: 0.5;
       font-size: 30px;
       font-weight: 300;
-      line-height: 45.08px;
+      line-height: lh(30px,45.08px);
       text-align: center;
       margin-bottom: 60px;
+      @include xlg{
+        font-size: 24px;
+        margin-bottom: 15px;
+      };
     }
 
     &__tabs {
       margin-bottom: 65px;
+      @include xlg{
+        margin-bottom: 25px;
+      };
     }
     &__tab {
       display: none;
@@ -418,12 +488,19 @@
   align-items: center;
   justify-content: space-between;
   padding: 80px;
+  @include xlg{
+    padding: 40px;
+    height: 240px;
+  };
 
   &__title {
     font-size: 57px;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
+    @include xlg{
+      font-size: 40px;
+    };
   }
 
   &__right {
@@ -435,9 +512,14 @@
   &__text {
     font-size: 35px;
     font-weight: 200;
-    line-height: 45px;
+    line-height: lh(35,45);
     text-align: center;
     margin-bottom: 30px;
+
+    @include xlg{
+      font-size: 28px;
+      margin-bottom: 15px;
+    };
 
     b {
       font-weight: 700;
@@ -457,5 +539,8 @@
     text-transform: uppercase;
     letter-spacing: 1.67px;
     font-family: "Exo 2";
+    @include xlg{
+      height: 45px;
+    };
   }
 }

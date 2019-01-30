@@ -37,6 +37,12 @@
       top: vh(500);
       transform: translateY(-50%);
       right: -240px;
+      @include xlg{
+        right: initial;
+        //transform: translate(-50%,-50%);
+        left: 50%;
+        z-index: 30;
+      };
     }
 
     &__test {
@@ -63,6 +69,10 @@
     margin-left: -325px;
     padding-left: 325px;
     overflow: hidden;
+
+    @include xlg{
+      padding-top: vh(100);
+    };
 
     &__title {
       position: relative;
@@ -111,8 +121,13 @@
       z-index: 0;
       left: 56.5%;
       top: 30%;
-    }
 
+      @include xlg{
+        right: initial;
+        left: 50%;
+        z-index: 30;
+      };
+    }
 
     &__menu {
       position: absolute;
@@ -137,6 +152,11 @@
     background-position: 0 0;
     background-size: cover;
     padding-right: 300px;
+
+    @include xlg{
+      padding-top: vh(100);
+      padding-right: 170px;
+    };
 
     &__title {
       font-size: 64px;
@@ -179,6 +199,10 @@
     padding-left: 325px;
     overflow: hidden;
     padding-right: 350px;
+
+    @include xlg{
+      padding-right: 300px;
+    };
 
     &__title {
       font-size: 63px;
@@ -269,6 +293,10 @@
     overflow: hidden;
     padding-right: 300px;
 
+    @include xlg{
+      padding-top: vh(100);
+    };
+
     &__title {
       display: flex;
       justify-content: center;
@@ -293,12 +321,19 @@
     &__item {
       padding: 12px 30px;
 
+      @include xlg{
+        padding: 10px 20px;
+      };
+
       &-title {
         color: rgba($text,.5);
         font-size: 32px;
         font-weight: 300;
         transition: .4s;
         cursor: pointer;
+        @include xlg{
+          font-size: 24px;
+        };
       }
     }
 
@@ -363,6 +398,11 @@
       padding-top: vh(300);
       display: flex;
       flex-direction: column;
+
+      @include xlg{
+        padding-top: vh(170);
+        padding-right: 100px;
+      };
     }
 
     .footer {
@@ -385,6 +425,9 @@
 
   &__work {
     margin-bottom: vh(150);
+    @include xlg{
+      margin-bottom: vh(70);
+    };
   }
 
   &__why {

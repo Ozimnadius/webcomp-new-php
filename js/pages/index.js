@@ -79,7 +79,7 @@
 
         setTimeout(function () {
             inScroll = false;
-        }, 500);
+        }, 1500);
 
     }
 

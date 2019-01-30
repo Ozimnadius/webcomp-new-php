@@ -7,8 +7,15 @@
     align-items: flex-end;
     margin-bottom: vh(140);
 
+    @include xlg{
+      margin-bottom: vh(70);
+    };
+
     &-img {
       margin-right: 30px;
+      @include xlg{
+        width: 200px;
+      };
     }
 
     &-text {
@@ -19,6 +26,10 @@
       &_yellow {
         color: $Selective-yellow;
       }
+      @include xlg{
+        font-size: 50px;
+        line-height: lh(57,64);
+      };
     }
   }
 
@@ -36,6 +47,10 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+
+    @include xlg{
+      padding: 0 30px;
+    };
 
     &:after {
       content: '';

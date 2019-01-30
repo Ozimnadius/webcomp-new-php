@@ -4,6 +4,9 @@
     text-align: right;
     margin-right: -253px;
     margin-bottom: vh(85);
+    @include xlg{
+      margin-right: -103px;
+    };
   }
 
   &__title {

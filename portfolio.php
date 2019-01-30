@@ -234,14 +234,6 @@
                                                                   src="/images/content/portfolio/project5/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/svda.php" title="Промо-сайт"
-                           style="background-color:#252525;">
-                            <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
-                            <div class="index-cat__item-img"><img class="index-cat__item-pic"
-                                                                  src="/images/content/portfolio/project6/logo.png">
-                            </div>
-                        </a>
                         <a class="index-cat__item index-cat__item_5" href="/portfolio/vita.php" title="Промо-сайт"
                            style="background-color:#f9f9fa">
                             <div class="proportion proportion_1x1"></div>
@@ -250,12 +242,12 @@
                                                                   src="/images/content/portfolio/project7/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/kavkaz.php" title="Промо-сайт"
-                           style="background-color:#1D1D1D">
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/svda.php" title="Промо-сайт"
+                           style="background-color:#252525;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
-                                                                  src="/images/content/portfolio/project8/logo.png">
+                                                                  src="/images/content/portfolio/project6/logo.png">
                             </div>
                         </a>
                         <a class="index-cat__item index-cat__item_5" href="/portfolio/santehnika.php" title="Промо-сайт"
@@ -264,6 +256,14 @@
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project9/logo.png">
+                            </div>
+                        </a>
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/kavkaz.php" title="Промо-сайт"
+                           style="background-color:#1D1D1D">
+                            <div class="proportion proportion_1x1"></div>
+                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic"
+                                                                  src="/images/content/portfolio/project8/logo.png">
                             </div>
                         </a>
                         <a class="index-cat__item index-cat__item_5" href="/portfolio/animals.php" title="Промо-сайт"

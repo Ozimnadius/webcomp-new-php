@@ -1,6 +1,9 @@
 .send {
   padding-left: 90px;
   padding-right: 90px;
+  @include xlg{
+    padding: 0;
+  };
 
   &__title {
     font-size: 58px;
@@ -17,6 +20,9 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: vh(55);
+    @include xlg{
+      font-size: 24px;
+    };
   }
 
   &__form {

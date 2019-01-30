@@ -31,6 +31,10 @@
     visibility: hidden;
     transition: .4s;
 
+    @include xlg{
+      padding-right: 100px;
+    };
+
     &.active {
       opacity: 1;
       visibility: visible;
@@ -53,6 +57,9 @@
         font-weight: 100;
         letter-spacing: -1.87px;
         line-height: 0.75;
+        @include xlg{
+          font-size: 230px;
+        };
       }
 
       &-type {
@@ -126,6 +133,14 @@
     //background: url("../images/bg/testNumberBg.png") 0 0 no-repeat;
     //background-size: cover;
 
+    @include xlg{
+      width: auto;
+      height: auto;
+      bottom: 0;
+      right: 30px;
+      font-size: 230px;
+    };
+
   }
 
   &__slide {
@@ -140,13 +155,20 @@
     position: relative;
     z-index: 20;
 
+    @include xlg{
+      padding-right: 100px;
+    };
+
     &-title {
       font-size: 50px;
       font-weight: 300;
-      line-height: 65.08px;
+      line-height: lh(50,65);
       text-transform: uppercase;
       text-align: center;
       margin-bottom: vh(40);
+      @include xlg{
+        font-size: 36px;
+      };
     }
 
     &-prev {
@@ -169,6 +191,10 @@
     padding: 0 90px 0 180px;
     margin-bottom: vh(40);
     box-sizing: border-box;
+    @include xlg{
+      padding: 0;
+      margin-bottom: 20px;
+    };
   }
 
   &__row {
@@ -195,6 +221,10 @@
       bottom: 0;
       background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.3) 30%,rgba(255,255,255,0.3) 70%,rgba(255,255,255,0) 100%);
     }
+
+    @include xlg{
+      padding: 20px 0;
+    };
   }
 
   &__field {
@@ -226,6 +256,9 @@
 
       display: flex;
       align-items: center;
+      @include xlg{
+        font-size: 24px;
+      };
     }
 
     &-fake {

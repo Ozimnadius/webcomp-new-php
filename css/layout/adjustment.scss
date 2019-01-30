@@ -89,6 +89,9 @@ body {
   width: 100%;
   padding-left: 325px;
   padding-right: 250px;
+  @include xlg{
+    padding-right: 100px;
+  };
 }
 
 .container3 {

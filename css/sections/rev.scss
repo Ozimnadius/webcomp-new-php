@@ -9,6 +9,9 @@
   &__slider {
     height: 832px;
     margin-top: -200px;
+    @include xlg{
+      height: 624px;
+    };
   }
 
   &__container {
@@ -41,6 +44,12 @@
     overflow: hidden;
     height: 100%;
     position: relative;
+
+
+    &-img {
+      height: 100%;
+      max-width: initial;
+    }
 
     &:after {
       content: '';

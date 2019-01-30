@@ -42,6 +42,10 @@
       margin-right: 20px;
       margin-left: 200px;
     }
+
+    @include xlg{
+      font-size: 86px;
+    };
   }
 
   &__line {
@@ -76,6 +80,10 @@
     background: linear-gradient(45deg, rgba(172, 172, 173, 0.2) 0%, rgba(172, 172, 173, 0.22) 1%, rgba(172, 172, 173, 1) 45%, rgba(172, 172, 173, 1) 55%, rgba(172, 172, 173, 0.2) 100%);
     -webkit-background-clip: text;
     text-transform: uppercase;
+
+    @include xlg {
+      opacity: 0;
+    };
   }
 
   &__btn {
@@ -326,10 +334,13 @@
   &__item {
     flex-grow: 1;
     padding-bottom: vh(75);
-
     display: flex;
     justify-content: center;
     position: relative;
+
+    @include xlg{
+      padding-bottom: vh(50);
+    };
 
     &:hover {
       .menu__item-title {
@@ -725,6 +736,9 @@
     align-items: center;
     padding: 23px 0;
     position: relative;
+    @include xlg{
+      padding: 15px 0;
+    };
 
     &:after {
       content: '';
