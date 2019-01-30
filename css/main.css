@@ -7568,6 +7568,129 @@ input:-webkit-autofill {
   text-transform: uppercase;
   margin-top: 20px; }
 
+.clinic.port {
+  background: url("/images/content/portfolio/project14/bottom.jpg") 0 bottom no-repeat; }
+
+.clinic .port-lap__bottom {
+  background: #f8f9fb; }
+
+.clinic .port-desc {
+  padding-top: 165px;
+  margin-top: 0;
+  background: #f8f9fb; }
+  .clinic .port-desc__title, .clinic .port-desc__sub {
+    color: #000000; }
+  .clinic .port-desc__item-title:after {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(20%, rgba(0, 0, 0, 0.2)), color-stop(80%, rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0) 100%);
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0) 100%); }
+  .clinic .port-desc__item-val, .clinic .port-desc__item-type {
+    color: #06801e; }
+  .clinic .port-desc__item-text {
+    color: #000000;
+    opacity: .5; }
+
+.clinic .port-slider {
+  background: #ffffff;
+  padding-bottom: 170px; }
+  .clinic .port-slider__bottom {
+    height: 510px;
+    background: #00ad00; }
+
+.clinic .port-proj_1 {
+  background: #00ad00;
+  padding-bottom: 340px; }
+  .clinic .port-proj_1 .port-proj__block:nth-child(1) {
+    padding: 0 15px 120px 90px; }
+  .clinic .port-proj_1 .port-proj__block:nth-child(2) {
+    padding: 400px 15px 489px 100px;
+    background: #ffffff; }
+    .clinic .port-proj_1 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 500px; }
+    .clinic .port-proj_1 .port-proj__block:nth-child(2) .port-proj__item:nth-child(2) {
+      margin-bottom: 680px; }
+  .clinic .port-proj_1 .port-proj__block:nth-child(3) {
+    padding-bottom: 250px; }
+
+.clinic .port-proj_2 {
+  background: #00ad00;
+  padding-bottom: 340px; }
+  .clinic .port-proj_2 .port-proj__block:nth-child(1) {
+    padding: 0 15px 50px 100px; }
+  .clinic .port-proj_2 .port-proj__block:nth-child(2) {
+    background: #ffffff;
+    padding: 100px 15px 190px 100px; }
+    .clinic .port-proj_2 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 1745px; }
+  .clinic .port-proj_2 .port-proj__block:nth-child(3) {
+    padding-bottom: 250px; }
+
+.clinic .port-proj_3 {
+  background: #00ad00;
+  padding-bottom: 0; }
+  .clinic .port-proj_3 .port-proj__block:nth-child(1) {
+    padding: 0 15px 100px 90px; }
+  .clinic .port-proj_3 .port-proj__block:nth-child(2) {
+    padding: 660px 15px 860px 100px;
+    background: #ffffff; }
+    .clinic .port-proj_3 .port-proj__block:nth-child(2) .port-proj__item:nth-child(1) {
+      margin-bottom: 600px; }
+
+.clinic .port-proj__left {
+  -webkit-box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14);
+  box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14); }
+
+.clinic .port-pages {
+  background: #ffffff;
+  padding: 270px 145px 100px 100px; }
+  .clinic .port-pages__title {
+    color: #2b881b; }
+  .clinic .port-pages-bottom {
+    background: #ffffff;
+    padding-bottom: 850px; }
+  .clinic .port-pages__imgs {
+    width: 1563px;
+    height: 750px;
+    top: 400px;
+    left: 0; }
+
+.clinic .port-adapt__middle {
+  background: #00ad00; }
+
+.clinic .port-adapt__bottom {
+  padding: 160px 130px;
+  padding-bottom: 0; }
+
+.clinic .port-team {
+  padding-top: 0;
+  background: #ffffff;
+  margin-top: -500px; }
+
+.clinic__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .clinic__title-right {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: none; }
+
+.clinic__subtitle {
+  opacity: 0.5;
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+  color: #000000;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 20px; }
+
 /*-----------------SECTION-HOSTING--------------------*/
 .host {
   background: url("../images/bg/hostingBg.jpg") 0 0 no-repeat;

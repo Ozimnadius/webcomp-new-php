@@ -298,6 +298,14 @@
                                                                   src="/images/content/portfolio/project13/logo.png">
                             </div>
                         </a>
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/clinic.php" title="Промо-сайт"
+                           style="background-color: #F8F9FB">
+                            <div class="proportion proportion_1x1"></div>
+                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic"
+                                                                  src="/images/content/portfolio/project14/logo.png">
+                            </div>
+                        </a>
 
                     </div>
                 </section>
