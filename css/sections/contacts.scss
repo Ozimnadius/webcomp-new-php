@@ -1,6 +1,10 @@
 .conts {
-  background: url("../images/bg/contactsBg.jpg") 0 0 no-repeat;
-  background-size: cover;
+  background: url("../images/bg/contactsBg.jpg") right 0 no-repeat;
+  //background-size: cover;
+
+  @include xlg{
+    background-position: right -100px;
+  };
 
   &-first {
     display: flex;
@@ -10,10 +14,17 @@
     padding-left: 130px;
     padding-right: 360px;
 
+    @include xlg{
+      padding: 300px 30px 0 0;
+    };
+
     &__addr {
       font-size: 50px;
       font-weight: 300;
       margin-bottom: 25px;
+      @include xlg{
+        font-size: 36px;
+      };
     }
 
     &__list {
@@ -22,6 +33,10 @@
       padding-bottom: 50px;
       margin-bottom: 45px;
       position: relative;
+      @include xlg{
+        padding-bottom: 34px;
+        margin-bottom: 30px;
+      };
 
       &:after {
         content: '';
@@ -42,6 +57,10 @@
       display: flex;
       align-items: center;
       margin-right: 15px;
+
+      @include xlg{
+        font-size: 24px;
+      };
 
       &:last-child {
         margin-right: 0;
@@ -94,6 +113,11 @@
       padding-left: 130px;
       padding-right: 360px;
       margin-bottom: 110px;
+      @include xlg{
+        padding-left: 0;
+        padding-right: 30px;
+        margin-bottom: 20px;
+      };
     }
 
     &__button {
@@ -136,6 +160,9 @@
         }
         .conts-map__wrap {
           height: 880px;
+            @include xlg{
+              height: 700px;
+            };
         }
       }
     }
@@ -157,6 +184,10 @@
       height: 76px;
       background-color: rgba($bg,.5);
       border-radius: 50%;
+
+      @include xlg{
+        right: 30px;
+      };
 
       &:after,&:before {
         content: '';

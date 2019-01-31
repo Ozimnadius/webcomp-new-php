@@ -22,6 +22,9 @@
     &__bread {
       margin-top: vh(230);
       margin-bottom: vh(130);
+      @include xlg{
+        margin-bottom: 70px;
+      };
     }
 
     &__title {
@@ -35,6 +38,9 @@
       line-height: 50px;
       text-align: center;
       margin-bottom: 100px;
+      @include xlg{
+        font-size: 28px;
+      };
     }
 
     &__calc {
@@ -52,6 +58,11 @@
       //justify-content: center;
       padding: 0 230px;
       padding-top: vh(283);
+
+      @include xlg{
+        padding: 0 100px;
+        padding-top: vh(230);
+      };
 
       &.active {
         display: flex;
@@ -101,6 +112,9 @@
       text-transform: uppercase;
       text-align: center;
       margin-bottom: 30px;
+      @include xlg{
+        font-size: 51px;
+      };
     }
 
     &__subtitle {
@@ -119,6 +133,11 @@
     background-color: $text;
     padding: 100px 65px;
     padding-bottom: 65px;
+
+    @include xlg{
+      padding: 50px 35px;
+      padding-bottom: 35px;
+    };
 
     &__title {
       color: #c70541;
@@ -164,6 +183,10 @@
       flex-grow: 1;
       border-bottom: 1px solid rgba(#000, .2);
 
+      @include xlg{
+        padding: 20px 30px;
+      };
+
       &:last-child {
         border-bottom: none;
       }
@@ -206,7 +229,6 @@
       z-index: 10;
       width: 280px;
       top: 90px;
-      //margin-top: -30px;
       cursor: pointer;
       outline: none;
       padding: 25px 0;
@@ -230,7 +252,9 @@
         }
       }
 
-
+    @include xlg{
+      top: 50px;
+    };
 
     }
     &__prev {
@@ -258,6 +282,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @include xlg{
+      padding-top: 50px;
+    };
 
     &__title {
       font-size: 50px;
@@ -288,6 +316,10 @@
       position: relative;
       text-align: center;
 
+      @include xlg{
+        height: 70px;
+      };
+
       &:after {
         content: '';
         display: block;
@@ -307,6 +339,10 @@
     &__desc {
       margin-bottom: 40px;
       text-align: center;
+
+      @include xlg{
+        margin-bottom: 20px;
+      };
 
       &-item {
         margin-bottom: 10px;
@@ -333,13 +369,19 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-left: 140px;
-      padding-right: 140px;
+      //padding-left: 140px;
+      //padding-right: 140px;
       padding-top: 50px;
       padding-bottom: 120px;
       //background: url("../images/content/promoteResultImg.png") 0 bottom no-repeat;
       background-position: left bottom -3px;
       background-size: cover;
+
+      @include xlg{
+        padding-bottom: 50px;
+      };
+
+
     }
 
     &__list {
@@ -470,7 +512,6 @@
 
       &-pic {
         display: block;
-        width: auto;
         max-width: initial;
       }
     }
@@ -495,6 +536,9 @@
 
     &__wrapper {
       padding: 0 140px;
+      @include xlg{
+        padding: 0 40px;
+      };
     }
 
     &__list {
@@ -502,6 +546,10 @@
       flex-wrap: wrap;
       margin-left: -70px;
       margin-right: -70px;
+      @include xlg{
+        margin-left: -15px;
+        margin-right: -15px;
+      };
     }
 
     &__item {
@@ -523,6 +571,12 @@
           }
         }
       }
+
+      @include xlg{
+        width: calc(50% - 30px);
+        margin-left: 15px;
+        margin-right: 15px;
+      };
 
     }
 
@@ -558,7 +612,7 @@
       &-text {
         font-size: 23px;
         font-weight: 300;
-        line-height: 35.02px;
+        line-height: lh(23px,35px);
         margin-bottom: 40px;
       }
 
@@ -689,6 +743,10 @@
     padding: 110px 120px;
     padding-bottom: 0;
 
+    @include xlg{
+      padding: 40px 30px 0 30px;
+    };
+
     &__title {
       color: #1e1e1e;
       font-size: 40px;
@@ -701,6 +759,9 @@
       flex-wrap: wrap;
       margin-left: -60px;
       margin-right: -60px;
+      @include xlg{
+        margin: 0;
+      };
     }
 
     &__item {
@@ -711,6 +772,9 @@
       flex-direction: column;
       align-items: center;
       position: relative;
+      @include xlg{
+        padding: 0 15px 60px 15px;
+      };
 
       &:last-child {
         &:after, &:before {

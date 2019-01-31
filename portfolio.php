@@ -147,33 +147,33 @@
                             <a class="theme-iss__item" href="/portfolio/thematics/gostinicj-oteli.php">Гостиницы и отели</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/nedvijimost.php">Агентства
                                 недвижимости</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/detskie-ifrushki.php">Детские игрушки</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/detskie-ifrushk.php">Детские игрушки</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/znakomstva.php">Сайт знакомств</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/jenskaya-tematika.php">Женская тематика</a>
                         </div>
                         <div class="theme-iss__col">
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Клиники</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Книги</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Мебельный сайт</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Медицинские услуги</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Салоны красоты</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Свадебные агентства</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Страхование</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Строительная тематика</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Рестораны</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/clinik.php">Клиники</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/cnigi.php">Книги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/mebelnji-magazin.php">Мебельный сайт</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/medecinskih-yslyg.php">Медицинские услуги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/salon-krasotj.php">Салоны красоты</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/svadebnji-salon.php">Свадебные агентства</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/strahovanie.php">Страхование</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/stroitelnaya-tematika.php">Строительная тематика</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/restoranj.php">Рестораны</a>
                         </div>
                         <div class="theme-iss__col">
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Туристическая
+                            <a class="theme-iss__item" href="/portfolio/thematics/tyrizm.php">Туристическая
                                 тематика</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Турфирмы</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Ювелирные салоны</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Магазин одежда</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Оргтехника</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Юридические услуги</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Грузоперевозоки</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Фармацевтическая
+                            <a class="theme-iss__item" href="/portfolio/thematics/tyrfirmj.php">Турфирмы</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/uvelirnji-salon.php">Ювелирные салоны</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/magazin-odejdj.php">Магазин одежда</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/orgtehnika.php">Оргтехника</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/uridicheskih-yslyg.php">Юридические услуги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/gryzoperevozki.php">Грузоперевозоки</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/farmateptika.php">Фармацевтическая
                                 продукция</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Стоматологические
+                            <a class="theme-iss__item" href="/portfolio/thematics/stomatologiya.php">Стоматологические
                                 клиники</a>
                         </div>
                         <div class="theme-iss__col">

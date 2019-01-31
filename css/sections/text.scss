@@ -10,8 +10,18 @@
     flex-direction: column;
     align-items: flex-start;
 
+    @include xlg{
+      padding-top: vh(230);
+      padding-left: 0;
+      padding-right: 100px;
+      padding-bottom: 35px;
+    };
+
     &__bread {
       margin-bottom: 60px;
+      @include xlg{
+        margin-bottom: 30px;
+      };
     }
 
 
@@ -131,6 +141,9 @@
   &-desc {
     background: $text;
     padding: 110px 100px 100px 110px;
+    @include xlg{
+      padding: 50px 60px;
+    };
 
     &__row {
       display: flex;

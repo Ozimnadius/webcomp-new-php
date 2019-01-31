@@ -1,7 +1,12 @@
 .news {
-  background: url("../images/bg/newsBg.jpg") 0 0 no-repeat;
+  background: url("../images/bg/newsBg.jpg") right 0 no-repeat;
   //background-size: 100% 100%;
   padding-top: 520px;
+
+  @include xlg{
+    background-position: right -100px;
+    padding-top: 300px;
+  };
 
   &__title {
     font-size: 191px;
@@ -24,6 +29,11 @@
     flex-wrap: wrap;
     justify-content:center;
 
+    @include xlg{
+      padding: 20px 100px 20px 0px;
+      margin-bottom: 50px;
+    };
+
 
     &:after, &:before {
       content: '';
@@ -33,6 +43,9 @@
       right: 270px;
       height: 1px;
       background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.3) 30%,rgba(255,255,255,0.3) 70%,rgba(255,255,255,0) 100%);
+      @include xlg{
+        right: 100px;
+      };
     }
     &:before {
       top: 0;
@@ -56,6 +69,9 @@
 
   &-arts {
     padding: 0 270px 125px 90px;
+    @include xlg{
+      padding: 0 100px 35px 0px;
+    };
   }
 
   &-send {

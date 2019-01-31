@@ -42,7 +42,7 @@
                         <div class="comp-rew__title-text comp-rew__title-text_y">comp</div>
                     </div>
                     <div class="comp-rew__desc">Мы единственная студия,которая<br>объединила в себе самые важные<br>для клиента аспекты работы<br>в интернет пространстве.</div>
-                    <div class="comp-rew__list">
+                    <div class="comp-rew__list numbers">
                         <div class="comp-rew__item number">
                             <div class="comp-rew__item-title">
                                 <div class="number__val comp-rew__item-val" data-from="0" data-to="60">0</div>
@@ -123,9 +123,9 @@
                             <div class="comp-work__2">компаниями</div>
                             <div class="comp-work__1">из России</div>
                         </div>
-                        <div class="comp-work__line2">
-                            <div class="comp-work__1">из России</div>
-                        </div>
+<!--                        <div class="comp-work__line2">-->
+<!--                            <div class="comp-work__1">из России</div>-->
+<!--                        </div>-->
                     </div>
                     <div class="comp-work__list">
                         <div class="comp-work__item"><img class="comp-work__img" src="/images/content/company/work/img1.png"></div>

@@ -1,14 +1,21 @@
 .banner-send {
-  background: url("../images/content/news/send.jpg") 0 0 no-repeat;
+  background: url("/images/content/news/send.jpg") right 0 no-repeat;
   padding-top: 85px;
   padding-bottom: 100px;
   padding-left: 110px;
+
+  @include xlg{
+    padding: 40px 0 50px 60px;
+  };
 
   &__title {
     font-size: 57px;
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 20px;
+    @include xlg{
+      font-size: 36px;
+    };
   }
 
   &__sub {
@@ -16,7 +23,10 @@
     font-size: 26px;
     text-transform: uppercase;
     margin-bottom: 20px;
-    line-height: 35.51px;
+    line-height: lh(26px,35.51px);
+    @include xlg{
+      font-size: 20px;
+    };
   }
 
   &__form {
@@ -27,6 +37,10 @@
     align-items: center;
     margin-left: 340px;
     margin-bottom: 20px;
+    @include xlg{
+      height: 40px;
+      margin-bottom: 10px;
+    };
   }
 
   &__input {
@@ -54,5 +68,8 @@
     color: rgba($text,.4);
     font-size: 26px;
     text-transform: uppercase;
+    @include xlg{
+      font-size: 20px;
+    };
   }
 }

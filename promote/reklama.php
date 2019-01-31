@@ -450,24 +450,28 @@
                 </section>
                 <section class="rek-bud">
                     <div class="rek-bud__title">Снижаем бюджет на контекстную рекламу</div>
-                    <div class="rek-bud__list">
+                    <div class="rek-bud__list numbers" data-timer="2000">
                         <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">150 Р</span>
+                            <div class="rek-bud__item-title number">
+                                <span class="rek-bud__item-val number__val" data-from="0" data-to="150">0</span><span class="rek-bud__item-type"> Р</span>
                             </div>
                             <div class="rek-bud__item-text">Средняя стоимость <br> клика</div>
                         </div>
-                        <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">3</span><span class="rek-bud__item-type"> % CTR</span>
+                        <div class="rek-bud__item number">
+                            <div class="rek-bud__item-title">
+                                <span class="rek-bud__item-val number__val" data-from="0" data-to="3">0</span><span class="rek-bud__item-type"> % CTR</span>
                             </div>
                             <div class="rek-bud__item-text">Показатель <br> кликабельности</div>
                         </div>
-                        <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">45</span><span class="rek-bud__item-type"> % Bonus rate</span>
+                        <div class="rek-bud__item number">
+                            <div class="rek-bud__item-title">
+                                <span class="rek-bud__item-val number__val" data-from="0" data-to="45">0</span><span class="rek-bud__item-type"> % Bonus rate</span>
                             </div>
                             <div class="rek-bud__item-text">Показатель отказа <br> поситителей</div>
                         </div>
-                        <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">25</span><span class="rek-bud__item-type"> % ROI</span>
+                        <div class="rek-bud__item number">
+                            <div class="rek-bud__item-title">
+                                <span class="rek-bud__item-val number__val" data-from="0" data-to="25">0</span><span class="rek-bud__item-type"> % ROI</span>
                             </div>
                             <div class="rek-bud__item-text">Окупаемость инфестиций <br> в рекламу</div>
                         </div>
@@ -475,19 +479,39 @@
                     <div class="rek-bud__subtitle">Как наша работа влияет на стоимость рекламы</div>
                     <div class="rek-bud__checks">
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="0">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Реклама только <br> для ЦА</div>
                         </div>
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="1">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Исключение <br> не целевых запросов</div>
                         </div>
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="2">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Реклама когда ЦА <br> готова покупать</div>
                         </div>
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="3">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Привлекательные <br> объявления</div>
                         </div>
                     </div>

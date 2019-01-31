@@ -10,8 +10,18 @@
     flex-direction: column;
     align-items: center;
 
+    @include xlg{
+      padding-top: vh(180);
+      padding-left: 0;
+      padding-right: 100px;
+      padding-bottom: 35px;
+    };
+
     &__bread {
       margin-bottom: 100px;
+      @include xlg{
+        margin-bottom: 60px;
+      };
     }
 
 
@@ -131,6 +141,10 @@
   &-desc {
     background: $text;
     padding: 110px 100px 140px 110px;
+
+    @include xlg {
+      padding: 60px 50px 80px 60px;
+    };
 
     &__row {
       display: flex;
@@ -308,6 +322,11 @@
     flex-wrap: wrap;
     padding: 70px 125px 75px 110px;
     border-bottom: 2px solid #ee2e54;
+    
+    @include xlg {
+      //background-position: right 0;
+      padding: 35px 50px 30px 40px;
+    };
 
     &__title {
       color: #ee2e54;
@@ -343,6 +362,10 @@
   &-comments {
     background-color: $text;
     padding: 100px 520px 110px 110px;
+
+    @include xlg{
+      padding: 60px 200px 70px 70px;
+    };
   }
   
   &-send {
@@ -355,6 +378,10 @@
     padding-top: 110px;
     padding-right: 280px;
     padding-left: 30px;
+
+    @include xlg{
+      padding: 50px 100px 0 0;
+    };
 
     &__title {
       font-size: 57px;

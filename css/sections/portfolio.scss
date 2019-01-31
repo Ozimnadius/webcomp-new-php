@@ -608,6 +608,10 @@
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+
+      &-tab{
+        box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.24);
+      }
     }
 
   }
@@ -866,10 +870,6 @@
 
     &-team {
       background: $text;
-    }
-
-
-    &-team {
       padding-top: 0;
     }
 

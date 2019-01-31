@@ -57,7 +57,11 @@
         }
 
         if (section.classList.contains('comp-rew')) {
-            animateNumbers();
+            let numbers = document.querySelector('.comp-rew .numbers');
+            let numbersObj = new NumbersCounting(numbers, {
+                item: '.number'
+            });
+            numbersObj.animateNumbers();
         }
 
         if (pagItems) {

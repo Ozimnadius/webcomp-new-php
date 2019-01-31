@@ -3,6 +3,10 @@
   padding: 100px 200px;
   padding-right: 170px;
 
+  @include xlg{
+    padding: 40px 40px;
+  };
+
   &__title {
     color: #1e1e1e;
     font-size: 40px;
@@ -49,6 +53,10 @@
         .arrow {
           margin-right: -100px;
 
+          @include xlg{
+            margin-right: -70px;
+          };
+
           &_black {
             .arrow__line {
               background: linear-gradient(to right, rgba(#333, 0) 0%, rgba(#333, 1) 100%);
@@ -75,7 +83,6 @@
     
   }
 
-
   &__img {
     width: 36px;
     display: flex;
@@ -100,11 +107,14 @@
   &__name {
     color: rgba($bg,.8);
     font-size: 21px;
-    line-height: 30px;
+    line-height: lh(21px,30px);
     margin-bottom: 25px;
     position: relative;
     padding-left: 51px;
     transition: .4s;
+    @include xlg{
+      font-size: 18px;
+    };
   }
 
   &__arrow {
@@ -118,6 +128,9 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 45px;
+    @include xlg{
+      padding: 0 100px;
+    };
   }
 
   &__col {

@@ -72,6 +72,33 @@ window.onload = function () {
             el: '.slider__scrollbar .swiper-scrollbar',
             dragSize: 'auto'
         },
+        breakpoints: {
+            // when window width is <= 320px
+            479.99: {
+                slidesPerView: 1,
+                spaceBetween: 2
+            },
+            // when window width is <= 320px
+            767.99: {
+                slidesPerView: 1,
+                spaceBetween: 2
+            },
+            // when window width is <= 320px
+            991.99: {
+                slidesPerView: 1,
+                spaceBetween: 2
+            },
+            // when window width is <= 480px
+            1439.99: {
+                slidesPerView: 2,
+                spaceBetween: 2
+            },
+            // when window width is <= 640px
+            1899.99: {
+                slidesPerView: 2,
+                spaceBetween: 2
+            }
+        }
     });
 
     let slider2Swiper = new Swiper('.slider2__container', {
@@ -84,6 +111,33 @@ window.onload = function () {
             el: '.slider2__scrollbar .swiper-scrollbar',
             dragSize: 'auto'
         },
+        breakpoints: {
+            // when window width is <= 320px
+            479.99: {
+                slidesPerView: 1,
+                spaceBetween: 2
+            },
+            // when window width is <= 320px
+            767.99: {
+                slidesPerView: 1,
+                spaceBetween: 2
+            },
+            // when window width is <= 320px
+            991.99: {
+                slidesPerView: 1,
+                spaceBetween: 2
+            },
+            // when window width is <= 480px
+            1439.99: {
+                slidesPerView: 2,
+                spaceBetween: 2
+            },
+            // when window width is <= 640px
+            1899.99: {
+                slidesPerView: 2,
+                spaceBetween: 2
+            }
+        }
     });
 
     let portSliderSwiper = new Swiper('.port-slider__container', {

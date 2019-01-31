@@ -3,16 +3,27 @@
   background-size: cover;
   padding-top: vh(240);
 
+  @include xlg{
+    padding-top: vh(180);
+  };
+
   &__title {
     font-size: 57px;
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 50px;
+    @include xlg{
+      font-size: 50px;
+      margin-bottom: 30px;
+    };
   }
 
   &__form {
     display: flex;
     margin-bottom: 70px;
+    @include xlg{
+      margin-bottom: 50px;
+    };
   }
 
   &__input {
@@ -37,6 +48,9 @@
     letter-spacing: 0.32px;
     text-transform: uppercase;
     transition: .3s;
+    @include xlg{
+      height: 42px;
+    };
 
     &:hover {
       color: $Selective-yellow;
@@ -48,12 +62,18 @@
     flex-direction: column;
     padding-right: 280px;
     margin-bottom: 30px;
+    @include xlg{
+      padding-right: 100px;
+    };
   }
 
   &__item {
     padding: 40px 0;
     padding-right: 220px;
     border-bottom: 1px solid rgba($text,.2);
+    @include xlg{
+      padding: 20px 0;
+    };
 
     &:last-child {
       border-bottom: none;

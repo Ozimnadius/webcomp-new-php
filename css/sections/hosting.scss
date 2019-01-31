@@ -7,6 +7,10 @@
     padding-top: 180px;
     margin-bottom: 115px;
 
+    @include xlg{
+      padding-top: 140px;
+    };
+
 
     &__list {
       position: absolute;
@@ -14,6 +18,9 @@
       bottom: 0;
       left: 0;
       right: 0;
+      @include xlg{
+        top: 140px;
+      };
     }
 
     &__item {
@@ -32,8 +39,8 @@
         .host-tarifs__img {
 
           &-img {
-            width: 80px;
-            height: 80px;
+            width: vh(80);
+            height: vh(80);
             animation: tarif0 10s linear 0s infinite;
             box-shadow: inset 16px 0 40px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16),  0px 0px 4px 2px rgba(#789fbb, 0.5);
           }
@@ -68,8 +75,10 @@
         .host-tarifs__img {
 
           &-img {
-            width: 125px;
-            height: 125px;
+            //width: 125px;
+            //height: 125px;
+            width: vh(125);
+            height: vh(125);
             animation: tarif1 20s linear 0s infinite;
             box-shadow: inset 26px 0 60px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16),  0px 0px 5px 3px rgba(#789fbb, 0.3);
           }
@@ -108,8 +117,10 @@
         .host-tarifs__img {
 
           &-img {
-            width: 280px;
-            height: 280px;
+            //width: 280px;
+            //height: 280px;
+            width: vh(280);
+            height: vh(280);
             animation: tarif2 40s linear 0s infinite;
             box-shadow: inset 46px 0 90px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16),  0px 0px 7px 7px rgba(#789fbb, 0.5);
           }
@@ -151,8 +162,10 @@
         .host-tarifs__img {
 
           &-img {
-            width: 320px;
-            height: 320px;
+            //width: 320px;
+            //height: 320px;
+            width: vh(320);
+            height: vh(320);
             animation: tarif3 40s linear 0s infinite;
             transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
             box-shadow: inset 46px 0 90px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16), 0px 0px 7px 7px rgba(#789fbb, 0.5);
@@ -191,8 +204,10 @@
         .host-tarifs__img {
 
           &-img {
-            width: 535px;
-            height: 535px;
+            //width: 535px;
+            //height: 535px;
+            width: vh(535);
+            height: vh(535);
             animation: tarif4 70s linear 0s infinite;
             transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
             box-shadow: inset 66px 0 120px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16), 0px 0px 9px 9px rgba(#789fbb, 0.5);
@@ -306,6 +321,11 @@
     padding: 0 430px 0 170px;
     margin-bottom: 160px;
 
+    @include xlg{
+      padding: 0 130px 0 70px;
+      margin-bottom: 60px;
+    };
+
     p {
       color: rgba($text, .6);
     }
@@ -319,6 +339,16 @@
       display: flex;
       flex-wrap: wrap;
       align-items: flex-end;
+      @include xlg{
+        padding: 0;
+        margin-bottom: 50px;
+      };
+
+      &-img {
+        @include xlg{
+          width: 200px;
+        };
+      }
 
       &-left {
         margin-right: 30px;
@@ -327,11 +357,15 @@
       &-right {
         font-size: 57px;
         font-weight: 300;
-        line-height: 64.2px;
+        line-height: lh(50px,64.2px);
         text-transform: uppercase;
         &_y {
           color: #f5ad00;
         }
+
+        @include xlg{
+          font-size: 50px;
+        };
       }
     }
 
@@ -340,6 +374,9 @@
       flex-wrap: wrap;
       margin-left: -130px;
       padding-right: 120px;
+      @include xlg{
+        padding-right: 0;
+      };
     }
     &__col {
       width: calc(100%/3);
@@ -449,25 +486,25 @@
 
 @keyframes tarif0 {
   0% { background-position:0 0 }
-  100% { background-position: 160px 0 }
+  100% { background-position: vh(160) 0 }
 }
 
 @keyframes tarif1 {
   0% { background-position:0 0 }
-  100% { background-position: 250px 0 }
+  100% { background-position: vh(250) 0 }
 }
 
 @keyframes tarif2 {
   0% { background-position:0 0 }
-  100% { background-position: 560px 0 }
+  100% { background-position: vh(560) 0 }
 }
 
 @keyframes tarif3 {
   0% { background-position:0 0 }
-  100% { background-position: 640px 0 }
+  100% { background-position: vh(640) 0 }
 }
 
 @keyframes tarif4 {
   0% { background-position:0 0 }
-  100% { background-position: 1070px 0 }
+  100% { background-position: vh(1070) 0 }
 }
