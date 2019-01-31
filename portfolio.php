@@ -143,13 +143,13 @@
                             <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Автосалоны</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/avtoservis.php">Автосервисы</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/avtozapchasti.php">Автозапчасти</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Бухгалтерские услуги</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Гостиницы и отели</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Агентства
+                            <a class="theme-iss__item" href="/portfolio/thematics/byhgalteriya.php">Бухгалтерские услуги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/gostinicj-oteli.php">Гостиницы и отели</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/nedvijimost.php">Агентства
                                 недвижимости</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Детские игрушки</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Сайт знакомств</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Женская тематика</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/detskie-ifrushki.php">Детские игрушки</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/znakomstva.php">Сайт знакомств</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/jenskaya-tematika.php">Женская тематика</a>
                         </div>
                         <div class="theme-iss__col">
                             <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Клиники</a>
@@ -306,7 +306,14 @@
                                                                   src="/images/content/portfolio/project14/logo.png">
                             </div>
                         </a>
-
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/wood.php" title="Промо-сайт"
+                           style="background-color: #FFFFFF">
+                            <div class="proportion proportion_1x1"></div>
+                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-img"><img class="index-cat__item-pic"
+                                                                  src="/images/content/portfolio/project15/logo.png">
+                            </div>
+                        </a>
                     </div>
                 </section>
                 <section class="rek-edge">
