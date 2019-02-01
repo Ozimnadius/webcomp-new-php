@@ -787,6 +787,10 @@
     &_2 {
       width: calc(100% / 2 - 60px);
     }
+
+    &_3 {
+      width: calc(100% - 30px);
+    }
   }
 
   &__label {
@@ -1010,6 +1014,14 @@
   &__button {
     display: flex;
     justify-content: center;
+
+    button{
+
+      &.disabled{
+        opacity: .5;
+        pointer-events: none;
+      }
+    }
   }
 
 }
@@ -1116,6 +1128,11 @@
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 1.67px;
+    }
+
+    &.disabled{
+      opacity: .5;
+      pointer-events: none;
     }
 
 
@@ -1403,4 +1420,122 @@
 input:-webkit-autofill {
   animation-name: autofill;
   animation-fill-mode: both;
+}
+
+.policy{
+  display: flex;
+  justify-content: center;
+
+  &__link {
+    text-decoration: underline;
+  }
+}
+
+.time{
+  transform: rotateX(0deg) skew(0deg,0deg);
+  position: relative;
+}
+
+.clock {
+  position: absolute;
+  z-index: 10;
+  top: 7.5%;
+  bottom: 7.5%;
+  left: 7.5%;
+  right: 7.5%;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 3%;
+    height: 3%;
+    top: 50%;
+    left: 50%;
+    margin-top: -1.5%;
+    margin-left: -1.5%;
+    background: $text;
+    border-radius: 50%;
+  }
+
+  &__hour {
+    position: absolute;
+    top: 10%;
+    bottom: 50%;
+    left: 50%;
+    right: 0;
+    width: 2.2%;
+    margin-left: -1.1%;
+
+    background: $text;
+    transform: rotate(0deg);
+    transform-origin: bottom center;
+    //transition: .3s;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      background: inherit;
+
+      height: 15%;
+    }
+  }
+
+  &__minute {
+    position: absolute;
+    top: 5%;
+    bottom: 50%;
+    left: 50%;
+    right: 0;
+    width: 1.2%;
+    margin-left: -0.6%;
+
+    background: $text;
+    transform: rotate(0deg);
+    transform-origin: bottom center;
+    //transition: .3s;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      background: inherit;
+
+      height: 15%;
+    }
+  }
+
+  &__second {
+    position: absolute;
+    top: 0;
+    bottom: 50%;
+    left: 50%;
+    right: 0;
+    width: 0.7%;
+    margin-left: -0.35%;
+
+    background: $text;
+    transform: rotate(0deg);
+    transform-origin: bottom center;
+    //transition: .3s;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      background: inherit;
+
+      height: 15%;
+    }
+  }
 }

@@ -147,7 +147,7 @@
                             <a class="theme-iss__item" href="/portfolio/thematics/gostinicj-oteli.php">Гостиницы и отели</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/nedvijimost.php">Агентства
                                 недвижимости</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/detskie-ifrushk.php">Детские игрушки</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/detskie-igrushki.php">Детские игрушки</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/znakomstva.php">Сайт знакомств</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/jenskaya-tematika.php">Женская тематика</a>
                         </div>
@@ -177,16 +177,16 @@
                                 клиники</a>
                         </div>
                         <div class="theme-iss__col">
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Фитнес-клубы</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Деловые услуги</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Банки</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Сантехника</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Магазины цветов</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Товары для дома</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Строительные
+                            <a class="theme-iss__item" href="/portfolio/thematics/fitnes.php">Фитнес-клубы</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/treningi.php">Деловые услуги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/banki.php">Банки</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/santehnika.php">Сантехника</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/cvetj.php">Магазины цветов</a>
+                            <a class="theme-iss__item" href="/portfolio/thematicstovarj-dlya-doma.php">Товары для дома</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/stroitelnje.php">Строительные
                                 материалы</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Спортивные товары</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Зоотовары</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/sport-tovarj.php">Спортивные товары</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/zootovarj.php">Зоотовары</a>
                         </div>
                     </div>
                     <!--button.theme-iss__button показать еще-->
@@ -210,12 +210,12 @@
                                                                   src="/images/content/portfolio/project2/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/akademi.php" title="Промо-сайт"
-                           style="background-color:#353535">
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/animals.php" title="Промо-сайт"
+                           style="background: #2b7de0">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
-                                                                  src="/images/content/portfolio/project3/logo.png">
+                                                                  src="/images/content/portfolio/project10/logo.png">
                             </div>
                         </a>
                         <a class="index-cat__item index-cat__item_5" href="/portfolio/balconies.php" title="Промо-сайт"
@@ -266,12 +266,12 @@
                                                                   src="/images/content/portfolio/project8/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/animals.php" title="Промо-сайт"
-                               style="background: #2b7de0">
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/wood.php" title="Промо-сайт"
+                           style="background-color: #FFFFFF">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
-                                                                  src="/images/content/portfolio/project10/logo.png">
+                                                                  src="/images/content/portfolio/project15/logo.png">
                             </div>
                         </a>
                         <a class="index-cat__item index-cat__item_5" href="/portfolio/invision.php" title="Промо-сайт"
@@ -306,12 +306,12 @@
                                                                   src="/images/content/portfolio/project14/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/wood.php" title="Промо-сайт"
-                           style="background-color: #FFFFFF">
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/akademi.php" title="Промо-сайт"
+                           style="background-color:#353535">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
-                                                                  src="/images/content/portfolio/project15/logo.png">
+                                                                  src="/images/content/portfolio/project3/logo.png">
                             </div>
                         </a>
                     </div>

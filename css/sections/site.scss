@@ -189,13 +189,7 @@
     }
 
     &__list {
-      background-image: url(../images/content/dev/devChart.png);
-      background-position: 150px 0;
-      background-repeat: no-repeat;
-      background-size: contain;
-      padding-bottom: 75px;
-      padding-top: 310px;
-      margin-top: -330px;
+      padding-bottom: 35px;
       position: relative;
 
       &:after {
@@ -210,10 +204,20 @@
       }
     }
 
+    &__graph {
+      position: absolute;
+      z-index: 10;
+      left: 15.8%;
+      right: 42.5%;
+      bottom: 0;
+    }
+
     &__item {
       display: flex;
       align-items: center;
       margin-bottom: 50px;
+      position: relative;
+      z-index: 20;
 
       @include xlg{
         margin-bottom: 20px;
@@ -542,5 +546,39 @@
     @include xlg{
       height: 45px;
     };
+  }
+}
+
+.graph {
+  &__bg {
+    width: 100%;
+  }
+
+  &__chart {
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 0%;
+
+    &-img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+
+  &__clock {
+    position: absolute;
+    z-index: 10;
+    bottom: -12.2222%;
+    right: 0;
+    left: 0;
+
+    transform: rotateX(60deg) skew(0deg,0deg);
   }
 }

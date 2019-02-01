@@ -10,13 +10,13 @@
                     <div class="rek-first__bread">
                         <div class="bread"><a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/promote.php">Портфолио</a>
-                            <a class="bread__item active">Сайт для магазина одежды</a>
+                            <a class="bread__item active">Сайт для товаров для дома</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Сайт для магазина одежды</div>
+                    <div class="rek-first__title">Сайт для продажи товаров для дома</div>
                     <div class="rek-first__subtitle">
                         Комплексный подход к разработке вашего проекта <br>
-                        с учётом особенностей вашего бизнесса<br>
+                        с учётом особенностей вашего ассортимента<br>
                         Гарантированные результат с минимальными вложениями
                     </div>
                     <button class="rek-first__button callorderOpen" type="button">
@@ -36,7 +36,7 @@
             </section>
             <div class="container3">
                 <section class="rek-desc">
-                    <div class="rek-desc__title">Мы создаем продающие сайты</div>
+                    <div class="rek-desc__title">Мы делаем продающие сайты</div>
                     <div class="rek-desc__content content">
                         <div class="rek-desc__block">
                             <h3>Кому подходит контекстная реклама</h3>
@@ -105,19 +105,19 @@
                                     <div class="swiper-slide site-dev__slide" >
                                         <div class="proportion proportion_750x470"></div>
                                         <div class="site-dev__slide-img">
-                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/odejda1.jpg">
+                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/cvetj1.jpg">
                                         </div>
                                     </div>
                                     <div class="swiper-slide site-dev__slide" >
                                         <div class="proportion proportion_750x470"></div>
                                         <div class="site-dev__slide-img">
-                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/odejda2.jpg">
+                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/cvetj2.jpg">
                                         </div>
                                     </div>
                                     <div class="swiper-slide site-dev__slide" >
                                         <div class="proportion proportion_750x470"></div>
                                         <div class="site-dev__slide-img">
-                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/odejda3.jpg">
+                                            <img class="site-dev__slide-pic" src="/images/content/portfolio/thematics/cvetj3.jpg">
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@
                     </div>
                 </section>
                 <section class="theme-price">
-                    <h1 class="theme-price__title">Стоимость создания сайта для магазина одежды</h1>
+                    <h1 class="theme-price__title">Стоимость создания сайта товаров для дома</h1>
                     <div class="theme-price__switches">
                         <div class="theme-price__switches-list">
                             <button class="active theme-price__switch" data-id="1"><span class="theme-price__switch-title">Корпоративный сайт</span></button>

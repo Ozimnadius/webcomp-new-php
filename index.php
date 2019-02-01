@@ -222,6 +222,22 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="calc__row">
+                                <div class="calc__fields">
+                                    <div class="calc__field calc__field_3">
+                                        <div class="policy">
+                                            <input class="check policy__checkbox" type="checkbox" id="policy" name="promo" checked>
+                                            <label class="check__label" for="policy">
+                                                <a target="_blank" href="/policy.php" class="policy__link">
+                                                    Я даю согласие на обработку моих персональных данный
+                                                </a>
+                                                <div class="check__fake policy__fake"></div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="calc__button">
                                 <button type="submit">
                                     <div class="btn">

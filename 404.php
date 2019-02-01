@@ -7,6 +7,15 @@
         <div class="forbidden">
             <div class="container2">
                 <div class="forbidden__wrapper">
+                    <div class="time">
+                        <img class="time__img" src="/images/bg/time.png" alt="">
+                        <div class="clock">
+                            <div class="clock__hour"></div>
+                            <div class="clock__minute"></div>
+                            <div class="clock__second"></div>
+                        </div>
+                    </div>
+                    <? /*
                     <div class="forbidden__title">
                         404
                     </div>
@@ -24,7 +33,7 @@
                                 <div class="btn__line-left"></div>
                             </div>
                         </div>
-                    </a>
+                    </a>*/ ?>
                 </div>
             </div>
         </div>

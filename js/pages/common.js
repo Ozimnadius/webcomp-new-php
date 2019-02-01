@@ -260,17 +260,17 @@ function ScrollTo(object, f) {
 
 }
 
-function Graphs(graphs){
+function Graphs(graphs) {
     this.graphs = graphs;
 
     this.animate = function () {
-        for ( let key in this.graphs){
+        for (let key in this.graphs) {
             let graph = this.graphs[key];
             graph.classList.add('active');
         }
     };
     this.clear = function () {
-        for ( let key in this.graphs){
+        for (let key in this.graphs) {
             let graph = this.graphs[key];
             graph.classList.remove('active');
         }
@@ -288,6 +288,23 @@ if (numbersAll.length) {
         let scroll = new ScrollTo(numbers, function () {
             numbersObj.animateNumbers();
         }).scrolling();
+    }
+}
+
+let clocks = document.querySelectorAll('.clock');
+
+if (clocks.length) {
+    for(let i=0; i<clocks.length;i++){
+    let clock = clocks[i],
+        clockHour = clock.querySelector('.clock__hour'),
+        clockMinute = clock.querySelector('.clock__minute'),
+        clockSecond = clock.querySelector('.clock__second'),
+        clockObj = new Clock({
+            hourObj: clockHour,
+            minuteObj: clockMinute,
+            secondObj: clockSecond
+        });
+    clockObj.start();
     }
 }
 

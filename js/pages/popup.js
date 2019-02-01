@@ -216,11 +216,17 @@ popup.addEventListener('click', function (e) {
     }
 });
 
+$('body').on('change', '.policy__checkbox', function (e) {
+    let $this = $(this),
+        form = $this.closest('form'),
+        submit = form.find('[type=submit]');
+        submit.toggleClass('disabled');
+});
+
 const tarifs = document.querySelectorAll('.host-tarifs__item');
 
 if (tarifs) {
     for (let i = 0; i < tarifs.length; i++) {
-
         tarifs[i].addEventListener('click', function (e) {
             e.preventDefault();
 

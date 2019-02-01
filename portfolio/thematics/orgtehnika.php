@@ -527,7 +527,7 @@
                     <div class="rek-bud__list numbers" data-timer="2000">
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
-                                <span class="rek-bud__item-val number__val" data-from="0" data-to="27">0</span><span class="rek-bud__item-type"> %</span>
+                                <span class="rek-bud__item-val number__val" data-from="0" data-to="47">0</span><span class="rek-bud__item-type"> %</span>
                             </div>
                             <div class="rek-bud__item-text">Снижение стоимость <br> клиента</div>
                         </div>
@@ -539,13 +539,13 @@
                         </div>
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
-                                <span class="rek-bud__item-val number__val"  data-from="0" data-to="10">0</span><span class="rek-bud__item-type"> % Bonus rate</span>
+                                <span class="rek-bud__item-val number__val"  data-from="10" data-to="50">10</span><span class="rek-bud__item-type"> % Bonus rate</span>
                             </div>
                             <div class="rek-bud__item-text">Снижение показателя<br>отказа</div>
                         </div>
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
-                                <span class="rek-bud__item-val number__val" data-from="0" data-to="25">0</span><span class="rek-bud__item-type"> % ROI</span>
+                                <span class="rek-bud__item-val number__val" data-from="-50" data-to="250">-50</span><span class="rek-bud__item-type"> % ROI</span>
                             </div>
                             <div class="rek-bud__item-text">Окупаемость инфестиций <br> в рекламу</div>
                         </div>

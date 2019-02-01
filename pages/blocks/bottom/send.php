@@ -19,6 +19,19 @@
                     <textarea class="input input_area" placeholder="Комментарий"></textarea>
                 </div>
             </div>
+            <div class="form__row">
+                <div class="form__field form__field_3">
+                    <div class="policy">
+                        <input class="check policy__checkbox" type="checkbox" id="policy" name="promo" checked>
+                        <label class="check__label" for="policy">
+                            <a target="_blank" href="/policy.php" class="policy__link">
+                                Я даю согласие на обработку моих персональных данный
+                            </a>
+                            <div class="check__fake policy__fake"></div>
+                        </label>
+                    </div>
+                </div>
+            </div>
             <button class="form__submit" type="submit">
                 <div class="btn">
                     <div class="btn__title">Получить консультацию маркетолога</div>

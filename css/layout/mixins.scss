@@ -5,6 +5,7 @@ $vw: 1920;
 
 $break_xlg: 1899.99px;
 $break_lg: 1439.99px;
+$break_slg: 1199.99px;
 $break_md: 991.99px;
 $break_sm: 767.99px;
 $break_xs: 479.99px;
@@ -17,6 +18,12 @@ $break_xs: 479.99px;
 
 @mixin lg () {
   @media screen and (max-width: $break_lg){
+    @content;
+  }
+}
+
+@mixin slg () {
+  @media screen and (max-width: $break_slg){
     @content;
   }
 }

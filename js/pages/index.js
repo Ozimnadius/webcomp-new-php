@@ -145,6 +145,51 @@
 
             });
 
+            document.addEventListener('keydown', function (e) {
+
+
+                let deltaY = e.deltaY,
+                    activeSection = document.querySelector('.active-page'),
+                    nextSection = activeSection.nextElementSibling,
+                    prevSection = activeSection.previousElementSibling;
+
+                if (!activeSection.classList.contains('index-bottom')) {
+                    e.preventDefault();
+                } else {
+                    if (deltaY > 0) {
+                        return;
+                    } else {
+                        if (scrollTop > 0) {
+                            return;
+                        }
+                    }
+
+                }
+
+                // if (inScroll) return;
+                //
+                // inScroll = true;
+
+                if ($(e.target).is('textarea')) return;
+
+                // if (!(e.keyCode === 38 || e.keyCode === 40)) return;
+
+                if (e.keyCode == '40') {
+                    if (nextSection) {
+                        scrollToSection(index(sections, nextSection));
+                    } else {
+                        inScroll = false;
+                    }
+                } else if (e.keyCode == '38') {
+                    if (prevSection) {
+                        scrollToSection(index(sections, prevSection));
+                    } else {
+                        inScroll = false;
+                    }
+                }
+
+            });
+
             if (sectionBottom) {
                 sectionBottom.addEventListener('scroll', function (e) {
                     scrollTop = this.scrollTop;

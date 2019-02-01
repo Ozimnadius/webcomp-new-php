@@ -471,7 +471,7 @@
                         </div>
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
-                                <span class="rek-bud__item-val number__val" data-from="0" data-to="25">0</span><span class="rek-bud__item-type"> % ROI</span>
+                                <span class="rek-bud__item-val number__val" data-from="-50" data-to="250">-50</span><span class="rek-bud__item-type"> % ROI</span>
                             </div>
                             <div class="rek-bud__item-text">Окупаемость инфестиций <br> в рекламу</div>
                         </div>

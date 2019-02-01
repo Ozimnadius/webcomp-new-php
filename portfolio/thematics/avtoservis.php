@@ -533,7 +533,7 @@
                     <div class="rek-bud__list numbers" data-timer="2000">
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
-                                <span class="rek-bud__item-val number__val" data-from="0" data-to="27">0</span><span class="rek-bud__item-type"> %</span>
+                                <span class="rek-bud__item-val number__val" data-from="0" data-to="47">0</span><span class="rek-bud__item-type"> %</span>
                             </div>
                             <div class="rek-bud__item-text">Снижение стоимость <br> клиента</div>
                         </div>
