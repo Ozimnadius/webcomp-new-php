@@ -24,6 +24,11 @@
     right: 100px;
     transition: .4s;
 
+    @include lg{
+      top: 50px;
+      right: 50px;
+    };
+
     &:hover {
       opacity: .5;
     }

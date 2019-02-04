@@ -15,6 +15,7 @@
 //@prepros-append pages/validation.js
 //@prepros-append pages/timer.js
 //@prepros-append pages/clock.js
+//@prepros-append pages/graph.js
 //@prepros-append pages/banner-send.js
 //@prepros-append pages/swiper.js
 

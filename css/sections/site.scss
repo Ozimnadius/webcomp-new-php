@@ -1,5 +1,4 @@
 .site {
-  //margin-left: -325px;
 
   &-first {
     //padding-left: 325px;
@@ -175,7 +174,7 @@
       font-size: 40px;
       text-transform: uppercase;
       text-align: center;
-      margin-bottom: 150px;
+      margin-bottom: 75px;
     }
 
     &__chart {
@@ -192,32 +191,59 @@
       padding-bottom: 35px;
       position: relative;
 
-      &:after {
-        content: '';
-        display: block;
-        width: 1px;
-        position: absolute;
-        top: 340px;
-        bottom: 100px;
-        left: 50px;
-        background: rgba($text,.2);
-      }
+      //&:after {
+      //  content: '';
+      //  display: block;
+      //  width: 1px;
+      //  position: absolute;
+      //  top: 340px;
+      //  bottom: 100px;
+      //  left: 50px;
+      //  background: rgba($text,.2);
+      //}
     }
 
     &__graph {
       position: absolute;
       z-index: 10;
-      left: 15.8%;
+      left: 19%;
       right: 42.5%;
       bottom: 0;
+      @include xlg{
+        left: 25%;
+      };
     }
 
     &__item {
       display: flex;
       align-items: center;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
       position: relative;
       z-index: 20;
+
+      &.active {
+        .site-dev__item {
+          &-day {
+            color: rgba($text,1);
+
+            &:after {
+              background: linear-gradient(to right, rgba($text, 0.7) 0%, rgba($text, 1) 100%);
+            }
+          }
+          &-desc{
+            opacity: 1;
+          }
+        }
+
+        .arrow {
+          &__line {
+            background: linear-gradient(to right, rgba($text, 0) 0%, rgba($text, 1) 100%);
+          }
+          &__triangle {
+            border-color: transparent transparent transparent rgba($text, 1);
+          }
+        }
+      }
 
       @include xlg{
         margin-bottom: 20px;
@@ -246,6 +272,7 @@
       }
 
       &-desc{
+        opacity: .5;
         width: calc(23.9% - 30px);
         margin-right: 15px;
         margin-left: 15px;
@@ -255,7 +282,7 @@
         text-align: center;
       }
 
-      &-arrow {
+      &-arrow{
         flex-grow: 1;
       }
     }
@@ -561,7 +588,7 @@
     left: 0;
     right: 0;
     overflow: hidden;
-    height: 0%;
+    height: 0;
 
     &-img {
       position: absolute;
@@ -579,6 +606,6 @@
     right: 0;
     left: 0;
 
-    transform: rotateX(60deg) skew(0deg,0deg);
+    transform: rotateX(60deg) rotateZ(-15deg);
   }
 }

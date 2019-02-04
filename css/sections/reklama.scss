@@ -632,8 +632,18 @@
 .subject {
   .rek {
     &-first {
+      padding-bottom: 120px;
       &__subtitle {
-        margin-bottom: 180px;
+        margin-bottom: 100px;
+      }
+      &__button {
+        &:before {
+          height: 75px;
+        }
+
+        &-squad {
+          bottom: calc(100% + 75px);
+        }
       }
     }
   }

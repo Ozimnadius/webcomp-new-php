@@ -291,21 +291,36 @@ if (numbersAll.length) {
     }
 }
 
+
 let clocks = document.querySelectorAll('.clock');
 
 if (clocks.length) {
-    for(let i=0; i<clocks.length;i++){
-    let clock = clocks[i],
-        clockHour = clock.querySelector('.clock__hour'),
-        clockMinute = clock.querySelector('.clock__minute'),
-        clockSecond = clock.querySelector('.clock__second'),
-        clockObj = new Clock({
-            hourObj: clockHour,
-            minuteObj: clockMinute,
-            secondObj: clockSecond
-        });
-    clockObj.start();
+    for (let i = 0; i < clocks.length; i++) {
+        let clock = clocks[i],
+            clockHour = clock.querySelector('.clock__hour'),
+            clockMinute = clock.querySelector('.clock__minute'),
+            clockSecond = clock.querySelector('.clock__second'),
+            clockObj = new Clock({
+                hourObj: clockHour,
+                minuteObj: clockMinute,
+                secondObj: clockSecond
+            });
+        clockObj.start();
     }
+}
+
+let graph = document.querySelector('.graph__chart'),
+    list = document.querySelectorAll('.site-dev__item');
+
+if (graph) {
+    let newGraph = new Graph({
+            graph: graph,
+            list: list
+        }),
+        listObj = document.querySelector('.site-dev__list'),
+        scroll = new ScrollTo(graph, function () {
+            newGraph.init();
+        }).scrolling();
 }
 
 

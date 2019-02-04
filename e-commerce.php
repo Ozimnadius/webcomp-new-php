@@ -86,7 +86,6 @@
                                 </div></a></div>
                         <div class="site-dev__title">В разработку интернет-магазина входит</div>
                         <div class="site-dev__chart">
-                            <!--img(src='images/content/dev/devChart.png').site-dev__chart-img-->
                             <div class="site-dev__list">
                                 <div class="site-dev__item">
                                     <div class="site-dev__item-day">2 дня</div>
@@ -183,6 +182,24 @@
                                         <div class="arrow">
                                             <div class="arrow__line"></div>
                                             <div class="arrow__triangle"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="site-dev__graph">
+                                    <div class="graph">
+                                        <img src="/images/bg/devChartBg.png" alt="" class="graph__bg">
+                                        <div class="graph__chart">
+                                            <img src="/images/bg/devChartGraph.png" alt="" class="graph__chart-img">
+                                        </div>
+                                        <div class="graph__clock">
+                                            <div class="time">
+                                                <img class="time__img" src="/images/bg/time.png" alt="">
+                                                <div class="clock">
+                                                    <div class="clock__hour"></div>
+                                                    <div class="clock__minute"></div>
+                                                    <div class="clock__second"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

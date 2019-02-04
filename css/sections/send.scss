@@ -11,6 +11,9 @@
     text-transform: uppercase;
     margin-bottom: vh(30);
     text-align: center;
+    @include lg{
+      font-size: 46px;
+    };
   }
 
   &__sub {
@@ -22,6 +25,10 @@
     margin-bottom: vh(55);
     @include xlg{
       font-size: 24px;
+    };
+    @include lg{
+      font-size: 21px;
+      margin-bottom: 20px;
     };
   }
 

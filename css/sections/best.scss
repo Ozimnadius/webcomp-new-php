@@ -3,7 +3,7 @@
   &__row {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    //width: 100%;
     margin-left: -15px;
     margin-right: -15px;
   }
@@ -19,6 +19,9 @@
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: vh(20);
+    @include lg{
+      font-size: 40px;
+    };
   }
 
   &__switches {
@@ -38,6 +41,10 @@
     transition: .3s;
     user-select: none;
     cursor: pointer;
+
+    @include lg{
+      font-size: 19px;
+    };
 
     &.active {
       color: #f4b200;
@@ -160,6 +167,10 @@
     font-size: 19px;
     font-weight: 700;
 
+    @include lg{
+      font-size: 17px;
+    };
+
     &:first-child {
       text-align: left;
     }
@@ -189,6 +200,10 @@
     @include xlg{
       font-size: 19px;
       padding: 15px 0;
+    };
+
+    @include lg{
+      font-size: 15px;
     };
 
     &:first-child {

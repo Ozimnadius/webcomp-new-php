@@ -17,9 +17,14 @@
   font-weight: 300;
   text-transform: uppercase;
 
+  @include lg{
+    font-size: 57px;
+  };
+
 
   &_small {
-    font-size: 57px;
+    font-size: 46px;
+
 
     .title__text_small {
       margin-left: 70px;
@@ -84,11 +89,17 @@
     @include xlg {
       opacity: 0;
     };
+    @include lg{
+      font-size: 260px;
+    };
   }
 
   &__btn {
     align-self: flex-end;
     margin-right: 30px;
+    @include lg{
+      margin-right: 0;
+    };
   }
 
 }
@@ -102,6 +113,9 @@
   justify-content: center;
   position: relative;
   cursor: pointer;
+  @include lg{
+    height: 40px;
+  };
 
   &:hover {
     .btn__title {
@@ -125,6 +139,9 @@
     letter-spacing: 1.92px;
     position: relative;
     transition: .4s;
+    @include lg{
+      font-size: 13px;
+    };
   }
 
   &__lines {
@@ -320,6 +337,10 @@
       padding-top: vh(100);
       padding-bottom: 0;
 
+      @include lg{
+        padding-top: 30px;
+      };
+
       &:after {
         transform: rotate(-180deg);
       }
@@ -388,6 +409,10 @@
       font-weight: 300;
       text-transform: uppercase;
       transition: .4s;
+
+      @include lg{
+        font-size: 17px;
+      };
     }
 
     &-value {
@@ -739,6 +764,9 @@
     @include xlg{
       padding: 15px 0;
     };
+    @include lg{
+      padding: 10px 0;
+    };
 
     &:after {
       content: '';
@@ -763,6 +791,9 @@
       letter-spacing: 0.56px;
       min-width: 18%;
       width: 18%;
+      @include lg{
+        font-size: 13px;
+      };
     }
   }
 
@@ -802,6 +833,10 @@
 
     display: flex;
     align-items: flex-start;
+    @include lg{
+      font-size: 13px;
+      align-items: center;
+    };
 
     &_middle {
       align-items: center;
@@ -900,6 +935,9 @@
     border: 1px solid rgba($text, .3);
     text-align: center;
     padding: 0 5px;
+    @include lg{
+      font-size: 15px;
+    };
   }
 
   &__range {
@@ -995,6 +1033,9 @@
     text-align: center;
     color: rgba($text, .3);
     transition: .3s;
+    @include lg{
+      height: 35px;
+    };
 
     &:focus, &:active {
       color: $text;
@@ -1014,6 +1055,9 @@
   &__button {
     display: flex;
     justify-content: center;
+    @include lg{
+      margin-top: 15px;
+    };
 
     button{
 
@@ -1165,6 +1209,12 @@
   font-weight: 300;
   box-sizing: border-box;
   height: 50px;
+
+  @include lg{
+    font-size: 15px;
+    padding: 10px;
+    height: auto;
+  };
 
   &::placeholder {
     color: rgba($text, .3);

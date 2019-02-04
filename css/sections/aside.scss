@@ -4,6 +4,11 @@ $asideRight: 90px;
 @mixin asidePadding {
   padding-left: $asideLeft;
   padding-right: $asideRight;
+
+  @include lg{
+    padding-left: $asideLeft - 35px;
+    padding-right: $asideRight - 60px;
+  };
 }
 
 .aside {
@@ -19,6 +24,12 @@ $asideRight: 90px;
   display: flex;
   flex-direction: column;
 
+  @include lg{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 230px;
+  };
+
   &__logo {
     margin-bottom: vh(63);
     @include asidePadding;
@@ -32,6 +43,10 @@ $asideRight: 90px;
   &__seporator {
     margin-bottom: vh(40);
     padding-right: $asideRight;
+
+    @include lg{
+      display: none;
+    };
 
     .seporator {
       &:hover {
@@ -54,12 +69,20 @@ $asideRight: 90px;
   &__search {
     @include asidePadding;
     margin-bottom: vh(125);
+    @include lg{
+      margin-bottom: 90px;
+    };
   }
 
   &__controls {
     padding-left: 30px;
     padding-right: $asideRight;
     margin-bottom: vh(25);
+
+    @include lg{
+      padding-left: 30px;
+      padding-right: 30px;
+    };
   }
 
   &__map {

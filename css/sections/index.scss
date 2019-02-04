@@ -87,8 +87,13 @@
       width: 420px;
       font-size: 17px;
       font-weight: 300;
-      line-height: 30px;
+      line-height: lh(17px,30px);
       padding-left: 70px;
+
+      @include lg {
+        font-size: 15px;
+        padding-left: 0;
+      };
 
       p {
         margin-bottom: vh(55);
@@ -157,6 +162,11 @@
       padding-top: vh(100);
       padding-right: 170px;
     };
+    @include lg{
+      margin-left: -230px;
+      padding-left: 230px;
+      padding-right: 150px;
+    };
 
     &__title {
       font-size: 64px;
@@ -164,6 +174,10 @@
       text-transform: uppercase;
       text-align: center;
       margin-bottom: vh(20);
+
+      @include lg{
+        font-size: 40px;
+      };
     }
 
     &__subtitle {
@@ -174,6 +188,10 @@
       letter-spacing: 0.92px;
       text-align: center;
       margin-bottom: vh(60);
+      @include lg{
+        font-size: 19px;
+        margin-bottom: 20px;
+      };
     }
 
     &__calc {
@@ -187,6 +205,9 @@
       top: 0;
       left: 325px;
       right: vw(140);
+      @include lg{
+        left: 230px;
+      };
     }
   }
 
@@ -203,12 +224,20 @@
     @include xlg{
       padding-right: 300px;
     };
+    @include lg{
+      padding-left: 230px;
+      margin-left: -230px;
+      padding-right: 150px;
+    };
 
     &__title {
       font-size: 63px;
       font-weight: 300;
       text-transform: uppercase;
       margin-bottom: vh(20);
+      @include lg{
+        font-size: 46px;
+      };
     }
 
     &__subtitle {
@@ -219,6 +248,10 @@
       text-transform: uppercase;
       letter-spacing: 0.92px;
       margin-bottom: vh(70);
+      @include lg{
+        font-size: 19px;
+        margin-bottom: 25px;
+      };
     }
 
     &__list {
@@ -276,6 +309,9 @@
       top: 0;
       left: 325px;
       right: vw(140);
+      @include lg{
+        left: 230px;
+      };
     }
   }
 
@@ -294,6 +330,11 @@
 
     @include xlg{
       padding-top: vh(100);
+    };
+    @include lg{
+      margin-left: -230px;
+      padding-left: 230px;
+      padding-right: 150px;
     };
 
     &__title {
@@ -359,6 +400,9 @@
     overflow-x: hidden;
     margin-left: -325px;
     position: relative;
+    @include lg{
+      margin-left: -230px;
+    };
 
     &::-webkit-scrollbar{
       width: 10px;
@@ -380,6 +424,9 @@
       top: 0;
       left: 325px;
       right: vw(140);
+      @include lg{
+        left: 230px;
+      };
     }
 
     &__wrapper {
@@ -401,6 +448,11 @@
       @include xlg{
         padding-top: vh(170);
         padding-right: 100px;
+      };
+      @include lg{
+        padding-right: 50px;
+        padding-left: 230px;
+        padding-top: 80px;
       };
     }
 
@@ -436,6 +488,10 @@
   &__footer {
     margin-left: -325px;
     margin-right: -250px;
+    @include lg{
+      margin-left: 0px;
+      margin-right: 0;
+    };
   }
 
 }

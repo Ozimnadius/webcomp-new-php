@@ -7,6 +7,9 @@
     @include xlg{
       margin-right: -103px;
     };
+    @include lg{
+      margin-right: -51px;
+    };
   }
 
   &__title {
@@ -25,7 +28,7 @@
 
     p {
       opacity: 0.5;
-      line-height: 25px;
+      line-height: lh($font-size,25px);
       text-align: center;
       margin-bottom: vh(30);
 

@@ -153,6 +153,10 @@
                     nextSection = activeSection.nextElementSibling,
                     prevSection = activeSection.previousElementSibling;
 
+                if (!(e.keyCode === 38 || e.keyCode === 40)) return;
+
+                if ($(e.target).is('input')) return;
+
                 if (!activeSection.classList.contains('index-bottom')) {
                     e.preventDefault();
                 } else {
@@ -166,13 +170,6 @@
 
                 }
 
-                // if (inScroll) return;
-                //
-                // inScroll = true;
-
-                if ($(e.target).is('textarea')) return;
-
-                // if (!(e.keyCode === 38 || e.keyCode === 40)) return;
 
                 if (e.keyCode == '40') {
                     if (nextSection) {

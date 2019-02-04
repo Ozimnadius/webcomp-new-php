@@ -16,6 +16,9 @@
       @include xlg{
         width: 200px;
       };
+      @include lg{
+        width: 150px;
+      };
     }
 
     &-text {
@@ -29,6 +32,9 @@
       @include xlg{
         font-size: 50px;
         line-height: lh(57,64);
+      };
+      @include lg{
+        font-size: 40px;
       };
     }
   }
@@ -80,8 +86,11 @@
       opacity: 0.5;
       font-size: 19px;
       font-weight: 300;
-      line-height: 27.47px;
+      line-height: lh(19px,27.47px);
       text-align: center;
+      @include lg{
+        font-size: 16px;
+      };
     }
   }
 }
