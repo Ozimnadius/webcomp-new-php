@@ -51,6 +51,9 @@
     @include xlg{
       font-size: 86px;
     };
+    @include lg{
+      font-size: 70px;
+    };
   }
 
   &__line {
@@ -221,6 +224,11 @@
   position: relative;
   cursor: pointer;
 
+  @include lg{
+    height: 45px;
+    width: 268px;
+  };
+
   &:hover {
     .btn3__title {
       color: $Selective-yellow;
@@ -247,6 +255,9 @@
     letter-spacing: 1.92px;
     position: relative;
     transition: .4s;
+    @include lg{
+      font-size: 13px;
+    };
   }
 
   &__lines {
@@ -1193,6 +1204,12 @@
     text-transform: uppercase;
     letter-spacing: 1.67px;
 
+    @include lg{
+      height: 40px;
+      width: 165px;
+      font-size: 11px;
+    };
+
   }
 }
 
@@ -1392,6 +1409,12 @@
   box-sizing: border-box;
   height: 50px;
 
+  @include lg{
+    font-size: 15px;
+    height: 40px;
+    padding: 10px;
+  };
+
 
   &.input-active {
     background: transparent;
@@ -1405,6 +1428,9 @@
   font-family: "Exo 2";
   font-size: 17px;
   font-weight: 300;
+  @include lg{
+    font-size: 15px;
+  };
 }
 
 .selectize-dropdown {

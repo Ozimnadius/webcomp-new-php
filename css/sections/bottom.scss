@@ -20,5 +20,8 @@
   &__footer {
     margin-left: -325px;
     margin-right: -250px;
+    @include lg{
+      margin: 0;
+    };
   }
 }

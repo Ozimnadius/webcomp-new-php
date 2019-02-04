@@ -4,4 +4,8 @@
   top: 0;
   left: 325px;
   right: vw(140);
+  @include lg{
+    left: 230px;
+    right: 50px;
+  };
 }

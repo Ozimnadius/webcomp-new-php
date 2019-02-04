@@ -22,6 +22,11 @@
       @include xlg{
         margin-bottom: 70px;
       };
+      @include lg{
+        margin-top: 90px;
+        margin-bottom: 60px;
+      };
+
     }
 
     &__title {
@@ -34,15 +39,21 @@
       @include xlg{
         font-size: 50px;
       };
+      @include lg{
+        font-size: 42px;
+      };
     }
 
     &__subtitle {
       color: #a4a4a4;
       font-size: 33px;
       font-weight: 300;
-      line-height: 49.97px;
+      line-height: lh(33px,49.97px);
       text-align: center;
       margin-bottom: vh(80);
+      @include lg{
+        font-size: 28px;
+      };
     }
   }
 
@@ -185,6 +196,9 @@
         padding-left: 60px;
         padding-right: 60px;
       };
+      @include lg{
+        margin-bottom: 90px;
+      };
     }
 
     &__list {
@@ -211,6 +225,9 @@
       bottom: 0;
       @include xlg{
         left: 25%;
+      };
+      @include lg{
+        right: 45.5%;
       };
     }
 
@@ -248,6 +265,9 @@
       @include xlg{
         margin-bottom: 20px;
       };
+      @include lg{
+        margin-bottom: 15px;
+      };
 
       &:last-child {
         margin-bottom: 0;
@@ -260,6 +280,10 @@
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
+
+        @include lg{
+          font-size: 15px;
+        };
 
         &:after {
           content: '';
@@ -278,8 +302,11 @@
         margin-left: 15px;
         font-size: 19px;
         font-weight: 500;
-        line-height: 27.13px;
+        line-height: lh(19px,27.13px);
         text-align: center;
+        @include lg{
+          font-size: 14px;
+        };
       }
 
       &-arrow{
@@ -382,21 +409,32 @@
       font-size: 40px;
       text-transform: uppercase;
       margin-bottom: 70px;
+      @include lg{
+        font-size: 32px;
+        margin-bottom: 30px;
+      };
     }
 
     &__name, &__text {
       opacity: 0.5;
       font-weight: 300;
       font-size: 35px;
-      line-height: 41.3px;
+      line-height: lh(35px,41.3px);
+      @include lg{
+        font-size: 28px;
+        text-align: center;
+      };
     }
     &__text {
       font-size: 30px;
       margin-bottom: 70px;
+      @include lg{
+        font-size: 24px;
+      };
     }
     &__img {
       @include xlg{
-        width: 700px;
+        width: 70%;
       };
     }
   }
@@ -419,6 +457,10 @@
         font-size: 32px;
         margin-bottom: 20px;
       };
+      @include lg{
+        font-size: 28px;
+        margin-bottom: 10px;
+      };
     }
 
     &__sub {
@@ -431,6 +473,9 @@
       @include xlg{
         font-size: 24px;
         margin-bottom: 15px;
+      };
+      @include lg{
+        font-size: 19px;
       };
     }
 
@@ -450,6 +495,10 @@
     &__switches {
       padding-top: 60px;
       position: relative;
+
+      @include lg{
+        padding-top: 30px;
+      };
 
       &:after {
         content: '';

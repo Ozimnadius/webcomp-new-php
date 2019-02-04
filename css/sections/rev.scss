@@ -4,6 +4,17 @@
     display: flex;
     justify-content: flex-end;
     padding-right: 100px;
+
+    @include lg{
+      display: block;
+      padding-right: 0;
+      text-align: right;
+
+      &-img {
+        width: 65%;
+      }
+    };
+
   }
 
   &__slider {

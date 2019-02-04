@@ -99,11 +99,19 @@ body {
   @include xlg{
     padding-right: 100px;
   };
+  @include lg{
+    padding-left: 230px;
+    padding-right: 50px;
+  };
 }
 
 .container3 {
   width: calc(100% - 325px);
   margin-left: 325px;
+  @include lg{
+    margin-left: 230px;
+    width: calc(100% - 230px);
+  };
 }
 
 

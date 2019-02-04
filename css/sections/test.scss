@@ -34,6 +34,9 @@
     @include xlg{
       padding-right: 100px;
     };
+    @include lg{
+      padding-top: 70px;
+    };
 
     &.active {
       opacity: 1;
@@ -44,6 +47,9 @@
       display: flex;
       align-items: center;
       margin-bottom: 60px;
+      @include lg{
+        margin-bottom: 30px;
+      };
     }
 
     &__percents {
@@ -60,13 +66,18 @@
         @include xlg{
           font-size: 230px;
         };
+        @include lg{
+          font-size: 190px;
+        };
       }
 
       &-type {
         font-size: 63px;
         font-weight: 300;
         text-transform: uppercase;
-
+      @include lg{
+        font-size: 50px;
+      };
       }
     }
 
@@ -80,6 +91,9 @@
       letter-spacing: 0.93px;
       text-align: center;
       margin-bottom: 100px;
+      @include lg{
+        margin-bottom: 30px;
+      };
     }
   }
 
@@ -140,6 +154,9 @@
       right: 30px;
       font-size: 230px;
     };
+    @include lg{
+      font-size: 160px;
+    };
 
   }
 
@@ -158,6 +175,9 @@
     @include xlg{
       padding-right: 100px;
     };
+    @include lg{
+      padding-right: 250px;
+    };
 
     &-title {
       font-size: 50px;
@@ -168,6 +188,9 @@
       margin-bottom: vh(40);
       @include xlg{
         font-size: 36px;
+      };
+      @include lg{
+        font-size: 24px;
       };
     }
 
@@ -230,6 +253,9 @@
   &__field {
     width: 50%;
     padding-right: 15px;
+    @include lg{
+      padding: 0 15px;
+    };
   }
 
   &__radio {
@@ -258,6 +284,9 @@
       align-items: center;
       @include xlg{
         font-size: 24px;
+      };
+      @include lg{
+        font-size: 19px;
       };
     }
 
@@ -298,6 +327,10 @@
     right: 260px;
     background: url("../images/bg/testPag.png") 0 0 repeat-x;
     padding-top: 28px;
+    @include lg{
+      bottom: 20px;
+      right: 260px;
+    };
 
     .swiper-pagination {
       height: 2px;
@@ -313,6 +346,9 @@
       margin-top: 30px;
       display: flex;
       justify-content: space-between;
+      @include lg{
+        margin-top: 15px;
+      };
     }
 
     &-percents {
