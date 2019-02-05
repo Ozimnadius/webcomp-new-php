@@ -64,7 +64,7 @@
     }
 
     ul {
-      opacity: 0.3;
+      color: rgba($text,.3);
       margin-bottom: vh(30);
 
       li {
@@ -118,7 +118,7 @@
     }
 
     ol {
-      opacity: .3;
+      color: rgba($text,.5);
       margin-bottom: vh(30);
       padding-left: 25px;
       li {

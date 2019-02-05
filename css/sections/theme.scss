@@ -7,11 +7,18 @@
     padding-bottom: 225px;
     background: url(../images/bg/themeBg.jpg) 0 0 no-repeat;
     background-size: cover;
+    @include lg{
+      padding-top: 100px;
+      padding-bottom: 150px;
+    };
 
     &__bread {
       margin-bottom: 180px;
       @include xlg{
         margin-bottom: 70px;
+      };
+      @include lg{
+        margin-bottom: 40px;
       };
     }
 
@@ -188,6 +195,10 @@
       background-size: cover !important;
       background-repeat: no-repeat !important;
       background-position: 0 0 !important;
+
+      @include lg{
+        width: calc(100%/3 - 2px);
+      };
 
       &:hover {
         .theme-cats__img {

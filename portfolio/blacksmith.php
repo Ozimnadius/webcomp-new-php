@@ -5,8 +5,7 @@
     <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/aside.php' ?>
     <main class="main">
         <div class="port blacksmith">
-            <section class="port-lap"">
-
+            <section class="port-lap">
                 <div class="port-lap__bgvideo">
                     <video autoplay muted loop class="port-lap__bgvideo-video" src="/images/content/portfolio/project2/videoplayback.mp4" poster="/images/content/portfolio/project2/bg.jpg">
                         <source src="/images/content/portfolio/project2/videoplayback.mp4" type="video/mp4">

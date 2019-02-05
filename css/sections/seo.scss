@@ -12,6 +12,9 @@
     @include xlg{
       padding-top: vh(230);
     };
+    @include lg{
+      padding-top: 100px;
+    };
 
     .container {
       display: flex;
@@ -24,6 +27,9 @@
       @include xlg{
         margin-bottom: 70px;
       };
+      @include lg{
+        margin-bottom: 50px;
+      };
     }
 
     &__title {
@@ -35,15 +41,22 @@
       @include xlg{
         font-size: 50px;
       };
+      @include lg{
+        margin-bottom: 30px;
+      };
     }
 
     &__subtitle {
       color: #a4a4a4;
       font-size: 33px;
       font-weight: 300;
-      line-height: 50px;
+      line-height: lh(33px,50px);
       margin-bottom: 85px;
       text-align: center;
+      @include lg{
+        font-size: 28px;
+        margin-bottom: 50px;
+      };
     }
 
     &__button {
@@ -361,11 +374,17 @@
     &__price {
       color: #c70541;
       font-size: 70px;
+      @include lg{
+        font-size: 50px;
+      };
     }
 
     &__desc {
       color: #505050;
       font-size: 30px;
+      @include lg{
+        font-size: 24px;
+      };
     }
   }
 

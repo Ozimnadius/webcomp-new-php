@@ -11,6 +11,9 @@
     @include xlg{
       padding-top: vh(200);
     };
+    @include lg{
+      padding-top: 100px;
+    };
 
     .container {
       display: flex;

@@ -10,6 +10,9 @@
     @include xlg{
       padding-top: 140px;
     };
+    @include lg{
+      padding-top: 100px;
+    };
 
 
     &__list {
@@ -20,6 +23,9 @@
       right: 0;
       @include xlg{
         top: 140px;
+      };
+      @include lg{
+        top: 100px;
       };
     }
 
@@ -325,6 +331,9 @@
       padding: 0 130px 0 70px;
       margin-bottom: 60px;
     };
+    @include lg{
+      padding: 0 50px;
+    };
 
     p {
       color: rgba($text, .6);
@@ -348,6 +357,9 @@
         @include xlg{
           width: 200px;
         };
+        @include lg{
+          width: 160px;
+        };
       }
 
       &-left {
@@ -366,6 +378,9 @@
         @include xlg{
           font-size: 50px;
         };
+        @include lg{
+          font-size: 37px;
+        };
       }
     }
 
@@ -377,11 +392,18 @@
       @include xlg{
         padding-right: 0;
       };
+      @include lg{
+        margin-left: -20px;
+      };
     }
     &__col {
       width: calc(100%/3);
       padding: 0 80px;
       position: relative;
+
+      @include lg{
+        padding: 0 20px;
+      };
 
       &:after {
         content: '';

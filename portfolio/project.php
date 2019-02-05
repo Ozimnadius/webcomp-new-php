@@ -31,6 +31,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="port-lap__bottom"></div>
                 </div>
             </section>
             <div class="container3">
@@ -43,9 +44,10 @@
                     <div class="port-desc__sub">Разработка интеграции со складами 5ти поставщиков с удобным функционалом<br>корректировки
                         каталоги и сверкой товаров по наличию и ценам.
                     </div>
-                    <div class="port-desc__list">
+                    <div class="port-desc__list numbers" data-timer="2000">
                         <div class="port-desc__item number">
-                            <div class="port-desc__item-title"><span class="number__val port-desc__item-val"
+                            <div class="port-desc__item-title">
+                                <span class="number__val port-desc__item-val"
                                                                      data-from="0" data-to="64">0</span>
                             </div>
                             <div class="port-desc__item-text">прототипа</div>
@@ -63,9 +65,11 @@
                             <div class="port-desc__item-text">адаптивных стр.</div>
                         </div>
                         <div class="port-desc__item number">
-                            <div class="port-desc__item-title"><span class="number__val port-desc__item-val"
-                                                                     data-from="0" data-to="61">0</span><span
-                                        class="port-desc__item-type"> день</span>
+                            <div class="port-desc__item-title">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="61">
+                                    0
+                                </span>
+                                <span class="port-desc__item-type"> день</span>
                             </div>
                             <div class="port-desc__item-text">время работы</div>
                         </div>
@@ -140,7 +144,7 @@
                         <!-- block 2 -->
                         <div class="port-proj__block">
                             <div class="port-proj__list">
-                                <div class="port-proj__item" style="margin-bottom: 305px;">
+                                <div class="port-proj__item">
                                     <div class="port-proj__item-title">
                                         умный фильтр
                                         <div class="port-proj__item-line"></div>
@@ -152,7 +156,7 @@
                                 </div>
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">Карточка товара
-                                        <div class="port-proj__item-line" style="width: 870px;"></div>
+                                        <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
                                         Удобная и продуманнная карточка товра с учетом

@@ -221,14 +221,21 @@
       position: absolute;
       z-index: 10;
       left: 19%;
-      right: 42.5%;
+      //right: 42.5%;
       bottom: 0;
+      width: 300px;
+
       @include xlg{
         left: 25%;
+        width: 260px;
+
       };
       @include lg{
-        right: 45.5%;
+        //right: 45.5%;
+        width: 180px;
+        right: initial;
       };
+
     }
 
     &__item {
@@ -361,6 +368,9 @@
 
       @include xlg{
         width: 210px;
+      };
+      @include lg{
+        width: 160px;
       };
 
       &:hover {

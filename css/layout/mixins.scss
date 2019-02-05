@@ -3,12 +3,13 @@ $vh: 1100;
 $vw: 1920;
 
 
-$break_xlg: 1899.99px;
-$break_lg: 1439.99px;
-$break_slg: 1199.99px;
-$break_md: 991.99px;
-$break_sm: 767.99px;
-$break_xs: 479.99px;
+$break_xlg: 1899px;
+$break_lg: 1439px;
+$break_slg: 1199px;
+$break_md: 991px;
+$break_sm: 767px;
+$break_xs: 479px;
+
 
 @mixin xlg () {
   @media screen and (max-width: $break_xlg){
@@ -47,6 +48,8 @@ $break_xs: 479.99px;
 }
 
 
+
+
 @function rem($size) {
   $remSize: $size / $font-size;
   @return $remSize * 1rem;
@@ -69,6 +72,16 @@ $break_xs: 479.99px;
 @function vw($size) {
   @return $size/$vw *100*1vw;
 }
+
+@function proportion($size,$percent){
+  @return $size*$percent;
+}
+
+@mixin img($width,$height,$percent){
+  width: proportion($width,$percent);
+  height: proportion($height,$percent)
+}
+
 @mixin content() {
 
   h3 {
@@ -81,7 +94,12 @@ $break_xs: 479.99px;
     margin-bottom: 35px;
     font-size: 17px;
     font-weight: 400;
-    line-height: 35px;
+    line-height: lh(17px,35px);
+
+    @include lg{
+      font-size: 15px;
+      margin-bottom: 20px;
+    };
 
     &:last-child {
       margin-bottom: 0;
@@ -95,6 +113,11 @@ $break_xs: 479.99px;
       margin-bottom: 20px;
       padding-left: 40px;
       position: relative;
+
+      @include lg{
+        font-size: 15px;
+        padding-left: 30px;
+      };
 
       &:before {
         content: '';
