@@ -48,8 +48,6 @@ $break_xs: 479px;
 }
 
 
-
-
 @function rem($size) {
   $remSize: $size / $font-size;
   @return $remSize * 1rem;
@@ -73,8 +71,17 @@ $break_xs: 479px;
   @return $size/$vw *100*1vw;
 }
 
+
 @function proportion($size,$percent){
   @return $size*$percent;
+}
+@function projHeight($height1,$height2){
+  @return $height1/$height2*100%;
+}
+
+@mixin projPosition( $top, $left, $height, $width){
+  top: projHeight($top,$height);
+  left: projHeight($left,$width);
 }
 
 @mixin img($width,$height,$percent){

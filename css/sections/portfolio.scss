@@ -1,3 +1,5 @@
+$width: 556;
+
 .port {
   background: url("/images/bg/promoteBg.jpg") 0 0 no-repeat;
   background-size: cover;
@@ -30,9 +32,10 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      @include xlg{
+      @include xlg {
         padding-top: vh(230);
-      };
+      }
+    ;
     }
 
 
@@ -131,11 +134,12 @@
     padding-top: 225px;
     padding-bottom: 150px;
 
-    @include xlg{
+    @include xlg {
       padding-right: 100px;
       padding-left: 100px;
       padding-bottom: 100px;
-    };
+    }
+  ;
 
     &__logo {
       margin-bottom: 55px;
@@ -149,9 +153,10 @@
       line-height: 48.56px;
       margin-bottom: 40px;
       text-align: center;
-      @include xlg{
+      @include xlg {
         font-size: 28px;
-      };
+      }
+    ;
     }
 
     &__sub {
@@ -196,16 +201,18 @@
 
       &-val {
         font-size: 80px;
-        @include xlg{
+        @include xlg {
           font-size: 57px;
-        };
+        }
+      ;
       }
 
       &-type {
         font-size: 50px;
-        @include xlg{
+        @include xlg {
           font-size: 36px;
-        };
+        }
+      ;
       }
 
       &-text {
@@ -213,9 +220,10 @@
         color: rgba($text, .5);
         font-size: 21px;
         font-weight: 500;
-        @include xlg{
+        @include xlg {
           font-size: 19px;
-        };
+        }
+      ;
       }
     }
   }
@@ -231,41 +239,44 @@
       flex-wrap: wrap;
       margin-left: -50px;
       margin-right: -50px;
-      @include xlg{
+      @include xlg {
         margin-left: -30px;
         margin-right: -30px;
-      };
+      }
+    ;
     }
 
     &__title {
       color: $bg;
       font-size: 60px;
       font-weight: 500;
-      line-height: lh(60px,75px);
+      line-height: lh(60px, 75px);
       text-transform: uppercase;
       //width: calc(26.5% - 100px);
       margin-left: 50px;
       margin-right: 50px;
-      @include xlg{
+      @include xlg {
         margin-left: 30px;
         margin-right: 30px;
         font-size: 50px;
-      };
+      }
+    ;
     }
 
     &__desc {
       color: #010101;
       font-size: 32px;
       font-weight: 300;
-      line-height: lh(32px,50px);
+      line-height: lh(32px, 50px);
       //width: calc(50% - 100px);
       margin-left: 50px;
       margin-right: 50px;
-      @include xlg{
+      @include xlg {
         margin-left: 30px;
         margin-right: 30px;
         font-size: 28px;
-      };
+      }
+    ;
     }
 
     &__nav {
@@ -275,10 +286,11 @@
       padding-top: 100px;
       display: flex;
       align-items: center;
-      @include xlg{
+      @include xlg {
         margin-left: auto;
         margin-right: 30px;
-      };
+      }
+    ;
     }
 
     &__prev, &__next {
@@ -334,9 +346,10 @@
       height: 445px;
       overflow: hidden;
       box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.3);
-      @include xlg{
+      @include xlg {
         height: 300px;
-      };
+      }
+    ;
     }
 
     &__img {
@@ -373,33 +386,27 @@
     padding-bottom: 100px;
 
     &__left {
-      width: 1009px;
-      position: relative;
+      width: 64.2%;
+      z-index: 10;
       box-shadow: -2px 34px 100px rgba(0, 0, 0, 0.72);
-      @include xlg{
-        width:700px;
-      };
+      position: relative;
     }
 
     &__img {
-      position: absolute;
-      top: 0;
-      //bottom: 0;
-      left: 0;
-      //right: 0;
       overflow: hidden;
 
       &-img {
-        //height: 100%;
         display: block;
+        width: 100%;
       }
     }
 
     &__right {
-      width: calc(100% - 1009px);
-      @include xlg{
-        width: calc(100% - 700px);
-      };
+      width: calc(100% - 64.2%);
+    }
+
+    &__block {
+      position: relative;
     }
 
     &__title {
@@ -407,16 +414,25 @@
       font-weight: 500;
       text-transform: uppercase;
       max-width: 360px;
-      @include xlg{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      @include xlg {
         font-size: 46px;
-      };
+      }
+    ;
     }
 
     &__list {
-
+      height: 100%;
+      width: 100%;
     }
 
     &__item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 15px;
 
       &-line {
         background: linear-gradient(to right, rgba(200, 8, 67, 1) 0%, rgba(200, 8, 67, 0) 100%);
@@ -436,26 +452,31 @@
         margin-bottom: 20px;
         position: relative;
         max-width: 360px;
-        @include xlg{
+        @include xlg {
           font-size: 21px;
           padding-bottom: 20px;
           margin-bottom: 15px;
-        };
+        }
+      ;
       }
 
       &-desc {
         color: $bg;
         font-size: 19px;
         font-weight: 300;
-        line-height: lh(19px,31px);
+        line-height: lh(19px, 31px);
         max-width: 360px;
-        @include xlg{
+        @include xlg {
           font-size: 17px;
-        };
+        }
+      ;
       }
     }
 
     &__recom {
+      position: absolute;
+      top: 0;
+      left: 0;
 
       &-title {
         color: $text;
@@ -466,11 +487,12 @@
         margin-bottom: 20px;
         position: relative;
         max-width: 360px;
-        @include xlg{
+        @include xlg {
           font-size: 21px;
           padding-bottom: 20px;
           margin-bottom: 15px;
-        };
+        }
+      ;
       }
 
       &-line {
@@ -485,11 +507,12 @@
       &-desc {
         font-size: 19px;
         font-weight: 300;
-        line-height: lh(19px,31px);
+        line-height: lh(19px, 31px);
         max-width: 360px;
-        @include xlg{
+        @include xlg {
           font-size: 17px;
-        };
+        }
+      ;
       }
     }
   }
@@ -522,11 +545,12 @@
     padding-top: 315px;
     padding-right: 100px;
     padding-left: 110px;
-    @include xlg{
+    @include xlg {
       padding-right: 50px;
       padding-left: 50px;
       padding-top: 50px;
-    };
+    }
+  ;
 
     &__title {
       color: $bg;
@@ -546,10 +570,11 @@
       margin-left: -110px;
       display: flex;
       flex-wrap: wrap;
-      @include xlg{
+      @include xlg {
         margin-left: -50px;
         margin-right: -50px;
-      };
+      }
+    ;
     }
 
     &__col {
@@ -558,11 +583,12 @@
       padding-bottom: 110px;
       padding-top: 0;
       position: relative;
-      @include xlg{
+      @include xlg {
         padding: 60px;
         padding-bottom: 55px;
         padding-top: 0;
-      };
+      }
+    ;
 
       &:after {
         content: '';
@@ -596,18 +622,20 @@
 
       &:first-child {
         padding-left: 110px;
-        @include xlg{
+        @include xlg {
           padding-left: 60px;
-        };
+        }
+      ;
 
         .port-team__item:first-child {
           position: absolute;
           left: 110px;
           bottom: calc(100% + 40px);
-          @include xlg{
+          @include xlg {
             left: 60px;
             bottom: calc(100% + 30px);
-          };
+          }
+        ;
         }
       }
 
@@ -697,7 +725,7 @@
       justify-content: space-between;
       align-items: flex-start;
 
-      &-tab{
+      &-tab {
         box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.24);
       }
     }
@@ -711,6 +739,9 @@
 }
 
 .stroym {
+  $widthImg: 1009;
+  $heightImg: 1813;
+
   .port {
 
     &-lap {
@@ -733,63 +764,46 @@
       &__block {
 
         &:nth-child(1) {
-          padding: 110px;
-          padding-top: 100px;
-          padding-right: 15px;
-          padding-bottom: 143px;
+          $height: 381;
+          height: projHeight($height, $heightImg);
           background: #ffb40c;
-          @include xlg{
-            padding-top: 80px;
-            padding-bottom: 80px;
-          };
+
+          .port-proj__title {
+            @include projPosition(110, 110, $height, $width);
+            text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+            color: $bg;
+          }
         }
 
         &:nth-child(2) {
           background: #ffffff;
-          padding: 130px 15px 130px 85px;
-          background: #ffffff;
-          padding-bottom: 309px;
-          @include xlg{
-            padding-left: 60px;
-            padding-bottom: 193px;
-          };
+          $height: 1061;
+          height: projHeight($height, $heightImg);
+
+          .port-proj__item {
+            &:nth-child(1) {
+              height: $height;
+              @include projPosition(130, 80, $height, $width);
+            }
+
+            &:nth-child(2) {
+              @include projPosition(616, 80, $height, $width);
+            }
+          }
 
         }
 
         &:nth-child(3) {
           background: #363471;
-          padding: 135px 15px 71px 85px;
-          //padding-bottom: 71px;
-          @include xlg{
-            padding: 58px 15px 58px 60px;
-          };
+          $height: 369;
+          height: projHeight($height, $heightImg);
+
+          .port-proj__recom {
+            @include projPosition(120, 80, $height, $width);
+          }
         }
       }
 
-      &__title {
-        text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
-        color: $bg;
-      }
-
-      &__sub {
-        color: #fbfbfb;
-        font-size: 26px;
-        font-style: italic;
-        color: #999999;
-      }
-
-      &__item {
-        &:first-child {
-          margin-bottom: 305px;
-          @include xlg{
-            margin-bottom: 160px;
-          };
-        }
-      }
-
-      &__recom {
-
-      }
     }
 
     &-pages {
@@ -801,23 +815,33 @@
         top: 95px;
         left: 325px;
 
-        @include xlg{
-          @include img(1705px,1158px,0.6);
+        @include xlg {
+          @include img(1705px, 1158px, 0.6);
           //width: r(1705px,0.8);
           //height: r(1158px,0.8);
-        };
+        }
+      ;
       }
     }
   }
 }
 
 .blacksmith {
+  $widthImg: 1038;
+  $heightImg: 4480;
 
   &.port {
     background: url("/images/content/portfolio/project2/bottom.jpg") 0 bottom no-repeat;
   }
 
+  &__buttons {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   &__button {
+
     font-size: 26px;
     font-style: italic;
     color: #999999;
@@ -861,72 +885,82 @@
 
       &__block {
         &:nth-child(1) {
-          padding: 0 15px 90px 90px;
           background: #050a15;
-          @include xlg{
-            padding: 0 15px 30px 60px;
-          };
+          $height: 226;
+          height: projHeight($height, $heightImg);
+
+          .port-proj__title {
+            color: #ec3e3e;
+            font-size: 60px;
+            font-weight: 700;
+            text-transform: uppercase;
+            @include projPosition(0, 90, $height, $width);
+          }
+
+          .blacksmith__buttons {
+            @include projPosition(148, 90, $height, $width);
+          }
         }
 
         &:nth-child(2) {
-          padding: 100px 15px 184px 100px;
-          @include xlg{
-            padding: 81px 15px 120px 60px;
-          };
+          $height: 967;
+          height: projHeight($height, $heightImg);
+
+          .port-proj__item {
+            &:nth-child(1) {
+              @include projPosition(130, 90, $height, $width);
+            }
+
+            &:nth-child(2) {
+              @include projPosition(657, 90, $height, $width);
+            }
+          }
         }
 
         &:nth-child(3) {
           background: linear-gradient(to left, #ec7d41 0%, #ec3c3e 100%);
-          padding: 115px 15px 120px 60px;
-          @include xlg{
-            padding: 80px 15px 80px 40px;
-          };
+          $height: 447;
+          height: projHeight($height, $heightImg);
+
+          .port-proj__recom {
+            @include projPosition(120, 60, $height, $width);
+          }
         }
 
         &:nth-child(4) {
-          padding-bottom: 737px;
-          @include xlg{
-            padding-bottom: 513px;
-          };
+          $height: 758;
+          height: projHeight($height, $heightImg);
         }
 
         &:nth-child(5) {
           background: linear-gradient(to left, #ec7d41 0%, #ec3c3e 100%);
-          padding: 176px 15px 110px 60px;
-          padding-top: 147px;
+          $height: 470;
+          height: projHeight($height, $heightImg);
+
+          .port-proj__recom {
+            @include projPosition(160, 60, $height, $width);
+          }
         }
 
         &:nth-child(6) {
           padding-bottom: 788px;
+          $height: 811;
+          height: projHeight($height, $heightImg);
         }
 
         &:nth-child(7) {
           background: linear-gradient(to left, #ec7d41 0%, #ec3c3e 100%);
-          padding: 170px 15px 154px 60px;
+          $height: 508;
+          height: projHeight($height, $heightImg);
+
+          .port-proj__recom {
+            @include projPosition(160, 60, $height, $width);
+          }
         }
 
         &:nth-child(8) {
-          padding-bottom: 286px;
-        }
-      }
-
-      &__title {
-        color: #ec3e3e;
-        font-size: 60px;
-        font-weight: 700;
-        text-transform: uppercase;
-        //line-height: 1;
-        @include xlg{
-          font-size: 46px;
-        };
-      }
-
-      &__item {
-        &:first-child {
-          margin-bottom: 300px;
-          @include xlg{
-            margin-bottom: 190px;
-          };
+          $height: 293;
+          height: projHeight($height, $heightImg);
         }
       }
 
@@ -1065,74 +1099,118 @@
     &-proj {
 
       &_1 {
+        $widthImg: 1033;
+        $heightImg: 3101;
         background: #2a2c41;
         padding-bottom: 160px;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
             background: #F4B953;
+            $height: 226;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
+
+            .balconies__subtitle{
+              @include projPosition(160, 80, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 140px 15px 322px 100px;
             background: $text;
+            $height: 1101;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 290px;
+                @include projPosition(130, 100, $height, $width);
+              }
+              &:nth-child(2) {
+                @include projPosition(657, 100, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding: 120px 15px 50px 60px;
             background: #f4b953;
+            $height: 321;
+            height: projHeight($height, $heightImg);
+            .port-proj__item {
+              @include projPosition(120, 60, $height, $width);
+            }
           }
 
           &:nth-child(4) {
-            padding-bottom: 985px;
             background: $text;
+            $height: 987;
+            height: projHeight($height, $heightImg);
           }
 
           &:nth-child(5) {
-            padding: 80px 15px 185px 60px;
+            $height: 466;
+            height: projHeight($height, $heightImg);
+            .port-proj__recom{
+              @include projPosition(80, 60, $height, $width);
+            }
           }
         }
 
       }
 
       &_2 {
+        $widthImg: 1048;
+        $heightImg: 4092;
         background: $text;
         padding-bottom: 200px;
 
         .port-proj__block {
           &:nth-child(1) {
-            padding: 0 15px 748px 80px;
+            $height: 974;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
+
+            .balconies__subtitle {
+              @include projPosition(160, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
             background: #f4b953;
-            padding: 100px 15px 70px 50px;
+            $height: 855;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 340px;
+                @include projPosition(100, 50, $height, $width);
+              }
+              &:nth-child(2) {
+                @include projPosition(600, 50, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 1280px;
+            $height: 1350;
+            height: projHeight($height, $heightImg);
           }
 
           &:nth-child(4) {
-            padding: 60px 15px 250px 50px;
+            $height: 915;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 270px;
+                @include projPosition(60, 50, $height, $width);
+              }
+              &:nth-child(2) {
+                @include projPosition(478, 50, $height, $width);
               }
             }
           }
@@ -1199,7 +1277,10 @@
     font-size: 26px;
     font-weight: 500;
     text-transform: uppercase;
-    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 15px;
   }
 }
 
@@ -2190,52 +2271,78 @@
     &-proj {
 
       &_1 {
+        $widthImg: 1035;
+        $heightImg: 2438;
         background: #2b7de0;
         padding-bottom: 320px;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
+            $height: 226;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
+
           }
 
           &:nth-child(2) {
-            padding: 140px 15px 140px 100px;
+            $height: 2083;
+            height: projHeight($height, $heightImg);
             background: $text;
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 420px;
+                @include projPosition(140, 100, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 590px;
+                @include projPosition(798, 100, $height, $width);
               }
+
               &:nth-child(3) {
-                margin-bottom: 160px;
+                @include projPosition(1530, 100, $height, $width);
+              }
+
+              &:nth-child(4) {
+                @include projPosition(1800, 100, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 120px;
+            $height: 127;
+            height: projHeight($height, $heightImg);
           }
         }
 
       }
 
       &_2 {
+        $widthImg: 1034;
+        $heightImg: 1401;
         background: #2b7de0;
         padding-bottom: 340px;
 
         .port-proj__block {
           &:nth-child(1) {
-            padding: 0 15px 290px 100px;
+            $height: 349;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
             background: $text;
-            padding: 240px 15px 470px 100px;
+            $height: 908;
+            height: projHeight($height, $heightImg);
+            .port-proj__item {
+              @include projPosition(240, 100, $height, $width);
+            }
           }
 
           &:nth-child(3) {
@@ -2247,21 +2354,31 @@
       &_3 {
         background: #2b7de0;
         padding-bottom: 0;
+        $widthImg: 1036;
+        $heightImg: 2396;
 
         .port-proj__block {
 
-
           &:nth-child(1) {
-            padding: 0 15px 160px 90px;
+            $height: 294;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 700px 15px 70px 100px;
+            $height: 2103;
+            height: projHeight($height, $heightImg);
             background: $text;
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 950px;
+                @include projPosition(720, 100, $height, $width);
+              }
+              &:nth-child(2) {
+                @include projPosition(1877, 100, $height, $width);
               }
             }
           }
@@ -2761,9 +2878,11 @@
               &:nth-child(2) {
                 margin-bottom: 370px;
               }
+
               &:nth-child(3) {
                 margin-bottom: 1600px;
               }
+
               &:nth-child(4) {
                 margin-bottom: 1047px;
               }
