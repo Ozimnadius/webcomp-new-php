@@ -9,14 +9,14 @@
                 <div class="container">
                     <div class="seo-first__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/promote.php">Продвижение</a>
                             <a class="bread__item" href="/promote/seo.php">SEO</a>
                             <a class="bread__item active">С оплатой за трафик</a>
                         </div>
                     </div>
-                    <div class="seo-first__title">SEO продвижение<br>с оплатой за результат</div>
-                    <div class="seo-first__subtitle">Продвигаем бесплатно пока сайт<br>не выйдет в ТОП</div>
+                    <div class="seo-first__title">SEO продвижение<br>с оплатой за трафик</div>
+                    <div class="seo-first__subtitle">Приводим посетителей<br>со всех уголков интернета</div>
                     <button class="seo-first__button callorderOpen" type="button">
                         <div class="btn">
                             <div class="btn__title">Хочу увеличить продажи</div>
@@ -35,33 +35,28 @@
                     <div class="seo-desc__row">
                         <div class="seo-desc__left">
                             <div class="seo-desc__block content">
-                                <h3>Получите железные гарантии на результат</h3>
-                                <p>Выбирая вариант продвижения с оплатой за результат вы гарантированно оплачиваете только те запросы по которым ваш сайт находиться в поиске. Если по продвигаемым ключевым фразам вы не находите ваш сайт в поисковой выдаче, продвижение осуществляется абсолютно бесплатно до момента выхода вашего сайта в ТОП.</p>
-                                <p>При данном виде продвижения у нас максимальная мотивация показать в первые 3 месяца работы на сайтом ощутимый результат, так как по истечению данного срока вы оплачиваете конкретный результат. На всем протяжении работ вы получаете полную отчётность о проделанных работах и прозрачную статистику.</p>
-                            </div>
-                            <div class="seo-desc__block content">
-                                <h3>Какие результаты стоит ожидать?</h3>
-                                <p>Введу технических особенностей поисковых систем, данный вид продвижения отлично подойдёт компаниям, у которых возраст сайта превышает более одного года и другие способы продвижения оказались не эффективными. Более того такой метод позволяет существенно сэкономить деньги и избежать пустых затрат. Практика показывает, что более 50% продвигаемых запросов выходят в топ поле 3 месяца продвижения.</p>
-                            </div>
+                                <h3>Хотите максимальный охват аудитории?</h3>
+                                <p>Для расширения числа уникальных посетителей веб-ресурса стоит воспользоваться современными методиками развития. Продвижение сайта с оплатой за трафик позволяет увеличить объемы уникальных пользователей. Заказчик оплачивает только количество уникальных пользователей, которые перешли на сайт. Главное преимущество – защита от недоброкачественного итога.</p>
+							
+							</div>
+                            
                             <div class="seo-desc__block content">
                                 <h3>Особенности тарифного плана</h3>
                                 <ul>
-                                    <li>Рост видимости сайта</li>
-                                    <li>Увеличение целевого трафика</li>
-                                    <li>Защита от слива бюджета</li>
-                                    <li>Прозрачная схема работы</li>
-                                    <li>Самый эффективный способ получить много заказов.</li>
-                                    <li>Точная стоимость каждого ключевого запроса</li>
-                                    <li>Тариф подходит для большинства сайтов.</li>
+                                    <li>Клиент оплачивает только объем посетителей, перешедших на сайт. В разных тематиках стоимость посетителя разная, и зависит от конкуренции в нише.</li>
+                                    <li>Одновременно ведется переход по нескольким тысячам упоминаний в системах поиска, это позволяет охватить максимально возможный размер целевой аудитории и привлечь ее.li>
+                                    <li>Комплексный подход к поставленной задаче. В процессе поискового привличения трафика проводится полная оптимизация по качественным параметрам, такой подход позволяет ощутить приток уже в первые месяцы после подписания договора о сотрудничестве.</li>
+                                    
                                 </ul>
+								<p>Оплата за привлеченный трафик производится только за тех людей, которые впервые пришли на ресурс с помощью разных инструментов онлайн рекламы.</p>
                             </div>
                             <button class="seo-desc__button button button_red promotionOpen" type="button">Подобрать ключевые запросы для продвижения</button>
                         </div>
-                        <div class="seo-desc__right">
+                         <div class="seo-desc__right">
                             <div class="seo-desc__list">
                                 <div class="seo-desc__item">
                                     <div class="seo-desc__item-title">1 место</div>
-                                    <div class="seo-desc__item-desc">в рейтинге по продвижению сайтов http://ratingnet.ru</div>
+                                    <div class="seo-desc__item-desc">в рейтинге по продвижению сайтов <a target="_blank" href="http://ratingnet.ru">ratingnet.ru</a></div>
                                 </div>
                                 <div class="seo-desc__item">
                                     <div class="seo-desc__item-title">100 %</div>
@@ -234,14 +229,14 @@
                         </div>
                     </div>
                 </section>
-                <section class="seo-price">
+                     <section class="seo-price">
                     <div class="seo-price__title">Стоимость продвижения</div>
                     <div class="seo-price__switches">
                         <div class="seo-price__switches-list">
                             <button class="active seo-price__switch" data-id="1"><span class="seo-price__switch-title">Тариф «Стартап»</span></button>
                             <button class="seo-price__switch" data-id="2"><span class="seo-price__switch-title">Тариф «Оптимальный»</span></button>
                             <button class="seo-price__switch" data-id="3"><span class="seo-price__switch-title">Тариф «Прорыв»</span></button>
-                            <button class="seo-price__switch" data-id="4"><span class="seo-price__switch-title">Тариф «Полный охват»</span></button>
+                            <button class="seo-price__switch" data-id="4"><span class="seo-price__switch-title">Тариф «Фикс»</span></button>
                         </div>
                         <div class="seo-price__line">
                             <div class="seo-price__subline"></div>
@@ -276,7 +271,7 @@
                                         <div class="seo-price__item-text">Аналитических работ</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">16 ч.</div>
+                                        <div class="seo-price__item-title">56 ч.</div>
                                         <div class="seo-price__item-text">Время SEO-специалистов</div>
                                     </div>
                                 </div>
@@ -299,7 +294,7 @@
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__price">19 900 Р / мес</div>
+                                        <div class="seo-price__price">29 900 Р / мес</div>
                                     </div>
                                     <div class="seo-price__item seo-price__item_bottom">
                                         <div class="seo-price__desc">После 3х месяцев оплата за результат</div>
@@ -311,31 +306,31 @@
                             <div class="seo-price__list">
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 15 000  знаков</div>
+                                        <div class="seo-price__item-title">до 20 000  знаков</div>
                                         <div class="seo-price__item-text">Написание и размещения текстов в рамках тарифа</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 200</div>
+                                        <div class="seo-price__item-title">до 300</div>
                                         <div class="seo-price__item-text">Ключевых слов в рамках одного проекта</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">400 изображений</div>
-                                        <div class="seo-price__item-text">Оптимизация до 400 изображений на сайте</div>
+                                        <div class="seo-price__item-title">500 изображений</div>
+                                        <div class="seo-price__item-text">Оптимизация до 500 изображений на сайте</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 30</div>
+                                        <div class="seo-price__item-title">до 50</div>
                                         <div class="seo-price__item-text">Кол-во продвигаемых разделов сайта</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">10 ч.</div>
+                                        <div class="seo-price__item-title">15 ч.</div>
                                         <div class="seo-price__item-text">Аналитических работ</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">16 ч.</div>
+                                        <div class="seo-price__item-title">86 ч.</div>
                                         <div class="seo-price__item-text">Время SEO-специалистов</div>
                                     </div>
                                 </div>
@@ -358,7 +353,7 @@
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__price">19 900 Р / мес</div>
+                                        <div class="seo-price__price">39 900 Р / мес</div>
                                     </div>
                                     <div class="seo-price__item seo-price__item_bottom">
                                         <div class="seo-price__desc">После 3х месяцев оплата за результат</div>
@@ -370,31 +365,31 @@
                             <div class="seo-price__list">
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 15 000  знаков</div>
+                                        <div class="seo-price__item-title">до 35 000  знаков</div>
                                         <div class="seo-price__item-text">Написание и размещения текстов в рамках тарифа</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 200</div>
+                                        <div class="seo-price__item-title">до 400</div>
                                         <div class="seo-price__item-text">Ключевых слов в рамках одного проекта</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">400 изображений</div>
-                                        <div class="seo-price__item-text">Оптимизация до 400 изображений на сайте</div>
+                                        <div class="seo-price__item-title">700 изображений</div>
+                                        <div class="seo-price__item-text">Оптимизация до 700 изображений на сайте</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 30</div>
+                                        <div class="seo-price__item-title">до 70</div>
                                         <div class="seo-price__item-text">Кол-во продвигаемых разделов сайта</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">10 ч.</div>
+                                        <div class="seo-price__item-title">20 ч.</div>
                                         <div class="seo-price__item-text">Аналитических работ</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">16 ч.</div>
+                                        <div class="seo-price__item-title">112 ч.</div>
                                         <div class="seo-price__item-text">Время SEO-специалистов</div>
                                     </div>
                                 </div>
@@ -417,7 +412,7 @@
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__price">19 900 Р / мес</div>
+                                        <div class="seo-price__price">49 900 Р / мес</div>
                                     </div>
                                     <div class="seo-price__item seo-price__item_bottom">
                                         <div class="seo-price__desc">После 3х месяцев оплата за результат</div>
@@ -429,31 +424,31 @@
                             <div class="seo-price__list">
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 15 000  знаков</div>
+                                        <div class="seo-price__item-title">до 20 000  знаков</div>
                                         <div class="seo-price__item-text">Написание и размещения текстов в рамках тарифа</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 200</div>
+                                        <div class="seo-price__item-title">до 300</div>
                                         <div class="seo-price__item-text">Ключевых слов в рамках одного проекта</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">400 изображений</div>
-                                        <div class="seo-price__item-text">Оптимизация до 400 изображений на сайте</div>
+                                        <div class="seo-price__item-title">500 изображений</div>
+                                        <div class="seo-price__item-text">Оптимизация до 500 изображений на сайте</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 30</div>
+                                        <div class="seo-price__item-title">до 50</div>
                                         <div class="seo-price__item-text">Кол-во продвигаемых разделов сайта</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">10 ч.</div>
+                                        <div class="seo-price__item-title">15 ч.</div>
                                         <div class="seo-price__item-text">Аналитических работ</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">16 ч.</div>
+                                        <div class="seo-price__item-title">86 ч.</div>
                                         <div class="seo-price__item-text">Время SEO-специалистов</div>
                                     </div>
                                 </div>
@@ -476,7 +471,7 @@
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__price">19 900 Р / мес</div>
+                                        <div class="seo-price__price">34 900 Р / мес</div>
                                     </div>
                                     <div class="seo-price__item seo-price__item_bottom">
                                         <div class="seo-price__desc">После 3х месяцев оплата за результат</div>
@@ -492,37 +487,37 @@
                         <div class="seo-faq__item">
                             <div class="seo-faq__item-title">Как быстро я увижу результат от продвижения?</div>
                             <div class="seo-faq__item-wrap">
-                                <div class="seo-faq__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi debitis dolores ducimus eos error facilis iure, labore maxime mollitia nulla numquam officia, optio quaerat, quis reiciendis repudiandae sapiente voluptates.</div>
+                                <div class="seo-faq__item-desc">Скорость достижения результата зависит от большого числа факторов: репутация домена, возраст сайта, наличие сайта в чёрных списках поисковых систем и другие. Без начальной аналитики сайта говорить о скорости достижения результата невозможно. Работы, которые мы будем проводить, вы увидете сразу. В случа, когда на начальном этапе с сайтом всё впорядке, рост сайта начинается через 3-4 месяца работы.</div>
                             </div>
                         </div>
                         <div class="seo-faq__item">
                             <div class="seo-faq__item-title">Как можно контролировать вашу работу?</div>
                             <div class="seo-faq__item-wrap">
-                                <div class="seo-faq__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi debitis dolores ducimus eos error facilis iure, labore maxime mollitia nulla numquam officia, optio quaerat, quis reiciendis repudiandae sapiente voluptates.</div>
+                                <div class="seo-faq__item-desc">За каждым проектом закрепляется личный менеджер для ответы на интересующие вопросы. 2 раза в месяц или по запросу мы отправляем резултаты нашей работы в виде отчёта</div>
                             </div>
                         </div>
                         <div class="seo-faq__item">
                             <div class="seo-faq__item-title">Как можно максимально быстро получить первые заявки и обращения с сайта?</div>
                             <div class="seo-faq__item-wrap">
-                                <div class="seo-faq__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi debitis dolores ducimus eos error facilis iure, labore maxime mollitia nulla numquam officia, optio quaerat, quis reiciendis repudiandae sapiente voluptates.</div>
+                                <div class="seo-faq__item-desc">Достаточно оперативно предоставлять необходимою информацию для сайта, выполнять наши рекомендации и результат не заставит себя долго ждать. Также можно подключить и другие источники трафика, которых мы нащитываем более 30. </div>
                             </div>
                         </div>
                         <div class="seo-faq__item">
                             <div class="seo-faq__item-title">Существует много веб-студий, которые занимаются продвижением. Как выбрать лучшую?</div>
                             <div class="seo-faq__item-wrap">
-                                <div class="seo-faq__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi debitis dolores ducimus eos error facilis iure, labore maxime mollitia nulla numquam officia, optio quaerat, quis reiciendis repudiandae sapiente voluptates.</div>
+                                <div class="seo-faq__item-desc">В перву очередь следует обратить внимание на опыт компании. Наличие сертифицированных специалистов будет существенным плюсом. Важно и портфолио с проектами, которые уже достигли результата, а также объём выполняемых работ за оговорённую сумму.</div>
                             </div>
                         </div>
                         <div class="seo-faq__item">
                             <div class="seo-faq__item-title">Что дополнительно потребуется от нас для эффективной вашей работы?</div>
                             <div class="seo-faq__item-wrap">
-                                <div class="seo-faq__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi debitis dolores ducimus eos error facilis iure, labore maxime mollitia nulla numquam officia, optio quaerat, quis reiciendis repudiandae sapiente voluptates.</div>
+                                <div class="seo-faq__item-desc">Оперативно предоставлять информацию для размещения на сайте, своевремено совершать оплату по тарифному плану, принимать участие в обсуждении вашего проекта.</div>
                             </div>
                         </div>
                         <div class="seo-faq__item">
                             <div class="seo-faq__item-title">Сколько людей будут работать над моим проектом?</div>
                             <div class="seo-faq__item-wrap">
-                                <div class="seo-faq__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi debitis dolores ducimus eos error facilis iure, labore maxime mollitia nulla numquam officia, optio quaerat, quis reiciendis repudiandae sapiente voluptates.</div>
+                                <div class="seo-faq__item-desc">В работе над проектом принимают участие: менеджер проекта, seo-оптимизатор, маркетолог, аналитик, копирайтер, контент-менеджер.</div>
                             </div>
                         </div>
                     </div>
@@ -540,12 +535,16 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Создание сайта</div>
+                                <div class="why__title">Особенности продвижения с оплатой за трафик</div>
                                 <div class="why__content">
-                                    <p>При разработке сайта мы учитываем многочисленные требования поисковых систем Yandex и Google, благодаря чему все сайты, созданные нами, отлично индексируются и обладают всеми возможностями эффективно продвигаться в интернете. Цена на создание сайта демократична и начинается от 49 900 руб.   Подход к каждому новому проекту – индивидуален, мы относимся одинаково внимательно к каждому клиенту, независимо от размера компании и ее бюджета. На начальной стадии работы над проектом мы детально изучаем тематику клиента со всех сторон, оцениваем рентабельность идеи и анализируем конкурентов. Основываясь на полученной информации, мы даем рекомендации, как по разработке, так и по эффективной рекламе в интернете.</p>
-                                    <p>После сдачи проекта мы осуществляем раскрутку и поддержку сайта, помогая клиенту привлекать трафик из интернета. Обращайтесь в нашу студию за разработкой веб сайтов под ключ и вы получите команду специалистов, готовых проконсультировать по любому вопросу и оказать всестороннюю поддержку вашему бизнесу во всемирной паутине.</p>
-                                    <p>Наша команда состоит из высококвалифицированных кадров, за плечами которых огромный опыт работы в веб индустрии. Несмотря на уже приобретенный опыт, мы держим руку на пульсе новых технологий и постоянно совершенствуем наработанные навыки. Таким образом, вы можете быть уверены, что при сотрудничестве с нами получите современный продукт, который будет выполнять ваши задачи и достигать поставленные цели.   Основные наши направления: создание сайтов под ключ, разработка дизайна, написание контента, продвижение сайта и его раскрутка, работа с социальными сетями, PR-рейтинг, техническая поддержка сайта, регистрация доменных имен, серверное обслуживание, программирование и настройка 1С.</p>
-                                </div>
+									<p>Главная особенность методики – это подключение внешних сервис для получения трафика из интернета. Данный вид продвижения относится к недорогим методам рекламы относительно других инструментов. При реализации этого подхода посетители приходят не только с высокочастотных и низкочастотных запросов, но и с тематических ресурсов.</p>
+									<p>Итоговая отчетная документация по достигнутым показателям предоставляется по запросу заказчика или 2 раза в месяц.</p>
+									<p>Наилучший исход наблюдается при использовании метода для развития интернет-магазинов и новостных порталов, для сайтов, оказывающих те или иные услуги, для ресурсов с музыкальным и видео контентом, для тематических веб-порталов, охватывающих специализированную тематику.</p>
+									<p>Результат сотрудничества с нашей фирмой для владельцев веб-ресурсов заключается в значительном увеличении охвата, в повышении количества посетителей, пришедших по отсылкам, в развитии интернет-ресурса и увеличении количества успешных сделок и продаж.
+Информацию о стоимости сервиса и особенностях сотрудничества можно уточнить у технических специалистов по телефону.
+</p>
+									
+								</div>
                             </div>
                         </div>
                         <div class="bottom__footer">

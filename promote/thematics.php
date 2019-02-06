@@ -8,13 +8,13 @@
             <section class="theme-first">
                 <div class="container promote-first__wrapper">
                     <div class="theme-first__bread">
-                        <div class="bread"><a class="bread__item" href="/">Главная</a>
+                        <div class="bread"><a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/promote.php">Продвижение</a>
                             <a class="bread__item active">По тематике</a>
                         </div>
                     </div>
-                    <div class="theme-first__title">Мы создадим продающий сайт<br>по вашей тематике</div>
-                    <div class="theme-first__subtitle">Комплексный подход к проектированию прототипов и программной<br>разработке, учитывающий особенности Вашего бизнеса</div>
+                    <div class="theme-first__title">Продвинули в топ более 300 проектов<br>по разным тематикам</div>
+                    <div class="theme-first__subtitle">Комплексный подход к интернет-рекламе<br>обеспечем заказами ваш бизнес</div>
                     <button class="theme-first__button promote-first__button" type="button">
                         <div class="btn3">
                             <div class="btn3__title">Узнать стоимость продвижения</div>
@@ -135,7 +135,7 @@
             </section>
             <div class="container3">
                 <section class="theme-iss">
-                    <div class="theme-iss__title">Тематические направления в которых у нас есть опыт создания сайтов</div>
+                    <div class="theme-iss__title">Тематики в которых мы уже успели показать результата</div>
                     <div class="theme-iss__list">
                         <div class="theme-iss__col"><a class="theme-iss__item" href="/">Автосалоны</a><a class="theme-iss__item" href="/">Автосервисы</a><a class="theme-iss__item" href="/">Автозапчасти</a><a class="theme-iss__item" href="/">Бухгалтерские услуги</a><a class="theme-iss__item" href="/">Гостиницы и отели</a><a class="theme-iss__item" href="/">Агентства недвижимости</a><a class="theme-iss__item" href="/">Детские игрушки</a><a class="theme-iss__item" href="/">Сайт знакомств</a><a class="theme-iss__item" href="/">Женская тематика</a>
                         </div>
@@ -149,105 +149,105 @@
                     <!--button.theme-iss__button показать еще-->
                 </section>
                 <section class="theme-cats">
-                    <div class="theme-iss__title">Изменение стоимости заявки на новом сайте</div>
-                    <div class="theme-cats__list"><a class="theme-cats__item" href="./portfolio.php" style="background:#66696c;">
+                    <div class="theme-iss__title">Мы снижаем стоимость рекламы</div>
+                    <div class="theme-cats__list"><a class="theme-cats__item" style="background:#66696c;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat1.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">3580 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">450 Р</div>
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Автосалоны</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:url(/images/content/theme/cats/cat2Bg.jpg);">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:url(/images/content/theme/cats/cat2Bg.jpg);">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat2.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">2850 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">350 Р</div>
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Гостиницы и отели</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:#cccccc;">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item"  style="background:#cccccc;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat3.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">680 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">150 Р</div>
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Сайты по ремонту</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:#ff0a00;">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:#ff0a00;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat4.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">1850 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">490 Р</div>
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Агенства недвижимости</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:url(/images/content/theme/cats/cat5Bg.jpg);">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:url(/images/content/theme/cats/cat5Bg.jpg);">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat5.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">4580 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">1120 Р</div>
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Страхования</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:#aa0f0f;">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:#aa0f0f;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat6.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">3200 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">730 Р</div>
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Интернет-магазина сантехники</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:#1a5a8c;">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:#1a5a8c;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat7.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">380 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
@@ -255,63 +255,63 @@
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Медицинское оборудование</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:#ffc9d5;">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:#ffc9d5;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat8.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">850 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">220 Р</div>
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Свадебные услуги</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:#3f1f44;">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:#3f1f44;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat9.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">1500 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">590 Р</div>
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Сайты знакомств</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:#ff4200;">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item"  style="background:#ff4200;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat10.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">250 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">70 Р</div>
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Книги</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:#66696c;">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item"  style="background:#66696c;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat1.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">250 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">45 Р</div>
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Автосалоны</div>
@@ -457,297 +457,263 @@
                         </div>
                         <div class="edge__content">
                             <div class="edge__col">
-                                Как сэкономить на создании интернет магазина
-                                При создании сайта или интернет-магазина
-                                часто возникает желания сэкономить, особенно
-                                когда перед глазами много разны ...
+                                Следуем трендам и алгоритмам поисковых систем. Используем иновационные подходы в привличении трафика на сайты. Работаем на результат и выстраиваем долгосрочные отношения с клиентами.
                             </div>
                             <div class="edge__col">
-                                Как сэкономить на создании интернет магазина
-                                При создании сайта или интернет-магазина
-                                часто возникает желания сэкономить, особенно
-                                когда перед глазами много разны ...
+                                В штате работают сертифицированные специалисты Яндекса. Сможем показать быстрый результат и нетревиальный подход к достижении целей. Для нас нет невыполнимых задач.
+                                
+
                             </div>
                         </div>
-                        <button class="edge__button button button_red callorderOpen" type="button">заказать сайт</button>
+                        <button class="edge__button button button_red callorderOpen" type="button">заказать продвижение</button>
                     </div>
                 </section>
-                <section class="theme-price">
-                    <div class="theme-price__title">Уникальная разработка дизайна страниц сайта</div>
-                    <div class="theme-price__switches">
-                        <div class="theme-price__switches-list">
-                            <button class="active theme-price__switch" data-id="1"><span class="theme-price__switch-title">Корпоративный сайт</span></button>
-                            <button class="theme-price__switch" data-id="2"><span class="theme-price__switch-title">Интернет-магазин</span></button>
-                            <button class="theme-price__switch" data-id="3"><span class="theme-price__switch-title">Лендинг</span></button>
-                            <button class="theme-price__switch" data-id="4"><span class="theme-price__switch-title">Промосайт</span></button>
-                            <button class="theme-price__switch" data-id="5"><span class="theme-price__switch-title">Сайт-визитка</span></button>
+                 <section class="seo-price">
+                    <div class="seo-price__title">Стоимость продвижения</div>
+                    <div class="seo-price__switches">
+                        <div class="seo-price__switches-list">
+                            <button class="active seo-price__switch" data-id="1"><span class="seo-price__switch-title">Тариф «Стартап»</span></button>
+                            <button class="seo-price__switch" data-id="2"><span class="seo-price__switch-title">Тариф «Оптимальный»</span></button>
+                            <button class="seo-price__switch" data-id="3"><span class="seo-price__switch-title">Тариф «Прорыв»</span></button>
+                            <button class="seo-price__switch" data-id="4"><span class="seo-price__switch-title">Тариф «Фикс»</span></button>
                         </div>
-                        <div class="theme-price__line">
-                            <div class="theme-price__subline"></div>
+                        <div class="seo-price__line">
+                            <div class="seo-price__subline"></div>
                         </div>
                     </div>
-                    <div class="theme-price__tabs">
-                        <div class="active theme-price__tab" data-id="1">
-                            <div class="theme-price__list">
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Креативный сайт</div>
-                                        <div class="theme-price__item-price">17 000 Р / 3 дня</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
+                    <div class="seo-price__tabs">
+                        <div class="active seo-price__tab" data-id="1">
+                            <div class="seo-price__list">
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 15 000  знаков</div>
+                                        <div class="seo-price__item-text">Написание и размещения текстов в рамках тарифа</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Типовой сайт</div>
-                                        <div class="theme-price__item-price">2 000 Р / 1 день</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 200</div>
+                                        <div class="seo-price__item-text">Ключевых слов в рамках одного проекта</div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">5 000 Р / 4 дня</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">400 изображений</div>
+                                        <div class="seo-price__item-text">Оптимизация до 400 изображений на сайте</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">7 000 Р / 6 дней</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 30</div>
+                                        <div class="seo-price__item-text">Кол-во продвигаемых разделов сайта</div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b>)</div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>15 000 Р</b></div>
-                                            <div class="theme-price__item-li">Написание ТЗ — <b>3 000 Р</b></div>
-                                            <div class="theme-price__item-li">Дизайн 5 стр для моб.устройств — <b>Бесплатно</b></div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">10 ч.</div>
+                                        <div class="seo-price__item-text">Аналитических работ</div>
+                                    </div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">56 ч.</div>
+                                        <div class="seo-price__item-text">Время SEO-специалистов</div>
+                                    </div>
+                                </div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">+</div>
+                                        <div class="seo-price__item-list">
+                                            <div class="seo-price__item-li">Анализ конкурентов</div>
+                                            <div class="seo-price__item-li">Составление ядра запросов</div>
+                                            <div class="seo-price__item-li">Полная SEO оптимизация</div>
                                         </div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>8 000 Р</b></div>
-                                            <div class="theme-price__item-li">Написание ТЗ — <b>3 000 Р</b></div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">+</div>
+                                        <div class="seo-price__item-list">
+                                            <div class="seo-price__item-li">Статистика и маркетинговый план</div>
+                                            <div class="seo-price__item-li">Отчётность 2 раза в месяц</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">40 000 Р</div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__price">29 900 Р / мес</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">20 000 Р</div>
+                                    <div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">После 3х месяцев оплата за результат</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="theme-price__tab" data-id="2">
-                            <div class="theme-price__list">
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Креативный сайт</div>
-                                        <div class="theme-price__item-price">17 000 Р / 3 дня</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
+                        <div class="seo-price__tab" data-id="2">
+                            <div class="seo-price__list">
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 20 000  знаков</div>
+                                        <div class="seo-price__item-text">Написание и размещения текстов в рамках тарифа</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Типовой сайт</div>
-                                        <div class="theme-price__item-price">2 000 Р / 1 день</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 300</div>
+                                        <div class="seo-price__item-text">Ключевых слов в рамках одного проекта</div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">5 000 Р / 4 дня</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">500 изображений</div>
+                                        <div class="seo-price__item-text">Оптимизация до 500 изображений на сайте</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">7 000 Р / 6 дней</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 50</div>
+                                        <div class="seo-price__item-text">Кол-во продвигаемых разделов сайта</div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b>)</div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>15 000 Р</b></div>
-                                            <div class="theme-price__item-li">Написание ТЗ — <b>3 000 Р</b></div>
-                                            <div class="theme-price__item-li">Дизайн 5 стр для моб.устройств — <b>Бесплатно</b></div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">15 ч.</div>
+                                        <div class="seo-price__item-text">Аналитических работ</div>
+                                    </div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">86 ч.</div>
+                                        <div class="seo-price__item-text">Время SEO-специалистов</div>
+                                    </div>
+                                </div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">+</div>
+                                        <div class="seo-price__item-list">
+                                            <div class="seo-price__item-li">Анализ конкурентов</div>
+                                            <div class="seo-price__item-li">Составление ядра запросов</div>
+                                            <div class="seo-price__item-li">Полная SEO оптимизация</div>
                                         </div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>8 000 Р</b></div>
-                                            <div class="theme-price__item-li">Написание ТЗ — <b>3 000 Р</b></div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">+</div>
+                                        <div class="seo-price__item-list">
+                                            <div class="seo-price__item-li">Статистика и маркетинговый план</div>
+                                            <div class="seo-price__item-li">Отчётность 2 раза в месяц</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">40 000 Р</div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__price">39 900 Р / мес</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">20 000 Р</div>
+                                    <div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">После 3х месяцев оплата за результат</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="theme-price__tab" data-id="3">
-                            <div class="theme-price__list">
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Креативный сайт</div>
-                                        <div class="theme-price__item-price">17 000 Р / 3 дня</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
+                        <div class="seo-price__tab" data-id="3">
+                            <div class="seo-price__list">
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 35 000  знаков</div>
+                                        <div class="seo-price__item-text">Написание и размещения текстов в рамках тарифа</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Типовой сайт</div>
-                                        <div class="theme-price__item-price">2 000 Р / 1 день</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 400</div>
+                                        <div class="seo-price__item-text">Ключевых слов в рамках одного проекта</div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">5 000 Р / 4 дня</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">700 изображений</div>
+                                        <div class="seo-price__item-text">Оптимизация до 700 изображений на сайте</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">7 000 Р / 6 дней</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 70</div>
+                                        <div class="seo-price__item-text">Кол-во продвигаемых разделов сайта</div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b>)</div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>15 000 Р</b></div>
-                                            <div class="theme-price__item-li">Написание ТЗ — <b>3 000 Р</b></div>
-                                            <div class="theme-price__item-li">Дизайн 5 стр для моб.устройств — <b>Бесплатно</b></div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">20 ч.</div>
+                                        <div class="seo-price__item-text">Аналитических работ</div>
+                                    </div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">112 ч.</div>
+                                        <div class="seo-price__item-text">Время SEO-специалистов</div>
+                                    </div>
+                                </div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">+</div>
+                                        <div class="seo-price__item-list">
+                                            <div class="seo-price__item-li">Анализ конкурентов</div>
+                                            <div class="seo-price__item-li">Составление ядра запросов</div>
+                                            <div class="seo-price__item-li">Полная SEO оптимизация</div>
                                         </div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>8 000 Р</b></div>
-                                            <div class="theme-price__item-li">Написание ТЗ — <b>3 000 Р</b></div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">+</div>
+                                        <div class="seo-price__item-list">
+                                            <div class="seo-price__item-li">Статистика и маркетинговый план</div>
+                                            <div class="seo-price__item-li">Отчётность 2 раза в месяц</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">40 000 Р</div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__price">49 900 Р / мес</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">20 000 Р</div>
+                                    <div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">После 3х месяцев оплата за результат</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="theme-price__tab" data-id="4">
-                            <div class="theme-price__list">
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Креативный сайт</div>
-                                        <div class="theme-price__item-price">17 000 Р / 3 дня</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
+                        <div class="seo-price__tab" data-id="4">
+                            <div class="seo-price__list">
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 20 000  знаков</div>
+                                        <div class="seo-price__item-text">Написание и размещения текстов в рамках тарифа</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Типовой сайт</div>
-                                        <div class="theme-price__item-price">2 000 Р / 1 день</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 300</div>
+                                        <div class="seo-price__item-text">Ключевых слов в рамках одного проекта</div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">5 000 Р / 4 дня</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">500 изображений</div>
+                                        <div class="seo-price__item-text">Оптимизация до 500 изображений на сайте</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">7 000 Р / 6 дней</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 50</div>
+                                        <div class="seo-price__item-text">Кол-во продвигаемых разделов сайта</div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b>)</div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>15 000 Р</b></div>
-                                            <div class="theme-price__item-li">Написание ТЗ — <b>3 000 Р</b></div>
-                                            <div class="theme-price__item-li">Дизайн 5 стр для моб.устройств — <b>Бесплатно</b></div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">15 ч.</div>
+                                        <div class="seo-price__item-text">Аналитических работ</div>
+                                    </div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">86 ч.</div>
+                                        <div class="seo-price__item-text">Время SEO-специалистов</div>
+                                    </div>
+                                </div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">+</div>
+                                        <div class="seo-price__item-list">
+                                            <div class="seo-price__item-li">Анализ конкурентов</div>
+                                            <div class="seo-price__item-li">Составление ядра запросов</div>
+                                            <div class="seo-price__item-li">Полная SEO оптимизация</div>
                                         </div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>8 000 Р</b></div>
-                                            <div class="theme-price__item-li">Написание ТЗ — <b>3 000 Р</b></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">40 000 Р</div>
-                                    </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">20 000 Р</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="theme-price__tab" data-id="5">
-                            <div class="theme-price__list">
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Креативный сайт</div>
-                                        <div class="theme-price__item-price">17 000 Р / 3 дня</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
-                                    </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Типовой сайт</div>
-                                        <div class="theme-price__item-price">2 000 Р / 1 день</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
-                                    </div>
-                                </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">5 000 Р / 4 дня</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5</div>
-                                    </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">7 000 Р / 6 дней</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
-                                    </div>
-                                </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b>)</div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>15 000 Р</b></div>
-                                            <div class="theme-price__item-li">Написание ТЗ — <b>3 000 Р</b></div>
-                                            <div class="theme-price__item-li">Дизайн 5 стр для моб.устройств — <b>Бесплатно</b></div>
-                                        </div>
-                                    </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>8 000 Р</b></div>
-                                            <div class="theme-price__item-li">Написание ТЗ — <b>3 000 Р</b></div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">+</div>
+                                        <div class="seo-price__item-list">
+                                            <div class="seo-price__item-li">Статистика и маркетинговый план</div>
+                                            <div class="seo-price__item-li">Отчётность 2 раза в месяц</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">40 000 Р</div>
+                                <div class="seo-price__row">
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__price">34 900 Р / мес</div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">20 000 Р</div>
+                                    <div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">После 3х месяцев оплата за результат</div>
                                     </div>
                                 </div>
                             </div>
@@ -764,17 +730,7 @@
                         <div class="bottom__send">
                             <? require $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
                         </div>
-                        <div class="bottom__why">
-                            <div class="why">
-                                <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Создание сайта</div>
-                                <div class="why__content">
-                                    <p>При разработке сайта мы учитываем многочисленные требования поисковых систем Yandex и Google, благодаря чему все сайты, созданные нами, отлично индексируются и обладают всеми возможностями эффективно продвигаться в интернете. Цена на создание сайта демократична и начинается от 49 900 руб.   Подход к каждому новому проекту – индивидуален, мы относимся одинаково внимательно к каждому клиенту, независимо от размера компании и ее бюджета. На начальной стадии работы над проектом мы детально изучаем тематику клиента со всех сторон, оцениваем рентабельность идеи и анализируем конкурентов. Основываясь на полученной информации, мы даем рекомендации, как по разработке, так и по эффективной рекламе в интернете.</p>
-                                    <p>После сдачи проекта мы осуществляем раскрутку и поддержку сайта, помогая клиенту привлекать трафик из интернета. Обращайтесь в нашу студию за разработкой веб сайтов под ключ и вы получите команду специалистов, готовых проконсультировать по любому вопросу и оказать всестороннюю поддержку вашему бизнесу во всемирной паутине.</p>
-                                    <p>Наша команда состоит из высококвалифицированных кадров, за плечами которых огромный опыт работы в веб индустрии. Несмотря на уже приобретенный опыт, мы держим руку на пульсе новых технологий и постоянно совершенствуем наработанные навыки. Таким образом, вы можете быть уверены, что при сотрудничестве с нами получите современный продукт, который будет выполнять ваши задачи и достигать поставленные цели.   Основные наши направления: создание сайтов под ключ, разработка дизайна, написание контента, продвижение сайта и его раскрутка, работа с социальными сетями, PR-рейтинг, техническая поддержка сайта, регистрация доменных имен, серверное обслуживание, программирование и настройка 1С.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="bottom__footer">
                             <? require $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
                         </div>

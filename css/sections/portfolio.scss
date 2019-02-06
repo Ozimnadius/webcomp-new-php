@@ -46,6 +46,9 @@ $width: 556;
       left: 0;
       right: 0;
       height: 100px;
+      @include lg{
+        height: 50px;
+      };
     }
 
     &__bread {
@@ -139,23 +142,31 @@ $width: 556;
       padding-left: 100px;
       padding-bottom: 100px;
     }
-  ;
+    @include lg{
+      padding-top: 200px;
+    };
 
     &__logo {
       margin-bottom: 55px;
       text-align: center;
+      @include lg{
+        margin-bottom: 25px;
+      };
     }
 
     &__title {
       color: rgba($text, .8);
       font-size: 33px;
       font-weight: 300;
-      line-height: 48.56px;
+      line-height: lh(33px,48.56px);
       margin-bottom: 40px;
       text-align: center;
       @include xlg {
         font-size: 28px;
       }
+      @include lg{
+        font-size: 24px;
+      };
     ;
     }
 
@@ -163,9 +174,12 @@ $width: 556;
       color: rgba($text, .8);
       font-size: 19px;
       font-weight: 300;
-      line-height: 31px;
+      line-height: lh(19px,31px);
       margin-bottom: 100px;
       text-align: center;
+      @include lg{
+        font-size: 17px;
+      };
     }
 
     &__list {
@@ -234,6 +248,10 @@ $width: 556;
     padding-top: 115px;
     position: relative;
 
+    @include lg{
+      padding: 50px 60px 0 60px;
+    };
+
     &__top {
       display: flex;
       flex-wrap: wrap;
@@ -260,6 +278,9 @@ $width: 556;
         margin-right: 30px;
         font-size: 50px;
       }
+      @include lg{
+        font-size: 42px;
+      };
     ;
     }
 
@@ -276,7 +297,10 @@ $width: 556;
         margin-right: 30px;
         font-size: 28px;
       }
-    ;
+      @include lg{
+        font-size: 24px;
+      }
+
     }
 
     &__nav {
@@ -290,7 +314,10 @@ $width: 556;
         margin-left: auto;
         margin-right: 30px;
       }
-    ;
+      @include lg{
+        padding-top: 30px;
+      };
+
     }
 
     &__prev, &__next {
@@ -339,6 +366,9 @@ $width: 556;
 
     &__container {
       padding-bottom: 60px;
+      @include lg{
+        padding-bottom: 30px;
+      };
     }
 
     &__slide {
@@ -349,7 +379,9 @@ $width: 556;
       @include xlg {
         height: 300px;
       }
-    ;
+      @include lg{
+        height: 250px;
+      };
     }
 
     &__img {
@@ -363,6 +395,9 @@ $width: 556;
       left: 0;
       right: 0;
       bottom: 0;
+      @include lg{
+        height: 200px;
+      };
     }
   }
 
@@ -384,6 +419,10 @@ $width: 556;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 100px;
+
+    @include lg{
+      padding-bottom: 60px;
+    };
 
     &__left {
       width: 64.2%;
@@ -421,7 +460,9 @@ $width: 556;
       @include xlg {
         font-size: 46px;
       }
-    ;
+      @include lg{
+        font-size: 42px;
+      };
     }
 
     &__list {
@@ -458,7 +499,11 @@ $width: 556;
           padding-bottom: 20px;
           margin-bottom: 15px;
         }
-      ;
+        @include lg{
+          font-size: 19px;
+          padding-bottom: 15px;
+          margin-bottom: 10px;
+        }
       }
 
       &-desc {
@@ -470,7 +515,9 @@ $width: 556;
         @include xlg {
           font-size: 17px;
         }
-      ;
+        @include lg{
+          font-size: 15px;
+        }
       }
     }
 
@@ -493,7 +540,11 @@ $width: 556;
           padding-bottom: 20px;
           margin-bottom: 15px;
         }
-      ;
+        @include lg{
+          font-size: 19px;
+          padding-bottom: 15px;
+          margin-bottom: 10px;
+        }
       }
 
       &-line {
@@ -513,7 +564,9 @@ $width: 556;
         @include xlg {
           font-size: 17px;
         }
-      ;
+        @include lg{
+          font-size: 15px;
+        }
       }
     }
   }
@@ -521,12 +574,19 @@ $width: 556;
   &-pages {
     padding: 70px 110px 220px 110px;
     position: relative;
+    @include lg{
+      padding: 30px 50px 100px 50px;
+    };
 
     &__title {
       font-size: 60px;
       font-weight: 500;
       text-transform: uppercase;
       margin-bottom: 50px;
+      @include lg{
+        //font-size: 42px;
+        //margin-bottom: 20px;
+      };
     }
 
     &__arrow {
@@ -550,21 +610,27 @@ $width: 556;
       padding-right: 50px;
       padding-left: 50px;
       padding-top: 50px;
-    }
-  ;
+    };
 
     &__title {
       color: $bg;
       font-size: 60px;
       font-weight: 500;
-      line-height: 75px;
+      line-height: lh(60px,75px);
       text-transform: uppercase;
       margin-bottom: 70px;
+      @include lg{
+        font-size: 42px;
+        margin-bottom: 30px;
+      };
     }
 
     &__img {
       opacity: .5;
       margin-bottom: 200px;
+      @include lg{
+        margin-bottom: 150px;
+      };
     }
 
     &__list {
@@ -588,8 +654,7 @@ $width: 556;
         padding: 60px;
         padding-bottom: 55px;
         padding-top: 0;
-      }
-    ;
+      } ;
 
       &:after {
         content: '';
@@ -625,8 +690,7 @@ $width: 556;
         padding-left: 110px;
         @include xlg {
           padding-left: 60px;
-        }
-      ;
+        } ;
 
         .port-team__item:first-child {
           position: absolute;
@@ -636,6 +700,9 @@ $width: 556;
             left: 60px;
             bottom: calc(100% + 30px);
           }
+          @include lg{
+            bottom: calc(100% + 20px);
+          };
         ;
         }
       }
@@ -646,6 +713,10 @@ $width: 556;
       color: $bg;
       font-size: 21px;
       margin-bottom: 45px;
+      @include lg{
+        font-size: 18px;
+        margin-bottom: 30px;
+      };
 
 
       &:last-child {
@@ -667,19 +738,41 @@ $width: 556;
       font-size: 80px;
       font-weight: 700;
       text-transform: uppercase;
+      @include xlg{
+        padding-top: 100px;
+        padding-bottom: 70px;
+      };
+      @include lg{
+        font-size: 57px;
+        padding: 50px 15px 70px 35px;
+      };
     }
 
     &__top {
       padding: 0 170px;
+      @include xlg{
+        padding: 0 70px;
+      };
+      @include lg{
+        padding: 0 100px;
+      };
     }
 
     &__list {
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
+      @include xlg{
+        margin-left: -100px;
+        margin-right: -100px;
+      };
     }
 
     &__item {
+      @include xlg{
+        margin-left: 100px;
+        margin-right: 100px;
+      };
 
       &-img {
         margin-bottom: 30px;
@@ -695,11 +788,17 @@ $width: 556;
       &-title {
         font-size: 30px;
         font-weight: 300;
+        @include lg{
+          font-size: 21px;
+        };
       }
 
       &-px {
         font-size: 20px;
         font-weight: 300;
+        @include lg{
+          font-size: 16px;
+        };
       }
     }
 
@@ -707,18 +806,30 @@ $width: 556;
       background: #353535;
       padding: 680px 170px 210px 170px;
       margin-top: -520px;
-
-
       color: rgba($text, .8);
       font-size: 33px;
       font-weight: 100;
-      line-height: 48.56px;
+      line-height: lh(33px,48.56px);
       text-align: center;
+      @include xlg{
+        padding-top: 620px;
+      };
+      @include lg{
+        margin-top: -320px;
+        padding: 350px 150px 60px 150px;
+        font-size: 28px;
+      };
     }
 
     &__bottom {
       padding: 270px 150px;
       background: $text;
+      @include xlg{
+        padding: 170px 50px;
+      };
+      @include lg{
+        padding: 60px;
+      };
     }
 
     &__proj {
@@ -728,6 +839,13 @@ $width: 556;
 
       &-tab {
         box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.24);
+
+        &:first-child{
+          width: 60%;
+        }
+        &:last-child{
+          width: 30%;
+        }
       }
     }
 
@@ -753,6 +871,9 @@ $width: 556;
 
     &-icons {
       padding: 60px 100px 130px 100px;
+      @include lg{
+        padding: 30px 60px 60px 60px;
+      };
 
       &__title {
         text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
@@ -818,10 +939,11 @@ $width: 556;
 
         @include xlg {
           @include img(1705px, 1158px, 0.6);
-          //width: r(1705px,0.8);
-          //height: r(1158px,0.8);
         }
-      ;
+        @include lg{
+          @include img(1705px, 1158px, 0.45);
+        };
+
       }
     }
   }
@@ -847,6 +969,12 @@ $width: 556;
     font-style: italic;
     color: #999999;
     transition: .3s;
+    @include xlg{
+      font-size: 21px;
+    };
+    @include lg{
+      font-size: 19px;
+    };
 
     &:first-child {
       margin-right: 15px;
@@ -875,6 +1003,9 @@ $width: 556;
 
     &-icons {
       padding: 60px 0 130px 100px;
+      @include lg{
+        padding: 30px 0 70px 60px;
+      };
     }
 
     &-proj {
@@ -896,6 +1027,12 @@ $width: 556;
             font-weight: 700;
             text-transform: uppercase;
             @include projPosition(0, 90, $height, $width);
+            @include xlg{
+              font-size: 42px;
+            };
+            @include lg{
+              font-size: 36px;
+            };
           }
 
           .blacksmith__buttons {
@@ -944,7 +1081,6 @@ $width: 556;
         }
 
         &:nth-child(6) {
-          padding-bottom: 788px;
           $height: 811;
           height: projHeight($height, $heightImg);
         }
@@ -960,7 +1096,7 @@ $width: 556;
         }
 
         &:nth-child(8) {
-          $height: 293;
+          $height: $heightImg - 226 - 967 - 447 -  758 - 470 - 811 - 508;
           height: projHeight($height, $heightImg);
         }
       }
@@ -1001,6 +1137,10 @@ $width: 556;
       padding-top: 165px;
       margin-top: -80px;
       background: #353535;
+      @include lg{
+        padding-top: 40px;
+        margin-top: 0;
+      };
     }
 
     &-slider {
@@ -1017,6 +1157,9 @@ $width: 556;
       color: $text;
       padding: 80px 110px;
       padding-right: 0;
+      @include lg{
+        padding: 30px 60px 60px 60px;
+      };
     }
 
     &-proj {
@@ -1024,6 +1167,9 @@ $width: 556;
       padding-bottom: 180px;
       $widthImg: 1031;
       $heightImg: 3888;
+      @include lg{
+        padding-bottom: 100px;
+      };
 
       &__left {
         z-index: 10;
@@ -1091,6 +1237,9 @@ $width: 556;
       padding-top: 165px;
       margin-top: 0;
       background: #26283d;
+      @include lg{
+        padding-top: 40px;
+      };
     }
 
     &-slider {
@@ -1107,6 +1256,9 @@ $width: 556;
       color: $bg;
       padding: 80px 110px;
       padding-right: 0;
+      @include lg{
+        padding: 60px;
+      };
     }
 
     &-proj {
@@ -1116,6 +1268,9 @@ $width: 556;
         $heightImg: 3101;
         background: #2a2c41;
         padding-bottom: 160px;
+        @include lg{
+          padding-bottom: 60px;
+        };
 
         .port-proj__block {
 
@@ -1179,6 +1334,9 @@ $width: 556;
         $heightImg: 4092;
         background: $text;
         padding-bottom: 200px;
+        @include lg{
+          padding-bottom: 100px;
+        };
 
         .port-proj__block {
           &:nth-child(1) {
@@ -1187,10 +1345,16 @@ $width: 556;
 
             .port-proj__title {
               @include projPosition(0, 90, $height, $width);
+              @include lg{
+                font-size: 36px;
+              };
             }
 
             .balconies__subtitle {
               @include projPosition(160, 90, $height, $width);
+              @include lg{
+                font-size: 20px;
+              };
             }
           }
 
@@ -1243,16 +1407,32 @@ $width: 556;
     &-pages {
       background: #2a2c41;
       padding: 0px 145px 100px 165px;
+      @include lg{
+        padding: 0px 60px 100px 60px;
+      };
 
       &-bottom {
         background: $text;
         padding-bottom: 980px;
+        @include xlg{
+          padding-bottom: 580px;
+        };
+        @include lg{
+          padding-bottom: 480px;
+        };
       }
 
 
       &__imgs {
         top: 140px;
         left: 90px;
+
+        @include xlg {
+          @include img(1450px, 985px, 0.7);
+        }
+        @include lg{
+          @include img(1450px, 985px, 0.6);
+        };
       }
     }
 
@@ -1261,6 +1441,10 @@ $width: 556;
       &__bottom {
         padding: 160px 130px;
         padding-bottom: 0;
+        @include lg{
+          padding: 60px;
+          padding-bottom: 0;
+        };
       }
     }
 
@@ -1268,6 +1452,9 @@ $width: 556;
       padding-top: 0;
       background: $text;
       margin-top: -500px;
+      @include lg{
+        margin-top: -350px;
+      };
     }
   }
 
@@ -1314,6 +1501,10 @@ $width: 556;
       padding-top: 165px;
       margin-top: -80px;
       background: #2c3e50;
+      @include lg{
+        padding-top: 40px;
+        margin-top: 0;
+      };
     }
 
     &-slider {
@@ -1328,13 +1519,21 @@ $width: 556;
     &-icons {
       padding: 60px 0 130px 100px;
       background: #2c3e50;
+      @include lg{
+        padding: 30px 60px 60px 60px;
+      };
     }
 
     &-proj {
+      $paddingBottom: 260px;
+      @include lg{
+        $paddingBottom: 160px;
+      };
+
 
       &_1 {
         background: #2f4051;
-        padding-bottom: 260px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1032;
         $heightImg: 3018;
 
@@ -1395,7 +1594,7 @@ $width: 556;
 
       &_2 {
         background: #2f4051;
-        padding-bottom: 260px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1034;
         $heightImg: 1622;
 
@@ -1432,7 +1631,7 @@ $width: 556;
 
       &_3 {
         background: #2f4051;
-        padding-bottom: 330px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1034;
         $heightImg: 1588;
 
@@ -1470,7 +1669,7 @@ $width: 556;
 
       &_4 {
         background: $text;
-        padding-bottom: 290px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1036;
         $heightImg: 877;
 
@@ -1511,6 +1710,10 @@ $width: 556;
       &__bottom {
         padding: 160px 130px;
         padding-bottom: 0;
+        @include lg{
+          padding: 60px;
+          padding-bottom: 0;
+        };
       }
     }
 
@@ -1518,6 +1721,9 @@ $width: 556;
       padding-top: 0;
       background: $text;
       margin-top: -500px;
+      @include lg{
+        margin-top: -350px;
+      };
     }
   }
 }
@@ -1539,6 +1745,10 @@ $width: 556;
       padding-top: 165px;
       margin-top: -80px;
       background: $text;
+      @include lg{
+        padding-top: 40px;
+        margin-top: 0;
+      };
 
       &__title {
         color: $bg;
@@ -1579,9 +1789,16 @@ $width: 556;
     &-icons {
       padding: 60px 0 130px 100px;
       background: #252525;
+      @include lg{
+        padding: 30px 60px 60px 60px;
+      };
     }
 
     &-proj {
+      $paddingBottom: 260px;
+      @include lg{
+        $paddingBottom: 160px;
+      };
 
       &__title {
         color: #ee3333;
@@ -1589,7 +1806,7 @@ $width: 556;
 
       &_1 {
         background: #333333;
-        padding-bottom: 260px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1035;
         $heightImg: 2427;
 
@@ -1640,7 +1857,7 @@ $width: 556;
 
       &_2 {
         background: #333333;
-        padding-bottom: 350px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1035;
         $heightImg: 2297;
 
@@ -1706,7 +1923,7 @@ $width: 556;
 
       &_4 {
         background: $text;
-        padding-bottom: 290px;
+        padding-bottom: $paddingBottom;
 
         .port-proj__block {
 
@@ -1729,10 +1946,12 @@ $width: 556;
       }
     }
 
-
     &-team {
       padding-top: 230px;
       background: $text;
+      @include lg{
+        padding-top: 50px;
+      };
     }
   }
 }
@@ -1754,6 +1973,10 @@ $width: 556;
       padding-top: 165px;
       margin-top: -80px;
       background: #f9f9fa;
+      @include lg{
+        padding-top: 40px;
+        margin-top: 0;
+      };
 
       &__title {
         color: $bg;
@@ -1794,13 +2017,18 @@ $width: 556;
 
     &-proj {
 
+      $paddingBottom: 260px;
+      @include lg{
+        $paddingBottom: 160px;
+      };
+
       &__title {
         color: $bg;
       }
 
       &_1 {
         background: #f9f9fa;
-        padding-bottom: 260px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1034;
         $heightImg: 1516;
 
@@ -1841,7 +2069,7 @@ $width: 556;
 
       &_2 {
         background: #f9f9fa;
-        padding-bottom: 340px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1035;
         $heightImg: 2492;
 
@@ -1917,10 +2145,12 @@ $width: 556;
       }
     }
 
-
     &-team {
       padding-top: 170px;
       background: $text;
+      @include lg{
+        padding-top: 50px;
+      };
     }
   }
 }
@@ -1942,6 +2172,10 @@ $width: 556;
       padding-top: 165px;
       margin-top: -80px;
       background: #1d1d1d;
+      @include lg{
+        padding-top: 40px;
+        margin-top: 0;
+      };
 
 
       &__item {
@@ -1967,21 +2201,29 @@ $width: 556;
     &-slider {
       background: #f9f9fa;
       padding-bottom: 180px;
+      @include lg{
+        //padding-bottom: 40px;
+      };
 
       &__bottom {
         height: 550px;
         background: #7d020e;
+        @include lg{
+          height: 400px;
+        };
       }
 
     }
 
-
     &-proj {
-
+      $paddingBottom: 260px;
+      @include lg{
+        $paddingBottom: 160px;
+      };
 
       &_1 {
         background: #7d020e;
-        padding-bottom: 260px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1033;
         $heightImg: 2454;
 
@@ -2020,6 +2262,9 @@ $width: 556;
 
               &:nth-child(5) {
                 @include projPosition(1700, 60, $height, $width);
+                @include xlg{
+                  @include projPosition(1650, 60, $height, $width);
+                };
               }
             }
 
@@ -2035,7 +2280,7 @@ $width: 556;
 
       &_2 {
         background: #7d020e;
-        padding-bottom: 300px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1035;
         $heightImg: 1877;
 
@@ -2121,10 +2366,12 @@ $width: 556;
       }
     }
 
-
     &-team {
       padding-top: 240px;
       background: $text;
+      @include lg{
+        padding-top: 50px;
+      };
     }
   }
 }
@@ -2147,6 +2394,10 @@ $width: 556;
       padding-top: 165px;
       margin-top: 0;
       background: #f8f9fb;
+      @include lg{
+        padding-top: 40px;
+      };
+
 
       &__title, &__sub {
         color: $bg;
@@ -2176,9 +2427,14 @@ $width: 556;
 
     &-proj {
 
+      $paddingBottom: 260px;
+      @include lg{
+        $paddingBottom: 160px;
+      };
+
       &_1 {
         background: #f8f9fb;
-        padding-bottom: 260px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1033;
         $heightImg: 3144;
 
@@ -2223,7 +2479,7 @@ $width: 556;
 
       &_2 {
         background: #f8f9fb;
-        padding-bottom: 280px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1032;
         $heightImg: 1919;
 
@@ -2254,7 +2510,7 @@ $width: 556;
 
       &_3 {
         background: #f8f9fb;
-        padding-bottom: 240px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1032;
         $heightImg: 1868;
 
@@ -2300,7 +2556,7 @@ $width: 556;
 
       &_4 {
         background: #f8f9fb;
-        padding-bottom: 240px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1032;
         $heightImg: 1946;
 
@@ -2402,6 +2658,9 @@ $width: 556;
     &-pages {
       background: #ffffff;
       padding: 250px 145px 100px 100px;
+      @include lg{
+        padding: 100px 60px 100px 60px;
+      };
 
       &__title {
         color: #b41819;
@@ -2410,14 +2669,25 @@ $width: 556;
       &-bottom {
         background: $text;
         padding-bottom: 850px;
+        @include xlg{
+          padding-bottom: 550px;
+        };
+        @include lg{
+          padding-bottom: 400px;
+        };
       }
-
 
       &__imgs {
         width: 1571px;
         height: 652px;
         top: 400px;
         left: 0;
+        @include xlg{
+          width: 100%;
+        };
+        @include lg{
+          top: 250px;
+        };
       }
     }
 
@@ -2430,12 +2700,19 @@ $width: 556;
       &__bottom {
         padding: 160px 130px;
         padding-bottom: 0;
+        @include lg{
+          padding: 60px;
+          padding-bottom: 0;
+        };
       }
     }
 
     &-team {
       padding-top: 240px;
       background: $text;
+      @include lg{
+        padding-top: 100px;
+      };
     }
   }
 
@@ -2481,6 +2758,10 @@ $width: 556;
       margin-top: 0;
       background: #2b7de0;
 
+      @include lg{
+        padding-top: 60px;
+      };
+
       &__title, &__sub {
         //color: $bg;
       }
@@ -2500,6 +2781,9 @@ $width: 556;
     &-slider {
       background: $text;
       padding-bottom: 170px;
+      @include lg{
+        padding-bottom: 100px;
+      };
 
       &__bottom {
         background: #2b7de0;
@@ -2514,6 +2798,9 @@ $width: 556;
         $heightImg: 2438;
         background: #2b7de0;
         padding-bottom: 320px;
+        @include lg{
+          padding-bottom: 120px;
+        };
 
         .port-proj__block {
 
@@ -2564,6 +2851,9 @@ $width: 556;
         $heightImg: 1401;
         background: #2b7de0;
         padding-bottom: 340px;
+        @include lg{
+          padding-bottom: 140px;
+        };
 
         .port-proj__block {
           &:nth-child(1) {
@@ -2640,6 +2930,9 @@ $width: 556;
     &-pages {
       background: #ffffff;
       padding: 250px 145px 100px 100px;
+      @include lg{
+        padding: 50px;
+      };
 
       &__title {
         color: #2b7de0;
@@ -2648,14 +2941,26 @@ $width: 556;
       &-bottom {
         background: $text;
         padding-bottom: 850px;
+        @include xlg{
+          padding-bottom: 550px;
+        };
+        @include lg{
+          padding-bottom: 450px;
+        };
       }
-
 
       &__imgs {
         width: 1563px;
         height: 742px;
         top: 400px;
         left: 0;
+        @include xlg{
+          width: 100%;
+          height: auto;
+        };
+        @include lg{
+          top: 150px;
+        };
       }
     }
 
@@ -2668,12 +2973,24 @@ $width: 556;
       &__bottom {
         padding: 160px 130px;
         padding-bottom: 0;
+
+        @include xlg{
+          //padding: 100px 60px;
+          //padding-bottom: 0;
+        };
+        @include lg{
+          padding: 60px;
+          padding-bottom: 0;
+        };
       }
     }
 
     &-team {
       padding-top: 240px;
       background: $text;
+      @include xlg{
+        padding-top: 100px;
+      };
     }
   }
 
@@ -2706,11 +3023,18 @@ $width: 556;
     padding: 0 100px;
     background: #232323;
     padding-bottom: 260px;
+    @include lg{
+      padding-bottom: 160px;
+    };
   }
 
   &__item {
     margin-bottom: 210px;
     position: relative;
+
+    @include lg{
+      margin-bottom: 150px;
+    };
 
     &:last-child {
       margin-bottom: 0;
@@ -2761,6 +3085,10 @@ $width: 556;
       padding-bottom: 290px;
       margin-top: 0;
       background: #232323;
+      @include lg{
+        padding-top: 40px;
+        padding-bottom: 190px;
+      };
 
       &__title, &__sub {
         //color: $bg;
@@ -2778,10 +3106,12 @@ $width: 556;
       }
     }
 
-
     &-team {
       padding-top: 160px;
       background: $text;
+      @include lg{
+        padding-top: 50px;
+      };
     }
   }
 
@@ -2826,6 +3156,9 @@ $width: 556;
       padding-top: 165px;
       margin-top: 0;
       background: #f8f9fb;
+      @include lg{
+        padding-top: 40px;
+      };
 
       &__title, &__sub {
         color: $bg;
@@ -2857,15 +3190,22 @@ $width: 556;
       &__bottom {
         height: 510px;
         background: #2b881b;
+        @include lg{
+          height: 390px;
+        };
       }
 
     }
 
     &-proj {
+      $paddingBottom: 260px;
+      @include lg{
+        $paddingBottom: 160px;
+      };
 
       &_1 {
         background: #2b881b;
-        padding-bottom: 360px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1041;
         $heightImg: 2427;
 
@@ -2910,7 +3250,7 @@ $width: 556;
 
       &_2 {
         background: #2b881b;
-        padding-bottom: 190px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1042;
         $heightImg: 1491;
 
@@ -2942,7 +3282,7 @@ $width: 556;
 
       &_3 {
         background: #2b881b;
-        padding-bottom: 270px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1042;
         $heightImg: 2483;
 
@@ -3025,6 +3365,9 @@ $width: 556;
     &-pages {
       background: #ffffff;
       padding: 200px 145px 100px 100px;
+      @include lg{
+        padding: 50px;
+      };
 
       &__title {
         color: #2b881b;
@@ -3033,14 +3376,26 @@ $width: 556;
       &-bottom {
         background: $text;
         padding-bottom: 850px;
+        @include xlg{
+          padding-bottom: 550px;
+        };
+        @include lg{
+          padding-bottom: 450px;
+        };
       }
-
 
       &__imgs {
         width: 1546px;
         height: 724px;
         top: 400px;
         left: 0;
+
+        @include xlg{
+          width: 100%;
+        };
+        @include lg{
+          top: 150px;
+        };
       }
     }
 
@@ -3053,6 +3408,10 @@ $width: 556;
       &__bottom {
         padding: 160px 130px;
         padding-bottom: 0;
+        @include lg{
+          padding: 60px;
+          padding-bottom: 0;
+        };
       }
     }
 
@@ -3060,6 +3419,9 @@ $width: 556;
       padding-top: 0;
       background: $text;
       margin-top: -500px;
+      @include lg{
+        margin-top: -350px;
+      };
     }
   }
 
@@ -3104,6 +3466,9 @@ $width: 556;
       padding-top: 165px;
       margin-top: 0;
       background: #cec6b6;
+      @include lg{
+        padding-top: 40px;
+      };
 
       &__title, &__sub {
         color: $bg;
@@ -3131,6 +3496,9 @@ $width: 556;
     &-slider {
       background: $text;
       padding-bottom: 170px;
+      @include lg{
+        padding-bottom: 70px;
+      };
 
       &__bottom {
         background: #b3b73e;
@@ -3203,6 +3571,9 @@ $width: 556;
     &-team {
       padding-top: 340px;
       background: $text;
+      @include lg{
+        padding-top: 50px;
+      };
     }
   }
 
@@ -3247,6 +3618,9 @@ $width: 556;
       padding-top: 165px;
       margin-top: 0;
       background: #f8f9fb;
+      @include lg{
+        padding-top: 40px;
+      };
 
       &__title, &__sub {
         color: $bg;
@@ -3274,19 +3648,29 @@ $width: 556;
     &-slider {
       background: $text;
       padding-bottom: 170px;
+      @include lg{
+        padding-bottom: 70px;
+      };
 
       &__bottom {
         height: 510px;
         background: #00ad00;
+        @include lg{
+          height: 200px;
+        };
       }
 
     }
 
     &-proj {
+      $paddingBottom:340px;
+      @include lg{
+        $paddingBottom:200px;
+      };
 
       &_1 {
         background: #00ad00;
-        padding-bottom: 340px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1043;
         $heightImg: 3135;
 
@@ -3331,7 +3715,7 @@ $width: 556;
 
       &_2 {
         background: #00ad00;
-        padding-bottom: 340px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1046;
         $heightImg: 2851;
 
@@ -3419,6 +3803,9 @@ $width: 556;
     &-pages {
       background: #ffffff;
       padding: 270px 145px 100px 100px;
+      @include lg{
+        padding: 50px;
+      };
 
       &__title {
         color: #2b881b;
@@ -3427,14 +3814,26 @@ $width: 556;
       &-bottom {
         background: $text;
         padding-bottom: 850px;
+        @include xlg{
+          padding-bottom: 550px;
+        };
+        @include lg{
+          padding-bottom: 450px;
+        };
       }
-
 
       &__imgs {
         width: 1563px;
         height: 750px;
         top: 400px;
         left: 0;
+        @include xlg{
+          width: 100%;
+          height: auto;
+        };
+        @include lg{
+          top: 150px;
+        };
       }
     }
 
@@ -3447,6 +3846,10 @@ $width: 556;
       &__bottom {
         padding: 160px 130px;
         padding-bottom: 0;
+        @include lg{
+          padding: 60px;
+          padding-bottom: 0;
+        };
       }
     }
 
@@ -3454,6 +3857,9 @@ $width: 556;
       padding-top: 0;
       background: $text;
       margin-top: -500px;
+      @include xlg{
+        margin-top: -300px;
+      };
     }
   }
 
@@ -3498,6 +3904,9 @@ $width: 556;
       padding-top: 165px;
       margin-top: 0;
       background: $text;
+      @include lg{
+        padding-top: 40px;
+      };
 
       &__title, &__sub {
         color: $bg;
@@ -3530,15 +3939,22 @@ $width: 556;
       &__bottom {
         height: 510px;
         background: #5baa00;
+        @include lg{
+          height: 390px;
+        };
       }
 
     }
 
     &-proj {
+      $paddingBottom: 280px;
+      @include lg{
+        $paddingBottom: 180px;
+      };
 
       &_1 {
         background: #5baa00;
-        padding-bottom: 280px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1041;
         $heightImg: 2732;
 
@@ -3583,7 +3999,7 @@ $width: 556;
 
       &_2 {
         background: #5baa00;
-        padding-bottom: 310px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1044;
         $heightImg: 2014;
 
@@ -3622,7 +4038,7 @@ $width: 556;
 
       &_3 {
         background: #5baa00;
-        padding-bottom: 330px;
+        padding-bottom: $paddingBottom;
         $widthImg: 1050;
         $heightImg: 1663;
 
@@ -3714,6 +4130,9 @@ $width: 556;
     &-pages {
       background: #ffffff;
       padding: 240px 145px 100px 100px;
+      @include lg{
+        padding: 50px;
+      };
 
       &__title {
         color: #2b881b;
@@ -3722,6 +4141,9 @@ $width: 556;
       &-bottom {
         background: $text;
         padding-bottom: 600px;
+        @include lg{
+          padding-bottom: 400px;
+        };
       }
 
 
@@ -3730,12 +4152,24 @@ $width: 556;
         height: 733px;
         top: 400px;
         left: 0;
+
+        @include xlg {
+          width: 100%;
+          height: auto;
+          //@include img(1541px, 733px, 0.6);
+        }
+        @include lg{
+          top: 150px;
+        };
       }
     }
 
     &-team {
       padding-top: 250px;
       background: $text;
+      @include lg{
+        padding-top: 50px;
+      };
     }
   }
 
