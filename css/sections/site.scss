@@ -186,6 +186,9 @@
       text-transform: uppercase;
       text-align: center;
       margin-bottom: 75px;
+      @include lg{
+        margin-bottom: 100px;
+      };
     }
 
     &__chart {
@@ -232,7 +235,7 @@
       };
       @include lg{
         //right: 45.5%;
-        width: 180px;
+        width: 230px;
         right: initial;
       };
 

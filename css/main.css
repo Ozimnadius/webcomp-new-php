@@ -646,7 +646,7 @@ input, textarea, select {
 @media screen and (max-width: 1439px) {
   .btn3 {
     height: 45px;
-    width: 268px;
+    width: 320px;
   }
 }
 
@@ -3054,7 +3054,7 @@ input:-webkit-autofill {
   .index-cat {
     padding-left: 230px;
     margin-left: -230px;
-    padding-right: 150px;
+    padding-right: 19.7vw;
   }
 }
 
@@ -4920,6 +4920,12 @@ input:-webkit-autofill {
   margin-bottom: 75px;
 }
 
+@media screen and (max-width: 1439px) {
+  .site-dev__title {
+    margin-bottom: 100px;
+  }
+}
+
 .site-dev__chart {
   padding-left: 300px;
   padding-right: 300px;
@@ -4961,7 +4967,7 @@ input:-webkit-autofill {
 
 @media screen and (max-width: 1439px) {
   .site-dev__graph {
-    width: 180px;
+    width: 230px;
     right: initial;
   }
 }
