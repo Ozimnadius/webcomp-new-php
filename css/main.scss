@@ -92,6 +92,8 @@ $font-size: 17px;
 @import "sections/footer";
 
 
+//TODO прописать всем главным bg cover иначе беда с разрешениями выше 1920 например 2560 и т.д
+
 .debug {
   //@include debug(rgba(0,0,0,0.3), 1px solid red);
   //z-index: 100;

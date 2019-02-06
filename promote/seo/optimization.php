@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="seo-first__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сатов</a>
                             <a class="bread__item" href="/promote.php">Продвижение</a>
                             <a class="bread__item" href="/promote/seo.php">SEO</a>
                             <a class="bread__item active">Оптимизация сайта</a>
@@ -417,7 +417,7 @@
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__price">19 900 Р / мес</div>
+                                        <div class="seo-price__price">49 900 Р / мес</div>
                                     </div>
                                     <div class="seo-price__item seo-price__item_bottom">
                                         <div class="seo-price__desc">После 3х месяцев оплата за результат</div>

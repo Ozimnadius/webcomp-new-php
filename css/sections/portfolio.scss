@@ -416,7 +416,8 @@ $width: 556;
       max-width: 360px;
       position: absolute;
       top: 0;
-      bottom: 0;
+      left: 0;
+      right: 15px;
       @include xlg {
         font-size: 46px;
       }
@@ -1021,6 +1022,8 @@ $width: 556;
     &-proj {
       background: $text;
       padding-bottom: 180px;
+      $widthImg: 1031;
+      $heightImg: 3888;
 
       &__left {
         z-index: 10;
@@ -1029,27 +1032,37 @@ $width: 556;
       &__block {
         &:nth-child(1) {
           background: #353535;
-          padding: 0 15px 90px 90px;
+          $height: 230;
+          height: projHeight($height, $heightImg);
+
+          .port-proj__title {
+            @include projPosition(0, 90, $height, $width);
+          }
         }
 
         &:nth-child(2) {
-          padding: 70px 0 160px 100px;
+          $height: $heightImg - 230;
+          height: projHeight($height, $heightImg);
+          .port-proj__item{
+            &:nth-child(1) {
+              @include projPosition(70, 100, $height, $width);
+            }
+
+            &:nth-child(2) {
+              @include projPosition(1020, 60, $height, $width);
+            }
+
+            &:nth-child(3) {
+              @include projPosition(2070, 60, $height, $width);
+            }
+
+            &:nth-child(4) {
+              @include projPosition(3355, 60, $height, $width);
+            }
+          }
         }
       }
 
-      &__item {
-        &:nth-child(1) {
-          margin-bottom: 750px;
-        }
-
-        &:nth-child(2) {
-          margin-bottom: 850px;
-        }
-
-        &:nth-child(3) {
-          margin-bottom: 1050px;
-        }
-      }
     }
 
     &-team {
@@ -1322,35 +1335,51 @@ $width: 556;
       &_1 {
         background: #2f4051;
         padding-bottom: 260px;
+        $widthImg: 1032;
+        $heightImg: 3018;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
             background: #2f4051;
+            $height: 220;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 70px 15px 346px 100px;
             background: $text;
+            $height: 2582;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 750px;
+                @include projPosition(60, 100, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 700px;
+                @include projPosition(1020, 60, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1967, 60, $height, $width);
               }
             }
 
           }
 
           &:nth-child(3) {
-            padding: 40px 15px 30px 100px;
             background: #2f4051;
 
+            $height: 220;
+            height: projHeight($height, $heightImg);
+
             .port-proj__item {
+              @include projPosition(38, 60, $height, $width);
+
               &-title {
                 color: $text;
               }
@@ -1367,22 +1396,35 @@ $width: 556;
       &_2 {
         background: #2f4051;
         padding-bottom: 260px;
+        $widthImg: 1034;
+        $heightImg: 1622;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
             background: #2f4051;
+
+            $height: 310;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 550px 15px 340px 60px;
             background: $text;
+            $height: 1088;
+            height: projHeight($height, $heightImg);
+            .port-proj__item{
+              @include projPosition(554, 60, $height, $width);
+            }
           }
 
           &:nth-child(3) {
-            padding-bottom: 220px;
             background: #2f4051;
+            $height: 232;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -1391,22 +1433,36 @@ $width: 556;
       &_3 {
         background: #2f4051;
         padding-bottom: 330px;
+        $widthImg: 1034;
+        $heightImg: 1588;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
             background: #2f4051;
+            $height: 268;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 560px 15px 430px 60px;
             background: $text;
+            $height: 1025;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__item{
+              @include projPosition(563, 60, $height, $width);
+            }
           }
 
           &:nth-child(3) {
             padding-bottom: 180px;
             background: #2f4051;
+            $height: 203;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -1415,17 +1471,30 @@ $width: 556;
       &_4 {
         background: $text;
         padding-bottom: 290px;
+        $widthImg: 1036;
+        $heightImg: 877;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 210px 90px;
             background: #2f4051;
+
+            $height: 264;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 180px 15px 180px 60px;
             background: $text;
+            $height: 610;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__item{
+              @include projPosition(222, 60, $height, $width);
+            }
           }
         }
 
@@ -1433,6 +1502,7 @@ $width: 556;
 
       &__left {
         z-index: 10;
+        box-shadow: 12px -12px 117px rgba(102, 102, 102, 0.14);
       }
     }
 
@@ -1520,37 +1590,49 @@ $width: 556;
       &_1 {
         background: #333333;
         padding-bottom: 260px;
+        $widthImg: 1035;
+        $heightImg: 2427;
 
         .port-proj__block {
 
           &:nth-child(1) {
             background: #252525;
-            padding: 0 15px 90px 90px;
+            $height: 229;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 320px 15px 100px 60px;
             background: $text;
+            $height: 1874;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 240px;
-                padding-left: 40px;
+                @include projPosition(343, 100, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 270px;
+                @include projPosition(741, 60, $height, $width);
               }
 
               &:nth-child(3) {
-                margin-bottom: 378px;
+                @include projPosition(1133, 60, $height, $width);
+              }
+
+              &:nth-child(4) {
+                @include projPosition(1678, 60, $height, $width);
               }
             }
 
           }
 
           &:nth-child(3) {
-            padding-bottom: 320px;
+            $height: 329;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -1559,20 +1641,32 @@ $width: 556;
       &_2 {
         background: #333333;
         padding-bottom: 350px;
+        $widthImg: 1035;
+        $heightImg: 2297;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 250px 90px;
+            $height: 347;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 550px 15px 893px 60px;
             background: $text;
+            $height: 1607;
+            height: projHeight($height, $heightImg);
+            .port-proj__item{
+              @include projPosition(160, 60, $height, $width);
+            }
           }
 
           &:nth-child(3) {
-            padding-bottom: 330px;
+            $height: 340;
+            height: projHeight($height, $heightImg);
 
           }
         }
@@ -1582,17 +1676,28 @@ $width: 556;
       &_3 {
         background: #333333;
         padding-bottom: 0;
+        $widthImg: 1036;
+        $heightImg: 1890;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 110px 90px;
             background: #333333;
+            $height: 265;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 790px 15px 660px 60px;
             background: $text;
+            $height: 1629;
+            height: projHeight($height, $heightImg);
+            .port-proj__item{
+              @include projPosition(797, 60, $height, $width);
+            }
           }
 
         }
@@ -1687,7 +1792,6 @@ $width: 556;
 
     }
 
-
     &-proj {
 
       &__title {
@@ -1697,28 +1801,39 @@ $width: 556;
       &_1 {
         background: #f9f9fa;
         padding-bottom: 260px;
+        $widthImg: 1034;
+        $heightImg: 1516;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 265px 90px;
+            $height: 414;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 120px 15px 120px 60px;
             background: $text;
+            $height: 1047;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 460px;
-                padding-left: 40px;
+                @include projPosition(126, 100, $height, $width);
+              }
+              &:nth-child(2) {
+                @include projPosition(740, 60, $height, $width);
               }
             }
 
           }
 
           &:nth-child(3) {
-            padding-bottom: 25px;
+            $height: 52;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -1727,28 +1842,39 @@ $width: 556;
       &_2 {
         background: #f9f9fa;
         padding-bottom: 340px;
+        $widthImg: 1035;
+        $heightImg: 2492;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
+            $height: 163;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 150px 15px 215px 60px;
             background: $text;
+
+            $height: 2228;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 1460px;
-                padding-left: 40px;
+                @include projPosition(156, 60, $height, $width);
+              }
+              &:nth-child(2) {
+                @include projPosition(1840, 60, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 30px;
-
+            $height: 100;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -1757,16 +1883,28 @@ $width: 556;
       &_3 {
         background: #f9f9fa;
         padding-bottom: 0;
+        $widthImg: 1035;
+        $heightImg: 1025;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
+            $height: 222;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 300px 15px 320px 60px;
             background: $text;
+            $height: 801;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__item{
+              @include projPosition(320, 60, $height, $width);
+            }
           }
 
         }
@@ -1844,40 +1982,52 @@ $width: 556;
       &_1 {
         background: #7d020e;
         padding-bottom: 260px;
+        $widthImg: 1033;
+        $heightImg: 2454;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 265px 90px;
+            $height: 422;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 120px 15px 40px 60px;
             background: $text;
+            $height: 1873;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 253px;
-                padding-left: 40px;
+                @include projPosition(120, 100, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 253px;
+                @include projPosition(500, 60, $height, $width);
               }
 
               &:nth-child(3) {
-                margin-bottom: 310px;
+                @include projPosition(890, 60, $height, $width);
               }
 
               &:nth-child(4) {
-                margin-bottom: 185px;
+                @include projPosition(1355, 60, $height, $width);
+              }
+
+              &:nth-child(5) {
+                @include projPosition(1700, 60, $height, $width);
               }
             }
 
           }
 
           &:nth-child(3) {
-            padding-bottom: 150px;
+            $height: 165;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -1886,28 +2036,38 @@ $width: 556;
       &_2 {
         background: #7d020e;
         padding-bottom: 300px;
+        $widthImg: 1035;
+        $heightImg: 1877;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 112px 90px;
+            $height: 192;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 200px 15px 390px 60px;
             background: $text;
+            $height: 1533;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 590px;
-                padding-left: 40px;
+                @include projPosition(225, 60, $height, $width);
+              }
+              &:nth-child(2) {
+                @include projPosition(995, 60, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 120px;
-
+            $height: 155;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -1916,24 +2076,37 @@ $width: 556;
       &_3 {
         background: #7d020e;
         padding-bottom: 0;
+        $widthImg: 1035;
+        $heightImg: 1922;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 75px 90px;
+            $height: 218;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 160px 15px 470px 60px;
             background: $text;
+            $height: 1708;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
+
               &:nth-child(1) {
-                margin-bottom: 320px;
+                @include projPosition(165, 60, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 340px;
+                @include projPosition(590, 60, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1050, 60, $height, $width);
               }
             }
           }
@@ -2006,30 +2179,43 @@ $width: 556;
       &_1 {
         background: #f8f9fb;
         padding-bottom: 260px;
+        $widthImg: 1033;
+        $heightImg: 3144;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 275px 90px;
+            $height: 420;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 250px 15px 524px 100px;
             background: $text;
+            $height: 2472;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 650px;
+                @include projPosition(275, 100, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 590px;
+                @include projPosition(1036, 100, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1782, 100, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 235px;
+            $height: 250;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -2038,15 +2224,26 @@ $width: 556;
       &_2 {
         background: #f8f9fb;
         padding-bottom: 280px;
+        $widthImg: 1032;
+        $heightImg: 1919;
 
         .port-proj__block {
           &:nth-child(1) {
-            padding: 0 15px 108px 100px;
+            $height: 194;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
             background: $text;
-            padding: 390px 15px 1135px 100px;
+            $height: 1559;
+            height: projHeight($height, $heightImg);
+            .port-proj__item{
+              @include projPosition(390, 100, $height, $width);
+            }
           }
 
           &:nth-child(3) {
@@ -2058,31 +2255,44 @@ $width: 556;
       &_3 {
         background: #f8f9fb;
         padding-bottom: 240px;
+        $widthImg: 1032;
+        $heightImg: 1868;
 
         .port-proj__block {
 
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
+            $height: 229;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 140px 15px 170px 100px;
             background: $text;
+            $height: 1388;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 265px;
+                @include projPosition(145, 100, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 442px;
+                @include projPosition(545, 100, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1111, 100, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 245px;
+            $height: 250;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -2091,31 +2301,48 @@ $width: 556;
       &_4 {
         background: #f8f9fb;
         padding-bottom: 240px;
+        $widthImg: 1032;
+        $heightImg: 1946;
 
         .port-proj__block {
 
 
           &:nth-child(1) {
-            padding: 0 15px 108px 90px;
+            $height: 180;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 200px 15px 200px 100px;
             background: $text;
+
+            $height: 1516;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 400px;
+                @include projPosition(217, 100, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 330px;
+                @include projPosition(749, 100, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1209, 100, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding: 80px 15px 60px 100px;
+            $height: 255;
+            height: projHeight($height, $heightImg);
+            .port-proj__item{
+              @include projPosition(80, 100, $height, $width);
+            }
           }
         }
 
@@ -2124,24 +2351,36 @@ $width: 556;
       &_5 {
         padding-bottom: 0;
         background: #f8f9fb;
+        $widthImg: 1032;
+        $heightImg: 2618;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 108px 90px;
+            $height: 190;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 70px 15px 720px 100px;
             background: $text;
+            $height: 2430;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 550px;
+                @include projPosition(75, 100, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 700px;
+                @include projPosition(746, 100, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1560, 100, $height, $width);
               }
             }
           }
@@ -2627,30 +2866,43 @@ $width: 556;
       &_1 {
         background: #2b881b;
         padding-bottom: 360px;
+        $widthImg: 1041;
+        $heightImg: 2427;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 273px 90px;
+            $height: 425;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 250px 15px 60px 100px;
             background: $text;
+            $height: 1713;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 330px;
+                @include projPosition(270, 90, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 624px;
+                @include projPosition(760, 90, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1515, 90, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 280px;
+            $height: 280;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -2659,19 +2911,31 @@ $width: 556;
       &_2 {
         background: #2b881b;
         padding-bottom: 190px;
+        $widthImg: 1042;
+        $heightImg: 1491;
 
         .port-proj__block {
           &:nth-child(1) {
-            padding: 0 15px 160px 100px;
+            $height: 230;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
             background: $text;
-            padding: 220px 15px 569px 100px;
+            $height: 968;
+            height: projHeight($height, $heightImg);
+            .port-proj__item{
+              @include projPosition(240, 90, $height, $width);
+            }
           }
 
           &:nth-child(3) {
-            padding-bottom: 280px;
+            $height: 290;
+            height: projHeight($height, $heightImg);
           }
         }
       }
@@ -2679,30 +2943,43 @@ $width: 556;
       &_3 {
         background: #2b881b;
         padding-bottom: 270px;
+        $widthImg: 1042;
+        $heightImg: 2483;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
+            $height: 220;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 140px 15px 280px 100px;
             background: $text;
+            $height: 1984;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 520px;
+                @include projPosition(160, 90, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 600px;
+                @include projPosition(860, 90, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1590, 90, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 270px;
+            $height: 275;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -2711,16 +2988,24 @@ $width: 556;
       &_4 {
         background: #2b881b;
         padding-bottom: 0px;
+        $widthImg: 1040;
+        $heightImg: 1482;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 180px 90px;
+            $height: 245;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding-bottom: 1000px;
             background: $text;
+            $height: $heightImg - 245;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -2858,33 +3143,45 @@ $width: 556;
       &_1 {
         background: #b3b73e;
         padding-bottom: 0px;
+        $widthImg: 1039;
+        $heightImg: 4998;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
+            $height: 230;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 140px 15px 160px 100px;
             background: $text;
+            $height: $heightImg - 230;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
 
               &:nth-child(1) {
-                margin-bottom: 650px;
+                @include projPosition(140, 90, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 370px;
+                @include projPosition(950, 90, $height, $width);
               }
 
               &:nth-child(3) {
-                margin-bottom: 1600px;
+                @include projPosition(1465, 90, $height, $width);
               }
 
               &:nth-child(4) {
-                margin-bottom: 1047px;
+                @include projPosition(3295, 90, $height, $width);
+              }
+
+              &:nth-child(5) {
+                @include projPosition(4485, 90, $height, $width);
               }
             }
           }
@@ -2892,7 +3189,6 @@ $width: 556;
         }
 
       }
-
 
       &__left {
         //z-index: 10;
@@ -2991,30 +3287,43 @@ $width: 556;
       &_1 {
         background: #00ad00;
         padding-bottom: 340px;
+        $widthImg: 1043;
+        $heightImg: 3135;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 120px 90px;
+            $height: 270;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 400px 15px 489px 100px;
             background: $text;
+            $height: 2610;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 500px;
+                @include projPosition(420, 90, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 680px;
+                @include projPosition(1090, 90, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1895, 90, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 250px;
+            $height: $heightImg - 210 - 2610;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -3023,25 +3332,39 @@ $width: 556;
       &_2 {
         background: #00ad00;
         padding-bottom: 340px;
+        $widthImg: 1046;
+        $heightImg: 2851;
 
         .port-proj__block {
           &:nth-child(1) {
-            padding: 0 15px 50px 100px;
+            $height: 185;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
             background: $text;
-            padding: 100px 15px 190px 100px;
+            $height: 2415;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
+
               &:nth-child(1) {
-                margin-bottom: 1745px;
+                @include projPosition(125, 90, $height, $width);
+              }
+
+              &:nth-child(2) {
+                @include projPosition(2080, 90, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 250px;
+            $height: $heightImg - 185 - 2415;
+            height: projHeight($height, $heightImg);
           }
         }
       }
@@ -3049,20 +3372,31 @@ $width: 556;
       &_3 {
         background: #00ad00;
         padding-bottom: 0;
+        $widthImg: 1048;
+        $heightImg: 2723;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 100px 90px;
+            $height: 250;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 660px 15px 860px 100px;
             background: $text;
+            $height: $heightImg - 250;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 600px;
+                @include projPosition(665, 90, $height, $width);
+              }
+              &:nth-child(2) {
+                @include projPosition(1435, 90, $height, $width);
               }
             }
           }
@@ -3205,30 +3539,43 @@ $width: 556;
       &_1 {
         background: #5baa00;
         padding-bottom: 280px;
+        $widthImg: 1041;
+        $heightImg: 2732;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 251px 90px;
+            $height: 410;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 260px 15px 420px 100px;
             background: $text;
+            $height: 2083;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 330px;
+                @include projPosition(275, 100, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 620px;
+                @include projPosition(765, 100, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1135, 100, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 230px;
+            $height: 237;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -3237,25 +3584,38 @@ $width: 556;
       &_2 {
         background: #5baa00;
         padding-bottom: 310px;
+        $widthImg: 1044;
+        $heightImg: 2014;
 
         .port-proj__block {
           &:nth-child(1) {
-            padding: 0 15px 61px 100px;
+            $height: 210;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
             background: $text;
-            padding: 240px 15px 576px 100px;
+            $height: 1646;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 523px;
+                @include projPosition(260, 90, $height, $width);
+              }
+
+              &:nth-child(2) {
+                @include projPosition(950, 90, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 150px;
+            $height: 160;
+            height: projHeight($height, $heightImg);
           }
         }
       }
@@ -3263,30 +3623,43 @@ $width: 556;
       &_3 {
         background: #5baa00;
         padding-bottom: 330px;
+        $widthImg: 1050;
+        $heightImg: 1663;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 90px 90px;
+            $height: 230;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 100px 15px 30px 100px;
             background: $text;
+            $height: 1274;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 310px;
+                @include projPosition(110, 90, $height, $width);
               }
 
               &:nth-child(2) {
-                margin-bottom: 317px;
+                @include projPosition(620, 90, $height, $width);
+              }
+
+              &:nth-child(3) {
+                @include projPosition(1100, 90, $height, $width);
               }
             }
           }
 
           &:nth-child(3) {
-            padding-bottom: 145px;
+            $height: 150;
+            height: projHeight($height, $heightImg);
           }
         }
 
@@ -3295,20 +3668,31 @@ $width: 556;
       &_4 {
         background: #5baa00;
         padding-bottom: 0px;
+        $widthImg: 1047;
+        $heightImg: 2042;
 
         .port-proj__block {
 
           &:nth-child(1) {
-            padding: 0 15px 61px 90px;
+            $height: 215;
+            height: projHeight($height, $heightImg);
+
+            .port-proj__title {
+              @include projPosition(0, 90, $height, $width);
+            }
           }
 
           &:nth-child(2) {
-            padding: 250px 15px 630px 90px;
             background: $text;
+            $height: 1830;
+            height: projHeight($height, $heightImg);
 
             .port-proj__item {
               &:nth-child(1) {
-                margin-bottom: 600px;
+                @include projPosition(260, 90, $height, $width);
+              }
+              &:nth-child(2) {
+                @include projPosition(1000, 90, $height, $width);
               }
             }
           }
