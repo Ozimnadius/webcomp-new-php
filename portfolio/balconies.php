@@ -146,16 +146,16 @@
                                     <img class="port-slider__img" src="/images/content/portfolio/project4/slide2.jpg">
                                 </div>
                                 <div class="swiper-slide port-slider__slide">
-                                    <img class="port-slider__img" src="/images/content/portfolio/project4/slide1.jpg">
+                                    <img class="port-slider__img" src="/images/content/portfolio/project4/slide3.jpg">
                                 </div>
                                 <div class="swiper-slide port-slider__slide">
-                                    <img class="port-slider__img" src="/images/content/portfolio/project4/slide2.jpg">
+                                    <img class="port-slider__img" src="/images/content/portfolio/project4/slide4.jpg">
                                 </div>
                                 <div class="swiper-slide port-slider__slide">
-                                    <img class="port-slider__img" src="/images/content/portfolio/project4/slide1.jpg">
+                                    <img class="port-slider__img" src="/images/content/portfolio/project4/slide5.jpg">
                                 </div>
                                 <div class="swiper-slide port-slider__slide">
-                                    <img class="port-slider__img" src="/images/content/portfolio/project4/slide2.jpg">
+                                    <img class="port-slider__img" src="/images/content/portfolio/project4/slide6.jpg">
                                 </div>
 
                             </div>
