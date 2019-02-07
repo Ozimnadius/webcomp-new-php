@@ -20,15 +20,24 @@
   @include lg{
     font-size: 57px;
   };
+  @include slg{
+    font-size: 50px;
+  };
 
 
   &_small {
     font-size: 46px;
+    @include slg{
+      font-size: 40px;
+    };
 
 
     .title__text_small {
       margin-left: 70px;
       margin-right: 40px;
+      @include slg{
+        margin-right: 10px;
+      };
     }
   }
 
@@ -342,6 +351,9 @@
   display: flex;
   margin-right: vw(-60);
   margin-left: vw(-60);
+  @include slg{
+    margin: 0;
+  };
 
   &_top {
     .menu__item {
@@ -423,6 +435,9 @@
 
       @include lg{
         font-size: 17px;
+      };
+      @include slg{
+        font-size: 14px;
       };
     }
 
@@ -700,6 +715,9 @@
   z-index: 10;
   top: 50%;
   left: 50%;
+  @include slg{
+    left: 65%;
+  };
 
   &.active {
     .figure__block1 {
@@ -711,6 +729,9 @@
       top: calc(100% - 0px);
       right: calc(100% - 22px);
       transition: 1.5s;
+      @include slg{
+        right: calc(100% - 17px);
+      };
     }
 
     .figure__block3 {
@@ -721,6 +742,9 @@
     .figure__block4 {
       left: calc(100% + 22px);
       transition: 1.5s;
+      @include slg{
+        left: calc(100% + 17px);
+      };
     }
   }
 
@@ -744,7 +768,7 @@
     right: 100%;
     right: calc(100% + 2000px);
     height: vh(632);
-    transition: 0.5s
+    transition: 0.5s;
   }
 
   &__block3 {
@@ -792,6 +816,7 @@
 
     &_bottom {
       margin-bottom: vh(35);
+      margin-bottom: 0;
     }
 
     &-title {
@@ -804,6 +829,10 @@
       width: 18%;
       @include lg{
         font-size: 13px;
+      };
+      @include slg{
+        width: 14%;
+        min-width: 14%;
       };
     }
   }
@@ -1315,6 +1344,9 @@
     display: flex;
     align-items: center;
     transition: .3s;
+    @include slg{
+      font-size: 14px;
+    };
   }
 
   &:checked + .check__label {
@@ -1504,6 +1536,7 @@ input:-webkit-autofill {
 
   &__link {
     text-decoration: underline;
+    opacity: .4;
   }
 }
 

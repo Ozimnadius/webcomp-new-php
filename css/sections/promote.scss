@@ -529,6 +529,10 @@
         width: 0%;
         overflow: hidden;
 
+        img{
+          width: vw(1534);
+        }
+
         &.active {
           //animation: img1 3s linear 0s infinite;
           animation-name: img1;
@@ -548,6 +552,10 @@
         left: 30px;
         width: 0%;
         overflow: hidden;
+
+        img{
+          width: vw(1588);
+        }
 
         &.active {
           //animation: img1 3s linear 0s infinite;

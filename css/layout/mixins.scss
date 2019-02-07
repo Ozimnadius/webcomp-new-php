@@ -117,7 +117,8 @@ $break_xs: 479px;
     li {
       font-size: 17px;
       font-weight: 400;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
+      line-height: lh(17px,35px);
       padding-left: 40px;
       position: relative;
 
@@ -133,12 +134,12 @@ $break_xs: 479px;
         height: 1px;
         position: absolute;
         left: 0;
-        top: 9px;
+        top: 18px;
         background: $Selective-yellow;
       }
 
       &:last-child {
-        margin-bottom: 0;
+        //margin-bottom: 0;
       }
 
 

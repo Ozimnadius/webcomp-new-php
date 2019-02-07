@@ -107,7 +107,7 @@
     .content {
       color: $bg;
 
-      p {
+      p,li {
         color: #505050;
       }
     }
@@ -202,7 +202,7 @@
 
   &-price {
     background-color: $text;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 50px;
 
     &__title {
@@ -210,16 +210,13 @@
       font-size: 40px;
       text-transform: uppercase;
       padding-left: 100px;
-      margin-bottom: 60px;
+      margin-bottom: 20px;
 
-      @include xlg{
-        margin-bottom: 40px;
-      };
     }
 
     &__switches {
       position: relative;
-      margin-bottom: 35px;
+      margin-bottom: 20px;
       @include xlg{
         margin-bottom: 15px;
       };
@@ -235,14 +232,14 @@
 
     &__switch {
       color: #8c8c8c;
-      font-size: 30px;
+      font-size: 24px;
       font-weight: 400;
       transition: .3s;
 
       display: flex;
       justify-content: center;
       @include xlg{
-        font-size: 24px;
+        font-size: 20px;
       };
 
       &:first-child {
@@ -304,7 +301,7 @@
       margin-left: -15px;
       margin-right: -15px;
       position: relative;
-      padding: 43px 0;
+      padding: 20px 0;
 
       @include xlg{
         padding: 20px 0;
@@ -342,27 +339,31 @@
         font-size: 50px;
         font-weight: 500;
         margin-bottom: 15px;
+
+        font-size: 22px;
+        margin-bottom: 10px;
+
         @include xlg{
-          font-size: 32px;
+          //font-size: 32px;
           margin-bottom: 7px;
         };
       }
 
       &-text {
         color: #505050;
-        font-size: 25px;
+        font-size: 20px;
         @include xlg{
-          font-size: 19px;
+          font-size: 18px;
         };
       }
 
       &-li {
         color: #505050;
-        font-size: 30px;
-        margin-bottom: 45px;
+        font-size: 20px;
+        margin-bottom: 14px;
         @include xlg{
-          font-size: 19px;
-          margin-bottom: 15px;
+          font-size: 18px;
+          margin-bottom: 10px;
         };
 
         &:last-child {
@@ -373,17 +374,17 @@
 
     &__price {
       color: #c70541;
-      font-size: 70px;
+      font-size: 46px;
       @include lg{
-        font-size: 50px;
+        font-size: 40px;
       };
     }
 
     &__desc {
       color: #505050;
-      font-size: 30px;
+      font-size: 24px;
       @include lg{
-        font-size: 24px;
+        font-size: 20px;
       };
     }
   }

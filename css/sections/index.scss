@@ -6,6 +6,9 @@
     position: relative;
     //margin-left: -325px;
     //padding-left: 325px;
+    @include slg{
+
+    };
 
     &__title {
       position: relative;
@@ -17,6 +20,14 @@
       z-index: 20;
       bottom: 0;
       left: 0;
+      @include slg{
+        right: 0;
+        top: 0;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+      };
     }
 
     &__img {
@@ -43,6 +54,9 @@
         left: 50%;
         z-index: 30;
       };
+      @include slg{
+        transform: translate(-50%,-50%);
+      };
     }
 
     &__test {
@@ -58,6 +72,9 @@
       left: 0;
       right: vw(140);
       bottom: 0;
+      @include slg{
+
+      };
     }
   }
 
@@ -72,6 +89,14 @@
 
     @include xlg{
       padding-top: vh(100);
+    };
+    @include lg{
+      margin-left: -230px;
+      padding-left: 230px;
+    };
+    @include slg{
+      margin: 0;
+      padding-left: 0;
     };
 
     &__title {
@@ -94,9 +119,16 @@
         font-size: 15px;
         padding-left: 0;
       };
+      @include slg{
+        font-size: 13px;
+        padding-left: 30px;
+      };
 
       p {
         margin-bottom: vh(55);
+        @include slg{
+          margin-bottom: 15px;
+        };
         &:last-child {
           margin-bottom: 0;
         }
@@ -132,6 +164,9 @@
         left: 50%;
         z-index: 30;
       };
+      @include slg{
+        left: 45%;
+      };
     }
 
     &__menu {
@@ -140,6 +175,12 @@
       top: 0;
       left: 325px;
       right: vw(140);
+      @include lg{
+        left: 230px;
+      };
+      @include slg{
+        left: 0;
+      };
     }
 
   }
@@ -157,6 +198,7 @@
     background-position: 0 0;
     background-size: cover;
     padding-right: 300px;
+    padding-top: 50px;
 
     @include xlg{
       padding-top: vh(100);
@@ -166,6 +208,10 @@
       margin-left: -230px;
       padding-left: 230px;
       padding-right: 150px;
+    };
+    @include slg{
+      margin: 0;
+      padding: 50px 100px 0 50px;
     };
 
     &__title {
@@ -177,6 +223,10 @@
 
       @include lg{
         font-size: 40px;
+      };
+      @include slg{
+        font-size: 36px;
+        margin-bottom: 0;
       };
     }
 
@@ -191,6 +241,10 @@
       @include lg{
         font-size: 19px;
         margin-bottom: 20px;
+      };
+      @include slg{
+        font-size: 17px;
+        margin-bottom: 15px;
       };
     }
 
@@ -207,6 +261,9 @@
       right: vw(140);
       @include lg{
         left: 230px;
+      };
+      @include slg{
+        left: 0;
       };
     }
   }
@@ -228,6 +285,11 @@
       padding-left: 230px;
       margin-left: -230px;
       padding-right: 19.7vw;
+    };
+    @include slg{
+      padding-left: 0;
+      margin-left: 0;
+      padding-right: 29.7vw;
     };
 
     &__title {
@@ -311,6 +373,9 @@
       right: vw(140);
       @include lg{
         left: 230px;
+      };
+      @include slg{
+        left: 0;
       };
     }
   }

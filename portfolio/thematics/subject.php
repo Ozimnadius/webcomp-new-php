@@ -545,7 +545,7 @@
                         </div>
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
-                                <span class="rek-bud__item-val number__val"  data-from="10" data-to="50">10</span><span class="rek-bud__item-type"> % Bonus rate</span>
+                                <span class="rek-bud__item-val number__val"  data-from="50" data-to="10">50</span><span class="rek-bud__item-type"> % Bonus rate</span>
                             </div>
                             <div class="rek-bud__item-text">Снижение показателя<br>отказа</div>
                         </div>

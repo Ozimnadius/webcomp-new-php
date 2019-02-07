@@ -15,7 +15,9 @@ html {
   @include lg{
     font-size: 15px;
   };
-;
+  @include slg{
+    font-size: 13px;
+  };
 }
 
 *, *:before, *:after {
@@ -89,6 +91,9 @@ body {
   padding-left: 325px;
   @include lg{
     padding-left: 230px;
+  };
+  @include slg{
+    padding: 0 15px;
   };
 }
 

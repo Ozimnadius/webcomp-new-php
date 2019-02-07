@@ -29,6 +29,9 @@ $asideRight: 90px;
     padding-bottom: 30px;
     width: 230px;
   };
+  @include slg{
+    display: none;
+  };
 
   &__logo {
     margin-bottom: vh(63);
