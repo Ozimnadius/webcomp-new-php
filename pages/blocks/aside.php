@@ -82,4 +82,10 @@
                 </svg></a>
         </div>
     </div>
+
+    <a href="#" class="aside__burger">
+        <span class="aside__burger-line"></span>
+        <span class="aside__burger-line"></span>
+        <span class="aside__burger-line"></span>
+    </a>
 </aside>

@@ -4,12 +4,14 @@
     text-align: right;
     margin-right: -253px;
     margin-bottom: vh(85);
-    @include xlg{
+    @include xlg {
       margin-right: -103px;
-    };
-    @include lg{
+    }
+  ;
+    @include lg {
       margin-right: -51px;
-    };
+    }
+  ;
   }
 
   &__title {
@@ -18,20 +20,25 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: vh(50);
-    @include lg{
+    @include lg {
       font-size: 42px;
-    };
+    }
+  ;
   }
 
   &__content {
     padding-right: 70px;
-    //display: flex;
-    //flex-direction: column;
-    //align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    p, h1, h2, h3, h4, h5, h6 {
+      width: 100%;
+    }
+
 
     p {
       opacity: 0.5;
-      line-height: lh($font-size,25px);
+      line-height: lh($font-size, 25px);
       text-align: center;
       margin-bottom: vh(30);
 
@@ -46,10 +53,11 @@
       text-align: center;
       margin: 40px 0;
       font-weight: 300;
-      @include lg{
+      @include lg {
         margin: 20px 0;
         font-size: 28px;
-      };
+      }
+    ;
     }
 
     h3 {
@@ -58,14 +66,17 @@
       text-align: center;
       margin-bottom: vh(15);
       font-weight: 300;
-      @include lg{
+      @include lg {
         font-size: 19px;
-      };
+      }
+    ;
     }
 
     ul {
-      color: rgba($text,.3);
+      color: rgba($text, .3);
       margin-bottom: vh(30);
+      width: 50%;
+      padding-right: 15px;
 
       li {
         font-size: 17px;
@@ -74,10 +85,11 @@
         padding-left: 40px;
         position: relative;
 
-        @include lg{
+        @include lg {
           font-size: 15px;
           margin-bottom: 10px;
-        };
+        }
+      ;
 
         &:before {
           content: '';
@@ -97,6 +109,7 @@
 
         ul {
           padding-top: 20px;
+
           li {
             padding-left: 20px;
 
@@ -118,9 +131,13 @@
     }
 
     ol {
-      color: rgba($text,.5);
+      color: rgba($text, .5);
       margin-bottom: vh(30);
       padding-left: 25px;
+
+      width: 50%;
+      padding-right: 15px;
+
       li {
         font-size: 17px;
         font-weight: 400;

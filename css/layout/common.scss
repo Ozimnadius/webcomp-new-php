@@ -455,6 +455,10 @@
   opacity: 1;
   transition: .4s;
 
+  @include lg{
+    display: none;
+  };
+
   &.hidden {
     opacity: 0;
   }
@@ -759,7 +763,7 @@
     bottom: calc(100% + 2000px);
     right: 100%;
     height: vh(474);
-    transition: 0.5s
+    transition: 0.5s;
   }
 
   &__block2 {
@@ -776,7 +780,7 @@
     bottom: calc(100% + 2000px);
     left: 100%;
     height: vh(514);
-    transition: 0.5s
+    transition: 0.5s;
   }
 
   &__block4 {
@@ -784,7 +788,7 @@
     top: 100%;
     left: calc(100% + 2000px);
     height: vh(635);
-    transition: 0.5s
+    transition: 0.5s;
   }
 }
 

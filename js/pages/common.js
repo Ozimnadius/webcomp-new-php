@@ -329,6 +329,31 @@ if (graph) {
         }).scrolling();
 }
 
+let figure = document.querySelector('.figure');
+
+if (figure) {
+    let scroll = new ScrollTo(figure, function () {
+        figure.classList.add('active');
+    }).scrolling();
+
+}
+
+let aside = document.querySelector('.aside'),
+    asideOpen = aside.querySelector('.aside__burger');
+
+if (aside){
+    asideOpen.addEventListener('click', function (e) {
+        e.preventDefault();
+        if (this.classList.contains('active')){
+            aside.classList.remove('active');
+            this.classList.remove('active');
+        }  else {
+            aside.classList.add('active');
+            this.classList.add('active');
+        }
+    })
+}
+
 
 // let isScrolling = false;
 // window.addEventListener('scroll', throttleScroll, false);

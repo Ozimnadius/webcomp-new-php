@@ -1,14 +1,22 @@
 .index {
 
+  @mixin bdb {
+    border-bottom: 1px solid #ccc;
+  }
+
   &-first {
     display: flex;
     align-items: center;
     position: relative;
     //margin-left: -325px;
     //padding-left: 325px;
-    @include slg{
 
-    };
+    @include lg {
+      height: 100vh !important;
+      @include bdb;
+    }
+  ;
+
 
     &__title {
       position: relative;
@@ -20,14 +28,20 @@
       z-index: 20;
       bottom: 0;
       left: 0;
-      @include slg{
+      @include lg {
+        //left: 230px;
+      }
+    ;
+
+      @include slg {
         right: 0;
         top: 0;
 
         display: flex;
         align-items: flex-end;
         justify-content: center;
-      };
+      }
+    ;
     }
 
     &__img {
@@ -48,15 +62,17 @@
       top: vh(500);
       transform: translateY(-50%);
       right: -240px;
-      @include xlg{
+      @include xlg {
         right: initial;
         //transform: translate(-50%,-50%);
         left: 50%;
         z-index: 30;
-      };
-      @include slg{
-        transform: translate(-50%,-50%);
-      };
+      }
+    ;
+      @include slg {
+        transform: translate(-50%, -50%);
+      }
+    ;
     }
 
     &__test {
@@ -64,6 +80,14 @@
       z-index: 10;
       top: vh(105);
       right: vh(85);
+      @include lg{
+        top: 100px;
+        right: 50px;
+      };
+      @include slg{
+        right: 20px;
+        z-index: 30;
+      };
     }
 
     &__menu {
@@ -72,9 +96,10 @@
       left: 0;
       right: vw(140);
       bottom: 0;
-      @include slg{
-
-      };
+      @include lg {
+        display: none;
+      }
+    ;
     }
   }
 
@@ -87,17 +112,17 @@
     padding-left: 325px;
     overflow: hidden;
 
-    @include xlg{
+    @include xlg {
       padding-top: vh(100);
-    };
-    @include lg{
-      margin-left: -230px;
-      padding-left: 230px;
-    };
-    @include slg{
+    }
+
+    @include lg {
       margin: 0;
-      padding-left: 0;
-    };
+      padding: 0;
+      height: 100vh !important;
+      @include bdb;
+    }
+
 
     &__title {
       position: relative;
@@ -112,23 +137,27 @@
       width: 420px;
       font-size: 17px;
       font-weight: 300;
-      line-height: lh(17px,30px);
+      line-height: lh(17px, 30px);
       padding-left: 70px;
 
       @include lg {
         font-size: 15px;
         padding-left: 0;
-      };
-      @include slg{
+      }
+    ;
+      @include slg {
         font-size: 13px;
         padding-left: 30px;
-      };
+      }
+    ;
 
       p {
         margin-bottom: vh(55);
-        @include slg{
+        @include slg {
           margin-bottom: 15px;
-        };
+        }
+      ;
+
         &:last-child {
           margin-bottom: 0;
         }
@@ -144,7 +173,12 @@
         right: 0;
         z-index: 20;
         height: vh(559);
+        @include lg {
+          display: none;
+        }
+      ;
       }
+
       position: absolute;
       top: 0;
       bottom: 0;
@@ -159,14 +193,16 @@
       left: 56.5%;
       top: 30%;
 
-      @include xlg{
+      @include xlg {
         right: initial;
         left: 50%;
         z-index: 30;
-      };
-      @include slg{
+      }
+    ;
+      @include slg {
         left: 45%;
-      };
+      }
+    ;
     }
 
     &__menu {
@@ -175,12 +211,10 @@
       top: 0;
       left: 325px;
       right: vw(140);
-      @include lg{
-        left: 230px;
-      };
-      @include slg{
-        left: 0;
-      };
+      @include lg {
+        display: none;
+      }
+    ;
     }
 
   }
@@ -200,19 +234,18 @@
     padding-right: 300px;
     padding-top: 50px;
 
-    @include xlg{
+    @include xlg {
       padding-top: vh(100);
       padding-right: 170px;
-    };
-    @include lg{
-      margin-left: -230px;
-      padding-left: 230px;
-      padding-right: 150px;
-    };
-    @include slg{
+    }
+  ;
+    @include lg {
       margin: 0;
-      padding: 50px 100px 0 50px;
-    };
+      padding: 100px 50px;
+      background: none;
+      @include bdb;
+    }
+
 
     &__title {
       font-size: 64px;
@@ -221,13 +254,15 @@
       text-align: center;
       margin-bottom: vh(20);
 
-      @include lg{
+      @include lg {
         font-size: 40px;
-      };
-      @include slg{
+      }
+    ;
+      @include slg {
         font-size: 36px;
         margin-bottom: 0;
-      };
+      }
+    ;
     }
 
     &__subtitle {
@@ -238,14 +273,16 @@
       letter-spacing: 0.92px;
       text-align: center;
       margin-bottom: vh(60);
-      @include lg{
+      @include lg {
         font-size: 19px;
         margin-bottom: 20px;
-      };
-      @include slg{
+      }
+    ;
+      @include slg {
         font-size: 17px;
         margin-bottom: 15px;
-      };
+      }
+    ;
     }
 
     &__calc {
@@ -259,12 +296,10 @@
       top: 0;
       left: 325px;
       right: vw(140);
-      @include lg{
-        left: 230px;
-      };
-      @include slg{
-        left: 0;
-      };
+      @include lg {
+        display: none;
+      }
+    ;
     }
   }
 
@@ -278,28 +313,25 @@
     overflow: hidden;
     padding-right: 350px;
 
-    @include xlg{
+    @include xlg {
       padding-right: 300px;
     };
-    @include lg{
-      padding-left: 230px;
-      margin-left: -230px;
-      padding-right: 19.7vw;
-    };
-    @include slg{
-      padding-left: 0;
-      margin-left: 0;
-      padding-right: 29.7vw;
-    };
+    @include lg {
+      margin: 0;
+      padding: 100px 52px 0 0;
+      @include bdb;
+    }
+
 
     &__title {
       font-size: 63px;
       font-weight: 300;
       text-transform: uppercase;
       margin-bottom: vh(20);
-      @include lg{
+      @include lg {
         font-size: 46px;
-      };
+      }
+    ;
     }
 
     &__subtitle {
@@ -310,21 +342,29 @@
       text-transform: uppercase;
       letter-spacing: 0.92px;
       margin-bottom: vh(70);
-      @include lg{
+      @include lg {
         font-size: 19px;
         margin-bottom: 25px;
-      };
+      }
+    ;
     }
 
     &__list {
       display: flex;
       flex-wrap: wrap;
       position: relative;
+
+      &:hover {
+        .index-cat__link{
+          right: -50px;
+        }
+      }
     }
 
     &__item {
       width: 25%;
       position: relative;
+      z-index: 20;
 
       &_5 {
         width: 20%;
@@ -347,12 +387,14 @@
         align-items: center;
         justify-content: center;
       }
+
       &-pic {
         display: block;
         transition: .4s;
         max-width: 70%;
         max-height: 100px;
       }
+
       &-title {
         color: rgba($text, .7);
         font-size: 13px;
@@ -365,18 +407,49 @@
       }
     }
 
+    &__link {
+      position: absolute;
+      z-index: 10;
+      top: 0;
+      bottom: 0;
+      right: 0px;
+      width: 50px;
+      border: 1px solid #ccc;
+      transition: .7s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        border: 1px solid $Selective-yellow;
+
+        &:before {
+          border-color: transparent transparent transparent $Selective-yellow;
+        }
+      }
+
+      &:before {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 0 10px 15px;
+        border-color: transparent transparent transparent #ccc;
+        transition: .7s;
+      }
+    }
+
     &__menu {
       position: absolute;
       z-index: 30;
       top: 0;
       left: 325px;
       right: vw(140);
-      @include lg{
-        left: 230px;
-      };
-      @include slg{
-        left: 0;
-      };
+      @include lg {
+        display: none;
+      }
+    ;
     }
   }
 
@@ -393,14 +466,16 @@
     overflow: hidden;
     padding-right: 300px;
 
-    @include xlg{
+    @include xlg {
       padding-top: vh(100);
-    };
-    @include lg{
-      margin-left: -230px;
-      padding-left: 230px;
-      padding-right: 150px;
-    };
+    }
+  ;
+    @include lg {
+      margin: 0;
+      padding: 100px;
+      @include bdb;
+    }
+  ;
 
     &__title {
       display: flex;
@@ -414,6 +489,10 @@
       top: 0;
       left: 325px;
       right: vw(140);
+      @include lg {
+        display: none;
+      }
+    ;
     }
 
     &__items {
@@ -426,19 +505,21 @@
     &__item {
       padding: 12px 30px;
 
-      @include xlg{
+      @include xlg {
         padding: 10px 20px;
-      };
+      }
+    ;
 
       &-title {
-        color: rgba($text,.5);
+        color: rgba($text, .5);
         font-size: 32px;
         font-weight: 300;
         transition: .4s;
         cursor: pointer;
-        @include xlg{
+        @include xlg {
           font-size: 24px;
-        };
+        }
+      ;
       }
     }
 
@@ -449,7 +530,7 @@
     &__input {
       display: none;
 
-      &:checked+.index-seo__item-title {
+      &:checked + .index-seo__item-title {
         color: $text;
       }
     }
@@ -465,21 +546,23 @@
     overflow-x: hidden;
     margin-left: -325px;
     position: relative;
-    @include lg{
+    @include lg {
       margin-left: -230px;
-    };
+      overflow: initial;
+    }
+  ;
 
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
       width: 10px;
     }
 
     &::-webkit-scrollbar-track {
-      background-color: rgba($text,.3);
+      background-color: rgba($text, .3);
     }
 
     &::-webkit-scrollbar-thumb {
       border-radius: 5px;
-      background-color: rgba($Selective-yellow,.5);
+      background-color: rgba($Selective-yellow, .5);
     }
 
 
@@ -489,9 +572,10 @@
       top: 0;
       left: 325px;
       right: vw(140);
-      @include lg{
-        left: 230px;
-      };
+      @include lg {
+        display: none;
+      }
+    ;
     }
 
     &__wrapper {
@@ -510,15 +594,18 @@
       display: flex;
       flex-direction: column;
 
-      @include xlg{
+      @include xlg {
         padding-top: vh(170);
         padding-right: 100px;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         padding-right: 50px;
         padding-left: 230px;
         padding-top: 80px;
-      };
+        position: static;
+      }
+    ;
     }
 
     .footer {
@@ -541,9 +628,10 @@
 
   &__work {
     margin-bottom: vh(150);
-    @include xlg{
+    @include xlg {
       margin-bottom: vh(70);
-    };
+    }
+  ;
   }
 
   &__why {
@@ -553,10 +641,11 @@
   &__footer {
     margin-left: -325px;
     margin-right: -250px;
-    @include lg{
+    @include lg {
       margin-left: 0px;
       margin-right: 0;
-    };
+    }
+  ;
   }
 
 }
@@ -571,7 +660,9 @@
 }
 
 @keyframes play {
-  100% { background-position: -600%; }
+  100% {
+    background-position: -600%;
+  }
 }
 
 .monster2 {
@@ -582,6 +673,9 @@
   animation: play2 3.8s steps(30) infinite;
 
 }
+
 @keyframes play2 {
-  100% { background-position: -3000%;}
+  100% {
+    background-position: -3000%;
+  }
 }

@@ -296,6 +296,8 @@
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic" src="/images/content/portfolio/project8/logo.png"></div></a>
+
+                        <a href="/portfolio.php" class="index-cat__link"></a>
                     </div>
                     <div class="index-cat__menu">
                         <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/menuTop.php'?>

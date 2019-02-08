@@ -65,8 +65,16 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 
+  @include lg{
+    height: auto;
+    min-height: 100%;
+  };
+
   section {
     height: 100vh;
+    @include lg{
+      height: auto;
+    };
   }
 
   &_second {
@@ -84,6 +92,9 @@ body {
   transition: .4s;
   transform: translate3d(0,-500vh,0);
   transform: translate3d(0,0,0);
+  @include slg{
+    min-height: 100vh;
+  };
 }
 
 .container {

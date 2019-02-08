@@ -1,16 +1,17 @@
 @mixin container {
   margin-left: -325px;
   padding-left: 325px;
-  @include lg{
+  @include lg {
     margin-left: -230px;
     padding-left: 230px;
-  };
+  }
+;
 }
 
 .comp {
 
   &-first {
-
+    border-bottom: none;
   }
 
   &-rew {
@@ -22,9 +23,10 @@
     display: flex;
     flex-direction: column;
 
-    @include lg{
+    @include lg {
       padding-top: 70px;
-    };
+    }
+  ;
     //justify-content: center;
 
     &__title {
@@ -38,12 +40,14 @@
         font-size: 114px;
         font-weight: 500;
 
-        @include xlg{
+        @include xlg {
           font-size: 76px;
-        };
-        @include lg{
+        }
+      ;
+        @include lg {
           font-size: 57px;
-        };
+        }
+      ;
 
         &_y {
           color: $Selective-yellow;
@@ -56,25 +60,28 @@
         border: 3px solid $text;
         opacity: 0.5;
         margin: 0 15px;
-        @include xlg{
+        @include xlg {
           width: 16px;
           height: 16px;
           border: 2px solid $text;
-        };
+        }
+      ;
       }
     }
 
     &__desc {
       font-size: 30px;
       font-weight: 300;
-      line-height: lh(30px,50px);
+      line-height: lh(30px, 50px);
       margin-bottom: auto;
-      @include xlg{
+      @include xlg {
         font-size: 24px;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         font-size: 20px;
-      };
+      }
+    ;
     }
 
     &__list {
@@ -107,14 +114,15 @@
         }
       }
 
-      @include xlg{
+      @include xlg {
         padding: 0 80px;
         padding-bottom: 60px;
 
         display: flex;
         flex-direction: column;
         align-items: center;
-      };
+      }
+    ;
 
 
       &-title {
@@ -122,24 +130,28 @@
         align-items: flex-end;
         margin-bottom: 30px;
       }
+
       &-val {
         min-width: 250px;
         opacity: 0.7;
         font-size: 200px;
         font-weight: 100;
         line-height: 0.9;
-        @include xlg{
+        @include xlg {
           font-size: 150px;
           min-width: 180px;
-        };
+        }
+      ;
       }
+
       &-type {
         font-size: 60px;
         font-weight: 300;
         opacity: 0.7;
-        @include xlg{
+        @include xlg {
           font-size: 45px;
-        };
+        }
+      ;
       }
 
       &-text {
@@ -147,9 +159,10 @@
         font-size: 30px;
         line-height: 30px;
         text-align: center;
-        @include xlg{
+        @include xlg {
           font-size: 24px;
-        };
+        }
+      ;
       }
     }
 
@@ -162,13 +175,15 @@
     padding-right: 280px;
     padding-top: vh(283);
 
-    @include xlg{
+    @include xlg {
       padding-top: vh(230);
       padding-right: 100px;
-    };
-    @include lg{
-      //padding-top: 70px;
-    };
+    }
+  ;
+    @include lg {
+      padding: 100px 100px 100px 230px;
+    }
+  ;
 
     &__title {
       color: $text;
@@ -178,10 +193,10 @@
       text-transform: uppercase;
       margin-bottom: vh(120);
 
-      @include xlg{
+      @include xlg {
         font-size: 57px;
         margin-bottom: vh(60);
-      };
+      }
 
       &-big {
         font-size: 1.8285em;
@@ -193,11 +208,12 @@
         padding-left: 1.54285em;
       }
 
-      &-small{
+      &-small {
         font-size: 0.471em;
         color: $Selective-yellow;
         margin-right: 1.06em;
       }
+
       &-text {
         line-height: 0.75;
       }
@@ -211,14 +227,14 @@
       display: flex;
       flex-wrap: wrap;
 
-      @include xlg{
+      @include xlg {
         margin-left: -40px;
         margin-right: -40px;
-      };
-      @include lg{
+      }
+      @include lg {
         margin-left: -15px;
         margin-right: -15px;
-      };
+      }
     }
 
     &__col {
@@ -228,19 +244,21 @@
 
       font-size: 30px;
       font-weight: 300;
-      line-height: lh(30px,50px);
-      @include xlg{
+      line-height: lh(30px, 50px);
+      @include xlg {
         width: calc(50% - 80px);
         margin-left: 40px;
         margin-right: 40px;
         font-size: 24px;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         width: calc(50% - 30px);
         margin-left: 15px;
         margin-right: 15px;
         font-size: 20px;
-      };
+      }
+    ;
     }
   }
 
@@ -254,38 +272,44 @@
     display: flex;
     flex-direction: column;
 
-    @include xlg{
+    @include xlg {
       padding-top: vh(180);
-    };
-    @include lg{
+    }
+    @include lg {
       padding-top: 80px;
-    };
+    }
+
 
     &__title {
       font-size: 70px;
       font-weight: 300;
       text-transform: uppercase;
       margin-bottom: vh(50);
-      @include xlg{
+      @include xlg {
         font-size: 57px;
         margin-bottom: vh(30);
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         font-size: 50px;
-      };
+      }
+    ;
     }
 
     &__text {
       font-size: 30px;
       font-weight: 300;
-      line-height: lh(30px,50px);
+      line-height: lh(30px, 50px);
       margin-bottom: auto;
-      @include xlg{
+      @include xlg {
         font-size: 24px;
-      };
-      @include lg{
+      }
+
+      @include lg {
         font-size: 20px;
-      };
+        margin-bottom: 100px;
+      }
+
     }
 
     &__list {
@@ -306,9 +330,10 @@
       width: 223px;
       padding-bottom: 115px;
 
-      @include xlg{
+      @include xlg {
         display: none;
-      };
+      }
+    ;
 
       &:hover {
 
@@ -369,22 +394,26 @@
         letter-spacing: -0.58px;
         line-height: 0.7;
 
-        @include xlg{
+        @include xlg {
           font-size: 150px;
-        };
-        @include lg{
+        }
+      ;
+        @include lg {
           font-size: 80px;
-        };
+        }
+      ;
 
         &_s {
           font-size: 70px;
           font-weight: 300;
-          @include xlg{
+          @include xlg {
             font-size: 46px;
-          };
-          @include lg{
+          }
+        ;
+          @include lg {
             font-size: 35px;
-          };
+          }
+        ;
         }
       }
 
@@ -395,22 +424,25 @@
         letter-spacing: 0.29px;
         text-align: center;
         line-height: 1;
-        @include xlg{
+        @include xlg {
           font-size: 34px;
-        };
+        }
+      ;
       }
 
       &-text {
         color: $Selective-yellow;
         font-size: 30px;
-        line-height: lh(30px,35px);
+        line-height: lh(30px, 35px);
         text-align: center;
-        @include xlg{
+        @include xlg {
           font-size: 24px;
-        };
-        @include lg{
+        }
+      ;
+        @include lg {
           font-size: 19px;
-        };
+        }
+      ;
       }
 
     }
@@ -426,19 +458,26 @@
     justify-content: center;
     padding-right: 200px;
 
+    @include lg {
+      padding: 100px 100px 100px 230px;
+    }
+  ;
+
 
     &__title {
       font-size: 70px;
       padding-top: 40px;
       background: url("../images/content/company/work/we.png") right 0 no-repeat;
       margin-bottom: vh(140);
-      @include xlg{
+      @include xlg {
         font-size: 46px;
         background-size: contain;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         font-size: 40px;
-      };
+      }
+    ;
     }
 
     &__line {
@@ -473,7 +512,7 @@
     }
 
     &__item {
-      width: calc(100%/3);
+      width: calc(100% / 3);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -491,28 +530,33 @@
     padding-top: vh(220);
     padding-right: 310px;
 
-    @include xlg{
+    @include xlg {
       padding-right: 100px;
-    };
-    @include lg{
-      padding-top: 80px;
-    };
+    }
+
+    @include lg {
+      padding: 100px 0px 0px 230px;
+    }
+
 
 
     &__title {
       color: $bg;
       font-size: 50px;
-      line-height: lh(50px,70px);
+      line-height: lh(50px, 70px);
       text-transform: uppercase;
       margin-bottom: auto;
 
-      @include xlg{
+      @include xlg {
         font-size: 34px;
         color: $text;
-      };
-      @include lg{
+      }
+
+      @include lg {
         font-size: 28px;
-      };
+        margin-bottom: 100px;
+      }
+
     }
 
     &__list {
@@ -520,26 +564,30 @@
       flex-wrap: wrap;
       margin-left: -80px;
       margin-right: -80px;
-      @include xlg{
+      @include xlg {
         margin-left: -40px;
         margin-right: -40px;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         margin-left: -30px;
         margin-right: -30px;
-      };
+      }
+    ;
     }
 
     &__item {
       padding: 0 80px 120px 80px;
       position: relative;
 
-      @include xlg{
+      @include xlg {
         padding: 0 40px 40px 40px;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         padding: 0 30px 20px 30px;
-      };
+      }
+    ;
 
       &:after {
         content: '';
@@ -567,42 +615,47 @@
     &__title {
       font-size: 70px;
       font-weight: 300;
-      line-height: lh(70px,90px);
+      line-height: lh(70px, 90px);
       text-transform: uppercase;
       margin-bottom: 40px;
       text-align: center;
-      @include xlg{
+      @include xlg {
         font-size: 57px;
         margin-bottom: 28px;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         font-size: 50px;
-      };
+      }
+    ;
     }
 
     &__sub {
       font-size: 30px;
       font-weight: 300;
-      line-height: lh(30px,40px);
+      line-height: lh(30px, 40px);
       text-align: center;
       margin-bottom: 80px;
-      @include xlg{
+      @include xlg {
         font-size: 24px;
         margin-bottom: 40px;
-      };
+      }
+    ;
     }
 
     &__item {
       padding: 60px 140px;
-      border-top: 1px solid rgba($text,.2);
+      border-top: 1px solid rgba($text, .2);
       text-align: center;
+
       &:last-child {
-        border-bottom: 1px solid rgba($text,.2);
+        border-bottom: 1px solid rgba($text, .2);
       }
 
-      @include xlg{
+      @include xlg {
         padding: 30px 70px;
-      };
+      }
+    ;
 
     }
 
@@ -619,7 +672,7 @@
     }
 
     &__content {
-      color: rgba($text,.3);
+      color: rgba($text, .3);
       font-size: 15px;
       font-weight: 300;
       line-height: 25px;
@@ -628,10 +681,12 @@
       p {
         margin-bottom: 30px;
       }
+
       h4 {
         text-transform: uppercase;
         font-weight: 300;
       }
+
       ul {
         li {
           &:before {

@@ -6,7 +6,7 @@
         mainContent = document.querySelector('.main'),
         inScroll = false,
         figure = document.querySelector('.figure'),
-        screen = 0,
+        // screen = 0,
         sectionBottom = document.querySelector('.index-bottom'),
         scrollTop = 0,
         page = document.querySelector('.page'),
@@ -17,7 +17,7 @@
 
 
     // простенькая история, чтоб не скролить до определенной секции
-    if (historySection && !page.classList.contains('page_second') && document.querySelector('.' + historyPage)) {
+    if (historySection && !page.classList.contains('page_second') && document.querySelector('.' + historyPage) && screen.width >= 1400) {
         scrollToSection(localStorage.getItem('sectionIndex'));
     }
 
@@ -88,7 +88,7 @@
     }
 
     //если нет класса page_second значит есть one-page-scroll
-    if (!page.classList.contains('page_second')) {
+    if (!page.classList.contains('page_second') && screen.width >= 1400) {
 
 
         //если есть пагинация вешаем клик на пагинацию

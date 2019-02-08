@@ -8,4 +8,15 @@
     left: 230px;
     right: 50px;
   };
+  @include slg{
+    left: 0;
+    right: 0;
+  };
+
+  &_lg {
+    display: none;
+    @include lg{
+      display: block;
+    };
+  }
 }
