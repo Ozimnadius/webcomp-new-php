@@ -197,7 +197,7 @@ function pushForm($name)
                 <div class="push__item">Увеличить узнаваемость бренда в соц.сетях</div>
                 <div class="push__item">Привлечь клиентов с оплатой за переход</div>
             </div>
-            <button type="submit" class="push__button">
+            <button type="button" class="push__button callorderOpen">
                 <div class="btn">
                     <div class="btn__title">рассчитать стоимость</div>
                     <div class="btn__lines">

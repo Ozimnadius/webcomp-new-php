@@ -226,7 +226,7 @@
       left: 19%;
       //right: 42.5%;
       bottom: 0;
-      width: 360px;
+      width: 300px;
 
       @include xlg{
         left: 25%;
@@ -235,7 +235,7 @@
       };
       @include lg{
         //right: 45.5%;
-        width: 230px;
+        width: 180px;
         right: initial;
       };
 

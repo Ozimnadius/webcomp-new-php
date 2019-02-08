@@ -324,6 +324,34 @@ $width: 556;
       min-width: 90px;
       cursor: pointer;
       outline: none;
+      padding: 10px 0;
+    }
+
+    &__prev{
+      &:hover{
+        .arrow{
+          &__line {
+            background: linear-gradient(to right, rgba(194, 194, 194, 0) 0%, $bg 100%);
+          }
+          &__triangle {
+            border-color: transparent transparent transparent $bg !important;
+          }
+        }
+      }
+    }
+
+    &__next {
+      &:hover {
+        .arrow {
+          &__line {
+            background: linear-gradient(to right, rgba(194, 194, 194, 0) 0%, $bg 100%);
+          }
+
+          &__triangle {
+            border-color: transparent transparent transparent $bg !important;
+          }
+        }
+      }
     }
 
     &__pagination {

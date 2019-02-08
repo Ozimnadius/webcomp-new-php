@@ -19,6 +19,7 @@ if (callorderOpenAll) {
                     formId: formId
                 };
 
+
             $.ajax({
                 dataType: "json",
                 type: "POST",
@@ -162,6 +163,58 @@ if (pushOpenAll) {
                                 }
                             }
                         );
+                        popupWrapper.querySelector('.callorderOpen').addEventListener('click', function () {
+                            let formId = this.dataset.formId || 1,
+                                data = {
+                                    action: 'callorderForm',
+                                    formId: formId
+                                };
+
+
+                            $.ajax({
+                                dataType: "json",
+                                type: "POST",
+                                url: '/php/ajax.php',
+                                data: data,
+                                success: function (result) {
+                                    if (result.status) {
+
+                                        popupWrapper.innerHTML = result.html;
+                                        popup.classList.add('active');
+                                        $(document.querySelector('.callorder .form')).validate(
+                                            {
+                                                rules: {
+                                                    name: "required",
+                                                    tel: "required",
+                                                    email: "required"
+                                                },
+                                                messages: {
+                                                    name: "Введите ваше Имя",
+                                                    tel: "Введите ваш  Телефон",
+                                                    email: "Введите ваш Email"
+                                                },
+
+                                                submitHandler: function (form) {
+                                                    getTimerForm();
+                                                },
+                                                invalidHandler: function (event, validator) {
+                                                    // debugger;
+                                                },
+                                                errorPlacement: function (error, element) {
+                                                    element[0].placeholder = error[0].innerText;
+                                                }
+                                            }
+                                        );
+
+                                    } else {
+                                        alert('Что-то пошло не так, попробуйте еще раз!!!');
+                                    }
+                                },
+                                error: function (result) {
+                                    alert('Что-то пошло не так, попробуйте еще раз!!!');
+                                }
+                            });
+                        });
 
                     } else {
                         alert('Что-то пошло не так, попробуйте еще раз!!!');

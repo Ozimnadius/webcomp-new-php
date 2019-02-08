@@ -5144,7 +5144,7 @@ input:-webkit-autofill {
   z-index: 10;
   left: 19%;
   bottom: 0;
-  width: 360px;
+  width: 300px;
 }
 
 @media screen and (max-width: 1899px) {
@@ -5156,7 +5156,7 @@ input:-webkit-autofill {
 
 @media screen and (max-width: 1439px) {
   .site-dev__graph {
-    width: 230px;
+    width: 180px;
     right: initial;
   }
 }
@@ -10351,6 +10351,29 @@ input:-webkit-autofill {
   min-width: 90px;
   cursor: pointer;
   outline: none;
+  padding: 10px 0;
+}
+
+.port-slider__prev:hover .arrow__line {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(194, 194, 194, 0)), to(#000000));
+  background: -webkit-linear-gradient(left, rgba(194, 194, 194, 0) 0%, #000000 100%);
+  background: -o-linear-gradient(left, rgba(194, 194, 194, 0) 0%, #000000 100%);
+  background: linear-gradient(to right, rgba(194, 194, 194, 0) 0%, #000000 100%);
+}
+
+.port-slider__prev:hover .arrow__triangle {
+  border-color: transparent transparent transparent #000000 !important;
+}
+
+.port-slider__next:hover .arrow__line {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(194, 194, 194, 0)), to(#000000));
+  background: -webkit-linear-gradient(left, rgba(194, 194, 194, 0) 0%, #000000 100%);
+  background: -o-linear-gradient(left, rgba(194, 194, 194, 0) 0%, #000000 100%);
+  background: linear-gradient(to right, rgba(194, 194, 194, 0) 0%, #000000 100%);
+}
+
+.port-slider__next:hover .arrow__triangle {
+  border-color: transparent transparent transparent #000000 !important;
 }
 
 .port-slider__pagination {
