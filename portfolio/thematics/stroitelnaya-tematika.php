@@ -39,36 +39,23 @@
                     <div class="rek-desc__title">Мы создаем сайты вызывающие доверие</div>
                     <div class="rek-desc__content content">
                         <div class="rek-desc__block">
-                            <h3>Кому подходит контекстная реклама</h3>
+                            <p>Хорошая компания должна реализовывать работы на высшем уровне качества, 
+							правильно предлагать услуги потенциальным заказчикам. Любая уважаемая фирма должна 
+							иметь веб-сайт в сети, позволяющий посетителям легко находить интересующую информацию 
+							без звонка в офис. Создание портала для строительной компании проводится с нуля, 
+							специалисты разрабатывают дизайн, удобную навигацию по ресурсу, продумывают наполнение 
+							для разделов. В итоге клиент в свое распоряжение получает полноценный веб-портал, 
+							не имеющий аналогов в сети.</p>
+							<p>Особое внимание мы уделяем:</p>
                             <ul>
-                                <li>Контекстная реклама подходит для ниши услуг где доходность от 2 000 р с одного обращения.</li>
-                                <li>Для компаний, которые хотят быстро увеличить поток заявок.</li>
-                                <li>Для компаний, которым важно точно понимать стоимость привлечения клиента.</li>
-                                <li>Для компаний, которые хотят видеть прозрачную схему привлечения заявок.</li>
-                                <li>Для компаний, которые хотят динамично управлять рекламными акциями, увеличивать или снижать активность продаж в разное время суток.</li>
-                                <li>Для тех, кто хочет увеличить охват аудитории. </li>
+                                <li>В строительной тематике важно вызвать доверие у заказчика и показать, то что он получит, поэтому мы максимально стараемся проработать страницы с портфолио и информации о компании;</li>
+                                <li>Понятная и логичная структура сайта позволит быстро сориентироваться и понять основные преимущества компании;</li>
+                                <li>Хороший запоминающийся дизайн мы всегда подкрепляем продающими текстами, которые отлично влияют на конверсию сайта.</li>
                             </ul>
-                        </div>
-                        <div class="rek-desc__block">
-                            <h3>Кому не подходит контекстная реклама</h3>
-                            <ul>
-                                <li>Для интернет магазинов и услуг с низкой рентабельностью.</li>
-                                <li>Для компании у которых нет спроса на товары или услуги в интернете</li>
-                                <li>Для набора подписчиков</li>
-                                <li>Для интернет магазинов с маленьким ассортиментом</li>
-                            </ul>
-                        </div>
-                        <div class="rek-desc__block">
-                            <h3>В каких тематиках контекстная реклама не работает</h3>
-                            <ul>
-                                <li>Тематики эротического характера, некоторых медицинские тематики</li>
-                                <li>Азартные игры</li>
-                                <li>Алкогольная продукция</li>
-                                <li>Взрывчатые вещества</li>
-                                <li>Оружие</li>
-                                <li>Политическая тематика с призывами</li>
-                                <li>Подделки или копии оригинальных товаров</li>
-                            </ul>
+							<p>Разработка веб-сайта для строительной фирмы может проводиться по нашему индивидуальному проекту либо в 
+							зависимости от пожеланий заказчика. Мы реализуем проекты любой сложности, делаем все возможное для того, 
+							чтобы готовый веб-ресурс полностью соответствовал потребностям, пожеланиям. Для записи достаточно 
+							связаться с менеджерами по телефону.</p>
                         </div>
                     </div>
                     <button class="rek-desc__button button button_red promotionOpen" type="button">Получить прогноз по бюджету</button>
@@ -162,7 +149,7 @@
                                     </div>
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-title">Типовой сайт</div>
-                                        <div class="theme-price__item-price">7 000 Р / 2 дней</div>
+                                        <div class="theme-price__item-price">7 000 Р / 2 дня</div>
                                         <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
                                     </div>
                                 </div>
@@ -200,8 +187,8 @@
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-price">+</div>
                                         <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Включино</b></div>
+                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                             <div class="theme-price__item-li">Написание подробного тех.задания — <b>5 000 Р</b></div>
 											<div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
 											<div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b></div>
@@ -210,8 +197,8 @@
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-price">+</div>
                                         <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Включино</b></div>
+                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                             <div class="theme-price__item-li">Написание подробного тех.задания — <b>2 000 Р</b></div>
 											<div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
 											<div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b></div>
@@ -239,7 +226,7 @@
                                     </div>
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-title">Типовой сайт</div>
-                                        <div class="theme-price__item-price">7 000 Р / 2 дней</div>
+                                        <div class="theme-price__item-price">7 000 Р / 2 дня</div>
                                         <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
                                     </div>
                                 </div>
@@ -277,8 +264,8 @@
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-price">+</div>
                                         <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Включино</b></div>
+                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                             <div class="theme-price__item-li">Написание подробного тех.задания — <b>5 000 Р</b></div>
 											<div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
 											<div class="theme-price__item-li">Хостинг 12 мес.— <b>4200 Р</b></div>
@@ -287,8 +274,8 @@
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-price">+</div>
                                         <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Включино</b></div>
+                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                             <div class="theme-price__item-li">Написание подробного тех.задания — <b>5 000 Р</b></div>
 											<div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
 											<div class="theme-price__item-li">Хостинг 12 мес.— <b>4200 Р</b></div>
@@ -345,7 +332,7 @@
                                         <div class="theme-price__item-price">+</div>
                                         <div class="theme-price__item-list">
                                             <div class="theme-price__item-li">Маркетинговое исследование — <b>10 000 Р</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                             <div class="theme-price__item-li">Прототипирование — <b>5 000 Р</b></div>
 											<div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
 											<div class="theme-price__item-li">Хостинг 12 мес.— <b>2280 Р</b></div>
@@ -355,7 +342,7 @@
                                         <div class="theme-price__item-price">+</div>
                                         <div class="theme-price__item-list">
                                             <div class="theme-price__item-li">Маркетинговое исследование — <b>10 000 Р</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                             <div class="theme-price__item-li">Прототипирование — <b>5 000 Р</b></div>
 											<div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
 											<div class="theme-price__item-li">Хостинг 12 мес.— <b>2280 Р</b></div>
@@ -383,7 +370,7 @@
                                     </div>
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-title">Типовой сайт</div>
-                                        <div class="theme-price__item-price">7 000 Р / 2 дней</div>
+                                        <div class="theme-price__item-price">7 000 Р / 2 дня</div>
                                         <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
                                     </div>
                                 </div>
@@ -421,8 +408,8 @@
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-price">+</div>
                                         <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Включино</b></div>
+                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                             <div class="theme-price__item-li">Написание подробного тех.задания — <b>5 000 Р</b></div>
 											<div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
 											<div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b></div>
@@ -431,8 +418,8 @@
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-price">+</div>
                                         <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div> 
+                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Включино</b></div>
+                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div> 
 											<div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
 											<div class="theme-price__item-li">Хостинг 12 мес.— <b>2280 Р</b></div>
                                         </div>
@@ -459,7 +446,7 @@
                                     </div>
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-title">Типовой сайт</div>
-                                        <div class="theme-price__item-price">7 000 Р / 2 дней</div>
+                                        <div class="theme-price__item-price">7 000 Р / 2 дня</div>
                                         <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
                                     </div>
                                 </div>
@@ -497,8 +484,8 @@
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-price">+</div>
                                         <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Включино</b></div>
+                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                             <div class="theme-price__item-li">Написание подробного тех.задания — <b>5 000 Р</b></div>
 											<div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
 											<div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b></div>
@@ -507,8 +494,8 @@
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-price">+</div>
                                         <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Включино</b></div>
+                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                             <div class="theme-price__item-li">Написание подробного тех.задания — <b>5 000 Р</b></div>
 											<div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
 											<div class="theme-price__item-li">Хостинг 12 мес.— <b>2280 Р</b></div>

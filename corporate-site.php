@@ -94,12 +94,12 @@
                                         <div class="btn__line-left"></div>
                                     </div>
                                 </div></a></div>
-                        <div class="site-dev__title">Создание корпоративног осайта включает</div>
-                        <div class="site-dev__chart">
+                        <div class="site-dev__title">Создание корпоративного сайта включает</div>
+        <div class="site-dev__chart">
                             <div class="site-dev__list">
                                 <div class="site-dev__item">
-                                    <div class="site-dev__item-day">2 дня</div>
-                                    <div class="site-dev__item-desc">Перенос на хостинг и программа качества</div>
+                                    <div class="site-dev__item-day">1 день</div>
+                                    <div class="site-dev__item-desc">Тестирование</div>
                                     <div class="site-dev__item-arrow">
                                         <div class="arrow">
                                             <div class="arrow__line"></div>
@@ -108,9 +108,8 @@
                                     </div>
                                 </div>
                                 <div class="site-dev__item">
-                                    <div class="site-dev__item-day">5 дней</div>
-                                    <div class="site-dev__item-desc">Наполнение
-                                        и тестирование сайта</div>
+                                    <div class="site-dev__item-day">1 день</div>
+                                    <div class="site-dev__item-desc">Загрузка на хостинг</div>
                                     <div class="site-dev__item-arrow">
                                         <div class="arrow">
                                             <div class="arrow__line"></div>
@@ -119,9 +118,8 @@
                                     </div>
                                 </div>
                                 <div class="site-dev__item">
-                                    <div class="site-dev__item-day">15 дней</div>
-                                    <div class="site-dev__item-desc">Программирование
-                                        сайта</div>
+                                    <div class="site-dev__item-day">20 дней</div>
+                                    <div class="site-dev__item-desc">Программная часть</div>
                                     <div class="site-dev__item-arrow">
                                         <div class="arrow">
                                             <div class="arrow__line"></div>
@@ -130,9 +128,8 @@
                                     </div>
                                 </div>
                                 <div class="site-dev__item">
-                                    <div class="site-dev__item-day">8 дней</div>
-                                    <div class="site-dev__item-desc">Верстка согласованых
-                                        макетов</div>
+                                    <div class="site-dev__item-day">3 дня</div>
+                                    <div class="site-dev__item-desc">Согласование и правки</div>
                                     <div class="site-dev__item-arrow">
                                         <div class="arrow">
                                             <div class="arrow__line"></div>
@@ -141,9 +138,9 @@
                                     </div>
                                 </div>
                                 <div class="site-dev__item">
-                                    <div class="site-dev__item-day">7 дней</div>
-                                    <div class="site-dev__item-desc">Дизайн внутренних
-                                        страниц</div>
+                                    <div class="site-dev__item-day">11 дней</div>
+                                    <div class="site-dev__item-desc">Создание дизайна
+                                        </div>
                                     <div class="site-dev__item-arrow">
                                         <div class="arrow">
                                             <div class="arrow__line"></div>
@@ -152,9 +149,8 @@
                                     </div>
                                 </div>
                                 <div class="site-dev__item">
-                                    <div class="site-dev__item-day">5 дней</div>
-                                    <div class="site-dev__item-desc">Составление
-                                        Технического задания</div>
+                                    <div class="site-dev__item-day">3 дня</div>
+                                    <div class="site-dev__item-desc">Прототипирование</div>
                                     <div class="site-dev__item-arrow">
                                         <div class="arrow">
                                             <div class="arrow__line"></div>
@@ -163,9 +159,8 @@
                                     </div>
                                 </div>
                                 <div class="site-dev__item">
-                                    <div class="site-dev__item-day">5 дней</div>
-                                    <div class="site-dev__item-desc">Дизайн-концепция
-                                        главной страницы</div>
+                                    <div class="site-dev__item-day">3 дня</div>
+                                    <div class="site-dev__item-desc">Разработка концепции</div>
                                     <div class="site-dev__item-arrow">
                                         <div class="arrow">
                                             <div class="arrow__line"></div>
@@ -174,9 +169,8 @@
                                     </div>
                                 </div>
                                 <div class="site-dev__item">
-                                    <div class="site-dev__item-day">10 дней</div>
-                                    <div class="site-dev__item-desc">Интерактивный
-                                        прототип</div>
+                                    <div class="site-dev__item-day">1 день</div>
+                                    <div class="site-dev__item-desc">Анализ аудитории</div>
                                     <div class="site-dev__item-arrow">
                                         <div class="arrow">
                                             <div class="arrow__line"></div>
@@ -185,9 +179,8 @@
                                     </div>
                                 </div>
                                 <div class="site-dev__item">
-                                    <div class="site-dev__item-day">5 дней</div>
-                                    <div class="site-dev__item-desc">Проектирование СЯ
-                                        и структур  сайта</div>
+                                    <div class="site-dev__item-day">1 день</div>
+                                    <div class="site-dev__item-desc">Анализ сферы деятельности</div>
                                     <div class="site-dev__item-arrow">
                                         <div class="arrow">
                                             <div class="arrow__line"></div>
@@ -233,7 +226,7 @@
                                             </div>
                                             <div class="theme-price__item">
                                                 <div class="theme-price__item-title">Типовой сайт</div>
-                                                <div class="theme-price__item-price">7 000 Р / 2 дней</div>
+                                                <div class="theme-price__item-price">7 000 Р / 2 дня</div>
                                                 <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1</div>
                                             </div>
                                         </div>
@@ -271,8 +264,8 @@
                                             <div class="theme-price__item">
                                                 <div class="theme-price__item-price">+</div>
                                                 <div class="theme-price__item-list">
-                                                    <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                                    <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                                    <div class="theme-price__item-li">Анализ конкурентов — <b>Включино</b></div>
+                                                    <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                                     <div class="theme-price__item-li">Написание подробного тех.задания — <b>5 000 Р</b></div>
                                                     <div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
                                                     <div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b></div>
@@ -281,8 +274,8 @@
                                             <div class="theme-price__item">
                                                 <div class="theme-price__item-price">+</div>
                                                 <div class="theme-price__item-list">
-                                                    <div class="theme-price__item-li">Анализ конкурентов — <b>Бесплатно</b></div>
-                                                    <div class="theme-price__item-li">Адаптивная верстка — <b>Включина</b></div>
+                                                    <div class="theme-price__item-li">Анализ конкурентов — <b>Включино</b></div>
+                                                    <div class="theme-price__item-li">Адаптивная верстка — <b>Включино</b></div>
                                                     <div class="theme-price__item-li">Написание подробного тех.задания — <b>2 000 Р</b></div>
                                                     <div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
                                                     <div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b></div>
@@ -308,7 +301,7 @@
                                     <div class="banner__title">Хотите сайт<br>дешевле?</div>
                                 </div>
                                 <div class="banner__right">
-                                    <div class="banner__text">Готовые решение под вашу<br>тематику от<b> 20 000 Р</b></div>
+                                    <div class="banner__text">Готовые решение под вашу<br>тематику от<b> 50 000 Р</b></div>
                                     <button class="banner__button button callorderOpen" type="button">заказать сайт</button>
                                 </div>
                             </div>
