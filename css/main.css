@@ -223,6 +223,13 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .container3 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
 .content h3 {
   font-size: 30px;
   margin-bottom: 30px;
