@@ -182,7 +182,7 @@
                             <a class="theme-iss__item" href="/portfolio/thematics/banki.php">Банки</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/santehnika.php">Сантехника</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/cvetj.php">Магазины цветов</a>
-                            <a class="theme-iss__item" href="/portfolio/thematicstovarj-dlya-doma.php">Товары для дома</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/tovarj-dlya-doma.php">Товары для дома</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/stroitelnje.php">Строительные
                                 материалы</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/sport-tovarj.php">Спортивные товары</a>

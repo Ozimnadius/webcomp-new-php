@@ -1,5 +1,11 @@
 .site {
 
+  .container{
+    @include slg{
+      padding: 0;
+    };
+  }
+
   &-first {
     //padding-left: 325px;
     height: 100vh !important;

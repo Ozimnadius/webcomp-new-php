@@ -63,6 +63,9 @@
     @include lg{
       font-size: 70px;
     };
+    @include slg{
+      font-size: 57px;
+    };
   }
 
   &__line {

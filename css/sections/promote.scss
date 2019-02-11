@@ -531,6 +531,9 @@
 
         img{
           width: vw(1534);
+          @include slg{
+            width: 100vw;
+          };
         }
 
         &.active {
@@ -555,6 +558,9 @@
 
         img{
           width: vw(1588);
+          @include slg{
+            width: 100vw;
+          };
         }
 
         &.active {

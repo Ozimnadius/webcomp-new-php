@@ -9,7 +9,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Проект</a>
                         </div>
@@ -41,8 +41,8 @@
                     <div class="port-desc__title">Разработка сайта в минималистичном стиле, но с удобным<br>функционалом
                         по выбору осветительной продукции.
                     </div>
-                    <div class="port-desc__sub">Разработка интеграции со складами 5ти поставщиков с удобным функционалом<br>корректировки
-                        каталоги и сверкой товаров по наличию и ценам.
+                    <div class="port-desc__sub">Разработка интеграции со складами 5ти поставщиков с удобным функционалом<br>синхронизация
+                        каталогов и сверкой товаров по наличию и ценам.
                     </div>
                     <div class="port-desc__list numbers" data-timer="2000">
                         <div class="port-desc__item number">
@@ -155,12 +155,13 @@
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">Карточка товара
+                                    <div class="port-proj__item-title">Анонс товара
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобная и продуманнная карточка товра с учетом
-                                        запросов пользователя
+                                        Разработка эффекта загорающейся лампы
+                                        при наведение на карточку, провоцирует переход
+										для более детального изучения продукции
                                     </div>
                                 </div>
                             </div>
@@ -198,35 +199,35 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Ирина Чумак</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Подольский Валентин</div>
+                                <div class="port-team__item-title">Зинаида Аристарховна</div>
                                 <div class="port-team__item-prof">Дизайнер</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Ефимов Максим</div>
+                                <div class="port-team__item-title">Михаил Серегин</div>
                                 <div class="port-team__item-prof">Front-end разработчик</div>
                             </div>
                         </div>
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Абрамов Андрей</div>
+                                <div class="port-team__item-title">Михаил Соловьев</div>
                                 <div class="port-team__item-prof">Back-end разработчик</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Соколов Александр</div>
+                                <div class="port-team__item-title">Александр Симоненко</div>
                                 <div class="port-team__item-prof">Тестировщик</div>
                             </div>
                         </div>
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Поддубная мария</div>
+                                <div class="port-team__item-title">Алиса Нефедова</div>
                                 <div class="port-team__item-prof">Контент менеджер</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Рябова Наталья</div>
+                                <div class="port-team__item-title">Юрий Федоров</div>
                                 <div class="port-team__item-prof">Маркетолог</div>
                             </div>
                         </div>

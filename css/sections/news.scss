@@ -33,6 +33,10 @@
       padding: 20px 100px 20px 0px;
       margin-bottom: 50px;
     };
+    @include slg{
+      padding: 20px 15px 20px 15px;
+      margin-bottom: 40px;
+    };
 
 
     &:after, &:before {
@@ -71,6 +75,9 @@
     padding: 0 270px 125px 90px;
     @include xlg{
       padding: 0 100px 35px 0px;
+    };
+    @include slg{
+      padding: 0 50px 35px 50px;
     };
   }
 

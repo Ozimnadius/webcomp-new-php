@@ -16,6 +16,9 @@
       padding-right: 100px;
       padding-bottom: 35px;
     };
+    @include slg{
+      padding: 100px 50px 30px 50px;
+    };
 
     &__bread {
       margin-bottom: 100px;

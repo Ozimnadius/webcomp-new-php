@@ -341,6 +341,9 @@
     &__tab {
       display: none;
       padding-right: 230px;
+      @include slg{
+        padding-right: 50px;
+      };
 
       &.active {
         display: block;

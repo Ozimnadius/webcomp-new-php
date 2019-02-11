@@ -15,7 +15,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Кузнец</a>
                         </div>
@@ -56,8 +56,9 @@
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Дизайн был предоставлен в двух вариантах <br>
-                        <i style="font-weight: 600;">тёмном и светлом</i>
+                        Дизайн был предоставлен в двух цветовых решениях<br>
+                        Акцент был сделан на многофункциональный фильтр с учётом продукции<br>
+						
                     </div>
                     <!-- END subtitle -->
 
@@ -109,8 +110,8 @@
                     <!-- top -->
                     <div class="port-slider__top">
                         <div class="port-slider__title">Яркие<br>баннеры</div>
-                        <div class="port-slider__desc">Акценты позволяют выделить важную<br>информацию и оставить
-                            положительные<br>эмоции от использования сайта
+                        <div class="port-slider__desc">На оснований акций были созданы<br>3D модели кухонной мебели
+                            и расположенны в заметных местах<br>
                         </div>
                         <div class="port-slider__nav">
                             <div class="port-slider__prev">
@@ -215,11 +216,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">уникальный дизайн баннеров
+                                    <div class="port-proj__item-title">Баннеры 3 в одном
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Разработка уникального дизайна баннеров, для каждой категории кухонь
+                                        При наличие большого количества акций мы разработали слайдер, в котором размещено 3 акции с переходом на отдельные страницы.
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -227,7 +228,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобная и продуманнная карточка услуг с учетом запросов пользователя
+                                        Основные разделы с 3D картинками на главной
                                     </div>
                                 </div>
                             </div>
@@ -260,13 +261,11 @@
                         <div class="port-proj__block">
                             <!-- recom -->
                             <div class="port-proj__recom">
-                                <div class="port-proj__recom-title">онлайн подбор
+                                <div class="port-proj__recom-title">Наглядный подбор
                                     <div class="port-proj__recom-line"></div>
                                 </div>
                                 <div class="port-proj__recom-desc">
-                                    Можно ознакомится с видами покрытий
-                                    кухоной гарнитуры, и добавить к заказу
-                                    понравившийся вариант
+                                    Спроектировали визуальный модуль, который позволит показать все возможные элементы кухни с вариантами подбора.
                                 </div>
                             </div>
                             <!-- END recom -->
@@ -285,9 +284,7 @@
                                     <div class="port-proj__recom-line"></div>
                                 </div>
                                 <div class="port-proj__recom-desc">
-                                    Пошаговая инструкция процесса
-                                    работы. Были разработаны уникальные
-                                    3D иконки
+                                    Процес изготовления элитной кухни достаточно сложный и мы в 3D формате изобразили его.
                                 </div>
                             </div>
                             <!-- END recom -->

@@ -21,6 +21,9 @@
     &__title {
       position: relative;
       z-index: 30;
+      @include slg{
+        padding-left: 15px;
+      };
     }
 
     &__image {
@@ -128,6 +131,9 @@
       position: relative;
       z-index: 20;
       margin-bottom: vh(45);
+      @include slg{
+        padding-left: 15px;
+      };
     }
 
     &__content {
@@ -320,7 +326,10 @@
       margin: 0;
       padding: 100px 52px 0 0;
       @include bdb;
-    }
+    };
+    @include slg{
+      padding: 70px 0 0 0;
+    };
 
 
     &__title {
@@ -331,7 +340,10 @@
       @include lg {
         font-size: 46px;
       }
-    ;
+      @include slg{
+        text-align: center;
+      };
+
     }
 
     &__subtitle {
@@ -346,7 +358,9 @@
         font-size: 19px;
         margin-bottom: 25px;
       }
-    ;
+      @include slg{
+        text-align: center;
+      };
     }
 
     &__list {
@@ -357,6 +371,9 @@
       &:hover {
         .index-cat__link{
           right: -50px;
+          @include slg{
+            right: 0;
+          };
         }
       }
     }
@@ -549,8 +566,10 @@
     @include lg {
       margin-left: -230px;
       overflow: initial;
-    }
-  ;
+    };
+    @include slg{
+      margin: 0;
+    };
 
     &::-webkit-scrollbar {
       width: 10px;
@@ -606,6 +625,9 @@
         position: static;
       }
     ;
+      @include slg{
+        padding: 80px 15px 0 15px;
+      };
     }
 
     .footer {

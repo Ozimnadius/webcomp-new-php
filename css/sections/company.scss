@@ -5,7 +5,11 @@
     margin-left: -230px;
     padding-left: 230px;
   }
-;
+  @include slg{
+    margin: 0;
+    padding: 0 15px;
+  }
+
 }
 
 .comp {
@@ -179,11 +183,13 @@
       padding-top: vh(230);
       padding-right: 100px;
     }
-  ;
     @include lg {
       padding: 100px 100px 100px 230px;
     }
-  ;
+    @include slg{
+      padding: 100px 15px;
+    }
+
 
     &__title {
       color: $text;
@@ -461,7 +467,9 @@
     @include lg {
       padding: 100px 100px 100px 230px;
     }
-  ;
+    @include slg{
+      padding: 100px 50px;
+    }
 
 
     &__title {
@@ -533,9 +541,11 @@
     @include xlg {
       padding-right: 100px;
     }
-
     @include lg {
       padding: 100px 0px 0px 230px;
+    }
+    @include slg{
+      padding: 100px 0 0 15px;
     }
 
 

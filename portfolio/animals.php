@@ -16,7 +16,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Animals travel</a>
                         </div>
@@ -55,13 +55,13 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка Лендинга  с уникальным дизайном, с  адаптивной версией для корректного отображения на всех устройствах
+                        Разработка корпоративного сайта с продающим дизайном, адаптивной версией для корректного отображения на всех устройствах
                     </div>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Перевозите своих любимцев самолетом
+                        При создании сайта были учтены требования заказчика к яркому дизайну
                     </div>
                     <!-- END subtitle -->
 
@@ -113,8 +113,8 @@
                     <!-- top -->
                     <div class="port-slider__top">
                         <div class="port-slider__title">Яркие<br>баннеры</div>
-                        <div class="port-slider__desc">Акценты позволяют выделить важную<br>информацию и оставить
-                            положительные<br>эмоции от использования сайта
+                        <div class="port-slider__desc">Тематические баннеры с животными не оставили<br>аудиторию равнодушной
+                            <br>вовлеченность была улучшина
                         </div>
                         <div class="port-slider__nav">
                             <div class="port-slider__prev">
@@ -199,13 +199,12 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">уникальный дизайн
-                                        баннеров
+                                    <div class="port-proj__item-title">
+                                        Удобная навигация
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Разработка уникального дизайна баннеров, для каждой посадочной
-                                        страницы
+                                        На главной странице расположили основные разделы фирмы
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -213,7 +212,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Отзывы счастливых клиентов
+                                        Добавили блок отзывы счастливых клиентов
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -221,7 +220,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Полезная информация
+                                        Добавили блок с ответами на популярные вопросами
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -229,7 +228,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Возможность заказать звонок и задать вопросы менеджеру
+                                        Креативная форма захвата внимания
                                     </div>
                                 </div>
                             </div>
@@ -278,11 +277,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">товар
+                                    <div class="port-proj__item-title">Карточки товар
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Превью товаров с фото, наименованием и ценой
+                                        Так как товара не много, превью товаров с фото сделали крупнее для лучшей визуализации
                                     </div>
                                 </div>
                             </div>
@@ -334,8 +333,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Статьи на самые популярные вопросы
-                                        советы, помощь по уходу за животными
+                                        Тематические статьи с удобной навигацией, порадуют всех любителей животных
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -343,7 +341,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Быстрые ссылки, адрес магазина и социальные сети
+                                        Расположили популярные категории, контакты и ссылки на социальные сети
                                     </div>
                                 </div>
                             </div>
@@ -451,7 +449,7 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Меркулов иван</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">

@@ -61,8 +61,8 @@
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        качественная отделка балконов с калькулятором, с примерами работ и со <br>
-                        списком услуг и  ценами
+                        качественная отделка балконов с калькулятором, примерами работ и со <br>
+                        списком услуг и ценами
                     </div>
                     <!-- END subtitle -->
 
@@ -209,11 +209,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">уникальный дизайн баннеров
+                                    <div class="port-proj__item-title">уникальный дизайн сайта
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Разработка уникального дизайна баннеров, для каждой категории кухонь
+                                        Разработка уникального дизайна позволит сайту лучше ранжироваться в поисковой система. Все картинки сайта сделаны на основе портфолио клиента.
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -221,8 +221,8 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Улсуги отображены красивыми, <br>
-                                        передающими смысл иконками
+                                        На этом экрене мы показали и услуги и уникальное торговое предложение<br>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -240,7 +240,7 @@
                                     </div>
                                     <div class="port-proj__item-desc">
                                         Реализован удобный функционал
-                                        для рассчёта стоимости остекления
+                                        для рассчёта стоимости остекления с призывом к действию
                                     </div>
                                 </div>
                             </div>
@@ -285,7 +285,7 @@
                                 страниц
                             </div>
                             <div class="balconies__title-right">
-                                1 шаг  к успешной реализации проекта
+                                Важным этапом является и прототипирование страниц. Мы рисуем схематичные изображения всех страниц сайта
                             </div>
                         </div>
 
@@ -338,7 +338,7 @@
                                     </div>
                                     <div class="port-proj__item-desc">
                                         Цифромой таймер, показывающий время
-                                        об окончании акции или предложения
+                                        об окончании акции или предложения и мотивирует заказать
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -347,7 +347,7 @@
                                     </div>
                                     <div class="port-proj__item-desc">
                                         Удобные и понятные карточки,
-                                        предлагающие определенную услугу
+                                        предлагающие определенную услугу с переходом на детальную страницу
                                     </div>
                                 </div>
                             </div>
@@ -369,8 +369,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Объемные иконки демонстрирующие
-                                        выгодное предложение для клиентов
+                                        Дополнительные тригеры усиливающие принятие решения
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -378,9 +377,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Посетители сайта могут в любое время
-                                        оставить заявку, и связатся с
-                                        менеджерами
+                                        Дополнительная форма захвата с интеграцией в CRM клиента
                                     </div>
                                 </div>
                             </div>
@@ -475,7 +472,7 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Меркулов иван</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
@@ -483,7 +480,7 @@
                                 <div class="port-team__item-prof">Дизайнер</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Ефимов Максим</div>
+                                <div class="port-team__item-title">Серегин Михаил</div>
                                 <div class="port-team__item-prof">Front-end разработчик</div>
                             </div>
                         </div>

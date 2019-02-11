@@ -6,7 +6,7 @@
     <main class="main">
         <div class="index">
             <div class="container">
-                <section class="index-first active-page" id="01">
+                <section class="index-first active-page">
                     <div class="index-first__title">
                         <div class="title">
                             <div class="title__line">
@@ -44,7 +44,7 @@
                         <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/menu.php'?>
                     </div>
                 </section>
-                <section class="index-about" id="02">
+                <section class="index-about">
                     <div class="index-about__title">
                         <div class="title_small title title_small">
                             <div class="title__line">
@@ -76,7 +76,7 @@
                         <div class="index-about__we">
                             <div class="we">
                                 <div class="we__title">Мы</div>
-                                <button class="we__btn nextSection" type="button" data-id="2">
+                                <a href="#2" class="we__btn nextSection" data-id="2">
                                     <div class="btn">
                                         <div class="btn__title">рассчитать стоимость</div>
                                         <div class="btn__lines">
@@ -86,7 +86,7 @@
                                             <div class="btn__line-left"></div>
                                         </div>
                                     </div>
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                         <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/menuTop.php'?>
                     </div>
                 </section>
-                <section class="index-price">
+                <section id="2" class="index-price">
                     <div class="index-price__title">Сколько стоит сайт?</div>
                     <div class="index-price__subtitle">on-line калькулятор расчета стоимости</div>
                     <div class="index-price__calc">

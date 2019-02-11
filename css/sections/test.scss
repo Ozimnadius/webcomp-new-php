@@ -5,9 +5,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  @include slg{
+  @include slg {
     height: 100vh;
-  };
+  }
+;
 
   &.active {
     background-image: url("../images/bg/testBg.jpg");
@@ -35,12 +36,16 @@
     visibility: hidden;
     transition: .4s;
 
-    @include xlg{
+    @include xlg {
       padding-right: 100px;
-    };
-    @include lg{
+    }
+    @include lg {
       padding-top: 70px;
-    };
+    }
+    @include slg{
+      padding-right: 0;
+    }
+
 
     &.active {
       opacity: 1;
@@ -51,9 +56,10 @@
       display: flex;
       align-items: center;
       margin-bottom: 60px;
-      @include lg{
+      @include lg {
         margin-bottom: 30px;
-      };
+      }
+    ;
     }
 
     &__percents {
@@ -67,21 +73,31 @@
         font-weight: 100;
         letter-spacing: -1.87px;
         line-height: 0.75;
-        @include xlg{
+        @include xlg {
           font-size: 230px;
-        };
-        @include lg{
+        }
+      ;
+        @include lg {
           font-size: 190px;
-        };
+        }
+      ;
+        @include slg {
+          font-size: 145px;
+        }
+      ;
       }
 
       &-type {
         font-size: 63px;
         font-weight: 300;
         text-transform: uppercase;
-      @include lg{
-        font-size: 50px;
-      };
+        @include lg {
+          font-size: 50px;
+        }
+        @include slg{
+          font-size: 42px;
+        };
+
       }
     }
 
@@ -95,9 +111,13 @@
       letter-spacing: 0.93px;
       text-align: center;
       margin-bottom: 100px;
-      @include lg{
+      @include lg {
         margin-bottom: 30px;
-      };
+      }
+      @include slg{
+        font-size: 21px;
+      }
+
     }
   }
 
@@ -122,7 +142,7 @@
     height: 100%;
   }
 
-  &__swiper,&__wrapper,.swiper-slide {
+  &__swiper, &__wrapper, .swiper-slide {
     height: 100%;
   }
 
@@ -151,16 +171,22 @@
     //background: url("../images/bg/testNumberBg.png") 0 0 no-repeat;
     //background-size: cover;
 
-    @include xlg{
+    @include xlg {
       width: auto;
       height: auto;
       bottom: 0;
       right: 30px;
       font-size: 230px;
-    };
-    @include lg{
+    }
+  ;
+    @include lg {
       font-size: 160px;
-    };
+    }
+  ;
+    @include slg {
+      font-size: 120px;
+    }
+  ;
 
   }
 
@@ -176,36 +202,53 @@
     position: relative;
     z-index: 20;
 
-    @include xlg{
+    @include xlg {
       padding-right: 100px;
-    };
-    @include lg{
+    }
+  ;
+    @include lg {
       padding-right: 250px;
-    };
+    }
+  ;
+    @include slg {
+      padding-right: 150px;
+    }
+  ;
 
     &-title {
       font-size: 50px;
       font-weight: 300;
-      line-height: lh(50,65);
+      line-height: lh(50, 65);
       text-transform: uppercase;
       text-align: center;
       margin-bottom: vh(40);
-      @include xlg{
+      @include xlg {
         font-size: 36px;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         font-size: 24px;
-      };
+      }
+    ;
+      @include slg {
+        font-size: 21px;
+      }
+    ;
     }
 
     &-prev {
       margin-right: 20px;
+      @include xlg {
+        margin-right: 100px;
+      }
+    ;
     }
-    &-next,&-prev {
+
+    &-next, &-prev {
       outline: none;
     }
 
-    &-next, &-submit{
+    &-next, &-submit {
       &.disabled {
         pointer-events: none;
         opacity: .5;
@@ -218,10 +261,11 @@
     padding: 0 90px 0 180px;
     margin-bottom: vh(40);
     box-sizing: border-box;
-    @include xlg{
+    @include xlg {
       padding: 0;
       margin-bottom: 20px;
-    };
+    }
+  ;
   }
 
   &__row {
@@ -246,20 +290,26 @@
       left: -100px;
       right: 0;
       bottom: 0;
-      background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.3) 30%,rgba(255,255,255,0.3) 70%,rgba(255,255,255,0) 100%);
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 70%, rgba(255, 255, 255, 0) 100%);
     }
 
-    @include xlg{
+    @include xlg {
       padding: 20px 0;
-    };
+    }
+  ;
+    @include slg {
+      padding: 15px 0;
+    }
+  ;
   }
 
   &__field {
     width: 50%;
     padding-right: 15px;
-    @include lg{
+    @include lg {
       padding: 0 15px;
-    };
+    }
+  ;
   }
 
   &__radio {
@@ -279,27 +329,33 @@
     }
 
     &-label {
-      color: rgba($text,.3);
+      color: rgba($text, .3);
       font-size: 30px;
       font-weight: 300;
       transition: .4s;
 
       display: flex;
       align-items: center;
-      @include xlg{
+      @include xlg {
         font-size: 24px;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         font-size: 19px;
-      };
+      }
+    ;
+      @include slg {
+        font-size: 17px;
+      }
+    ;
     }
 
     &-fake {
-       min-width: 20px;
-       width: 20px;
+      min-width: 20px;
+      width: 20px;
       height: 20px;
 
-      border: 1px solid rgba(#636363,.7);
+      border: 1px solid rgba(#636363, .7);
       border-radius: 50%;
       order: -1;
       margin-right: 15px;
@@ -331,10 +387,16 @@
     right: 260px;
     background: url("../images/bg/testPag.png") 0 0 repeat-x;
     padding-top: 28px;
-    @include lg{
+    @include lg {
       bottom: 20px;
       right: 260px;
-    };
+    }
+  ;
+    @include slg {
+      right: 180px;
+      bottom: 15px;
+    }
+  ;
 
     .swiper-pagination {
       height: 2px;
@@ -342,6 +404,7 @@
       width: 100%;
 
     }
+
     .swiper-pagination-progressbar-fill {
       background: $Selective-yellow;
     }
@@ -350,21 +413,35 @@
       margin-top: 30px;
       display: flex;
       justify-content: space-between;
-      @include lg{
+      @include lg {
         margin-top: 15px;
-      };
+      }
+    ;
+      @include slg {
+        margin-top: 10px;
+      }
+    ;
     }
 
     &-percents {
       opacity: 0.3;
       font-size: 30px;
       font-weight: 300;
+      @include slg {
+        font-size: 24px;
+      }
+    ;
     }
 
     &-title {
       font-size: 30px;
       font-weight: 300;
+      @include slg {
+        font-size: 24px;
+      }
+    ;
     }
+
     &-perc {
       color: #ffb700;
       font-weight: 700;
@@ -383,6 +460,7 @@
       padding-left: 0;
       padding-top: 0;
     }
+
     .testing__field {
       width: 100%;
       padding: 0;
@@ -395,7 +473,7 @@
       text-transform: uppercase;
     }
 
-    .input{
+    .input {
       max-width: 354px;
       margin-left: 30px;
     }

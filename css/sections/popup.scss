@@ -45,6 +45,9 @@
 
 .callorder,.promotion {
   width: 1120px;
+  @include slg{
+    width: 80%;
+  };
 
   &__title {
     font-size: 64px;
@@ -92,6 +95,9 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 10px;
+    @include slg{
+      font-size: 46px;
+    };
   }
 
   &__subtitle {
@@ -102,6 +108,10 @@
     letter-spacing: 0.92px;
     text-align: center;
     margin-bottom: 90px;
+    @include slg{
+      font-size: 21px;
+      margin-bottom: 30px;
+    };
   }
 
   &__count {
@@ -204,6 +214,9 @@
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 10px;
+    @include slg{
+      font-size: 50px;
+    };
   }
 
   &__subtitle {
@@ -215,6 +228,9 @@
     margin-bottom: 85px;
     @include xlg{
       margin-bottom: 40px;
+    };
+    @include slg{
+      font-size: 21px;
     };
   }
 
@@ -240,6 +256,10 @@
     }
     @include xlg{
       margin-bottom: 30px;
+    };
+    @include slg{
+      font-size: 26px;
+      margin-bottom: 20px;
     };
   }
 }

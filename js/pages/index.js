@@ -197,8 +197,11 @@
 
     if (nextSectionBtn) {
         nextSectionBtn.addEventListener('click', function (e) {
-            let index = this.dataset.id;
-            scrollToSection(index);
+            if (screen.width >= 1400) {
+                e.preventDefault();
+                let index = this.dataset.id;
+                scrollToSection(index);
+            }
         })
     }
 

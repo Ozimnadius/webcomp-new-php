@@ -162,7 +162,7 @@ function NumberCounting(num, time) {
 
     };
     this.clear = function () {
-        this.val.innerHTML = 0;
+        this.val.innerHTML = this.from;
     }
 }
 

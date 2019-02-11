@@ -332,6 +332,9 @@
       padding-left: 100px;
       margin-bottom: 20px;
       font-weight: 400;
+      @include slg{
+        font-size: 36px;
+      };
     }
 
     &__switches {
