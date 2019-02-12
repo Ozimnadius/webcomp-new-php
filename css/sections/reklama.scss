@@ -14,6 +14,10 @@
     @include lg{
       padding-top: 100px;
     };
+    @include md{
+      padding-top: 80px;
+      padding-bottom: 40px;
+    };
 
     .container {
       display: flex;
@@ -38,6 +42,10 @@
         font-size: 50px;
         margin-bottom: 20px;
       };
+      @include md{
+        font-size: 42px;
+        margin-bottom: 15px;
+      };
     }
 
     &__subtitle {
@@ -50,6 +58,10 @@
         font-size: 28px;
         margin-bottom: 30px;
       };
+      @include md{
+        font-size: 21px;
+        margin-bottom: 15px;
+      };
     }
 
     &__middle {
@@ -57,6 +69,10 @@
       flex-wrap: wrap;
       align-items: center;
       margin-bottom: 55px;
+      @include md{
+        flex-wrap: nowrap;
+        padding: 0 30px;
+      };
     }
 
     &__item {
@@ -143,6 +159,9 @@
       &:before {
         height: 130px;
         bottom: 100%;
+        @include md{
+          height: 60px;
+        };
       }
       &:after {
         height: 1000px;
@@ -157,14 +176,33 @@
         width: 7px;
         height: 7px;
         border: 1px solid rgba($text,.5);
+        @include md{
+          bottom: calc(100% + 60px);
+        };
       }
 
       .btn3 {
         width: 339px;
         height: 70px;
+        @include md{
+          height: 40px;
+        };
       }
     }
 
+    &__img {
+      @include md{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+      };
+
+      &-img {
+        @include md {;
+          width: 70%;
+        }
+      }
+    }
 
   }
 
@@ -179,6 +217,9 @@
 
     @include xlg{
       padding: 60px 400px 40px 60px;
+    };
+    @include md{
+      padding: 40px 400px 40px 50px;
     };
 
     &__title {
@@ -281,6 +322,11 @@
       @include xlg{
         margin-bottom: 30px;
       };
+      @include md{
+        padding-left: 0;
+        text-align: center;
+        font-size: 32px;
+      };
     }
 
     &__switches {
@@ -289,6 +335,9 @@
       @include xlg{
         margin-bottom: 30px;
       };
+      @include md{
+        margin-bottom: 20px;
+      };
 
       &-list {
         display: flex;
@@ -296,6 +345,9 @@
         margin-bottom: 14px;
         justify-content: space-between;
         position: relative;
+        @include md{
+          margin-bottom: 10px;
+        };
       }
     }
 
@@ -311,6 +363,9 @@
       @include xlg{
         font-size: 24px;
       }
+      @include md{
+        font-size: 19px;
+      };
 
       &:first-child {
         justify-content: flex-end;
@@ -349,6 +404,9 @@
       @include xlg{
         width: 220px;
       };
+      @include md{
+        width: 190px;
+      };
     }
 
     &__tab {
@@ -373,6 +431,9 @@
 
       @include xlg{
         padding: 20px 0;
+      };
+      @include md{
+        padding: 15px 0;
       };
 
       &:after {
@@ -419,6 +480,9 @@
           font-size: 32px;
           margin-bottom: 7px;
         };
+        @include md{
+          font-size: 24px;
+        };
       }
 
       &-text {
@@ -426,6 +490,9 @@
         font-size: 25px;
         @include xlg{
           font-size: 19px;
+        };
+        @include md{
+          font-size: 17px;
         };
       }
 
@@ -436,6 +503,10 @@
         @include xlg{
           font-size: 19px;
           margin-bottom: 15px;
+        };
+        @include md{
+          font-size: 17px;
+          margin-bottom: 10px;
         };
 
         b {
@@ -452,6 +523,9 @@
     &__price {
       color: #c70541;
       font-size: 70px;
+      @include md{
+        font-size: 42px;
+      };
     }
   }
 
@@ -465,6 +539,9 @@
     };
     @include slg{
       padding: 30px 25px;
+    };
+    @include md{
+      padding: 20px 15px;
     };
 
     &__title {
@@ -492,6 +569,10 @@
       @include xlg{
         padding-bottom: 30px;
         margin-bottom: 30px;
+      };
+      @include md{
+        padding-bottom: 20px;
+        margin-bottom: 20px;
       };
 
 
@@ -521,6 +602,9 @@
         color: $Selective-yellow;
         font-weight: 500;
         margin-bottom: 20px;
+        @include md{
+          margin-bottom: 14px;
+        };
       }
       &-val {
         font-size: 50px;
@@ -530,6 +614,9 @@
         @include slg{
           font-size: 32px;
         };
+        @include md{
+          font-size: 28px;
+        };
       }
       &-type {
         font-size: 35px;
@@ -538,6 +625,9 @@
         };
         @include slg{
           font-size: 25px;
+        };
+        @include md{
+          font-size: 21px;
         };
       }
 
@@ -553,6 +643,9 @@
         };
         @include slg{
           font-size: 18px;
+        };
+        @include md{
+          font-size: 15px;
         };
       }
     }
@@ -570,6 +663,9 @@
       @include slg {
         font-size: 24px;
       }
+      @include md{
+        margin-bottom: 25px;
+      };
     }
 
     &__checks {

@@ -241,7 +241,10 @@
       @include xlg {
         margin-right: 100px;
       }
-    ;
+      @include smd{
+        margin-right: 30px;
+      };
+
     }
 
     &-next, &-prev {

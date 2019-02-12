@@ -13,6 +13,11 @@
     background-size: cover;
     background-position: 0 0;
     background-repeat: no-repeat;
+    @include smd{
+      height: auto !important;
+      padding: 0 15px;
+      padding-bottom: 100px;
+    };
 
 
     .container {
@@ -47,6 +52,9 @@
       };
       @include lg{
         font-size: 42px;
+      };
+      @include smd{
+        font-size: 36px;
       };
     }
 
@@ -128,6 +136,9 @@
         padding: 0 60px;
         margin-bottom: 25px;
       };
+      @include smd{
+        padding: 0 15px;
+      };
 
       &-item {
         text-align: center;
@@ -165,6 +176,10 @@
       @include xlg{
         margin-right: 180px;
         margin-left: 180px;
+      };
+      @include smd{
+        margin-right: 80px;
+        margin-left: 80px;
       };
 
 
@@ -243,6 +258,9 @@
         //right: 45.5%;
         width: 180px;
         right: initial;
+      };
+      @include smd{
+        width: 210px;
       };
 
     }
@@ -381,6 +399,9 @@
       @include lg{
         width: 160px;
       };
+      @include smd{
+        width: 120px;
+      };
 
       &:hover {
         .seporator_prev {
@@ -404,9 +425,15 @@
     }
     &__prev {
       left: -17.5%;
+      @include smd{
+        left: -10%;
+      };
     }
     &__next {
       right: -17.5%;
+      @include smd{
+        right: -10%;
+      };
     }
 
   }
@@ -556,6 +583,7 @@
     &__switch {
       font-family: "Exo 2";
       text-align: left;
+
       &.active {
         .site-cost__switch-title {
           color: $text;
@@ -566,11 +594,17 @@
         font-size: 19px;
         font-weight: 300;
         color: $Selective-yellow;
+        @include smd{
+          font-size: 15px;
+        };
       }
       &-title {
         color: #777777;
         font-size: 19px;
         font-weight: 300;
+        @include smd{
+          font-size: 15px;
+        };
       }
     }
   }

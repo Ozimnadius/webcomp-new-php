@@ -49,6 +49,9 @@ $width: 556;
       @include lg{
         height: 50px;
       };
+      @include smd{
+        height: 75px;
+      };
     }
 
     &__bread {
@@ -145,6 +148,9 @@ $width: 556;
     @include lg{
       padding-top: 200px;
     };
+    @include smd{
+      padding: 200px 30px 100px 30px;
+    };
 
     &__logo {
       margin-bottom: 55px;
@@ -167,7 +173,6 @@ $width: 556;
       @include lg{
         font-size: 24px;
       };
-    ;
     }
 
     &__sub {
@@ -491,6 +496,9 @@ $width: 556;
       @include lg{
         font-size: 42px;
       };
+      @include smd{
+        font-size: 32px;
+      };
     }
 
     &__list {
@@ -532,6 +540,9 @@ $width: 556;
           padding-bottom: 15px;
           margin-bottom: 10px;
         }
+        @include smd{
+          font-size: 17px;
+        };
       }
 
       &-desc {
@@ -546,6 +557,9 @@ $width: 556;
         @include lg{
           font-size: 15px;
         }
+        @include smd{
+          font-size: 13px;
+        };
       }
     }
 
@@ -553,6 +567,7 @@ $width: 556;
       position: absolute;
       top: 0;
       left: 0;
+      right: 15px;
 
       &-title {
         color: $text;
@@ -573,6 +588,9 @@ $width: 556;
           padding-bottom: 15px;
           margin-bottom: 10px;
         }
+        @include smd{
+          font-size: 17px;
+        };
       }
 
       &-line {
@@ -595,6 +613,9 @@ $width: 556;
         @include lg{
           font-size: 15px;
         }
+        @include smd{
+          font-size: 13px;
+        };
       }
     }
   }
@@ -811,6 +832,9 @@ $width: 556;
         justify-content: space-between;
         align-items: flex-end;
         padding: 0 15px;
+        @include smd{
+          justify-content: center;
+        };
       }
 
       &-title {
@@ -826,6 +850,9 @@ $width: 556;
         font-weight: 300;
         @include lg{
           font-size: 16px;
+        };
+        @include smd{
+          display: none;
         };
       }
     }
@@ -950,6 +977,9 @@ $width: 556;
 
           .port-proj__recom {
             @include projPosition(120, 80, $height, $width);
+            @include smd{
+              @include projPosition(60, 80, $height, $width);
+            };
           }
         }
       }
@@ -1002,6 +1032,9 @@ $width: 556;
     };
     @include lg{
       font-size: 19px;
+    };
+    @include smd{
+      font-size: 17px;
     };
 
     &:first-child {
@@ -1061,6 +1094,9 @@ $width: 556;
             @include lg{
               font-size: 36px;
             };
+            @include smd{
+              font-size: 28px;
+            };
           }
 
           .blacksmith__buttons {
@@ -1090,6 +1126,9 @@ $width: 556;
 
           .port-proj__recom {
             @include projPosition(120, 60, $height, $width);
+            @include smd{
+              @include projPosition(60, 60, $height, $width);
+            };
           }
         }
 
@@ -1105,6 +1144,9 @@ $width: 556;
 
           .port-proj__recom {
             @include projPosition(160, 60, $height, $width);
+            @include smd{
+              @include projPosition(80, 60, $height, $width);
+            };
           }
         }
 
@@ -1337,6 +1379,9 @@ $width: 556;
             height: projHeight($height, $heightImg);
             .port-proj__item {
               @include projPosition(120, 60, $height, $width);
+              @include smd{
+                @include projPosition(40, 60, $height, $width);
+              };
             }
           }
 
@@ -1376,12 +1421,20 @@ $width: 556;
               @include lg{
                 font-size: 36px;
               };
+              @include smd{
+                font-size: 32px;
+                @include projPosition(0, 60, $height, $width);
+              };
             }
 
             .balconies__subtitle {
               @include projPosition(160, 90, $height, $width);
               @include lg{
                 font-size: 20px;
+              };
+              @include smd{
+                font-size: 18px;
+                @include projPosition(160, 60, $height, $width);
               };
             }
           }
@@ -1397,6 +1450,9 @@ $width: 556;
               }
               &:nth-child(2) {
                 @include projPosition(600, 50, $height, $width);
+                @include smd{
+                  @include projPosition(540, 50, $height, $width);
+                };
               }
             }
           }
@@ -1495,6 +1551,9 @@ $width: 556;
       font-size: 18px;
       font-weight: 100;
       text-transform: none;
+      @include smd{
+        display: none;
+      };
     }
   }
 
@@ -2293,6 +2352,9 @@ $width: 556;
                 @include xlg{
                   @include projPosition(1650, 60, $height, $width);
                 };
+                @include smd{
+                  @include projPosition(1600, 60, $height, $width);
+                };
               }
             }
 
@@ -3054,6 +3116,10 @@ $width: 556;
     @include lg{
       padding-bottom: 160px;
     };
+    @include smd{
+      padding-left: 30px;
+      padding-right: 30px;
+    };
   }
 
   &__item {
@@ -3073,6 +3139,9 @@ $width: 556;
       font-size: 50px;
       text-transform: uppercase;
       margin-bottom: 60px;
+      @include smd{
+        margin-bottom: 50px;
+      };
     }
 
     &-num {
@@ -3086,6 +3155,10 @@ $width: 556;
       top: -80px;
       right: -15px;
       line-height: 1;
+      @include smd{
+        font-size: 180px;
+        top: -30px;
+      };
     }
 
     &-img {
@@ -3264,6 +3337,9 @@ $width: 556;
 
               &:nth-child(3) {
                 @include projPosition(1515, 90, $height, $width);
+                @include smd{
+                  @include projPosition(1475, 90, $height, $width);
+                };
               }
             }
           }
@@ -3888,6 +3964,9 @@ $width: 556;
       @include xlg{
         margin-top: -300px;
       };
+      @include smd{
+        margin-top: -200px;
+      };
     }
   }
 
@@ -4097,6 +4176,9 @@ $width: 556;
 
               &:nth-child(3) {
                 @include projPosition(1100, 90, $height, $width);
+                @include smd{
+                  @include projPosition(1040, 90, $height, $width);
+                };
               }
             }
           }

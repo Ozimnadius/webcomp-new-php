@@ -7,6 +7,7 @@ $break_xlg: 1899px;
 $break_lg: 1439px;
 $break_slg: 1199px;
 $break_md: 991px;
+$break_smd: 850px;
 $break_sm: 767px;
 $break_xs: 479px;
 
@@ -31,6 +32,12 @@ $break_xs: 479px;
 
 @mixin md () {
   @media screen and (max-width: $break_md){
+    @content;
+  }
+}
+
+@mixin smd () {
+  @media screen and (max-width: $break_smd){
     @content;
   }
 }
@@ -95,6 +102,9 @@ $break_xs: 479px;
     font-size: 30px;
     margin-bottom: 30px;
     font-weight: 400;
+    @include md{
+      font-size: 26px;
+    };
   }
 
   p {

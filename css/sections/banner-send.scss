@@ -41,6 +41,9 @@
       height: 40px;
       margin-bottom: 10px;
     };
+    @include smd{
+      margin-left: 0;
+    };
   }
 
   &__input {

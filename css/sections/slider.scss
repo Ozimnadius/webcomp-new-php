@@ -168,6 +168,11 @@
   box-sizing: border-box;
   position: relative;
   height: auto;
+  @include md{
+    padding: 30px;
+    //padding-right: 60px;
+    //padding-bottom: 90px;
+  };
 
   &__img {
     height: 45px;
@@ -220,6 +225,11 @@
       color: $text;
       font-size: 40px;
       font-weight: 500;
+      @include md{
+        font-size: 28px;
+        top: 90px;
+        right: 150px;
+      };
 
       &:before{
         content: 'до';
@@ -238,6 +248,11 @@
       top: 165px;
       left: 120px;
       text-align: right;
+      @include md{
+        font-size: 28px;
+        top: 130px;
+        left: 80px;
+      };
 
       &:before{
         content: 'после';

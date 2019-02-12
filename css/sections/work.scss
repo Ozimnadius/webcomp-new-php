@@ -44,6 +44,9 @@
     flex-wrap: wrap;
     margin-right: -60px;
     margin-left: -60px;
+    @include md{
+      margin: 0;
+    };
   }
 
   &__item {
@@ -56,6 +59,9 @@
 
     @include xlg{
       padding: 0 30px;
+    };
+    @include md{
+      padding: 0 15px;
     };
 
     &:after {
@@ -80,6 +86,9 @@
       display: flex;
       align-items: center;
       margin-bottom: vh(40);
+      @include md{
+        margin-bottom: 8px;
+      };
     }
 
     &-text {

@@ -85,7 +85,7 @@ window.onload = function () {
             },
             // when window width is <= 320px
             991.99: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 2
             },
             // when window width is <= 480px
@@ -124,7 +124,7 @@ window.onload = function () {
             },
             // when window width is <= 320px
             991.99: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 2
             },
             // when window width is <= 480px

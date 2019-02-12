@@ -16,6 +16,10 @@
       padding-right: 100px;
       padding-bottom: 35px;
     };
+    @include slg{
+      padding: 80px 50px;
+      align-items: center;
+    };
 
     &__bread {
       margin-bottom: 60px;
@@ -23,7 +27,6 @@
         margin-bottom: 30px;
       };
     }
-
 
     &__nav {
       width: 100%;
@@ -72,6 +75,11 @@
       font-weight: 300;
       text-transform: uppercase;
       margin-bottom: 25px;
+      @include slg{
+        font-size: 46px;
+        margin-bottom: 0;
+        text-align: center;
+      };
     }
 
     &__info {
@@ -143,6 +151,9 @@
     padding: 110px 100px 100px 110px;
     @include xlg{
       padding: 50px 60px;
+    };
+    @include md{
+      padding: 40px 30px;
     };
 
     &__row {

@@ -11,6 +11,9 @@
       padding-top: 100px;
       padding-bottom: 150px;
     };
+    @include md{
+      padding: 100px 15px 150px 15px;
+    };
 
     &__bread {
       margin-bottom: 180px;
@@ -32,6 +35,10 @@
         font-size: 50px;
         margin-bottom: 50px;
       };
+      @include md{
+        font-size: 42px;
+        margin-bottom: 20px;
+      };
     }
 
     &__subtitle {
@@ -43,6 +50,10 @@
       @include xlg{
         font-size: 26px;
         margin-bottom: 60px;
+      };
+      @include md{
+        font-size: 24px;
+        margin-bottom: 30px;
       };
     }
 
@@ -111,6 +122,9 @@
     @include xlg{
       padding: 50px;
     };
+    @include md{
+      padding: 30px 15px;
+    };
 
     &__title {
       color: #c70541;
@@ -134,6 +148,9 @@
 
       @include xlg{
         padding: 20px 30px 40px 30px;
+      };
+      @include smd{
+        padding: 20px 15px;
       };
 
       &:after {
@@ -335,6 +352,10 @@
       @include slg{
         font-size: 36px;
       };
+      @include md{
+        padding-left: 0;
+        text-align: center;
+      };
     }
 
     &__switches {
@@ -358,6 +379,9 @@
 
       display: flex;
       justify-content: center;
+      @include md{
+        font-size: 20px;
+      };
 
       &:first-child {
         justify-content: flex-end;
@@ -373,6 +397,7 @@
           padding-right: 50px;
         };
       }
+
 
       &.active {
         color: $bg;
@@ -396,6 +421,9 @@
       @include xlg{
         width: 285px;
       };
+      @include md{
+        width: 245px;
+      };
     }
 
     &__tab {
@@ -405,6 +433,9 @@
       }
 
       padding: 0 100px;
+      @include md{
+        padding: 0 50px;
+      };
     }
 
     &__row {

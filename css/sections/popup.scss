@@ -28,6 +28,10 @@
       top: 50px;
       right: 50px;
     };
+    @include md{
+      top: 30px;
+      right: 30px;
+    };
 
     &:hover {
       opacity: .5;
@@ -69,6 +73,9 @@
 
   &__submit {
     margin-top: 50px;
+    @include md{
+      margin-top: 20px;
+    };
   }
 
 }
@@ -207,6 +214,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 15px;
   }
 
   &__title {
@@ -216,6 +224,10 @@
     margin-bottom: 10px;
     @include slg{
       font-size: 50px;
+      text-align: center;
+    };
+    @include smd{
+      font-size: 42px;
     };
   }
 

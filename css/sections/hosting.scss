@@ -1,18 +1,30 @@
 .host {
-  background: url("../images/bg/hostingBg.jpg") 0 0 no-repeat;
+  background: url("../images/bg/hostingBg.jpg") center 0 no-repeat;
   background-size: cover;
+
+  @include smd {
+    background-position: left 55% top -120px;
+  }
+;
+
 
   &-tarifs {
     position: relative;
     padding-top: 180px;
     margin-bottom: 115px;
 
-    @include xlg{
+    @include xlg {
       padding-top: 140px;
-    };
-    @include lg{
+    }
+  ;
+    @include lg {
       padding-top: 100px;
-    };
+    }
+  ;
+    @include slg {
+      margin-left: 100px;
+    }
+  ;
 
 
     &__list {
@@ -21,24 +33,26 @@
       bottom: 0;
       left: 0;
       right: 0;
-      @include xlg{
+      @include xlg {
         top: 140px;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         top: 100px;
-      };
+      }
+    ;
     }
 
     &__item {
       position: absolute;
 
-      &_0{
+      &_0 {
         top: 0;
         left: 33.4%;
 
         &:hover {
           .host-tarifs__img-img {
-            box-shadow: inset 16px 0 40px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16),  0px 0px 5px 4px rgba(#789fbb, 0.5);
+            box-shadow: inset 16px 0 40px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 5px 4px rgba(#789fbb, 0.5);
           }
         }
 
@@ -47,8 +61,16 @@
           &-img {
             width: vh(80);
             height: vh(80);
+
             animation: tarif0 10s linear 0s infinite;
-            box-shadow: inset 16px 0 40px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16),  0px 0px 4px 2px rgba(#789fbb, 0.5);
+            box-shadow: inset 16px 0 40px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 4px 2px rgba(#789fbb, 0.5);
+
+            @include smd {
+              width: vw(80);
+              height: vw(80);
+              animation: tarif0vw 10s linear 0s infinite;
+            }
+          ;
           }
         }
 
@@ -68,13 +90,13 @@
         }
       }
 
-      &_1{
+      &_1 {
         top: 10.8%;
         left: 11.8%;
 
         &:hover {
           .host-tarifs__img-img {
-            box-shadow: inset 26px 0 60px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16),  0px 0px 7px 7px rgba(#789fbb, 0.5);
+            box-shadow: inset 26px 0 60px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 7px 7px rgba(#789fbb, 0.5);
           }
         }
 
@@ -85,8 +107,15 @@
             //height: 125px;
             width: vh(125);
             height: vh(125);
+
             animation: tarif1 20s linear 0s infinite;
-            box-shadow: inset 26px 0 60px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16),  0px 0px 5px 3px rgba(#789fbb, 0.3);
+            box-shadow: inset 26px 0 60px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 5px 3px rgba(#789fbb, 0.3);
+            @include smd {
+              width: vw(125);
+              height: vw(125);
+              animation: tarif1vw 20s linear 0s infinite;
+            }
+          ;
           }
         }
 
@@ -110,13 +139,13 @@
         }
       }
 
-      &_2{
+      &_2 {
         top: 44%;
         left: 2.5%;
 
         &:hover {
           .host-tarifs__img-img {
-            box-shadow: inset 46px 0 90px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16),  0px 0px 9px 10px rgba(#789fbb, 0.5);
+            box-shadow: inset 46px 0 90px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 9px 10px rgba(#789fbb, 0.5);
           }
         }
 
@@ -127,8 +156,15 @@
             //height: 280px;
             width: vh(280);
             height: vh(280);
+
             animation: tarif2 40s linear 0s infinite;
-            box-shadow: inset 46px 0 90px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16),  0px 0px 7px 7px rgba(#789fbb, 0.5);
+            box-shadow: inset 46px 0 90px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 7px 7px rgba(#789fbb, 0.5);
+            @include smd {
+              width: vw(280);
+              height: vw(280);
+              animation: tarif2vw 40s linear 0s infinite;
+            }
+          ;
           }
 
         }
@@ -155,13 +191,13 @@
         }
       }
 
-      &_3{
+      &_3 {
         bottom: 0;
         left: 39%;
 
         &:hover {
           .host-tarifs__img-img {
-            box-shadow: inset 46px 0 90px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16), 0px 0px 10px 11px rgba(#789fbb, 0.5);
+            box-shadow: inset 46px 0 90px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 10px 11px rgba(#789fbb, 0.5);
           }
         }
 
@@ -172,9 +208,16 @@
             //height: 320px;
             width: vh(320);
             height: vh(320);
+
             animation: tarif3 40s linear 0s infinite;
             transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
-            box-shadow: inset 46px 0 90px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16), 0px 0px 7px 7px rgba(#789fbb, 0.5);
+            box-shadow: inset 46px 0 90px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 7px 7px rgba(#789fbb, 0.5);
+            @include smd {
+              width: vw(320);
+              height: vw(320);
+              animation: tarif3vw 40s linear 0s infinite;
+            }
+          ;
           }
         }
 
@@ -203,20 +246,26 @@
 
         &:hover {
           .host-tarifs__img-img {
-            box-shadow: inset 66px 0 120px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16), 0px 0px 12px 14px rgba(#789fbb, 0.5);
+            box-shadow: inset 66px 0 120px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 12px 14px rgba(#789fbb, 0.5);
           }
         }
 
         .host-tarifs__img {
 
           &-img {
-            //width: 535px;
-            //height: 535px;
             width: vh(535);
             height: vh(535);
+
             animation: tarif4 70s linear 0s infinite;
             transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
-            box-shadow: inset 66px 0 120px 3px rgba(0,0,0,0.9), inset -3px 0 5px 2px rgba(255,255,255,0.16), 0px 0px 9px 9px rgba(#789fbb, 0.5);
+            box-shadow: inset 66px 0 120px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 9px 9px rgba(#789fbb, 0.5);
+
+            @include smd {
+              width: vw(535);
+              height: vw(535);
+              animation: tarif4vw 70s linear 0s infinite;
+            }
+          ;
           }
         }
 
@@ -327,13 +376,15 @@
     padding: 0 430px 0 170px;
     margin-bottom: 160px;
 
-    @include xlg{
+    @include xlg {
       padding: 0 130px 0 70px;
       margin-bottom: 60px;
-    };
-    @include lg{
+    }
+  ;
+    @include lg {
       padding: 0 50px;
-    };
+    }
+  ;
 
     p {
       color: rgba($text, .6);
@@ -342,24 +393,40 @@
 
   &-chars {
 
+    @include slg {
+      padding: 0 30px;
+    }
+  ;
+
     &__title {
       padding: 0 220px;
       margin-bottom: 130px;
       display: flex;
       flex-wrap: wrap;
       align-items: flex-end;
-      @include xlg{
+      @include xlg {
         padding: 0;
         margin-bottom: 50px;
-      };
+      }
+    ;
+      @include slg {
+        justify-content: center;
+      }
+    ;
 
       &-img {
-        @include xlg{
+        @include xlg {
           width: 200px;
-        };
-        @include lg{
+        }
+      ;
+        @include lg {
           width: 160px;
-        };
+        }
+      ;
+        @include smd {
+          width: 150px;
+        }
+      ;
       }
 
       &-left {
@@ -369,18 +436,21 @@
       &-right {
         font-size: 57px;
         font-weight: 300;
-        line-height: lh(50px,64.2px);
+        line-height: lh(50px, 64.2px);
         text-transform: uppercase;
+
         &_y {
           color: #f5ad00;
         }
 
-        @include xlg{
+        @include xlg {
           font-size: 50px;
-        };
-        @include lg{
+        }
+      ;
+        @include lg {
           font-size: 37px;
-        };
+        }
+      ;
       }
     }
 
@@ -389,21 +459,25 @@
       flex-wrap: wrap;
       margin-left: -130px;
       padding-right: 120px;
-      @include xlg{
+      @include xlg {
         padding-right: 0;
-      };
-      @include lg{
+      }
+    ;
+      @include lg {
         margin-left: -20px;
-      };
+      }
+    ;
     }
+
     &__col {
-      width: calc(100%/3);
+      width: calc(100% / 3);
       padding: 0 80px;
       position: relative;
 
-      @include lg{
+      @include lg {
         padding: 0 20px;
-      };
+      }
+    ;
 
       &:after {
         content: '';
@@ -413,7 +487,7 @@
         bottom: 0;
         right: 0;
         width: 1px;
-        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.1) 20%,rgba(255,255,255,0.2) 100%);
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 20%, rgba(255, 255, 255, 0.2) 100%);
       }
 
       &:last-child {
@@ -424,7 +498,7 @@
     }
 
     &__li {
-      color: rgba($text,.5);
+      color: rgba($text, .5);
       font-size: 19px;
       font-weight: 300;
     }
@@ -468,6 +542,7 @@
   &__content {
     width: 100%;
     margin-bottom: 85px;
+
     table {
       width: 100%;
       border-collapse: collapse;
@@ -477,9 +552,13 @@
         color: $text;
         font-size: 25px;
         font-weight: 300;
-        line-height: 79.8px;
-        border-top: 1px solid rgba($text,.2);
-        border-bottom: 1px solid rgba($text,.2);
+        line-height: lh(25px, 79.8px);
+        border-top: 1px solid rgba($text, .2);
+        border-bottom: 1px solid rgba($text, .2);
+        @include md {
+          font-size: 17px;
+        }
+      ;
       }
 
       td {
@@ -487,6 +566,15 @@
         font-weight: 300;
         padding-top: 45px;
         text-align: center;
+        @include md {
+          font-size: 17px;
+          padding-top: 15px;
+        }
+      ;
+        @include smd {
+          padding: 15px 10px 0 10px;
+        }
+      ;
       }
 
 
@@ -507,26 +595,92 @@
 }
 
 @keyframes tarif0 {
-  0% { background-position:0 0 }
-  100% { background-position: vh(160) 0 }
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: vh(160) 0;
+  }
 }
 
 @keyframes tarif1 {
-  0% { background-position:0 0 }
-  100% { background-position: vh(250) 0 }
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: vh(250) 0;
+  }
 }
 
 @keyframes tarif2 {
-  0% { background-position:0 0 }
-  100% { background-position: vh(560) 0 }
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: vh(560) 0;
+  }
 }
 
 @keyframes tarif3 {
-  0% { background-position:0 0 }
-  100% { background-position: vh(640) 0 }
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: vh(640) 0;
+  }
 }
 
 @keyframes tarif4 {
-  0% { background-position:0 0 }
-  100% { background-position: vh(1070) 0 }
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: vh(1070) 0;
+  }
+}
+
+
+@keyframes tarif0vw {
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: vw(160) 0;
+  }
+}
+
+@keyframes tarif1vw {
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: vw(250) 0;
+  }
+}
+
+@keyframes tarif2vw {
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: vw(560) 0;
+  }
+}
+
+@keyframes tarif3vw {
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: vw(640) 0;
+  }
+}
+
+@keyframes tarif4vw {
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: vw(1070) 0;
+  }
 }

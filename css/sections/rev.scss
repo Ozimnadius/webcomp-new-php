@@ -108,6 +108,9 @@
     padding-right: 70px;
     opacity: 1;
     transition: .4s;
+    @include smd{
+      width: calc(43% - 70px);
+    };
   }
   &__item-title {
     font-size: 23px;
@@ -126,6 +129,9 @@
     width: 8%;
     opacity: 1;
     transition: .4s;
+    @include smd{
+      display: none;
+    };
   }
 
   .swiper-slide {

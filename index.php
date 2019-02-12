@@ -16,6 +16,7 @@
                         </div>
                     </div>
                     <div class="index-first__image">
+                        <div class="proportion proportion_1154x1023"></div>
                         <div class="index-first__img"></div>
                         <div class="index-first__we">
                             <div class="we">

@@ -8,14 +8,15 @@
     display: flex;
     align-items: center;
     position: relative;
-    //margin-left: -325px;
-    //padding-left: 325px;
 
     @include lg {
       height: 100vh !important;
       @include bdb;
     }
-  ;
+    @include md{
+      align-items: flex-start;
+      padding-top: 150px;
+    };
 
 
     &__title {
@@ -24,6 +25,9 @@
       @include slg{
         padding-left: 15px;
       };
+      @include md{
+
+      };
     }
 
     &__image {
@@ -31,32 +35,36 @@
       z-index: 20;
       bottom: 0;
       left: 0;
-      @include lg {
-        //left: 230px;
+      width: vh(1154);
+      max-width: 100%;
+
+      .proportion{
+        display: none;
       }
-    ;
 
       @include slg {
-        right: 0;
-        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
 
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
+        .proportion{
+          display: block;
+        }
       }
-    ;
+
     }
 
     &__img {
-      height: vh(1023);
-      width: vh(1154);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 20;
+      top: 0;
+      left: 0;
       background: url('/images/icons/sprite.png') left center;
       background-size: cover;
       animation: play 0.8s steps(6) infinite;
-
-      position: relative;
-      z-index: 20;
       display: block;
+
     }
 
     &__we {
@@ -244,13 +252,17 @@
       padding-top: vh(100);
       padding-right: 170px;
     }
-  ;
+
     @include lg {
       margin: 0;
       padding: 100px 50px;
       background: none;
       @include bdb;
     }
+
+    @include md{
+      padding: 70px 30px;
+    };
 
 
     &__title {
@@ -385,6 +397,9 @@
 
       &_5 {
         width: 20%;
+        @include smd{
+          width: calc(100%/3);
+        };
       }
 
       &:hover {
@@ -486,13 +501,14 @@
     @include xlg {
       padding-top: vh(100);
     }
-  ;
     @include lg {
       margin: 0;
       padding: 100px;
       @include bdb;
     }
-  ;
+    @include md{
+      padding: 40px 50px;
+    };
 
     &__title {
       display: flex;
@@ -642,10 +658,16 @@
 
   &__rev {
     margin-bottom: vh(180);
+    @include smd{
+      margin-bottom: 100px;
+    };
   }
 
   &__blog {
     margin-bottom: vh(170);
+    @include smd{
+      margin-bottom: 100px;
+    };
   }
 
   &__work {

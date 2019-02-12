@@ -49,6 +49,7 @@
                                     <li>контекстная реклама;</li>
 									<li>наполнение страниц полезным, интересным контентом.</li>
                                 </ul>
+								<br>
 								<p>Грамотное использование рычагов позволяет получить клиентов с минимальными финансовыми вложениями. Первые изменения бизнес ощущает спустя несколько недель после запуска кампании.</p>
 								<h3>Профессиональное решение поставленных задач</h3>
 								<p>При написании информационных статей посетителям предоставляется необходимая информация, включая возможность доставки, точные цены на товары. Мы гарантируем своим клиентам комплекс преимуществ:</p>
@@ -59,6 +60,7 @@
 									<li>увеличение конверсии;</li>
 									<li>узнаваемость бренда.</li>
 								</ul>
+								<br>
 								<p>Обращайтесь в наше агентство, чтобы заказать продвижение интернет-магазина детской, мужской и женской одежды. Заказчикам предоставляются выгодные условия сотрудничества и идеальный результат в сжатые сроки.</p>
 							</div>
                             <button class="seo-desc__button button button_red promotionOpen" type="button">Подобрать ключевые запросы для продвижения</button>
@@ -163,19 +165,42 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#d4003c">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat1.png"></div>
+                                    <div class="swiper-slide slide" style="background:#efbf0d">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat4.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
-                                                <div class="slide__order-valFrom">640</div>
-                                                <div class="slide__order-valTo">3890</div>
+                                                <div class="slide__order-valFrom">140</div>
+                                                <div class="slide__order-valTo">2497</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
-                                                <div class="slide__search-valFrom">12 %</div>
+                                                <div class="slide__search-valFrom">8 %</div>
+                                                <div class="slide__search-valTo">52 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide" style="background:#4abe76">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat5.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">512</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
                                                 <div class="slide__search-valTo">79 %</div>
                                             </div>
                                         </div>
@@ -186,20 +211,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#4369dc">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat2.png"></div>
+                                    <div class="swiper-slide slide" style="background:#bebebe">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat6.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
-                                                <div class="slide__order-valFrom">437</div>
-                                                <div class="slide__order-valTo">2413</div>
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">1427</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
-                                                <div class="slide__search-valFrom">8 %</div>
-                                                <div class="slide__search-valTo">89 %</div>
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">78 %</div>
                                             </div>
                                         </div>
                                         <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
@@ -209,20 +234,43 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#401d62">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat3.png"></div>
+									<div class="swiper-slide slide" style="background:#bd1c3c">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat7.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">0</div>
-                                                <div class="slide__order-valTo">2317</div>
+                                                <div class="slide__order-valTo">470</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
                                                 <div class="slide__search-valFrom">0 %</div>
-                                                <div class="slide__search-valTo">72 %</div>
+                                                <div class="slide__search-valTo">81 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="swiper-slide slide" style="background:#c37ec3">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat8.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">940</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">54 %</div>
                                             </div>
                                         </div>
                                         <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
@@ -247,7 +295,7 @@
                             <button class="active seo-price__switch" data-id="1"><span class="seo-price__switch-title">Тариф «Стартап»</span></button>
                             <button class="seo-price__switch" data-id="2"><span class="seo-price__switch-title">Тариф «Оптимальный»</span></button>
                             <button class="seo-price__switch" data-id="3"><span class="seo-price__switch-title">Тариф «Прорыв»</span></button>
-                            <button class="seo-price__switch" data-id="4"><span class="seo-price__switch-title">Тариф «Фикс»</span></button>
+                            <button class="seo-price__switch" data-id="4"><span class="seo-price__switch-title">Контекстная реклама</span></button>
                         </div>
                         <div class="seo-price__line">
                             <div class="seo-price__subline"></div>
@@ -435,32 +483,32 @@
                             <div class="seo-price__list">
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 20 000  знаков</div>
-                                        <div class="seo-price__item-text">Написание и размещения текстов в рамках тарифа</div>
+                                        <div class="seo-price__item-title">до 1000 запросов</div>
+                                        <div class="seo-price__item-text">Обработка целевых фраз</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 300</div>
-                                        <div class="seo-price__item-text">Ключевых слов в рамках одного проекта</div>
+                                        <div class="seo-price__item-title">до 500</div>
+                                        <div class="seo-price__item-text">Создание уникальных объявлений</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
-                                    <div class="seo-price__item">
-                                        <div class="seo-price__item-title">500 изображений</div>
-                                        <div class="seo-price__item-text">Оптимизация до 500 изображений на сайте</div>
-                                    </div>
                                     <div class="seo-price__item">
                                         <div class="seo-price__item-title">до 50</div>
-                                        <div class="seo-price__item-text">Кол-во продвигаемых разделов сайта</div>
+                                        <div class="seo-price__item-text">Рекламных компаний в рамках проекта</div>
+                                    </div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 3000</div>
+                                        <div class="seo-price__item-text">Проработка исключающих фраз для показа</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">15 ч.</div>
+                                        <div class="seo-price__item-title">24 ч.</div>
                                         <div class="seo-price__item-text">Аналитических работ</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">86 ч.</div>
-                                        <div class="seo-price__item-text">Время SEO-специалистов</div>
+                                        <div class="seo-price__item-title">24 ч.</div>
+                                        <div class="seo-price__item-text">Пуско-наладочных работ</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
@@ -468,24 +516,25 @@
                                         <div class="seo-price__item-title">+</div>
                                         <div class="seo-price__item-list">
                                             <div class="seo-price__item-li">Анализ конкурентов</div>
-                                            <div class="seo-price__item-li">Составление ядра запросов</div>
-                                            <div class="seo-price__item-li">Полная SEO оптимизация</div>
+                                            <div class="seo-price__item-li">Рекомендации по улучшению конверсии</div>
+                                            <div class="seo-price__item-li">Проработка околоцелевых запросов</div>
                                         </div>
                                     </div>
                                     <div class="seo-price__item">
                                         <div class="seo-price__item-title">+</div>
                                         <div class="seo-price__item-list">
-                                            <div class="seo-price__item-li">Статистика и маркетинговый план</div>
-                                            <div class="seo-price__item-li">Отчётность 2 раза в месяц</div>
+                                            <div class="seo-price__item-li">Настройка рекламных сетей</div>
+                                            <div class="seo-price__item-li">Настройка ретаргетинга</div>
+											<div class="seo-price__item-li">Отрисовка баннеров для рекламы</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__price">34 900 Р / мес</div>
+                                        <div class="seo-price__price">14 900 Р / разово</div>
                                     </div>
                                     <div class="seo-price__item seo-price__item_bottom">
-                                        <div class="seo-price__desc">После 3х месяцев оплата за результат</div>
+                                        <div class="seo-price__desc">Оптимизация и ведение 2 недели бесплатно!</div>
                                     </div>
                                 </div>
                             </div>
