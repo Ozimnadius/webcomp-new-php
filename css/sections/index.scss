@@ -17,6 +17,9 @@
       align-items: flex-start;
       padding-top: 150px;
     };
+    @include xs{
+      padding-top: 50px;
+    };
 
 
     &__title {
@@ -27,6 +30,12 @@
       };
       @include md{
 
+      };
+      @include sm{
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
       };
     }
 
@@ -39,7 +48,7 @@
       max-width: 100%;
 
       .proportion{
-        display: none;
+        //display: none;
       }
 
       @include slg {
@@ -79,11 +88,17 @@
         left: 50%;
         z-index: 30;
       }
-    ;
       @include slg {
         transform: translate(-50%, -50%);
       }
-    ;
+      @include sm{
+        top: initial;
+        bottom: 20px;
+      };
+      @include xs{
+        bottom: initial;
+        top: -40px;
+      };
     }
 
     &__test {
@@ -98,6 +113,9 @@
       @include slg{
         right: 20px;
         z-index: 30;
+      };
+      @include sm{
+        display: none;
       };
     }
 
@@ -126,13 +144,16 @@
     @include xlg {
       padding-top: vh(100);
     }
-
     @include lg {
       margin: 0;
       padding: 0;
-      height: 100vh !important;
+      min-height: 100vh !important;
       @include bdb;
     }
+    @include sm{
+      padding-bottom: 50px;
+    };
+
 
 
     &__title {
@@ -141,6 +162,11 @@
       margin-bottom: vh(45);
       @include slg{
         padding-left: 15px;
+      };
+      @include sm{
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
       };
     }
 
@@ -158,12 +184,15 @@
         font-size: 15px;
         padding-left: 0;
       }
-    ;
       @include slg {
         font-size: 13px;
         padding-left: 30px;
       }
-    ;
+      @include sm{
+        width: 100%;
+        padding: 0 15px;
+      };
+
 
       p {
         margin-bottom: vh(55);
@@ -212,11 +241,18 @@
         left: 50%;
         z-index: 30;
       }
-    ;
       @include slg {
         left: 45%;
       }
-    ;
+      @include sm{
+        top: initial;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+      };
+      @include xs{
+        display: none;
+      };
     }
 
     &__menu {
@@ -262,6 +298,10 @@
 
     @include md{
       padding: 70px 30px;
+    };
+
+    @include sm{
+      display: none;
     };
 
 
@@ -342,6 +382,9 @@
     @include slg{
       padding: 70px 0 0 0;
     };
+    @include sm{
+      padding-top: 30px;
+    };
 
 
     &__title {
@@ -354,6 +397,9 @@
       }
       @include slg{
         text-align: center;
+      };
+      @include sm{
+        font-size: 24px;
       };
 
     }
@@ -372,6 +418,9 @@
       }
       @include slg{
         text-align: center;
+      };
+      @include sm{
+        font-size: 17px;
       };
     }
 
@@ -394,6 +443,9 @@
       width: 25%;
       position: relative;
       z-index: 20;
+      @include xs{
+        width: 50%;
+      };
 
       &_5 {
         width: 20%;
@@ -436,6 +488,9 @@
         bottom: 7%;
         text-align: center;
         transition: .3s;
+        @include sm{
+          font-size: 11px;
+        };
       }
     }
 
@@ -509,6 +564,9 @@
     @include md{
       padding: 40px 50px;
     };
+    @include sm{
+      padding: 20px 15px;
+    };
 
     &__title {
       display: flex;
@@ -541,7 +599,9 @@
       @include xlg {
         padding: 10px 20px;
       }
-    ;
+      @include sm{
+        padding: 5px 8px;
+      };
 
       &-title {
         color: rgba($text, .5);
@@ -552,7 +612,9 @@
         @include xlg {
           font-size: 24px;
         }
-      ;
+        @include sm{
+          font-size: 17px;
+        };
       }
     }
 
@@ -633,18 +695,20 @@
         padding-top: vh(170);
         padding-right: 100px;
       }
-    ;
       @include lg {
         padding-right: 50px;
         padding-left: 230px;
         padding-top: 80px;
         position: static;
       }
-    ;
       @include slg{
         padding: 80px 15px 0 15px;
-      };
+      }
+      @include sm{
+        padding: 20px 15px 0 15px;
+      }
     }
+
 
     .footer {
 
@@ -661,12 +725,21 @@
     @include smd{
       margin-bottom: 100px;
     };
+    @include sm{
+      margin-bottom: 50px;
+    };
+    @include xs{
+      margin-bottom: 100px;
+    };
   }
 
   &__blog {
     margin-bottom: vh(170);
     @include smd{
       margin-bottom: 100px;
+    };
+    @include sm{
+      margin-bottom: 50px;
     };
   }
 
@@ -675,7 +748,15 @@
     @include xlg {
       margin-bottom: vh(70);
     }
-  ;
+    @include sm{
+      margin-bottom: 50px;
+    };
+  }
+
+  &__send{
+    @include sm{
+      margin-bottom: 50px;
+    };
   }
 
   &__why {

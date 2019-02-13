@@ -8,7 +8,7 @@
             line: '.seo-price__subline',
             tab: '.seo-price__tab',
             autoWidth: true
-        });
+        }).init();
     }
 
     let acco = document.querySelector('.seo-faq__acco'),

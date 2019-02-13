@@ -11,6 +11,13 @@ window.onload = function () {
         centeredSlides: true,
         slideToClickedSlide: true,
         grabCursor: true,
+        breakpoints: {
+            // when window width is <= 767.99px
+            767.99: {
+                slidesPerView: 1
+            },
+
+        },
         on: {
             slideChange: function () {
                 let index = this.activeIndex;

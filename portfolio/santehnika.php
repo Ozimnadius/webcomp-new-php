@@ -16,7 +16,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Сантехника</a>
                         </div>
@@ -55,14 +55,13 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка интернет магазина с уникальным дизайном, с адаптивной версией для корректного
-                        отображения на всех устройствах
+                        Гипермаркет сантехники с умным каталогом и синхронизацией с базой из 80 поставщиков 
                     </div>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Продажа инженерной сантехники
+                        комплексный подход позволил создать действительно масштабный проект с большим каталогом товара с учётом особенности тематики
                     </div>
                     <!-- END subtitle -->
 
@@ -203,11 +202,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">категории
+                                    <div class="port-proj__item-title">популярные категории
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        список категорий товаров
+                                        На сайте представлен большой ассортимент, поэтому было принято решение разделить популярные категории от всех через переключающиеся элементы. У основных разделов мы показали вложенные категории.
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -215,16 +214,15 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        удобные карточки с фото, со статусом
-                                        и ценой
+                                        удобные карточки со скидками, информацией о количестве и рейтингом, с привязкой к конкретному торговому предложению
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">о компании
+                                    <div class="port-proj__item-title">Скрывающийся блок о компании
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Краткая истори о миссии деятельности компании
+                                        Для экономии места текстовый блок имеет функцию разворота. Ниже идет информация о партнёрах
                                     </div>
                                 </div>
                             </div>
@@ -272,13 +270,12 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">карточки категорий
+                                    <div class="port-proj__item-title">Все категорий товаров
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
                                         Список категорий каждого товара
-                                        с фото, с краткой характеристикой и
-                                        с возможностью перехода по клику
+                                        с ассортиментов по разделу и детальным описанием
                                     </div>
                                 </div>
                             </div>
@@ -331,7 +328,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Дтеальная информация о товаре
+                                        Детально проработана: фотогалерея товара, краткое и полное описание, формы "нашли дешевле", пересчёт стоимости от объёма, переход на страницу с брендом, характеристики, документация 
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -339,7 +336,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Описание
+                                        Характеристики учавствуют в общем поиске по сайту, что опращает навигацию и улучшает поведеньческие факторы.
 
                                     </div>
                                 </div>
@@ -348,7 +345,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Предложение магазина
+                                        Функционал по добавлению рекомендуемых товаров
                                     </div>
                                 </div>
                             </div>
@@ -400,7 +397,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Контакты сотрудника
+                                        Страница с контактами сотрудников
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -408,7 +405,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Контакты сотрудника
+                                        Распределение по отделам
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -416,7 +413,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Контакты сотрудника
+                                        Карточка сотрудника содержит заслуги и полное описание сотрудниика и функционал, за который он отвечает.
                                     </div>
                                 </div>
                             </div>
@@ -480,23 +477,23 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Адреса магазинов
+                                        С картой магазинов на карте
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">в москве
+                                    <div class="port-proj__item-title">Распределение по регионам
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Адреса магазинов
+                                        Магазины распределенны по регионам
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">в поволжье
+                                    <div class="port-proj__item-title">Детальное описание для магазина
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Адреса магазинов
+                                        Сайт позволяет перейти на страницу магазина и посмотреть условия и доступность товара в конкретном магазине
                                     </div>
                                 </div>
                             </div>
@@ -603,11 +600,11 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Тихонов Павел</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Подольский Валентин</div>
+                                <div class="port-team__item-title">Петров Денис</div>
                                 <div class="port-team__item-prof">Дизайнер</div>
                             </div>
                             <div class="port-team__item">
@@ -627,11 +624,11 @@
                         </div>
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Поддубная мария</div>
+                                <div class="port-team__item-title">Рожанский Виктор</div>
                                 <div class="port-team__item-prof">Контент менеджер</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Рябова Наталья</div>
+                                <div class="port-team__item-title">Фёдоров Юрий</div>
                                 <div class="port-team__item-prof">Маркетолог</div>
                             </div>
                         </div>
@@ -646,9 +643,15 @@
                         <div class="bottom__send">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
-                        <div class="bottom__why">
-                            <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/why.php' ?>
-                        </div>
+<div class="why">
+    <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
+    <div class="why__title">Работаем на результат</div>
+    <div class="why__content">
+        <p>Для нас важно создать проект и привести его в идеально состояние. Мы заинтересованы создавать те проекты, которые нам не стыдно показать. К сожалению, в некоторых проектах мы не можем проявлять свой талант и креативный подход в полном объеме, так как отталкиваемся от жёстких требований заказчиков по цвету, расположению элементов на странице, 
+		эффектов и размещению информации. Обращаясь к нам, вы получаете команду специалистов с большим опытом работы. Для нас нет невыполнимых задач, мы возьмемся за самые смелые ваши идеи и доведём их до финального этапа.</p>
+		<br>
+	</div>
+</div>
                         <div class="bottom__footer">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>

@@ -156,19 +156,42 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#d4003c">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat1.png"></div>
+                                    <div class="swiper-slide slide" style="background:#efbf0d">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat4.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
-                                                <div class="slide__order-valFrom">640</div>
-                                                <div class="slide__order-valTo">3890</div>
+                                                <div class="slide__order-valFrom">140</div>
+                                                <div class="slide__order-valTo">2497</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
-                                                <div class="slide__search-valFrom">12 %</div>
+                                                <div class="slide__search-valFrom">8 %</div>
+                                                <div class="slide__search-valTo">52 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide" style="background:#4abe76">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat5.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">512</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
                                                 <div class="slide__search-valTo">79 %</div>
                                             </div>
                                         </div>
@@ -179,20 +202,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#4369dc">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat2.png"></div>
+                                    <div class="swiper-slide slide" style="background:#bebebe">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat6.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
-                                                <div class="slide__order-valFrom">437</div>
-                                                <div class="slide__order-valTo">2413</div>
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">1427</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
-                                                <div class="slide__search-valFrom">8 %</div>
-                                                <div class="slide__search-valTo">89 %</div>
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">78 %</div>
                                             </div>
                                         </div>
                                         <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
@@ -202,20 +225,43 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#401d62">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat3.png"></div>
+									<div class="swiper-slide slide" style="background:#bd1c3c">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat7.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">0</div>
-                                                <div class="slide__order-valTo">2317</div>
+                                                <div class="slide__order-valTo">470</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
                                                 <div class="slide__search-valFrom">0 %</div>
-                                                <div class="slide__search-valTo">72 %</div>
+                                                <div class="slide__search-valTo">81 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="swiper-slide slide" style="background:#c37ec3">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat8.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">940</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">54 %</div>
                                             </div>
                                         </div>
                                         <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
@@ -546,6 +592,8 @@
 										<li>СЕО;</li>
 										<li>SMM;</li>
 										<li>таргетинг;</li>
+									</ul>
+									<ul>
 										<li>баннерная реклама;</li>
 										<li>тизерная и медийная реклама;</li>
 										<li>SERM.</li>
@@ -558,6 +606,8 @@
 									<ul>
 										<li>большая клиентская база;</li>
 										<li>удобное структурирование;</li>
+									</ul>
+									<ul>
 										<li>пользователи могут сразу сравнить вас с конкурентами и оформить заказ;</li>
 										<li>работа у новичков ведется наравне с опытными участниками.</li>
 									</ul>
@@ -567,6 +617,8 @@
 									<ul>
 										<li>место жительства (вплоть до станции метро);</li>
 										<li>возрастная категория;</li>
+									</ul>
+									<ul>
 										<li>пол;</li>
 										<li>проявляемая активность.</li>
 									</ul>
@@ -575,8 +627,9 @@
 									<p>Прежде чем заказать раскрутку и SEO продвижение интернет-магазина, желательно обратить внимание на данный способ развития. Достаточно дорогой вариант, который при правильной реализации оправдывает вложения в короткие сроки. Делится поисковое продвижение на 2 категории:</p>
 									<ul>
 										<li>Поисковая реклама. Оптимальное решение, когда нужно срочно вывести площадку в ТОП. Ваш сайт появляется перед первой строкой выдачи, и именно он всегда бросается в глаза.</li>
+									</ul>
+									<ul>
 										<li>Контекстная реклама. Браузеры собирают информацию о введенных запросах, а Яндекс и Google на их основе предлагают ваши товары интересующимся пользователям в виде всплывающей рекламы на различных сайтах.</li>
-
 									</ul>
 									<p>Оба варианта можно использовать в комбинации с другими методиками, что позволит максимально быстро и эффективно дойти в ТОП-10 по ключевым запросам. После достижения нужных позиций, можно от него отказываться в пользу менее затратных действий.</p>
 									<h3>Аналитическая интернет-магазина</h3>

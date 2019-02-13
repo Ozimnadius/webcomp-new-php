@@ -59,15 +59,19 @@ body {
   flex-grow: 1;
   height: 100vh;
 
-  background-image: url(../images/bg/bg-index.jpg);
+  background-image: url(/images/bg/bg-index.jpg);
   background-size: cover;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
+
   @include lg{
     height: auto;
     min-height: 100%;
+  };
+  @include slg{
+    background-position: right bottom;
   };
 
   section {

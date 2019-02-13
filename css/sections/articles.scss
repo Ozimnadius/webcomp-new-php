@@ -36,7 +36,10 @@
     @include md{
       width: calc(100% - 30px);
     };
-
+    @include xs{
+      flex-wrap: wrap;
+      justify-content: center;
+    };
     &:hover {
       .articles__img-img {
         filter: brightness(100%);
@@ -114,6 +117,10 @@
   }
 
   &__desc {
+    @include xs{
+      width: 100%;
+      margin-top: 15px;
+    };
 
 
     &-bottom {
@@ -135,6 +142,9 @@
     padding-right: 45px;
     @include xlg{
       padding-right: 0;
+    };
+    @include sm{
+      line-height: 1.42;
     };
   }
 

@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="seo-first__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/promote.php">Продвижение</a>
                             <a class="bread__item" href="/promote/seo.php">SEO</a>
                             <a class="bread__item active">Аудит</a>
@@ -54,6 +54,7 @@
                                     <li>Составление перечня правок по семантическому ядру, качеству контента. Профессионально подготовленный, с учетом семантики, контент раскрывает интересующие пользователей вопросы, конвертируя их запросы в целевые действия. </li>
 
                                 </ul>
+								<br>
 								<p>Последовательное выполнение данных этапов всегда дает высокие результаты. Самостоятельно аудит делать можно, тем более сейчас в интернете большое количество информации о том, что необходимо проверить, но вы не получите того эффекта, которого сможет достичь профессионал и потратите не один день на проверку.</p>
                             </div>
                             <button class="seo-desc__button button button_red promotionOpen" type="button">Подобрать ключевые запросы для продвижения</button>
@@ -158,19 +159,42 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#d4003c">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat1.png"></div>
+                                    <div class="swiper-slide slide" style="background:#efbf0d">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat4.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
-                                                <div class="slide__order-valFrom">640</div>
-                                                <div class="slide__order-valTo">3890</div>
+                                                <div class="slide__order-valFrom">140</div>
+                                                <div class="slide__order-valTo">2497</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
-                                                <div class="slide__search-valFrom">12 %</div>
+                                                <div class="slide__search-valFrom">8 %</div>
+                                                <div class="slide__search-valTo">52 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide" style="background:#4abe76">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat5.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">512</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
                                                 <div class="slide__search-valTo">79 %</div>
                                             </div>
                                         </div>
@@ -181,20 +205,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#4369dc">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat2.png"></div>
+                                    <div class="swiper-slide slide" style="background:#bebebe">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat6.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
-                                                <div class="slide__order-valFrom">437</div>
-                                                <div class="slide__order-valTo">2413</div>
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">1427</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
-                                                <div class="slide__search-valFrom">8 %</div>
-                                                <div class="slide__search-valTo">89 %</div>
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">78 %</div>
                                             </div>
                                         </div>
                                         <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
@@ -204,20 +228,43 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#401d62">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat3.png"></div>
+									<div class="swiper-slide slide" style="background:#bd1c3c">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat7.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">0</div>
-                                                <div class="slide__order-valTo">2317</div>
+                                                <div class="slide__order-valTo">470</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
                                                 <div class="slide__search-valFrom">0 %</div>
-                                                <div class="slide__search-valTo">72 %</div>
+                                                <div class="slide__search-valTo">81 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="swiper-slide slide" style="background:#c37ec3">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat8.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">940</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">54 %</div>
                                             </div>
                                         </div>
                                         <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
@@ -543,14 +590,19 @@
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
                                 <div class="why__title">Почему для вас это нужно?</div>
                                 <div class="why__content">
-                                    <p>Сначала специалисты Web-comp изучают бизнес компании-заказчика, потом проводят глубокий анализ работы конкурентов, определяются эффективные методы, дающие клиентов и трафик. По результатам аудита формируется перечень рекомендаций по доработке сайта, выполнение которых даст гарантированный результат. После внедрения проверяем корректность работы нововведений. Если все делать правильно, вы быстро увидите рост позиций площадки, увеличение трафика, приток клиентов.</p>
+                                    <p>Сначала специалисты Web-comp изучают бизнес компании-заказчика, потом проводят глубокий анализ работы конкурентов, определяются эффективные методы, дающие клиентов и трафик. 
+									По результатам аудита формируется перечень рекомендаций по доработке сайта, выполнение которых даст гарантированный результат. 
+									После внедрения проверяем корректность работы нововведений. Если все делать правильно, вы быстро увидите рост позиций площадки, увеличение трафика, приток клиентов.</p>
                                     <p>Преимущества услуг Web-comp:</p>
                                    <ul>
-									<li>Стратегия составляется сообща – специалистами студии и заказчиком. </li>
+									<li>Стратегия развития составляется сообща – при планировании стратегии участвуют сотрудники из каждого отдела.</li>
 									<li>Над каждым проектом работает целая команда. </li>
 									<li>Условия сотрудничества выгодные, прозрачные.</li>
+									</ul>
+								    <ul>
 									<li>Все работы курирует старший специалист.</li>
-									<li>После внедрений проводится комплексная проверка.</li>
+									<li>После внедрений проводится комплексная проверка итогов работы.</li>
+									<li>У нас трудятся штатные специалисты с большим опытом работы</li>
 								   </ul>
 								   <p>Чтобы заказать SEO аудит сайта, позвоните нам или отправьте онлайн-запрос.</p>
                                 </div>

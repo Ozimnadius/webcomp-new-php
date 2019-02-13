@@ -8,7 +8,7 @@
             line: '.theme-price__subline',
             tab: '.theme-price__tab',
             autoWidth: true
-        });
+        }).init();
     }
 
 }());

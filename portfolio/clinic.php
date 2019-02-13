@@ -16,7 +16,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Империя стоматология</a>
                         </div>
@@ -55,13 +55,13 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка сайта «Каталог» с уникальным дизайном, с  адаптивной версией для корректного отображения на всех устройствах
+                        Разработка сайта для стомотологической клиники, с наполнением "под ключ"
                     </div>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Центр стоматологии «ИМПЕРИЯ»
+                        Настройка функционала онлайн записи, связь акций и услуг, привязка карточки доктора к услугам и акциям. 
                     </div>
                     <!-- END subtitle -->
 
@@ -70,7 +70,7 @@
                     <div class="port-desc__list numbers" data-timer="1000">
                         <div class="port-desc__item number">
                             <div class="port-desc__item-title">
-                                <span class="number__val port-desc__item-val" data-from="0" data-to="9">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="7">
                                     0
                                 </span>
                             </div>
@@ -78,7 +78,7 @@
                         </div>
                         <div class="port-desc__item number">
                             <div class="port-desc__item-title">
-                                <span class="number__val port-desc__item-val" data-from="0" data-to="26">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="16">
                                     0
                                 </span>
                             </div>
@@ -94,7 +94,7 @@
                         </div>
                         <div class="port-desc__item number">
                             <div class="port-desc__item-title">
-                                <span class="number__val port-desc__item-val" data-from="0" data-to="26">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="35">
                                     0
                                 </span>
                                 <span class="port-desc__item-type"> дней</span>
@@ -203,7 +203,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Превью услуг, красиво оформлены тематическими фотографиями
+                                        Список услуг с вложенными разделами
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -211,7 +211,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Фото карточка каждого сотрудника
+                                        Карточка доктора с детальным описанием, примерами работ и заслугами
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -272,7 +272,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Пошаговое описание этапов имплантации зуба и наличие прайса
+                                        Разработка детального описания услуги с упором на SEO
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -280,7 +280,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Показаны врачи которые выполнят данную услугу
+                                        Показаны врачи, которые выполнят данную услугу
                                     </div>
                                 </div>
                             </div>
@@ -332,7 +332,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Достижения и награды врача
+                                        Детальная карточка доктора с заслугами 
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -340,7 +340,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Фотографии
+                                        Примеры выполненных работ
                                     </div>
                                 </div>
                             </div>
@@ -448,7 +448,7 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Чумак Ирина</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
@@ -472,11 +472,11 @@
                         </div>
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Поддубная мария</div>
+                                <div class="port-team__item-title">Рожанский Виктор</div>
                                 <div class="port-team__item-prof">Контент менеджер</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Рябова Наталья</div>
+                                <div class="port-team__item-title">Тихонов Павел</div>
                                 <div class="port-team__item-prof">Маркетолог</div>
                             </div>
                         </div>
@@ -491,9 +491,15 @@
                         <div class="bottom__send">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
-                        <div class="bottom__why">
-                            <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/why.php' ?>
-                        </div>
+<div class="why">
+    <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
+    <div class="why__title">Работаем на результат</div>
+    <div class="why__content">
+        <p>Для нас важно создать проект и привести его в идеально состояние. Мы заинтересованы создавать те проекты, которые нам не стыдно показать. К сожалению, в некоторых проектах мы не можем проявлять свой талант и креативный подход в полном объеме, так как отталкиваемся от жёстких требований заказчиков по цвету, расположению элементов на странице, 
+		эффектов и размещению информации. Обращаясь к нам, вы получаете команду специалистов с большим опытом работы. Для нас нет невыполнимых задач, мы возьмемся за самые смелые ваши идеи и доведём их до финального этапа.</p>
+		<br>
+	</div>
+</div>
                         <div class="bottom__footer">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>

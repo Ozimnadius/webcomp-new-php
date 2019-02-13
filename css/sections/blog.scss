@@ -132,6 +132,9 @@
     @include smd{
       width: 100%;
     };
+    @include sm{
+      padding: 0;
+    };
 
     &-top {
       display: flex;
@@ -198,6 +201,9 @@
       margin-bottom: vh(30);
       @include smd{
         padding-right: 0;
+      };
+      @include sm{
+        font-size: 19px;
       };
     }
   }

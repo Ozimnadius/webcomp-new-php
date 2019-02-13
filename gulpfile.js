@@ -35,6 +35,7 @@ const vendorJs = [
     // 'node_modules/microplugin/src/microplugin.js',
     // 'node_modules/sifter/bin/sifter.js',
     'node_modules/selectize/dist/js/standalone/selectize.js',
+    'node_modules/scroll-lock/dist/scroll-lock.js',
 ];
 
 

@@ -16,7 +16,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Biofollica</a>
                         </div>
@@ -55,13 +55,13 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка лендинга с уникальным дизайном
+                        Разработка промо страницы для презентации товара
                     </div>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Имбирная косметика для роста волос
+                        При создании проекта были учтены корпоративные цвета и требования заказчика к расположению элементов на сайте
                     </div>
                     <!-- END subtitle -->
 
@@ -70,7 +70,7 @@
                     <div class="port-desc__list numbers" data-timer="1000">
                         <div class="port-desc__item number">
                             <div class="port-desc__item-title">
-                                <span class="number__val port-desc__item-val" data-from="0" data-to="1">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="3">
                                     0
                                 </span>
                             </div>
@@ -78,7 +78,7 @@
                         </div>
                         <div class="port-desc__item number">
                             <div class="port-desc__item-title">
-                                <span class="number__val port-desc__item-val" data-from="0" data-to="1">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="8">
                                     0
                                 </span>
                             </div>
@@ -94,7 +94,7 @@
                         </div>
                         <div class="port-desc__item number">
                             <div class="port-desc__item-title">
-                                <span class="number__val port-desc__item-val" data-from="0" data-to="5">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="15">
                                     0
                                 </span>
                                 <span class="port-desc__item-type"> дней</span>
@@ -199,11 +199,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">таймер
+                                    <div class="port-proj__item-title">Навигация и акции
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Отсчитывает сколько осталось для окончания акци
+                                        Активная навигация, позволяет быстро взаимодействовать с сайтом, а таймер на акции стимилирует быстрое принятие решения.
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -211,7 +211,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Достоинства, факты
+                                        Блок выполнен в стиле минимал
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -219,7 +219,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Карточка товара с оригинальным ховером при наведении
+                                        Слайдером отображена продукция с возможностью сделать заказ
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -227,7 +227,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Отзывы довольных клиентов
+                                        Блок отзывов с результатом действия косметики
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -235,7 +235,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Форма для обратной связи, и онлайн карта
+                                        Форма взаимодействия с сайтом
                                     </div>
                                 </div>
                             </div>
@@ -258,7 +258,7 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Чумак Ирина</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
@@ -282,7 +282,7 @@
                         </div>
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Поддубная мария</div>
+                                <div class="port-team__item-title">Рожанский Виктор</div>
                                 <div class="port-team__item-prof">Контент менеджер</div>
                             </div>
                             <div class="port-team__item">
@@ -301,9 +301,15 @@
                         <div class="bottom__send">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
-                        <div class="bottom__why">
-                            <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/why.php' ?>
-                        </div>
+<div class="why">
+    <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
+    <div class="why__title">Работаем на результат</div>
+    <div class="why__content">
+        <p>Для нас важно создать проект и привести его в идеально состояние. Мы заинтересованы создавать те проекты, которые нам не стыдно показать. К сожалению, в некоторых проектах мы не можем проявлять свой талант и креативный подход в полном объеме, так как отталкиваемся от жёстких требований заказчиков по цвету, расположению элементов на странице, 
+		эффектов и размещению информации. Обращаясь к нам, вы получаете команду специалистов с большим опытом работы. Для нас нет невыполнимых задач, мы возьмемся за самые смелые ваши идеи и доведём их до финального этапа.</p>
+		<br>
+	</div>
+</div>
                         <div class="bottom__footer">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>

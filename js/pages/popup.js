@@ -30,6 +30,7 @@ if (callorderOpenAll) {
 
                         popupWrapper.innerHTML = result.html;
                         popup.classList.add('active');
+                        // scrollLock.disablePageScroll(document.body);
                         $(document.querySelector('.callorder .form')).validate(
                             {
                                 rules: {
@@ -266,6 +267,7 @@ function getTimerForm(formId) {
 popup.addEventListener('click', function (e) {
     if (e.target.classList.contains('popup__wrapper') || e.target.classList.contains('popup__close-img')) {
         popup.classList.remove('active');
+        // scrollLock.enablePageScroll(document.body);
     }
 });
 

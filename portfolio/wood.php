@@ -16,7 +16,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайта</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Woodland.ru</a>
                         </div>
@@ -55,15 +55,15 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка интернет магазина <br>
-                        с уникальным дизайном
+                        Разработка сайта строительной тематики<br>
+                        с детальным каталогом работ
                     </div>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Строительство домов <br>
-                        "под ключ" по индивидуальным проектам
+                        Реализация "под ключ"<br>
+                        с учётом индивидуальных особенностей проекта
                     </div>
                     <!-- END subtitle -->
 
@@ -215,7 +215,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Большой выбор проектов домов
+                                        Карточки проектов с формой взаимодействия 
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -223,7 +223,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Кратко о компании, достоинства, преимущества и некоторые факты
+                                        Портфолио и краткое описание компании, достоинства, преимущества и некоторые факты
                                     </div>
                                 </div>
                             </div>
@@ -276,15 +276,15 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобные карточки с фотографиями различных типов
+                                        Удобные карточки с фотографиями различных типов, поиском через фильтр и сортировкой по цене
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">пагинация
+                                    <div class="port-proj__item-title">SEO описание
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Нумерация страниц
+                                        Детальное описание страницы позволяет сайту успешно продвигаться в поиске
                                     </div>
                                 </div>
                             </div>
@@ -336,7 +336,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Информация о проекте, параметры используемые материалы и кнопки призывающие к действию
+                                        Информация о проекте, размеры, материалы, планировка, характеристики.
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -405,7 +405,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Преимущества миссия компании
+                                        Преимущества и миссия компании
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -449,21 +449,21 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Фёдоров Юрий</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Подольский Валентин</div>
+                                <div class="port-team__item-title">Ефремов Денис</div>
                                 <div class="port-team__item-prof">Дизайнер</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Ефимов Максим</div>
+                                <div class="port-team__item-title">Серёгин Михаил</div>
                                 <div class="port-team__item-prof">Front-end разработчик</div>
                             </div>
                         </div>
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Абрамов Андрей</div>
+                                <div class="port-team__item-title">Соловьев Михаил</div>
                                 <div class="port-team__item-prof">Back-end разработчик</div>
                             </div>
                             <div class="port-team__item">
@@ -473,7 +473,7 @@
                         </div>
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Поддубная мария</div>
+                                <div class="port-team__item-title">Рожанский Виктор</div>
                                 <div class="port-team__item-prof">Контент менеджер</div>
                             </div>
                             <div class="port-team__item">
@@ -492,9 +492,15 @@
                         <div class="bottom__send">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
-                        <div class="bottom__why">
-                            <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/why.php' ?>
-                        </div>
+<div class="why">
+    <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
+    <div class="why__title">Работаем на результат</div>
+    <div class="why__content">
+        <p>Для нас важно создать проект и привести его в идеально состояние. Мы заинтересованы создавать те проекты, которые нам не стыдно показать. К сожалению, в некоторых проектах мы не можем проявлять свой талант и креативный подход в полном объеме, так как отталкиваемся от жёстких требований заказчиков по цвету, расположению элементов на странице, 
+		эффектов и размещению информации. Обращаясь к нам, вы получаете команду специалистов с большим опытом работы. Для нас нет невыполнимых задач, мы возьмемся за самые смелые ваши идеи и доведём их до финального этапа.</p>
+		<br>
+	</div>
+</div>
                         <div class="bottom__footer">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>

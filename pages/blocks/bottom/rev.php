@@ -6,11 +6,15 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="rev__item">
-                        <div class="rev__img"><img class="rev__img-img" src="/images/content/reviews/rev3.jpg"></div>
-                        <div class="rev__middle"><a class="rev__link" href="https://www.youtube.com/watch?v=_PIxlKDS4_8" data-fancybox>
+                        <div class="rev__img">
+                            <img class="rev__img-img" src="/images/content/reviews/rev3.jpg">
+                        </div>
+                        <div class="rev__middle">
+                            <a class="rev__link" href="https://www.youtube.com/watch?v=_PIxlKDS4_8" data-fancybox>
                                 <svg class="rev__link-svg">
                                     <use xlink:href="/images/icons/sprite.svg#triangle"></use>
-                                </svg></a></div>
+                                </svg>
+                            </a></div>
                         <div class="rev__desc">
                             <div class="rev__item-title">Василий иванович</div>
                             <div class="rev__text">В 2006 году компания «Сайт НН» разрабатывала для ЗАО «Системы передовых технологий» Интернет-представительство ...</div>

@@ -14,6 +14,9 @@
     @include md{
       padding: 100px 15px 150px 15px;
     };
+    @include sm{
+      padding: 50px 15px;
+    };
 
     &__bread {
       margin-bottom: 180px;
@@ -22,6 +25,9 @@
       };
       @include lg{
         margin-bottom: 40px;
+      };
+      @include sm{
+        margin-bottom: 20px;
       };
     }
 
@@ -39,6 +45,9 @@
         font-size: 42px;
         margin-bottom: 20px;
       };
+      @include sm{
+        font-size: 24px;
+      };
     }
 
     &__subtitle {
@@ -54,6 +63,16 @@
       @include md{
         font-size: 24px;
         margin-bottom: 30px;
+      };
+      @include sm{
+        font-size: 19px;
+        margin-bottom: 15px;
+      };
+    }
+
+    &__button {
+      @include sm{
+        display: none;
       };
     }
 
@@ -125,6 +144,10 @@
     @include md{
       padding: 30px 15px;
     };
+    @include sm{
+      padding: 20px 5px;
+      padding-bottom: 40px;
+    };
 
     &__title {
       color: #c70541;
@@ -132,6 +155,10 @@
       text-transform: uppercase;
       margin-bottom: 25px;
       text-align: center;
+      @include sm{
+        font-size: 21px;
+        margin-bottom: 15px;
+      };
     }
 
     &__list {
@@ -139,6 +166,9 @@
       flex-wrap: wrap;
       margin-bottom: 40px;
       width: 100%;
+      @include sm{
+        margin-bottom: 0;
+      };
     }
 
     &__col {
@@ -152,6 +182,23 @@
       @include smd{
         padding: 20px 15px;
       };
+      @include sm{
+        padding: 15px 10px;
+      };
+      @include xs{
+        width: 50%;
+        &:nth-child(even){
+          &:after{
+            display: none;
+          }
+        }
+        &:nth-child(odd){
+          &:after{
+            display: block;
+          }
+        }
+
+      };
 
       &:after {
         content: '';
@@ -163,6 +210,8 @@
         width: 1px;
         background: linear-gradient(to bottom, rgba(#000, 0) 0%, rgba(#000, 0.2) 30%, rgba(#000, 0.2) 70%, rgba(#000, 0) 100%);
       }
+
+
 
       &:last-child {
         &:after {
@@ -176,6 +225,10 @@
       font-size: 16px;
       margin-bottom: 20px;
       display: block;
+      @include sm{
+        font-size: 11px;
+        margin-bottom: 8px;
+      };
 
       &:last-child {
         margin-bottom: 0;
@@ -201,6 +254,11 @@
       @include xlg{
         //justify-content: center;
       };
+      @include xs{
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+      };
     }
 
     &__item {
@@ -216,11 +274,21 @@
       @include lg{
         width: calc(100%/3 - 2px);
       };
+      @include xs{
+        width: calc(100%/2);
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+      };
+
 
       &:hover {
         .theme-cats__img {
           top: 10.97%;
           transform: translateY(0%) scale(0.66);
+          @include sm{
+            top: 3%;
+          };
         }
         .theme-cats__line {
           opacity: 1;
@@ -243,9 +311,14 @@
       left: 0;
       right: 0;
       transform: translateY(-50%) scale(1);
-      display: flex;
-      justify-content: center;
+      //display: flex;
+      //justify-content: center;
+      text-align: center;
       transition: .4s;
+      @include sm{
+        padding: 0 10%;
+
+      };
     }
 
     &__thematic {
@@ -302,6 +375,9 @@
         font-size: 30px;
         font-weight: 700;
         padding-right: 30px;
+        @include sm{
+          font-size: 13px;
+        };
       }
     }
 
@@ -321,6 +397,9 @@
       &-val {
         font-size: 30px;
         font-weight: 700;
+        @include sm{
+          font-size: 13px;
+        };
       }
     }
 
@@ -334,6 +413,9 @@
       right: 0;
       bottom: -100px;
       text-align: center;
+      @include sm{
+        font-size: 9px;
+      };
     }
   }
 
@@ -341,6 +423,9 @@
     background-color: #e6e6e6;
     padding-top: 20px;
     padding-bottom: 60px;
+    @include sm{
+      padding: 20px 15px;
+    };
 
     &__title {
       color: $bg;
@@ -356,11 +441,19 @@
         padding-left: 0;
         text-align: center;
       };
+      @include sm{
+        font-size: 24px;
+      };
     }
 
     &__switches {
       position: relative;
       margin-bottom: 20px;
+      @include sm{
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 10px;
+      };
 
       &-list {
         display: flex;
@@ -368,6 +461,9 @@
         margin-bottom: 14px;
         justify-content: space-between;
         position: relative;
+        @include sm{
+          margin-bottom: 7px;
+        };
       }
     }
 
@@ -382,6 +478,12 @@
       @include md{
         font-size: 20px;
       };
+      @include sm{
+        font-size: 11px;
+      };
+      @include xs{
+        font-size: 8px;
+      };
 
       &:first-child {
         justify-content: flex-end;
@@ -389,12 +491,24 @@
         @include xlg{
           padding-left: 50px;
         };
+        @include sm{
+          padding-left: 15px;
+        };
+        @include xs{
+          padding-left: 5px;
+        };
       }
       &:last-child {
         justify-content: flex-start;
         padding-right: 100px;
         @include xlg{
           padding-right: 50px;
+        };
+        @include sm{
+          padding-right: 15px;
+        };
+        @include xs{
+          padding-right: 5px;
         };
       }
 
@@ -436,6 +550,9 @@
       @include md{
         padding: 0 50px;
       };
+      @include sm{
+        padding: 0;
+      };
     }
 
     &__row {
@@ -465,12 +582,24 @@
       @include xlg{
         padding: 10px 0;
       };
+      @include xs{
+        margin-left: -5px;
+        margin-right: -5px;
+      };
     }
 
     &__item {
       width: calc(50% - 30px);
       margin-left: 15px;
       margin-right: 15px;
+      display: flex;
+      flex-direction: column;
+
+      @include xs{
+        width: calc(50% - 10px);
+        margin-left: 5px;
+        margin-right: 5px;
+      };
 
       &_bottom {
         align-self: flex-end;
@@ -487,16 +616,31 @@
           font-size: 20px;
           margin-bottom: 20px;
         };
+        @include sm{
+          font-size: 17px;
+          margin-bottom: 10px;
+        };
+        @include xs{
+          font-size: 13px;
+          margin-bottom: 5px;
+        };
       }
 
       &-price {
         color: #c70541;
         font-size: 22px;
         font-weight: 500;
+        margin-top: auto;
         margin-bottom: 10px;
         @include xlg{
           font-size: 18px;
           margin-bottom: 5px;
+        };
+        @include sm{
+          font-size: 15px;
+        };
+        @include xs{
+          font-size: 12px;
         };
       }
 
@@ -505,6 +649,12 @@
         font-size: 20px;
         @include xlg{
           font-size: 16px;
+        };
+        @include sm{
+          font-size: 13px;
+        };
+        @include xs{
+          font-size: 11px;
         };
       }
 
@@ -525,14 +675,26 @@
           font-size: 16px;
           margin-bottom: 10px;
         };
+        @include sm{
+          font-size: 13px;
+          margin-bottom: 7px;
+        };
+        @include xs{
+          font-size: 11px;
+        };
       }
     }
 
     &__price {
       color: #c70541;
       font-size: 46px;
+      @include sm{
+        font-size: 28px;
+      };
+      @include xs{
+        font-size: 21px;
+      };
     }
-
 
     &__button {
       padding: 15px 20px;
@@ -550,6 +712,13 @@
       letter-spacing: 1.92px;
       @include xlg{
         margin-top: 15px;
+      };
+      @include sm{
+        padding: 8px 10px;
+        font-size: 11px;
+      };
+      @include xs{
+        font-size: 10px;
       };
     }
   }

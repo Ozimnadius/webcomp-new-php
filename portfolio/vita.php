@@ -16,7 +16,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Vitaceramics</a>
                         </div>
@@ -51,13 +51,13 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка сайта «Каталог»  с уникальным дизайном, с  адаптивной версией для корректного отображения на всех устройствах
+                        Разработка сайта с мощным внутренним функционалом и интеграцией 1С, с  каталогом товара на 50 000 позиций.
                     </div>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Качественная отделка балконов с калькулятором, с примерами работ и со списком услуг и  ценами
+                        Дополнительно реализовали интеграцию с сервисами доставки и оплаты через сайт
                     </div>
                     <!-- END subtitle -->
 
@@ -196,11 +196,11 @@
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">
-                                        виды услуг
+                                        основные разделы
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Широкий ассортимент предоставляемых услуг
+                                        популярные разделы с эфектом наведения
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -209,7 +209,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Оставив номер телефона, клиенты могут получить ответы на все инетресующиеся вопросы от менеджера
+                                        дополнительная форма комуникации с администратором сайта
                                     </div>
                                 </div>
                             </div>
@@ -261,8 +261,8 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Реализован удобный функционал
-                                        карточек  где отображены виды, стили и цены плит
+                                        Каталог с функцией фильтрации и помощью в подборе,
+                                        все характеристики товара подтягиваются в поисковый фильтр что облегчает навигацию
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -271,7 +271,8 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Нумерация страниц, удобен для ориентира и пермещения с траницы на страницу
+                                        Мы разработали функционал позволяющий делать страницы пагинации, как отдельные посадочные страницы для SEO для увеличения охвата аудитории.
+										При переходе по страницам, настроки фильтра сохраняются.
                                     </div>
                                 </div>
                             </div>
@@ -320,11 +321,11 @@
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">
-                                        еще товары
+                                        Вся колекция
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Сопутствующие коллекции при переходе на определенный товар
+                                        Автоматическое подключение товаров все коллекции, экономит время на детальном наполнении товара.
                                     </div>
                                 </div>
                             </div>
@@ -347,15 +348,15 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Меркулов иван</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Подольский Валентин</div>
+                                <div class="port-team__item-title">Малютина Мила</div>
                                 <div class="port-team__item-prof">Дизайнер</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Ефимов Максим</div>
+                                <div class="port-team__item-title">Серегин Михаил</div>
                                 <div class="port-team__item-prof">Front-end разработчик</div>
                             </div>
                         </div>
@@ -375,7 +376,7 @@
                                 <div class="port-team__item-prof">Контент менеджер</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Рябова Наталья</div>
+                                <div class="port-team__item-title">Фёдоров Юрий</div>
                                 <div class="port-team__item-prof">Маркетолог</div>
                             </div>
                         </div>
@@ -390,9 +391,15 @@
                         <div class="bottom__send">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
-                        <div class="bottom__why">
-                            <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/why.php' ?>
-                        </div>
+<div class="why">
+    <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
+    <div class="why__title">Работаем на результат</div>
+    <div class="why__content">
+        <p>Для нас важно создать проект и привести его в идеально состояние. Мы заинтересованы создавать те проекты, которые нам не стыдно показать. К сожалению, в некоторых проектах мы не можем проявлять свой талант и креативный подход в полном объеме, так как отталкиваемся от жёстких требований заказчиков по цвету, расположению элементов на странице, 
+		эффектов и размещению информации. Обращаясь к нам, вы получаете команду специалистов с большим опытом работы. Для нас нет невыполнимых задач, мы возьмемся за самые смелые ваши идеи и доведём их до финального этапа.</p>
+		<br>
+	</div>
+</div>
                         <div class="bottom__footer">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>

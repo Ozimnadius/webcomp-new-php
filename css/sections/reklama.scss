@@ -18,6 +18,12 @@
       padding-top: 80px;
       padding-bottom: 40px;
     };
+    @include sm{
+      padding: 50px 15px;
+    };
+    @include xs{
+      padding: 30px 15px;
+    };
 
     .container {
       display: flex;
@@ -29,6 +35,9 @@
       margin-bottom: 105px;
       @include xlg{
         margin-bottom: 30px;
+      };
+      @include sm{
+        margin-bottom: 20px;
       };
     }
 
@@ -46,6 +55,9 @@
         font-size: 42px;
         margin-bottom: 15px;
       };
+      @include sm{
+        font-size: 24px;
+      };
     }
 
     &__subtitle {
@@ -62,6 +74,9 @@
         font-size: 21px;
         margin-bottom: 15px;
       };
+      @include sm{
+        font-size: 17px;
+      };
     }
 
     &__middle {
@@ -72,6 +87,14 @@
       @include md{
         flex-wrap: nowrap;
         padding: 0 30px;
+      };
+      @include sm{
+        padding: 0;
+        margin-bottom: 25px;
+      };
+      @include xs{
+        width: 100%;
+        justify-content: space-around;
       };
     }
 
@@ -110,11 +133,18 @@
         letter-spacing: -0.19px;
         margin-bottom: 14px;
         transition: .4s;
+        @include sm{
+          font-size: 17px;
+          margin-bottom: 8px;
+        };
       }
 
       &-arrow {
         width: 280px;
         margin-bottom: 10px;
+        @include sm{
+          width: 31vw;
+        };
       }
 
       &-desc {
@@ -138,9 +168,15 @@
       }
       &-val {
         font-size: 39px;
+        @include sm{
+          font-size: 19px;
+        };
       }
       &-type {
         font-size: 31px;
+        @include sm{
+          font-size: 19px;
+        };
       }
     }
 
@@ -187,6 +223,10 @@
         @include md{
           height: 40px;
         };
+        @include sm{
+          width: auto;
+          height: auto;
+        };
       }
     }
 
@@ -196,11 +236,17 @@
         justify-content: center;
         align-items: flex-start;
       };
+      @include xs{
+        display: none;
+      };
 
       &-img {
         @include md {;
           width: 70%;
         }
+        @include smd{
+          width: 100%;
+        };
       }
     }
 
@@ -221,20 +267,37 @@
     @include md{
       padding: 40px 400px 40px 50px;
     };
+    @include sm{
+      padding: 20px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    };
 
     &__title {
       color: $bg;
       font-size: 40px;
       text-transform: uppercase;
       margin-bottom: 60px;
+      @include sm{
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+      };
     }
 
     &__block {
       margin-bottom: 70px;
+      @include sm{
+        margin-bottom: 30px;
+      };
     }
 
     &__content{
       color: $bg;
+      @include sm{
+        order: 1;
+      };
 
       ul {
         li {
@@ -257,6 +320,9 @@
       font-size: 13px;
       font-weight: 500;
       text-transform: uppercase;
+      @include sm{
+        display: none;
+      };
     }
 
     &__list {
@@ -264,6 +330,15 @@
       top: 220px;
       right: 0;
       width: 384px;
+      @include sm {
+        position: static;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: -10px;
+        margin-right: -10px;
+      };
     }
 
     &__item {
@@ -271,6 +346,15 @@
       border-bottom: 1px solid rgba($bg,.5);
       display: flex;
       align-items: center;
+      @include sm{
+        padding: 0;
+        width: calc(50% - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        border-bottom: none;
+        flex-direction: column;
+      };
 
       &:last-child {
         border-bottom: none;
@@ -282,12 +366,27 @@
         width: 50px;
         display: flex;
         justify-content: center;
+        @include sm{
+          margin-right: 0;
+          margin-bottom: 10px;
+          width: 40px;
+        };
+        @include xs{
+          width: 30px;
+        };
       }
 
       &-text {
         color: $bg;
         font-size: 19px;
         font-weight: 400;
+        @include sm{
+          font-size: 17px;
+          text-align: center;
+        };
+        @include xs{
+          font-size: 13px;
+        };
       }
     }
   }
@@ -295,6 +394,12 @@
   &-slider {
     background-color: $text;
     padding: 80px 0;
+    @include sm{
+      padding: 30px 0;
+    };
+    @include xs{
+      display: none;
+    };
 
     &__title {
       color: $bg;
@@ -302,6 +407,11 @@
       text-transform: uppercase;
       margin-bottom: 65px;
       padding-left: 110px;
+      @include sm{
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+      };
     }
   }
 
@@ -311,6 +421,9 @@
     padding-bottom: 110px;
     @include xlg{
       padding-bottom: 60px;
+    };
+    @include sm{
+      padding-bottom: 40px;
     };
 
     &__title {
@@ -327,6 +440,10 @@
         text-align: center;
         font-size: 32px;
       };
+      @include sm{
+        font-size: 28px;
+        margin-bottom: 20px;
+      };
     }
 
     &__switches {
@@ -338,6 +455,9 @@
       @include md{
         margin-bottom: 20px;
       };
+      @include sm{
+        margin-bottom: 10px;
+      };
 
       &-list {
         display: flex;
@@ -347,6 +467,9 @@
         position: relative;
         @include md{
           margin-bottom: 10px;
+        };
+        @include sm{
+          margin-bottom: 7px;
         };
       }
     }
@@ -366,6 +489,9 @@
       @include md{
         font-size: 19px;
       };
+      @include sm{
+        font-size: 12px;
+      };
 
       &:first-child {
         justify-content: flex-end;
@@ -373,12 +499,18 @@
         @include xlg{
           padding-left: 50px;
         };
+        @include sm{
+          padding-left: 10px;
+        };
       }
       &:last-child {
         justify-content: flex-start;
         padding-right: 100px;
         @include xlg{
           padding-right: 50px;
+        };
+        @include sm{
+          padding-right: 10px;
         };
       }
 
@@ -419,6 +551,9 @@
       @include xlg{
         padding: 0 50px;
       };
+      @include sm{
+        padding: 0 10px;
+      };
     }
 
     &__row {
@@ -434,6 +569,11 @@
       };
       @include md{
         padding: 15px 0;
+      };
+      @include sm{
+        padding: 10px 0;
+        margin-left: -10px;
+        margin-right: -10px;
       };
 
       &:after {
@@ -458,6 +598,11 @@
       width: calc(50% - 30px);
       margin-left: 15px;
       margin-right: 15px;
+      @include sm{
+        width: calc(50% - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
+      };
 
       &_bottom {
         align-self: flex-end;
@@ -483,6 +628,9 @@
         @include md{
           font-size: 24px;
         };
+        @include sm{
+          font-size: 17px;
+        };
       }
 
       &-text {
@@ -493,6 +641,9 @@
         };
         @include md{
           font-size: 17px;
+        };
+        @include sm{
+          font-size: 13px;
         };
       }
 
@@ -507,6 +658,10 @@
         @include md{
           font-size: 17px;
           margin-bottom: 10px;
+        };
+        @include sm{
+          font-size: 13px;
+          margin-bottom: 8px;
         };
 
         b {
@@ -526,6 +681,9 @@
       @include md{
         font-size: 42px;
       };
+      @include sm{
+        font-size: 24px;
+      };
     }
   }
 
@@ -542,6 +700,9 @@
     };
     @include md{
       padding: 20px 15px;
+    };
+    @include sm{
+      display: none;
     };
 
     &__title {

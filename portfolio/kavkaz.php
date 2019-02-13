@@ -16,7 +16,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайта</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Кавказские умельцы</a>
                         </div>
@@ -51,7 +51,7 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка интернет магазина  с уникальным дизайном, с  адаптивной версией для корректного отображения на всех устройствах
+                        Разработка интернет-магазина, с адаптивной версией для корректного отображения на всех устройствах
                     </div>
                     <!-- END title -->
 
@@ -200,7 +200,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Стильные иконки с тонкими
+                                        Уникальные иконки с тонкими
                                         линиями
                                     </div>
                                 </div>
@@ -210,7 +210,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобные карточки с товаром, кратким описанием и ценой
+                                        Удобные карточки с товаром, кратким описанием и ценой. Функционал позволяет добавлять таймер с акцией на конкретный товар.
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -219,16 +219,16 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобные карточки с изделиями в каждой категории
+                                        Акцент на основные категории сайта
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">
-                                        превью категорий
+                                        Новости магазина
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобные карточки с изделиями в каждой категории
+                                        Новости или акции интернет магазина
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -237,7 +237,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Контактная информация с возможностью подписаться на новости
+                                       Популярные категории и формы связи
                                     </div>
                                 </div>
                             </div>
@@ -289,17 +289,16 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобное отображение превью изделий
-                                        с возможностью быстрого просмотра и добавления в корзину
+                                        Карточки товара с эффектом при наведении, быстрым просмотром, функционалом сравнения товара
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">
-                                        пагинация
+                                        SEO описание
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Нумерация страниц, удобен для ориентира и пермещения с траницы на страницу
+                                        Описание для разделадля SEO продвижения
                                     </div>
                                 </div>
                             </div>
@@ -348,29 +347,29 @@
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">
-                                        чек-лист
+                                        Детальная карточка
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Информация о товаре
+                                        Максиамльно полное описание товара с персональными стикерами для участия товара в акциях
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">
-                                        Характеристика
+                                        Характеристики
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Описание и отзывы
+                                        Характеристики который учавствуют в поиске по разделу
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">
-                                        еще товары
+                                        рекомендуемые товары
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Рекомендуемые товары - предложения магазина и просмотренные товары
+                                        Дополнительные предложения магазина и просмотренные товары
                                     </div>
                                 </div>
 
@@ -394,7 +393,7 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Дрозд иван</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
@@ -418,7 +417,7 @@
                         </div>
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Поддубная мария</div>
+                                <div class="port-team__item-title">Рожанский виктор</div>
                                 <div class="port-team__item-prof">Контент менеджер</div>
                             </div>
                             <div class="port-team__item">
@@ -437,9 +436,15 @@
                         <div class="bottom__send">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
-                        <div class="bottom__why">
-                            <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/why.php' ?>
-                        </div>
+<div class="why">
+    <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
+    <div class="why__title">Работаем на результат</div>
+    <div class="why__content">
+        <p>Для нас важно создать проект и привести его в идеально состояние. Мы заинтересованы создавать те проекты, которые нам не стыдно показать. К сожалению, в некоторых проектах мы не можем проявлять свой талант и креативный подход в полном объеме, так как отталкиваемся от жёстких требований заказчиков по цвету, расположению элементов на странице, 
+		эффектов и размещению информации. Обращаясь к нам, вы получаете команду специалистов с большим опытом работы. Для нас нет невыполнимых задач, мы возьмемся за самые смелые ваши идеи и доведём их до финального этапа.</p>
+		<br>
+	</div>
+</div>
                         <div class="bottom__footer">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>

@@ -98,6 +98,34 @@ function Switches(prop) {
 
     let that = this;
 
+    this.init = function () {
+        let $this = that.swsList[0],
+            percent = ($this.offsetLeft / that.width) * 100,
+            id = $this.dataset.id,
+            tab = document.querySelector(that.tabSelector + '[data-id="' + id + '"]');
+
+
+        for (let i = 0; i < that.swsList.length; i++) {
+            that.swsList[i].classList.remove('active');
+        }
+
+        for (let i = 0; i < that.tabs.length; i++) {
+            that.tabs[i].classList.remove('active');
+        }
+
+        tab.classList.add('active');
+        $this.classList.add('active');
+
+        if (that.scrollbar) {
+            that.line.style.left = percent + '%';
+
+            if (that.autoWidth) {
+                let lineWidth = $this.offsetWidth + 'px';
+                that.line.style.width = lineWidth;
+            }
+        }
+    };
+
     for (let i = 0; i < that.swsList.length; i++) {
         that.swsList[i].addEventListener('click', function (e) {
 
@@ -347,153 +375,15 @@ if (aside){
         if (this.classList.contains('active')){
             aside.classList.remove('active');
             this.classList.remove('active');
+            // scrollLock.enablePageScroll(document.body);
         }  else {
             aside.classList.add('active');
             this.classList.add('active');
+            // scrollLock.disablePageScroll(document.body);
         }
     })
 }
 
-
-// let isScrolling = false;
-// window.addEventListener('scroll', throttleScroll, false);
-//
-// function throttleScroll(e) {
-//     if (isScrolling == false) {
-//         window.requestAnimationFrame(function () {
-//             scrolling(e);
-//             isScrolling = false;
-//         });
-//     }
-//     isScrolling = true;
-// }
-//
-// document.addEventListener("DOMContentLoaded", scrolling, false);
-//
-// let promoSlides = document.querySelectorAll('.promote-slide'),
-//     activePromoteSlide = document.querySelector('.promote-slide');
-// if (!activePromoteSlide) {
-//     activePromoteSlide = document;
-// }
-//
-// function scrolling(e) {
-//     animateNumbersGraphs();
-// }
-//
-// function animateNumbers() {
-//     let numberAll = activePromoteSlide.querySelectorAll('.number'),
-//         numbers = activePromoteSlide.querySelector('.numbers');
-//
-//     for (let i = 0; i < numberAll.length; i++) {
-//         let number = numberAll[i],
-//             val = number.querySelector('.number__val'),
-//             from = parseInt(val.dataset.from),
-//             to = parseInt(val.dataset.to),
-//             time = 2000;
-//         if (numbers) {
-//             time = numbers.dataset.timer;
-//         }
-//
-//
-//         if (number.classList.contains('active')) {
-//             continue;
-//         }
-//
-//
-//         number.classList.add('active');
-//         counting(val, from, to, time);
-//     }
-// }
-//
-// function animateNumbersGraphs() {
-//     let numberAll = activePromoteSlide.querySelectorAll('.number'),
-//         numbers = activePromoteSlide.querySelector('.numbers'),
-//         graphImg1 = activePromoteSlide.querySelector('.promote-result__graph-img1'),
-//         graphImg2 = activePromoteSlide.querySelector('.promote-result__graph-img2');
-//
-//     for (let i = 0; i < numberAll.length; i++) {
-//         let number = numberAll[i],
-//             val = number.querySelector('.number__val'),
-//             from = parseInt(val.dataset.from),
-//             to = parseInt(val.dataset.to),
-//             time = 2000;
-//         if (numbers) {
-//             time = numbers.dataset.timer;
-//         }
-//
-//
-//         if (number.classList.contains('active')) {
-//             continue;
-//         }
-//
-//
-//         if (isFullyVisible(number)) {
-//             number.classList.add('active');
-//             counting(val, from, to, time);
-//
-//             if (graphImg1) {
-//                 graphImg1.classList.add('active');
-//             }
-//             if (graphImg2) {
-//                 graphImg2.classList.add('active');
-//             }
-//         }
-//     }
-// }
-//
-// function resetPromoteSlides() {
-//     for (let i = 0; i < promoSlides.length; i++) {
-//         let slide = promoSlides[i],
-//             numberAll = slide.querySelectorAll('.number'),
-//             numbers = slide.querySelector('.numbers'),
-//             graphImg1 = slide.querySelector('.promote-result__graph-img1'),
-//             graphImg2 = slide.querySelector('.promote-result__graph-img2');
-//
-//         for (let j = 0; j < numberAll.length; j++) {
-//             let number = numberAll[j],
-//                 val = number.querySelector('.number__val');
-//             val.innerHTML = 0;
-//             number.classList.remove('active');
-//             graphImg1.classList.remove('active');
-//             graphImg2.classList.remove('active');
-//         }
-//     }
-// }
-//
-// function counting(val, from, to, time) {
-//     let i = from,
-//         frame = time / to;
-//
-//     let numInterval = setInterval(function (e) {
-//         if (i <= to) {
-//             val.innerHTML = i;
-//             i++;
-//         } else {
-//             clearInterval(numInterval);
-//         }
-//
-//     }, frame)
-//
-// }
-//
-// function isPartiallyVisible(el) {
-//     var elementBoundary = el.getBoundingClientRect();
-//
-//     var top = elementBoundary.top;
-//     var bottom = elementBoundary.bottom;
-//     var height = elementBoundary.height;
-//
-//     return ((top + height >= 0) && (height + window.innerHeight >= bottom));
-// }
-//
-// function isFullyVisible(el) {
-//     var elementBoundary = el.getBoundingClientRect();
-//
-//     var top = elementBoundary.top;
-//     var bottom = elementBoundary.bottom;
-//
-//     return ((top >= 0) && (bottom <= window.innerHeight));
-// }
 
 $('select').selectize();
 

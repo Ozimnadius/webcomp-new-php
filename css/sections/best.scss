@@ -12,6 +12,10 @@
     width: calc(57% - 30px);
     margin-left: 15px;
     margin-right: 15px;
+    @include sm{
+      width: calc(100% - 30px);
+      margin-bottom: 20px;
+    };
   }
 
   &__title {
@@ -22,6 +26,11 @@
     @include lg{
       font-size: 40px;
     };
+    @include sm{
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 15px;
+    };
   }
 
   &__switches {
@@ -30,6 +39,10 @@
     margin-bottom: vh(70);
     @include xlg{
       margin-bottom: vh(30);
+    };
+    @include sm{
+      justify-content: center;
+      margin-bottom: 20px;
     };
   }
   &__switch {
@@ -44,6 +57,13 @@
 
     @include lg{
       font-size: 19px;
+    };
+    @include sm{
+      font-size: 17px;
+    };
+    @include xs{
+      margin-right: 10px;
+      font-size: 13px;
     };
 
     &.active {
@@ -76,6 +96,9 @@
     padding: 0 3px;
     transition: .3s;
     cursor: pointer;
+    @include xs{
+      margin-right: 10px;
+    };
 
     &:after {
       content: '';
@@ -95,6 +118,9 @@
     width: calc(43% - 30px);
     margin-left: 15px;
     margin-right: 15px;
+    @include sm{
+      width: calc(100% - 30px);
+    };
   }
 
   &__percents {
@@ -104,6 +130,9 @@
     background-position: 0 0;
     background-repeat: no-repeat;
     margin-bottom: -25px;
+    @include sm{
+      display: none;
+    };
 
     &-title {
       position: absolute;
@@ -160,6 +189,9 @@
   &__thead {
     display: flex;
     margin-bottom: 25px;
+    @include sm{
+      margin-bottom: 10px;
+    };
   }
   &__th {
     text-align: center;
@@ -169,6 +201,9 @@
 
     @include lg{
       font-size: 17px;
+    };
+    @include sm{
+      font-size: 15px;
     };
 
     &:first-child {
@@ -200,10 +235,13 @@
     @include xlg{
       font-size: 19px;
       padding: 15px 0;
-    };
-
+    }
     @include lg{
       font-size: 15px;
+    }
+    @include sm{
+      font-size: 13px;
+      padding: 8px 0;
     };
 
     &:first-child {

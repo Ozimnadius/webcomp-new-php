@@ -23,12 +23,21 @@
   @include slg{
     font-size: 50px;
   };
+  @include sm{
+    font-size: 28px;
+  };
 
 
   &_small {
     font-size: 46px;
     @include slg{
       font-size: 40px;
+    };
+    @include sm{
+      font-size: 24px;
+    };
+    @include xs{
+      font-size: 22px;
     };
 
 
@@ -38,6 +47,9 @@
       @include slg{
         margin-right: 10px;
       };
+      @include xs{
+        margin-left: 35px;
+      };
     }
   }
 
@@ -45,6 +57,10 @@
     .title__text_small {
       margin-left: 60px;
       margin-right: 20px;
+      @include xs{
+        margin-left: 25px;
+        margin-right: 10px;
+      };
     }
   }
 
@@ -84,6 +100,11 @@
       margin-top: 8px;
       margin-right: 20px;
       margin-left: 140px;
+      @include xs{
+        margin-left: 60px;
+        margin-right: 8px;
+        margin-top: 6px;
+      };
     }
   }
 }
@@ -106,6 +127,9 @@
     };
     @include lg{
       font-size: 260px;
+    };
+    @include sm{
+      display: none;
     };
   }
 
@@ -130,6 +154,11 @@
   cursor: pointer;
   @include lg{
     height: 40px;
+  };
+  @include sm{
+    height: auto;
+    width: auto;
+    padding: 8px 15px;
   };
 
   &:hover {
@@ -157,6 +186,11 @@
     @include lg{
       font-size: 13px;
     };
+    @include sm{
+      font-size: 11px;
+      text-align: center;
+    };
+
   }
 
   &__lines {
@@ -240,6 +274,11 @@
     height: 45px;
     width: 320px;
   };
+  @include sm{
+    height: auto;
+    width: auto;
+    padding: 8px 15px;
+  };
 
   &:hover {
     .btn3__title {
@@ -269,6 +308,10 @@
     transition: .4s;
     @include lg{
       font-size: 13px;
+    };
+    @include sm{
+      font-size: 11px;
+      text-align: center;
     };
   }
 
@@ -357,6 +400,15 @@
   @include slg{
     margin: 0;
   };
+  @include sm{
+    padding: 0 5px;
+  };
+  @include xs{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+  };
 
   &_top {
     .menu__item {
@@ -366,6 +418,19 @@
       @include lg{
         padding-top: 30px;
       };
+      @include sm{
+        padding-top: 15px;
+      };
+      @include xs{
+        padding-top: 0;
+        margin-bottom: 7px;
+      };
+
+      &:last-child{
+        @include xs {;
+          margin-bottom: 0;
+        }
+      }
 
       &:after {
         transform: rotate(-180deg);
@@ -388,6 +453,9 @@
     @include xlg{
       padding-bottom: vh(50);
     };
+    @include sm{
+      padding-top: 15px;
+    };
 
     &:hover {
       .menu__item-title {
@@ -404,6 +472,9 @@
       top: 0;
       bottom: 0;
       background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+      @include sm{
+        display: none;
+      };
     }
 
     &:before {
@@ -416,6 +487,9 @@
       position: absolute;
       right: -2px;
       top: 7px;
+      @include sm{
+        display: none;
+      };
 
     }
 
@@ -441,6 +515,13 @@
       };
       @include slg{
         font-size: 14px;
+      };
+      @include sm{
+        font-size: 10px;
+      };
+      @include xs{
+        font-size: 11px;
+        text-transform: none;
       };
     }
 
@@ -673,6 +754,9 @@
   opacity: 0.5;
   font-size: 19px;
   transition: .4s;
+  @include sm{
+    font-size: 17px;
+  };
 
   &:hover {
     opacity: 1;
@@ -743,6 +827,9 @@
       @include slg{
         right: calc(100% - 17px);
       };
+      @include sm{
+        right: calc(100% - 8px);
+      };
     }
 
     .figure__block3 {
@@ -755,6 +842,9 @@
       transition: 1.5s;
       @include slg{
         left: calc(100% + 17px);
+      };
+      @include sm{
+        left: calc(100% + 8px);
       };
     }
   }
@@ -1147,8 +1237,10 @@
     margin-left: -15px;
     margin-bottom: vh(30);
     position: relative;
-
-
+    @include sm{
+      margin-left: -5px;
+      margin-right: -5px;
+    };
 
     &_2 {
       margin-bottom: 0;
@@ -1202,9 +1294,25 @@
     width: calc(100% / 3 - 30px);
     margin-right: 15px;
     margin-left: 15px;
+    @include sm{
+      width: calc(100% / 3 - 10px);
+      margin-right: 5px;
+      margin-left: 5px;
+    };
+    @include xs{
+      width: calc(100% / 1 - 10px);
+      margin-bottom: 10px;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    };
 
     &_3 {
       width: calc(100% / 1 - 30px);
+      @include sm{
+        width: calc(100% / 1 - 10px);
+      };
     }
   }
 
@@ -1222,10 +1330,16 @@
 
     .btn {
       width: 375px;
+      @include sm{
+        width: auto;
+      };
 
       &__title {
         font-size: 13px;
         letter-spacing: 1.67px;
+        @include sm{
+          font-size: 11px;
+        };
       }
     }
 
@@ -1239,6 +1353,16 @@
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 1.67px;
+      @include lg{
+        font-size: 15px;
+        padding: 10px;
+        height: auto;
+        width: auto;
+      };
+      @include sm{
+        font-size: 13px;
+        padding: 5px 10px;
+      };
     }
 
     &.disabled{
@@ -1263,6 +1387,9 @@
       font-size: 11px;
       padding: 12px 15px;
     };
+    @include sm{
+      padding: 8px 15px;
+    };
 
   }
 }
@@ -1286,6 +1413,10 @@
     padding: 10px;
     height: auto;
   };
+  @include sm{
+    font-size: 13px;
+    padding: 5px 10px;
+  };
 
   &::placeholder {
     color: rgba($text, .3);
@@ -1295,6 +1426,9 @@
   &_area {
     height: 121px;
     resize: none;
+    @include sm{
+      height: 80px;
+    };
   }
 
   &.error {
@@ -1420,6 +1554,9 @@
     align-items: center;
     margin-right: 9px;
     transition: .4s;
+    @include sm{
+      font-size: 9px;
+    };
 
     &:last-child {
       margin-right: 0;
@@ -1471,6 +1608,12 @@
     height: 40px;
     padding: 10px;
   };
+  @include sm{
+    height: auto;
+    padding: 5px 10px;
+    padding-right: 20px;
+    font-size: 13px;
+  };
 
 
   &.input-active {
@@ -1487,6 +1630,9 @@
   font-weight: 300;
   @include lg{
     font-size: 15px;
+  };
+  @include sm{
+    font-size: 13px;
   };
 }
 
@@ -1524,6 +1670,9 @@
 
 .selectize-dropdown .option {
   padding: 14px;
+  @include sm{
+    padding: 8px 10px;
+  };
 }
 
 .selectize-control.single .selectize-input:after {
@@ -1532,6 +1681,9 @@
   background: url("../images/icons/select-arrow.png");
   border: none;
   transition: .3s;
+  @include sm{
+    right: 5px;
+  };
 }
 
 .selectize-control.single .selectize-input.dropdown-active:after {
@@ -1672,4 +1824,8 @@ input:-webkit-autofill {
       height: 15%;
     }
   }
+}
+
+.noScroll {
+  overflow: hidden;
 }

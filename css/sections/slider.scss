@@ -23,6 +23,9 @@
   box-sizing: border-box;
   position: relative;
   height: auto;
+  @include sm{
+    padding: 30px 20px;
+  };
 
   &__img {
     height: 45px;
@@ -61,10 +64,16 @@
       font-size: 30px;
       font-weight: 700;
       margin-right: 45px;
+      @include xs{
+        font-size: 21px;
+      };
     }
     &-valTo {
       font-size: 30px;
       font-weight: 700;
+      @include xs{
+        font-size: 21px;
+      };
     }
   }
 
@@ -92,10 +101,16 @@
       font-size: 30px;
       font-weight: 700;
       margin-right: 40px;
+      @include xs{
+        font-size: 21px;
+      };
     }
     &-valTo {
       font-size: 30px;
       font-weight: 700;
+      @include xs{
+        font-size: 21px;
+      };
     }
   }
 
@@ -120,6 +135,14 @@
       @include xlg{
         left: initial;
         right: 60px;
+      };
+      @include sm{
+        top: 80px;
+        right: 30px;
+      };
+      @include xs{
+        top: 90px;
+        right: 25px;
       };
     }
 
@@ -172,6 +195,9 @@
     padding: 30px;
     //padding-right: 60px;
     //padding-bottom: 90px;
+  };
+  @include xs{
+    padding: 15px;
   };
 
   &__img {

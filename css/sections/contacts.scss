@@ -9,6 +9,9 @@
     background-size: cover;
     background-position: right 0;
   };
+  @include xs{
+    background-position: 0 0;
+  };
 
   &-first {
     display: flex;
@@ -24,6 +27,12 @@
     @include md{
       padding: 190px 30px 0 0;
     };
+    @include sm{
+      padding: 180px 15px 0 15px;
+    };
+    @include xs{
+      padding: 20px 15px 0 15px;
+    };
 
     &__addr {
       font-size: 50px;
@@ -35,6 +44,10 @@
       @include md{
         font-size: 24px;
         margin-bottom: 10px;
+      };
+      @include sm{
+        font-size: 19px;
+        text-align: center;
       };
     }
 
@@ -51,6 +64,11 @@
       @include md{
         padding-bottom: 15px;
         margin-bottom: 15px;
+      };
+      @include xs{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
       };
 
       &:after {
@@ -79,6 +97,13 @@
       @include md{
         font-size: 18px;
       };
+      @include sm{
+        margin-right: 10px;
+        font-size: 13px;
+      };
+      @include xs{
+        margin-bottom: 5px;
+      };
 
       &:last-child {
         margin-right: 0;
@@ -92,6 +117,12 @@
         content: '/';
         margin-left: 25px;
         color: #ffb900;
+        @include sm{
+          margin-left: 10px;
+        };
+        @include xs{
+          display: none;
+        };
       }
     }
 
@@ -99,15 +130,32 @@
       display: flex;
       flex-wrap: wrap;
       margin-bottom: 50px;
+      @include sm{
+        margin-bottom: 25px;
+      };
+      @include xs{
+        flex-direction: column;
+        align-items: center;
+      };
     }
 
     &__pin {
       display: flex;
       align-items: center;
       margin-right: 80px;
+      @include sm{
+        margin-right: 10px;
+      };
+      @include xs{
+        margin-bottom: 8px;
+        margin-right: 0;
+      };
 
       &:last-child {
         margin-right: 0;
+        @include xs{
+          margin-bottom: 0;
+        };
       }
 
       &-svg {
@@ -119,6 +167,10 @@
           width: 18px;
           height: 18px;
         };
+        @include sm{
+          width: 13px;
+          height: 13px;
+        };
       }
       &-title {
         color: $text;
@@ -127,6 +179,9 @@
         font-weight: 300;
         @include md{
           font-size: 15px;
+        };
+        @include sm{
+          font-size: 13px;
         };
       }
     }
@@ -156,6 +211,12 @@
       text-transform: uppercase;
       display: block;
       margin: 0 auto;
+      @include sm{
+        font-size: 11px;
+        width: auto;
+        height: auto;
+        padding: 8px 10px;
+      };
     }
 
     &__map {
@@ -194,6 +255,9 @@
           @include md{
             height: 450px;
           };
+          @include sm{
+            height: 300px;
+          };
         }
       }
     }
@@ -219,6 +283,10 @@
       @include xlg{
         right: 30px;
       };
+      @include sm{
+        width: 40px;
+        height: 40px;
+      };
 
       &:after,&:before {
         content: '';
@@ -231,6 +299,10 @@
         left: 50%;
         margin-left: -17.5px;
         background-color: $text;
+        @include sm{
+          width: 26px;
+          margin-left: -13px;
+        };
       }
       &:after {
         transform: rotate(45deg);

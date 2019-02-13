@@ -16,7 +16,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Svda</a>
                         </div>
@@ -51,13 +51,13 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка сайта «Каталог»  с уникальным дизайном, с  адаптивной версией для корректного отображения на всех устройствах
+                        Разработка сайта в корпоративных цветах компании с презентацией услуг.
                     </div>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Качественная отделка балконов с калькулятором, с примерами работ и со списком услуг и  ценами
+                        За основу взяли брендбук компании и разработали сайт с учётом требования заказчика
                     </div>
                     <!-- END subtitle -->
 
@@ -209,8 +209,8 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобные карточки с иконками
-                                        и кратким описанием
+                                        Основные услуги с детальным описание при наведении
+                                        
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -219,7 +219,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Эксклюзивные иконки
+                                        Иконки собственного производства в векторном формате для сайта буклетов и другой продукции фирмы  
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -227,15 +227,15 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Удобный функционал для чтения отзывов
+                                        Визуально удобный для восприятия отзывы с удобным функционалом редактирования.
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">карта
+                                    <div class="port-proj__item-title">карта сайта
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Карта с эффектом
+                                        Динамическая карта в цвете сайта
                                     </div>
                                 </div>
                             </div>
@@ -283,11 +283,11 @@
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">
-                                        форма захвата
+                                        Список услуг
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Список предоставляемых услуг с использованием иконок
+                                        Полный перечень услуг с детальным описанием
                                     </div>
                                 </div>
                             </div>
@@ -333,11 +333,11 @@
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">
-                                        форма захвата
+                                        Детальное опиание
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Можно связаться с менеджером и задать интересующие вопросы
+                                        В раздел с услугами разместили карту с удалённостью склада, фотогалереей для каждого склада отдельно и описание услуги.
                                     </div>
                                 </div>
                             </div>
@@ -360,11 +360,11 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Чумак Ирина</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Подольский Валентин</div>
+                                <div class="port-team__item-title">Малютина Мила</div>
                                 <div class="port-team__item-prof">Дизайнер</div>
                             </div>
                             <div class="port-team__item">
@@ -403,9 +403,15 @@
                         <div class="bottom__send">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
-                        <div class="bottom__why">
-                            <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/why.php' ?>
-                        </div>
+<div class="why">
+    <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
+    <div class="why__title">Работаем на результат</div>
+    <div class="why__content">
+        <p>Для нас важно создать проект и привести его в идеально состояние. Мы заинтересованы создавать те проекты, которые нам не стыдно показать. К сожалению, в некоторых проектах мы не можем проявлять свой талант и креативный подход в полном объеме, так как отталкиваемся от жёстких требований заказчиков по цвету, расположению элементов на странице, 
+		эффектов и размещению информации. Обращаясь к нам, вы получаете команду специалистов с большим опытом работы. Для нас нет невыполнимых задач, мы возьмемся за самые смелые ваши идеи и доведём их до финального этапа.</p>
+		<br>
+	</div>
+</div>
                         <div class="bottom__footer">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>

@@ -7,6 +7,13 @@
     background-position: right -100px;
     padding-top: 300px;
   };
+  @include sm{
+    background-position: 0 0;
+    padding-top: 40px;
+  };
+  @include xs{
+    padding-top: 20px;
+  };
 
   &__title {
     font-size: 191px;
@@ -37,6 +44,11 @@
       padding: 20px 15px 20px 15px;
       margin-bottom: 40px;
     };
+    @include sm{
+      padding: 20px 15px;
+      margin: 0 -15px;
+      margin-bottom: 30px;
+    };
 
 
     &:after, &:before {
@@ -62,6 +74,11 @@
       font-size: 16px;
       margin-bottom: 15px;
       padding: 0 20px;
+      @include sm{
+        font-size: 14px;
+        padding: 0 10px;
+        margin-bottom: 10px;
+      };
     }
 
     &__count {
@@ -79,6 +96,9 @@
     @include slg{
       padding: 0 50px 35px 50px;
     };
+    @include sm{
+      padding: 0 15px 25px 15px;
+    };
   }
 
   &-send {
@@ -91,6 +111,9 @@
     background: none;
     //background: url("../images/bg/newsBg.jpg") 0 bottom no-repeat;
     padding-top: 130px;
+    @include sm{
+      padding-top: 50px;
+    };
   }
 }
 

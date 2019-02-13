@@ -7,7 +7,7 @@
             sw: '.smm-str__sw',
             tab: '.smm-str__tab',
             scrollbar: false
-        });
+        }).init();
     }
 
     $('.scrollTo').on('click', function (e) {

@@ -8,7 +8,7 @@
             line: '.rek-price__subline',
             tab: '.rek-price__tab',
             autoWidth: true
-        });
+        }).init();
     }
 
     let checboxes = document.querySelectorAll('.rek-bud__check-input');

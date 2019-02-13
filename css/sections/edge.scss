@@ -7,7 +7,7 @@
     padding: 40px 40px;
   };
   @include smd{
-    padding: 15px 20px;
+    padding: 20px 15px;
   };
 
   &__title {
@@ -15,6 +15,10 @@
     font-size: 40px;
     text-align: center;
     margin-bottom: 35px;
+    @include sm{
+      font-size: 32px;
+      margin-bottom: 15px;
+    };
   }
 
   &__list {
@@ -27,12 +31,24 @@
     padding-top: 60px;
     padding-bottom: 80px;
     margin-bottom: 80px;
+    @include sm{
+      background: none;
+      padding: 0;
+      margin-bottom: 30px;
+    };
   }
 
   &__row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 65px;
+    @include sm{
+      margin-bottom: 20px;
+      margin-left: -15px;
+      margin-right: -15px;
+      justify-content: initial;
+    };
 
     &:last-child {
       margin-bottom: 0;
@@ -42,6 +58,20 @@
   &__item {
     width: 25%;
     display: flex;
+    @include sm{
+      width: 50%;
+      padding: 0 15px;
+      justify-content: center;
+      align-items: center;
+    };
+    @include xs{
+      width: 100%;
+      margin-bottom: 15px;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    };
 
 
     
@@ -86,6 +116,7 @@
     
   }
 
+
   &__img {
     width: 36px;
     display: flex;
@@ -98,6 +129,11 @@
     left: 0;
     top: 0;
     bottom: 0;
+    @include sm{
+      position: static;
+      order: -1;
+      margin: 0;
+    };
   }
 
   &__svg {
@@ -118,10 +154,22 @@
     @include xlg{
       font-size: 18px;
     };
+    @include sm{
+      padding-left: 0;
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 17px;
+      text-align: center;
+    };
   }
 
   &__arrow {
     margin-left: 51px;
+    @include sm{
+      display: none;
+    };
   }
 
   &__content {
@@ -140,6 +188,11 @@
 
       padding: 0 30px;
     };
+    @include sm{
+      margin-right: -15px;
+      margin-left: -15px;
+      padding: 0;
+    };
   }
 
   &__col {
@@ -153,6 +206,17 @@
       width: calc(50% - 60px);
       margin-left: 30px;
       margin-right: 30px;
+    };
+    @include sm{
+      width: calc(100% - 30px);
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: center;
+      margin-bottom: 15px;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
     };
   }
 

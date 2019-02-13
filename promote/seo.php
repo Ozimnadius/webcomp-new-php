@@ -154,19 +154,42 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#d4003c">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat1.png"></div>
+                                    <div class="swiper-slide slide" style="background:#efbf0d">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat4.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
-                                                <div class="slide__order-valFrom">640</div>
-                                                <div class="slide__order-valTo">3890</div>
+                                                <div class="slide__order-valFrom">140</div>
+                                                <div class="slide__order-valTo">2497</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
-                                                <div class="slide__search-valFrom">12 %</div>
+                                                <div class="slide__search-valFrom">8 %</div>
+                                                <div class="slide__search-valTo">52 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide" style="background:#4abe76">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat5.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">512</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
                                                 <div class="slide__search-valTo">79 %</div>
                                             </div>
                                         </div>
@@ -177,20 +200,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#4369dc">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat2.png"></div>
+                                    <div class="swiper-slide slide" style="background:#bebebe">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat6.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
-                                                <div class="slide__order-valFrom">437</div>
-                                                <div class="slide__order-valTo">2413</div>
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">1427</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
-                                                <div class="slide__search-valFrom">8 %</div>
-                                                <div class="slide__search-valTo">89 %</div>
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">78 %</div>
                                             </div>
                                         </div>
                                         <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
@@ -200,20 +223,43 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide" style="background:#401d62">
-                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat3.png"></div>
+									<div class="swiper-slide slide" style="background:#bd1c3c">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat7.png"></div>
                                         <div class="slide__order">
                                             <div class="slide__order-name">Заявки на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">0</div>
-                                                <div class="slide__order-valTo">2317</div>
+                                                <div class="slide__order-valTo">470</div>
                                             </div>
                                         </div>
                                         <div class="slide__search">
                                             <div class="slide__search-name">Видимость в поиске</div>
                                             <div class="slide__search-val">
                                                 <div class="slide__search-valFrom">0 %</div>
-                                                <div class="slide__search-valTo">72 %</div>
+                                                <div class="slide__search-valTo">81 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="swiper-slide slide" style="background:#c37ec3">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat8.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">940</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">54 %</div>
                                             </div>
                                         </div>
                                         <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
@@ -543,19 +589,23 @@
 								<ul>
                                     <li>Ценовая политика. Стоимость CEO-продвижения сайта в топ (с ценами в рублях можно ознакомиться в соответствующем разделе) адекватна текущим рыночным реалиям. Мы ориентируемся на сотрудничество с широкой аудиторией, а не на редких и случайных клиентов. Все расходы и затраты минимизируются, необходимый бюджет высчитывается заранее (еще на этапе формирования ТЗ), расчет (оплата) производится в удобном клиенту формате.</li>
                                     <li>Современные решения. Мы учитываем последние инновации и кропотливо отслеживаем все изменения в сфере SEO-продвижения. Оттого вы можете быть уверены, что последнее будет происходить сообразно текущей ситуации (например, современным алгоритмам Яндекса).</li>
+                                </ul>
+								<ul>
                                     <li>Специалисты. Мы кропотливо относимся к отбору специалистов: в фирме работают только те люди, которые обладают широкими теоретическими познаниями и реальными практическими навыками в сфере комплексного SEO-продвижения.</li>
                                     <li>Оперативность. Высокое качество не исключает скорость: мы работаем настолько оперативно, насколько это возможно без ущерба результату. Постоянно поддерживаем связь с клиентом и быстро реагируем на изменения в поисковой выдаче.</li>
-                                </ul>                                
+                                </ul>		
 								<h2>Этапы работы</h2>
 								<p>Выделим несколько главных этапов SEO-продвижение ресурса в интернете:</p>
 
 								<ul>
                                     <li>Маркетинговая аналитика. Вне зависимости от тематической ориентации на рынке найдутся конкурирующие организации. Оттого в первую очередь проводятся оценка и аудит, в ходе которых проводится анализ текущих позиций, достижений ресурса и его тематического ядра на тематическую сообразность. Принимаются во внимание сайты, которые являются лидерами, учитываются их сильные стороны. На основе анализа всех факторов составляется примерная структура (план по созданию целевых разделов), проводится SEO-аудит, оцениваются техническая и системная составляющая. Формируется точное и подробное техническое задание.</li>
                                     <li>Формирование структуры сайта. Без расширенной структуры тяжело будет зайти в продвижении далеко. При ее формировании учитывается широта товарного ряда, сайты конкурентов, основные группы запросов в поисковых системах.</li>
-                                    <li>Семантическое ядро. Конструирование семантического ядра — важнейший этап. Формируются структурные особенности ресурсов, создаются метатеги для продвигаемых страничек, строится контент-план и пишется ТЗ на статьи, производится настройка релевантности, создаются условия для внутренней перелинковки и внешнего оптимизирования.</li>
-                                    <li>Технические правки. С учётом результатов, которые клиент уже получил, выявляются новые стороны развития — технические тонкости, которые корректируются нашими сотрудниками с учётом изменений алгоритмов. Примеры: оптимизирование скорости загрузки страничек, отслеживание ЧПУ и при необходимости изменение, регулировка корректности работы сайта, определение релевантных страниц поиском.</li>
-
+								</ul>
+								<ul>
+									<li>Семантическое ядро. Конструирование семантического ядра — важнейший этап. Формируются структурные особенности ресурсов, создаются метатеги для продвигаемых страничек, строится контент-план и пишется ТЗ на статьи, производится настройка релевантности, создаются условия для внутренней перелинковки и внешнего оптимизирования.</li>
+									<li>Технические правки. С учётом результатов, которые клиент уже получил, выявляются новые стороны развития — технические тонкости, которые корректируются нашими сотрудниками с учётом изменений алгоритмов. Примеры: оптимизирование скорости загрузки страничек, отслеживание ЧПУ и при необходимости изменение, регулировка корректности работы сайта, определение релевантных страниц поиском.</li>
                                 </ul>
+								
                                     <p></p>
 									<p>Прежде, чем заказывать услуги по SEO-продвижению, вы всегда можете уточнить необходимые вопросы по телефону, указанному в верхней части сайта. Со своей стороны в качестве заключения заметим, что гарантией результата выступают многочисленные положительные отзывы тех клиентов, проекты которых уже были реализованы нашей студией.
 Будем рады сотрудничеству!

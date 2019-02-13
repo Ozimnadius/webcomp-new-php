@@ -16,7 +16,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Bosh</a>
                         </div>
@@ -51,7 +51,7 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка интернет магазина с уникальным дизайном, с  адаптивной версией для корректного отображения на всех устройствах
+                        Разработка интернет-магазина в корпоративных цветах компании BOSСH, с адаптивной версией для корректного отображения на всех устройствах
                     </div>
                     <!-- END title -->
 
@@ -205,13 +205,13 @@
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
                                     <div class="port-proj__item-title">
-                                        уникальный дизайн
-                                        баннеров
+                                        Продуманная структура и юзабилити
+                                        
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Разработка уникального дизайна баннеров, для каждой посадочной
-                                        страницы
+                                        Разработка удобной структуры с акцентами на акции с автоматическим перерасчётом актуальных цен
+                                        
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -220,7 +220,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Лидеры продаж, удобная карточка на каторой отабражена модель, цена и статус товара, с возвожностью добавления в понравившиеся или в сравнение
+                                        Лидеры продаж, удобная карточка на которой отображена модель, цена и статус товара, с возвожностью добавления в понравившиеся или в сравнение. Весь товар синхронизируется с остатками на складе.
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -228,7 +228,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Краткие превьюшки статей с возможностью перехода на отдельную страницу «статьи» для более подробного ознакомления
+                                        Полезные информационные материалы для привличения трафика по информационным запросам
                                     </div>
                                 </div>
                             </div>
@@ -246,7 +246,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Адрес и контакты организации с обратным звонком
+                                        Адрес и контакты организации с обратным звонком и популярными разделами
                                     </div>
                                 </div>
                             </div>
@@ -348,7 +348,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Характиеристика, описание и отзывы о товаре
+                                        Подробная карточка товара с характеристиками которые учавствуют в общем фильтре. Автоматическая подгрузка акциий к товару.
                                     </div>
                                 </div>
                             </div>
@@ -400,7 +400,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Отображена модель, название, цена, возможность добавлять количество товара, так же удалить из корзины полностью
+                                        При оформлении заказа из корзина, во внутренню црм сразу поступает информация о товаре и условиях которые выбрал клиент. Это ускоряет поиск товара и обработку заказа.
                                     </div>
                                 </div>
                             </div>
@@ -495,11 +495,11 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Чумак Ирина</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Подольский Валентин</div>
+                                <div class="port-team__item-title">Аристархова Зинаида</div>
                                 <div class="port-team__item-prof">Дизайнер</div>
                             </div>
                             <div class="port-team__item">
@@ -509,7 +509,7 @@
                         </div>
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Абрамов Андрей</div>
+                                <div class="port-team__item-title">Соловьев Михаил</div>
                                 <div class="port-team__item-prof">Back-end разработчик</div>
                             </div>
                             <div class="port-team__item">
@@ -519,11 +519,11 @@
                         </div>
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Поддубная мария</div>
+                                <div class="port-team__item-title">Скороходова Анна</div>
                                 <div class="port-team__item-prof">Контент менеджер</div>
                             </div>
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Рябова Наталья</div>
+                                <div class="port-team__item-title">Федоров Юрий</div>
                                 <div class="port-team__item-prof">Маркетолог</div>
                             </div>
                         </div>
@@ -538,9 +538,15 @@
                         <div class="bottom__send">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
-                        <div class="bottom__why">
-                            <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/why.php' ?>
-                        </div>
+<div class="why">
+    <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
+    <div class="why__title">Работаем на результат</div>
+    <div class="why__content">
+        <p>Для нас важно создать проект и привести его в идеально состояние. Мы заинтересованы создавать те проекты, которые нам не стыдно показать. К сожалению, в некоторых проектах мы не можем проявлять свой талант и креативный подход в полном объеме, так как отталкиваемся от жёстких требований заказчиков по цвету, расположению элементов на странице, 
+		эффектов и размещению информации. Обращаясь к нам, вы получаете команду специалистов с большим опытом работы. Для нас нет невыполнимых задач, мы возьмемся за самые смелые ваши идеи и доведём их до финального этапа.</p>
+		<br>
+	</div>
+</div>
                         <div class="bottom__footer">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>

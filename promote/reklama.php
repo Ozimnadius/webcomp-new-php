@@ -16,7 +16,7 @@
                     <div class="rek-first__title">Контекстная реклама</div>
                     <div class="rek-first__subtitle">Настройка рекламы сегодня — горячие клиенты завтра</div>
                     <div class="rek-first__middle">
-                        <div class="rek-first__left"></div><a class="rek-first__item" href="./">
+                        <div class="rek-first__left"><a class="rek-first__item" href="./">
                             <div class="rek-first__item-title">Яндекс директ</div>
                             <div class="rek-first__item-arrow">
                                 <div class="arrow_prev arrow">
@@ -30,6 +30,7 @@
                                 </svg>
                                 <div class="rek-first__item-text"><span class="rek-first__item-val">59</span><span class="rek-first__item-type"> млн.</span></div>
                             </div></a>
+                        </div>
                         <div class="rek-first__img"><img class="rek-first__img-img" src="/images/content/rek/rekFirst.png"></div>
                         <div class="rek-first__right"><a class="rek-first__item" href="./">
                                 <div class="rek-first__item-title">Google Advance</div>

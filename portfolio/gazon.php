@@ -16,9 +16,9 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайта</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
-                            <a class="bread__item active">VipGazon.ru</a>
+                            <a class="bread__item active">VipGazon</a>
                         </div>
                     </div>
 
@@ -55,13 +55,13 @@
 
                     <!-- title -->
                     <div class="port-desc__title">
-                        Разработка сайта «Каталог» с уникальным дизайном, с  адаптивной версией для корректного отображения на всех устройствах
+                        Разработка корпоративного сайта с каталогом товара, адаптивной версией для корректного отображения на всех устройствах
                     </div>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        Продажа рулонного газона
+                        Дополнительно были оформленны разделы по техническому заданию заказчика
                     </div>
                     <!-- END subtitle -->
 
@@ -94,7 +94,7 @@
                         </div>
                         <div class="port-desc__item number">
                             <div class="port-desc__item-title">
-                                <span class="number__val port-desc__item-val" data-from="0" data-to="26">
+                                <span class="number__val port-desc__item-val" data-from="0" data-to="31">
                                     0
                                 </span>
                                 <span class="port-desc__item-type"> дней</span>
@@ -206,7 +206,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Превью услуг, красиво оформлены тематическими фотографиями
+                                        Превью основных услуг с нарисованными баннерами
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -214,7 +214,7 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Выполненные проекты
+                                        Примеры выполненных проеков с детальной карточкой по каждому проекту
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -270,11 +270,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">виды услуг
+                                    <div class="port-proj__item-title">Каталог продукции
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Список услуг с возможностью перехода на неё
+                                        Разделы продукции с переходом в детальное описание
                                     </div>
                                 </div>
                             </div>
@@ -322,11 +322,11 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">таблица цен
+                                    <div class="port-proj__item-title">Детальное описание
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Соотношение площади равана итогой цене
+                                        Оформление детальной страницы услуги с размещением цен, баннеров, видео, отзывами клиентов.
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
@@ -334,15 +334,15 @@
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Можно посмотреть видео
+                                        Интерактив видео для тех кто не любит читать
                                     </div>
                                 </div>
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">заметка
+                                    <div class="port-proj__item-title">Важная информация
                                         <div class="port-proj__item-line"></div>
                                     </div>
                                     <div class="port-proj__item-desc">
-                                        Информация об оплате и стоимости
+                                        Рекомендации по использованию услуги
                                     </div>
                                 </div>
                             </div>
@@ -387,7 +387,19 @@
 
                         <!-- block 2 -->
                         <div class="port-proj__block">
+							<!-- list -->
+                            <div class="port-proj__list">
+                                <div class="port-proj__item">
+                                    <div class="port-proj__item-title">Цены разбиты на разделы
+                                        <div class="port-proj__item-line"></div>
+                                    </div>
+                                    <div class="port-proj__item-desc">
+										Для лучшей навигации цены сортированы по разделам и вынесены в левое меню
+                                    </div>
+                                </div>
 
+                            </div>
+                            <!-- END list -->
                         </div>
                         <!-- END block 2 -->
 
@@ -491,7 +503,7 @@
                     <div class="port-team__list">
                         <div class="port-team__col">
                             <div class="port-team__item">
-                                <div class="port-team__item-title">Иванов иван</div>
+                                <div class="port-team__item-title">Фёдоров Юрий</div>
                                 <div class="port-team__item-prof">Менеджер проекта</div>
                             </div>
                             <div class="port-team__item">
@@ -534,9 +546,15 @@
                         <div class="bottom__send">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
-                        <div class="bottom__why">
-                            <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/why.php' ?>
-                        </div>
+<div class="why">
+    <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
+    <div class="why__title">Работаем на результат</div>
+    <div class="why__content">
+        <p>Для нас важно создать проект и привести его в идеально состояние. Мы заинтересованы создавать те проекты, которые нам не стыдно показать. К сожалению, в некоторых проектах мы не можем проявлять свой талант и креативный подход в полном объеме, так как отталкиваемся от жёстких требований заказчиков по цвету, расположению элементов на странице, 
+		эффектов и размещению информации. Обращаясь к нам, вы получаете команду специалистов с большим опытом работы. Для нас нет невыполнимых задач, мы возьмемся за самые смелые ваши идеи и доведём их до финального этапа.</p>
+		<br>
+	</div>
+</div>
                         <div class="bottom__footer">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>

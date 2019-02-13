@@ -14,6 +14,9 @@
     @include lg{
       font-size: 46px;
     };
+    @include sm{
+      font-size: 24px;
+    };
   }
 
   &__sub {
@@ -29,6 +32,9 @@
     @include lg{
       font-size: 21px;
       margin-bottom: 20px;
+    };
+    @include sm{
+      font-size: 17px;
     };
   }
 

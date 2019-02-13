@@ -11,12 +11,12 @@
                         <div class="bread">
                             <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/promote.php">Продвижение</a>
-                            <a class="bread__item" href="/promote/seo.php">SEO</a>
-                            <a class="bread__item active">С оплатой за результат</a>
+                            <a class="bread__item" href="/promote/seo.php">По тематике</a>
+                            <a class="bread__item active">Фармацевтика</a>
                         </div>
                     </div>
-                    <div class="seo-first__title">SEO продвижение<br>с оплатой за результат</div>
-                    <div class="seo-first__subtitle">Продвигаем бесплатно пока сайт<br>не выйдет в ТОП</div>
+                    <div class="seo-first__title">Продвижение сайта фармацевтических компаний<br>с оплатой за результат</div>
+                    <div class="seo-first__subtitle">после 3-го месяца продвигаем бесплатно<br>если сайт не в ТОП</div>
                     <button class="seo-first__button callorderOpen" type="button">
                         <div class="btn">
                             <div class="btn__title">Хочу увеличить продажи</div>
@@ -35,26 +35,32 @@
                     <div class="seo-desc__row">
                         <div class="seo-desc__left">
                             <div class="seo-desc__block content">
-                                <h3>Получите железные гарантии на результат</h3>
-                                <p>Выбирая вариант продвижения с оплатой за результат вы гарантированно оплачиваете только те запросы по которым ваш сайт находиться в поиске. Если по продвигаемым ключевым фразам вы не находите ваш сайт в поисковой выдаче, продвижение осуществляется абсолютно бесплатно до момента выхода вашего сайта в ТОП.</p>
-                                <p>При данном виде продвижения у нас максимальная мотивация показать в первые 3 месяца работы на сайтом ощутимый результат, так как по истечению данного срока вы оплачиваете конкретный результат. На всем протяжении работ вы получаете полную отчётность о проделанных работах и прозрачную статистику.</p>
-                            </div>
+                                <h3>Продвижение сайтов фармацевтических компаний</h3>
+                                <p>Интернет-маркетинг – одно из главных средств управления бизнесом. 
+								Продвижение фармацевтических товаров в сети увеличивает охват аудитории, 
+								повышает степень ее лояльности, рекламирует новые направления, продукты, услуги. 
+								Ставка при раскрутке делается на комфортность, солидность, информативность ресурса, 
+								при этом он должен выделяться среди конкурентов. </p>
+								</div>
+
                             <div class="seo-desc__block content">
-                                <h3>Какие результаты стоит ожидать?</h3>
-                                <p>Введу технических особенностей поисковых систем, данный вид продвижения отлично подойдёт компаниям, у которых возраст сайта превышает более одного года и другие способы продвижения оказались не эффективными. Более того такой метод позволяет существенно сэкономить деньги и избежать пустых затрат. Практика показывает, что более 50% продвигаемых запросов выходят в топ поле 3 месяца продвижения.</p>
-                            </div>
-                            <div class="seo-desc__block content">
-                                <h3>Особенности тарифного плана</h3>
+                                <h3>Основные услуги веб-студии Web-comp:</h3>
                                 <ul>
-                                    <li>Рост видимости сайта</li>
-                                    <li>Увеличение целевого трафика</li>
-                                    <li>Защита от слива бюджета</li>
-                                    <li>Прозрачная схема работы</li>
-                                    <li>Самый эффективный способ получить много заказов.</li>
-                                    <li>Точная стоимость каждого ключевого запроса</li>
-                                    <li>Тариф подходит для большинства сайтов.</li>
-                                </ul>
-                            </div>
+									<li>анализ статистики площадки, ее оценка, составление плана действий;</li>
+									<li>формирование семантического ядра;</li>
+									<li>оптимизация структурных разделов;</li>
+									<li>устранение багов;</li>
+									<li>внешнее продвижение;</li>
+									<li>отслеживание прохождения кампании.</li>
+								</ul>
+
+								<br>
+								<p>Контекстная реклама фармацевтической компании дает быстрые, но недолговременные результаты, 
+								СЕО-продвижение растянуто во времени, зато эффект вы получите надолго. Работаем с социальными сетями, 
+								стоимость раскрутки рассчитываем по результатам аудита. Заказать услуги раскрутки или узнать цену можно буквально в один клик. 
+								Гарантируем прозрачность и честность сотрудничества, работаем на основании договора. </p>
+								
+								</div>
                             <button class="seo-desc__button button button_red promotionOpen" type="button">Подобрать ключевые запросы для продвижения</button>
                         </div>
                          <div class="seo-desc__right">
@@ -287,7 +293,7 @@
                             <button class="active seo-price__switch" data-id="1"><span class="seo-price__switch-title">Тариф «Стартап»</span></button>
                             <button class="seo-price__switch" data-id="2"><span class="seo-price__switch-title">Тариф «Оптимальный»</span></button>
                             <button class="seo-price__switch" data-id="3"><span class="seo-price__switch-title">Тариф «Прорыв»</span></button>
-                            <button class="seo-price__switch" data-id="4"><span class="seo-price__switch-title">Тариф «Фикс»</span></button>
+                            <button class="seo-price__switch" data-id="4"><span class="seo-price__switch-title">Контекстная реклама</span></button>
                         </div>
                         <div class="seo-price__line">
                             <div class="seo-price__subline"></div>
@@ -475,32 +481,32 @@
                             <div class="seo-price__list">
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 20 000  знаков</div>
-                                        <div class="seo-price__item-text">Написание и размещения текстов в рамках тарифа</div>
+                                        <div class="seo-price__item-title">до 1000 запросов</div>
+                                        <div class="seo-price__item-text">Обработка целевых фраз</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">до 300</div>
-                                        <div class="seo-price__item-text">Ключевых слов в рамках одного проекта</div>
+                                        <div class="seo-price__item-title">до 500</div>
+                                        <div class="seo-price__item-text">Создание уникальных объявлений</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
-                                    <div class="seo-price__item">
-                                        <div class="seo-price__item-title">500 изображений</div>
-                                        <div class="seo-price__item-text">Оптимизация до 500 изображений на сайте</div>
-                                    </div>
                                     <div class="seo-price__item">
                                         <div class="seo-price__item-title">до 50</div>
-                                        <div class="seo-price__item-text">Кол-во продвигаемых разделов сайта</div>
+                                        <div class="seo-price__item-text">Рекламных компаний в рамках проекта</div>
+                                    </div>
+                                    <div class="seo-price__item">
+                                        <div class="seo-price__item-title">до 3000</div>
+                                        <div class="seo-price__item-text">Проработка исключающих фраз для показа</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">15 ч.</div>
+                                        <div class="seo-price__item-title">24 ч.</div>
                                         <div class="seo-price__item-text">Аналитических работ</div>
                                     </div>
                                     <div class="seo-price__item">
-                                        <div class="seo-price__item-title">86 ч.</div>
-                                        <div class="seo-price__item-text">Время SEO-специалистов</div>
+                                        <div class="seo-price__item-title">24 ч.</div>
+                                        <div class="seo-price__item-text">Пуско-наладочных работ</div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
@@ -508,24 +514,25 @@
                                         <div class="seo-price__item-title">+</div>
                                         <div class="seo-price__item-list">
                                             <div class="seo-price__item-li">Анализ конкурентов</div>
-                                            <div class="seo-price__item-li">Составление ядра запросов</div>
-                                            <div class="seo-price__item-li">Полная SEO оптимизация</div>
+                                            <div class="seo-price__item-li">Рекомендации по улучшению конверсии</div>
+                                            <div class="seo-price__item-li">Проработка околоцелевых запросов</div>
                                         </div>
                                     </div>
                                     <div class="seo-price__item">
                                         <div class="seo-price__item-title">+</div>
                                         <div class="seo-price__item-list">
-                                            <div class="seo-price__item-li">Статистика и маркетинговый план</div>
-                                            <div class="seo-price__item-li">Отчётность 2 раза в месяц</div>
+                                            <div class="seo-price__item-li">Настройка рекламных сетей</div>
+                                            <div class="seo-price__item-li">Настройка ретаргетинга</div>
+											<div class="seo-price__item-li">Отрисовка баннеров для рекламы</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="seo-price__row">
                                     <div class="seo-price__item">
-                                        <div class="seo-price__price">34 900 Р / мес</div>
+                                        <div class="seo-price__price">14 900 Р / разово</div>
                                     </div>
                                     <div class="seo-price__item seo-price__item_bottom">
-                                        <div class="seo-price__desc">После 3х месяцев оплата за результат</div>
+                                        <div class="seo-price__desc">Оптимизация и ведение 2 недели бесплатно!</div>
                                     </div>
                                 </div>
                             </div>
@@ -582,23 +589,6 @@
                         </div>
                         <div class="bottom__send">
                             <? require $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
-                        </div>
-                        <div class="bottom__why">
-                            <div class="why">
-                                <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Почему нам можно доверять?</div>
-                                <div class="why__content">
-								
-									<p>Выделим преимущества нашей компании:</p>
-									<ul>
-										<li>CEO-продвижение с оплатой за результат на сегодняшний день самый честный и прозрачный метод продвижения;</li>
-										<li>У нас как у исполнителей, есть прямая мотивация показать результат максимально быстро, чтобы получить вознаграждение;</li>
-										<li>Клиент спокоен за качество работ, так как в случае невыполнение обязательств оплата не происходит.</li>
-									</ul>
-									<p>Мы не боимся озвучивать такие условия, в связи с тем, что являемся компанией с большим опытом работы в сфере интернет-маркетинга. За несколько лет плодотворный работы мы сформировали большое число успешных кейсов, которые можем продемонстрировать. В рядах наших сотрудников люди с сертификатами Яндекс и Google, которые подтверждают квалификацию и знания. Обращайтесь в нашу компанию и получите результативное СЕО продвижение за адекватную стоимость.</p>
-
-								</div>
-                            </div>
                         </div>
                         <div class="bottom__footer">
                             <? require $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
