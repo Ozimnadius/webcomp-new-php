@@ -8,7 +8,7 @@
             <section class="rek-first">
                 <div class="container">
                     <div class="rek-first__bread">
-                        <div class="bread"><a class="bread__item" href="/">Главная</a>
+                        <div class="bread"><a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/promote.php">Продвижение</a>
                             <a class="bread__item active">Контекстная реклама</a>
                         </div>
@@ -16,7 +16,7 @@
                     <div class="rek-first__title">Контекстная реклама</div>
                     <div class="rek-first__subtitle">Настройка рекламы сегодня — горячие клиенты завтра</div>
                     <div class="rek-first__middle">
-                        <div class="rek-first__left"><a class="rek-first__item" href="./">
+                        <div class="rek-first__left"></div><a class="rek-first__item" href="/promote/reklama/yandex.php">
                             <div class="rek-first__item-title">Яндекс директ</div>
                             <div class="rek-first__item-arrow">
                                 <div class="arrow_prev arrow">
@@ -30,9 +30,8 @@
                                 </svg>
                                 <div class="rek-first__item-text"><span class="rek-first__item-val">59</span><span class="rek-first__item-type"> млн.</span></div>
                             </div></a>
-                        </div>
                         <div class="rek-first__img"><img class="rek-first__img-img" src="/images/content/rek/rekFirst.png"></div>
-                        <div class="rek-first__right"><a class="rek-first__item" href="./">
+                        <div class="rek-first__right"><a class="rek-first__item" href="/promote/reklama/google.php">
                                 <div class="rek-first__item-title">Google Advance</div>
                                 <div class="rek-first__item-arrow">
                                     <div class="arrow">
@@ -123,87 +122,198 @@
                         </div>
                     </div>
                 </section>
-                <section class="rek-slider">
-                    <div class="rek-slider__title">С нами уже работают</div>
-                    <div class="rek-slider__swiper">
-                        <div class="slider2">
-                            <div class="swiper-container slider2__container">
+                <section class="seo-cats">
+                    <div class="seo-cats__swiper">
+                        <div class="slider">
+                            <div class="swiper-container slider__container">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide slide2" style="background:#ffc000">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat1.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#d4003c">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat1.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">640</div>
+                                                <div class="slide__order-valTo">3890</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">12 %</div>
+                                                <div class="slide__search-valTo">79 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide2" style="background:#4a0163">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat2.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#4369dc">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat2.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">437</div>
+                                                <div class="slide__order-valTo">2413</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">8 %</div>
+                                                <div class="slide__search-valTo">89 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide2" style="background:#010f63">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat3.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#401d62">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat3.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">2317</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">72 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide2" style="background:#ffc000">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat1.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#efbf0d">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat4.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">140</div>
+                                                <div class="slide__order-valTo">2497</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">8 %</div>
+                                                <div class="slide__search-valTo">52 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide2" style="background:#4a0163">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat2.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#4abe76">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat5.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">512</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">79 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide2" style="background:#010f63">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat3.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#bebebe">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat6.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">1427</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">78 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="swiper-slide slide" style="background:#bd1c3c">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat7.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">470</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">81 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="swiper-slide slide" style="background:#c37ec3">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat8.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">940</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">54 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider2__scrollbar">
+                            <div class="slider__scrollbar">
                                 <div class="swiper-scrollbar"></div>
                             </div>
                         </div>
@@ -215,8 +325,8 @@
                         <div class="rek-price__switches-list">
                             <button class="active rek-price__switch" data-id="1"><span class="rek-price__switch-title">Яндекс Директ</span></button>
                             <button class="rek-price__switch" data-id="2"><span class="rek-price__switch-title">Google AdWords</span></button>
-                            <button class="rek-price__switch" data-id="3"><span class="rek-price__switch-title">Яндекс / Google</span></button>
-                            <button class="rek-price__switch" data-id="4"><span class="rek-price__switch-title">Маркетинговое исследование</span></button>
+                            <button class="rek-price__switch" data-id="3"><span class="rek-price__switch-title">Реклама товаров</span></button>
+                            <button class="rek-price__switch" data-id="4"><span class="rek-price__switch-title">Реклама на Картах</span></button>
                         </div>
                         <div class="rek-price__line">
                             <div class="rek-price__subline"></div>
@@ -227,32 +337,32 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 1 000</div>
-                                        <div class="rek-price__item-text">Обрабатываем запросов при настройке</div>
+                                        <div class="rek-price__item-price">до 1000 запросов</div>
+                                        <div class="rek-price__item-text">Обработка целевых фраз</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">1 112 городов</div>
-                                        <div class="rek-price__item-text">В которых можно разместить рекламу</div>
-                                    </div>
-                                </div>
-                                <div class="rek-price__row">
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
-                                        <div class="rek-price__item-text">За переход на сайт</div>
-                                    </div>
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">более 30</div>
-                                        <div class="rek-price__item-text">Критериев по подбору целевой аудитории</div>
+                                        <div class="rek-price__item-price">до 500</div>
+                                        <div class="rek-price__item-text">Создание уникальных объявлений</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">40 ч.</div>
-                                        <div class="rek-price__item-text">На стройка рекламной компании</div>
+                                        <div class="rek-price__item-price">до 50</div>
+                                        <div class="rek-price__item-text">Рекламных компаний в рамках проекта</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 30 ч.</div>
-                                        <div class="rek-price__item-text">Модерации рекламной компании</div>
+                                        <div class="rek-price__item-price">до 3000</div>
+                                        <div class="rek-price__item-text">Проработка исключающих фраз для показа</div>
+                                    </div>
+                                </div>
+                                <div class="rek-price__row">
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">24 ч.</div>
+                                        <div class="rek-price__item-text">Аналитических работ</div>
+                                    </div>
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">24 ч.</div>
+                                        <div class="rek-price__item-text">Пуско-наладочных работ</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
@@ -260,21 +370,25 @@
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
                                             <div class="rek-price__item-li">Анализ конкурентов</div>
-                                            <div class="rek-price__item-li">Составление ядра запросов</div>
-                                            <div class="rek-price__item-li">Полная SEO оптимизация</div>
+                                            <div class="rek-price__item-li">Рекомендации по улучшению конверсии</div>
+                                            <div class="rek-price__item-li">Проработка околоцелевых запросов</div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li">Настройка рекламных сетей</div>
+                                            <div class="rek-price__item-li">Настройка ретаргетинга</div>
+											<div class="rek-price__item-li">Отрисовка баннеров для рекламы</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__price">9 900 Р</div>
+                                        <div class="rek-price__price">14 900 Р</div>
+                                    </div>
+									<div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">Оптимизация и ведение 2 недели бесплатно!</div>
                                     </div>
                                 </div>
                             </div>
@@ -283,32 +397,32 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 1 000</div>
-                                        <div class="rek-price__item-text">Обрабатываем запросов при настройке</div>
+                                        <div class="rek-price__item-price">до 1000 запросов</div>
+                                        <div class="rek-price__item-text">Обработка целевых фраз</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">1 112 городов</div>
-                                        <div class="rek-price__item-text">В которых можно разместить рекламу</div>
-                                    </div>
-                                </div>
-                                <div class="rek-price__row">
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
-                                        <div class="rek-price__item-text">За переход на сайт</div>
-                                    </div>
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">более 30</div>
-                                        <div class="rek-price__item-text">Критериев по подбору целевой аудитории</div>
+                                        <div class="rek-price__item-price">до 500</div>
+                                        <div class="rek-price__item-text">Создание уникальных объявлений</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">40 ч.</div>
-                                        <div class="rek-price__item-text">На стройка рекламной компании</div>
+                                        <div class="rek-price__item-price">до 50</div>
+                                        <div class="rek-price__item-text">Рекламных компаний в рамках проекта</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 30 ч.</div>
-                                        <div class="rek-price__item-text">Модерации рекламной компании</div>
+                                        <div class="rek-price__item-price">до 3000</div>
+                                        <div class="rek-price__item-text">Проработка исключающих фраз для показа</div>
+                                    </div>
+                                </div>
+                                <div class="rek-price__row">
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">24 ч.</div>
+                                        <div class="rek-price__item-text">Аналитических работ</div>
+                                    </div>
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">24 ч.</div>
+                                        <div class="rek-price__item-text">Пуско-наладочных работ</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
@@ -316,21 +430,25 @@
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
                                             <div class="rek-price__item-li">Анализ конкурентов</div>
-                                            <div class="rek-price__item-li">Составление ядра запросов</div>
-                                            <div class="rek-price__item-li">Полная SEO оптимизация</div>
+                                            <div class="rek-price__item-li">Рекомендации по улучшению конверсии</div>
+                                            <div class="rek-price__item-li">Проработка широких вхождений</div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li">Настройка КМС</div>
+                                            <div class="rek-price__item-li">Настройка ретаргетинга</div>
+											<div class="rek-price__item-li">Отрисовка баннеров для рекламы</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__price">9 900 Р</div>
+                                        <div class="rek-price__price">14 900 Р</div>
+                                    </div>
+									<div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">Ведение компании 10% от рекламного бюджета</div>
                                     </div>
                                 </div>
                             </div>
@@ -339,54 +457,57 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 1 000</div>
-                                        <div class="rek-price__item-text">Обрабатываем запросов при настройке</div>
+                                        <div class="rek-price__item-price">Создание фида</div>
+                                        <div class="rek-price__item-text">Подготовка товара к загрузке в агрегатор</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">1 112 городов</div>
-                                        <div class="rek-price__item-text">В которых можно разместить рекламу</div>
-                                    </div>
-                                </div>
-                                <div class="rek-price__row">
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
-                                        <div class="rek-price__item-text">За переход на сайт</div>
-                                    </div>
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">более 30</div>
-                                        <div class="rek-price__item-text">Критериев по подбору целевой аудитории</div>
+                                        <div class="rek-price__item-price">Проверка магазина</div>
+                                        <div class="rek-price__item-text">На соответствие требований площадки</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">40 ч.</div>
-                                        <div class="rek-price__item-text">На стройка рекламной компании</div>
+                                        <div class="rek-price__item-price">Регистрация магазина</div>
+                                        <div class="rek-price__item-text">На площадке агрегатора с заполнением всех данных</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 30 ч.</div>
-                                        <div class="rek-price__item-text">Модерации рекламной компании</div>
+                                        <div class="rek-price__item-price">Модерация</div>
+                                        <div class="rek-price__item-text">Мы поможем пройти модерацию на сервисе</div>
+                                    </div>
+                                </div>
+                                <div class="rek-price__row">
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">Настройка ставок</div>
+                                        <div class="rek-price__item-text">Установим ставки для экономии средств</div>
+                                    </div>
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">Аналитика</div>
+                                        <div class="rek-price__item-text">Подключим системы аналитики и статистики</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Анализ конкурентов</div>
-                                            <div class="rek-price__item-li">Составление ядра запросов</div>
-                                            <div class="rek-price__item-li">Полная SEO оптимизация</div>
+                                            <div class="rek-price__item-li">Настройка целевых показателей</div>
+                                            <div class="rek-price__item-li">Работа со стратегией ставок</div>
+                                            <div class="rek-price__item-li">Мониторинг и устранение ошибок</div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li">Отчётность по расходу</div>
+                                            <div class="rek-price__item-li">Рекомендации по улучшению конверсий</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__price">9 900 Р</div>
+                                    </div>
+									<div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">Ведение компании 5 000 р. / мес.</div>
                                     </div>
                                 </div>
                             </div>
@@ -395,54 +516,57 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 1 000</div>
-                                        <div class="rek-price__item-text">Обрабатываем запросов при настройке</div>
+                                        <div class="rek-price__item-price">Создание организации</div>
+                                        <div class="rek-price__item-text">Заполнении карточки фирмы</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">1 112 городов</div>
-                                        <div class="rek-price__item-text">В которых можно разместить рекламу</div>
-                                    </div>
-                                </div>
-                                <div class="rek-price__row">
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
-                                        <div class="rek-price__item-text">За переход на сайт</div>
-                                    </div>
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">более 30</div>
-                                        <div class="rek-price__item-text">Критериев по подбору целевой аудитории</div>
+                                        <div class="rek-price__item-price">Платежи</div>
+                                        <div class="rek-price__item-text">Размещение платёжных реквизитов</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">40 ч.</div>
-                                        <div class="rek-price__item-text">На стройка рекламной компании</div>
+                                        <div class="rek-price__item-price">Фото и логотип</div>
+                                        <div class="rek-price__item-text">Оформление вашим логотипом или фото</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 30 ч.</div>
-                                        <div class="rek-price__item-text">Модерации рекламной компании</div>
+                                        <div class="rek-price__item-price">Добавление категорий</div>
+                                        <div class="rek-price__item-text">Добавление тематических категорий</div>
+                                    </div>
+                                </div>
+                                <div class="rek-price__row">
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">Прогноз статистики</div>
+                                        <div class="rek-price__item-text">Предоставим прогноз показов объявлений</div>
+                                    </div>
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price"></div>
+                                        <div class="rek-price__item-text"></div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Анализ конкурентов</div>
-                                            <div class="rek-price__item-li">Составление ядра запросов</div>
-                                            <div class="rek-price__item-li">Полная SEO оптимизация</div>
+                                            <div class="rek-price__item-li">Скидка на настройку контекстной рекламы 10%</div>
+                                            <div class="rek-price__item-li"></div>
+                                            <div class="rek-price__item-li"></div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">+</div>
+                                        <div class="rek-price__item-price"></div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li"></div>
+                                            <div class="rek-price__item-li"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__price">9 900 Р</div>
+                                        <div class="rek-price__price">14 900 Р / мес.</div>
+                                    </div>
+									<div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">Ведение и корректировки - бесплатно!</div>
                                     </div>
                                 </div>
                             </div>
@@ -454,19 +578,19 @@
                     <div class="rek-bud__list numbers" data-timer="2000">
                         <div class="rek-bud__item">
                             <div class="rek-bud__item-title number">
-                                <span class="rek-bud__item-val number__val" data-from="0" data-to="150">0</span><span class="rek-bud__item-type"> Р</span>
+                                <span class="rek-bud__item-val number__val" data-from="850" data-to="150">0</span><span class="rek-bud__item-type"> Р</span>
                             </div>
                             <div class="rek-bud__item-text">Средняя стоимость <br> клика</div>
                         </div>
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
-                                <span class="rek-bud__item-val number__val" data-from="0" data-to="3">0</span><span class="rek-bud__item-type"> % CTR</span>
+                                <span class="rek-bud__item-val number__val" data-from="0" data-to="15">0</span><span class="rek-bud__item-type"> % CTR</span>
                             </div>
                             <div class="rek-bud__item-text">Показатель <br> кликабельности</div>
                         </div>
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
-                                <span class="rek-bud__item-val number__val" data-from="0" data-to="45">0</span><span class="rek-bud__item-type"> % Bonus rate</span>
+                                <span class="rek-bud__item-val number__val" data-from="50" data-to="10">0</span><span class="rek-bud__item-type"> % Bonus rate</span>
                             </div>
                             <div class="rek-bud__item-text">Показатель отказа <br> поситителей</div>
                         </div>
@@ -531,11 +655,8 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Создание сайта</div>
+                                <div class="why__title">Мы просто космос</div>
                                 <div class="why__content">
-                                    <p>При разработке сайта мы учитываем многочисленные требования поисковых систем Yandex и Google, благодаря чему все сайты, созданные нами, отлично индексируются и обладают всеми возможностями эффективно продвигаться в интернете. Цена на создание сайта демократична и начинается от 49 900 руб.   Подход к каждому новому проекту – индивидуален, мы относимся одинаково внимательно к каждому клиенту, независимо от размера компании и ее бюджета. На начальной стадии работы над проектом мы детально изучаем тематику клиента со всех сторон, оцениваем рентабельность идеи и анализируем конкурентов. Основываясь на полученной информации, мы даем рекомендации, как по разработке, так и по эффективной рекламе в интернете.</p>
-                                    <p>После сдачи проекта мы осуществляем раскрутку и поддержку сайта, помогая клиенту привлекать трафик из интернета. Обращайтесь в нашу студию за разработкой веб сайтов под ключ и вы получите команду специалистов, готовых проконсультировать по любому вопросу и оказать всестороннюю поддержку вашему бизнесу во всемирной паутине.</p>
-                                    <p>Наша команда состоит из высококвалифицированных кадров, за плечами которых огромный опыт работы в веб индустрии. Несмотря на уже приобретенный опыт, мы держим руку на пульсе новых технологий и постоянно совершенствуем наработанные навыки. Таким образом, вы можете быть уверены, что при сотрудничестве с нами получите современный продукт, который будет выполнять ваши задачи и достигать поставленные цели.   Основные наши направления: создание сайтов под ключ, разработка дизайна, написание контента, продвижение сайта и его раскрутка, работа с социальными сетями, PR-рейтинг, техническая поддержка сайта, регистрация доменных имен, серверное обслуживание, программирование и настройка 1С.</p>
                                 </div>
                             </div>
                         </div>

@@ -128,7 +128,7 @@
                     <div class="port-icons__icons"><img class="port-icons__img"
                                                         src="/images/content/portfolio/icons/icons.png"></div>
                 </section>
-                <section class="port-proj" style="background: #363471;">
+                <section class="port-proj">
                     <div class="port-proj__left">
                         <div class="port-proj__img">
                             <img class="port-proj__img-img" src="/images/content/portfolio/project.jpg">

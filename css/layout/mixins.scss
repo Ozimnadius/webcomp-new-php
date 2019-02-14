@@ -222,6 +222,15 @@ $break_xs: 479px;
         font-size: 24px;
         padding-bottom: 20px;
       };
+      @include sm{
+        font-size: 13px;
+        text-align: center;
+        padding-bottom: 15px;
+      };
+      @include xs{
+        font-size: 10px;
+        padding-bottom: 10px;
+      };
     }
 
     tbody {
@@ -257,6 +266,14 @@ $break_xs: 479px;
       @include lg{
         font-size: 19px;
         padding: 15px 0;
+      };
+      @include sm{
+        font-size: 11px;
+        padding: 10px 0;
+        text-align: center;
+      };
+      @include xs{
+        font-size: 8px;
       };
     }
   }

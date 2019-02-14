@@ -15,6 +15,12 @@
     @include xlg{
       padding-top: vh(200);
     };
+    @include sm{
+      padding: 50px 15px;
+    };
+    @include sm{
+      padding: 30px 10px;
+    };
 
     &__bread {
       margin-bottom: 60px;
@@ -37,6 +43,9 @@
         font-size: 32px;
         margin-bottom: 20px;
       };
+      @include sm{
+        font-size: 24px;
+      };
     }
 
     &__subtitle {
@@ -53,6 +62,9 @@
         font-size: 24px;
         margin-bottom: 20px;
       };
+      @include sm{
+        font-size: 17px;
+      };
     }
 
     &__socials {
@@ -62,6 +74,10 @@
       @include xlg{
         padding: 0 40px;
         margin-bottom: 35px;
+      };
+      @include sm{
+        padding: 0;
+        margin-bottom: 25px;
       };
 
 
@@ -143,6 +159,9 @@
       @include xlg{
         margin-bottom: 15px;
       };
+      @include sm{
+        margin-bottom: 0;
+      };
 
       &-img {
         width: 60px;
@@ -167,6 +186,9 @@
       @include md{
         font-size: 21px;
       };
+      @include sm{
+        display: none;
+      };
     }
     &__text {
       color: rgba($text,.5);
@@ -180,10 +202,16 @@
         font-size: 12px;
         margin-bottom: 15px;
       };
+      @include sm{
+        display: none;
+      };
 
     }
     &__arrow {
       width: 175px;
+      @include sm{
+        display: none;
+      };
     }
 
     .container {
@@ -199,6 +227,7 @@
     &__list {
       display: flex;
       flex-wrap: wrap;
+
     }
 
     &__item {
@@ -215,6 +244,13 @@
       @include md{
         padding: 20px;
       };
+      @include sm{
+        padding: 15px;
+      };
+      @include xs{
+        padding: 10px 8px;
+      };
+
 
       &:after {
         content: '';
@@ -236,12 +272,22 @@
         font-size: 17px;
         margin-bottom: 15px;
       };
+      @include sm{
+        font-size: 13px;
+      };
+      @include sm{
+        font-size: 9px;
+        text-align: center;
+      };
     }
 
     &__ul {
       margin-bottom: 40px;
       @include xlg{
         margin-bottom: 25px;
+      };
+      @include xs{
+        margin-bottom: 15px;
       };
     }
 
@@ -253,6 +299,12 @@
       @include md{
         font-size: 15px;
         margin-bottom: 8px;
+      };
+      @include sm{
+        font-size: 11px;
+      };
+      @include xs{
+        font-size: 9px;
       };
 
       &:last-child {
@@ -269,6 +321,12 @@
       margin-top: auto;
       display: flex;
       justify-content: space-between;
+      @include sm{
+        flex-direction: column;
+        align-items: center;
+        justify-content: initial;
+        text-align: center;
+      };
     }
     &__price {
       font-size: 21px;
@@ -288,6 +346,9 @@
       };
       @include md{
         font-size: 12px;
+      };
+      @include sm{
+        display: none;
       };
     }
   }
@@ -317,6 +378,9 @@
         text-align: center;
         font-size: 32px;
       };
+      @include sm{
+        font-size: 24px;
+      };
     }
 
     &__row {
@@ -326,6 +390,10 @@
       @include xlg{
         margin-left: -30px;
         margin-right: -30px;
+      };
+      @include sm{
+        margin-left: -10px;
+        margin-right: -10px;
       };
     }
 
@@ -341,6 +409,11 @@
       @include md{
 
       };
+      @include sm{
+        width: calc(43% - 20px);
+        margin-right: 10px;
+        margin-left: 10px;
+      };
     }
 
     &__right {
@@ -351,6 +424,11 @@
         width: calc(60.5% - 60px);
         margin-left: 30px;
         margin-right: 30px;
+      };
+      @include sm{
+        width: calc(57% - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
       };
     }
 
@@ -379,7 +457,11 @@
         padding-left: 30px;
         margin-bottom: 15px;
       };
-
+      @include sm{
+        padding: 8px 0 8px 15px;
+        font-size: 13px;
+        margin-bottom: 0;
+      };
       &:last-child {
         margin-bottom: 0;
       }
@@ -399,6 +481,9 @@
       @include md{
         padding-right: 30px;
       };
+      @include sm{
+        padding-right: 10px;
+      };
 
       &.active {
         display: block;
@@ -407,6 +492,9 @@
 
     &__desc {
       margin-bottom: 45px;
+      @include sm{
+        margin-bottom: 30px;
+      };
       p {
         color: $bg;
         font-size: 19px;
@@ -416,6 +504,10 @@
         @include xlg{
           font-size: 16px;
           margin-bottom: 20px;
+        };
+        @include sm{
+          font-size: 13px;
+          margin-bottom: 15px;
         };
 
         &:last-child {
@@ -432,6 +524,11 @@
       margin-bottom: 50px;
       @include xlg{
         padding: 20px 0;
+      };
+      @include sm{
+        padding: 10px 0;
+        align-items: center;
+        margin-bottom: 0;
       };
 
       &:before, &:after {
@@ -453,17 +550,30 @@
 
       &-img {
         margin-right: 20px;
+        @include xs{
+          margin-right: 10px;
+        };
       }
       &-svg {
         width: 33px;
         height: 33px;
         fill: $bg;
+        @include xs{
+          width: 20px;
+          height: 20px;
+        };
       }
 
       &-text {
         color: #c70541;
         font-size: 30px;
         font-weight: 500;
+        @include sm{
+          font-size: 15px;
+        };
+        @include xs{
+          font-size: 11px;
+        };
       }
     }
 
@@ -481,6 +591,9 @@
       font-size: 13px;
       font-weight: 500;
       text-transform: uppercase;
+      @include sm{
+        display: none;
+      };
     }
 
   }
@@ -494,6 +607,9 @@
     @include md{
       padding: 30px 20px;
     };
+    @include sm{
+      padding: 30px 15px;
+    };
 
     &__title {
       font-size: 50px;
@@ -506,6 +622,11 @@
         font-size: 36px;
         padding-bottom: 15px;
         margin-bottom: 15px;
+      };
+      @include sm{
+        font-size: 24px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
       };
 
       &:after {
@@ -522,6 +643,9 @@
 
     &__sub {
       margin-bottom: 30px;
+      @include sm{
+        margin-bottom: 20px;
+      };
       &-item {
         text-align: center;
         margin-bottom: 30px;
@@ -531,6 +655,10 @@
         @include md{
           font-size: 17px;
           margin-bottom: 15px;
+        };
+        @include sm{
+          font-size: 13px;
+          margin-bottom: 10px;
         };
 
         &:last-child {
@@ -553,6 +681,9 @@
       flex-wrap: wrap;
       justify-content: space-between;
       margin-bottom: 40px;
+      @include sm{
+        justify-content: space-around;
+      };
     }
 
     &__item {
@@ -569,6 +700,10 @@
         padding: 20px 15px;
         width: calc(100%/3);
       };
+      @include sm{
+        padding: 15px 10px;
+        //width: calc(100%/2);
+      };
 
       &-title {
         display: flex;
@@ -578,6 +713,11 @@
         margin-bottom: 30px;
         position: relative;
         width: 100%;
+        @include sm{
+          align-items: flex-end;
+          padding-bottom: 30px;
+          margin-bottom: 15px;
+        };
 
         &:after {
           content: '';
@@ -596,12 +736,33 @@
         font-weight: 300;
         letter-spacing: -1.67px;
         line-height: 1;
+        @include sm{
+          font-size: 50px;
+        };
+        @include xs{
+          font-size: 42px;
+        };
       }
       &-type {
         font-size: 43px;
         font-weight: 300;
         line-height: 76.66px;
         margin-left: 22px;
+        @include sm{
+          font-size: 21px;
+          margin-left: 10px;
+          line-height: 1;
+        };
+        @include xs{
+          font-size: 19px;
+        };
+      }
+
+      &-text{
+        @include sm{
+          font-size: 11px;
+          text-align: center;
+        };
       }
     }
 
@@ -638,6 +799,9 @@
     };
     @include md{
       padding: 30px 20px;
+    };
+    @include sm{
+      display: none;
     };
 
     &__title {

@@ -20,6 +20,10 @@ $width: 556;
       left: 0;
       right: 0;
       background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 50%,rgba(0,0,0,0) 100%);
+      @include xs{
+        height: 100px;
+        bottom: -50px;
+      };
     }
 
     &__bgvideo {
@@ -46,7 +50,13 @@ $width: 556;
       @include xlg {
         padding-top: vh(230);
       }
-    ;
+      @include sm{
+        padding: 0 50px;
+        padding-top: 50px;
+      };
+      @include xs{
+        padding-top: 56.25%;
+      };
     }
 
 
@@ -63,16 +73,34 @@ $width: 556;
       @include smd{
         height: 75px;
       };
+      @include sm{
+        height: 50px;
+      };
+      @include xs{
+        display: none;
+      };
     }
 
     &__bread {
       margin-bottom: 40px;
+      @include xs{
+        position: absolute;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+      };
     }
 
     &__wrapper {
       position: relative;
       z-index: 20;
       width: 100%;
+      @include xs{
+        display: none;
+      };
     }
 
     &__wrap {
@@ -161,11 +189,12 @@ $width: 556;
       padding-left: 100px;
       padding-bottom: 100px;
     }
-    @include lg{
-      padding-top: 200px;
-    };
     @include smd{
-      padding: 200px 30px 100px 30px;
+      padding: 40px 30px 100px 30px;
+    };
+    @include sm{
+      padding: 30px 15px;
+      padding-bottom: 50px;
     };
 
     &__logo {
@@ -173,6 +202,13 @@ $width: 556;
       text-align: center;
       @include lg{
         margin-bottom: 25px;
+      };
+      @include sm{
+        margin-bottom: 15px;
+
+        img{
+          max-height: 50px;
+        }
       };
     }
 
@@ -189,6 +225,13 @@ $width: 556;
       @include lg{
         font-size: 24px;
       };
+      @include sm{
+        font-size: 19px;
+        margin-bottom: 20px;
+      };
+      @include xs{
+        font-size: 15px;
+      };
     }
 
     &__sub {
@@ -200,6 +243,13 @@ $width: 556;
       text-align: center;
       @include lg{
         font-size: 17px;
+      };
+      @include sm{
+        font-size: 15px;
+        margin-bottom: 40px;
+      };
+      @include xs{
+        font-size: 13px;
       };
     }
 
@@ -221,6 +271,14 @@ $width: 556;
         margin-bottom: 20px;
         padding-bottom: 20px;
         position: relative;
+        @include sm{
+          padding-bottom: 10px;
+          margin-bottom: 10px;
+        };
+        @include xs{
+          padding-bottom: 5px;
+          margin-bottom: 5px;
+        };
 
         &:after {
           content: '';
@@ -239,7 +297,12 @@ $width: 556;
         @include xlg {
           font-size: 57px;
         }
-      ;
+        @include sm{
+          font-size: 24px;
+        };
+        @include xs{
+          font-size: 17px;
+        };
       }
 
       &-type {
@@ -247,7 +310,12 @@ $width: 556;
         @include xlg {
           font-size: 36px;
         }
-      ;
+        @include sm{
+          font-size: 17px;
+        };
+        @include xs{
+          font-size: 13px;
+        };
       }
 
       &-text {
@@ -258,7 +326,12 @@ $width: 556;
         @include xlg {
           font-size: 19px;
         }
-      ;
+        @include sm{
+          font-size: 13px;
+        };
+        @include xs{
+          font-size: 11px;
+        };
       }
     }
   }
@@ -272,6 +345,9 @@ $width: 556;
     @include lg{
       padding: 50px 60px 0 60px;
     };
+    @include sm{
+      padding: 20px 15px 0 15px;
+    };
 
     &__top {
       display: flex;
@@ -282,7 +358,10 @@ $width: 556;
         margin-left: -30px;
         margin-right: -30px;
       }
-    ;
+      @include sm{
+        margin-left: -15px;
+        margin-right: -15px;
+      };
     }
 
     &__title {
@@ -302,7 +381,14 @@ $width: 556;
       @include lg{
         font-size: 42px;
       };
-    ;
+      @include sm{
+        font-size: 24px;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: calc(100% - 30px);
+        margin-bottom: 10px;
+      };
     }
 
     &__desc {
@@ -321,6 +407,14 @@ $width: 556;
       @include lg{
         font-size: 24px;
       }
+      @include sm{
+        width: calc(100% - 30px);
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 15px;
+      };
 
     }
 
@@ -337,6 +431,9 @@ $width: 556;
       }
       @include lg{
         padding-top: 30px;
+      };
+      @include sm{
+        display: none;
       };
 
     }
@@ -431,6 +528,9 @@ $width: 556;
       @include lg{
         height: 250px;
       };
+      @include sm{
+        height: 150px;
+      };
     }
 
     &__img {
@@ -447,6 +547,9 @@ $width: 556;
       @include lg{
         height: 200px;
       };
+      @include sm{
+        height: 100px;
+      };
     }
   }
 
@@ -455,6 +558,10 @@ $width: 556;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    @include sm{
+      display: none;
+    };
+
 
     &__title {
       font-size: 60px;
@@ -472,12 +579,23 @@ $width: 556;
     @include lg{
       padding-bottom: 60px;
     };
+    @include sm{
+      padding-bottom: 50px !important;
+      &:last-child{
+        padding-bottom: 0 !important;
+      }
+    };
 
     &__left {
       width: 64.2%;
       z-index: 10;
       box-shadow: -2px 34px 100px rgba(0, 0, 0, 0.72);
       position: relative;
+      @include sm{
+        width: 100%;
+        box-shadow: none;
+        order: 1;
+      };
     }
 
     &__img {
@@ -491,10 +609,27 @@ $width: 556;
 
     &__right {
       width: calc(100% - 64.2%);
+      @include sm{
+        width: 100%;
+        margin-bottom: 15px;
+      };
     }
 
     &__block {
       position: relative;
+
+      @include sm{
+        display: none;
+      };
+
+      &:nth-child(1){
+        display: block;
+        @include sm{
+          .port-proj__title {
+            position: static;
+          }
+        };
+      };
     }
 
     &__title {
@@ -514,6 +649,11 @@ $width: 556;
       };
       @include smd{
         font-size: 32px;
+      };
+      @include sm{
+        max-width: initial;
+        text-align: center;
+        font-size: 24px;
       };
     }
 
@@ -642,6 +782,9 @@ $width: 556;
     @include lg{
       padding: 30px 50px 100px 50px;
     };
+    @include sm{
+      display: none;
+    };
 
     &__title {
       font-size: 60px;
@@ -651,6 +794,9 @@ $width: 556;
       @include lg{
         //font-size: 42px;
         //margin-bottom: 20px;
+      };
+      @include sm{
+        font-size: 24px;
       };
     }
 
@@ -667,6 +813,12 @@ $width: 556;
     }
   }
 
+  &-pages-bottom {
+    @include sm{
+      display: none;
+    };
+  }
+
   &-team {
     padding-top: 315px;
     padding-right: 100px;
@@ -675,6 +827,11 @@ $width: 556;
       padding-right: 50px;
       padding-left: 50px;
       padding-top: 50px;
+    };
+    @include sm{
+      padding: 30px 15px !important;
+      padding-bottom: 0;
+      margin-top: 0 !important;
     };
 
     &__title {
@@ -688,6 +845,9 @@ $width: 556;
         font-size: 42px;
         margin-bottom: 30px;
       };
+      @include sm{
+        font-size: 32px;
+      };
     }
 
     &__img {
@@ -695,6 +855,9 @@ $width: 556;
       margin-bottom: 200px;
       @include lg{
         margin-bottom: 150px;
+      };
+      @include sm{
+        margin-bottom: 100px;
       };
     }
 
@@ -706,7 +869,10 @@ $width: 556;
         margin-left: -50px;
         margin-right: -50px;
       }
-    ;
+      @include sm{
+        margin-left: -15px;
+        margin-right: -15px;
+      };
     }
 
     &__col {
@@ -720,6 +886,11 @@ $width: 556;
         padding-bottom: 55px;
         padding-top: 0;
       } ;
+      @include sm{
+        padding: 15px;
+        padding-bottom: 25px;
+        padding-top: 0;
+      };
 
       &:after {
         content: '';
@@ -756,6 +927,9 @@ $width: 556;
         @include xlg {
           padding-left: 60px;
         } ;
+        @include sm{
+          padding-left: 15px;
+        };
 
         .port-team__item:first-child {
           position: absolute;
@@ -767,6 +941,10 @@ $width: 556;
           }
           @include lg{
             bottom: calc(100% + 20px);
+          };
+          @include sm{
+            left: 15px;
+            bottom: calc(100%);
           };
         ;
         }
@@ -782,6 +960,12 @@ $width: 556;
         font-size: 18px;
         margin-bottom: 30px;
       };
+      @include sm{
+        font-size: 13px;
+      };
+      @include xs{
+        font-size: 11px;
+      };
 
 
       &:last-child {
@@ -792,12 +976,18 @@ $width: 556;
         font-weight: 700;
         text-transform: uppercase;
         margin-bottom: 10px;
+        @include sm{
+          margin-bottom: 5px;
+        };
       }
     }
   }
 
   &-adapt {
 
+    @include sm{
+      display: none;
+    };
     &__title {
       padding: 250px 15px 170px 35px;
       font-size: 80px;
@@ -934,6 +1124,7 @@ $width: 556;
 
   .port {
 
+
     &-lap {
       &__bottom {
         background: #363471;
@@ -953,7 +1144,10 @@ $width: 556;
     }
 
     &-proj {
-
+      background: #363471;
+      @include sm{
+        background: #ffb40c;
+      };
       &__block {
 
         &:nth-child(1) {
@@ -1035,6 +1229,9 @@ $width: 556;
     position: absolute;
     top: 0;
     left: 0;
+    @include sm{
+      display: none;
+    };
   }
 
   &__button {
@@ -1087,6 +1284,9 @@ $width: 556;
 
     &-proj {
       background: $text;
+      @include sm{
+        background: #050a15;
+      };
 
       &__left {
         z-index: 10;
@@ -1197,10 +1397,17 @@ $width: 556;
     &-team {
       background: #ffffff;
       padding-top: 40px;
+      @include sm{
+        padding-top: 30px;
+      };
 
       &__title {
         font-size: 80px;
+        @include sm{
+          font-size: 32px;
+        };
       }
+
     }
   }
 }
@@ -1251,6 +1458,10 @@ $width: 556;
       $heightImg: 3888;
       @include lg{
         padding-bottom: 100px;
+      };
+      @include sm{
+        background: #353535;
+        padding-bottom: 0 !important;
       };
 
       &__left {
@@ -1344,6 +1555,9 @@ $width: 556;
     }
 
     &-proj {
+      @include sm{
+        background: #f4b953 !important;
+      };
 
       &_1 {
         $widthImg: 1033;
@@ -1421,6 +1635,9 @@ $width: 556;
         padding-bottom: 200px;
         @include lg{
           padding-bottom: 100px;
+        };
+        @include sm{
+          padding-bottom: 0 !important;
         };
 
         .port-proj__block {
@@ -1551,6 +1768,9 @@ $width: 556;
       @include lg{
         margin-top: -350px;
       };
+      @include sm{
+        margin-top: 0;
+      };
     }
   }
 
@@ -1580,6 +1800,9 @@ $width: 556;
     top: 0;
     left: 0;
     right: 15px;
+    @include sm{
+      display: none;
+    };
   }
 }
 
@@ -1623,6 +1846,10 @@ $width: 556;
       $paddingBottom: 260px;
       @include lg{
         $paddingBottom: 160px;
+      };
+      @include sm{
+        background: #2f4051 !important;
+        padding-bottom: 0 !important;
       };
 
 
@@ -1873,6 +2100,9 @@ $width: 556;
 
       &__bottom {
         background: #252525;
+        @include sm{
+          background: #333333;
+        };
       }
 
     }
@@ -1907,6 +2137,9 @@ $width: 556;
             background: #252525;
             $height: 229;
             height: projHeight($height, $heightImg);
+            @include sm{
+              background: #333333;
+            };
 
             .port-proj__title {
               @include projPosition(0, 90, $height, $width);
@@ -2095,6 +2328,9 @@ $width: 556;
     &-slider {
       background: #f9f9fa;
       padding-bottom: 180px;
+      @include sm{
+        padding-bottom: 0;
+      };
 
       &__bottom {
         background: #f9f9fa;
@@ -2200,6 +2436,9 @@ $width: 556;
         padding-bottom: 0;
         $widthImg: 1035;
         $heightImg: 1025;
+        @include sm{
+          padding-bottom: 0 !important;
+        };
 
         .port-proj__block {
 
@@ -2291,12 +2530,18 @@ $width: 556;
       @include lg{
         //padding-bottom: 40px;
       };
+      @include sm{
+        padding-bottom: 0;
+      };
 
       &__bottom {
         height: 550px;
         background: #7d020e;
         @include lg{
           height: 400px;
+        };
+        @include sm{
+          height: 100px;
         };
       }
 
@@ -2413,6 +2658,9 @@ $width: 556;
         padding-bottom: 0;
         $widthImg: 1035;
         $heightImg: 1922;
+        @include sm{
+          padding-bottom: 0 !important;
+        };
 
         .port-proj__block {
 
@@ -2508,6 +2756,9 @@ $width: 556;
     &-slider {
       background: $text;
       padding-bottom: 170px;
+      @include sm{
+        padding-bottom: 0;
+      };
 
       &__bottom {
         background: #f8f9fb;
@@ -2699,6 +2950,9 @@ $width: 556;
         background: #f8f9fb;
         $widthImg: 1032;
         $heightImg: 2618;
+        @include sm{
+          padding-bottom: 0 !important;
+        };
 
         .port-proj__block {
 
@@ -2851,6 +3105,9 @@ $width: 556;
       @include lg{
         padding-top: 60px;
       };
+      @include sm{
+        padding-top: 30px;
+      };
 
       &__title, &__sub {
         //color: $bg;
@@ -2874,6 +3131,9 @@ $width: 556;
       @include lg{
         padding-bottom: 100px;
       };
+      @include sm{
+        padding-bottom: 0;
+      };
 
       &__bottom {
         background: #2b7de0;
@@ -2890,6 +3150,9 @@ $width: 556;
         padding-bottom: 320px;
         @include lg{
           padding-bottom: 120px;
+        };
+        @include sm{
+          padding-bottom: 60px;
         };
 
         .port-proj__block {
@@ -2943,6 +3206,9 @@ $width: 556;
         padding-bottom: 340px;
         @include lg{
           padding-bottom: 140px;
+        };
+        @include sm{
+          padding-bottom: 60px;
         };
 
         .port-proj__block {
@@ -3120,6 +3386,13 @@ $width: 556;
       padding-left: 30px;
       padding-right: 30px;
     };
+    @include sm{
+      padding-bottom: 50px;
+    };
+    @include xs{
+      padding-left: 10px;
+      padding-right: 10px;
+    };
   }
 
   &__item {
@@ -3128,6 +3401,9 @@ $width: 556;
 
     @include lg{
       margin-bottom: 150px;
+    };
+    @include sm{
+      margin-bottom: 50px;
     };
 
     &:last-child {
@@ -3141,6 +3417,13 @@ $width: 556;
       margin-bottom: 60px;
       @include smd{
         margin-bottom: 50px;
+      };
+      @include sm{
+        font-size: 24px;
+        margin-bottom: 20px;
+      };
+      @include xs{
+        font-size: 21px;
       };
     }
 
@@ -3158,6 +3441,9 @@ $width: 556;
       @include smd{
         font-size: 180px;
         top: -30px;
+      };
+      @include sm{
+        font-size: 100px;
       };
     }
 
@@ -3189,6 +3475,9 @@ $width: 556;
       @include lg{
         padding-top: 40px;
         padding-bottom: 190px;
+      };
+      @include sm{
+        padding-bottom: 50px;
       };
 
       &__title, &__sub {
@@ -3287,12 +3576,18 @@ $width: 556;
     &-slider {
       background: $text;
       padding-bottom: 170px;
+      @include sm{
+        padding-bottom: 0;
+      };
 
       &__bottom {
         height: 510px;
         background: #2b881b;
         @include lg{
           height: 390px;
+        };
+        @include sm{
+          height: 100px;
         };
       }
 
@@ -3434,6 +3729,9 @@ $width: 556;
         padding-bottom: 0px;
         $widthImg: 1040;
         $heightImg: 1482;
+        @include sm{
+          padding-bottom: 0 !important;
+        };
 
         .port-proj__block {
 
@@ -3600,6 +3898,9 @@ $width: 556;
       @include lg{
         padding-bottom: 70px;
       };
+      @include sm{
+        padding-bottom: 0;
+      };
 
       &__bottom {
         background: #b3b73e;
@@ -3614,6 +3915,9 @@ $width: 556;
         padding-bottom: 0px;
         $widthImg: 1039;
         $heightImg: 4998;
+        @include sm{
+          padding-bottom: 0 !important;
+        };
 
         .port-proj__block {
 
@@ -3749,12 +4053,18 @@ $width: 556;
       @include lg{
         padding-bottom: 70px;
       };
+      @include sm{
+        padding-bottom: 0;
+      };
 
       &__bottom {
         height: 510px;
         background: #00ad00;
         @include lg{
           height: 200px;
+        };
+        @include sm{
+          height: 100px;
         };
       }
 
@@ -3856,6 +4166,9 @@ $width: 556;
         padding-bottom: 0;
         $widthImg: 1048;
         $heightImg: 2723;
+        @include sm{
+          padding-bottom: 0 !important;
+        };
 
         .port-proj__block {
 
@@ -4032,6 +4345,9 @@ $width: 556;
     &-slider {
       background: $text;
       padding-bottom: 170px;
+      @include sm{
+        padding-bottom: 0;
+      };
 
 
       &__bottom {
@@ -4039,6 +4355,9 @@ $width: 556;
         background: #5baa00;
         @include lg{
           height: 390px;
+        };
+        @include sm{
+          height: 100px;
         };
       }
 
@@ -4187,6 +4506,9 @@ $width: 556;
         padding-bottom: 0px;
         $widthImg: 1047;
         $heightImg: 2042;
+        @include sm{
+          padding-bottom: 0 !important;
+        };
 
         .port-proj__block {
 

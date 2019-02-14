@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="rek-first__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/promote.php">Продвижение</a>
                             <a class="bread__item" href="/promote/reklama.php">Контекстная реклама</a>
                             <a class="bread__item active">Google Advance</a>
@@ -18,7 +18,7 @@
                     <div class="rek-first__title">Контекстная реклама</div>
                     <div class="rek-first__subtitle">Настройка рекламы сегодня — горячие клиенты завтра</div>
                     <div class="rek-first__middle">
-                        <div class="rek-first__left"></div><a class="rek-first__item" href="./">
+                        <div class="rek-first__left"></div><a class="rek-first__item" href="/promote/reklama/yandex.php">
                             <div class="rek-first__item-title">Яндекс директ</div>
                             <div class="rek-first__item-arrow">
                                 <div class="arrow_prev arrow">
@@ -33,7 +33,7 @@
                                 <div class="rek-first__item-text"><span class="rek-first__item-val">59</span><span class="rek-first__item-type"> млн.</span></div>
                             </div></a>
                         <div class="rek-first__img"><img class="rek-first__img-img" src="/images/content/rek/rekFirst.png"></div>
-                        <div class="rek-first__right"><a class="rek-first__item" href="./">
+                        <div class="rek-first__right"><a class="rek-first__item" href="/promote/reklama/google.php">
                                 <div class="rek-first__item-title">Google Advance</div>
                                 <div class="rek-first__item-arrow">
                                     <div class="arrow">
@@ -124,87 +124,198 @@
                         </div>
                     </div>
                 </section>
-                <section class="rek-slider">
-                    <div class="rek-slider__title">С нами уже работают</div>
-                    <div class="rek-slider__swiper">
-                        <div class="slider2">
-                            <div class="swiper-container slider2__container">
+                <section class="seo-cats">
+                    <div class="seo-cats__swiper">
+                        <div class="slider">
+                            <div class="swiper-container slider__container">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide slide2" style="background:#ffc000">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat1.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#d4003c">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat1.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">640</div>
+                                                <div class="slide__order-valTo">3890</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">12 %</div>
+                                                <div class="slide__search-valTo">79 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide2" style="background:#4a0163">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat2.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#4369dc">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat2.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">437</div>
+                                                <div class="slide__order-valTo">2413</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">8 %</div>
+                                                <div class="slide__search-valTo">89 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide2" style="background:#010f63">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat3.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#401d62">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat3.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">2317</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">72 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide2" style="background:#ffc000">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat1.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#efbf0d">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat4.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">140</div>
+                                                <div class="slide__order-valTo">2497</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">8 %</div>
+                                                <div class="slide__search-valTo">52 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide2" style="background:#4a0163">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat2.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#4abe76">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat5.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">512</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">79 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide slide2" style="background:#010f63">
-                                        <div class="slide2__img"><img class="slide2__img-img" src="/images/content/seo/cats/cat3.png"></div>
-                                        <div class="slide2__cost">
-                                            <div class="slide2__cost-name">Стоимость<br>привлечения<br>лида</div>
+                                    <div class="swiper-slide slide" style="background:#bebebe">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat6.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">1427</div>
+                                            </div>
                                         </div>
-                                        <div class="slide2__line"><img class="slide2__line-img" src="/images/content/seo/cats/catSvg.svg">
-                                            <div class="slide2__line-title">
-                                                <div class="slide2__line-from">1 300 Р</div>
-                                                <div class="slide2__line-to">342 Р</div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">78 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="swiper-slide slide" style="background:#bd1c3c">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat7.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">470</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">81 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="swiper-slide slide" style="background:#c37ec3">
+                                        <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat8.png"></div>
+                                        <div class="slide__order">
+                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-val">
+                                                <div class="slide__order-valFrom">0</div>
+                                                <div class="slide__order-valTo">940</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__search">
+                                            <div class="slide__search-name">Видимость в поиске</div>
+                                            <div class="slide__search-val">
+                                                <div class="slide__search-valFrom">0 %</div>
+                                                <div class="slide__search-valTo">54 %</div>
+                                            </div>
+                                        </div>
+                                        <div class="slide__line"><img class="slide__line-img" src="/images/content/seo/cats/catSvg.svg">
+                                            <div class="slide__line-title">
+                                                <div class="slide__line-from">до</div>
+                                                <div class="slide__line-to">после</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider2__scrollbar">
+                            <div class="slider__scrollbar">
                                 <div class="swiper-scrollbar"></div>
                             </div>
                         </div>

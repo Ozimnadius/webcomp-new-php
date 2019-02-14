@@ -20,6 +20,12 @@
       padding: 80px 50px;
       align-items: center;
     };
+    @include sm{
+      padding: 50px 15px;
+    };
+    @include xs{
+      padding: 30px 15px;
+    };
 
     &__bread {
       margin-bottom: 60px;
@@ -79,6 +85,9 @@
         font-size: 46px;
         margin-bottom: 0;
         text-align: center;
+      };
+      @include sm{
+        font-size: 24px;
       };
     }
 
@@ -155,18 +164,30 @@
     @include md{
       padding: 40px 30px;
     };
+    @include sm{
+      padding: 30px 15px;
+    };
 
     &__row {
       display: flex;
       flex-wrap: wrap;
       margin-left: -40px;
       margin-right: -40px;
+      @include sm{
+        margin-left: -15px;
+        margin-right: -15px;
+      };
     }
 
     &__left {
       width: calc(64% - 80px);
       margin-left: 40px;
       margin-right: 40px;
+      @include sm{
+        width: calc(100% - 30px);
+        margin-left: 15px;
+        margin-right: 15px;
+      };
     }
 
     &__bottom {
@@ -174,6 +195,12 @@
       width: calc(100% - 80px);
       margin-left: 40px;
       margin-right: 40px;
+      @include sm{
+        margin-top: 30px;
+        width: calc(100% - 30px);
+        margin-left: 15px;
+        margin-right: 15px;
+      };
     }
 
     &__content {
@@ -226,6 +253,9 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      @include sm{
+        display: none;
+      };
     }
 
     &__slider {
@@ -277,6 +307,9 @@
   .bottom {
     background: none;
     padding-top: 150px;
+    @include sm{
+      padding-top: 50px;
+    };
   }
 }
 
