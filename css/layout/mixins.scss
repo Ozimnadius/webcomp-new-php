@@ -148,8 +148,8 @@ $break_xs: 479px;
       };
       @include sm{
         font-size: 13px;
+        line-height: 1.42;
         padding-left: 25px;
-
       };
 
       &:before {
@@ -162,7 +162,7 @@ $break_xs: 479px;
         top: 18px;
         background: $Selective-yellow;
         @include sm{
-          top: 13px;
+          top: 9px;
         };
       }
 

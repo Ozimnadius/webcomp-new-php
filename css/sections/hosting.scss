@@ -5,7 +5,6 @@
   @include smd {
     background-position: left 55% top -120px;
   }
-;
 
 
   &-tarifs {
@@ -16,15 +15,20 @@
     @include xlg {
       padding-top: 140px;
     }
-  ;
     @include lg {
       padding-top: 100px;
     }
-  ;
     @include slg {
       margin-left: 100px;
     }
-  ;
+    @include sm {
+      margin-left: 0;
+      padding-top: 50px;
+
+      .proportion {
+        display: none;
+      }
+    }
 
 
     &__list {
@@ -36,19 +40,44 @@
       @include xlg {
         top: 140px;
       }
-    ;
       @include lg {
         top: 100px;
+      }
+      @include sm {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
       }
     ;
     }
 
     &__item {
       position: absolute;
+      @include sm {
+        position: relative;
+        top: initial !important;
+        left: initial !important;
+        right: initial !important;
+        bottom: initial !important;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      @include xs{
+        flex-direction: column;
+        //margin-bottom: 30px;
+      };
 
       &_0 {
         top: 0;
         left: 33.4%;
+
 
         &:hover {
           .host-tarifs__img-img {
@@ -63,14 +92,21 @@
             height: vh(80);
 
             animation: tarif0 10s linear 0s infinite;
-            box-shadow: inset 16px 0 40px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 4px 2px rgba(#789fbb, 0.5);
+            box-shadow: inset vh(16) 0 vh(40) vh(3) rgba(0, 0, 0, 0.9), inset vh(-3) 0 vh(5) vh(2) rgba(255, 255, 255, 0.16), 0px 0px vh(4) vh(2) rgba(#789fbb, 0.5);
 
             @include smd {
               width: vw(80);
               height: vw(80);
               animation: tarif0vw 10s linear 0s infinite;
             }
-          ;
+            @include sm {
+              width: vh(80);
+              height: vh(80);
+              animation: tarif0 10s linear 0s infinite;
+              //width: 30px;
+              //height: 30px;
+              //background-position: 0 0;
+            }
           }
         }
 
@@ -79,14 +115,24 @@
           right: calc(100% - 30px);
           top: 50%;
           transform: translateY(-50%);
+
+
         }
 
         .host-tarifs__title {
           font-size: 47px;
+          @include sm {
+            font-size: vh(47);
+          }
+        ;
         }
 
         .host-tarifs__sub {
           font-size: 15px;
+          @include sm {
+            font-size: vh(15);
+          }
+        ;
         }
       }
 
@@ -109,13 +155,18 @@
             height: vh(125);
 
             animation: tarif1 20s linear 0s infinite;
-            box-shadow: inset 26px 0 60px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 5px 3px rgba(#789fbb, 0.3);
+            box-shadow: inset vh(26) 0 vh(60) vh(3) rgba(0, 0, 0, 0.9), inset vh(-3) 0 vh(5) vh(2) rgba(255, 255, 255, 0.16), 0px 0px vh(5) vh(3) rgba(#789fbb, 0.3);
             @include smd {
               width: vw(125);
               height: vw(125);
               animation: tarif1vw 20s linear 0s infinite;
             }
-          ;
+            @include sm {
+              width: vh(125);
+              height: vh(125);
+              animation: tarif1 20s linear 0s infinite;
+            }
+
           }
         }
 
@@ -128,14 +179,26 @@
           right: calc(100% - 25px);
           top: 50%;
           transform: translateY(-50%);
+          @include sm {
+            transform: none;
+          }
+        ;
         }
 
         .host-tarifs__title {
           font-size: 67px;
+          @include sm {
+            font-size: vh(67);
+          }
+        ;
         }
 
         .host-tarifs__sub {
           font-size: 21px;
+          @include sm {
+            font-size: vh(21);
+          }
+        ;
         }
       }
 
@@ -158,13 +221,18 @@
             height: vh(280);
 
             animation: tarif2 40s linear 0s infinite;
-            box-shadow: inset 46px 0 90px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 7px 7px rgba(#789fbb, 0.5);
+            box-shadow: inset vh(46) 0 vh(90) vh(3) rgba(0, 0, 0, 0.9), inset vh(-3) 0 vh(5) vh(2) rgba(255, 255, 255, 0.16), 0px 0px vh(7) vh(7) rgba(#789fbb, 0.5);
             @include smd {
               width: vw(280);
               height: vw(280);
               animation: tarif2vw 40s linear 0s infinite;
             }
-          ;
+            @include sm {
+              width: vh(280);
+              height: vh(280);
+              animation: tarif2 40s linear 0s infinite;
+            }
+
           }
 
         }
@@ -179,15 +247,27 @@
           right: calc(100% - 25px);
           top: 50%;
           transform: translateY(-50%);
+          @include sm {
+            transform: none;
+          }
+        ;
         }
 
         .host-tarifs__title {
           font-size: 67px;
           line-height: 60px;
+          @include sm {
+            font-size: vh(80);
+            line-height: 1;
+          }
         }
 
         .host-tarifs__sub {
           font-size: 21px;
+          @include sm {
+            font-size: vh(28);
+          }
+        ;
         }
       }
 
@@ -211,32 +291,48 @@
 
             animation: tarif3 40s linear 0s infinite;
             transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
-            box-shadow: inset 46px 0 90px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 7px 7px rgba(#789fbb, 0.5);
+            box-shadow: inset vh(46) 0 vh(90) vh(3) rgba(0, 0, 0, 0.9), inset vh(-3) 0 vh(5) vh(2) rgba(255, 255, 255, 0.16), 0px 0px vh(7) vh(7) rgba(#789fbb, 0.5);
             @include smd {
               width: vw(320);
               height: vw(320);
               animation: tarif3vw 40s linear 0s infinite;
             }
-          ;
+            @include sm {
+              width: vh(320);
+              height: vh(320);
+              animation: tarif3 40s linear 0s infinite;
+            }
           }
         }
 
         .host-tarifs__tag {
           padding-right: 50px;
           padding-bottom: 12px;
-          position: absolute;
           right: calc(100% - 25px);
           top: 50%;
           transform: translateY(-50%);
+          @include sm {
+            transform: none;
+          }
+        ;
         }
 
         .host-tarifs__title {
           font-size: 67px;
           line-height: 60px;
+          @include sm {
+            font-size: vh(120);
+            line-height: 1;
+          }
+        ;
         }
 
         .host-tarifs__sub {
           font-size: 21px;
+          @include sm {
+            font-size: vh(32);
+          }
+        ;
         }
       }
 
@@ -258,33 +354,51 @@
 
             animation: tarif4 70s linear 0s infinite;
             transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
-            box-shadow: inset 66px 0 120px 3px rgba(0, 0, 0, 0.9), inset -3px 0 5px 2px rgba(255, 255, 255, 0.16), 0px 0px 9px 9px rgba(#789fbb, 0.5);
+            box-shadow: inset vh(66) 0 vh(120) vh(3) rgba(0, 0, 0, 0.9), inset vh(-3) 0 vh(5) vh(2) rgba(255, 255, 255, 0.16), 0px 0px vh(9) vh(9) rgba(#789fbb, 0.5);
 
             @include smd {
               width: vw(535);
               height: vw(535);
               animation: tarif4vw 70s linear 0s infinite;
             }
-          ;
+            @include sm {
+              width: vh(535);
+              height: vh(535);
+              animation: tarif4 70s linear 0s infinite;
+            }
           }
         }
 
         .host-tarifs__tag {
           padding-right: 50px;
           padding-bottom: 12px;
-          position: absolute;
           right: calc(100% - 25px);
           top: 50%;
           transform: translateY(-50%);
+          @include sm {
+            transform: none;
+          }
+        ;
         }
 
         .host-tarifs__title {
           font-size: 67px;
           line-height: 60px;
+          @include sm {
+            font-size: vh(130);
+          }
+          @include xs{
+            font-size: vh(110);
+          };
+
         }
 
         .host-tarifs__sub {
           font-size: 21px;
+          @include sm {
+            font-size:vh(42);
+          }
+        ;
         }
       }
 
@@ -340,6 +454,26 @@
       position: absolute;
       padding-bottom: 5px;
 
+      @include sm {
+        //position: static;
+        //order: -1;
+        padding: 0 !important;
+        //margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        right: calc(100% + 10px) !important;
+        top: 50%;
+        transform: translateY(-50%) !important;
+      }
+      @include xs{
+        position: static;
+        order: -1;
+        transform: none !important;
+        margin-bottom: 5px;
+      };
+
       &:after {
         content: '';
         display: block;
@@ -350,6 +484,10 @@
         bottom: 0;
         background: linear-gradient(to right, rgba(158, 158, 165, 1) 0%, rgba(158, 158, 165, 0) 100%);
         transition: .4s;
+        @include sm {
+          display: none;
+        }
+      ;
       }
     }
 
@@ -369,6 +507,9 @@
       color: #79797f;
       letter-spacing: 1.43px;
       font-weight: 100;
+      @include sm{
+        display: none;
+      };
     }
   }
 
@@ -380,11 +521,12 @@
       padding: 0 130px 0 70px;
       margin-bottom: 60px;
     }
-  ;
     @include lg {
       padding: 0 50px;
     }
-  ;
+    @include sm{
+      padding: 0 15px;
+    };
 
     p {
       color: rgba($text, .6);
@@ -396,7 +538,12 @@
     @include slg {
       padding: 0 30px;
     }
-  ;
+    @include sm{
+      padding: 0 15px;
+    };
+    @include xs{
+      display: none;
+    };
 
     &__title {
       padding: 0 220px;
@@ -408,29 +555,37 @@
         padding: 0;
         margin-bottom: 50px;
       }
-    ;
       @include slg {
         justify-content: center;
       }
-    ;
+      @include sm{
+        flex-direction: column;
+        align-items: center;
+        justify-content: initial;
+        margin-bottom: 20px;
+      };
 
       &-img {
         @include xlg {
           width: 200px;
         }
-      ;
         @include lg {
           width: 160px;
         }
-      ;
         @include smd {
           width: 150px;
         }
-      ;
+        @include sm{
+          width: 100px;
+        };
       }
 
       &-left {
         margin-right: 30px;
+        @include sm{
+          margin-right: 0;
+          margin-bottom: 10px;
+        };
       }
 
       &-right {
@@ -446,11 +601,13 @@
         @include xlg {
           font-size: 50px;
         }
-      ;
         @include lg {
           font-size: 37px;
         }
-      ;
+        @include sm{
+          font-size: 24px;
+          text-align: center;
+        };
       }
     }
 
@@ -462,11 +619,13 @@
       @include xlg {
         padding-right: 0;
       }
-    ;
       @include lg {
         margin-left: -20px;
       }
-    ;
+      @include sm{
+        margin-left: -10px;
+        margin-right: -10px;
+      };
     }
 
     &__col {
@@ -477,7 +636,9 @@
       @include lg {
         padding: 0 20px;
       }
-    ;
+      @include sm{
+        padding: 0 10px;
+      };
 
       &:after {
         content: '';
@@ -507,6 +668,9 @@
   .bottom {
     background: none;
     padding-top: 155px;
+    @include sm{
+      padding-top: 50px;
+    };
   }
 }
 
@@ -515,6 +679,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include sm{
+    width: 100%;
+  };
 
   &__planet {
     position: relative;
@@ -524,6 +691,16 @@
     right: initial;
     bottom: initial;
     margin-left: 260px;
+    @include sm{
+      margin-left: 120px;
+      margin-bottom: 15px;
+    };
+    @include xs{
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    };
 
     &.host-tarifs__item_2 {
       .host-tarifs__tag {
@@ -542,6 +719,9 @@
   &__content {
     width: 100%;
     margin-bottom: 85px;
+    @include sm{
+      margin-bottom: 20px;
+    };
 
     table {
       width: 100%;
@@ -558,7 +738,14 @@
         @include md {
           font-size: 17px;
         }
-      ;
+        @include sm{
+          font-size: 11px;
+          line-height: 1;
+          padding: 5px;
+        };
+        @include xs{
+          font-size: 9px;
+        };
       }
 
       td {
@@ -570,11 +757,16 @@
           font-size: 17px;
           padding-top: 15px;
         }
-      ;
         @include smd {
           padding: 15px 10px 0 10px;
         }
-      ;
+        @include sm{
+          padding: 5px;
+          font-size: 11px;
+        }
+        @include xs{
+          font-size: 9px;
+        };
       }
 
 
@@ -591,6 +783,12 @@
     left: -380px;
     top: 50%;
     transform: translateY(-50%);
+    @include sm{
+      left: -120px;
+    };
+    @include xs{
+      position: static;
+    };
   }
 }
 
