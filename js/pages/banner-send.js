@@ -11,7 +11,25 @@
                 email: "Введите ваш Email"
             },
             submitHandler: function (form) {
-                typeConfirmText('Ожидайте новостей на указанную почту');
+                let data = $(form).serialize();
+
+                $.ajax({
+                    dataType: "json",
+                    type: "POST",
+                    url: '/php/ajax.php',
+                    data: data,
+                    success: function (result) {
+                        if (result.status) {
+                            typeConfirmText('Ожидайте новостей на указанную почту');
+                        } else {
+                            alert('Что-то пошло не так, попробуйте еще раз!!!');
+                        }
+                    },
+                    error: function (result) {
+                        alert('Что-то пошло не так, попробуйте еще раз!!!');
+                    }
+                });
+
             },
             invalidHandler: function (event, validator) {
                 // debugger;
@@ -21,6 +39,8 @@
             }
         }
     );
+
+
 
     function typeConfirmText(text) {
         let textArr = text.split(''),

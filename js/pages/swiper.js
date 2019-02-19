@@ -262,4 +262,28 @@ window.onload = function () {
             }
         }
     });
+
+    let swiperPromoteRecomendation = new Swiper('.promote-rec__container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        speed: 300,
+        slidesPerView: 5,
+        grabCursor: true,
+        navigation: {
+            nextEl: '.promote-rec__next',
+            prevEl: '.promote-rec__prev',
+        },
+        breakpoints: {
+            // when window width is <= 320px
+            479.99: {
+                slidesPerView: 2
+            },
+            // when window width is <= 320px
+            767.99: {
+                slidesPerView: 3
+            }
+        }
+
+    });
 };

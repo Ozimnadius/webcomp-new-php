@@ -37,25 +37,25 @@
                         <form class="form" action="#" method="post">
                             <div class="form__row form__row_2">
                                 <div class="form__field2">
-                                    <input class="check" type="radio" id="radio0" name="promo" checked>
+                                    <input class="check" type="radio" id="radio0" name="promo" checked value="Продвижение в Яндекс">
                                     <label class="check__label" for="radio0">Продвижение в Яндекс
                                         <div class="check__fake"></div>
                                     </label>
                                 </div>
                                 <div class="form__field2">
-                                    <input class="check" type="radio" id="radio1" name="promo">
+                                    <input class="check" type="radio" id="radio1" name="promo" value="Продвижение в Google">
                                     <label class="check__label" for="radio1">Продвижение в Google
                                         <div class="check__fake"></div>
                                     </label>
                                 </div>
                                 <div class="form__field2">
-                                    <input class="check" type="radio" id="radio2" name="promo">
+                                    <input class="check" type="radio" id="radio2" name="promo" value="Контекстная реклама в Яндекс">
                                     <label class="check__label" for="radio2">Контекстная реклама в Яндекс
                                         <div class="check__fake"></div>
                                     </label>
                                 </div>
                                 <div class="form__field2">
-                                    <input class="check" type="radio" id="radio3" name="promo">
+                                    <input class="check" type="radio" id="radio3" name="promo" value="Контекстная реклама в Google">
                                     <label class="check__label" for="radio3">Контекстная реклама в Google
                                         <div class="check__fake"></div>
                                     </label>
@@ -63,25 +63,25 @@
                             </div>
                             <div class="form__row form__row_2">
                                 <div class="form__field2">
-                                    <input class="check" type="radio" id="radio4" name="promo">
+                                    <input class="check" type="radio" id="radio4" name="promo" value="Реклама в ВКонтакте">
                                     <label class="check__label" for="radio4">Реклама в ВКонтакте
                                         <div class="check__fake"></div>
                                     </label>
                                 </div>
                                 <div class="form__field2">
-                                    <input class="check" type="radio" id="radio5" name="promo">
+                                    <input class="check" type="radio" id="radio5" name="promo" value="Реклама в Instagram">
                                     <label class="check__label" for="radio5">Реклама в Instagram
                                         <div class="check__fake"></div>
                                     </label>
                                 </div>
                                 <div class="form__field2">
-                                    <input class="check" type="radio" id="radio6" name="promo">
+                                    <input class="check" type="radio" id="radio6" name="promo" value="Реклама в Одноклассники">
                                     <label class="check__label" for="radio6">Реклама в Одноклассники
                                         <div class="check__fake"></div>
                                     </label>
                                 </div>
                                 <div class="form__field2">
-                                    <input class="check" type="radio" id="radio7" name="promo">
+                                    <input class="check" type="radio" id="radio7" name="promo" value="Реклама в Facebook">
                                     <label class="check__label" for="radio7">Реклама в Facebook
                                         <div class="check__fake"></div>
                                     </label>
@@ -93,7 +93,7 @@
                                            placeholder="Кол-во продвигаемых слов">
                                 </div>
                                 <div class="form__field">
-                                    <select class="select">
+                                    <select class="select" name="region">
                                         <option disabled selected>Регион продвижения</option>
                                         <option>Вариант 1</option>
                                         <option>Вариант 2</option>
@@ -101,7 +101,7 @@
                                     </select>
                                 </div>
                                 <div class="form__field">
-                                    <select class="select">
+                                    <select class="select" name="thematics">
                                         <option disabled selected>Ваша тематика</option>
                                         <option>Вариант 1</option>
                                         <option>Вариант 2</option>
@@ -131,6 +131,7 @@
                                     </div>
                                 </div>
                             </button>
+                            <input type="hidden" name="action" value="calcCostSend">
                         </form>
                     </div>
                 </div>
@@ -143,11 +144,10 @@
                             <a class="theme-iss__item" href="/portfolio/thematics/subject.php">Автосалоны</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/avtoservis.php">Автосервисы</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/avtozapchasti.php">Автозапчасти</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/byhgalteriya.php">Бухгалтерские услуги</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/byhgalteriya.php">Бухгалтерия</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/gostinicj-oteli.php">Гостиницы и отели</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/nedvijimost.php">Агентства
-                                недвижимости</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/detskie-igrushki.php">Детские игрушки</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/nedvijimost.php">Недвижимость</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/detskie-igrushki.php">Игрушки</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/znakomstva.php">Сайт знакомств</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/jenskaya-tematika.php">Женская тематика</a>
                         </div>
@@ -159,22 +159,19 @@
                             <a class="theme-iss__item" href="/portfolio/thematics/salon-krasotj.php">Салоны красоты</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/svadebnji-salon.php">Свадебные агентства</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/strahovanie.php">Страхование</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/stroitelnaya-tematika.php">Строительная тематика</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/stroitelnaya-tematika.php">Ремонт квартир</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/restoranj.php">Рестораны</a>
                         </div>
                         <div class="theme-iss__col">
-                            <a class="theme-iss__item" href="/portfolio/thematics/tyrizm.php">Туристическая
-                                тематика</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/tyrizm.php">Туризм</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/tyrfirmj.php">Турфирмы</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/uvelirnji-salon.php">Ювелирные салоны</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/magazin-odejdj.php">Магазин одежда</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/orgtehnika.php">Оргтехника</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/uridicheskih-yslyg.php">Юридические услуги</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/gryzoperevozki.php">Грузоперевозоки</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/farmateptika.php">Фармацевтическая
-                                продукция</a>
-                            <a class="theme-iss__item" href="/portfolio/thematics/stomatologiya.php">Стоматологические
-                                клиники</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/farmateptika.php">Фармацевтика</a>
+                            <a class="theme-iss__item" href="/portfolio/thematics/stomatologiya.php">Стоматология</a>
                         </div>
                         <div class="theme-iss__col">
                             <a class="theme-iss__item" href="/portfolio/thematics/fitnes.php">Фитнес-клубы</a>
@@ -194,82 +191,82 @@
                 <section class="theme-cats">
                     <div class="theme-iss__title">Нам есть чем гордиться</div>
                     <div class="theme-cats__list">
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/project.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/project.php" title="Интернет-магазин"
                            style="background-color:#363471">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Интернет-магазин</div>
                             <div class="index-cat__item-img">
                                 <img class="index-cat__item-pic" src="/images/content/portfolio/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/blacksmith.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/blacksmith.php" title="Корпоративный сайт"
                            style="background-color:#050A15">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Корпоративный сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project2/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/animals.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/animals.php" title="Корпоративный сайт"
                            style="background: #2b7de0">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Корпоративный сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project10/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/balconies.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/balconies.php" title="Корпоративный сайт"
                            style="background-color:#26283D">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Корпоративный сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project4/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/bosh.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/bosh.php" title="Интернет-магазин"
                            style="background-color:#2c3e50">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Интернет-магазин</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project5/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/vita.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/vita.php" title="Интернет-магазин"
                            style="background-color:#f9f9fa">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Интернет-магазин</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project7/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/svda.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/svda.php" title="Корпоративный сайт"
                            style="background-color:#252525;">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Корпоративный сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project6/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/santehnika.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/santehnika.php" title="Интернет-магазин"
                            style="background-color: #f8f9fb">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Интернет-магазин</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project9/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/kavkaz.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/kavkaz.php" title="Интернет-магазин"
                            style="background-color:#1D1D1D">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Интернет-магазин</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project8/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/wood.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/wood.php" title="Корпоративный сайт"
                            style="background-color: #FFFFFF">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Корпоративный сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project15/logo.png">
                             </div>
@@ -282,10 +279,10 @@
                                                                   src="/images/content/portfolio/project11/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/gazon.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/gazon.php" title="Корпоративный сайт"
                            style="background-color: #F8F9FB">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Корпоративный сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project12/logo.png">
                             </div>
@@ -298,10 +295,10 @@
                                                                   src="/images/content/portfolio/project13/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item index-cat__item_5" href="/portfolio/clinic.php" title="Промо-сайт"
+                        <a class="index-cat__item index-cat__item_5" href="/portfolio/clinic.php" title="Корпоративный сайт"
                            style="background-color: #F8F9FB">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="index-cat__item-title">Промо-сайт</div>
+                            <div class="index-cat__item-title">Корпоративный сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project14/logo.png">
                             </div>

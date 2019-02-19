@@ -16,7 +16,7 @@
             </div>
             <div class="form__row">
                 <div class="form__field form__field_3">
-                    <textarea class="input input_area" placeholder="Комментарий"></textarea>
+                    <textarea class="input input_area" name="description" placeholder="Комментарий"></textarea>
                 </div>
             </div>
             <div class="form__row">
@@ -43,6 +43,7 @@
                     </div>
                 </div>
             </button>
+            <input type="hidden" name="action" value="callorderDataSend">
         </form>
     </div>
 </div>

@@ -1,10 +1,13 @@
 .host {
-  background: url("../images/bg/hostingBg.jpg") center 0 no-repeat;
+  background: url("/images/bg/hostingBg.jpg") center 0 no-repeat;
   background-size: cover;
 
   @include smd {
     background-position: left 55% top -120px;
   }
+  @include sm{
+    background: none;
+  };
 
 
   &-tarifs {
@@ -771,6 +774,10 @@
 
 
     }
+  }
+
+  &__bottom {
+    width: 100%;
   }
 
 }

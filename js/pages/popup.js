@@ -45,7 +45,7 @@ if (callorderOpenAll) {
                                 },
 
                                 submitHandler: function (form) {
-                                    getTimerForm();
+                                    sendCallorderData(form);
                                 },
                                 invalidHandler: function (event, validator) {
                                     // debugger;
@@ -68,6 +68,27 @@ if (callorderOpenAll) {
     }
 }
 
+function sendCallorderData(form) {
+    let data = $(form).serialize();
+
+    $.ajax({
+        dataType: "json",
+        type: "POST",
+        url: '/php/ajax.php',
+        data: data,
+        success: function (result) {
+            if (result.status) {
+                getTimerForm();
+            } else {
+                alert('Что-то пошло не так, попробуйте еще раз!!!');
+            }
+        },
+        error: function (result) {
+            alert('Что-то пошло не так, попробуйте еще раз!!!');
+        }
+    });
+}
+
 if (promotionOpenAll) {
     for (let i = 0; i < promotionOpenAll.length; i++) {
         let promotionOpen = promotionOpenAll[i];
@@ -87,6 +108,7 @@ if (promotionOpenAll) {
                     if (result.status) {
                         popupWrapper.innerHTML = result.html;
                         popup.classList.add('active');
+
                         $(document.querySelector('.promotion .form')).validate(
                             {
                                 rules: {
@@ -99,7 +121,7 @@ if (promotionOpenAll) {
                                 },
 
                                 submitHandler: function (form) {
-                                    getTimerForm();
+                                    sendCallorderData(form);
                                 },
                                 invalidHandler: function (event, validator) {
                                     // debugger;
@@ -303,11 +325,30 @@ if (tarifs) {
                         popupWrapper.innerHTML = result.html;
                         popup.classList.add('active');
 
-                        let button = popup.querySelector('.hosting__button');
+                        $(document.querySelector('.hosting')).validate(
+                            {
+                                rules: {
+                                    name: "required",
+                                    tel: "required",
+                                    email: "required"
+                                },
+                                messages: {
+                                    name: "Введите ваше Имя",
+                                    tel: "Введите ваш  Телефон",
+                                    email: "Введите ваш Email"
+                                },
 
-                        button.addEventListener('click', function (e) {
-                            getTimerForm();
-                        });
+                                submitHandler: function (form) {
+                                    sendCallorderData(form);
+                                },
+                                invalidHandler: function (event, validator) {
+                                    // debugger;
+                                },
+                                errorPlacement: function (error, element) {
+                                    element[0].placeholder = error[0].innerText;
+                                }
+                            }
+                        );
 
 
                     } else {
@@ -321,6 +362,5 @@ if (tarifs) {
         })
     }
 }
-
 
 // }());

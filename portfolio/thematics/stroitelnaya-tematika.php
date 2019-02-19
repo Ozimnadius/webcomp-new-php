@@ -10,10 +10,10 @@
                     <div class="rek-first__bread">
                         <div class="bread"><a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/promote.php">Портфолио</a>
-                            <a class="bread__item active">Сайт для строительной компании</a>
+                            <a class="bread__item active">Сайта по ремонту квартир</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Сайт для строительной компании</div>
+                    <div class="rek-first__title">Сайт по ремонту квартир</div>
                     <div class="rek-first__subtitle">
                         Комплексный подход к разработке вашего проекта <br>
                         с учётом особенностей вашего бизнесса<br>

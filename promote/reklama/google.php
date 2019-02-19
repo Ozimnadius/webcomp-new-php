@@ -15,7 +15,7 @@
                             <a class="bread__item active">Google Advance</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Контекстная реклама</div>
+                    <div class="rek-first__title">Настройка рекламы в Google Adwords</div>
                     <div class="rek-first__subtitle">Настройка рекламы сегодня — горячие клиенты завтра</div>
                     <div class="rek-first__middle">
                         <div class="rek-first__left"></div><a class="rek-first__item" href="/promote/reklama/yandex.php">
@@ -325,10 +325,10 @@
                     <div class="rek-price__title">Стоимость продвижения</div>
                     <div class="rek-price__switches">
                         <div class="rek-price__switches-list">
-                            <button class="active rek-price__switch" data-id="1"><span class="rek-price__switch-title">Яндекс Директ</span></button>
-                            <button class="rek-price__switch" data-id="2"><span class="rek-price__switch-title">Google AdWords</span></button>
-                            <button class="rek-price__switch" data-id="3"><span class="rek-price__switch-title">Яндекс / Google</span></button>
-                            <button class="rek-price__switch" data-id="4"><span class="rek-price__switch-title">Маркетинговое исследование</span></button>
+                            <button class="active rek-price__switch" data-id="1"><span class="rek-price__switch-title">Google Adwords</span></button>
+                            
+                            <button class="rek-price__switch" data-id="3"><span class="rek-price__switch-title">Медийная сеть Google</span></button>
+                            <button class="rek-price__switch" data-id="4"><span class="rek-price__switch-title">Аналитика звонков</span></button>
                         </div>
                         <div class="rek-price__line">
                             <div class="rek-price__subline"></div>
@@ -339,32 +339,32 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 1 000</div>
-                                        <div class="rek-price__item-text">Обрабатываем запросов при настройке</div>
+                                        <div class="rek-price__item-price">до 1000 запросов</div>
+                                        <div class="rek-price__item-text">Обработка целевых фраз</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">1 112 городов</div>
-                                        <div class="rek-price__item-text">В которых можно разместить рекламу</div>
-                                    </div>
-                                </div>
-                                <div class="rek-price__row">
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
-                                        <div class="rek-price__item-text">За переход на сайт</div>
-                                    </div>
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">более 30</div>
-                                        <div class="rek-price__item-text">Критериев по подбору целевой аудитории</div>
+                                        <div class="rek-price__item-price">до 500</div>
+                                        <div class="rek-price__item-text">Создание уникальных объявлений</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">40 ч.</div>
-                                        <div class="rek-price__item-text">На стройка рекламной компании</div>
+                                        <div class="rek-price__item-price">до 50</div>
+                                        <div class="rek-price__item-text">Рекламных компаний в рамках проекта</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 30 ч.</div>
-                                        <div class="rek-price__item-text">Модерации рекламной компании</div>
+                                        <div class="rek-price__item-price">до 3000</div>
+                                        <div class="rek-price__item-text">Проработка исключающих фраз для показа</div>
+                                    </div>
+                                </div>
+                                <div class="rek-price__row">
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">24 ч.</div>
+                                        <div class="rek-price__item-text">Аналитических работ</div>
+                                    </div>
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">24 ч.</div>
+                                        <div class="rek-price__item-text">Пуско-наладочных работ</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
@@ -372,21 +372,25 @@
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
                                             <div class="rek-price__item-li">Анализ конкурентов</div>
-                                            <div class="rek-price__item-li">Составление ядра запросов</div>
-                                            <div class="rek-price__item-li">Полная SEO оптимизация</div>
+                                            <div class="rek-price__item-li">Рекомендации по улучшению конверсии</div>
+                                            <div class="rek-price__item-li">Проработка околоцелевых запросов</div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li">Настройка рекламных сетей</div>
+                                            <div class="rek-price__item-li">Настройка ретаргетинга</div>
+											<div class="rek-price__item-li">Подключение аналитики</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__price">9 900 Р</div>
+                                        <div class="rek-price__price">14 900 Р</div>
+                                    </div>
+									<div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">Оптимизация и ведение 2 недели бесплатно!</div>
                                     </div>
                                 </div>
                             </div>
@@ -395,32 +399,32 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 1 000</div>
-                                        <div class="rek-price__item-text">Обрабатываем запросов при настройке</div>
+                                        <div class="rek-price__item-price">до 1000 запросов</div>
+                                        <div class="rek-price__item-text">Обработка целевых фраз</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">1 112 городов</div>
-                                        <div class="rek-price__item-text">В которых можно разместить рекламу</div>
-                                    </div>
-                                </div>
-                                <div class="rek-price__row">
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
-                                        <div class="rek-price__item-text">За переход на сайт</div>
-                                    </div>
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">более 30</div>
-                                        <div class="rek-price__item-text">Критериев по подбору целевой аудитории</div>
+                                        <div class="rek-price__item-price">до 10</div>
+                                        <div class="rek-price__item-text">Создание уникальных объявлений</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">40 ч.</div>
-                                        <div class="rek-price__item-text">На стройка рекламной компании</div>
+                                        <div class="rek-price__item-price">до 10</div>
+                                        <div class="rek-price__item-text">Рекламных компаний в рамках проекта</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 30 ч.</div>
-                                        <div class="rek-price__item-text">Модерации рекламной компании</div>
+                                        <div class="rek-price__item-price">до 3000</div>
+                                        <div class="rek-price__item-text">Проработка исключающих фраз для показа</div>
+                                    </div>
+                                </div>
+                                <div class="rek-price__row">
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">16 ч.</div>
+                                        <div class="rek-price__item-text">Аналитических работ</div>
+                                    </div>
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">16 ч.</div>
+                                        <div class="rek-price__item-text">Пуско-наладочных работ</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
@@ -428,21 +432,25 @@
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
                                             <div class="rek-price__item-li">Анализ конкурентов</div>
-                                            <div class="rek-price__item-li">Составление ядра запросов</div>
-                                            <div class="rek-price__item-li">Полная SEO оптимизация</div>
+                                            <div class="rek-price__item-li">Рекомендации по улучшению конверсии</div>
+                                            <div class="rek-price__item-li">Настройка аудитории показа</div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li">Разработка баннеров для рекламы</div>
+                                            <div class="rek-price__item-li">Исключение плохих площадок показа</div>
+											<div class="rek-price__item-li"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__price">9 900 Р</div>
+                                    </div>
+									<div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">Оптимизация и ведение 2 недели бесплатно!</div>
                                     </div>
                                 </div>
                             </div>
@@ -451,54 +459,57 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 1 000</div>
-                                        <div class="rek-price__item-text">Обрабатываем запросов при настройке</div>
+                                        <div class="rek-price__item-price">45 вариаций баннеров</div>
+                                        <div class="rek-price__item-text">разработка разных размеров для разных мест размещения</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">1 112 городов</div>
-                                        <div class="rek-price__item-text">В которых можно разместить рекламу</div>
-                                    </div>
-                                </div>
-                                <div class="rek-price__row">
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
-                                        <div class="rek-price__item-text">За переход на сайт</div>
-                                    </div>
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">более 30</div>
-                                        <div class="rek-price__item-text">Критериев по подбору целевой аудитории</div>
+                                        <div class="rek-price__item-price">3 компании</div>
+                                        <div class="rek-price__item-text">с разними параметрами</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">40 ч.</div>
-                                        <div class="rek-price__item-text">На стройка рекламной компании</div>
+                                        <div class="rek-price__item-price">Проработка аудитории</div>
+                                        <div class="rek-price__item-text">на основе статистических данных</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 30 ч.</div>
-                                        <div class="rek-price__item-text">Модерации рекламной компании</div>
+                                        <div class="rek-price__item-price">Поведеньческие факторы</div>
+                                        <div class="rek-price__item-text">учитываем действия активной аудитории</div>
+                                    </div>
+                                </div>
+                                <div class="rek-price__row">
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">Интересы</div>
+                                        <div class="rek-price__item-text">Проработка интересов аудитории</div>
+                                    </div>
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">Сегментация</div>
+                                        <div class="rek-price__item-text">сегментируем по e-mail или телефону</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Анализ конкурентов</div>
-                                            <div class="rek-price__item-li">Составление ядра запросов</div>
-                                            <div class="rek-price__item-li">Полная SEO оптимизация</div>
+                                            <div class="rek-price__item-li">Настройка системы аналитики</div>
+                                            <div class="rek-price__item-li">Настройка целей</div>
+                                            <div class="rek-price__item-li"></div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li">Отчётность по расходу</div>
+                                            <div class="rek-price__item-li">Рекомендации по улучшению конверсий</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__price">9 900 Р</div>
+                                        <div class="rek-price__price">20 000 Р</div>
+                                    </div>
+									<div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">Ведение компании 10% от бюджета</div>
                                     </div>
                                 </div>
                             </div>
@@ -507,54 +518,57 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 1 000</div>
-                                        <div class="rek-price__item-text">Обрабатываем запросов при настройке</div>
+                                        <div class="rek-price__item-price">Точность отслеживания 99%</div>
+                                        <div class="rek-price__item-text">Предоставляем максимально точные данные</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">1 112 городов</div>
-                                        <div class="rek-price__item-text">В которых можно разместить рекламу</div>
-                                    </div>
-                                </div>
-                                <div class="rek-price__row">
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">0.30 коп. </div>
-                                        <div class="rek-price__item-text">За переход на сайт</div>
-                                    </div>
-                                    <div class="rek-price__item">
-                                        <div class="rek-price__item-price">более 30</div>
-                                        <div class="rek-price__item-text">Критериев по подбору целевой аудитории</div>
+                                        <div class="rek-price__item-price">Прослушивание записей</div>
+                                        <div class="rek-price__item-text">Все звонки сохраняются в системе</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">40 ч.</div>
-                                        <div class="rek-price__item-text">На стройка рекламной компании</div>
+                                        <div class="rek-price__item-price">Мониторинг звонков</div>
+                                        <div class="rek-price__item-text">Автоматический контроль работы сервиса</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 30 ч.</div>
-                                        <div class="rek-price__item-text">Модерации рекламной компании</div>
+                                        <div class="rek-price__item-price">Тегирование звонков</div>
+                                        <div class="rek-price__item-text">Отмечаем целевые звонки и получаем больше данных</div>
+                                    </div>
+                                </div>
+                                <div class="rek-price__row">
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price">Региональные номера</div>
+                                        <div class="rek-price__item-text">Широкая номерная емкость в 60 городах РФ</div>
+                                    </div>
+                                    <div class="rek-price__item">
+                                        <div class="rek-price__item-price"></div>
+                                        <div class="rek-price__item-text"></div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Анализ конкурентов</div>
-                                            <div class="rek-price__item-li">Составление ядра запросов</div>
-                                            <div class="rek-price__item-li">Полная SEO оптимизация</div>
+                                            <div class="rek-price__item-li">Скидка на настройку контекстной рекламы 10%</div>
+                                            <div class="rek-price__item-li"></div>
+                                            <div class="rek-price__item-li"></div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">+</div>
+                                        <div class="rek-price__item-price"></div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Базовая проработка целевой аудитории</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверий на сайте</div>
+                                            <div class="rek-price__item-li"></div>
+                                            <div class="rek-price__item-li"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__price">9 900 Р</div>
+                                        <div class="rek-price__price">от  5000 Р / мес.</div>
+                                    </div>
+									<div class="seo-price__item seo-price__item_bottom">
+                                        <div class="seo-price__desc">Ведение и корректировки - бесплатно!</div>
                                     </div>
                                 </div>
                             </div>
@@ -563,24 +577,28 @@
                 </section>
                 <section class="rek-bud">
                     <div class="rek-bud__title">Снижаем бюджет на контекстную рекламу</div>
-                    <div class="rek-bud__list">
+                    <div class="rek-bud__list numbers" data-timer="2000">
                         <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">150 Р</span>
+                            <div class="rek-bud__item-title number">
+                                <span class="rek-bud__item-val number__val" data-from="850" data-to="150">0</span><span class="rek-bud__item-type"> Р</span>
                             </div>
                             <div class="rek-bud__item-text">Средняя стоимость <br> клика</div>
                         </div>
-                        <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">3</span><span class="rek-bud__item-type"> % CTR</span>
+                        <div class="rek-bud__item number">
+                            <div class="rek-bud__item-title">
+                                <span class="rek-bud__item-val number__val" data-from="0" data-to="15">0</span><span class="rek-bud__item-type"> % CTR</span>
                             </div>
                             <div class="rek-bud__item-text">Показатель <br> кликабельности</div>
                         </div>
-                        <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">45</span><span class="rek-bud__item-type"> % Bonus rate</span>
+                        <div class="rek-bud__item number">
+                            <div class="rek-bud__item-title">
+                                <span class="rek-bud__item-val number__val" data-from="50" data-to="10">0</span><span class="rek-bud__item-type"> % Bonus rate</span>
                             </div>
                             <div class="rek-bud__item-text">Показатель отказа <br> поситителей</div>
                         </div>
-                        <div class="rek-bud__item">
-                            <div class="rek-bud__item-title"><span class="rek-bud__item-val">25</span><span class="rek-bud__item-type"> % ROI</span>
+                        <div class="rek-bud__item number">
+                            <div class="rek-bud__item-title">
+                                <span class="rek-bud__item-val number__val" data-from="-50" data-to="250">-50</span><span class="rek-bud__item-type"> % ROI</span>
                             </div>
                             <div class="rek-bud__item-text">Окупаемость инфестиций <br> в рекламу</div>
                         </div>
@@ -588,19 +606,39 @@
                     <div class="rek-bud__subtitle">Как наша работа влияет на стоимость рекламы</div>
                     <div class="rek-bud__checks">
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="0">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Реклама только <br> для ЦА</div>
                         </div>
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="1">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Исключение <br> не целевых запросов</div>
                         </div>
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="2">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Реклама когда ЦА <br> готова покупать</div>
                         </div>
                         <div class="rek-bud__check">
-                            <div class="rek-bud__check-check"></div>
+                            <label class="rek-bud__check-check">
+                                <input type="checkbox" name="budjet" class="rek-bud__check-input" checked data-number="3">
+                                <div class="rek-bud__check-fake">
+                                    <img src="/images/icons/tick.svg" alt="">
+                                </div>
+                            </label>
                             <div class="rek-bud__check-title">Привлекательные <br> объявления</div>
                         </div>
                     </div>
@@ -619,12 +657,10 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Создание сайта</div>
+                                <div class="why__title">Мы просто космос</div>
                                 <div class="why__content">
-                                    <p>При разработке сайта мы учитываем многочисленные требования поисковых систем Yandex и Google, благодаря чему все сайты, созданные нами, отлично индексируются и обладают всеми возможностями эффективно продвигаться в интернете. Цена на создание сайта демократична и начинается от 49 900 руб.   Подход к каждому новому проекту – индивидуален, мы относимся одинаково внимательно к каждому клиенту, независимо от размера компании и ее бюджета. На начальной стадии работы над проектом мы детально изучаем тематику клиента со всех сторон, оцениваем рентабельность идеи и анализируем конкурентов. Основываясь на полученной информации, мы даем рекомендации, как по разработке, так и по эффективной рекламе в интернете.</p>
-                                    <p>После сдачи проекта мы осуществляем раскрутку и поддержку сайта, помогая клиенту привлекать трафик из интернета. Обращайтесь в нашу студию за разработкой веб сайтов под ключ и вы получите команду специалистов, готовых проконсультировать по любому вопросу и оказать всестороннюю поддержку вашему бизнесу во всемирной паутине.</p>
-                                    <p>Наша команда состоит из высококвалифицированных кадров, за плечами которых огромный опыт работы в веб индустрии. Несмотря на уже приобретенный опыт, мы держим руку на пульсе новых технологий и постоянно совершенствуем наработанные навыки. Таким образом, вы можете быть уверены, что при сотрудничестве с нами получите современный продукт, который будет выполнять ваши задачи и достигать поставленные цели.   Основные наши направления: создание сайтов под ключ, разработка дизайна, написание контента, продвижение сайта и его раскрутка, работа с социальными сетями, PR-рейтинг, техническая поддержка сайта, регистрация доменных имен, серверное обслуживание, программирование и настройка 1С.</p>
-                                </div>
+									<p></p>
+								</div>
                             </div>
                         </div>
                         <div class="bottom__footer">

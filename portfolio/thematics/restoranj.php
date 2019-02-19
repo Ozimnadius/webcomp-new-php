@@ -13,7 +13,7 @@
                             <a class="bread__item active">Сайт для ресторана</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Сайт для ресторана или кафэ</div>
+                    <div class="rek-first__title">Сайт для ресторана или кафе</div>
                     <div class="rek-first__subtitle">
                         Комплексный подход к разработке вашего проекта <br>
                         с учётом особенностей вашего бизнесса<br>

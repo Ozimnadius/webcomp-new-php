@@ -2,6 +2,16 @@
   background: url("../images/bg/promoteBg.jpg") 0 0 no-repeat;
   background-size: cover;
 
+  .bread{
+    &__item{
+      color: $text;
+
+      &.active {
+        color: $Selective-yellow;
+      }
+    }
+  }
+
   &-first {
     padding-top: vh(230);
     padding-bottom: 225px;
@@ -272,7 +282,7 @@
       background-position: 0 0 !important;
 
       @include lg{
-        width: calc(100%/3 - 2px);
+        width: calc(100%/5 - 2px);
       };
       @include xs{
         width: calc(100%/2);
@@ -286,7 +296,7 @@
         .theme-cats__img {
           top: 10.97%;
           transform: translateY(0%) scale(0.66);
-          @include sm{
+          @include lg{
             top: 3%;
           };
         }
@@ -315,7 +325,7 @@
       //justify-content: center;
       text-align: center;
       transition: .4s;
-      @include sm{
+      @include lg{
         padding: 0 10%;
 
       };
@@ -339,7 +349,7 @@
       bottom: 0;
       left: 0;
       right: 0;
-      background: url(../images/bg/themeCatLine.svg) center center no-repeat;
+      background: url(/images/bg/themeCatLine.svg) center center no-repeat;
       background-size: cover;
       opacity: 0;
       transition: .5s;
@@ -375,7 +385,7 @@
         font-size: 30px;
         font-weight: 700;
         padding-right: 30px;
-        @include sm{
+        @include lg{
           font-size: 13px;
         };
       }
@@ -397,7 +407,7 @@
       &-val {
         font-size: 30px;
         font-weight: 700;
-        @include sm{
+        @include lg{
           font-size: 13px;
         };
       }
@@ -413,7 +423,7 @@
       right: 0;
       bottom: -100px;
       text-align: center;
-      @include sm{
+      @include lg{
         font-size: 9px;
       };
     }

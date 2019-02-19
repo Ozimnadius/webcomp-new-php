@@ -6,6 +6,7 @@
     <main class="main">
         <div class="comp">
             <div class="container">
+                <? /*
                 <section class="comp-first index-first active-page" id="01">
                     <div class="index-first__title">
                         <div class="title">
@@ -36,7 +37,8 @@
                         </div>
                     </div>
                 </section>
-                <section class="comp-rew">
+                */ ?>
+                <section class="comp-rew active-page">
                     <div class="comp-rew__title">
                         <div class="comp-rew__title-text">web</div>
                         <div class="comp-rew__title-sep"></div>

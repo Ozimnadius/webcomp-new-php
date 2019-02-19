@@ -13,7 +13,7 @@
                             <a class="bread__item active">Сайт для мебельного магазина</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Сайты для книг</div>
+                    <div class="rek-first__title">Сайты для мебельного магазина</div>
                     <div class="rek-first__subtitle">
                         Комплексный подход к разработке вашего проекта <br>
                         с учётом особенностей вашего бизнесса<br>

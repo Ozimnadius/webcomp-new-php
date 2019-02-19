@@ -17,7 +17,7 @@
             <div class="footer__col">
                 <div class="footer__items">
                     <a class="footer__item" href="/portfolio.php">Примеры работ</a>
-                    <a class="footer__item" href="/news.php">Полезная информация</a>
+                    <a class="footer__item" href="/blog.php">Полезная информация</a>
                 </div>
             </div>
         </div>

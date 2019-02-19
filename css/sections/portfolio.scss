@@ -4,6 +4,16 @@ $width: 556;
   background: url("/images/bg/promoteBg.jpg") 0 0 no-repeat;
   background-size: cover;
 
+  .bread{
+    &__item{
+      color: $text;
+
+      &.active {
+        color: $Selective-yellow;
+      }
+    }
+  }
+
   &-lap {
     background-size: cover;
     background-position: 0 0;

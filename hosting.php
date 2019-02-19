@@ -28,7 +28,8 @@
                             <div class="host-tarifs__tag">
                                 <div class="host-tarifs__title">S</div>
                                 <div class="host-tarifs__sub">тариф</div>
-                            </div></a>
+                            </div>
+                        </a>
                         <a class="host-tarifs__item_2 host-tarifs__item" href="#" data-name="M" data-id="2" data-src="/images/content/hosting/tarifs/earth.jpg">
                             <div class="host-tarifs__img">
                                 <div class="host-tarifs__img-img" style="background-image:url(/images/content/hosting/tarifs/earth.jpg);"></div>

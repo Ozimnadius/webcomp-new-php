@@ -1,8 +1,8 @@
-<? include 'pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
 
 <!-- main -->
 <main class="page page_second">
-    <? include 'pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">
         <div class="art">
             <div class="container3">
@@ -10,7 +10,7 @@
                     <div class="art-first__bread">
                         <div class="bread">
                             <a class="bread__item" href="./">Главная</a>
-                            <a class="bread__item" href="./news.php">Блог</a>
+                            <a class="bread__item" href="blog.php">Блог</a>
                             <a class="bread__item active">Быстрый способ поднять конверсию на сайте</a>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                             </div>
                             <div class="art-desc__cats">
                                 <div class="art-desc__cats-title">Категории</div>
-                                <div class="art-desc__cats-list"><a class="art-desc__cat" href="./news.php"><span class="art-desc__cat-title">Кейсы</span><span class="art-desc__cat-count"> (50)</span></a><a class="art-desc__cat" href="./news.php"><span class="art-desc__cat-title">Продвижение SEO</span><span class="art-desc__cat-count"> (10)</span></a><a class="art-desc__cat" href="./news.php"><span class="art-desc__cat-title">Создание сайтов</span><span class="art-desc__cat-count"> (13)</span></a><a class="art-desc__cat" href="./news.php"><span class="art-desc__cat-title">Интернет реклама</span><span class="art-desc__cat-count"> (8)</span></a><a class="art-desc__cat" href="./news.php"><span class="art-desc__cat-title">Повышение продаж</span><span class="art-desc__cat-count"> (11)</span></a><a class="art-desc__cat" href="./news.php"><span class="art-desc__cat-title">Бизнес о бизнесе</span><span class="art-desc__cat-count"> (17)</span></a><a class="art-desc__cat" href="./news.php"><span class="art-desc__cat-title">SMM и SMO</span><span class="art-desc__cat-count"> (35)</span></a><a class="art-desc__cat" href="./news.php"><span class="art-desc__cat-title">Тексты и контент-маркетинг</span><span class="art-desc__cat-count"> (7)</span></a>
+                                <div class="art-desc__cats-list"><a class="art-desc__cat" href="blog.php"><span class="art-desc__cat-title">Кейсы</span><span class="art-desc__cat-count"> (50)</span></a><a class="art-desc__cat" href="blog.php"><span class="art-desc__cat-title">Продвижение SEO</span><span class="art-desc__cat-count"> (10)</span></a><a class="art-desc__cat" href="blog.php"><span class="art-desc__cat-title">Создание сайтов</span><span class="art-desc__cat-count"> (13)</span></a><a class="art-desc__cat" href="blog.php"><span class="art-desc__cat-title">Интернет реклама</span><span class="art-desc__cat-count"> (8)</span></a><a class="art-desc__cat" href="blog.php"><span class="art-desc__cat-title">Повышение продаж</span><span class="art-desc__cat-count"> (11)</span></a><a class="art-desc__cat" href="blog.php"><span class="art-desc__cat-title">Бизнес о бизнесе</span><span class="art-desc__cat-count"> (17)</span></a><a class="art-desc__cat" href="blog.php"><span class="art-desc__cat-title">SMM и SMO</span><span class="art-desc__cat-count"> (35)</span></a><a class="art-desc__cat" href="blog.php"><span class="art-desc__cat-title">Тексты и контент-маркетинг</span><span class="art-desc__cat-count"> (7)</span></a>
                                 </div>
                             </div>
                         </div>
@@ -228,6 +228,7 @@
                                     <div class="arrow__triangle"></div>
                                 </div>
                             </button>
+                            <input type="hidden" name="action" value="bannerSendMail">
                         </form>
                         <div class="banner-send__confirm"></div>
                     </div>
@@ -322,10 +323,10 @@
                 <div class="bottom">
                     <div class="container2">
                         <div class="bottom__send">
-                            <? include '/pages/blocks/bottom/send.php' ?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php' ?>
                         </div>
                         <div class="bottom__footer">
-                            <? include '/pages/blocks/bottom/footer.php' ?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php' ?>
                         </div>
                     </div>
                 </div>
@@ -335,4 +336,4 @@
 </main>
 <!-- END main -->
 
-<? include 'pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>

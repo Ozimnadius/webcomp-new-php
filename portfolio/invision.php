@@ -16,7 +16,7 @@
                 <div class="container3">
                     <div class="port-lap__bread">
                         <div class="bread">
-                            <a class="bread__item" href="/">Главная</a>
+                            <a class="bread__item" href="/">Создание сайтов</a>
                             <a class="bread__item" href="/portfolio.php">Портфолио</a>
                             <a class="bread__item active">Invision</a>
                         </div>
@@ -201,9 +201,15 @@
                         <div class="bottom__send">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/send.php' ?>
                         </div>
-                        <div class="bottom__why">
-                            <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/why.php' ?>
-                        </div>
+<div class="why">
+    <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
+    <div class="why__title">Работаем на результат</div>
+    <div class="why__content">
+        <p>Для нас важно создать проект и привести его в идеально состояние. Мы заинтересованы создавать те проекты, которые нам не стыдно показать. К сожалению, в некоторых проектах мы не можем проявлять свой талант и креативный подход в полном объеме, так как отталкиваемся от жёстких требований заказчиков по цвету, расположению элементов на странице, 
+		эффектов и размещению информации. Обращаясь к нам, вы получаете команду специалистов с большим опытом работы. Для нас нет невыполнимых задач, мы возьмемся за самые смелые ваши идеи и доведём их до финального этапа.</p>
+		<br>
+	</div>
+</div>
                         <div class="bottom__footer">
                             <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/bottom/footer.php' ?>
                         </div>

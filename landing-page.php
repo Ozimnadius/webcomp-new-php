@@ -249,8 +249,8 @@
                         <section class="theme-price">
                             <h1 class="theme-price__title">Стоимость создания лендинга</h1>
                             <div class="theme-price__switches">
-                                <div class="theme-price__switches-list">
-                                </div>
+<!--                                <div class="theme-price__switches-list">-->
+<!--                                </div>-->
                                 <div class="theme-price__line">
                                     <div class="theme-price__subline"></div>
                                 </div>
@@ -368,7 +368,7 @@
                         <div class="site-cost__sub">Заполнение брифа онлайн для расчёта точной стоимости<br>или
                             загрузите свое ТЗ для оценки
                         </div>
-                        <form class="form site-cost__form site-cost__tabs" action="#" method="post">
+                        <form class="form site-cost__form site-cost__tabs" action="#" method="post" enctype="multipart/form-data">
                             <div class="site-cost__tab active" data-id="1">
                                 <div class="form__wrapper">
                                     <div class="form__row">
@@ -590,7 +590,7 @@
                                     </div>
                                     <div class="form__row">
                                         <div class="form__field">
-                                            <input class="input" type="file" name="files" placeholder="Доп файлы">
+                                            <input class="input" type="file" name="file" placeholder="Подробное задание" accept="image/*, application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document, .pdf, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
                                         </div>
                                         <div class="form__field">
                                             <input class="input" type="text" name="goodSites"
@@ -612,6 +612,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <input type="hidden" name="action" value="siteCostSend">
                         </form>
                         <div class="site-cost__switches">
                             <div class="site-cost__line">

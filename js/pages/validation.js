@@ -13,8 +13,8 @@ $('.form').each(function (indx, elem) {
             },
 
             submitHandler: function (form) {
+                sendCallorderData(form);
                 form.reset();
-                getTimerForm();
             },
             invalidHandler: function (event, validator) {
                 // debugger;
@@ -41,8 +41,27 @@ $('.calc').validate(
         },
 
         submitHandler: function (form) {
-            form.reset();
-            getTimerForm();
+            let data = $(form).serialize();
+
+
+            $.ajax({
+                dataType: "json",
+                type: "POST",
+                url: '/php/ajax.php',
+                data: data,
+                success: function (result) {
+                    if (result.status) {
+                        form.reset();
+                        getTimerForm();
+                    } else {
+                        alert('Что-то пошло не так, попробуйте еще раз!!!');
+                    }
+                },
+                error: function (result) {
+                    alert('Что-то пошло не так, попробуйте еще раз!!!');
+                }
+            });
+
         },
         invalidHandler: function (event, validator) {
             // debugger;
@@ -70,8 +89,8 @@ if (smmForm.length > 0) {
             },
 
             submitHandler: function (form) {
+                sendCallorderData(form);
                 form.reset();
-                getTimerForm();
             },
             invalidHandler: function (event, validator) {
                 // debugger;
@@ -100,8 +119,30 @@ if (siteForm.length > 0) {
             },
 
             submitHandler: function (form) {
-                form.reset();
-                getTimerForm();
+
+                // let data = $(form).serialize();
+                let data = getFormData(form);
+
+                $.ajax({
+                    dataType: "json",
+                    type: "POST",
+                    url: '/php/ajax.php',
+                    data: data,
+                    // cache: false,
+                    contentType: false,
+                    processData: false,
+                    success: function (result) {
+                        if (result.status) {
+                            form.reset();
+                            getTimerForm();
+                        } else {
+                            alert('Что-то пошло не так, попробуйте еще раз!!!');
+                        }
+                    },
+                    error: function (result) {
+                        alert('Что-то пошло не так, попробуйте еще раз!!!');
+                    }
+                });
             },
             invalidHandler: function (event, validator) {
                 // debugger;
@@ -112,6 +153,28 @@ if (siteForm.length > 0) {
             }
         }
     );
+}
+
+function getFormData(form) {
+
+    let $form = $(form),
+        formData = new FormData();
+
+    $.each($form.find('input, textarea, select').not('[type="select-one"]'), function (i, field) {
+        let $field = $(field),
+            type = field.type,
+            name = field.name,
+            value = '';
+        
+        if (type=='file') {
+            value = field.files[0];
+        } else {
+            value = field.value;
+        }
+        formData.append(name, value);
+    });
+
+    return formData;
 }
 
 let testForm = $('.testing__form');
@@ -162,7 +225,7 @@ if (testForm.length > 0) {
                                     },
 
                                     submitHandler: function (form) {
-                                        getTimerForm();
+                                        sendCallorderData(form);
                                     },
                                     invalidHandler: function (event, validator) {
                                         // debugger;

@@ -311,6 +311,14 @@ function Graphs(graphs) {
     };
 }
 
+window.addEventListener("mousewheel", function(e) {
+
+    if (e.ctrlKey) {
+        e.preventDefault();
+        return false;
+    }
+});
+
 let numbersAll = document.querySelectorAll('.numbers');
 
 if (numbersAll.length) {

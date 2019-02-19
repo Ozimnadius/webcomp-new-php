@@ -9,6 +9,7 @@
                 <div class="arrow__triangle"></div>
             </div>
         </button>
+        <input type="hidden" name="action" value="bannerSendMail">
     </form>
     <div class="banner-send__confirm"></div>
 </div>

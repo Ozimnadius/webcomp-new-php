@@ -8,7 +8,7 @@
             line: '.site-cost__subline',
             tab: '.site-cost__tab',
             switchActive: false
-        }).init();
+        });
     }
 
     let formNextAll = document.querySelectorAll('.site-cost .form__button');

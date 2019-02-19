@@ -325,11 +325,14 @@
                                     <input class="input" type="text" name="budget" placeholder="Бюджет в месяц">
                                 </div>
                                 <div class="form__field">
-                                    <select class="select">
+                                    <select class="select" name="sphere">
                                         <option disabled selected>Сфера деятельности</option>
-                                        <option>Вариант 1</option>
-                                        <option>Вариант 2</option>
-                                        <option>Вариант 3</option>
+                                        <option>Оказание услуг</option>
+                                        <option>Торговля</option>
+                                        <option>Производство</option>
+                                        <option>Консультирование</option>
+                                        <option>Блог</option>
+                                        <option>Развлечение</option>
                                     </select>
                                 </div>
                             </div>
@@ -341,11 +344,11 @@
                                     <input class="input" type="text" name="smm" placeholder="Соц сети (если есть)">
                                 </div>
                                 <div class="form__field">
-                                    <select class="select">
+                                    <select class="select" name="services">
                                         <option disabled selected>Какие услуги вам интересны</option>
-                                        <option>Вариант 1</option>
-                                        <option>Вариант 2</option>
-                                        <option>Вариант 3</option>
+                                        <option>Максимальный охват</option>
+                                        <option>Таргетированная реклама</option>
+                                        <option>Ведение соц.сетей</option>
                                     </select>
                                 </div>
                             </div>
@@ -362,12 +365,13 @@
                             </div>
                             <div class="form__row">
                                 <div class="form__field form__field_3">
-                                    <textarea class="input input_area" placeholder="Комментарий"></textarea>
+                                    <textarea class="input input_area" name="desc" placeholder="Комментарий"></textarea>
                                 </div>
                             </div>
                             <div class="form__submit">
                                 <button class="form__button button" type="submit">рассчитать стоимость</button>
                             </div>
+                            <input type="hidden" name="action" value="smmMail">
                         </form>
                     </div>
                 </section>

@@ -137,11 +137,11 @@
                 <section class="theme-iss">
                     <div class="theme-iss__title">Тематики в которых мы уже успели показать результата</div>
                     <div class="theme-iss__list">
-                        <div class="theme-iss__col"><a class="theme-iss__item" href="/promote/thematics/avtosalon.php">Автосалоны</a><a class="theme-iss__item" href="/promote/thematics/avtoservis.php">Автосервисы</a><a class="theme-iss__item" href="/promote/thematics/magazin-avtozapchastei.php">Автозапчасти</a><a class="theme-iss__item" href="/promote/thematics/buhgalteriya.php">Бухгалтерские услуги</a><a class="theme-iss__item" href="/promote/thematics/gostinicj-oteli.php">Гостиницы и отели</a><a class="theme-iss__item" href="/promote/thematics/nedvijimost.php">Агентства недвижимости</a><a class="theme-iss__item" href="/promote/thematics/magazin-igrushek.php">Детские игрушки</a><a class="theme-iss__item" href="/promote/thematics/znakomstva.php">Сайт знакомств</a><a class="theme-iss__item" href="/promote/thematics/jenskaya-tematika.php">Женская тематика</a>
+                        <div class="theme-iss__col"><a class="theme-iss__item" href="/promote/thematics/avtosalon.php">Автосалоны</a><a class="theme-iss__item" href="/promote/thematics/avtoservis.php">Автосервисы</a><a class="theme-iss__item" href="/promote/thematics/magazin-avtozapchastei.php">Автозапчасти</a><a class="theme-iss__item" href="/promote/thematics/buhgalteriya.php">Бухгалтерия</a><a class="theme-iss__item" href="/promote/thematics/gostinicj-oteli.php">Гостиницы и отели</a><a class="theme-iss__item" href="/promote/thematics/nedvijimost.php">Недвижимость</a><a class="theme-iss__item" href="/promote/thematics/magazin-igrushek.php">Игрушки</a><a class="theme-iss__item" href="/promote/thematics/znakomstva.php">Сайт знакомств</a><a class="theme-iss__item" href="/promote/thematics/jenskaya-tematika.php">Женская тематика</a>
                         </div>
-                        <div class="theme-iss__col"><a class="theme-iss__item" href="/promote/thematics/med-centr.php">Клиники</a><a class="theme-iss__item" href="/promote/thematics/knigi.php">Книги</a><a class="theme-iss__item" href="/promote/thematics/magazin-mebeli.php">Мебельный сайт</a><a class="theme-iss__item" href="/promote/thematics/medicinskie-yslygi.php">Медицинские услуги</a><a class="theme-iss__item" href="/">Салоны красоты</a><a class="theme-iss__item" href="/promote/thematics/svadebnji-salon.php">Свадебные агентства</a><a class="theme-iss__item" href="/promote/thematics/strahovje.php">Страхование</a><a class="theme-iss__item" href="/promote/thematics/stroitelnaya-tematika.php">Услуги ремонта</a><a class="theme-iss__item" href="/promote/thematics/restoranj-i-kafe.php">Рестораны</a>
+                        <div class="theme-iss__col"><a class="theme-iss__item" href="/promote/thematics/med-centr.php">Клиники</a><a class="theme-iss__item" href="/promote/thematics/knigi.php">Книги</a><a class="theme-iss__item" href="/promote/thematics/magazin-mebeli.php">Мебельный сайт</a><a class="theme-iss__item" href="/promote/thematics/medicinskie-yslygi.php">Медицинские услуги</a><a class="theme-iss__item" href="/">Салоны красоты</a><a class="theme-iss__item" href="/promote/thematics/svadebnji-salon.php">Свадебные агентства</a><a class="theme-iss__item" href="/promote/thematics/strahovje.php">Страхование</a><a class="theme-iss__item" href="/promote/thematics/stroitelnaya-tematika.php">Ремонт и стройка</a><a class="theme-iss__item" href="/promote/thematics/restoranj-i-kafe.php">Рестораны</a>
                         </div>
-                        <div class="theme-iss__col"><a class="theme-iss__item" href="/promote/thematics/tyristicheskay-tematika.php">Туристическая тематика</a><a class="theme-iss__item" href="/promote/thematics/tyroperator.php">Турфирмы</a><a class="theme-iss__item" href="/promote/thematics/uvelirnaya-tematika.php">Ювелирные салоны</a><a class="theme-iss__item" href="/promote/thematics/magazin-odejdj.php">Магазин одежда</a><a class="theme-iss__item" href="/promote/thematics/elektronika.php">Электроника</a><a class="theme-iss__item" href="/promote/thematics/uridicheskie-yslygi.php">Юридические услуги</a><a class="theme-iss__item" href="/">Грузоперевозоки</a><a class="theme-iss__item" href="/promote/thematics/farrma.php">Фармацевтическая продукция</a><a class="theme-iss__item" href="/promote/thematics/stomatologiya.php">Стоматологические клиники</a>
+                        <div class="theme-iss__col"><a class="theme-iss__item" href="/promote/thematics/tyristicheskay-tematika.php">Туризм</a><a class="theme-iss__item" href="/promote/thematics/tyroperator.php">Турфирмы</a><a class="theme-iss__item" href="/promote/thematics/uvelirnaya-tematika.php">Ювелирные салоны</a><a class="theme-iss__item" href="/promote/thematics/magazin-odejdj.php">Магазин одежды</a><a class="theme-iss__item" href="/promote/thematics/elektronika.php">Электроника</a><a class="theme-iss__item" href="/promote/thematics/uridicheskie-yslygi.php">Юридические услуги</a><a class="theme-iss__item" href="/promote/thematics/gryzoperevozki.php">Грузоперевозоки</a><a class="theme-iss__item" href="/promote/thematics/farrma.php">Фармацевтика</a><a class="theme-iss__item" href="/promote/thematics/stomatologiya.php">Стоматология</a>
                         </div>
                         <div class="theme-iss__col"><a class="theme-iss__item" href="/promote/thematics/fitnes.php">Фитнес-клубы</a><a class="theme-iss__item" href="/promote/thematics/bizness-yslygi.php">Деловые услуги</a><a class="theme-iss__item" href="/promote/thematics/banki.php">Банки</a><a class="theme-iss__item" href="/">Сантехника</a><a class="theme-iss__item" href="/promote/thematics/magazin-cvetov.php">Магазины цветов</a><a class="theme-iss__item" href="/promote/thematics/tovarj-dlya-doma.php">Товары для дома</a><a class="theme-iss__item" href="/promote/thematics/stroitelnaya-kompaniya.php">Строительные материалы</a><a class="theme-iss__item" href="/promote/thematics/sport-tovarj.php">Спортивные товары</a><a class="theme-iss__item" href="/promote/thematics/seo-zoomagazin.php">Зоотовары</a>
                         </div>
@@ -150,7 +150,7 @@
                 </section>
                 <section class="theme-cats">
                     <div class="theme-iss__title">Мы снижаем стоимость рекламы</div>
-                    <div class="theme-cats__list"><a class="theme-cats__item" style="background:#66696c;">
+                    <div class="theme-cats__list"><a class="theme-cats__item" style="background:#103a71;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat1.png"></div>
                             <div class="theme-cats__line"></div>
@@ -180,7 +180,7 @@
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Гостиницы и отели</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item"  style="background:#cccccc;">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item"  style="background:#ffc601;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat3.png"></div>
                             <div class="theme-cats__line"></div>
@@ -269,7 +269,7 @@
                                     <div class="theme-cats__to-val">220 Р</div>
                                 </div>
                             </div>
-                            <div class="theme-cats__thematic">Свадебные услуги</div>
+                            <div class="theme-cats__thematic">Салон красоты</div>
                             <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:#3f1f44;">
                             <div class="proportion proportion_1x1"></div>
                             <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat9.png"></div>
@@ -300,9 +300,9 @@
                                 </div>
                             </div>
                             <div class="theme-cats__thematic">Книги</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item"  style="background:#66696c;">
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item"  style="background:#70add6;">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat1.png"></div>
+                            <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat11.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
@@ -314,10 +314,10 @@
                                     <div class="theme-cats__to-val">45 Р</div>
                                 </div>
                             </div>
-                            <div class="theme-cats__thematic">Автосалоны</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:url(/images/content/theme/cats/cat2Bg.jpg);">
+                            <div class="theme-cats__thematic">Отопление</div>
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:#c791da;">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat2.png"></div>
+                            <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat12.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
@@ -329,52 +329,52 @@
                                     <div class="theme-cats__to-val">89 Р</div>
                                 </div>
                             </div>
-                            <div class="theme-cats__thematic">Гостиницы и отели</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:#cccccc;">
+                            <div class="theme-cats__thematic">Психология</div>
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:#00968a;">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat3.png"></div>
+                            <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat13.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">2500 Р</div>
+                                </div>
+                                <div class="theme-cats__to">
+                                    <div class="theme-cats__to-name">после</div>
+                                    <div class="theme-cats__to-val">590 Р</div>
+                                </div>
+                            </div>
+                            <div class="theme-cats__thematic">Ювелирные изделия</div>
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:#9edc46;">
+                            <div class="proportion proportion_1x1"></div>
+                            <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat14.png"></div>
+                            <div class="theme-cats__line"></div>
+                            <div class="theme-cats__fromTo">
+                                <div class="theme-cats__from">
+                                    <div class="theme-cats__from-name">до</div>
+                                    <div class="theme-cats__from-val">350 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
                                     <div class="theme-cats__to-val">89 Р</div>
                                 </div>
                             </div>
-                            <div class="theme-cats__thematic">Сайты по ремонту</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:#ff0a00;">
+                            <div class="theme-cats__thematic">Флористика</div>
+                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" style="background:#f29d30;">
                             <div class="proportion proportion_1x1"></div>
-                            <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat4.png"></div>
+                            <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat15.png"></div>
                             <div class="theme-cats__line"></div>
                             <div class="theme-cats__fromTo">
                                 <div class="theme-cats__from">
                                     <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
+                                    <div class="theme-cats__from-val">1450 Р</div>
                                 </div>
                                 <div class="theme-cats__to">
                                     <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
+                                    <div class="theme-cats__to-val">700 Р</div>
                                 </div>
                             </div>
-                            <div class="theme-cats__thematic">Агенства недвижимости</div>
-                            <div class="theme-cats__title">Стоимость заявки</div></a><a class="theme-cats__item" href="./portfolio.php" style="background:url(/images/content/theme/cats/cat5Bg.jpg);">
-                            <div class="proportion proportion_1x1"></div>
-                            <div class="theme-cats__img"><img class="theme-cats__img-img" src="/images/content/theme/cats/cat5.png"></div>
-                            <div class="theme-cats__line"></div>
-                            <div class="theme-cats__fromTo">
-                                <div class="theme-cats__from">
-                                    <div class="theme-cats__from-name">до</div>
-                                    <div class="theme-cats__from-val">150 Р</div>
-                                </div>
-                                <div class="theme-cats__to">
-                                    <div class="theme-cats__to-name">после</div>
-                                    <div class="theme-cats__to-val">89 Р</div>
-                                </div>
-                            </div>
-                            <div class="theme-cats__thematic">Страхования</div>
+                            <div class="theme-cats__thematic">Вождение</div>
                             <div class="theme-cats__title">Стоимость заявки</div></a>
                     </div>
                 </section>

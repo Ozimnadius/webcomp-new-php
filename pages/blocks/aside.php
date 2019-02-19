@@ -25,7 +25,7 @@
                 <a class="nav__item" href="/portfolio.php">Портфолио</a>
                 <a class="nav__item" href="/">Стоимость</a>
                 <a class="nav__item" href="/contacts.php">Контакты</a>
-                <a class="nav__item" href="/news.php">Блог</a>
+                <a class="nav__item" href="/blog.php">Блог</a>
             </nav>
         </div>
 

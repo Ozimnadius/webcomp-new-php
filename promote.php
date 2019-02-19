@@ -110,25 +110,25 @@
                             <form class="form" action="#" method="post">
                                 <div class="form__row form__row_2">
                                     <div class="form__field2">
-                                        <input class="check" type="radio" id="radio0" name="promo" checked>
+                                        <input class="check" type="radio" id="radio0" name="promo" checked value="Продвижение в Яндекс">
                                         <label class="check__label" for="radio0">Продвижение в Яндекс
                                             <div class="check__fake"></div>
                                         </label>
                                     </div>
                                     <div class="form__field2">
-                                        <input class="check" type="radio" id="radio1" name="promo">
+                                        <input class="check" type="radio" id="radio1" name="promo" value="Продвижение в Google">
                                         <label class="check__label" for="radio1">Продвижение в Google
                                             <div class="check__fake"></div>
                                         </label>
                                     </div>
                                     <div class="form__field2">
-                                        <input class="check" type="radio" id="radio2" name="promo">
+                                        <input class="check" type="radio" id="radio2" name="promo" value="Контекстная реклама в Яндекс">
                                         <label class="check__label" for="radio2">Контекстная реклама в Яндекс
                                             <div class="check__fake"></div>
                                         </label>
                                     </div>
                                     <div class="form__field2">
-                                        <input class="check" type="radio" id="radio3" name="promo">
+                                        <input class="check" type="radio" id="radio3" name="promo" value="Контекстная реклама в Google">
                                         <label class="check__label" for="radio3">Контекстная реклама в Google
                                             <div class="check__fake"></div>
                                         </label>
@@ -136,25 +136,25 @@
                                 </div>
                                 <div class="form__row form__row_2">
                                     <div class="form__field2">
-                                        <input class="check" type="radio" id="radio4" name="promo">
+                                        <input class="check" type="radio" id="radio4" name="promo" value="Реклама в ВКонтакте">
                                         <label class="check__label" for="radio4">Реклама в ВКонтакте
                                             <div class="check__fake"></div>
                                         </label>
                                     </div>
                                     <div class="form__field2">
-                                        <input class="check" type="radio" id="radio5" name="promo">
+                                        <input class="check" type="radio" id="radio5" name="promo" value="Реклама в Instagram">
                                         <label class="check__label" for="radio5">Реклама в Instagram
                                             <div class="check__fake"></div>
                                         </label>
                                     </div>
                                     <div class="form__field2">
-                                        <input class="check" type="radio" id="radio6" name="promo">
+                                        <input class="check" type="radio" id="radio6" name="promo" value="Реклама в Одноклассники">
                                         <label class="check__label" for="radio6">Реклама в Одноклассники
                                             <div class="check__fake"></div>
                                         </label>
                                     </div>
                                     <div class="form__field2">
-                                        <input class="check" type="radio" id="radio7" name="promo">
+                                        <input class="check" type="radio" id="radio7" name="promo" value="Реклама в Facebook">
                                         <label class="check__label" for="radio7">Реклама в Facebook
                                             <div class="check__fake"></div>
                                         </label>
@@ -166,16 +166,16 @@
                                                placeholder="Кол-во продвигаемых слов">
                                     </div>
                                     <div class="form__field">
-                                        <select class="select">
-                                            <option value="">Регион продвижения</option>
+                                        <select class="select" name="region">
+                                            <option disabled selected>Регион продвижения</option>
                                             <option>Вариант 1</option>
                                             <option>Вариант 2</option>
                                             <option>Вариант 3</option>
                                         </select>
                                     </div>
                                     <div class="form__field">
-                                        <select class="select">
-                                            <option value="">Ваша тематика</option>
+                                        <select class="select" name="thematics">
+                                            <option disabled selected>Ваша тематика</option>
                                             <option>Вариант 1</option>
                                             <option>Вариант 2</option>
                                             <option>Вариант 3</option>
@@ -204,6 +204,7 @@
                                         </div>
                                     </div>
                                 </button>
+                                <input type="hidden" name="action" value="calcCostSend">
                             </form>
                         </div>
                     </div>
@@ -222,40 +223,41 @@
                                     <a class="promote-price__item" href="/promote/seo/traffic.php">С оплатой за
                                         трафик</a>
                                     <a class="promote-price__item" href="/promote/seo/ecommerce.php">Продвижение
-                                        интеренет-магазина</a>
-                                    <a class="promote-price__item" href="/promote/seo/company.php">SEO продвижение
-                                        компании</a>
+                                        магазина</a>
                                     <a class="promote-price__item" href="/promote/seo/yandex.php">Продвижение в
                                         Яндекс</a>
                                     <a class="promote-price__item" href="/promote/seo/google.php">Продвижение в
                                         Google</a>
+                                    <a class="promote-price__item" href="/promote/seo/company.php">SEO продвижение
+                                        компании</a>
                                     <a class="promote-price__item" href="/promote/seo/optimization.php">SEO
                                         оптимизация</a>
                                     <a class="promote-price__item" href="/promote/seo/audit.php">SEO аудит</a>
                                 </div>
-                                <div class="promote-price__price">от 39 920 Р</div>
+                                <div class="promote-price__price">от 29 990 Р</div>
                             </div>
                         </div>
                         <div class="promote-price__col">
                             <div class="promote-price__block">
-                                <a class="promote-price__block-title" href="/promote/thematics.php">Продвижение по
-                                    тематике</a>
+                                <a class="promote-price__block-title" href="/promote/thematics.php">Направления
+                                </a>
                                 <div class="promote-price__list">
                                     <a class="promote-price__item"
-                                       href="/promote/thematics/autoparts.php">Автозапчасти</a>
-                                    <a class="promote-price__item" href="/promote/thematics/accountant.php">Бухгалтерские
+                                       href="/promote/thematics/magazin-avtozapchastei.php">Автозапчасти</a>
+                                    <a class="promote-price__item" href="/promote/thematics/buhgalteriya.php">Бухгалтерские
                                         услуги</a>
-                                    <a class="promote-price__item" href="/promote/thematics/medic.php">Мед. клиника</a>
-                                    <a class="promote-price__item" href="/promote/thematics/realty.php">Недвижимость</a>
-                                    <a class="promote-price__item" href="/promote/thematics/furniture.php">Мебельный
+                                    <a class="promote-price__item" href="/promote/thematics/med-centr.php">Мед.
+                                        клиника</a>
+                                    <a class="promote-price__item" href="/promote/thematics/nedvijimost.php">Недвижимость</a>
+                                    <a class="promote-price__item" href="/promote/thematics/magazin-mebeli.php">Мебельный
                                         магазин</a>
-                                    <a class="promote-price__item" href="/promote/thematics/repair.php">Ремонтные
+                                    <a class="promote-price__item" href="/promote/thematics/stroitelnaya-tematika.php">Ремонтные
                                         услуги</a>
-                                    <a class="promote-price__item" href="/promote/thematics/building.php">Строительная
+                                    <a class="promote-price__item" href="/promote/thematics/stroitelnaya-kompaniya.php">Строительная
                                         компания</a>
                                     <a class="promote-price__item" href="/promote/thematics.php">Другое (15)</a>
                                 </div>
-                                <div class="promote-price__price">от 39 920 Р</div>
+                                <div class="promote-price__price">от 29 990 Р</div>
                             </div>
                         </div>
                         <div class="promote-price__col">
@@ -266,7 +268,7 @@
                                     <a class="promote-price__item" href="/promote/reklama/yandex.php">Яндек Директ</a>
                                     <a class="promote-price__item" href="/promote/reklama/google.php">Google Advance</a>
                                 </div>
-                                <div class="promote-price__price">от 39 920 Р</div>
+                                <div class="promote-price__price">от 9 990 Р</div>
                             </div>
                             <div class="promote-price__block">
                                 <a class="promote-price__block-title" href="/promote/reklama.php">Маркетинговый
@@ -278,8 +280,8 @@
                         </div>
                         <div class="promote-price__col">
                             <div class="promote-price__block">
-                                <a class="promote-price__block-title" href="/promote/smm.php">Продвижение в сой.
-                                    сетях</a>
+                                <a class="promote-price__block-title" href="/promote/smm.php">Продвижение SMM
+                                </a>
                                 <div class="promote-price__list">
                                     <a class="promote-price__item" href="/promote/smm/vk.php">Реклама в ВКонтакте</a>
                                     <a class="promote-price__item" href="/promote/smm/fb.php">Реклама в Facebook</a>
@@ -287,7 +289,7 @@
                                     <a class="promote-price__item" href="/promote/smm/youtube.php">Реклама в Youtube</a>
                                     <a class="promote-price__item" href="/promote/smm/mk.php">Реклама в MK</a>
                                 </div>
-                                <div class="promote-price__price">от 39 920 Р</div>
+                                <div class="promote-price__price">от 25 000 Р</div>
                             </div>
                         </div>
                     </div>
@@ -881,10 +883,14 @@
                         </div>
                         <div class="edge__content">
                             <div class="edge__col">
-								Следуем трендам и алгоритмам поисковых систем. Используем иновационные подходы в привличении трафика на сайты. Работаем на результат и выстраиваем долгосрочные отношения с клиентами.
+                                Следуем трендам и алгоритмам поисковых систем. Используем иновационные подходы в
+                                привличении трафика на сайты. Работаем на результат и выстраиваем долгосрочные отношения
+                                с клиентами.
                             </div>
                             <div class="edge__col">
-								В штате работают сертифицированные специалисты Яндекса. Сможем показать быстрый результат и нетревиальный подход к достижении целей. Для нас не существует невыполнимых задач.
+                                В штате работают сертифицированные специалисты Яндекса. Сможем показать быстрый
+                                результат и нетревиальный подход к достижении целей. Для нас не существует невыполнимых
+                                задач.
                             </div>
                         </div>
                         <button class="edge__button button button_red callorderOpen" type="button">заказать продвижение
@@ -892,58 +898,198 @@
                     </div>
                 </section>
                 <section class="promote-rec">
-                    <div class="promote-rec__title">Рекомендации наших клиентов</div>
-                    <div class="promote-rec__list"><a class="promote-rec__item" href="/" download>
-                            <div class="promote-rec__img">
-                                <svg class="promote-rec__pic">
-                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
-                                </svg>
-                                <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
-                                <div class="promote-rec__logo"><img class="promote-rec__logo-img"
-                                                                    src="/images/content/promote/recLogo.png"></div>
+                    <div class="promote-rec__title">
+                        Рекомендации наших клиентов
+                        <div class="promote-rec__nav">
+                            <div class="promote-rec__prev">
+                                <div class="arrow_black arrow_prev arrow">
+                                    <div class="arrow__line"></div>
+                                    <div class="arrow__triangle"></div>
+                                </div>
                             </div>
-                            <div class="promote-rec__name">Рекомендательное письмо</div>
-                        </a><a class="promote-rec__item" href="/" download>
-                            <div class="promote-rec__img">
-                                <svg class="promote-rec__pic">
-                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
-                                </svg>
-                                <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
-                                <div class="promote-rec__logo"><img class="promote-rec__logo-img"
-                                                                    src="/images/content/promote/recLogo.png"></div>
+                            <div class="promote-rec__next">
+                                <div class="arrow_black arrow">
+                                    <div class="arrow__line"></div>
+                                    <div class="arrow__triangle"></div>
+                                </div>
                             </div>
-                            <div class="promote-rec__name">Рекомендательное письмо</div>
-                        </a><a class="promote-rec__item" href="/" download>
+                        </div>
+                    </div>
+                    <? /*
+                    <div class="promote-rec__list">
+                        <a class="promote-rec__item" href="/images/content/promote/letter1.jpg"
+                           data-fancybox="recImages" data-caption="Рекомендательное письмо">
                             <div class="promote-rec__img">
                                 <svg class="promote-rec__pic">
                                     <use xlink:href="/images/icons/sprite.svg#recImg"></use>
                                 </svg>
                                 <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
-                                <div class="promote-rec__logo"><img class="promote-rec__logo-img"
-                                                                    src="/images/content/promote/recLogo.png"></div>
-                            </div>
-                            <div class="promote-rec__name">Рекомендательное письмо</div>
-                        </a><a class="promote-rec__item" href="/" download>
-                            <div class="promote-rec__img">
-                                <svg class="promote-rec__pic">
-                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
-                                </svg>
-                                <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
-                                <div class="promote-rec__logo"><img class="promote-rec__logo-img"
-                                                                    src="/images/content/promote/recLogo.png"></div>
-                            </div>
-                            <div class="promote-rec__name">Рекомендательное письмо</div>
-                        </a><a class="promote-rec__item" href="/" download>
-                            <div class="promote-rec__img">
-                                <svg class="promote-rec__pic">
-                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
-                                </svg>
-                                <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
-                                <div class="promote-rec__logo"><img class="promote-rec__logo-img"
-                                                                    src="/images/content/promote/recLogo.png"></div>
+                                <div class="promote-rec__thumb">
+                                    <img src="/images/content/promote/letter1.jpg" alt="">
+                                </div>
+                                <div class="promote-rec__logo">
+                                    <img class="promote-rec__logo-img" src="/images/content/promote/recLogo1.png">
+                                </div>
                             </div>
                             <div class="promote-rec__name">Рекомендательное письмо</div>
                         </a>
+                        <a class="promote-rec__item" href="/images/content/promote/letter2.jpg"
+                           data-fancybox="recImages" data-caption="Рекомендательное письмо">
+                            <div class="promote-rec__img">
+                                <svg class="promote-rec__pic">
+                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
+                                </svg>
+                                <div class="promote-rec__thumb">
+                                    <img src="/images/content/promote/letter2.jpg" alt="">
+                                </div>
+                                <div class="promote-rec__logo">
+                                    <img class="promote-rec__logo-img"
+                                         src="/images/content/promote/recLogo2.png">
+                                </div>
+                            </div>
+                            <div class="promote-rec__name">Рекомендательное письмо</div>
+                        </a>
+                        <a class="promote-rec__item" href="/images/content/promote/letter3.jpg"
+                           data-fancybox="recImages" data-caption="Рекомендательное письмо">
+                            <div class="promote-rec__img">
+                                <svg class="promote-rec__pic">
+                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
+                                </svg>
+                                <div class="promote-rec__thumb">
+                                    <img src="/images/content/promote/letter3.jpg" alt="">
+                                </div>
+                                <div class="promote-rec__logo">
+                                    <img class="promote-rec__logo-img" src="/images/content/promote/recLogo3.png">
+                                </div>
+                            </div>
+                            <div class="promote-rec__name">Рекомендательное письмо</div>
+                        </a>
+                        <a class="promote-rec__item" href="/images/content/promote/letter4.jpg"
+                           data-fancybox="recImages" data-caption="Рекомендательное письмо">
+                            <div class="promote-rec__img">
+                                <svg class="promote-rec__pic">
+                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
+                                </svg>
+                                <div class="promote-rec__thumb">
+                                    <img src="/images/content/promote/letter4.jpg" alt="">
+                                </div>
+                                <div class="promote-rec__logo">
+                                    <img class="promote-rec__logo-img" src="/images/content/promote/recLogo4.png">
+                                </div>
+                            </div>
+                            <div class="promote-rec__name">Рекомендательное письмо</div>
+                        </a>
+                        <a class="promote-rec__item" href="/images/content/promote/letter5.jpg"
+                           data-fancybox="recImages" data-caption="Рекомендательное письмо">
+                            <div class="promote-rec__img">
+                                <svg class="promote-rec__pic">
+                                    <use xlink:href="/images/icons/sprite.svg#recImg"></use>
+                                </svg>
+                                <div class="promote-rec__thumb">
+                                    <img src="/images/content/promote/letter5.jpg" alt="">
+                                </div>
+                                <div class="promote-rec__logo">
+                                    <img class="promote-rec__logo-img" src="/images/content/promote/recLogo5.png">
+                                </div>
+                            </div>
+                            <div class="promote-rec__name">Рекомендательное письмо</div>
+                        </a>
+                    </div>
+                    */ ?>
+                    <div class="swiper-container promote-rec__container">
+                        <div class="swiper-wrapper  promote-rec__wrapper">
+                            <div class="swiper-slide promote-rec__slide">
+                                <a class="promote-rec__item" href="/images/content/promote/letter1.jpg"
+                                   data-fancybox="recImages" data-caption="Рекомендательное письмо">
+                                    <div class="promote-rec__img">
+                                        <svg class="promote-rec__pic">
+                                            <use xlink:href="/images/icons/sprite.svg#recImg"></use>
+                                        </svg>
+                                        <!--img(src='images/content/promote/recImg.svg').promote-rec__pic-->
+                                        <div class="promote-rec__thumb">
+                                            <img src="/images/content/promote/letter1.jpg" alt="">
+                                        </div>
+                                        <div class="promote-rec__logo">
+                                            <img class="promote-rec__logo-img"
+                                                 src="/images/content/promote/recLogo1.png">
+                                        </div>
+                                    </div>
+                                    <div class="promote-rec__name">Рекомендательное письмо</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide promote-rec__slide">
+                                <a class="promote-rec__item" href="/images/content/promote/letter2.jpg"
+                                   data-fancybox="recImages" data-caption="Рекомендательное письмо">
+                                    <div class="promote-rec__img">
+                                        <svg class="promote-rec__pic">
+                                            <use xlink:href="/images/icons/sprite.svg#recImg"></use>
+                                        </svg>
+                                        <div class="promote-rec__thumb">
+                                            <img src="/images/content/promote/letter2.jpg" alt="">
+                                        </div>
+                                        <div class="promote-rec__logo">
+                                            <img class="promote-rec__logo-img"
+                                                 src="/images/content/promote/recLogo2.png">
+                                        </div>
+                                    </div>
+                                    <div class="promote-rec__name">Рекомендательное письмо</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide promote-rec__slide">
+                                <a class="promote-rec__item" href="/images/content/promote/letter3.jpg"
+                                   data-fancybox="recImages" data-caption="Рекомендательное письмо">
+                                    <div class="promote-rec__img">
+                                        <svg class="promote-rec__pic">
+                                            <use xlink:href="/images/icons/sprite.svg#recImg"></use>
+                                        </svg>
+                                        <div class="promote-rec__thumb">
+                                            <img src="/images/content/promote/letter3.jpg" alt="">
+                                        </div>
+                                        <div class="promote-rec__logo">
+                                            <img class="promote-rec__logo-img"
+                                                 src="/images/content/promote/recLogo3.png">
+                                        </div>
+                                    </div>
+                                    <div class="promote-rec__name">Рекомендательное письмо</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide promote-rec__slide">
+                                <a class="promote-rec__item" href="/images/content/promote/letter4.jpg"
+                                   data-fancybox="recImages" data-caption="Рекомендательное письмо">
+                                    <div class="promote-rec__img">
+                                        <svg class="promote-rec__pic">
+                                            <use xlink:href="/images/icons/sprite.svg#recImg"></use>
+                                        </svg>
+                                        <div class="promote-rec__thumb">
+                                            <img src="/images/content/promote/letter4.jpg" alt="">
+                                        </div>
+                                        <div class="promote-rec__logo">
+                                            <img class="promote-rec__logo-img"
+                                                 src="/images/content/promote/recLogo4.png">
+                                        </div>
+                                    </div>
+                                    <div class="promote-rec__name">Рекомендательное письмо</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide promote-rec__slide">
+                                <a class="promote-rec__item" href="/images/content/promote/letter5.jpg"
+                                   data-fancybox="recImages" data-caption="Рекомендательное письмо">
+                                    <div class="promote-rec__img">
+                                        <svg class="promote-rec__pic">
+                                            <use xlink:href="/images/icons/sprite.svg#recImg"></use>
+                                        </svg>
+                                        <div class="promote-rec__thumb">
+                                            <img src="/images/content/promote/letter5.jpg" alt="">
+                                        </div>
+                                        <div class="promote-rec__logo">
+                                            <img class="promote-rec__logo-img"
+                                                 src="/images/content/promote/recLogo5.png">
+                                        </div>
+                                    </div>
+                                    <div class="promote-rec__name">Рекомендательное письмо</div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -961,8 +1107,16 @@
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
                                 <div class="why__title">Стоимость продвижения сайта</div>
                                 <div class="why__content">
-                                    <p>В интернете существует огромное количество инструментов для привлечения трафика и все они имеют свои особенности и разное ценообразование. Заказывая услугу продвижения сайта, следует помнить, что продающую роль и генерацию заявок берёт на себя сайта. Реклама может быть настроена идеальным образом, но при наличии не продающего сайта это будут выброшенные деньги. Поэтому мы всегда рекомендуем подходить к продвижению комплексно и оказываем маркетинговые услуги продвижения под ключ. Постоянно анализируя современные направления и имея в арсенале более 300 действующих проектов в разных нишах, мы с уверенностью можем рекомендовать оптимальную стратегию для достижения поставленных результатов в интернете.
-									</p>
+                                    <p>В интернете существует огромное количество инструментов для привлечения трафика и
+                                        все они имеют свои особенности и разное ценообразование. Заказывая услугу
+                                        продвижения сайта, следует помнить, что продающую роль и генерацию заявок берёт
+                                        на себя сайта. Реклама может быть настроена идеальным образом, но при наличии не
+                                        продающего сайта это будут выброшенные деньги. Поэтому мы всегда рекомендуем
+                                        подходить к продвижению комплексно и оказываем маркетинговые услуги продвижения
+                                        под ключ. Постоянно анализируя современные направления и имея в арсенале более
+                                        300 действующих проектов в разных нишах, мы с уверенностью можем рекомендовать
+                                        оптимальную стратегию для достижения поставленных результатов в интернете.
+                                    </p>
                                     <p></p>
                                     <p></p>
                                 </div>

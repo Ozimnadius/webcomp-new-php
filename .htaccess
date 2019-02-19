@@ -1,0 +1,49 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+# Переадресация с добавлением / в конце
+RewriteCond %{THE_REQUEST} //
+# Проверяем, повторяется ли слеш (//) более двух раз.
+RewriteRule .* /$0 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^.]+)(?<!/)$ /$1/ [R=301,L]
+# Переадресация с домена с WWW на домен без WWW
+RewriteCond %{HTTP_HOST}	^www\.(.*)	[NC]
+RewriteRule ^(.*)$ http://%1/$1	[R=301,L]
+
+
+Redirect 301 /sajt-vizitka 																http://user332.teh-webcomp.ru/promo-site
+Redirect 301 /korporativnyj-sait-organizacii 							http://user332.teh-webcomp.ru/corporate-site
+Redirect 301 /internet-magazin														http://user332.teh-webcomp.ru/e-commerce
+Redirect 301 /landing																			http://user332.teh-webcomp.ru/landing-page
+Redirect 301 /prodvizhenie-sajtov													http://user332.teh-webcomp.ru/promote
+Redirect 301 /nastroyka-kontekstnoy-reklamy								http://user332.teh-webcomp.ru/promote/reklama
+Redirect 301 /smm-prodvijenie-saita-v-socialnjh-setyah		http://user332.teh-webcomp.ru/promote/smm
+Redirect 301 /hosting-dlya-saita													http://user332.teh-webcomp.ru/hosting
+Redirect 301 /kontakty																		http://user332.teh-webcomp.ru/contacts
+Redirect 301 /o-kompanii																	http://user332.teh-webcomp.ru/company
+Redirect 301 /price																				http://user332.teh-webcomp.ru/portfolio
+Redirect 301 /spec_offer/page/1														http://user332.teh-webcomp.ru/news
+
+
+
+</IfModule>
+
+
+<IfModule mod_dir.c>
+DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType image/jpeg "access plus 3 day"
+ExpiresByType image/gif "access plus 3 day"
+ExpiresByType image/png "access plus 3 day"
+ExpiresByType text/css "access plus 3 day"
+ExpiresByType application/javascript "access plus 3 day" 
+</IfModule>

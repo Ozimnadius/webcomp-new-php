@@ -36,7 +36,7 @@
             </section>
             <div class="container3">
                 <section class="rek-desc">
-                    <div class="rek-desc__title">Мы умеем радовать женский пол</div>
+                    <div class="rek-desc__title">Мы умеем радовать женскую аудиторию</div>
                     <div class="rek-desc__content content">
                         <div class="rek-desc__block">
                             <p>В наше время каждая способна стать бизнес-леди, даже не отходя от малыша в декретном отпуске. 
