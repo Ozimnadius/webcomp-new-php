@@ -13,7 +13,20 @@
         pagination = document.querySelector('.pag'),
         nextSectionBtn = document.querySelector('.nextSection'),
         historySection = localStorage.getItem('sectionIndex'),
-        historyPage = localStorage.getItem('page');
+        historyPage = localStorage.getItem('page'),
+        bestPercents = document.querySelector('.best__percents');
+
+    if (bestPercents) {
+        let numbers = bestPercents.querySelector('.numbers');
+        let numbersObj = new NumbersCounting(numbers, {
+            item: '.number'
+        });
+        let bestImg = bestPercents.querySelector('.best__img');
+        let scroll = new ScrollTo(numbers, function () {
+            bestImg.classList.add('active');
+            numbersObj.animateNumbers();
+        }).scrolling();
+    }
 
 
     // простенькая история, чтоб не скролить до определенной секции
@@ -77,6 +90,19 @@
                 pagination.classList.remove('hidden');
             }
         }
+
+        let bestPercents = section.querySelector('.best__percents');
+
+        if (bestPercents) {
+            let numbers = bestPercents.querySelector('.numbers');
+            let numbersObj = new NumbersCounting(numbers, {
+                item: '.number'
+            });
+            let bestImg = bestPercents.querySelector('.best__img');
+            bestImg.classList.add('active');
+            numbersObj.animateNumbers();
+        }
+
 
         localStorage.setItem('sectionIndex', sectionIndex);
         localStorage.setItem('page', mainContent.firstElementChild.className);

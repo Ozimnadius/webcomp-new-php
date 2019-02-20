@@ -1,6 +1,6 @@
 <div class="blog">
     <div class="blog__left">
-        <div class="blog__list"><a class="blog__item" href="./news.php">
+        <div class="blog__list"><a class="blog__item" href="./news/">
                 <div class="blog__item-date">
                     <div class="blog__item-month">03</div>
                     <div class="blog__item-year">10</div>
@@ -13,7 +13,7 @@
                             <div class="seporator__triangle"></div>
                         </div>
                     </div>
-                </div></a><a class="blog__item" href="./news.php">
+                </div></a><a class="blog__item" href="./news/">
                 <div class="blog__item-date">
                     <div class="blog__item-month">16</div>
                     <div class="blog__item-year">10</div>

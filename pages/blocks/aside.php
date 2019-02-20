@@ -8,8 +8,8 @@
 
         <div class="aside__contacts">
             <div class="contacts">
-                <a class="contacts__item" href="tel:+7(495)695-40-46">+7 (495)<span class="contacts__item_white"> 695 40 46</span></a>
-                <a class="contacts__item" href="tel:+7 (916)395-99-34">+7 (916)<span class="contacts__item_white"> 395 99 34</span></a>
+                <a class="contacts__item" href="tel:+7(495)150-45-98">+7 (495)<span class="contacts__item_white"> 150 45 98</span></a>
+                <a class="contacts__item" href="tel:+7(800)333-45-98">+7 (800)<span class="contacts__item_white"> 333 45 98</span></a>
             </div>
         </div>
         <div class="aside__seporator">
@@ -20,28 +20,28 @@
         </div>
         <div class="aside__nav">
             <nav class="nav">
-                <a class="nav__item" href="/hosting.php">Хостинг</a>
-                <a class="nav__item" href="/company.php">О компании</a>
-                <a class="nav__item" href="/portfolio.php">Портфолио</a>
-                <a class="nav__item" href="/">Стоимость</a>
-                <a class="nav__item" href="/contacts.php">Контакты</a>
-                <a class="nav__item" href="/blog.php">Блог</a>
+                <a class="nav__item" href="/hosting/">Хостинг</a>
+                <a class="nav__item" href="/company/">О компании</a>
+                <a class="nav__item" href="/portfolio/">Портфолио</a>
+                <a class="nav__item" href="/portfolio/">Стоимость</a>
+                <a class="nav__item" href="/contacts/">Контакты</a>
+                <a class="nav__item" href="/blog/">Блог</a>
             </nav>
         </div>
 
         <div class="aside__nav aside__nav_xs">
             <nav class="nav">
-                <a class="nav__item" href="/promo-site.php">Промо-сайт</a>
-                <a class="nav__item" href="/corporate-site.php">Корпоративный сайт</a>
-                <a class="nav__item" href="/e-commerce.php">E – commerce</a>
-                <a class="nav__item" href="/landing-page.php">Лендинг</a>
-                <a class="nav__item" href="/portfolio.php">Сайт по тематике</a>
-                <a class="nav__item" href="/promote.php">Продвижение</a>
+                <a class="nav__item" href="/promo-site/">Промо-сайт</a>
+                <a class="nav__item" href="/corporate-site/">Корпоративный сайт</a>
+                <a class="nav__item" href="/e-commerce/">E – commerce</a>
+                <a class="nav__item" href="/landing-page/">Лендинг</a>
+                <a class="nav__item" href="/portfolio/">Сайт по тематике</a>
+                <a class="nav__item" href="/promote/">Продвижение</a>
             </nav>
         </div>
 
         <div class="aside__search">
-            <form class="search" action="search-result.php" method="post" autocomplete="off">
+            <form class="search" action="/search/" method="post" autocomplete="off">
                 <button class="search__btn" type="button">
                     <div class="search__btn-line"></div>
                     <div class="search__btn-round"></div>

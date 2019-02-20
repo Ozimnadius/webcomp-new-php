@@ -1,4 +1,4 @@
-    <?// include 'footer.php'?>
+    <?// include 'footer/'?>
 </div>
 
 <!-- popup -->

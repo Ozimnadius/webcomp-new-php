@@ -508,7 +508,7 @@ class PHPMailer
      * The function that handles the result of the send email action.
      * It is called out by send() for each email sent.
      *
-     * Value can be any php callable: http://www.php.net/is_callable
+     * Value can be any php callable: http://www/.net/is_callable
      *
      * Parameters:
      *   bool $result        result of the send action
@@ -1106,7 +1106,7 @@ class PHPMailer
      * Uses the imap_rfc822_parse_adrlist function if the IMAP extension is available.
      * Note that quotes in the name part are removed.
      *
-     * @see    http://www.andrew.cmu.edu/user/agreen1/testing/mrbs/web/Mail/RFC822.php A more careful implementation
+     * @see    http://www.andrew.cmu.edu/user/agreen1/testing/mrbs/web/Mail/RFC822/ A more careful implementation
      *
      * @param string $addrstr The address list string
      * @param bool   $useimap Whether to use the IMAP extension to parse the list
@@ -1681,7 +1681,7 @@ class PHPMailer
     /**
      * Send mail using the PHP mail() function.
      *
-     * @see    http://www.php.net/manual/en/book.mail.php
+     * @see    http://www/.net/manual/en/book.mail/
      *
      * @param string $header The message headers
      * @param string $body   The message body
@@ -2064,7 +2064,7 @@ class PHPMailer
             $langcode = 'en';
         }
         $foundlang = true;
-        $lang_file = $lang_path . 'phpmailer.lang-' . $langcode . '.php';
+        $lang_file = $lang_path . 'phpmailer.lang-' . $langcode . '/';
         // There is no English translation file
         if ('en' != $langcode) {
             // Make sure language file path is readable
@@ -2663,7 +2663,7 @@ class PHPMailer
                 $signed = fopen('php://temp', 'rb+');
                 fwrite($file, $body);
 
-                //Workaround for PHP bug https://bugs.php.net/bug.php?id=69197
+                //Workaround for PHP bug https://bugs/.net/bug/?id=69197
                 if (empty($this->sign_extracerts_file)) {
                     $sign = @openssl_pkcs7_sign(
                         $file,
@@ -3181,7 +3181,7 @@ class PHPMailer
      * without breaking lines within a character.
      * Adapted from a function by paravoid.
      *
-     * @see http://www.php.net/manual/en/function.mb-encode-mimeheader.php#60283
+     * @see http://www/.net/manual/en/function.mb-encode-mimeheader/#60283
      *
      * @param string $str       multi-byte text to wrap encode
      * @param string $linebreak string to use as linefeed/end-of-line
@@ -4025,7 +4025,7 @@ class PHPMailer
      * Multi-byte-safe pathinfo replacement.
      * Drop-in replacement for pathinfo(), but multibyte- and cross-platform-safe.
      *
-     * @see    http://www.php.net/manual/en/function.pathinfo.php#107461
+     * @see    http://www/.net/manual/en/function.pathinfo/#107461
      *
      * @param string     $path    A filename or path, does not need to exist as a file
      * @param int|string $options Either a PATHINFO_* constant,

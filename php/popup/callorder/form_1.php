@@ -23,7 +23,7 @@
                 <div class="policy">
                     <input class="check policy__checkbox" type="checkbox" id="policy" name="promo" checked>
                     <label class="check__label" for="policy">
-                        <a target="_blank" href="/policy.php" class="policy__link">
+                        <a target="_blank" href="/policy/" class="policy__link">
                             Я даю согласие на обработку моих персональных данный
                         </a>
                         <div class="check__fake policy__fake"></div>

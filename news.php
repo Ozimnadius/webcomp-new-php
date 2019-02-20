@@ -1,8 +1,8 @@
-<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2/'?>
 
 <!-- main -->
 <main class="page page_second">
-    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
+    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside/'?>
     <main class="main">
         <div class="news">
             <div class="container3">
@@ -12,7 +12,7 @@
                 <section class="news-arts">
                     <div class="articles">
                         <div class="articles__list">
-                            <a class="articles__item" href="/article.php">
+                            <a class="articles__item" href="/article/">
                                 <div class="articles__date">
                                     <div class="articles__day">03</div>
                                     <div class="articles__month">10</div>
@@ -32,7 +32,7 @@
                                         </div>
                                     </div>
                                 </div></a>
-                            <a class="articles__item" href="/article.php">
+                            <a class="articles__item" href="/article/">
                                 <div class="articles__date">
                                     <div class="articles__day">03</div>
                                     <div class="articles__month">10</div>
@@ -52,7 +52,7 @@
                                         </div>
                                     </div>
                                 </div></a>
-                            <a class="articles__item" href="/article.php">
+                            <a class="articles__item" href="/article/">
                                 <div class="articles__date">
                                     <div class="articles__day">16</div>
                                     <div class="articles__month">10</div>
@@ -72,7 +72,7 @@
                                         </div>
                                     </div>
                                 </div></a>
-                            <a class="articles__item" href="/article.php">
+                            <a class="articles__item" href="/article/">
                                 <div class="articles__date">
                                     <div class="articles__day">16</div>
                                     <div class="articles__month">10</div>
@@ -92,7 +92,7 @@
                                         </div>
                                     </div>
                                 </div></a>
-                            <a class="articles__item" href="/article.php">
+                            <a class="articles__item" href="/article/">
                                 <div class="articles__date">
                                     <div class="articles__day">03</div>
                                     <div class="articles__month">10</div>
@@ -112,7 +112,7 @@
                                         </div>
                                     </div>
                                 </div></a>
-                            <a class="articles__item" href="/article.php">
+                            <a class="articles__item" href="/article/">
                                 <div class="articles__date">
                                     <div class="articles__day">03</div>
                                     <div class="articles__month">10</div>
@@ -132,7 +132,7 @@
                                         </div>
                                     </div>
                                 </div></a>
-                            <a class="articles__item" href="/article.php">
+                            <a class="articles__item" href="/article/">
                                 <div class="articles__date">
                                     <div class="articles__day">16</div>
                                     <div class="articles__month">10</div>
@@ -152,7 +152,7 @@
                                         </div>
                                     </div>
                                 </div></a>
-                            <a class="articles__item" href="/article.php">
+                            <a class="articles__item" href="/article/">
                                 <div class="articles__date">
                                     <div class="articles__day">16</div>
                                     <div class="articles__month">10</div>
@@ -175,7 +175,7 @@
                         </div>
                         <div class="articles__hidden">
                             <div class="articles__list">
-                                <a class="articles__item" href="/article.php">
+                                <a class="articles__item" href="/article/">
                                     <div class="articles__date">
                                         <div class="articles__day">03</div>
                                         <div class="articles__month">10</div>
@@ -195,7 +195,7 @@
                                             </div>
                                         </div>
                                     </div></a>
-                                <a class="articles__item" href="/article.php">
+                                <a class="articles__item" href="/article/">
                                     <div class="articles__date">
                                         <div class="articles__day">03</div>
                                         <div class="articles__month">10</div>
@@ -215,7 +215,7 @@
                                             </div>
                                         </div>
                                     </div></a>
-                                <a class="articles__item" href="/article.php">
+                                <a class="articles__item" href="/article/">
                                     <div class="articles__date">
                                         <div class="articles__day">16</div>
                                         <div class="articles__month">10</div>
@@ -235,7 +235,7 @@
                                             </div>
                                         </div>
                                     </div></a>
-                                <a class="articles__item" href="/article.php">
+                                <a class="articles__item" href="/article/">
                                     <div class="articles__date">
                                         <div class="articles__day">16</div>
                                         <div class="articles__month">10</div>
@@ -255,7 +255,7 @@
                                             </div>
                                         </div>
                                     </div></a>
-                                <a class="articles__item" href="/article.php">
+                                <a class="articles__item" href="/article/">
                                     <div class="articles__date">
                                         <div class="articles__day">03</div>
                                         <div class="articles__month">10</div>
@@ -275,7 +275,7 @@
                                             </div>
                                         </div>
                                     </div></a>
-                                <a class="articles__item" href="/article.php">
+                                <a class="articles__item" href="/article/">
                                     <div class="articles__date">
                                         <div class="articles__day">03</div>
                                         <div class="articles__month">10</div>
@@ -295,7 +295,7 @@
                                             </div>
                                         </div>
                                     </div></a>
-                                <a class="articles__item" href="/article.php">
+                                <a class="articles__item" href="/article/">
                                     <div class="articles__date">
                                         <div class="articles__day">16</div>
                                         <div class="articles__month">10</div>
@@ -315,7 +315,7 @@
                                             </div>
                                         </div>
                                     </div></a>
-                                <a class="articles__item" href="/article.php">
+                                <a class="articles__item" href="/article/">
                                     <div class="articles__date">
                                         <div class="articles__day">16</div>
                                         <div class="articles__month">10</div>
@@ -342,17 +342,17 @@
                     </div>
                 </section>
                 <section class="news-send">
-                    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bannerSend.php'?>
+                    <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bannerSend/'?>
                 </section>
             </div>
             <section class="news-bottom">
                 <div class="bottom">
                     <div class="container2">
                         <div class="bottom__send">
-                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/send/'?>
                         </div>
                         <div class="bottom__footer">
-                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer.php'?>
+                            <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/bottom/footer/'?>
                         </div>
                     </div>
                 </div>
@@ -362,4 +362,4 @@
 </main>
 <!-- END main -->
 
-<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/bottom/'?>

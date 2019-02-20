@@ -83,9 +83,15 @@
         <div class="best__right">
             <div class="best__percents">
                 <div class="proportion proportion_1x1"></div>
-                <div class="best__percents-title">
+                <div class="best__img">
+                    <img src="/images/content/best.png" alt="" class="best__img-img">
+                </div>
+                <div class="best__percents-title numbers" data-timer="3000">
                     <div class="best__percents-text">на</div>
-                    <div class="best__percents-value">70%</div>
+                    <div class="best__percents-value number">
+                        <span class="best__percents-num  number__val" data-from="0" data-to="70">0</span>
+                        <span class="best__percents-type">%</span>
+                    </div>
                     <div class="best__percents-text">лучше</div>
                 </div>
             </div>

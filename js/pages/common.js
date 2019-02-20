@@ -333,7 +333,6 @@ if (numbersAll.length) {
     }
 }
 
-
 let clocks = document.querySelectorAll('.clock');
 
 if (clocks.length) {

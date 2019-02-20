@@ -125,10 +125,10 @@
 
   &__percents {
     position: relative;
-    background-image: url(/images/content/best.png);
-    background-size: cover;
-    background-position: 0 0;
-    background-repeat: no-repeat;
+    //background-image: url(/images/content/best.png);
+    //background-size: cover;
+    //background-position: 0 0;
+    //background-repeat: no-repeat;
     margin-bottom: -25px;
     @include sm{
       display: none;
@@ -163,6 +163,18 @@
       font-weight: 300;
       text-transform: uppercase;
       margin-bottom: vh(45);
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    &.active {
+      animation: best 3s linear 0s 1 forwards;
     }
   }
 
@@ -247,5 +259,14 @@
     &:first-child {
       text-align: left;
     }
+  }
+}
+
+@keyframes best {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

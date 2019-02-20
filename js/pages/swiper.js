@@ -286,4 +286,18 @@ window.onload = function () {
         }
 
     });
+
+    let swiperSmm = new Swiper('.smm-res__container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        speed: 300,
+        slidesPerView: 1,
+        grabCursor: true,
+        navigation: {
+            nextEl: '.smm-res__next',
+            prevEl: '.smm-res__prev',
+        }
+
+    });
 };

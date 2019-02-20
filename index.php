@@ -36,7 +36,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="index-first__test"><a class="test" href="./test.php">
+                    <div class="index-first__test"><a class="test" href="./test/">
                             <div class="test__percent">15%</div>
                             <div class="test__desc">
                                 <div class="test__title">Пройдите тест</div>
@@ -262,7 +262,7 @@
                                             <input class="check policy__checkbox" type="checkbox" id="policy"
                                                    name="promo" checked>
                                             <label class="check__label" for="policy">
-                                                <a target="_blank" href="/policy.php" class="policy__link">
+                                                <a target="_blank" href="/policy/" class="policy__link">
                                                     Я даю согласие на обработку моих персональных данный
                                                 </a>
                                                 <div class="check__fake policy__fake"></div>
@@ -295,7 +295,7 @@
                     <div class="index-cat__title">Нам есть чем гордиться</div>
                     <div class="index-cat__subtitle">Не гонимся за количеством, работаем на результат</div>
                     <div class="index-cat__list">
-                        <a class="index-cat__item" href="/portfolio/project.php" title="Интернет-магазин"
+                        <a class="index-cat__item" href="/portfolio/project/" title="Интернет-магазин"
                            style="background-color:#363471">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Интернет-магазин</div>
@@ -303,23 +303,23 @@
                                 <img class="index-cat__item-pic" src="/images/content/portfolio/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item" href="/portfolio/blacksmith.php" title="Корпоративный сайт"
-                           style="background-color:#050A15">
+                        <a class="index-cat__item" href="/portfolio/blacksmith/" title="Корпоративный сайт"
+                           style="background-color:#ec3e3e">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Корпоративный сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project2/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item" href="/portfolio/akademi.php" title="Промо-сайт"
-                           style="background-color:#353535">
+                        <a class="index-cat__item" href="/portfolio/akademi/" title="Промо-сайт"
+                           style="background-color:#ffdb4d">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Промо-сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project3/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item" href="/portfolio/balconies.php" title="Корпоративный сайт"
+                        <a class="index-cat__item" href="/portfolio/balconies/" title="Корпоративный сайт"
                            style="background-color:#26283D">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Корпоративный сайт</div>
@@ -327,7 +327,7 @@
                                                                   src="/images/content/portfolio/project4/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item" href="/portfolio/bosh.php" title="Интернет-магазин"
+                        <a class="index-cat__item" href="/portfolio/bosh/" title="Интернет-магазин"
                            style="background-color:#2c3e50">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Интернет-магазин</div>
@@ -335,24 +335,24 @@
                                                                   src="/images/content/portfolio/project5/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item" href="/portfolio/svda.php" title="Корпоративный сайт"
-                           style="background-color:#252525;">
+                        <a class="index-cat__item" href="/portfolio/svda/" title="Корпоративный сайт"
+                           style="background-color:#21d2d2">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Корпоративный сайт</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project6/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item" href="/portfolio/vita.php" title="Интернет-магазин"
-                           style="background-color:#f9f9fa">
+                        <a class="index-cat__item" href="/portfolio/vita/" title="Интернет-магазин"
+                           style="background-color:#be76dc">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Интернет-магазин</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
                                                                   src="/images/content/portfolio/project7/logo.png">
                             </div>
                         </a>
-                        <a class="index-cat__item" href="/portfolio/kavkaz.php" title="Интернет-магазин"
-                           style="background-color:#1D1D1D">
+                        <a class="index-cat__item" href="/portfolio/kavkaz/" title="Интернет-магазин"
+                           style="background-color:#51e88b">
                             <div class="proportion proportion_1x1"></div>
                             <div class="index-cat__item-title">Интернет-магазин</div>
                             <div class="index-cat__item-img"><img class="index-cat__item-pic"
@@ -360,7 +360,7 @@
                             </div>
                         </a>
 
-                        <a href="/portfolio.php" class="index-cat__link"></a>
+                        <a href="/portfolio/" class="index-cat__link"></a>
                     </div>
                     <div class="index-cat__menu">
                         <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/menuTop.php' ?>
