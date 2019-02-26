@@ -8,6 +8,11 @@ require $_SERVER['DOCUMENT_ROOT'] . '/php/PHPMailer/src/Exception.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/php/PHPMailer/src/PHPMailer.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/php/PHPMailer/src/SMTP.php';
 
+use dps\workday\Workday;
+
+require $_SERVER['DOCUMENT_ROOT'] . '/php/Workday.php';
+
+
 $data = $_POST;
 $action = $data['action'];
 
@@ -34,10 +39,12 @@ switch ($action) {
         exit();
         break;
     case 'timerForm':
+        $arr = getTimer();
         echo json_encode(array(
             'status' => true,
-            'endTime' => 'December 31 2019 23:59:59',
-            'html' => timerForm()
+            'endTime' => $arr['date'],
+            'html' => $arr['html'],
+            'timerOff' => $arr['timerOff']
         ));
         exit();
         break;
@@ -151,10 +158,105 @@ function callorderForm()
     return $html;
 }
 
-function timerForm()
+function timerForm($id)
 {
-    $html = file_get_contents('./popup/timer/form_' . $_POST['formId'] . '.php');
+    $html = file_get_contents('./popup/timer/form_' . $id . '.php');
     return $html;
+}
+
+function getTimer()
+{
+    $arr = [
+        'html' => '',
+        'date' => '',
+        'timerOff' => false
+    ];
+
+    $stamp = mktime();
+    $curDate = date('Y-m-d');
+    $curTime = date('H:i:s');
+    $curH = date('H');
+    $timerDate = '';
+
+//    $stamp = mktime(18, 10, 20, 2, 26, 2019);
+//    $curDate = date('Y-m-d', $stamp);
+//    $curTime = date('H:i:s', $stamp);
+//    $curH = date('H', $stamp);
+
+
+    if (isWorkDay($curDate)) {
+        if (isWorkTime($curH)) {
+            $timerDate = date('F d Y H:i:s', $stamp + 60 * 60);
+        } else {
+            if ($curH >= 18) {
+                $timerDate = findNextWorkDay($stamp);
+            } else {
+                $timerDate = getDateTimeFrom($stamp);
+            }
+        }
+    } else {
+        $timerDate = findNextWorkDay($stamp);
+        echo $timerDate;
+    }
+
+    $arr['date'] = $timerDate;
+
+    $stampTo = strtotime($arr['date']);
+    $diffH = ($stampTo - $stamp) / (60 * 60);
+    $id = 1;
+    if ($diffH >= 16) {
+        $id = 2;
+        $arr['timerOff'] = true;
+    }
+
+    $arr['html'] = timerForm($id);
+
+    return $arr;
+
+}
+
+function isWorkDay($curDate)
+{
+    $url = 'https://datazen.katren.ru/calendar/day/' . $curDate . '/';
+    $result = json_decode(file_get_contents($url));
+    $holiday = $result->holiday;
+
+    return !$holiday;
+}
+
+function isWorkTime($curH)
+{
+    $workHFrom = '9';
+    $workHTo = '18';
+    if ($curH < $workHFrom || $curH >= $workHTo) {
+        return false;
+    } else {
+        return true;
+    }
+}
+
+function getDateTimeFrom($stamp)
+{
+    $year = date('Y', $stamp);
+    $month = date('m', $stamp);
+    $day = date('d', $stamp);
+    $hour = '9';
+    $min = '0';
+    $sec = '0';
+    return date('F d Y H:i:s', mktime($hour, $min, $sec, $month, $day, $year));
+}
+
+function findNextWorkDay($stamp)
+{
+    $stamp += 60 * 60 * 24;
+    $thisDate = $curDate = date('Y-m-d', $stamp);
+
+    if (isWorkDay($thisDate)) {
+        $date = getDateTimeFrom($stamp);
+        return $date;
+    } else {
+        return findNextWorkDay($stamp);
+    }
 }
 
 function tarifForm($id, $name, $src)
@@ -292,7 +394,7 @@ function pushForm($name)
                 Мы эффективно продвинули
             </div>
             <div class="push__subtitle">
-                более 10 сайтов по <?= $name ?>. Если вы хотите:
+                более 450 сайтов по разным тематикам. Если вы хотите:
             </div>
             <div class="push__list">
                 <div class="push__item">Выявить слабые стороны своего проекта</div>
@@ -301,7 +403,7 @@ function pushForm($name)
                 <div class="push__item">Увеличить узнаваемость бренда в соц.сетях</div>
                 <div class="push__item">Привлечь клиентов с оплатой за переход</div>
             </div>
-            <button type="button" class="push__button callorderOpen">
+            <button type="button" class="push__button callorderOpen" data-formId="2">
                 <div class="btn">
                     <div class="btn__title">рассчитать стоимость</div>
                     <div class="btn__lines">
@@ -328,8 +430,7 @@ function promotionForm()
     <div class="promotion">
         <form class="promotion__form form" action="#" method="post">
             <div class="promotion__subtitle">
-                Заполнение брифа онлайн для расчёта точной стоимости <br>
-                или загрузите свое ТЗ для оценки
+                Заполните бриф-онлайн, для расчета точной стоимости продвижения сайта
             </div>
             <div class="form__row">
                 <div class="form__field">
@@ -851,7 +952,10 @@ function getCalcCostMail()
         </tr>
         <tr>
             <td>
-                Способ продвижения: <?= $_POST['promo'] ?>
+                Способ продвижения:
+                <? foreach ($_POST['promo'] as $promo): ?>
+                    <?= $promo . ',' ?>
+                <? endforeach; ?>
             </td>
         </tr>
         <tr>
@@ -1127,9 +1231,10 @@ function getTestingMail()
 function mailTo($addrs, $subject, $html, $file = [])
 {
     $mail = new PHPMailer(true);
+    $mail->CharSet = $mail::CHARSET_UTF8;
     try {
         //Recipients
-        $mail->setFrom('from@example.com', 'Mailer');
+        $mail->setFrom('info@web-comp.ru', 'Web-Comp');
         foreach ($addrs as $addr) {
             $mail->addAddress($addr, 'Joe User');
         }

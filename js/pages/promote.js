@@ -7,7 +7,7 @@
         promoteFormOpen.addEventListener('click', function (e) {
             promoteFirst.classList.add('disabled');
             promoteCalc.classList.add('active');
-            scrollLock.disablePageScroll(document.body);
+            // scrollLock.disablePageScroll(document.body);
         });
     }
     let promoteFormClose = document.querySelector('.promote-calc__close')
@@ -15,7 +15,7 @@
         promoteFormClose.addEventListener('click', function (e) {
             promoteFirst.classList.remove('disabled');
             promoteCalc.classList.remove('active');
-            scrollLock.enablePageScroll(document.body);
+            // scrollLock.enablePageScroll(document.body);
         });
     }
 

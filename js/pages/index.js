@@ -6,7 +6,6 @@
         mainContent = document.querySelector('.main'),
         inScroll = false,
         figure = document.querySelector('.figure'),
-        // screen = 0,
         sectionBottom = document.querySelector('.index-bottom'),
         scrollTop = 0,
         page = document.querySelector('.page'),
@@ -34,6 +33,7 @@
         scrollToSection(localStorage.getItem('sectionIndex'));
     }
 
+
     //one-page-scroll до нужной секции
     function scrollToSection(sectionIndex) {
         let position = sectionIndex * -100 + 'vh',
@@ -43,7 +43,6 @@
         for (let i = 0; i < pagAllItem.length; i++) {
             pagAllItem[i].classList.remove('active');
         }
-
 
         for (let i = 0; i < sections.length; i++) {
             sections[i].classList.remove('active-page');
@@ -109,12 +108,12 @@
 
         setTimeout(function () {
             inScroll = false;
-        }, 1500);
+        }, 1300);
 
     }
 
     //если нет класса page_second значит есть one-page-scroll
-    if (!page.classList.contains('page_second') && screen.width >= 1400) {
+    if (!page.classList.contains('page_second') && screen.width >= 1440) {
 
 
         //если есть пагинация вешаем клик на пагинацию
@@ -131,7 +130,6 @@
         if (sections.length > 1) {
             //вешаем на прокрутку one-page-scroll
             document.addEventListener('wheel', function (e) {
-
 
                 let deltaY = e.deltaY,
                     activeSection = document.querySelector('.active-page'),
@@ -154,6 +152,8 @@
                 if (inScroll) return;
 
                 inScroll = true;
+
+
 
                 if (deltaY > 0) {
                     if (nextSection) {
@@ -238,12 +238,14 @@
     if (range) {
         range.addEventListener('input', function () {
 
-            let rangeVal = document.querySelector('.calc__range-val'),
+            let max = this.max,
+                percents = (this.value/max)*100,
+                rangeVal = document.querySelector('.calc__range-val'),
                 rangeTitle = document.querySelector('.calc__range-text');
 
             rangeVal.innerHTML = this.value;
-            rangeTitle.innerHTML = ' ' + GetNoun(this.value, 'месяц', 'месяца', 'месяцев');
-            this.style.backgroundImage = getCssValuePrefix() + 'linear-gradient(left ,#ffba00 0%,#ffba00 ' + this.value + '%, #352b4d ' + this.value + '%, #352b4d 100%)';
+            rangeTitle.innerHTML = ' ' + GetNoun(this.value, 'неделя', 'недели', 'недель');
+            this.style.backgroundImage = getCssValuePrefix() + 'linear-gradient(left ,#ffba00 0%,#ffba00 ' + percents + '%, #352b4d ' + percents + '%, #352b4d 100%)';
 
         });
     }

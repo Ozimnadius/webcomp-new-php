@@ -10,14 +10,14 @@
             </div>
             <div class="footer__col">
                 <div class="footer__items">
-                    <a class="footer__item" href="/hosting/">Размещение на выделенном сервере</a>
-                    <a class="footer__item" href="/promote/smm/">Продвижение в социальных сетях</a>
+                    <a class="footer__item" href="/promo-site/">Промо-сайт</a>
+                    <a class="footer__item" href="/corporate-site/">Корпоративный сайт</a>
                 </div>
             </div>
             <div class="footer__col">
                 <div class="footer__items">
-                    <a class="footer__item" href="/portfolio/">Примеры работ</a>
-                    <a class="footer__item" href="/blog/">Полезная информация</a>
+                    <a class="footer__item" href="/landing-page/">Лендинг</a>
+                    <a class="footer__item" href="/e-commerce/">Интернет-магазин</a>
                 </div>
             </div>
         </div>

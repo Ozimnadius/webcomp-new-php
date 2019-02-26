@@ -30,7 +30,7 @@
                                 <div class="table__wth table__td">+</div>
                             </div>
                             <div class="table__tr">
-                                <div class="table__wt table__td">3х этапная система оплаты</div>
+                                <div class="table__wt table__td">3-х этапная система оплаты</div>
                                 <div class="table__ws table__td">+</div>
                                 <div class="table__wth table__td">-</div>
                             </div>

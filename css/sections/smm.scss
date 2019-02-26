@@ -472,8 +472,17 @@
       }
     }
 
+    &__tabs {
+      position: relative;
+    }
+
     &__tab {
-      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      //display: none;
+      visibility: hidden;
+      opacity: 0;
       padding-right: 230px;
       @include slg{
         padding-right: 50px;
@@ -485,8 +494,14 @@
         padding-right: 10px;
       };
 
+      &-wrap {
+        //height: 100%;
+      }
+
       &.active {
-        display: block;
+        //display: block;
+        visibility: visible;
+        opacity: 1;
       }
     }
 

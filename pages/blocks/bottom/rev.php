@@ -34,7 +34,7 @@
                                 </svg></a></div>
                         <div class="rev__desc">
                             <div class="rev__item-title">Ольга Нечаева</div>
-                            <div class="rev__text">На видео маркетолог Ольга Нечаева рассказывает о приятном сотрудничестве и соблюдение обязательств</div>
+                            <div class="rev__text">На видео маркетолог Ольга Нечаева рассказывает о приятном сотрудничестве и соблюдении обязательств</div>
                         </div>
                         <div class="rev__data">
                             <div class="rev__price">351 тыс.</div>
@@ -62,13 +62,13 @@
                 <div class="swiper-slide">
                     <div class="rev__item">
                         <div class="rev__img"><img class="rev__img-img" src="/images/content/reviews/rev1.jpg"></div>
-                        <div class="rev__middle"><a class="rev__link" href="https://www.youtube.com/" data-fancybox>
+                        <div class="rev__middle"><a class="rev__link" href="https://youtu.be/3O51Qc_OfKw" data-fancybox>
                                 <svg class="rev__link-svg">
                                     <use xlink:href="/images/icons/sprite.svg#triangle"></use>
                                 </svg></a></div>
                         <div class="rev__desc">
-                            <div class="rev__item-title">Людмила Васильевна</div>
-                            <div class="rev__text">В 2006 году компания «Сайт НН» разрабатывала для ЗАО «Системы передовых технологий» Интернет-представительство ...</div>
+                            <div class="rev__item-title">Ольга Нечаева</div>
+                            <div class="rev__text">На видео маркетолог Ольга Нечаева рассказывает о приятном сотрудничестве и соблюдении обязательств</div>
                         </div>
                         <div class="rev__data">
                             <div class="rev__price">351 тыс.</div>

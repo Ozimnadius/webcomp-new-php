@@ -29,9 +29,10 @@ function Timer(settings) {
         let t = Date.parse(that.endTime) - Date.parse(new Date());
         let seconds = formatNumber(Math.floor((t / 1000) % 60)),
             minutes = formatNumber(Math.floor((t / 1000 / 60) % 60)),
-            hours = formatNumber(Math.floor((t / (1000 * 60 * 60)) % 24));
+            hours = formatNumber(Math.floor((t / (1000 * 60 * 60))));
 
         that.total = t;
+
 
         that.timer.seconds.time = {
             ten: parseInt(seconds.charAt(0)),

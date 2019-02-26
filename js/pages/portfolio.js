@@ -6,7 +6,7 @@
 
         let width = document.querySelector('.port-lap__container').offsetWidth;
 
-        item.ontouchstart = function (e) {
+        item.addEventListener('touchstart', function (e) {
 
             let elem = e.target.closest('.draggable');
             // запомнить переносимый объект
@@ -14,9 +14,9 @@
 
             // запомнить координаты, с которых начат перенос объекта
             dragObject.downX = e.touches[0].pageX;
-        };
+        });
 
-        document.ontouchmove = function (e) {
+        document.addEventListener('touchmove', function (e) {
 
 
             if (!dragObject.elem) return; // элемент не зажат
@@ -41,15 +41,15 @@
             // отобразить перенос объекта при каждом движении мыши
             dragObject.avatar.style.right = percent + '%';
 
-        };
+        });
 
-        document.ontouchend = function (e) {
+        document.addEventListener('touchend', function (e) {
 
             dragObject = {
                 elem: null,
                 avatar: null
             };
-        };
+        });
 
         item.onmousedown = function (e) {
 

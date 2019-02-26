@@ -13,7 +13,7 @@ if (callorderOpenAll) {
 
         callorderOpen.addEventListener('click', function (e) {
 
-            let formId = this.dataset.formId || 1,
+            let formId = this.dataset.formid || 1,
                 data = {
                     action: 'callorderForm',
                     formId: formId
@@ -79,6 +79,8 @@ function sendCallorderData(form) {
         success: function (result) {
             if (result.status) {
                 getTimerForm();
+                yaCounter37527960.reachGoal('svazatsya');
+                return true;
             } else {
                 alert('Что-то пошло не так, попробуйте еще раз!!!');
             }
@@ -162,32 +164,33 @@ if (pushOpenAll) {
 
                         popupWrapper.innerHTML = result.html;
                         popup.classList.add('active');
-                        $(document.querySelector('.callorder .form')).validate(
-                            {
-                                rules: {
-                                    name: "required",
-                                    tel: "required",
-                                    email: "required"
-                                },
-                                messages: {
-                                    name: "Введите ваше Имя",
-                                    tel: "Введите ваш  Телефон",
-                                    email: "Введите ваш Email"
-                                },
 
-                                submitHandler: function (form) {
-                                    getTimerForm();
-                                },
-                                invalidHandler: function (event, validator) {
-                                    // debugger;
-                                },
-                                errorPlacement: function (error, element) {
-                                    element[0].placeholder = error[0].innerText;
-                                }
-                            }
-                        );
+                        // $(document.querySelector('.callorder .form')).validate(
+                        //     {
+                        //         rules: {
+                        //             name: "required",
+                        //             tel: "required",
+                        //             email: "required"
+                        //         },
+                        //         messages: {
+                        //             name: "Введите ваше Имя",
+                        //             tel: "Введите ваш  Телефон",
+                        //             email: "Введите ваш Email"
+                        //         },
+                        //
+                        //         submitHandler: function (form) {
+                        //             getTimerForm();
+                        //         },
+                        //         invalidHandler: function (event, validator) {
+                        //             // debugger;
+                        //         },
+                        //         errorPlacement: function (error, element) {
+                        //             element[0].placeholder = error[0].innerText;
+                        //         }
+                        //     }
+                        // );
                         popupWrapper.querySelector('.callorderOpen').addEventListener('click', function () {
-                            let formId = this.dataset.formId || 1,
+                            let formId = this.dataset.formid || 1,
                                 data = {
                                     action: 'callorderForm',
                                     formId: formId
@@ -271,10 +274,12 @@ function getTimerForm(formId) {
                 popupWrapper.innerHTML = result.html;
                 popup.classList.add('active');
 
-                let timer = new Timer({
-                    endTime: result.endTime,
-                    timer: document.querySelector('.timer')
-                }).init();
+                if (!result.timerOff) {
+                    let timer = new Timer({
+                        endTime: result.endTime,
+                        timer: document.querySelector('.timer')
+                    }).init();
+                }
 
             } else {
                 alert('Что-то пошло не так, попробуйте еще раз!!!');
@@ -289,7 +294,12 @@ function getTimerForm(formId) {
 popup.addEventListener('click', function (e) {
     if (e.target.classList.contains('popup__wrapper') || e.target.classList.contains('popup__close-img')) {
         popup.classList.remove('active');
-        // scrollLock.enablePageScroll(document.body);
+    }
+});
+
+document.addEventListener('keydown', function (e) {
+    if (e.keyCode == 27){
+        popup.classList.remove('active');
     }
 });
 

@@ -53,6 +53,8 @@ $('.calc').validate(
                     if (result.status) {
                         form.reset();
                         getTimerForm();
+                        yaCounter37527960.reachGoal('svazatsya');
+                        return true;
                     } else {
                         alert('Что-то пошло не так, попробуйте еще раз!!!');
                     }

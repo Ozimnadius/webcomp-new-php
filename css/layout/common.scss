@@ -821,11 +821,14 @@
     }
 
     .figure__block2 {
-      top: calc(100% - 0px);
+      top: calc(100% - 1px);
       right: calc(100% - 22px);
       transition: 1.5s;
-      @include slg{
-        right: calc(100% - 17px);
+      @include lg{
+        right: calc(100% - 19px);
+      };
+      @include md{
+        right: calc(100% - 25px);
       };
       @include sm{
         right: calc(100% - 8px);
@@ -840,8 +843,11 @@
     .figure__block4 {
       left: calc(100% + 22px);
       transition: 1.5s;
-      @include slg{
-        left: calc(100% + 17px);
+      @include lg{
+        left: calc(100% + 19px);
+      };
+      @include md{
+        left: calc(100% + 25px);
       };
       @include sm{
         left: calc(100% + 8px);
@@ -1103,7 +1109,7 @@
     height: 1px;
     width: 100%;
     outline: none;
-    background: linear-gradient(left, $Selective-yellow 0%, $Selective-yellow 12%, #352b4d 12%, #352b4d 100%);
+    background: linear-gradient(left, $Selective-yellow 0%, $Selective-yellow 100%, #352b4d 100%, #352b4d 100%);
 
     &::-moz-range-track {
       -moz-appearance: none;
@@ -1399,7 +1405,7 @@
   border: 1px solid rgba($text, .2);
   text-align: center;
   padding: 14px;
-  color: rgba($text, .4);
+  color: rgba($text, .6);
   font-weight: 300;
   line-height: 1;
   font-family: "Exo 2";
@@ -1419,7 +1425,7 @@
   };
 
   &::placeholder {
-    color: rgba($text, .3);
+    color: rgba($text, .6);
     font-weight: 300;
   }
 
@@ -1585,6 +1591,12 @@
   }
 }
 
+.selectize-input>input{
+  &::placeholder{
+    color: rgba($text, .6);
+  }
+}
+
 .selectize-control.single .selectize-input {
   background-image: none;
   box-shadow: none;
@@ -1594,7 +1606,7 @@
   border: 1px solid rgba($text, .2);
   text-align: center;
   padding: 14px;
-  color: rgba($text, .4);
+  color: rgba($text, .6);
   font-weight: 300;
   line-height: 1;
   font-family: "Exo 2";
@@ -1634,6 +1646,7 @@
   @include sm{
     font-size: 13px;
   };
+
 }
 
 .selectize-dropdown {

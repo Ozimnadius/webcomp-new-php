@@ -9,11 +9,11 @@
     <div class="work__items">
         <div class="work__item">
             <div class="work__item-img"><img class="work__item-pic" src="/images/content/work/work1.png"></div>
-            <div class="work__item-text">Бесплатная система управления с понятной системой</div>
+            <div class="work__item-text">Бесплатная система управления с понятным интерфейсом</div>
         </div>
         <div class="work__item">
             <div class="work__item-img"><img class="work__item-pic" src="/images/content/work/work2.png"></div>
-            <div class="work__item-text">Многофункциональное решение под крупные проекты с годовой техническая поддержка в подарок</div>
+            <div class="work__item-text">Многофункциональное решение под крупные проекты с годовой технической поддержкой в подарок</div>
         </div>
         <div class="work__item">
             <div class="work__item-img"><img class="work__item-pic" src="/images/content/work/work3.png"></div>

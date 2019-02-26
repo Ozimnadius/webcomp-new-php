@@ -74,6 +74,12 @@
       animation: play 0.8s steps(6) infinite;
       display: block;
 
+      @include sm{
+        background: url('/images/icons/sprite3.png') left center;
+        background-size: cover;
+        animation: play3 0.8s steps(3) infinite;
+      };
+
     }
 
     &__we {
@@ -802,5 +808,11 @@
 @keyframes play2 {
   100% {
     background-position: -3000%;
+  }
+}
+
+@keyframes play3 {
+  100% {
+    background-position: -300%;
   }
 }

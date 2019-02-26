@@ -13,12 +13,36 @@
 
     let formNextAll = document.querySelectorAll('.site-cost .form__button');
     if (formNextAll) {
-        for (let i=0; i<formNextAll.length; i++) {
+        for (let i = 0; i < formNextAll.length; i++) {
             formNextAll[i].addEventListener('click', function (e) {
                 document.querySelector('.site-cost__switch.active').nextElementSibling.click();
             });
         }
 
+    }
+
+    let siteCostTabs = document.querySelector('.site-cost__tabs');
+    if (siteCostTabs) {
+        let tabs = siteCostTabs.querySelectorAll('.site-cost__tab'),
+            maxHeight = 0;
+
+        for (let i = 0; i < tabs.length; i++) {
+            let tab = tabs[i],
+                wrap = tab.querySelector('.form__wrapper'),
+                height = wrap.offsetHeight;
+
+
+            if (maxHeight < height) {
+                maxHeight = height;
+            }
+        }
+
+        for (let i = 0; i < tabs.length; i++) {
+            tabs[i].style.height = maxHeight + 'px';
+
+        }
+
+        siteCostTabs.style.height = maxHeight + 'px';
     }
 
 }());

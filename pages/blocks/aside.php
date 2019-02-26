@@ -9,7 +9,7 @@
         <div class="aside__contacts">
             <div class="contacts">
                 <a class="contacts__item" href="tel:+7(495)150-45-98">+7 (495)<span class="contacts__item_white"> 150 45 98</span></a>
-                <a class="contacts__item" href="tel:+7(800)333-45-98">+7 (800)<span class="contacts__item_white"> 333 45 98</span></a>
+                <a class="contacts__item" href="tel:+7(800)333-45-98">&nbsp;8 (800)<span class="contacts__item_white"> 333 45 98</span></a>
             </div>
         </div>
         <div class="aside__seporator">
@@ -25,7 +25,7 @@
                 <a class="nav__item" href="/portfolio/">Портфолио</a>
                 <a class="nav__item" href="/portfolio/">Стоимость</a>
                 <a class="nav__item" href="/contacts/">Контакты</a>
-                <a class="nav__item" href="/blog/">Блог</a>
+                <!-- <a class="nav__item" href="/blog/">Блог</a> -->
             </nav>
         </div>
 
@@ -41,7 +41,7 @@
         </div>
 
         <div class="aside__search">
-            <form class="search" action="/search/" method="post" autocomplete="off">
+            <!-- <form class="search" action="/search/" method="post" autocomplete="off">
                 <button class="search__btn" type="button">
                     <div class="search__btn-line"></div>
                     <div class="search__btn-round"></div>
@@ -52,17 +52,17 @@
                 <div class="search__autocomplete">
                     <div class="autocomplete"></div>
                 </div>
-            </form>
+            </form> -->
         </div>
         <div class="aside__controls">
             <div class="controls">
-                <button class="control callorderOpen" type="button">
+                <button class="control callorderOpen" data-formId="5" type="button">
                     <svg class="control__svg">
                         <use xlink:href="/images/icons/sprite.svg#tel"></use>
                     </svg>
                     <div class="control__title">Заказать звонок</div>
                 </button>
-                <button class="control callorderOpen" type="button">
+                <button class="control callorderOpen" data-formId="8" type="button">
                     <svg class="control__svg">
                         <use xlink:href="/images/icons/sprite.svg#question"></use>
                     </svg>

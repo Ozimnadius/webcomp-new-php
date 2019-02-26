@@ -61,13 +61,13 @@
                         <p>
                             Веб студия Web-comp специализируется на профессиональном создании уникальных сайтов на
                             заказ.
-                            Команда наших специалистов постоянно следит за появлением новых технологий,
+                            Команда наших квалифицированных специалистов постоянно следит за появлением новых технологий,
                             которые мы не боимся внедрять в веб проекты, делая их современными и высокотехнологичными.
                         </p>
                         <p>
                             Мы создаем только продающие сайты - это достигается путём детального изучения целевой
                             аудитории,
-                            отрисовкой дизайна, проработки юзабилити и настройки технической части.
+                            отрисовки дизайна, проработки юзабилити и настройки технической части.
 
 
                         </p>
@@ -102,7 +102,7 @@
                 </section>
                 <section id="2" class="index-price">
                     <div class="index-price__title">Сколько стоит сайт?</div>
-                    <div class="index-price__subtitle">on-line калькулятор расчета стоимости</div>
+                    <div class="index-price__subtitle">online калькулятор расчета стоимости</div>
                     <div class="index-price__calc">
                         <form class="calc" action="#" method="post">
                             <div class="calc__row">
@@ -131,7 +131,7 @@
                                                value="Интернет магазин">
                                         <label class="calc__label" for="radio2"
                                                title="Многофункциональная площадка для торговли онлайн">
-                                            Интернет магазин
+                                            Интернет-магазин
                                             <div class="calc__radio-fake"></div>
                                         </label>
                                     </div>
@@ -178,7 +178,7 @@
                                         <input class="calc__checkbox" type="checkbox" id="checkbox3" name="needs[]" value="Разработка тех. задания">
                                         <label class="calc__label" for="checkbox3"
                                                title="Поможем составить правильное техническое задание на создание сайта с учётом современных стандартов и ваших требований к проекту">Разработка
-                                            тех. задания
+                                            технического задания
                                             <div class="calc__checkbox-fake"></div>
                                         </label>
                                     </div>
@@ -205,7 +205,7 @@
                                         <label class="calc__label"
                                                title="Дополнительная отрисовка баннеров, для рекламных акций или вплывающих окон">
                                             <div class="calc__label-title">Доп. баннеры:</div>
-                                            <input class="calc__input" type="text" name="words" value="130">
+                                            <input class="calc__input" type="text" name="words" value="0">
                                         </label>
                                     </div>
                                     <div class="calc__field">
@@ -222,10 +222,10 @@
                                 <div class="calc__fields">
                                     <div class="calc__field calc__field_2">
                                         <label class="calc__label calc__label_middle">
-                                            <input class="calc__range" type="range" name="range" min="1" max="100"
-                                                   value="12">
-                                            <div class="calc__range-title"><span class="calc__range-val">12</span><span
-                                                        class="calc__range-text"> месяцев</span></div>
+                                            <input class="calc__range" type="range" name="range" min="1" max="50"
+                                                   value="50">
+                                            <div class="calc__range-title"><span class="calc__range-val">50</span><span
+                                                        class="calc__range-text"> недель</span></div>
                                         </label>
                                     </div>
                                     <div class="calc__field">
@@ -292,7 +292,7 @@
                     </div>
                 </section>
                 <section class="index-cat">
-                    <div class="index-cat__title">Нам есть чем гордиться</div>
+                    <div class="index-cat__title">Нам есть, чем гордиться</div>
                     <div class="index-cat__subtitle">Не гонимся за количеством, работаем на результат</div>
                     <div class="index-cat__list">
                         <a class="index-cat__item" href="/portfolio/project/" title="Интернет-магазин"
@@ -370,7 +370,7 @@
                     <div class="index-seo__title">
                         <div class="title title_small">
                             <div class="title__line">
-                                <div class="title__text">Хотите сайт в топе?</div>
+                                <div class="title__text">Хотите сайт в топ 10?</div>
                             </div>
                             <div class="title__line"><span class="title__text title__text_small">мы знаем</span><span
                                         class="title__text">как это сделать</span></div>
