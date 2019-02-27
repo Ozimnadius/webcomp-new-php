@@ -8,9 +8,9 @@ require $_SERVER['DOCUMENT_ROOT'] . '/php/PHPMailer/src/Exception.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/php/PHPMailer/src/PHPMailer.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/php/PHPMailer/src/SMTP.php';
 
-use dps\workday\Workday;
+//use dps\workday\Workday;
 
-require $_SERVER['DOCUMENT_ROOT'] . '/php/Workday.php';
+//require $_SERVER['DOCUMENT_ROOT'] . '/php/Workday.php';
 
 
 $data = $_POST;

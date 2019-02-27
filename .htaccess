@@ -132,7 +132,11 @@ Redirect 301	/e-commerce/Pro	https://web-comp.ru/e-commerce/
 Redirect 301	/online-shop-seo-promotion	https://web-comp.ru/promote/
 Redirect 301	/e-commerce/Lite	https://web-comp.ru/e-commerce/
 Redirect 301	/news/	https://web-comp.ru/blog/
-Redirect 301	/page/138	https://web-comp.ru/
+Redirect 301	/page/81	https://web-comp.ru/
+Redirect 301	/blog/7		https://web-comp.ru/blog/
+Redirect 301	/uslugi-po-sozdaniyu-sajtov	https://web-comp.ru/
+Redirect 301	/page/78	https://web-comp.ru/
+Redirect 301	/page/50	https://web-comp.ru/
 
 
 

@@ -6,7 +6,7 @@ function Clock(settings) {
     this.hourObj = settings.hourObj;
     this.minuteObj = settings.minuteObj;
     this.secondObj = settings.secondObj;
-    timer
+    
     let that = this,
         seconds = 60,
         minutes = 60,
