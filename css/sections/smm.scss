@@ -774,17 +774,17 @@
         };
       }
       &-type {
-        font-size: 43px;
+        font-size: 40px;
         font-weight: 300;
         line-height: 76.66px;
-        margin-left: 22px;
+        margin-left: 15px;
         @include sm{
-          font-size: 21px;
+          font-size: 19px;
           margin-left: 10px;
           line-height: 1;
         };
         @include xs{
-          font-size: 19px;
+          font-size: 17px;
         };
       }
 

@@ -16,8 +16,8 @@
                         </div>
                     </div>
                     <div class="rek-first__title">
-                        ПРОФЕСИОНАЛЬНАЯ НАСТРОЙКА КОНТЕКСТНОЙ <br>
-                        РЕКЛАМЫ <span style="color: #f44545;">Я</span>НДЕКС ДИРЕКТ
+                        <h1 style="font-size: 50px; font-weight: 300; line-height: 1.2;">ПРОФЕСИОНАЛЬНАЯ НАСТРОЙКА КОНТЕКСТНОЙ <br>
+                        РЕКЛАМЫ <span style="color: #f44545;">Я</span>НДЕКС ДИРЕКТ</h1>
                     </div>
                     <div class="rek-first__subtitle">
                         От сертифицированых специалистов <br>
@@ -48,7 +48,7 @@
                                     </div>
                                 </div>
                                 <div class="rek-first__item-desc">
-                                    <div class="rek-first__item-text"><span class="rek-first__item-val">59</span><span class="rek-first__item-type"> млн.</span></div>
+                                    <div class="rek-first__item-text"><span class="rek-first__item-val">69</span><span class="rek-first__item-type"> млн.</span></div>
                                     <svg class="rek-first__item-svg rek-first__item-svg_2">
                                         <use xlink:href="/images/icons/sprite.svg#man"></use>
                                     </svg>
@@ -71,46 +71,46 @@
             </section>
             <div class="container3">
                 <section class="rek-desc">
-                    <div class="rek-desc__title">Мы найдем ваших клиентов</div>
+                    <div class="rek-desc__title"><h2 style="font-size: 40px; margin-bottom: 30px; font-weight: 400;">Мы найдем ваших клиентов</h2></div>
                     <div class="rek-desc__content content">
                         <div class="rek-desc__block">
-                            <p>«Яндекс.Директ» – сервис контекстной рекламы ведущей поисковой системы страны, позволяет привлекать посетителей на сайт для реализации товаров или услуг. 
-							Система дает возможность демонстрировать объявления с учетом интересов пользователей, что улучшает ее результативность рекламных компаний. 
-							Эффект от контекстной рекламы «Яндекс.Директ» заметен уже в день старта рекламы.</p>
-							<h3>Преимущества «Яндекс.Директ»</h3>
+                            <p>Яндекс.Директ – сервис контекстной рекламы ведущей поисковой системы страны, позволяет привлекать посетителей на сайт для реализации товаров или услуг. 
+							Система дает возможность демонстрировать объявления с учетом интересов пользователей, что улучшает результативность рекламных кампаний. 
+							Эффект от контекстной рекламы Яндекс.Директ заметен уже в день старта рекламы.</p>
+							<h3>Преимущества Яндекс.Директ</h3>
 							<p>Кроме обретения доступа к аудитории ведущего поисковика России, рекламодатель получает другие достоинства:</p>
                             <ul>
-                                <li>показ рекламы заинтересованным лицам;</li>
+                                <li>показ рекламы заинтересованным пользователям;</li>
                                 <li>упрощенное управление рекламными кампаниями;</li>
                                 <li>быстрый старт – в течение часа;</li>
-                                <li>демонстрация сообщений на качественных интернет-площадках («Яндекс» много внимания уделяет этому параметру);</li>
+                                <li>демонстрация сообщений на качественных интернет-площадках (Яндекс уделяет этому параметру много внимания);</li>
                                 <li>точное таргетирование аудитории – можно показывать объявления только определенной группе людей;</li>
                                 <li>понятный способ расчета – средства списываются со счета только за переходы на сайт;</li>
-								<li>быстрое привлечение аудитории – клиенты привлекаются с первого дня запуска кампании.</li>
+								<li>быстрое привлечение аудитории – клиенты переходят на сайт с первого дня запуска кампании.</li>
                             </ul>
                         </div>
                         <div class="rek-desc__block">
-                            <h3>Кому не подходит Яндекс Директ</h3>
+                            <h3>Кому подходит Яндекс Директ:</h3>
                             <ul>
-                                <li>Малый и средний бизнес</li>
-                                <li>Средний чек выше 2500 руб.</li>
-                                <li>Услуги или товар разрешены законодательством</li>
-                                <li>Уже имеется сайт</li>
+                                <li>малый и средний бизнес;</li>
+                                <li>средний чек выше 2500 руб;</li>
+                                <li>услуги или товар разрешены законодательством;</li>
+                                <li>уже имеется сайт.</li>
                             </ul>
                         </div>
                         <div class="rek-desc__block">
                             <h3>В каких тематиках показы запрещены</h3>
                             <ul>
-                                <li>Взрывчатые вещества и материалы</li>
-                                <li>Копии оригинальных товаров (например: реплики часов известных торговых марок)</li>
-                                <li>Медицинские консультации онлайн с постановкой диагноза</li>
-                                <li>Наркотические и психотропные вещества</li>
-                                <li>Оружие</li>
-                                <li>Политическая реклама</li>
-                                <li>Рецептурные лекарственные средства</li>
-								<li>Реклама магических услуг</li>
-								<li>Табачные изделия</li>
-								<li>Финансовые пирамиды</li>
+                                <li>взрывчатые вещества и материалы;</li>
+                                <li>копии оригинальных товаров (например: реплики часов известных торговых марок);</li>
+                                <li>медицинские консультации онлайн с постановкой диагноза;</li>
+                                <li>наркотические и психотропные вещества;</li>
+                                <li>оружие;</li>
+                                <li>политическая реклама;</li>
+                                <li>рецептурные лекарственные средства;</li>
+								<li>реклама магических услуг;</li>
+								<li>табачные изделия;</li>
+								<li>финансовые пирамиды.</li>
                             </ul>
                         </div>
                     </div>
@@ -118,7 +118,7 @@
                     <div class="rek-desc__list">
                         <div class="rek-desc__item">
                             <div class="rek-desc__item-img"><img class="rek-first__item-pic" src="/images/content/rek/desc/rekDesc1.png"></div>
-                            <div class="rek-desc__item-text">Официальные партнёры Яндекс</div>
+                            <div class="rek-desc__item-text">Официальные партнеры Яндекс</div>
                         </div>
                         <div class="rek-desc__item">
                             <div class="rek-desc__item-img"><img class="rek-first__item-pic" src="/images/content/rek/desc/rekDesc2.png"></div>
@@ -146,7 +146,7 @@
                                     <div class="swiper-slide slide" style="background:#d4003c">
                                         <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat1.png"></div>
                                         <div class="slide__order">
-                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-name">Заявок на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">640</div>
                                                 <div class="slide__order-valTo">3890</div>
@@ -169,7 +169,7 @@
                                     <div class="swiper-slide slide" style="background:#4369dc">
                                         <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat2.png"></div>
                                         <div class="slide__order">
-                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-name">Заявок на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">437</div>
                                                 <div class="slide__order-valTo">2413</div>
@@ -192,7 +192,7 @@
                                     <div class="swiper-slide slide" style="background:#401d62">
                                         <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat3.png"></div>
                                         <div class="slide__order">
-                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-name">Заявок на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">0</div>
                                                 <div class="slide__order-valTo">2317</div>
@@ -215,7 +215,7 @@
                                     <div class="swiper-slide slide" style="background:#efbf0d">
                                         <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat4.png"></div>
                                         <div class="slide__order">
-                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-name">Заявок на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">140</div>
                                                 <div class="slide__order-valTo">2497</div>
@@ -238,7 +238,7 @@
                                     <div class="swiper-slide slide" style="background:#4abe76">
                                         <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat5.png"></div>
                                         <div class="slide__order">
-                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-name">Заявок на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">0</div>
                                                 <div class="slide__order-valTo">512</div>
@@ -261,7 +261,7 @@
                                     <div class="swiper-slide slide" style="background:#bebebe">
                                         <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat6.png"></div>
                                         <div class="slide__order">
-                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-name">Заявок на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">0</div>
                                                 <div class="slide__order-valTo">1427</div>
@@ -284,7 +284,7 @@
 									<div class="swiper-slide slide" style="background:#bd1c3c">
                                         <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat7.png"></div>
                                         <div class="slide__order">
-                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-name">Заявок на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">0</div>
                                                 <div class="slide__order-valTo">470</div>
@@ -307,7 +307,7 @@
 									<div class="swiper-slide slide" style="background:#c37ec3">
                                         <div class="slide__img"><img class="slide__img-img" src="/images/content/seo/cats/cat8.png"></div>
                                         <div class="slide__order">
-                                            <div class="slide__order-name">Заявки на сайте</div>
+                                            <div class="slide__order-name">Заявок на сайте</div>
                                             <div class="slide__order-val">
                                                 <div class="slide__order-valFrom">0</div>
                                                 <div class="slide__order-valTo">940</div>
@@ -336,7 +336,7 @@
                     </div>
                 </section>
                 <section class="rek-price">
-                    <div class="rek-price__title">Стоимость рекламы Яндекс Директ</div>
+                    <div class="rek-price__title"><h2 style="color: #000000; font-size: 40px; text-transform: uppercase; margin-bottom: 20px; font-weight: 400;">Стоимость рекламы Яндекс Директ</h2></div>
                     <div class="rek-price__switches">
                         <div class="rek-price__switches-list">
                             <button class="active rek-price__switch" data-id="1"><span class="rek-price__switch-title">Яндекс Директ</span></button>
@@ -353,49 +353,49 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 1000 запросов</div>
-                                        <div class="rek-price__item-text">Обработка целевых фраз</div>
+                                        <div class="rek-price__item-price">до 1000</div>
+                                        <div class="rek-price__item-text">целевых запросов в обработке</div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">до 500</div>
-                                        <div class="rek-price__item-text">Создание уникальных объявлений</div>
+                                        <div class="rek-price__item-text">уникальных объявлений</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">до 50</div>
-                                        <div class="rek-price__item-text">Рекламных компаний в рамках проекта</div>
+                                        <div class="rek-price__item-text">рекламных кампаний в рамках проекта</div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">до 3000</div>
-                                        <div class="rek-price__item-text">Проработка исключающих фраз для показа</div>
+                                        <div class="rek-price__item-text">минус слов в рамках кампании</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">24 ч.</div>
-                                        <div class="rek-price__item-text">Аналитических работ</div>
+                                        <div class="rek-price__item-price">24</div>
+                                        <div class="rek-price__item-text">часа аналитических работ</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">24 ч.</div>
-                                        <div class="rek-price__item-text">Пуско-наладочных работ</div>
+                                        <div class="rek-price__item-price">24</div>
+                                        <div class="rek-price__item-text">часа пуско-наладочных работ</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Анализ конкурентов</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверсии</div>
-                                            <div class="rek-price__item-li">Проработка околоцелевых запросов</div>
+                                            <div class="rek-price__item-li">анализ конкурентов</div>
+                                            <div class="rek-price__item-li">рекомендации по улучшению конверсии</div>
+                                            <div class="rek-price__item-li">проработка околоцелевых запросов</div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Настройка рекламных сетей</div>
-                                            <div class="rek-price__item-li">Настройка ретаргетинга</div>
-											<div class="rek-price__item-li">Подключение аналитики</div>
+                                            <div class="rek-price__item-li">настройка рекламных сетей</div>
+                                            <div class="rek-price__item-li">настройка ретаргетинга</div>
+											<div class="rek-price__item-li">подключение аналитики</div>
                                         </div>
                                     </div>
                                 </div>
@@ -404,7 +404,7 @@
                                         <div class="rek-price__price">14 900 Р</div>
                                     </div>
 									<div class="seo-price__item seo-price__item_bottom">
-                                        <div class="seo-price__desc">Оптимизация и ведение 2 недели Включено!</div>
+                                        <div class="seo-price__desc">Оптимизация и ведение 2 недели - включены!</div>
                                     </div>
                                 </div>
                             </div>
@@ -413,48 +413,48 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">до 1000 запросов</div>
-                                        <div class="rek-price__item-text">Обработка целевых фраз</div>
+                                        <div class="rek-price__item-price">до 1000</div>
+                                        <div class="rek-price__item-text">целевых запросов в обработке</div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">до 10</div>
-                                        <div class="rek-price__item-text">Создание уникальных объявлений</div>
+                                        <div class="rek-price__item-text">уникальных объявлений</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">до 10</div>
-                                        <div class="rek-price__item-text">Рекламных компаний в рамках проекта</div>
+                                        <div class="rek-price__item-text">рекламных кампаний в рамках проекта</div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">до 3000</div>
-                                        <div class="rek-price__item-text">Проработка исключающих фраз для показа</div>
+                                        <div class="rek-price__item-text">минус слов в рамках кампании</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">16 ч.</div>
-                                        <div class="rek-price__item-text">Аналитических работ</div>
+                                        <div class="rek-price__item-price">16</div>
+                                        <div class="rek-price__item-text">часов аналитических работ</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">16 ч.</div>
-                                        <div class="rek-price__item-text">Пуско-наладочных работ</div>
+                                        <div class="rek-price__item-price">16</div>
+                                        <div class="rek-price__item-text">часов пуско-наладочных работ</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Анализ конкурентов</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверсии</div>
-                                            <div class="rek-price__item-li">Настройка аудитории показа</div>
+                                            <div class="rek-price__item-li">анализ конкурентов</div>
+                                            <div class="rek-price__item-li">рекомендации по улучшению конверсии</div>
+                                            <div class="rek-price__item-li">настройка аудитории показа</div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Разработка баннеров для рекламы</div>
-                                            <div class="rek-price__item-li">Исключение плохих площадок показа</div>
+                                            <div class="rek-price__item-li">разработка баннеров для рекламы</div>
+                                            <div class="rek-price__item-li">исключение плохих площадок показа</div>
 											<div class="rek-price__item-li"></div>
                                         </div>
                                     </div>
@@ -464,7 +464,7 @@
                                         <div class="rek-price__price">9 900 Р</div>
                                     </div>
 									<div class="seo-price__item seo-price__item_bottom">
-                                        <div class="seo-price__desc">Оптимизация и ведение 2 недели Включено!</div>
+                                        <div class="seo-price__desc">Оптимизация и ведение 2 недели - включены!</div>
                                     </div>
                                 </div>
                             </div>
@@ -477,8 +477,8 @@
                                         <div class="rek-price__item-text">разработка разных размеров для разных мест размещения</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">3 компании</div>
-                                        <div class="rek-price__item-text">с разними параметрами</div>
+                                        <div class="rek-price__item-price">3 кампании</div>
+                                        <div class="rek-price__item-text">с разными параметрами</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
@@ -487,34 +487,34 @@
                                         <div class="rek-price__item-text">на основе статистических данных</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">Поведеньческие факторы</div>
+                                        <div class="rek-price__item-price">Поведенческие факторы</div>
                                         <div class="rek-price__item-text">учитываем действия активной аудитории</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">Интересы</div>
-                                        <div class="rek-price__item-text">Проработка интересов аудитории</div>
+                                        <div class="rek-price__item-price">Проработка интересов</div>
+                                        <div class="rek-price__item-text">целевой аудитории</div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">Сегментация</div>
-                                        <div class="rek-price__item-text">сегментируем по e-mail или телефону</div>
+                                        <div class="rek-price__item-text">по e-mail или телефону</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Настройка системы аналитики</div>
-                                            <div class="rek-price__item-li">Настройка целей</div>
+                                            <div class="rek-price__item-li">настройка системы аналитики</div>
+                                            <div class="rek-price__item-li">настройка целей</div>
                                             <div class="rek-price__item-li"></div>
                                         </div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Отчётность по расходу</div>
-                                            <div class="rek-price__item-li">Рекомендации по улучшению конверсий</div>
+                                            <div class="rek-price__item-li">отчетность по расходу</div>
+                                            <div class="rek-price__item-li">рекомендации по улучшению конверсий</div>
                                         </div>
                                     </div>
                                 </div>
@@ -523,7 +523,7 @@
                                         <div class="rek-price__price">20 000 Р</div>
                                     </div>
 									<div class="seo-price__item seo-price__item_bottom">
-                                        <div class="seo-price__desc">Ведение компании 10% от бюджета</div>
+                                        <div class="seo-price__desc">Стоимость ведения кампании - 10% от бюджета</div>
                                     </div>
                                 </div>
                             </div>
@@ -532,28 +532,28 @@
                             <div class="rek-price__list">
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">Точность отслеживания 99%</div>
-                                        <div class="rek-price__item-text">Предоставляем максимально точные данные</div>
+                                        <div class="rek-price__item-price">99%</div>
+                                        <div class="rek-price__item-text">точность отслеживания</div>
                                     </div>
                                     <div class="rek-price__item">
-                                        <div class="rek-price__item-price">Прослушивание записей</div>
-                                        <div class="rek-price__item-text">Все звонки сохраняются в системе</div>
+                                        <div class="rek-price__item-price">100%</div>
+                                        <div class="rek-price__item-text">звонков сохраняются для прослушивания</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">Мониторинг звонков</div>
-                                        <div class="rek-price__item-text">Автоматический контроль работы сервиса</div>
+                                        <div class="rek-price__item-text">автоматический контроль работы сервиса</div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">Тегирование звонков</div>
-                                        <div class="rek-price__item-text">Отмечаем целевые звонки и получаем больше данных</div>
+                                        <div class="rek-price__item-text">отмечаем целевые звонки и получаем больше данных</div>
                                     </div>
                                 </div>
                                 <div class="rek-price__row">
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">Региональные номера</div>
-                                        <div class="rek-price__item-text">Широкая номерная емкость в 60 городах РФ</div>
+                                        <div class="rek-price__item-text">широкая номерная емкость в 60 городах РФ</div>
                                     </div>
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price"></div>
@@ -564,7 +564,7 @@
                                     <div class="rek-price__item">
                                         <div class="rek-price__item-price">+</div>
                                         <div class="rek-price__item-list">
-                                            <div class="rek-price__item-li">Скидка на настройку контекстной рекламы 10%</div>
+                                            <div class="rek-price__item-li">скидка на настройку контекстной рекламы 10%</div>
                                             <div class="rek-price__item-li"></div>
                                             <div class="rek-price__item-li"></div>
                                         </div>
@@ -582,7 +582,7 @@
                                         <div class="rek-price__price">от  5000 Р / мес.</div>
                                     </div>
 									<div class="seo-price__item seo-price__item_bottom">
-                                        <div class="seo-price__desc">Ведение и корректировки - Включено!</div>
+                                        <div class="seo-price__desc">Ведение и корректировки - включены!</div>
                                     </div>
                                 </div>
                             </div>
@@ -635,7 +635,7 @@
                                     <img src="/images/icons/tick.svg" alt="">
                                 </div>
                             </label>
-                            <div class="rek-bud__check-title">Исключение <br> не целевых запросов</div>
+                            <div class="rek-bud__check-title">Исключение <br> нецелевых запросов</div>
                         </div>
                         <div class="rek-bud__check">
                             <label class="rek-bud__check-check">
@@ -644,7 +644,7 @@
                                     <img src="/images/icons/tick.svg" alt="">
                                 </div>
                             </label>
-                            <div class="rek-bud__check-title">Реклама когда ЦА <br> готова покупать</div>
+                            <div class="rek-bud__check-title">Реклама, когда ЦА <br> готова покупать</div>
                         </div>
                         <div class="rek-bud__check">
                             <label class="rek-bud__check-check">
@@ -671,79 +671,79 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Как прогнозируется бюджет и расход в Диреке?</div>
+                                <div class="why__title"><h2 style="font-size: 50px; margin-bottom: 20px; font-weight: 300;">Как прогнозируется бюджет и расход в Директе?</h2></div>
                                 <div class="why__content">
 										<p>Рекламироваться нужно с учетом целей, а не размера бюджета. Сначала необходимо выяснить желаемое количество конверсий или переходов. 
 										После этого определяется объем требуемых ресурсов.</p>
-										<p>Каждый прогноз, в том числе бюджета, – ориентировочная величина. Рассчитать ее можно с учетом данных за прошлые периоды. 
+										<p>Каждый прогноз, в том числе бюджета – ориентировочная величина. Рассчитать ее можно с учетом данных за прошлые периоды. 
 										Конкуренция, конъюнктура рынка непостоянны, поэтому действительные расходы могут оказаться сильно отличными от прогнозируемых.</p>
-										<p>В настройках контекстной рекламы «Яндекс» есть «Прогноз бюджета». Следует выбрать регион демонстрации объявлений. Также можно уточнить дополнительные параметры:</p>
+										<p>В настройках контекстной рекламы Яндекс есть сервис «Прогноз бюджета». Следует выбрать регион демонстрации объявлений. Также можно уточнить дополнительные параметры:</p>
 										<p></p>
 										<ul>
-											<li>Время прогноза</li>
-											<li>Площадки размещения</li>
-											<li>Валюта измерения</li>
-											<li>Ключевые запросы</li>
-											<li>Минус фразы</li>
+											<li>время прогноза;</li>
+											<li>площадки размещения;</li>
+											<li>валюта измерения;</li>
+											<li>ключевые запросы;</li>
+											<li>минус фразы.</li>
 										</ul>
-										<p>Далее нужно нажать «Посчитать». Сервис рассчитает бюджет с учетом выбранных ключевых слов. Стоит учесть результаты:</p>
+										<p>Далее нажимаем «Посчитать». Сервис рассчитает бюджет с учетом выбранных ключевых слов. Во внимание необходимо взять следующие результаты:</p>
 										<ul>
 											<li>сумму расходов;</li>
 											<li>число переходов, демонстраций.</li>										
 										</ul>
-										<p>Нужно сравнить прогнозируемое количество кликов с целевым. Если сервис предполагает 400 переходов, а для проведения кампании необходимо 600, следует сделать корректировки.</p>
+										<p>Необходимо сравнить прогнозируемое количество кликов с целевым. Если сервис предполагает 400 переходов, а для проведения кампании необходимо 600, то следует сделать корректировки.</p>
 										<p>Внести изменения в число переходов можно за счет включения дополнительных ключевых фраз, исключения из списка дорогостоящих вариантов или исправления желаемого объема трафика.</p>
-										<p>Полученные данные не слудует относить к точным, так как система не принимает во внимание качество настроенной рекламной компании, аудиторию таргетинга, репутацию доменного имени сайта и других характеристик ресурса. 
-										Данный по стоимости перехода могут разниться, как в большую так и меньшую сторону.</p>
-										<h3>Повышение узнаваемости бренда за счет использования баннеров «Яндекс»</h3>
-										<p>Баннерная реклама «Яндекс» объединяет в себе достоинства контекстной и классической. Благодаря визуализации интерес аудитории выше. Результативность таких объявлений повышается за счет их демонстрации заинтересованным людям.</p>
-										<p>Баннеры «Яндекса» показываются на страницах поиска самой системы, а также Rambler и Mail.ru. Такой вид демонстрации рекламы оплачивается за показы, а не за клики. Их можно использовать для распространения сведений о продукте или бренде среди целевой аудитории.</p>
-										<p>Для размещения такой информации нужно:</p>
+										<p>Полученные данные не слудует относить к точным, так как система не принимает во внимание качество настроенной рекламной кампании, аудиторию таргетинга, репутацию доменного имени сайта и другие характеристики ресурса. 
+										Данный по стоимости перехода могут разниться как в большую, так и меньшую сторону.</p>
+										<h3>Повышение узнаваемости бренда за счет использования баннеров Яндекс</h3>
+										<p>Яндекс.Баян объединяет в себе достоинства контекстной и классической рекламы. Благодаря визуализации интерес аудитории выше, результативность таких объявлений повышается за счет их демонстрации заинтересованным людям.</p>
+										<p>Баннеры Яндекса показываются на страницах поиска самой системы, а также в сервисах Rambler и MailRu. Такой вид демонстрации рекламы оплачивается за показы, а не за клики. Их можно использовать для распространения сведений о продукте или бренде среди целевой аудитории.</p>
+										<p>Для размещения такой информации понадобится:</p>
 										<ul>
 											<li>создать баннер, учитывая требования поисковой системы;</li>
 											<li>выбрать оптимальные условия демонстрации;</li>
-											<li>запустить показ.</li>
+											<li>запустить показы.</li>
 										</ul>
 										<h3>Достоинства графических объявлений</h3>
-										<p>В этом методе сочетаются достоинства контекстной и классической рекламы. Визуализация повышает CTR. Эффективность повышена также благодаря таргетингу и расчетам за переходы.</p>
-										<p>В разделе «Тип объявлений» нужно выбрать соответствующий пункт. Нужно хорошо проработать визуальный компонент, но без нарушения требований сервиса. Система позволяет использовать GIF-анимацию.</p>
-										<p>Если графическое объявление создается впервые, можно применять шаблонный вариант. Нужно лишь выбрать соответствующую опцию. Конструктор креативов откроет доступ к шаблону. Следует настроить внешний вид:</p>
+										<p>В этом методе сочетаются аспекты, свеойственные контекстной и баннерной рекламу. Визуализация повышает CTR (кликабельность объявлений), также эффективность повышается благодаря таргетингу и расчетам за переходы.</p>
+										<p>В разделе «Тип объявлений» необходимо выбрать соответствующий пункт. Визуальный компонент требует тщательной проработки, главное - без нарушения требований сервиса. Система позволяет использовать GIF-анимацию.</p>
+										<p>Если графическое объявление создается впервые можно применить шаблонный вариант: нужно лишь выбрать соответствующую опцию. Конструктор креативов откроет доступ к шаблону, после чего переходим к настройке внешнего вида:</p>
 										<ul>
-											<li>выбрать картинку;</li>
-											<li>придумать фон;</li>
-											<li>написать текст.</li>
+											<li>выбираем картинку;</li>
+											<li>придумывает фон;</li>
+											<li>пишем текст.</li>
 										</ul>
-										<p>Будет создано 12 вариантов разных размеров. Графические объявления стоит демонстрировать на сайтах рекламной сети.</p>
+										<p>Будет создано 12 вариантов объявлений разных размеров, которые будут демонстрироваться на сайтах рекламной сети Яндекса.</p>
 										<h3>Применение динамических объявлений</h3>
-										<p>Сервис используется собственниками интернет-магазинов, одновременно рекламирующих большое количество позиций. В настройках указывается URL сайта или перечень страниц, создаются общие объявления. Сервис автоматически подстроит динамические заголовки, предварительно проанализировав контент.</p>
-										<p>Нужно выбрать «Создать кампанию», а затем «Динамические объявления» и указать настройки. Следует задать URL сайта (при продвижении группы страниц). Дальше добавляется общее объявление. Заголовок будет проставлен автоматически, как и URL.</p>
-										<p>Для динамических объявлений система самостоятельно определяет перечень ключевых фраз. Если они будут пересекаться с демонстрацией обычных объявлений, корректировки внесутся автоматически. Поэтому проекты можно вести параллельно, не боясь повторений.</p>
+										<p>Сервис используется собственниками интернет-магазинов, одновременно рекламирующими большое количество товарных позиций. В настройках указывается URL сайта или перечень страниц, создаются общие объявления. Сервис автоматически подстраивает динамические заголовки, предварительно проанализировав контент.</p>
+										<p>Выбрав «Создать кампанию», переходим в «Динамические объявления» и указываем настройки. Следует задать URL сайта (при продвижении группы страниц). Дальше добавляется общее объявление: заголовок будет проставлен автоматически, как и URL.</p>
+										<p>Для динамических объявлений система самостоятельно определяет перечень ключевых фраз. Если они будут пересекаться с демонстрацией обычных объявлений корректировки внесутся автоматически, поэтому проекты можно вести параллельно, не боясь повторений.</p>
 										<h3>Как следить за результативностью?</h3>
-										<p>Есть следующие метрики для измерения эффективности:</p>
+										<p>Среди стандартных метрик для оценки выделяют:</p>
 										<ul>
 											<li>показатели бизнес-результативности: доходы, суммы, число сделок, прибыль;</li>
-											<li>параметры эффективности сайта: число целевых переходов, поведенческие факторы, конверсия;</li>
-											<li>показатели результативности объявлений: конверсия, число демонстраций и кликов, CTR, показатель качества.</li>
+											<li>параметры эффективности сайта: число целевых переходов, поведенческие факторы, конверсии;</li>
+											<li>показатели результативности объявлений: конверсии, число демонстраций и кликов, CTR, показатель качества.</li>
 										</ul>
-										<p>Результативность рекламной кампании определяют: стоимость получения и пожизненная клиентская ценность, соотношение этих данных. Показатели легко контролируются в сервисе «Яндекс.Директ».</p>
-										<h3>«Яндекс» vs Google</h3>
-										<p>Многое зависит от поставленных задач, опыта, сферы деятельности, личных запросов. Достоинства сервиса «Яндекс.Директ»:</p>
+										<p>Результативность рекламной кампании определяют: стоимость получения и пожизненная клиентская ценность, соотношение этих данных. Показатели легко контролируются в сервисе Яндекс.Директ.</p>
+										<h3>Яндекс vs Google</h3>
+										<p>Многое зависит от поставленных задач, опыта, сферы деятельности, личных запросов. Достоинства сервиса Яндекс.Директ:</p>
 										<ul>
 											<li>упрощенный интерфейс, если сравнивать с AdWords – новичкам проще разобраться;</li>
 											<li>Яндекс лидирует на отечественном рынке – получаете больший охват аудитории;</li>
 											<li>опыт показывает, что конверсионные показатели рекламных компаний на Яндексе выше;</li>
 											<li>гибкие настройки, объявлений;</li>
-											<li>тщательный отбор интернет-площадок для РСЯ – «Яндекс» не позволяет регистрироваться сайтам, востребованность которых ниже 100 уникальных посетителей в сутки.</li>
+											<li>тщательный отбор интернет-площадок для РСЯ – Яндекс не позволяет регистрироваться сайтам, востребованность которых ниже 100 уникальных посетителей в сутки.</li>
 										</ul>
-										<p>Однако нужно быть готовыми к более высокой цене клика, слабой эффективности инструмента для работы с зарубежной аудиторией. «Яндекс» не имеет возможностей для демонстрации объявлений на YouTube. Эти нюансы обязательно стоит учесть перед проведением кампании, чтобы избежать разочарования.</p>
-										<h3>Особенности рекламы «Яндекс.Директ» от компании WEB-COMP</h3>
-										<p>Мы предлагаем доступные цены на настройку контекстной рекламы в «Яндекс.Директ». Есть и другие достоинства:</p>
+										<p>Однако нужно быть готовыми к более высокой цене клика, слабой эффективности инструмента для работы с зарубежной аудиторией. Яндекс не имеет возможностей для демонстрации объявлений на YouTube. Эти нюансы обязательно стоит учесть перед проведением кампании, чтобы избежать разочарования.</p>
+										<h3>Особенности рекламы Яндекс.Директ от компании WEB-COMP</h3>
+										<p>Мы предлагаем доступные цены на настройку контекстной рекламы в Яндекс.Директ. Есть и другие достоинства:</p>
 										<ul>
 											<li>комплексный контроль;</li>
 											<li>точность расчетов и таргетинга;</li>
 											<li>оплата за результат.</li>
 										</ul>
-										<p>Закажите контекстную рекламу «Яндекс» у рекламного гуру – компании WEB-COMP. Наши специалисты сертифицированы, имеют опыт проведения кампаний разных масштабов, готовы к выполнению непростых задач. С участием компании WEB-COMP реклама ваших товаров или услуг станет эффективнее в разы!</p>
+										<p>Закажите контекстную рекламу Яндекс у рекламного гуру – компании WEB-COMP. Наши специалисты сертифицированы, имеют опыт проведения кампаний разных масштабов, готовы к выполнению непростых задач. С участием компании WEB-COMP реклама ваших товаров или услуг станет эффективнее в разы!</p>
 								</div>
                             </div>
                         </div>

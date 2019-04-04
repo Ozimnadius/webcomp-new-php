@@ -15,7 +15,7 @@
                             <a class="bread__item active">Аудит</a>
                         </div>
                     </div>
-                    <div class="seo-first__title">Бесплатный SEO Аудит<br></div>
+                    <div class="seo-first__title"><h1 style="font-size: 50px; font-weight: 300; line-height: 1.2;">Бесплатный SEO аудит сайта</h1><br></div>
                     <div class="seo-first__subtitle">Выевляем ошибки и определяем<br>зоны роста проекта</div>
                     <button class="seo-first__button callorderOpen" data-formId="2" type="button">
                         <div class="btn">
@@ -552,7 +552,7 @@
                         <div class="seo-faq__item">
                             <div class="seo-faq__item-title">Как можно максимально быстро получить первые заявки и обращения с сайта?</div>
                             <div class="seo-faq__item-wrap">
-                                <div class="seo-faq__item-desc">Достаточно оперативно предоставлять необходимою информацию для сайта, выполнять наши рекомендации и результат не заставит себя долго ждать. Также можно подключить и другие источники трафика, которых мы нащитываем более 30.</div>
+                                <div class="seo-faq__item-desc">Достаточно оперативно предоставлять необходимую информацию для сайта, выполнять наши рекомендации и результат не заставит себя долго ждать. Также можно подключить и другие источники трафика, которых мы нащитываем более 30.</div>
                             </div>
                         </div>
                         <div class="seo-faq__item">

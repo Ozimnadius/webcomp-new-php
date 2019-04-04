@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    overflow: hidden;
 
     @include lg {
       height: 100vh !important;
@@ -65,14 +66,38 @@
     &__img {
       height: 100%;
       width: 100%;
+      width: 1154px;
+      height: 1023px;
       position: absolute;
       z-index: 20;
       top: 0;
       left: 0;
+
       background: url('/images/icons/sprite.png') left center;
       background-size: cover;
       animation: play 0.8s steps(6) infinite;
       display: block;
+
+      @include lg {
+        left: 50%;
+        transform: translateX(-50%) scale(0.9);
+      };
+
+      @include md {
+        transform: translateX(-50%) scale(0.7);
+      };
+
+      @include smd{
+        height: 100%;
+        width: 100%;
+        background: url('/images/icons/sprite3.png') left center;
+        background-size: cover;
+        animation: play3 0.8s steps(3) infinite;
+        bottom: 0;
+        top: initial;
+        transform: translateX(0%) scale(1);
+        left: 0;
+      };
 
       @include sm{
         background: url('/images/icons/sprite3.png') left center;
@@ -807,7 +832,7 @@
 
 @keyframes play2 {
   100% {
-    background-position: -3000%;
+    background-position: -600%;
   }
 }
 

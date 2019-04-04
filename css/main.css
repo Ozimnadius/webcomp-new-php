@@ -3524,6 +3524,7 @@ input:-webkit-autofill {
   -ms-flex-align: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1439px) {
@@ -3596,6 +3597,8 @@ input:-webkit-autofill {
 .index-first__img {
   height: 100%;
   width: 100%;
+  width: 1154px;
+  height: 1023px;
   position: absolute;
   z-index: 20;
   top: 0;
@@ -3605,6 +3608,40 @@ input:-webkit-autofill {
   -webkit-animation: play 0.8s steps(6) infinite;
   animation: play 0.8s steps(6) infinite;
   display: block;
+}
+
+@media screen and (max-width: 1439px) {
+  .index-first__img {
+    left: 50%;
+    -webkit-transform: translateX(-50%) scale(0.9);
+    -ms-transform: translateX(-50%) scale(0.9);
+    transform: translateX(-50%) scale(0.9);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .index-first__img {
+    -webkit-transform: translateX(-50%) scale(0.7);
+    -ms-transform: translateX(-50%) scale(0.7);
+    transform: translateX(-50%) scale(0.7);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .index-first__img {
+    height: 100%;
+    width: 100%;
+    background: url("/images/icons/sprite3.png") left center;
+    background-size: cover;
+    -webkit-animation: play3 0.8s steps(3) infinite;
+    animation: play3 0.8s steps(3) infinite;
+    bottom: 0;
+    top: initial;
+    -webkit-transform: translateX(0%) scale(1);
+    -ms-transform: translateX(0%) scale(1);
+    transform: translateX(0%) scale(1);
+    left: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -4597,13 +4634,13 @@ input:-webkit-autofill {
 
 @-webkit-keyframes play2 {
   100% {
-    background-position: -3000%;
+    background-position: -600%;
   }
 }
 
 @keyframes play2 {
   100% {
-    background-position: -3000%;
+    background-position: -600%;
   }
 }
 
@@ -11275,15 +11312,15 @@ input:-webkit-autofill {
 }
 
 .smm-res__item-type {
-  font-size: 43px;
+  font-size: 40px;
   font-weight: 300;
   line-height: 76.66px;
-  margin-left: 22px;
+  margin-left: 15px;
 }
 
 @media screen and (max-width: 767px) {
   .smm-res__item-type {
-    font-size: 21px;
+    font-size: 19px;
     margin-left: 10px;
     line-height: 1;
   }
@@ -11291,7 +11328,7 @@ input:-webkit-autofill {
 
 @media screen and (max-width: 479px) {
   .smm-res__item-type {
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 

@@ -125,7 +125,7 @@
                                     </div>
                                 </div>
                             </a></div>
-                        <div class="site-dev__title">Создание корпоративного сайта включает</div>
+                        <div class="site-dev__title"><h1 style="font-size: 40px;">Создание корпоративного сайта</h1></div>
                         <div class="site-dev__chart">
                             <div class="site-dev__list">
                                 <div class="site-dev__item">
@@ -240,7 +240,7 @@
                             </div>
                         </div>
                         <section class="theme-price">
-                            <h1 class="theme-price__title">Стоимость создания корпоративного сайта</h1>
+                            <h2 class="theme-price__title">Стоимость создания корпоративного сайта</h2>
                             <div class="theme-price__switches">
                                 <div class="theme-price__line">
                                     <div class="theme-price__subline"></div>
@@ -252,7 +252,7 @@
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-title">Креативный сайт</div>
-                                        <div class="theme-price__item-price">10 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">50 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5
                                         </div>
                                     </div>
@@ -265,31 +265,31 @@
                                 </div>
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">5 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">25 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
                                     </div>
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">5 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">25 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
                                     </div>
                                 </div>
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">4 000 Р / 10 дней</div>
+                                        <div class="theme-price__item-price">40 000 Р / 10 дней</div>
                                         <div class="theme-price__item-text">Верстка страниц — 10</div>
                                     </div>
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">3 000 Р / 5 дней</div>
+                                        <div class="theme-price__item-price">18 000 Р / 5 дней</div>
                                         <div class="theme-price__item-text">Верстка страниц — 6</div>
                                     </div>
                                 </div>
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">4 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">40 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Програмная часть страниц — 10</div>
                                     </div>
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">4 000 Р / 5 дней</div>
+                                        <div class="theme-price__item-price">24 000 Р / 5 дней</div>
                                         <div class="theme-price__item-text">Програмная часть страниц — 6</div>
                                     </div>
                                 </div>
@@ -355,7 +355,7 @@
                         <img class="site-team__img" src="/images/content/team.png">
                     </div>
                     <div class="site-cost">
-                        <div class="site-cost__title">Сколько стоит корпоративный сайт</div>
+                        <div class="site-cost__title">узнайте индивидуальную стоимость</div>
                         <div class="site-cost__sub">Заполните бриф онлайн для расчета стоимости корпоративного
                             сайта<br>или загрузите свое ТЗ для оценки
                         </div>
@@ -646,7 +646,7 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Создание корпоративного сайта</div>
+                                <div class="why__title"><h2 style="font-size: 57px;font-weight: 300;">Корпоративный сайт под ключ</h2></div>
                                 <div class="why__content">
                                     <p>
                                         Корпоративные ресурсы выполняют множество функций сразу, в современном мире они
@@ -746,7 +746,7 @@
                                         что определенное количество рекламы «со стороны» не отпугнет ваших клиентов и
                                         сотрудников. Естественно, не стоит и перебарщивать.
                                     </p>
-                                    <h2>Создание корпоративного сайта под ключ: этапы</h2>
+                                    <h2>Этапы разработки корпоративного сайта</h2>
                                     <p>
                                         Создание корпоративного ресурса — серьезная задача, требующая и технической
                                         подкованности

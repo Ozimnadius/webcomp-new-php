@@ -15,8 +15,8 @@
                             <a class="bread__item active">Продвижение компании</a>
                         </div>
                     </div>
-                    <div class="seo-first__title">SEO продвижение компании<br>с оплатой за результат</div>
-                    <div class="seo-first__subtitle">с 4-го месяца продвигаем Включено<br>если сайт не в ТОП</div>
+                    <div class="seo-first__title"><h1 style="font-size: 50px; font-weight: 300; line-height: 1.2;">Продвижение корпоративных сайтов</h1></div>
+                    <div class="seo-first__subtitle">с 4-го месяца продвигаем бесплатно<br>если сайт не в ТОП</div>
                     <button class="seo-first__button callorderOpen" data-formId="2" type="button">
                         <div class="btn">
                             <div class="btn__title">Хочу увеличить продажи</div>
@@ -279,7 +279,7 @@
                     </div>
                 </section>
                 <section class="seo-price">
-                    <div class="seo-price__title">Стоимость продвижения</div>
+                    <div class="seo-price__title">Стоимость продвижения компании</div>
                     <div class="seo-price__switches">
                         <div class="seo-price__switches-list">
                             <button class="active seo-price__switch" data-id="1"><span class="seo-price__switch-title">Тариф «Стартап»</span></button>
@@ -548,7 +548,7 @@
                         <div class="seo-faq__item">
                             <div class="seo-faq__item-title">Как можно максимально быстро получить первые заявки и обращения с сайта?</div>
                             <div class="seo-faq__item-wrap">
-                                <div class="seo-faq__item-desc">Достаточно оперативно предоставлять необходимою информацию для сайта, выполнять наши рекомендации и результат не заставит себя долго ждать. Также можно подключить и другие источники трафика, которых мы нащитываем более 30.</div>
+                                <div class="seo-faq__item-desc">Достаточно оперативно предоставлять необходимую информацию для сайта, выполнять наши рекомендации и результат не заставит себя долго ждать. Также можно подключить и другие источники трафика, которых мы нащитываем более 30.</div>
                             </div>
                         </div>
                         <div class="seo-faq__item">

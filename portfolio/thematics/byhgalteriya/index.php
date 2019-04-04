@@ -13,7 +13,7 @@
                             <a class="bread__item active">Сайт для бухгалтерских услуг</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Сайт для бухгалтерских услуг</div>
+                    <div class="rek-first__title"><h1 style="font-size: 50px; font-weight: 300; line-height: 1.2;">Сайт для бухгалтерских услуг</h1></div>
                     <div class="rek-first__subtitle">
                         Комплексный подход к разработке вашего проекта <br>
                         с учётом особенностей вашего бизнесса <br>
@@ -36,7 +36,7 @@
             </section>
             <div class="container3">
                 <section class="rek-desc">
-                    <div class="rek-desc__title">Мы умеем создавать сайты для бухгалтеров</div>
+                    <div class="rek-desc__title"><h2 style="font-size: 30px; margin-bottom: 30px; font-weight: 400;">Мы умеем создавать сайты для бухгалтеров</h2></div>
                     <div class="rek-desc__content content">
                         <div class="rek-desc__block">
 							<p>Наша компания специализируется на создании ресурсов разной организации. 
@@ -85,7 +85,7 @@
                     </div>
                 </section>
                 <section class="rek-slider">
-                    <div class="rek-slider__title">Примеры дазайна</div>
+                    <div class="rek-slider__title">Примеры дизайна</div>
                     <div class="site-dev__swiper">
                         <div class="proportion proportion_1006x591"></div>
                         <div class="site-dev__swiper-wrap">
@@ -127,7 +127,7 @@
                     </div>
                 </section>
                 <section class="theme-price">
-                    <h1 class="theme-price__title">Стоимость создания сайта для бухгалтерских услуг</h1>
+                    <h2 class="theme-price__title">Стоимость создания сайта для бухгалтерских услуг</h2>
                     <div class="theme-price__switches">
                         <div class="theme-price__switches-list">
                             <button class="active theme-price__switch" data-id="1"><span class="theme-price__switch-title">Корпоративный сайт</span></button>

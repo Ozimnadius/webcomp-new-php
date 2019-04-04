@@ -79,7 +79,7 @@
                     </div>
                 </section>
                 <section class="rek-slider">
-                    <div class="rek-slider__title">Примеры дазайна</div>
+                    <div class="rek-slider__title">Примеры дизайна</div>
                     <div class="site-dev__swiper">
                         <div class="proportion proportion_1006x591"></div>
                         <div class="site-dev__swiper-wrap">

@@ -13,7 +13,7 @@
                             <a class="bread__item active">Сайт для автосервиса</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Сайт для автосервиса</div>
+                    <div class="rek-first__title"><h1 style="font-size: 50px; margin-bottom: 20px; font-weight: 300;">Сайт для автосервиса</h1></div>
                     <div class="rek-first__subtitle">
                         Комплексный подход к разработке вашего проекта <br>
                         с учётом особенностей вашего автосервиса<br>
@@ -87,7 +87,7 @@
                     </div>
                 </section>
                 <section class="rek-slider">
-                    <div class="rek-slider__title">Примеры дазайна</div>
+                    <div class="rek-slider__title">Примеры дизайна</div>
                     <div class="site-dev__swiper">
                         <div class="proportion proportion_1006x591"></div>
                         <div class="site-dev__swiper-wrap">
@@ -129,7 +129,7 @@
                     </div>
                 </section>
                 <section class="theme-price">
-                    <h1 class="theme-price__title">Стоимость создания сайта для автосервиса</h1>
+                    <h2 class="theme-price__title">Стоимость создания сайта для автосервиса</h2>
                     <div class="theme-price__switches">
                         <div class="theme-price__switches-list">
                             <button class="active theme-price__switch" data-id="1"><span class="theme-price__switch-title">Корпоративный сайт</span></button>

@@ -14,7 +14,7 @@
                             <a class="bread__item active">SEO</a>
                         </div>
                     </div>
-                    <div class="seo-first__title">SEO продвижение<br>с гарантией результата</div>
+                    <div class="seo-first__title"><h1 style="font-size: 50px; font-weight: 300; line-height: 1.2;">SEO продвижение<br>с гарантией результата</h1></div>
                     <div class="seo-first__subtitle">Используем только белые<br>методы продвижения</div>
                     <button class="seo-first__button callorderOpen" data-formId="2" type="button">
                         <div class="btn">
@@ -34,7 +34,7 @@
                     <div class="seo-desc__row">
                         <div class="seo-desc__left">
                             <div class="seo-desc__block content">
-                                <h3>Получите железные гарантии на результат</h3>
+                                <h2 style="font-size: 30px; margin-bottom: 30px; font-weight: 400;">Получите железные гарантии на результат</h2>
 								<p>Поисковая оптимизация — фактически ставшее обязательным условие реального (а не формального) существования любой площадки в интернете. Именно за счёт грамотного продвижения пользователи, находящиеся в интернет-пространстве, отыскивают в поисковой выдаче нужные им ресурсы. Здесь и становятся актуальными услуги нашей компании Web-Comp, специализация которой — SEO-продвижении сайтов в Москве.</p>
 								<p></p>
 							</div>
@@ -278,7 +278,7 @@
                     </div>
                 </section>
                 <section class="seo-price">
-                    <div class="seo-price__title">Стоимость продвижения</div>
+                    <div class="seo-price__title"><h2 style="color: #000000; font-size: 40px; text-transform: uppercase; margin-bottom: 20px; font-weight: 300;">Стоимость SEO продвижения</h2></div>
                     <div class="seo-price__switches">
                         <div class="seo-price__switches-list">
                             <button class="active seo-price__switch" data-id="1"><span class="seo-price__switch-title">Тариф «Стартап»</span></button>
@@ -547,7 +547,7 @@
                         <div class="seo-faq__item">
                             <div class="seo-faq__item-title">Как можно максимально быстро получить первые заявки и обращения с сайта?</div>
                             <div class="seo-faq__item-wrap">
-                                <div class="seo-faq__item-desc">Достаточно оперативно предоставлять необходимою информацию для сайта, выполнять наши рекомендации и результат не заставит себя долго ждать. Также можно подключить и другие источники трафика, которых мы нащитываем более 30. </div>
+                                <div class="seo-faq__item-desc">Достаточно оперативно предоставлять необходимую информацию для сайта, выполнять наши рекомендации и результат не заставит себя долго ждать. Также можно подключить и другие источники трафика, которых мы нащитываем более 30. </div>
                             </div>
                         </div>
                         <div class="seo-faq__item">
@@ -583,7 +583,7 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Преимущества seo продвижения под ключ</div>
+                                <div class="why__title"><h2 style="font-size: 57px; font-weight: 300; text-transform: uppercase; text-align: center; margin-bottom: 4.54545vh;">Преимущества seo продвижения под ключ</h2></div>
                                 <div class="why__content">
 								<p>Выделим основные достоинства направления нашей компании:</p>
 								<ul>

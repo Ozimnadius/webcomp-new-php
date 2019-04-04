@@ -142,7 +142,64 @@
             <div class="container3">
                 <section class="theme-iss">
                     <div class="theme-iss__title">Направления в которых у нас есть опыт создания сайтов</div>
+
+                    <? $arr = [
+                        'subject' => 'Автосалоны',
+                        'avtoservis' => 'Автосервисы',
+                        'avtozapchasti' => 'Автозапчасти',
+                        'byhgalteriya' => 'Бухгалтерия',
+                        'gostinicj-oteli' => 'Гостиницы и отели',
+                        'nedvijimost' => 'Недвижимость',
+                        'detskie-igrushki' => 'Игрушки',
+                        'znakomstva' => 'Сайт знакомств',
+                        'jenskaya-tematika' => 'Женская тематика',
+                        'clinik' => 'Клиники',
+                        'cnigi' => 'Книги',
+                        'mebelnji-magazin' => 'Мебельный сайт',
+                        'medecinskih-yslyg' => 'Медицинские услуги',
+                        'salon-krasotj' => 'Салоны красоты',
+                        'svadebnji-salon' => 'Свадебные агентства',
+                        'strahovanie' => 'Страхование',
+                        'stroitelnaya-tematika' => 'Ремонт квартир',
+                        'restoranj' => 'Рестораны',
+                        'tyrizm' => 'Туризм',
+                        'tyrfirmj' => 'Турфирмы',
+                        'uvelirnji-salon' => 'Ювелирные салоны',
+                        'magazin-odejdj' => 'Магазин одежда',
+                        'orgtehnika' => 'Оргтехника',
+                        'uridicheskih-yslyg' => 'Юридические услуги',
+                        'gryzoperevozki' => 'Грузоперевозоки',
+                        'farmateptika' => 'Фармацевтика',
+                        'stomatologiya' => 'Стоматология',
+                        'fitnes' => 'Фитнес-клубы',
+                        'treningi' => 'Деловые услуги',
+                        'banki' => 'Банки',
+                        'santehnika' => 'Сантехника',
+                        'cvetj' => 'Магазины цветов',
+                        'tovarj-dlya-doma' => 'Товары для дома',
+                        'stroitelnje' => 'Строительные материалы',
+                        'sport-tovarj' => 'Спортивные товары',
+                        'zootovarj' => 'Зоотовары'
+                    ];
+
+                    asort($arr);
+                    $res = array_chunk($arr, 9);
+
+                    ?>
+
                     <div class="theme-iss__list">
+                        <? foreach ($res as $col): ?>
+                            <div class="theme-iss__col">
+                                <? foreach ($col as $key => $val): ?>
+                                    <?
+                                    $key = array_search($val, $arr);
+                                    $addr = '/portfolio/thematics/' . $key . '/'
+                                    ?>
+                                    <a class="theme-iss__item" href="<?= $addr ?>"><?= $val ?></a>
+                                <? endforeach; ?>
+                            </div>
+                        <? endforeach; ?>
+                        <? /*
                         <div class="theme-iss__col">
                             <a class="theme-iss__item" href="/portfolio/thematics/subject/">Автосалоны</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/avtoservis/">Автосервисы</a>
@@ -188,6 +245,7 @@
                             <a class="theme-iss__item" href="/portfolio/thematics/sport-tovarj/">Спортивные товары</a>
                             <a class="theme-iss__item" href="/portfolio/thematics/zootovarj/">Зоотовары</a>
                         </div>
+                        */ ?>
                     </div>
                     <!--button.theme-iss__button показать еще-->
                 </section>
@@ -411,7 +469,7 @@
                     </div>
                 </section>
                 <section class="theme-price">
-                    <h1 class="theme-price__title">Стоимость создания сайта</h1>
+                    <h1 class="theme-price__title">Цены на создание сайтов</h1>
                     <div class="theme-price__switches">
                         <div class="theme-price__switches-list">
                             <button class="active theme-price__switch" data-id="1"><span
@@ -857,7 +915,7 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Стоимость создания сайтов</div>
+                                <div class="why__title"><h2 style="font-size: 57px;font-weight: 300;">Цены на создание сайтов</h2></div>
                                 <div class="why__content">
                                     <p>Создание представительства своей фирмы в сети – неизбежный шаг, с которым сегодня сталкивается любая развивающаяся компания и многих будущих заказчиков, интересуют цены на создание собственного ресурса и сроки реализации проекта.</p>
                                     <p>Цена на создание сайта зависит от множества параметров, таких как: структура сайта, дизайн главной и отдельных страниц, функционал, объем размещаемой информации. Все детали необходимо обсудить перед началом создания сайта, если вам необходима качественная разработка по приемлемым ценам, тогда студия WEB-COMP – это ваш выбор.</p>

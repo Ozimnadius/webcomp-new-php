@@ -228,7 +228,7 @@
                             </div>
                         </div>
                         <section class="theme-price">
-                            <h1 class="theme-price__title">Стоимость создания интернет-магазина</h1>
+                            <h1 class="theme-price__title">Создание интернет магазина</h1>
                             <div class="theme-price__switches">
                                 <div class="theme-price__line">
                                     <div class="theme-price__subline"></div>
@@ -240,7 +240,7 @@
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-title">Креативный сайт</div>
-                                        <div class="theme-price__item-price">10 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">50 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5
                                         </div>
                                     </div>
@@ -253,31 +253,31 @@
                                 </div>
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">5 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">25 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
                                     </div>
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">5 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">25 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
                                     </div>
                                 </div>
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">4 000 Р / 10 дней</div>
+                                        <div class="theme-price__item-price">40 000 Р / 10 дней</div>
                                         <div class="theme-price__item-text">Верстка страниц — 10</div>
                                     </div>
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">3 000 Р / 5 дней</div>
+                                        <div class="theme-price__item-price">18 000 Р / 5 дней</div>
                                         <div class="theme-price__item-text">Верстка страниц — 6</div>
                                     </div>
                                 </div>
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">6 000 Р / 10 дней</div>
+                                        <div class="theme-price__item-price">60 000 Р / 10 дней</div>
                                         <div class="theme-price__item-text">Програмная часть страниц — 10</div>
                                     </div>
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">6 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">36 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Програмная часть страниц — 6</div>
                                     </div>
                                 </div>
@@ -343,7 +343,7 @@
                         <img class="site-team__img" src="/images/content/team.png">
                     </div>
                     <div class="site-cost">
-                        <div class="site-cost__title">Сколько стоит ваш интернет-магазин</div>
+                        <div class="site-cost__title">Индивидуальный расчёт стоимости</div>
                         <div class="site-cost__sub">Заполните бриф онлайн для расчёта стоимости интернет-магазина<br>или
                             загрузите свое ТЗ для оценки
                         </div>
@@ -634,7 +634,7 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Создание интернет-магазина</div>
+                                <div class="why__title"><h2 style="font-size: 57px;font-weight: 300;">Интернет-магазин под ключ</h2></div>
                                 <div class="why__content">
                                     <p>
                                         Как известно, создание интернет-магазина является выгодным вложением средств. И

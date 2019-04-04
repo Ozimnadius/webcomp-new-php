@@ -13,7 +13,7 @@
                             <a class="bread__item active">Cайт для продажи автозапчастей</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Cайт для продажи автозапчастей</div>
+                    <div class="rek-first__title"><h1 style="font-size: 50px; margin-bottom: 20px; font-weight: 300;">Cайт для продажи автозапчастей</h1></div>
                     <div class="rek-first__subtitle">
                         Комплексный подход к разработке вашего проекта <br>
                         с учётом особенностей вашего ассортимента автозапчастей<br>
@@ -36,7 +36,7 @@
             </section>
             <div class="container3">
                 <section class="rek-desc">
-                    <div class="rek-desc__title">Мы умеем создавать сайты для продажи автозапчастей</div>
+                    <div class="rek-desc__title"><h2 style="color: #000000; font-size: 40px; margin-bottom: 60px; font-weight: 400;">Мы умеем создавать сайты для продажи автозапчастей</h2></div>
                     <div class="rek-desc__content content">
                         <div class="rek-desc__block">
                             <p>Хотите готовый интернет магазин для автомобильной компании? Web-Comp предлагает уникальный дизайн с нуля, универсальные макеты или ребрендинг действующих проектов.</p>
@@ -105,7 +105,7 @@
                     </div>
                 </section>
                 <section class="rek-slider">
-                    <div class="rek-slider__title">Примеры дазайна</div>
+                    <div class="rek-slider__title"><h3 style="color: #000000; font-size: 30px; text-transform: uppercase; margin-bottom: 65px; font-weight: 400;">Примеры дизайна</h3></div>
                     <div class="site-dev__swiper">
                         <div class="proportion proportion_1006x591"></div>
                         <div class="site-dev__swiper-wrap">
@@ -147,7 +147,7 @@
                     </div>
                 </section>
                 <section class="theme-price">
-                    <h1 class="theme-price__title">Стоимость создания сайта для продажи автозапчастей</h1>
+                    <h2 class="theme-price__title">Стоимость создания сайта для продажи автозапчастей</h2>
                     <div class="theme-price__switches">
                         <div class="theme-price__switches-list">
                             <button class="active theme-price__switch" data-id="1"><span class="theme-price__switch-title">Корпоративный сайт</span></button>

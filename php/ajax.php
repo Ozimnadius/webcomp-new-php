@@ -430,7 +430,7 @@ function promotionForm()
     <div class="promotion">
         <form class="promotion__form form" action="#" method="post">
             <div class="promotion__subtitle">
-                Заполните бриф-онлайн, для расчета точной стоимости продвижения сайта
+                Заполните бриф-онлайн для расчета точной стоимости продвижения сайта
             </div>
             <div class="form__row">
                 <div class="form__field">
@@ -457,7 +457,7 @@ function promotionForm()
             <div class="form__row">
                 <div class="form__field form__field_3">
                     <textarea name="description" class="input input_area"
-                              placeholder="Перечислите, основные направления для подбора запросов. Пример: Установка пластиковых окон, продажа земельных участков, услуги частного психотерапевта"></textarea>
+                              placeholder="Перечислите основные направления для подбора запросов. Пример: Установка пластиковых окон, продажа земельных участков, услуги частного психотерапевта"></textarea>
                 </div>
             </div>
             <button class="form__submit promotion__submit" type="submit">
@@ -566,6 +566,7 @@ function getCallorderMail()
     ];
 
     $arr['addrs'][] = 'info@web-comp.ru';
+    $arr['addrs'][] = 'vg@web-comp.ru';
     $arr['subject'] = 'Заказ звонка';
 
     ob_start();
@@ -612,6 +613,7 @@ function getCalcMail()
     ];
 
     $arr['addrs'][] = 'info@web-comp.ru';
+    $arr['addrs'][] = 'vg@web-comp.ru';
     $arr['subject'] = 'Калькулятор расчета стоимости';
 
     ob_start();
@@ -711,6 +713,7 @@ function getSiteCostMail()
     }
 
     $arr['addrs'][] = 'info@web-comp.ru';
+    $arr['addrs'][] = 'vg@web-comp.ru';
     $arr['subject'] = 'Сколько стоит ваш сайт';
 
     ob_start();
@@ -934,6 +937,7 @@ function getCalcCostMail()
     ];
 
     $arr['addrs'][] = 'info@web-comp.ru';
+    $arr['addrs'][] = 'vg@web-comp.ru';
     $arr['subject'] = 'Сколько стоит продвижение вашего сайта';
 
     ob_start();
@@ -991,6 +995,7 @@ function getTarifMail()
     ];
 
     $arr['addrs'][] = 'info@web-comp.ru';
+    $arr['addrs'][] = 'vg@web-comp.ru';
     $arr['subject'] = 'Заказ тарифа ' . $_POST['tarif'];
 
     ob_start();
@@ -1035,6 +1040,7 @@ function getPromotionMail()
     ];
 
     $arr['addrs'][] = 'info@web-comp.ru';
+    $arr['addrs'][] = 'vg@web-comp.ru';
     $arr['subject'] = 'Бриф для расчета точной стоимости';
 
     ob_start();
@@ -1095,6 +1101,7 @@ function getBannerSendMail()
     ];
 
     $arr['addrs'][] = 'info@web-comp.ru';
+    $arr['addrs'][] = 'vg@web-comp.ru';
     $arr['subject'] = 'Хотите сайт в топ?';
 
     ob_start();
@@ -1124,6 +1131,7 @@ function getSmmMail()
     ];
 
     $arr['addrs'][] = 'info@web-comp.ru';
+    $arr['addrs'][] = 'vg@web-comp.ru';
     $arr['subject'] = 'Расчет стоимости продвижения';
 
     ob_start();
@@ -1198,6 +1206,7 @@ function getTestingMail()
     ];
 
     $arr['addrs'][] = 'info@web-comp.ru';
+    $arr['addrs'][] = 'vg@web-comp.ru';
     $arr['subject'] = 'Результаты тестирования';
 
     ob_start();

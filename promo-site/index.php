@@ -201,7 +201,7 @@
                             </div>
                         </div>
                         <section class="theme-price">
-                            <h1 class="theme-price__title">Стоимость создания Промо-сайта</h1>
+                            <h1 class="theme-price__title">Создание сайта визитки</h1>
 <!--                            <div class="theme-price__switches">-->
 <!--                                <div class="theme-price__line">-->
 <!--                                    <div class="theme-price__subline"></div>-->
@@ -213,7 +213,7 @@
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
                                         <div class="theme-price__item-title">Креативный сайт</div>
-                                        <div class="theme-price__item-price">10 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">50 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5
                                         </div>
                                     </div>
@@ -226,31 +226,31 @@
                                 </div>
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">4 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">16 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
                                     </div>
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">4 000 Р / 4 дней</div>
+                                        <div class="theme-price__item-price">16 000 Р / 4 дней</div>
                                         <div class="theme-price__item-text">Кол-во простых страниц — 4</div>
                                     </div>
                                 </div>
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">4 000 Р / 10 дней</div>
+                                        <div class="theme-price__item-price">40 000 Р / 10 дней</div>
                                         <div class="theme-price__item-text">Верстка страниц — 10</div>
                                     </div>
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">3 000 Р / 5 дней</div>
+                                        <div class="theme-price__item-price">15 000 Р / 5 дней</div>
                                         <div class="theme-price__item-text">Верстка страниц — 5</div>
                                     </div>
                                 </div>
                                 <div class="theme-price__row">
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">3 000 Р / 7 дней</div>
+                                        <div class="theme-price__item-price">30 000 Р / 7 дней</div>
                                         <div class="theme-price__item-text">Програмная часть страниц — 10</div>
                                     </div>
                                     <div class="theme-price__item">
-                                        <div class="theme-price__item-price">2 000 Р / 5 дней</div>
+                                        <div class="theme-price__item-price">10 000 Р / 5 дней</div>
                                         <div class="theme-price__item-text">Програмная часть страниц — 5</div>
                                     </div>
                                 </div>
@@ -581,7 +581,7 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Создание сайта визитки</div>
+                                <div class="why__title"><h2 style="font-size: 40px;font-weight: 300;">Сайт визитка - инструмент для презентации</h2></div>
                                 <div class="why__content">
                                     <p>
                                         Сайт Визитка – это отличный инструмент для презентации как компании, так и персоны в

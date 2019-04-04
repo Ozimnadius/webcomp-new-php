@@ -71,7 +71,7 @@
                 <section class="host-chars">
                     <div class="host-chars__title">
                         <div class="host-chars__title-left"><img class="host-chars__title-img" src="/images/content/hosting/title.png"></div>
-                        <div class="host-chars__title-right"><span class="host-chars__title-right_y">лет</span><br>не единого разрыва,<br>без сбоев и потери данных</div>
+                        <div class="host-chars__title-right"><span class="host-chars__title-right_y">лет</span><br>ни единого разрыва,<br>без сбоев и потери данных</div>
                     </div>
                     <div class="host-chars__list">
                         <div class="host-chars__col content">

@@ -13,7 +13,7 @@
                             <a class="bread__item active">Контекстная реклама</a>
                         </div>
                     </div>
-                    <div class="rek-first__title">Контекстная реклама</div>
+                    <div class="rek-first__title"><h1 style="font-size: 50px; font-weight: 300; line-height: 1.2;">Настройка контекстной рекламы</h1></div>
                     <div class="rek-first__subtitle">Настройка рекламы сегодня — горячие клиенты завтра</div>
                     <div class="rek-first__middle">
                         <div class="rek-first__left"></div><a class="rek-first__item" href="/promote/reklama/yandex/">
@@ -40,7 +40,7 @@
                                     </div>
                                 </div>
                                 <div class="rek-first__item-desc">
-                                    <div class="rek-first__item-text"><span class="rek-first__item-val">59</span><span class="rek-first__item-type"> млн.</span></div>
+                                    <div class="rek-first__item-text"><span class="rek-first__item-val">69</span><span class="rek-first__item-type"> млн.</span></div>
                                     <svg class="rek-first__item-svg rek-first__item-svg_2">
                                         <use xlink:href="/images/icons/sprite.svg#man"></use>
                                     </svg>
@@ -63,7 +63,7 @@
             </section>
             <div class="container3">
                 <section class="rek-desc">
-                    <div class="rek-desc__title">Мы найдём ваших клиентов</div>
+                    <div class="rek-desc__title"><h2 style="font-size: 40px; margin-bottom: 30px; font-weight: 400;">Мы найдём ваших клиентов</h2></div>
 						<div class="rek-desc__content content">
                         <div class="rek-desc__block">
                             <p>Контекстная реклама – эффективный инструмент для повышения продаж. Такой способ позволяет популяризировать услуги или товары, 
@@ -319,7 +319,7 @@
                     </div>
                 </section>
                 <section class="rek-price">
-                    <div class="rek-price__title">Стоимость продвижения</div>
+                    <div class="rek-price__title"><h2 style="color: #000000; font-size: 40px; text-transform: uppercase; margin-bottom: 20px; font-weight: 400;">Стоимость настройки контекстной рекламы</h2></div>
                     <div class="rek-price__switches">
                         <div class="rek-price__switches-list">
                             <button class="active rek-price__switch" data-id="1"><span class="rek-price__switch-title">Яндекс Директ</span></button>
@@ -654,7 +654,7 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Достоинства контекстной рекламы</div>
+                                <div class="why__title"><h2 style="font-size: 50px; margin-bottom: 30px; font-weight: 300;">Достоинства контекстной рекламы</h2></div>
 								<div class="why__content">
 									<p>Благодаря сервисам «Яндекс.Директ» и Google AdWords можно создавать объявления разных форматов: 
 									текстовые (в основном используется поисковая выдача), графические, видео (на площадках партнеров). 

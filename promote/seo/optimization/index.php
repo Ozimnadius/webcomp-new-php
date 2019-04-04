@@ -15,7 +15,7 @@
                             <a class="bread__item active">Оптимизация сайта</a>
                         </div>
                     </div>
-                    <div class="seo-first__title">SEO оптимизация сайта<br>по новым стандартам</div>
+                    <div class="seo-first__title"><h1 style="font-size: 50px; font-weight: 300; line-height: 1;">SEO оптимизация сайта</h1></div>
                     <div class="seo-first__subtitle">Учитываем новые алгоритмы 2019 года<br></div>
                     <button class="seo-first__button callorderOpen" data-formId="2" type="button">
                         <div class="btn">
@@ -281,7 +281,7 @@
                     </div>
                 </section>
                 <section class="seo-price">
-                    <div class="seo-price__title">Стоимость SEO-оптимизации сайта</div>
+                    <div class="seo-price__title"><h2 style="font-size: 40px; margin-bottom: 30px; font-weight: 400;">Стоимость SEO-оптимизации сайта</h2></div>
                     <div class="seo-price__switches">
                         <div class="seo-price__switches-list">
                             <button class="active seo-price__switch" data-id="1"><span class="seo-price__switch-title">Тариф «Стартап»</span></button>
@@ -550,7 +550,7 @@
                         <div class="seo-faq__item">
                             <div class="seo-faq__item-title">Как можно максимально быстро получить первые заявки и обращения с сайта?</div>
                             <div class="seo-faq__item-wrap">
-                                <div class="seo-faq__item-desc">Достаточно оперативно предоставлять необходимою информацию для сайта, выполнять наши рекомендации и результат не заставит себя долго ждать. Также можно подключить и другие источники трафика, которых мы нащитываем более 30.</div>
+                                <div class="seo-faq__item-desc">Достаточно оперативно предоставлять необходимую информацию для сайта, выполнять наши рекомендации и результат не заставит себя долго ждать. Также можно подключить и другие источники трафика, которых мы нащитываем более 30.</div>
                             </div>
                         </div>
                         <div class="seo-faq__item">
@@ -586,7 +586,7 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title">Почему мы оптимизируем лучше других?</div>
+                                <div class="why__title"><h3 style="font-size: 57px; font-weight: 300; text-transform: uppercase; text-align: center; margin-bottom: 4.54545vh;">Почему мы оптимизируем лучше других?</h3></div>
                                 <div class="why__content">
                                     <p>Мы берём в работу любые проекты и можем превратить в рабочий ресурс, как старые так и молодые ресурсы. Гарантируем комплексный внимательный подход, быстрые результаты. Аудит площадки при заказе раскрутки делается Включено. Анализ структуры, юзабилити, технических, административных процессов даст четкое представление об ошибках, поможет правильно устранить их. Работы по продвижению всегда начинаются именно с аудита.</p>
                                     <p>Также в студии Web-comp вы можете заказать SEO-оптимизацию в социальных сетях. SMM – современный маркетинговый тренд, который повысит эффективность вашего бизнеса, сделает его приближенным к максимально широкой целевой аудитории.</p>
