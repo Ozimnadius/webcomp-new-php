@@ -11591,6 +11591,7 @@ input:-webkit-autofill {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 70px;
+  line-height: 1;
 }
 
 @media screen and (max-width: 1899px) {
@@ -22201,6 +22202,40 @@ input:-webkit-autofill {
   background: url("../images/bg/contactsBg.jpg") right 0 no-repeat;
 }
 
+.conts__bread {
+  padding-top: 150px;
+}
+
+@media screen and (max-width: 1439px) {
+  .conts__bread {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .conts__bread {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .conts__bread {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .conts__bread {
+    padding-top: 30px;
+  }
+}
+
 @media screen and (max-width: 1899px) {
   .conts {
     background-position: right -100px;
@@ -22231,14 +22266,20 @@ input:-webkit-autofill {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 490px;
+  padding-top: 340px;
   padding-left: 130px;
   padding-right: 360px;
 }
 
 @media screen and (max-width: 1899px) {
   .conts-first {
-    padding: 300px 30px 0 0;
+    padding: 160px 30px 0 0;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .conts-first {
+    padding-top: 200px;
   }
 }
 
@@ -22820,12 +22861,17 @@ input:-webkit-autofill {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 60px;
+  line-height: 1;
 }
 
 @media screen and (max-width: 1439px) {
   .testing-start__title {
     margin-bottom: 30px;
   }
+}
+
+.testing-start__title h1 {
+  font-size: inherit;
 }
 
 .testing-start__percents {

@@ -5,6 +5,15 @@
     <? include $_SERVER['DOCUMENT_ROOT'] . '/pages/blocks/aside.php' ?>
     <main class="main">
         <div class="conts">
+            <div class="container">
+                <div class="conts__bread">
+                    <div class="bread">
+                        <a class="bread__item" href="/">Создание сайтов</a>
+                        <h1 class="bread__item active">Контакты</h1>
+                    </div>
+                </div>
+            </div>
+
             <div class="container3">
                 <section class="conts-first">
                     <div class="conts-first__addr">109382, г. Москва, ул. Нижние Поля, 31</div>

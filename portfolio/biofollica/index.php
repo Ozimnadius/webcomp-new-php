@@ -54,9 +54,9 @@
                     <!-- END logo -->
 
                     <!-- title -->
-                    <div class="port-desc__title">
+                    <h1 class="port-desc__title">
                         Разработка промо страницы для презентации товара
-                    </div>
+                    </h1>
                     <!-- END title -->
 
                     <!-- subtitle -->

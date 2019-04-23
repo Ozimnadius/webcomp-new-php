@@ -13,7 +13,7 @@
                             <a class="bread__item active">По тематике</a>
                         </div>
                     </div>
-                    <div class="theme-first__title">Продвинули в топ более 300 проектов<br>по разным тематикам</div>
+                    <h1 class="theme-first__title">Продвинули в топ более 300 проектов<br>по разным тематикам</h1>
                     <div class="theme-first__subtitle">Комплексный подход к интернет-рекламе<br>обеспечем заказами ваш
                         бизнес
                     </div>

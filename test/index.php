@@ -11,7 +11,9 @@
                         <div class="testing-start__title-left">
                             <div class="title_big title title_small">
                                 <div class="title__line">
-                                    <div class="title__text">Пройдите тест</div>
+                                    <div class="title__text">
+                                        <h1>Пройдите тест</h1>
+                                    </div>
                                 </div>
                                 <div class="title__line"><span class="title__text title__text_small">получите</span><span class="title__text">скидку</span></div>
                             </div>
