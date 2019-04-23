@@ -1,3 +1,7 @@
 User-agent: *
+Disallow: /fonts/
+Disallow: /php/
+Disallow: /old-web-comp/
+Disallow: /search/
 Host: https://web-comp.ru
 Sitemap: https://web-comp.ru/sitemap.xml

@@ -325,10 +325,10 @@
                         <div class="site__banner">
                             <div class="banner">
                                 <div class="banner__left">
-                                    <div class="banner__title">Хотите сайт<br>дешевле?</div>
+                                    <div class="banner__title">Хотите увеличить<br>продажи?</div>
                                 </div>
                                 <div class="banner__right">
-                                    <div class="banner__text">Готовые решение под вашу<br>тематику от<b> 79 000 Р</b>
+                                    <div class="banner__text">Создадим запоминающийся<br><b>сайт для вашей ниши!</b>
                                     </div>
                                     <button class="banner__button button callorderOpen" type="button">заказать сайт
                                     </button>

@@ -38,7 +38,7 @@
                 <section class="port-desc" style="background: #363471;">
                     <div class="port-desc__logo"><img class="port-desc__logo-img"
                                                       src="/images/content/portfolio/logo.png"></div>
-                    <div class="port-desc__title">Разработка сайта в минималистичном стиле, но с удобным<br>функционалом
+                    <div class="port-desc__title">Разработка сайта в минималистичном стиле<br>с удобным функционалом
                         по выбору осветительной продукции.
                     </div>
                     <div class="port-desc__sub">Разработка интеграции со складами 5ти поставщиков с удобным функционалом<br>синхронизация

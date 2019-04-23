@@ -39,11 +39,11 @@
                 </section>
                 */ ?>
                 <section class="comp-rew active-page">
-                    <div class="comp-rew__title">
+                    <h1 class="comp-rew__title">
                         <div class="comp-rew__title-text">web</div>
                         <div class="comp-rew__title-sep"></div>
                         <div class="comp-rew__title-text comp-rew__title-text_y">comp</div>
-                    </div>
+                    </h1>
                     <div class="comp-rew__desc">Мы единственная студия,которая<br>объединила в себе самые важные<br>для
                         клиента аспекты работы<br>в интернет пространстве.
                     </div>

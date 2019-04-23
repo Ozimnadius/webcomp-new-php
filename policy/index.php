@@ -13,7 +13,7 @@
                             <a class="bread__item active">Страница</a>
                         </div>
                     </div>
-                    <div class="text-first__title">СОГЛАСИЕ НА ОБРАБОТКУ ДАННЫХ<br>ПОЛИТИКА В ОТНОШЕНИИ ОБРАБОТКИ И ЗАЩИТЫ ПЕРСОНАЛЬНЫХ ДАННЫХ</div>
+                    <div class="text-first__title"><h1 style="font-size: 57px; font-weight: 300; line-height:1;">СОГЛАСИЕ НА ОБРАБОТКУ ДАННЫХ<br>ПОЛИТИКА В ОТНОШЕНИИ ОБРАБОТКИ И ЗАЩИТЫ ПЕРСОНАЛЬНЫХ ДАННЫХ</h1></div>
                 </section>
                 <section class="text-desc">
                     <div class="text-desc__row">

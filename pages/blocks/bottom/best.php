@@ -1,7 +1,7 @@
 <div class="best">
     <div class="best__row">
         <div class="best__left">
-            <div class="best__title">лучше, чем конкуренты</div>
+            <h2 class="best__title">лучше, чем конкуренты</h2>
             <div class="best__switches"><a class="best__switch active" data-id="1">Создание сайтов</a>
                 <div class="best__switch-button"></div><a class="best__switch" data-id="2">Продвижение</a>
             </div>

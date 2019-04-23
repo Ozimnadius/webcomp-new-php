@@ -16,7 +16,7 @@
                         </div>
                     </div>
                     <div class="rek-first__title">
-                        <h1 style="font-size: 50px; font-weight: 300; line-height: 1.2;">ПРОФЕСИОНАЛЬНАЯ НАСТРОЙКА КОНТЕКСТНОЙ <br>
+                        <h1 style="font-size: 50px; font-weight: 300; line-height: 1.2;">НАСТРОЙКА КОНТЕКСТНОЙ <br>
                         РЕКЛАМЫ <span style="color: #f44545;">Я</span>НДЕКС ДИРЕКТ</h1>
                     </div>
                     <div class="rek-first__subtitle">
@@ -614,7 +614,7 @@
                             <div class="rek-bud__item-title">
                                 <span class="rek-bud__item-val number__val" data-from="-50" data-to="250">-50</span><span class="rek-bud__item-type"> % ROI</span>
                             </div>
-                            <div class="rek-bud__item-text">Окупаемость инфестиций <br> в рекламу</div>
+                            <div class="rek-bud__item-text">Окупаемость инвестиций <br> в рекламу</div>
                         </div>
                     </div>
                     <div class="rek-bud__subtitle">Как наша работа влияет на стоимость рекламы</div>

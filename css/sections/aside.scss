@@ -250,7 +250,7 @@ $asideRight: 90px;
   align-items: flex-start;
 
   &__item {
-    color: rgba($text, .5);
+    color: rgba($text, .8);
     font-weight: 300;
     position: relative;
     margin-bottom: vh(20);
@@ -438,7 +438,7 @@ $asideRight: 90px;
   }
 
   &__title {
-    color: rgba($text,.5);
+    color: rgba($text,.8);
     font-size: 13px;
     font-weight: 300;
     transition: .4s;

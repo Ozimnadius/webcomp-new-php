@@ -1,711 +1,729 @@
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://web-comp.ru/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/portfolio/akademi/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/blog/zachem-nyjen-prototip/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/company/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/portfolio/akademi/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/hosting/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/company/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/portfolio/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/biofollica/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/e-commerce/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/detskie-igrushki/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/svadebnji-salon/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/vita/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/wood/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/uvelirnji-salon/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/project/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/animals/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/gostinicj-oteli/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/banki/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/contacts/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/svda/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/corporate-site/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/medecinskih-yslyg/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/clinik/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promo-site/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/magazin-odejdj/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/reklama/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/tyrfirmj/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/reklama/yandex/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/reklama/google/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/invision/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/test/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/orgtehnika/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/bosh/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/treningi/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/farmateptika/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/tyrizm/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/restoranj/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/nedvijimost/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/subject/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/stomatologiya/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/santehnika/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/portfolio/kavkaz/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/portfolio/thematics/tovarj-dlya-doma/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/portfolio/vita/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/portfolio/clinic/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/portfolio/project/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/avtozapchasti/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/gryzoperevozki/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/stroitelnaya-tematika/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/avtoservis/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/portfolio/blacksmith/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/landing-page/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/portfolio/thematics/cnigi/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/ceny/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/corporate-site/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/blog/10-oshibok-sozdaniya-saitov/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/portfolio/balconies/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/portfolio/thematics/cvetj/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/contacts/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/portfolio/thematics/mebelnji-magazin/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/portfolio/svda/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/strahovanie/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/promote/smm/vk/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/promote/reklama/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/sait-vizitka/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/test/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/bosh/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/policy/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/biofollica/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/promote/thematics/stroitelnaya-tematika/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/sozdanie-internet-magazina/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/seo/result/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/promote/thematics/med-centr/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/portfolio/thematics/detskie-igrushki/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/promote/thematics/magazin-avtozapchastei/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/seo/optimization/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/portfolio/wood/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/thematics/stroitelnaya-kompaniya/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/magazin-avtozapchastei/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/gostinicj-oteli/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/reklama/google/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/banki/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/medecinskih-yslyg/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/clinik/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/magazin-odejdj/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/audit/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/smm/fb/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/promote/seo/yandex/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/portfolio/thematics/orgtehnika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/restoranj/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/subject/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/santehnika/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/seo/google/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/promote/seo/traffic/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/promote/seo/yandex/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/promote/thematics/nedvijimost/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/portfolio/thematics/tovarj-dlya-doma/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/thematics/buhgalteriya/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/seo/traffic/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/smm/youtube/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/promote/seo/ecommerce/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/portfolio/thematics/mebelnji-magazin/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://web-comp.ru/promote/thematics/magazin-mebeli/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <loc>https://web-comp.ru/portfolio/thematics/strahovanie/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/smm/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/seo/audit/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/portfolio/thematics/uridicheskih-yslyg/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/seo/result/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/smm/insta/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/gostinicj-oteli/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/tyroperator/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/seo-zoomagazin/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/stroitelnje/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/znakomstva/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/strahovje/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/salon-krasotj/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/knigi/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/farma/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/jenskaya-tematika/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/avtoservis/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/sport-tovarj/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/uridicheskie-yslygi/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/banki/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/avtosalon/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/restoranj-i-kafe/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/magazin-odejdj/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/magazin-igrushek/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/uvelirnaya-tematika/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/fitnes/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/elektronika/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/magazin-santehnika/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/stomatologiya/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/medicinskie-yslygi/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/svadebnji-salon/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/tovarj-dlya-doma/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/magazin-cvetov/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/bizness-yslygi/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/portfolio/thematics/salon-krasotj/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/tyristicheskay-tematika/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/promote/thematics/gryzoperevozki/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/gazon/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/portfolio/thematics/zootovarj/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/byhgalteriya/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/znakomstva/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/jenskaya-tematika/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/thematics/sport-tovarj/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/policy/</loc>
-    <lastmod>2019-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://web-comp.ru/portfolio/santehnika/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/seo/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/sport-tovarj/</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/promote/seo/company/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://web-comp.ru/portfolio/thematics/fitnes/</loc>
-    <lastmod>2019-02-21</lastmod>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/santehnika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/smm/vk/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/stroitelnaya-tematika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/reklama/yandex/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/svadebnji-salon/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/med-centr/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/uvelirnji-salon/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/treningi/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/animals/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/seo/optimization/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/farmateptika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/tyrfirmj/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/invision/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/nedvijimost/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/stomatologiya/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/tyrizm/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/nedvijimost/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/clinic/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/avtozapchasti/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/gryzoperevozki/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/stroitelnaya-tematika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/avtoservis/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/cnigi/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/magazin-mebeli/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/cvetj/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/stroitelnje/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/byhgalteriya/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/smm/insta/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/gazon/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/znakomstva/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/gostinicj-oteli/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/portfolio/thematics/jenskaya-tematika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/strahovje/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/farma/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/jenskaya-tematika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/uridicheskie-yslygi/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/avtoservis/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/banki/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/avtosalon/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/magazin-igrushek/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/restoranj-i-kafe/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/uvelirnaya-tematika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/medicinskie-yslygi/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/svadebnji-salon/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/magazin-cvetov/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/tyroperator/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/seo-zoomagazin/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/znakomstva/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/salon-krasotj/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/knigi/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/sport-tovarj/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/fitnes/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/magazin-odejdj/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/magazin-santehnika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/stomatologiya/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/elektronika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/tovarj-dlya-doma/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/bizness-yslygi/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/tyristicheskay-tematika/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/thematics/gryzoperevozki/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://web-comp.ru/promote/seo/prodvijenie-internet-magazina/</loc>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

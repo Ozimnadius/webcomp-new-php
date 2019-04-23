@@ -78,15 +78,15 @@
                         <div class="promote-first__title">
                             <div class="title_small title_small2 title title_small">
                                 <div class="title__line">
-                                    <div class="title__text">Хотите сайт в топ?</div>
+                                    <h1 class="title__text">Продвижение сайтов</h1>
                                 </div>
                                 <div class="title__line"><span
                                             class="title__text title__text_small">мы знаем</span><span
-                                            class="title__text">как это сделать</span></div>
+                                            class="title__text">как это делать</span></div>
                             </div>
                         </div>
-                        <div class="promote-first__subtitle">Увеличим Ваши продажи, количество звонков, заявок<br>и
-                            заказов с сайта за счет роста целевого трафика и вывода Вашего сайта<br>в ТОП-10 Яндекса и
+                        <div class="promote-first__subtitle">Увеличим Ваши продажи, количество звонков и заказов<br>
+                            за счет роста целевого трафика и вывода Вашего сайта<br>в ТОП-10 Яндекса и
                             Google
                         </div>
                         <button class="promote-first__button" type="button">
@@ -216,7 +216,7 @@
             </section>
             <div class="container3">
                 <section class="promote-price">
-                    <div class="promote-price__title"><h1 style="color: #c70541; font-size: 40px; text-transform: uppercase; text-align: center; margin-bottom: 25px;">Продвижение сайтов</h1></div>
+                    <div class="promote-price__title"><h2 style="color: #c70541; font-size: 40px; text-transform: uppercase; text-align: center; margin-bottom: 25px; font-weight: 400;">Стоимость продвижения сайтов</h2></div>
                     <div class="promote-price__row">
                         <div class="promote-price__col">
                             <div class="promote-price__block">
@@ -810,7 +810,7 @@
                 </section>
                 <section class="promote-edge">
                     <div class="edge">
-                        <div class="edge__title">Наши преимущества</div>
+                        <div class="edge__title"><h2 style="color: #1e1e1e; font-size: 35px; text-transform: uppercase; text-align: center; margin-bottom: 25px; font-weight: 400;">Наши преимущества</h2></div>
                         <div class="edge__list">
                             <div class="edge__row">
                                 <div class="edge__item">
@@ -903,7 +903,7 @@
                 </section>
                 <section class="promote-rec">
                     <div class="promote-rec__title">
-                        Рекомендации наших клиентов
+                        <h3 style="color: #1e1e1e; font-size: 35px; text-transform: uppercase; text-align: center; font-weight: 400;">Рекомендации наших клиентов</h3>
                         <div class="promote-rec__nav">
                             <div class="promote-rec__prev">
                                 <div class="arrow_black arrow_prev arrow">

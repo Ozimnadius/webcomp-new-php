@@ -383,9 +383,9 @@
 
         &:after {
           content: '';
-          width: 90%;
+          width: calc(80% - 10px);
           height: 1px;
-          margin-left: -5px;
+          margin-left: 10px;
           margin-bottom: 5px;
           background: linear-gradient(to right, rgba($text, 0.1) 0%, rgba($text, 0.3  ) 100%);
         }

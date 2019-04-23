@@ -47,6 +47,7 @@
       display: flex;
       align-items: flex-end;
       margin-bottom: vh(60);
+      line-height: 1;
       @include md{
         margin-bottom: 20px;
       };
@@ -870,7 +871,7 @@
     }
 
     &__content {
-      color: rgba($text, .3);
+      color: rgba($text, .7);
       font-size: 15px;
       font-weight: 300;
       line-height: lh(15px,25px);

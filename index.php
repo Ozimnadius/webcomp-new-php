@@ -10,7 +10,7 @@
                     <div class="index-first__title">
                         <div class="title">
                             <div class="title__line">
-                                <div class="title__text">Cоздаем сайты,</div>
+                                <h1 class="title__text title-other">Cоздание сайтов</h1>
                             </div>
                             <div class="title__line"><span class="title__text title__text_small">которые</span><span
                                         class="title__text">продают</span></div>
@@ -21,7 +21,7 @@
                         <div class="index-first__img"></div>
                         <div class="index-first__we">
                             <div class="we">
-                                <div class="we__title">Мы</div>
+                                <div class="we__title" style="opacity: 0">мы</div>
                                 <button class="we__btn callorderOpen">
                                     <div class="btn">
                                         <div class="btn__title">Заказать сайт</div>
@@ -51,7 +51,7 @@
                     <div class="index-about__title">
                         <div class="title_small title title_small">
                             <div class="title__line">
-                                <div class="title__text">Компания, которая</div>
+                                <h2 class="title__text" style="font-size:46px; font-weight: 300;">Компания Web-Comp</h2>
                             </div>
                             <div class="title__line"><span class="title__text title__text_small">отвечает</span><span
                                         class="title__text">за результат</span></div>
@@ -101,8 +101,8 @@
                     </div>
                 </section>
                 <section id="2" class="index-price">
-                    <div class="index-price__title">Сколько стоит сайт?</div>
-                    <div class="index-price__subtitle">online калькулятор расчета стоимости</div>
+                    <div class="index-price__title">Сколько стоит?</div>
+                    <h2 class="index-price__subtitle">online калькулятор стоимости сайта</h2>
                     <div class="index-price__calc">
                         <form class="calc" action="#" method="post">
                             <div class="calc__row">
@@ -292,7 +292,7 @@
                     </div>
                 </section>
                 <section class="index-cat">
-                    <div class="index-cat__title">Нам есть, чем гордиться</div>
+                    <h2 class="index-cat__title">Нам есть, чем гордиться</h2>
                     <div class="index-cat__subtitle">Не гонимся за количеством, работаем на результат</div>
                     <div class="index-cat__list">
                         <a class="index-cat__item" href="/portfolio/project/" title="Интернет-магазин"

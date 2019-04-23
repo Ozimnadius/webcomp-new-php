@@ -23,7 +23,7 @@
                 <a class="nav__item" href="/hosting/">Хостинг</a>
                 <a class="nav__item" href="/company/">О компании</a>
                 <a class="nav__item" href="/portfolio/">Портфолио</a>
-                <a class="nav__item" href="/portfolio/">Стоимость</a>
+                <a class="nav__item" href="/ceny/">Стоимость</a>
                 <a class="nav__item" href="/contacts/">Контакты</a>
                 <!-- <a class="nav__item" href="/blog/">Блог</a> -->
             </nav>
@@ -81,15 +81,15 @@
         </div>
         <div class="aside__socials">
             <div class="socials">
-                <a class="socials__item socials__item_vk" href="https://vk.com/webcomp" target="_blank">
+                <a class="socials__item socials__item_vk" href="https://vk.com/webcomp" rel="nofollow" title="Группа VK" target="_blank">
                     <svg class="socials__item-svg">
                         <use xlink:href="/images/icons/sprite.svg#vk"></use>
                     </svg></a>
-                <a class="socials__item socials__item_fb" href="https://www.facebook.com/webcompru/" target="_blank">
+                <a class="socials__item socials__item_fb" href="https://www.facebook.com/webcompru/" rel="nofollow title="Группа Facebook" target="_blank">
                     <svg class="socials__item-svg">
                         <use xlink:href="/images/icons/sprite.svg#fb"></use>
                     </svg></a>
-                <a class="socials__item socials__item_insta" href="https://www.instagram.com/" target="_blank">
+                <a class="socials__item socials__item_insta" href="https://www.instagram.com/marketolog_ot_boga/" rel="nofollow title="Блог нашего маркетолога" target="_blank">
                     <svg class="socials__item-svg">
                         <use xlink:href="/images/icons/sprite.svg#insta"></use>
                     </svg></a>

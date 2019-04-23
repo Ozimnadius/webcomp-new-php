@@ -132,7 +132,7 @@
                     </div>
                 </section>
                 <section class="theme-price">
-                    <h1 class="theme-price__title">Стоимость создания сайта для продажи оргтехники</h1>
+                    <h1 class="theme-price__title">Стоимость создания сайта</h1>
                     <div class="theme-price__switches">
                         <div class="theme-price__switches-list">
                             <button class="active theme-price__switch" data-id="1"><span class="theme-price__switch-title">Корпоративный сайт</span></button>
@@ -529,7 +529,7 @@
                             <div class="rek-bud__item-title">
                                 <span class="rek-bud__item-val number__val" data-from="0" data-to="47">0</span><span class="rek-bud__item-type"> %</span>
                             </div>
-                            <div class="rek-bud__item-text">Снижение стоимость <br> клиента</div>
+                            <div class="rek-bud__item-text">Снижение стоимости <br> клиента</div>
                         </div>
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
@@ -547,7 +547,7 @@
                             <div class="rek-bud__item-title">
                                 <span class="rek-bud__item-val number__val" data-from="-50" data-to="250">-50</span><span class="rek-bud__item-type"> % ROI</span>
                             </div>
-                            <div class="rek-bud__item-text">Окупаемость инфестиций <br> в рекламу</div>
+                            <div class="rek-bud__item-text">Окупаемость инвестиций <br> в рекламу</div>
                         </div>
                     </div>
                     <div class="rek-bud__subtitle">Почему так происходит?</div>

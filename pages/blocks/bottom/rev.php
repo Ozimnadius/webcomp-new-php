@@ -10,7 +10,7 @@
                             <img class="rev__img-img" src="/images/content/reviews/rev3.jpg">
                         </div>
                         <div class="rev__middle">
-                            <a class="rev__link" href="https://youtu.be/5SKbVqnaS68" data-fancybox>
+                            <a class="rev__link" href="https://youtu.be/5SKbVqnaS68" rel="nofollow" title="Видео отзыв о компании Web-Comp" data-fancybox>
                                 <svg class="rev__link-svg">
                                     <use xlink:href="/images/icons/sprite.svg#triangle"></use>
                                 </svg>
@@ -28,7 +28,7 @@
                 <div class="swiper-slide">
                     <div class="rev__item">
                         <div class="rev__img"><img class="rev__img-img" src="/images/content/reviews/rev1.jpg"></div>
-                        <div class="rev__middle"><a class="rev__link" href="https://youtu.be/3O51Qc_OfKw" data-fancybox>
+                        <div class="rev__middle"><a class="rev__link" href="https://youtu.be/3O51Qc_OfKw" rel="nofollow" title="Видео отзыв о компании Web-Comp" data-fancybox>
                                 <svg class="rev__link-svg">
                                     <use xlink:href="/images/icons/sprite.svg#triangle"></use>
                                 </svg></a></div>
@@ -45,7 +45,7 @@
                 <div class="swiper-slide">
                     <div class="rev__item">
                         <div class="rev__img"><img class="rev__img-img" src="/images/content/reviews/rev2.jpg"></div>
-                        <div class="rev__middle"><a class="rev__link" href="https://youtu.be/9L5c76MXzks" data-fancybox>
+                        <div class="rev__middle"><a class="rev__link" href="https://youtu.be/9L5c76MXzks" rel="nofollow" title="Видео отзыв о компании Web-Comp" data-fancybox>
                                 <svg class="rev__link-svg">
                                     <use xlink:href="/images/icons/sprite.svg#triangle"></use>
                                 </svg></a></div>
@@ -62,7 +62,7 @@
                 <div class="swiper-slide">
                     <div class="rev__item">
                         <div class="rev__img"><img class="rev__img-img" src="/images/content/reviews/rev1.jpg"></div>
-                        <div class="rev__middle"><a class="rev__link" href="https://youtu.be/3O51Qc_OfKw" data-fancybox>
+                        <div class="rev__middle"><a class="rev__link" href="https://youtu.be/3O51Qc_OfKw" rel="nofollow" title="Видео отзыв о компании Web-Comp" data-fancybox>
                                 <svg class="rev__link-svg">
                                     <use xlink:href="/images/icons/sprite.svg#triangle"></use>
                                 </svg></a></div>

@@ -35,7 +35,7 @@
                     <div class="seo-desc__row">
                         <div class="seo-desc__left">
                             <div class="seo-desc__block content">
-                                <h2 style="font-size: 30px; margin-bottom: 30px; font-weight: 400;">Получите железные гарантии на результат</h2>
+                                <h2 style="font-size: 30px; margin-bottom: 30px; font-weight: 400;">Оплата только за результат</h2>
                                 <p>Выбирая вариант продвижения с оплатой за результат вы гарантированно оплачиваете только те запросы по которым ваш сайт находиться в поиске. Если по продвигаемым ключевым фразам вы не находите ваш сайт в поисковой выдаче, продвижение осуществляется абсолютно Включено до момента выхода вашего сайта в ТОП.</p>
                                 <p>При данном виде продвижения у нас максимальная мотивация показать в первые 3 месяца работы на сайтом ощутимый результат, так как по истечению данного срока вы оплачиваете конкретный результат. На всем протяжении работ вы получаете полную отчётность о проделанных работах и прозрачную статистику.</p>
                             </div>
@@ -61,7 +61,7 @@
                             <div class="seo-desc__list">
                                 <div class="seo-desc__item">
                                     <div class="seo-desc__item-title">1 место</div>
-                                    <div class="seo-desc__item-desc">в рейтинге по продвижению сайтов <a target="_blank" href="http://ratingnet.ru">ratingnet.ru</a></div>
+                                    <div class="seo-desc__item-desc">в рейтинге по продвижению сайтов <a target="_blank" href="http://ratingnet.ru" rel="nofollow">ratingnet.ru</a></div>
                                 </div>
                                 <div class="seo-desc__item">
                                     <div class="seo-desc__item-title">100 %</div>

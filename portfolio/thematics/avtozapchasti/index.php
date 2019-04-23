@@ -67,18 +67,6 @@
 							<p>Удобный интерфейс, различные способы оплаты и мультиязычность увеличивают доверие к сервису.</p>
 							<p>Закажите сайт для продажи автозапчастей у Web-Comp. Получайте прибыль с первого дня работы магазина!</p>
                         </div>
-                        <div class="rek-desc__block">
-                            <h3>В каких тематиках контекстная реклама не работает</h3>
-                            <ul>
-                                <li>Тематики эротического характера, некоторых медицинские тематики</li>
-                                <li>Азартные игры</li>
-                                <li>Алкогольная продукция</li>
-                                <li>Взрывчатые вещества</li>
-                                <li>Оружие</li>
-                                <li>Политическая тематика с призывами</li>
-                                <li>Подделки или копии оригинальных товаров</li>
-                            </ul>
-                        </div>
                     </div>
                     <button class="rek-desc__button button button_red callorderOpen" data-formId="4" type="button">Получить прогноз по бюджету</button>
                     <div class="rek-desc__list">
@@ -544,7 +532,7 @@
                             <div class="rek-bud__item-title">
                                 <span class="rek-bud__item-val number__val" data-from="0" data-to="47">0</span><span class="rek-bud__item-type"> %</span>
                             </div>
-                            <div class="rek-bud__item-text">Снижение стоимость <br> клиента</div>
+                            <div class="rek-bud__item-text">Снижение стоимости <br> клиента</div>
                         </div>
                         <div class="rek-bud__item number">
                             <div class="rek-bud__item-title">
@@ -562,7 +550,7 @@
                             <div class="rek-bud__item-title">
                                 <span class="rek-bud__item-val  number__val"  data-from="0" data-to="25">0</span><span class="rek-bud__item-type"> % ROI</span>
                             </div>
-                            <div class="rek-bud__item-text">Окупаемость инфестиций <br> в рекламу</div>
+                            <div class="rek-bud__item-text">Окупаемость инвестиций <br> в рекламу</div>
                         </div>
                     </div>
                     <div class="rek-bud__subtitle">Почему так происходит?</div>

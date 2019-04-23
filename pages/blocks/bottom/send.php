@@ -22,8 +22,8 @@
             <div class="form__row">
                 <div class="form__field form__field_3">
                     <div class="policy">
-                        <input class="check policy__checkbox" type="checkbox" id="policy" name="promo" checked>
-                        <label class="check__label" for="policy">
+                        <input class="check policy__checkbox" type="checkbox" id="policySend" name="promo" checked>
+                        <label class="check__label" for="policySend">
                             <a target="_blank" href="/policy/" class="policy__link">
                                 Я даю согласие на обработку моих персональных данный
                             </a>

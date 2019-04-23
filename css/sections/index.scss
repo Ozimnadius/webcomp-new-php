@@ -109,7 +109,7 @@
 
     &__we {
       position: absolute;
-      z-index: 10;
+      z-index: 30;
       top: vh(500);
       transform: translateY(-50%);
       right: -240px;
@@ -134,7 +134,7 @@
 
     &__test {
       position: absolute;
-      z-index: 10;
+      z-index: 30;
       top: vh(105);
       right: vh(85);
       @include lg{
@@ -530,16 +530,23 @@
       z-index: 10;
       top: 0;
       bottom: 0;
-      right: 0px;
+      right: 0;
       width: 50px;
-      border: 1px solid #ccc;
+      //border: 1px solid #ccc;
+      background: rgba(45, 45, 45, 0.5);
       transition: .7s;
       display: flex;
       align-items: center;
       justify-content: center;
 
+
+      //@include slg{
+      //  right: 0;
+      //};
+
+
       &:hover {
-        border: 1px solid $Selective-yellow;
+        //border: 1px solid $Selective-yellow;
 
         &:before {
           border-color: transparent transparent transparent $Selective-yellow;
@@ -635,7 +642,7 @@
       };
 
       &-title {
-        color: rgba($text, .5);
+        color: rgba($text, .6);
         font-size: 32px;
         font-weight: 300;
         transition: .4s;

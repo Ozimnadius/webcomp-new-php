@@ -64,7 +64,7 @@
                             <div class="seo-desc__list">
                                 <div class="seo-desc__item">
                                     <div class="seo-desc__item-title">1 место</div>
-                                    <div class="seo-desc__item-desc">в рейтинге по продвижению сайтов <a target="_blank" href="http://ratingnet.ru">ratingnet.ru</a></div>
+                                    <div class="seo-desc__item-desc">в рейтинге по продвижению сайтов <a target="_blank" href="http://ratingnet.ru" rel="nofollow">ratingnet.ru</a></div>
                                 </div>
                                 <div class="seo-desc__item">
                                     <div class="seo-desc__item-title">100 %</div>

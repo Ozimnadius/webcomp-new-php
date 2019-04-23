@@ -493,16 +493,16 @@ function testForm()
         'robots' => 'Все вышеперечисленное',
         'sef' => 'ЧеловекоПонятный URL',
         'formatSeo' => 'RDFA',
-        'speedLoad' => 'Длина url страницы',
-        'priceGoogle' => 'Оба варианта',
-        'bestAdv' => 'Первое',
-        'landingConversion' => 'Средней конверсии не существует',
-        'blackSeo' => 'Изменение даты публикации материала',
-        'altText' => '.gif',
-        '1000Page' => 'Все вышеперечисленное',
-        'dataMarkup' => 'Все вышеперечисленное',
-        'banGoogle' => 'Все вышеперечисленное',
-        'filterAgc' => 'Отсутствие добавочной ценности в контенте сайта'
+//        'speedLoad' => 'Длина url страницы',
+//        'priceGoogle' => 'Оба варианта',
+//        'bestAdv' => 'Первое',
+//        'landingConversion' => 'Средней конверсии не существует',
+//        'blackSeo' => 'Изменение даты публикации материала',
+//        'altText' => '.gif',
+//        '1000Page' => 'Все вышеперечисленное',
+//        'dataMarkup' => 'Все вышеперечисленное',
+//        'banGoogle' => 'Все вышеперечисленное',
+//        'filterAgc' => 'Отсутствие добавочной ценности в контенте сайта'
     ];
     $correct = 0;
     $wrong = 0;
@@ -705,7 +705,7 @@ function getSiteCostMail()
         'file' => []
     ];
 
-    if (isset($_FILES)) {
+    if (isset($_FILES) && !empty($_FILES)) {
         $arrFile = $_FILES['file'];
         $arr['file']['src'] = $arrFile['tmp_name'];
         $arr['file']['name'] = $arrFile['name'];
