@@ -54,15 +54,15 @@
                     <!-- END logo -->
 
                     <!-- title -->
-                    <div class="port-desc__title">
-                        Разработка сайта «Каталог»  с уникальным дизайном, с  адаптивной версией для корректного отображения на всех устройствах
-                    </div>
+                    <h1 class="port-desc__title">
+                        Сайта с индивидуальным дизайном для студии ремонта
+                    </h1>
                     <!-- END title -->
 
                     <!-- subtitle -->
                     <div class="port-desc__sub">
-                        качественная отделка балконов с калькулятором, примерами работ и со <br>
-                        списком услуг и ценами
+                        Разработка сайта «Каталог» с уникальным дизайном, <br>
+                        с адаптивной версией для корректного отображения на всех устройствах
                     </div>
                     <!-- END subtitle -->
 
@@ -209,9 +209,9 @@
                             <!-- list -->
                             <div class="port-proj__list">
                                 <div class="port-proj__item">
-                                    <div class="port-proj__item-title">уникальный дизайн сайта
+                                    <h2 class="port-proj__item-title">уникальный дизайн сайта
                                         <div class="port-proj__item-line"></div>
-                                    </div>
+                                    </h2>
                                     <div class="port-proj__item-desc">
                                         Разработка уникального дизайна позволит сайту лучше ранжироваться в поисковой система. Все картинки сайта сделаны на основе портфолио клиента.
                                     </div>
@@ -280,10 +280,10 @@
                 <div class="port-pages">
                     <div class="port-pages__title">
                         <div class="balconies__title">
-                            <div class="balconies__title-left">
+                            <h2 class="balconies__title-left">
                                 прототипы <br>
                                 страниц
-                            </div>
+                            </h2>
                             <div class="balconies__title-right">
                                 Мы разрабатываем прототипы всех страниц
                             </div>
@@ -395,9 +395,9 @@
                 <div class="port-adapt">
 
                     <!-- title -->
-                    <div class="port-adapt__title">
+                    <h2 class="port-adapt__title">
                         Адаптивная версия
-                    </div>
+                    </h2>
                     <!-- END title -->
 
                     <!-- top -->

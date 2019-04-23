@@ -20,7 +20,7 @@
                             <div class="art-first__month">2019</div>
                         </div>
                         <div class="art-first__desc">
-                            <div class="art-first__title">Зачем нужен прототип<br>при разработке сайта</div>
+                            <h1 class="art-first__title">Зачем нужен прототип<br>при разработке сайта</h1>
                             <div class="art-first__info">
                                 <div class="art-first__thematic">Создание сайтов</div>
                                 <div class="art-first__view">

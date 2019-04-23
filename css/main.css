@@ -16543,6 +16543,11 @@ input:-webkit-autofill {
   justify-content: space-between;
 }
 
+.balconies__title-left {
+  font-size: 60px;
+  font-weight: 500;
+}
+
 .balconies__title-right {
   font-size: 18px;
   font-weight: 100;
@@ -21257,6 +21262,7 @@ input:-webkit-autofill {
   font-weight: 300;
   text-transform: uppercase;
   margin-bottom: 25px;
+  line-height: 1;
 }
 
 @media screen and (max-width: 991px) {
@@ -22657,12 +22663,20 @@ input:-webkit-autofill {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .conts-det__col {
   margin-left: 15px;
   margin-right: 15px;
   width: calc(50% - 30px);
+}
+
+@media screen and (max-width: 767px) {
+  .conts-det__col {
+    width: calc(100% - 30px);
+  }
 }
 
 .conts-det__li {

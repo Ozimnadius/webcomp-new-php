@@ -1789,6 +1789,11 @@ $width: 556;
     align-items: center;
     justify-content: space-between;
 
+    &-left {
+      font-size: 60px;
+      font-weight: 500;
+    }
+
     &-right {
       font-size: 18px;
       font-weight: 100;
