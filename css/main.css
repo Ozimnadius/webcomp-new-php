@@ -13930,6 +13930,10 @@ input:-webkit-autofill {
   border-color: transparent transparent transparent #000000 !important;
 }
 
+.subject .site-dev__prev:hover:hover .site-dev__prev-title, .subject .site-dev__prev:hover:hover .site-dev__next-title, .subject .site-dev__next:hover:hover .site-dev__prev-title, .subject .site-dev__next:hover:hover .site-dev__next-title {
+  color: #000000;
+}
+
 .subject .site-dev__prev:hover .arrow .arrow__line, .subject .site-dev__next:hover .arrow .arrow__line {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(black));
   background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, black 100%);
