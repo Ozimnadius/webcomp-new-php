@@ -13900,6 +13900,24 @@ input:-webkit-autofill {
   padding: 25px 0;
 }
 
+.subject .site-dev__prev-title, .subject .site-dev__next-title {
+  text-transform: uppercase;
+  color: red;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1439px) {
+  .subject .site-dev__prev-title, .subject .site-dev__next-title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .subject .site-dev__prev-title, .subject .site-dev__next-title {
+    display: none;
+  }
+}
+
 .subject .site-dev__prev:hover .arrow_prev .arrow__line, .subject .site-dev__next:hover .arrow_prev .arrow__line {
   background: -webkit-gradient(linear, left top, right top, from(black), to(rgba(0, 0, 0, 0)));
   background: -webkit-linear-gradient(left, black 0%, rgba(0, 0, 0, 0) 100%);
@@ -13920,6 +13938,16 @@ input:-webkit-autofill {
 
 .subject .site-dev__prev:hover .arrow .arrow__triangle, .subject .site-dev__next:hover .arrow .arrow__triangle {
   border-color: transparent transparent transparent black !important;
+}
+
+.subject .site-dev__prev-title {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.subject .site-dev__next-title {
+  padding-right: 20px;
+  text-align: right;
 }
 
 /*-----------------SECTION-SLIDER--------------------*/
@@ -22502,6 +22530,20 @@ input:-webkit-autofill {
   font-weight: 300;
   text-align: center;
   margin-bottom: 20px;
+  padding-right: 360px;
+  color: #ffba00;
+}
+
+@media screen and (max-width: 1899px) {
+  .conts-map__title {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .conts-map__title {
+    padding-right: 15px;
+  }
 }
 
 .conts-map__button {
@@ -22655,6 +22697,7 @@ input:-webkit-autofill {
   font-weight: 300;
   margin-bottom: 20px;
   text-align: center;
+  color: #ffba00;
 }
 
 .conts-det__row {

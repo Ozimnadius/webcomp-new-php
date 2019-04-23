@@ -211,6 +211,14 @@
       font-weight: 300;
       text-align: center;
       margin-bottom: 20px;
+      padding-right: 360px;
+      color: $Selective-yellow;
+      @include xlg{
+        padding-right: 30px;
+      };
+      @include sm{
+        padding-right: 15px;
+      };
     }
 
     &__button {
@@ -336,6 +344,7 @@
       font-weight: 300;
       margin-bottom: 20px;
       text-align: center;
+      color: $Selective-yellow;
     }
 
     &__row {

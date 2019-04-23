@@ -110,11 +110,17 @@
                                     <div class="arrow__line"></div>
                                     <div class="arrow__triangle"></div>
                                 </div>
+                                <div class="site-dev__prev-title">
+                                    Предыдущий проект
+                                </div>
                             </div>
                             <div class="site-dev__next">
                                 <div class="arrow arrow_black">
                                     <div class="arrow__line"></div>
                                     <div class="arrow__triangle"></div>
+                                </div>
+                                <div class="site-dev__next-title">
+                                    Следующий проект
                                 </div>
                             </div>
                         </div>

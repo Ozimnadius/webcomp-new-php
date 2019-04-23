@@ -930,11 +930,13 @@
 
   .site {
     &-dev {
+
       &__slide{
         &-img {
           //overflow: hidden;
         }
       }
+
 
       &__prev, &__next {
         position: absolute;
@@ -944,6 +946,18 @@
         cursor: pointer;
         outline: none;
         padding: 25px 0;
+
+        &-title {
+          text-transform: uppercase;
+          color: red;
+          font-size: 16px;
+          @include lg{
+            font-size: 14px;
+          };
+          @include md{
+            display: none;
+          };
+        }
 
         &:hover {
           .arrow_prev {
@@ -968,6 +982,20 @@
           }
         }
 
+      }
+
+      &__prev {
+        &-title {
+          padding-left: 20px;
+          text-align: left;
+        }
+      }
+
+      &__next {
+        &-title {
+          padding-right: 20px;
+          text-align: right;
+        }
       }
     }
   }

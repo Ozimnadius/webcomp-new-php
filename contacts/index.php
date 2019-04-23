@@ -7,7 +7,6 @@
         <div class="conts">
             <div class="container3">
                 <section class="conts-first">
-                    <h1 class="conts-first__title">Контакты</h1>
                     <div class="conts-first__addr">109382, г. Москва, ул. Нижние Поля, 31</div>
                     <div class="conts-first__list">
                         <a class="conts-first__item" href="mailto:info@web-comp.ru">info@web-comp.ru</a>
