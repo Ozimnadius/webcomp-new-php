@@ -1,6 +1,11 @@
-<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top2.php'?>
+<? include $_SERVER['DOCUMENT_ROOT'].'/pages/top3.php'?>
 
 <!-- main -->
+<script>
+window.onload = function () {
+ yaCounter37527960 .reachGoal('404error');
+ }
+</script>
 <main class="page">
     <? include $_SERVER['DOCUMENT_ROOT'].'/pages/blocks/aside.php'?>
     <main class="main">

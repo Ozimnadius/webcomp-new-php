@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+		<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+		<yml_catalog date="2019-04-23 15:55">
+		<shop>
+			<name>web-comp.ru</name>
+			<company>web-comp.ru</company>
+			<url>https://web-comp.ru/</url>
+		<currencies>
+			<currency id="RUR" rate="1" />
+		</currencies>
+		<categories>
+			<category id="2">Создание сайтов</category>
+			<category id="3">Продвижение сайтов</category>
+			<category id="4">Контекстная реклама</category>
+		</categories>
+		<offers>
+			<offer id="2235596525" available="true">
+			       <url>https://web-comp.ru/corporate-site/</url>
+			       <price>80000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/corp-yml.jpg</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Корпоративный сайт</name>
+				<description>Создание корпоративного сайта с индивидуальным дизайном за 1 месяц. Усилим имидж вашей компании в интернете. Привлечем внимание к вашему продукту или услуге.</description>
+			</offer>
+			<offer id="1684119" available="true">
+			       <url>https://web-comp.ru/sozdanie-internet-magazina/</url>
+			       <price>100000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/internet-magazin.png</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Интернет-магазин</name>
+				<description>Комплексный подход к проектированию прототипов и программной разработке интернет-магазина. Специализируемся на разреботке более 10 лет. Есть кейсы успешных проектов. Разрабатываем индивидуальный функционал.</description>
+			</offer>
+			<offer id="983283125" available="true">
+			       <url>https://web-comp.ru/landing-page/</url>
+			       <price>70000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/lend.png</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Лендинг пейдж</name>
+				<description>При разработке используем авторские методы прямого и косвенного маркетинга воздействия на целевую аудиторию. Рисуем только уникальный дизайн.</description>
+			</offer>
+			<offer id="368218842" available="true">
+			       <url>https://web-comp.ru/sait-vizitka/</url>
+			       <price>50000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/visitka.png</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Сайт-визитка</name>
+				<description>Сайт визитка – это отличный инструмент для презентации как компании, так и персоны в интернете. Такой вид сайта быстро создаётся и настраивается. Сайт будет работать на вас круглосуточно, без перерывов и выходных, рассказывая о вас и ваших персональных услугах, позволит продавать товары или собирать целевую аудиторию в одном месте. Если Вам нужен недорогой сайт визитка, соответствующий всем стандартам - заказывайте в нашей студии web-comp. В комплекте вы получаете ряд бесплатных приятных бонус такие как: подбор и регистрация домена, оплаченный хостинг на 2 месяца и техническую поддержку.</description>
+			</offer>
+			<offer id="2541964328" available="true">
+			       <url>https://web-comp.ru/promote/seo/</url>
+			       <price>30000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>3</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/seo-sem.jpg</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>SEO продвижение сайта</name>
+				<description>Поисковая оптимизация — фактически ставшее обязательным условие реального (а не формального) существования любой площадки в интернете. Именно за счёт грамотного продвижения пользователи, находящиеся в интернет-пространстве, отыскивают в поисковой выдаче нужные им ресурсы. Здесь и становятся актуальными услуги нашей компании Web-Comp, специализация которой — SEO-продвижении сайтов в Москве.</description>
+			</offer>
+			<offer id="3000361569" available="true">
+			       <url>https://web-comp.ru/promote/seo/traffic/</url>
+			       <price>30000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>3</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/seo-sem.jpg</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Продвижение сайта по трафику</name>
+				<description>Для расширения числа уникальных посетителей веб-ресурса стоит воспользоваться современными методиками развития. Продвижение сайта с оплатой за трафик позволяет увеличить объемы уникальных пользователей. Заказчик оплачивает только количество уникальных пользователей, которые перешли на сайт. Главное преимущество – защита от недоброкачественного итога.</description>
+			</offer>
+			<offer id="446455709" available="true">
+			       <url>https://web-comp.ru/promote/seo/prodvijenie-internet-magazina/</url>
+			       <price>30000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>3</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/seo-sem.jpg</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Продвижение интернет-магазина</name>
+				<description>Профессиональное продвижение интернет-магазина необходимо доверить надежным исполнителям, гарантирующим полную окупаемость вложений в рекламную кампанию и получение дополнительной прибыли. Основная задача специалистов заключается в грамотном воздействии на целевую аудиторию, поддержании диалога и увеличении количества потенциальных клиентов.</description>
+			</offer>
+			<offer id="345855322" available="true">
+			       <url>https://web-comp.ru/promote/seo/yandex/</url>
+			       <price>30000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>3</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/seo-sem.jpg</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Продвижение сайта в Яндексе</name>
+				<description>Яндекс – это поисковая система №1 на территории России. Через него на сайты компаний приходит более 50% посетителей – для сравнения из Гугл чуть меньше 40%, из Мейл.ру всего 4%. Поэтому, продвигаясь в данном поисковике, владелец компании получает значительное увеличение показателей трафика, числа обращений, получает доступ к уникальным возможностям системы. У нас – выгодная цена на продвижение сайта в Яндексе ТОП-10 и быстрые гарантированные результаты. Есть ресурс, но нет нужной отдачи? Мы решим этот вопрос.</description>
+			</offer>
+			<offer id="2747656355" available="true">
+			       <url>https://web-comp.ru/promote/seo/google/</url>
+			       <price>30000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>3</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/seo-sem.jpg</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Продвижение сайта в Google</name>
+				<description>Google – одна из самых популярных систем в мире, и ежедневно поиском пользуется 40% населения России. Разнообразие инструментов для продвижения бизнеса в этой системе нельзя недооценивать. Цена на продвижение сайта в Google ТОП 10 будет зависеть от особенностей конкретного проекта, но мы гарантируем разумное расходование каждого рубля. Для успешной раскрутки бизнеса подбирается перечень запросов с учетом сферы работы клиента, его требований к конечному результату.</description>
+			</offer>
+			<offer id="109861559" available="true">
+			       <url>https://web-comp.ru/promote/seo/company/</url>
+			       <price>30000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>3</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/seo-sem.jpg</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Продвижение сайта компании</name>
+				<description>Существует много способов раскрутить свою фирму через интернет. Среди них большинство требуют немалых финансовых вложений. SEO продвижение сайта компании помогает добиться результата быстро и эффективно. К тому же стоит оно значительно дешевле многих альтернативных вариантов рекламы, а эффективность отслеживается без особых усилий даже людьми, далекими от IT индустрии.</description>
+			</offer>
+			<offer id="3829945078" available="true">
+			       <url>https://web-comp.ru/promote/seo/optimization/</url>
+			       <price>30000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>3</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/seo-sem.jpg</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>SEO оптимизация сайта</name>
+				<description>Каждый интернет-ресурс – это точка продаж. Как в обычном магазине, в нем все должно быть слажено, «чисто», понятно и оптимизировано. Игнорирование важных моментов не сделает магазин не рабочим, но существенно снизит его привлекательность в глазах клиентов и поисковых роботов. SEO оптимизация и продвижение сайтов компаний – это комплекс мер, который направлен на повышение позиций ресурса в результатах выдачи поисковиков. Мы ежедневно мониторим изменения и нововведения поисковых систем в отношении продвигаемых ресурсов и знаем, что нужно сделать чтобы сайт занял лидирующие позиции в поиске.</description>
+			</offer>
+			<offer id="3691344768" available="true">
+			       <url>https://web-comp.ru/promote/reklama/</url>
+			       <price>14900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>4</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/kontekstnaya-reklama-usluga.png</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Настройка контекстной рекламы</name>
+				<description>Контекстная реклама – эффективный инструмент для повышения продаж. Такой способ позволяет популяризировать услуги или товары, привлекая посетителей на сайт. Для проведения успешной кампании стоит обратиться в авторитетное агентство контекстной рекламы WEB-COMP. Мы индивидуально прорабатываем каждый проект, обеспечиваем постоянный мониторинг и гарантируем результативность вложений. Вы можете заказать размещение контекстной рекламы практически в любой отрасли.</description>
+			</offer>
+			<offer id="1660712302" available="true">
+			       <url>https://web-comp.ru/promote/reklama/yandex/</url>
+			       <price>14900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>4</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/kontekstnaya-reklama-usluga.png</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Настройка Яндекс Директ</name>
+				<description>Яндекс.Директ – сервис контекстной рекламы ведущей поисковой системы страны, позволяет привлекать посетителей на сайт для реализации товаров или услуг. Система дает возможность демонстрировать объявления с учетом интересов пользователей, что улучшает результативность рекламных кампаний. Эффект от контекстной рекламы Яндекс.Директ заметен уже в день старта рекламы.</description>
+			</offer>
+			<offer id="1234245466" available="true">
+			       <url>https://web-comp.ru/promote/reklama/google/</url>
+			       <price>14900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>4</categoryId>
+				<picture>https://web-comp.ru/images/content/yml/kontekstnaya-reklama-usluga.png</picture>
+				<store>true</store>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+			       <name>Настройка Google Adwords</name>
+				<description>Контекстная реклама демонстрируется пользователю в зависимости от его запроса. Ее настройку обеспечивают несколько сервисов, один из них – Google AdWords. Его разработала и поддерживает поисковая система Google, вторая по востребованности в нашей стране. В итоге контекстная реклама в Google AdWords – способ интернет-продвижения, который приводит посетителей на сайт уже с первого дня запуска. И если пользователь видит рекламное объявление – он уже имеет к этому интерес. Так настроена система, она считывает поведение людей и демонстрирует им актуальные предложения.</description>
+			</offer>
+		</offers>
+</shop>
+</yml_catalog>

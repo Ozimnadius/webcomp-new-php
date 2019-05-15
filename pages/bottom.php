@@ -10,6 +10,33 @@
 </div>
 <!-- END popup -->
 
+<!-- callorderTemplate -->
+<div hidden class="callorderTemplate">
+    <div class="callorder">
+        <form class="callorder__form form" action="#" method="post">
+            <div class="callorder__title"> </div>
+            <div class="callorder__subtitle"> </div>
+            <div class="form__fields">
+
+            </div>
+            <input type="hidden" name="action" value="callorderDataSend">
+            <input type="hidden" name="theme" value="">
+            <button class="form__submit callorder__submit" type="submit">
+                <div class="btn">
+                    <div class="btn__title"> </div>
+                    <div class="btn__lines">
+                        <div class="btn__line-top"></div>
+                        <div class="btn__line-right"></div>
+                        <div class="btn__line-bottom"></div>
+                        <div class="btn__line-left"></div>
+                    </div>
+                </div>
+            </button>
+        </form>
+    </div>
+</div>
+<!-- END callorderTemplate -->
+
 <!-- Yandex.Metrika counter start -->
 <script type="text/javascript">
     (function (m, e, t, r, i, k, a) {

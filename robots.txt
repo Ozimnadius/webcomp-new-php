@@ -3,5 +3,6 @@ Disallow: /fonts/
 Disallow: /php/
 Disallow: /old-web-comp/
 Disallow: /search/
+Disallow: *.php
 Host: https://web-comp.ru
 Sitemap: https://web-comp.ru/sitemap.xml

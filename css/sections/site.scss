@@ -475,22 +475,22 @@
       };
 
       &:hover {
-        .seporator_prev {
-          .seporator__line {
-            background: linear-gradient(to right, rgba($text, 1) 0%, rgba($text, 0) 100%)
-          }
-          .seporator__triangle {
-            border-width: 5.5px 7px 5.5px 0px;
-            border-color: transparent rgba($text, 1) transparent transparent;
-          }
-        }
-
-        .seporator__line {
-          background: linear-gradient(to right, rgba($text, 0) 0%, rgba($text, 1) 100%);
-        }
-        .seporator__triangle {
-          border-color: transparent transparent transparent rgba($text, 1);
-        }
+        //.seporator_prev {
+        //  .seporator__line {
+        //    background: linear-gradient(to right, rgba($text, 1) 0%, rgba($text, 0) 100%)
+        //  }
+        //  .seporator__triangle {
+        //    border-width: 5.5px 7px 5.5px 0px;
+        //    border-color: transparent rgba($text, 1) transparent transparent;
+        //  }
+        //}
+        //
+        //.seporator__line {
+        //  background: linear-gradient(to right, rgba($text, 0) 0%, rgba($text, 1) 100%);
+        //}
+        //.seporator__triangle {
+        //  border-color: transparent transparent transparent rgba($text, 1);
+        //}
       }
 
     }

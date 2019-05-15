@@ -15,10 +15,6 @@
                             <div class="title__line"><span class="title__text title__text_small">которые</span><span
                                         class="title__text">продают</span></div>
                         </div>
-                    </div>
-                    <div class="index-first__image">
-                        <div class="proportion proportion_1154x1023"></div>
-                        <div class="index-first__img"></div>
                         <div class="index-first__we">
                             <div class="we">
                                 <div class="we__title" style="opacity: 0">мы</div>
@@ -35,6 +31,10 @@
                                 </button>
                             </div>
                         </div>
+                    </div>
+                    <div class="index-first__image">
+                        <div class="proportion proportion_1154x1023"></div>
+                        <div class="index-first__img"></div>
                     </div>
                     <div class="index-first__test"><a class="test" href="./test/">
                             <div class="test__percent">15%</div>

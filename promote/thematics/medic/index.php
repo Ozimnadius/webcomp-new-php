@@ -120,7 +120,7 @@
                                     <input class="input" type="email" name="email" placeholder="E-mail">
                                 </div>
                             </div>
-                            <button class="form__submit" type="submit">
+                            <button class="form__submit" data-formid="10" type="submit">
                                 <div class="btn">
                                     <div class="btn__title">Узнать стоимость</div>
                                     <div class="btn__lines">
