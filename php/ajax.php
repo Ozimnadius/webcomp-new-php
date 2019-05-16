@@ -568,6 +568,10 @@ function getCallorderMail()
     $arr['addrs'][] = 'info@web-comp.ru';
     $arr['addrs'][] = 'vg@web-comp.ru';
     $arr['subject'] = 'Заказ звонка';
+    if(isset($_POST['theme']) && !empty($_POST['theme'])){
+        $arr['subject'] = $_POST['theme'];
+    }
+
 
     ob_start();
     ?>

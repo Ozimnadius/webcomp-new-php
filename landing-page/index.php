@@ -249,8 +249,8 @@
                         <section class="theme-price">
                             <h1 class="theme-price__title">Заказать создание лендинга</h1>
                             <div class="theme-price__switches">
-<!--                                <div class="theme-price__switches-list">-->
-<!--                                </div>-->
+                                <!--                                <div class="theme-price__switches-list">-->
+                                <!--                                </div>-->
                                 <div class="theme-price__line">
                                     <div class="theme-price__subline"></div>
                                 </div>
@@ -337,9 +337,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button class="theme-price__button button button_red callorderOpen" type="button">
-                                        Получить индивидуальный расчет
-                                    </button>
+                                    <div class="theme-price__row">
+                                        <div class="theme-price__item">
+                                            <button class="theme-price__button button button_red callorderOpen" type="button"
+                                                    data-formid="11" data-theme="Создание лендинга (с системой управления)">
+                                                Оставить заявку
+                                            </button>
+                                        </div>
+                                        <div class="theme-price__item">
+                                            <button class="theme-price__button button button_red callorderOpen" type="button"
+                                                    data-formid="11" data-theme="Создание лендинга (без системы управления)">
+                                                Оставить заявку
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </section>
@@ -368,7 +379,8 @@
                         <div class="site-cost__sub">Заполните бриф онлайн для расчёта точной стоимости<br>или
                             загрузите свое ТЗ для оценки
                         </div>
-                        <form class="form site-cost__form site-cost__tabs" action="#" method="post" enctype="multipart/form-data">
+                        <form class="form site-cost__form site-cost__tabs" action="#" method="post"
+                              enctype="multipart/form-data">
                             <div class="site-cost__tab active" data-id="1">
                                 <div class="form__wrapper">
                                     <div class="form__row">
@@ -590,7 +602,8 @@
                                     </div>
                                     <div class="form__row">
                                         <div class="form__field">
-                                            <input class="input" type="file" name="file" placeholder="Подробное задание" accept="image/*, application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document, .pdf, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+                                            <input class="input" type="file" name="file" placeholder="Подробное задание"
+                                                   accept="image/*, application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document, .pdf, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
                                         </div>
                                         <div class="form__field">
                                             <input class="input" type="text" name="goodSites"
@@ -648,7 +661,8 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title"><h2 style="font-size: 57px;font-weight: 300;">Лендинг пейдж под ключ</h2></div>
+                                <div class="why__title"><h2 style="font-size: 57px;font-weight: 300;">Лендинг пейдж под
+                                        ключ</h2></div>
                                 <div class="why__content">
                                     <p>Компания Web-Comp предлагает профессиональные услуги по разработке и продвижению
                                         сайтов. Наши клиенты уже более 12 лет получают достойные программные продукты,
@@ -663,7 +677,7 @@
                                         <li>Разработка схематичной версии сайта (прототип);</li>
                                         <li>Согласование с клиентом и внесение правок;</li>
                                     </ul>
-									<ul>
+                                    <ul>
                                         <li>Разработка дизайна;</li>
                                         <li>Утверждение дизайна и внесение правок;</li>
                                         <li>Работы по технической части;</li>
@@ -672,7 +686,7 @@
                                         </li>
                                         <li>Отслеживание работоспособности, всеобъемлющая техническая поддержка.</li>
                                     </ul>
-									
+
 
                                     <p>Наша команда сертифицированных специалистов готова повысить вашу экономическую
                                         успешность с помощью новейших интернет-технологий. Для увеличения потока
@@ -703,7 +717,8 @@
                                         <li>недорогой способ протестировать нишу.</li>
 
                                     </ul>
-                                    <p>Цена на создание лендинг пейдж зависит от количества на ней информационных блоков и
+                                    <p>Цена на создание лендинг пейдж зависит от количества на ней информационных блоков
+                                        и
                                         сложности их реализации. Примерное количество времени, которое уходит на
                                         все этапы работы, в среднем составляет от 14 до 28 рабочих дней.</p>
                                     <p>Для тех, кто хочет получить действительно рабочий продукт и извлекать

@@ -125,7 +125,8 @@
                                     </div>
                                 </div>
                             </a></div>
-                        <div class="site-dev__title"><h1 style="font-size: 40px;">Создание корпоративного сайта</h1></div>
+                        <div class="site-dev__title"><h1 style="font-size: 40px;">Создание корпоративного сайта</h1>
+                        </div>
                         <div class="site-dev__chart">
                             <div class="site-dev__list">
                                 <div class="site-dev__item">
@@ -249,88 +250,111 @@
                             <div class="theme-price__tabs">
                                 <div class="active theme-price__tab" data-id="1">
                                     <div class="theme-price__list">
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Креативный сайт</div>
-                                        <div class="theme-price__item-price">50 000 Р / 7 дней</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 5
-                                        </div>
-                                    </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-title">Типовой сайт</div>
-                                        <div class="theme-price__item-price">7 000 Р / 2 дней</div>
-                                        <div class="theme-price__item-text">Кол-во креативных (сложных) страниц — 1
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">25 000 Р / 7 дней</div>
-                                        <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
-                                    </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">25 000 Р / 7 дней</div>
-                                        <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
-                                    </div>
-                                </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">40 000 Р / 10 дней</div>
-                                        <div class="theme-price__item-text">Верстка страниц — 10</div>
-                                    </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">18 000 Р / 5 дней</div>
-                                        <div class="theme-price__item-text">Верстка страниц — 6</div>
-                                    </div>
-                                </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">40 000 Р / 7 дней</div>
-                                        <div class="theme-price__item-text">Програмная часть страниц — 10</div>
-                                    </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">24 000 Р / 5 дней</div>
-                                        <div class="theme-price__item-text">Програмная часть страниц — 6</div>
-                                    </div>
-                                </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Включено</b>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-title">Креативный сайт</div>
+                                                <div class="theme-price__item-price">50 000 Р / 7 дней</div>
+                                                <div class="theme-price__item-text">Кол-во креативных (сложных) страниц
+                                                    — 5
+                                                </div>
                                             </div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включено</b></div>
-                                            <div class="theme-price__item-li">Написание подробного тех.задания — <b>5
-                                                    000 Р</b></div>
-                                            <div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
-                                            <div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b></div>
-                                        </div>
-                                    </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__item-price">+</div>
-                                        <div class="theme-price__item-list">
-                                            <div class="theme-price__item-li">Анализ конкурентов — <b>Включено</b>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-title">Типовой сайт</div>
+                                                <div class="theme-price__item-price">7 000 Р / 2 дней</div>
+                                                <div class="theme-price__item-text">Кол-во креативных (сложных) страниц
+                                                    — 1
+                                                </div>
                                             </div>
-                                            <div class="theme-price__item-li">Адаптивная верстка — <b>Включено</b></div>
-                                            <div class="theme-price__item-li">Написание подробного тех.задания — <b>2
-                                                    000 Р</b></div>
-                                            <div class="theme-price__item-li">Регистрация домена — <b>500 Р</b></div>
-                                            <div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b></div>
+                                        </div>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">25 000 Р / 7 дней</div>
+                                                <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">25 000 Р / 7 дней</div>
+                                                <div class="theme-price__item-text">Кол-во простых страниц — 5</div>
+                                            </div>
+                                        </div>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">40 000 Р / 10 дней</div>
+                                                <div class="theme-price__item-text">Верстка страниц — 10</div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">18 000 Р / 5 дней</div>
+                                                <div class="theme-price__item-text">Верстка страниц — 6</div>
+                                            </div>
+                                        </div>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">40 000 Р / 7 дней</div>
+                                                <div class="theme-price__item-text">Програмная часть страниц — 10</div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">24 000 Р / 5 дней</div>
+                                                <div class="theme-price__item-text">Програмная часть страниц — 6</div>
+                                            </div>
+                                        </div>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">+</div>
+                                                <div class="theme-price__item-list">
+                                                    <div class="theme-price__item-li">Анализ конкурентов —
+                                                        <b>Включено</b>
+                                                    </div>
+                                                    <div class="theme-price__item-li">Адаптивная верстка —
+                                                        <b>Включено</b></div>
+                                                    <div class="theme-price__item-li">Написание подробного тех.задания —
+                                                        <b>5
+                                                            000 Р</b></div>
+                                                    <div class="theme-price__item-li">Регистрация домена — <b>500 Р</b>
+                                                    </div>
+                                                    <div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__item-price">+</div>
+                                                <div class="theme-price__item-list">
+                                                    <div class="theme-price__item-li">Анализ конкурентов —
+                                                        <b>Включено</b>
+                                                    </div>
+                                                    <div class="theme-price__item-li">Адаптивная верстка —
+                                                        <b>Включено</b></div>
+                                                    <div class="theme-price__item-li">Написание подробного тех.задания —
+                                                        <b>2
+                                                            000 Р</b></div>
+                                                    <div class="theme-price__item-li">Регистрация домена — <b>500 Р</b>
+                                                    </div>
+                                                    <div class="theme-price__item-li">Хостинг 12 мес.— <b>3000 Р</b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="theme-price__row">
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__price">163 500 Р</div>
+                                            </div>
+                                            <div class="theme-price__item">
+                                                <div class="theme-price__price">79 500 Р</div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="theme-price__row">
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">163 500 Р</div>
+                                    <div class="theme-price__row">
+                                        <div class="theme-price__item">
+                                            <button class="theme-price__button button button_red callorderOpen" type="button"
+                                                    data-formid="11" data-theme="Создание корпоративного сайта (Креативный сайт)">
+                                                Оставить заявку
+                                            </button>
+                                        </div>
+                                        <div class="theme-price__item">
+                                            <button class="theme-price__button button button_red callorderOpen" type="button"
+                                                    data-formid="11" data-theme="Создание корпоративного сайта (Типовой сайт)">
+                                                Оставить заявку
+                                            </button>
+                                        </div>
                                     </div>
-                                    <div class="theme-price__item">
-                                        <div class="theme-price__price">79 500 Р</div>
-                                    </div>
-                                </div>
-                            </div>
-                                    <button class="theme-price__button button button_red callorderOpen" type="button">
-                                        Получить индивидуальный расчет
-                                    </button>
                                 </div>
                             </div>
                         </section>
@@ -359,7 +383,8 @@
                         <div class="site-cost__sub">Заполните бриф онлайн для расчета стоимости корпоративного
                             сайта<br>или загрузите свое ТЗ для оценки
                         </div>
-                        <form class="form site-cost__form site-cost__tabs" action="#" method="post" enctype="multipart/form-data">
+                        <form class="form site-cost__form site-cost__tabs" action="#" method="post"
+                              enctype="multipart/form-data">
                             <div class="site-cost__tab active" data-id="1">
                                 <div class="form__wrapper">
                                     <div class="form__row">
@@ -588,7 +613,8 @@
                                     </div>
                                     <div class="form__row">
                                         <div class="form__field">
-                                            <input class="input" type="file" name="file" placeholder="Подробное задание" accept="image/*, application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document, .pdf, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+                                            <input class="input" type="file" name="file" placeholder="Подробное задание"
+                                                   accept="image/*, application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document, .pdf, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
                                         </div>
                                         <div class="form__field">
                                             <input class="input" type="text" name="goodSites"
@@ -646,7 +672,8 @@
                         <div class="bottom__why">
                             <div class="why">
                                 <div class="why__img"><img class="why__img-img" src="/images/content/why.png"></div>
-                                <div class="why__title"><h2 style="font-size: 57px;font-weight: 300;">Корпоративный сайт под ключ</h2></div>
+                                <div class="why__title"><h2 style="font-size: 57px;font-weight: 300;">Корпоративный сайт
+                                        под ключ</h2></div>
                                 <div class="why__content">
                                     <p>
                                         Корпоративные ресурсы выполняют множество функций сразу, в современном мире они
@@ -707,7 +734,8 @@
                                         недавнего
                                         времени также превалирует над количеством регулярно смотрящих телевизор людей.
                                         Кстати,
-                                        отличным способом рекламы — при том он не потребует почти никаких затрат — станет
+                                        отличным способом рекламы — при том он не потребует почти никаких затрат —
+                                        станет
                                         введение
                                         специальной рассылки; даже бесплатные службы вроде Mail.ru способны дать
                                         отличный эффект в плане продвижения.
@@ -752,7 +780,8 @@
                                         подкованности
                                         со стороны программистов, и креативного подхода со стороны дизайнеров.
                                         Однозначного
-                                        алгоритма не существует — все зависит от особенностей индивидуальной ситуации, при этом мы
+                                        алгоритма не существует — все зависит от особенностей индивидуальной ситуации,
+                                        при этом мы
                                         постараемся выделить основные этапы в общем виде:
                                     </p>
                                     <h3>Аналитика</h3>
@@ -767,7 +796,8 @@
                                     <p>
                                         По определению ТЗ — подробный план работ, включающий в себя структурные и
                                         дизайнерские
-                                        особенности разрабатываемого сайта. Именно на этом этапе определяется результат, поэтому
+                                        особенности разрабатываемого сайта. Именно на этом этапе определяется результат,
+                                        поэтому
                                         клиент должен предельно четко и подробно излагать свои требования.
                                     </p>
                                     <h3>Общая структура</h3>

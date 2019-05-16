@@ -20,10 +20,10 @@
         </div>
         <div class="aside__nav">
             <nav class="nav">
-                <a class="nav__item" href="/hosting/">Хостинг</a>
                 <a class="nav__item" href="/company/">О компании</a>
                 <a class="nav__item" href="/portfolio/">Портфолио</a>
                 <a class="nav__item" href="/ceny/">Стоимость</a>
+                <a class="nav__item" href="/hosting/">Хостинг</a>
                 <a class="nav__item" href="/contacts/">Контакты</a>
                 <!-- <a class="nav__item" href="/blog/">Блог</a> -->
             </nav>

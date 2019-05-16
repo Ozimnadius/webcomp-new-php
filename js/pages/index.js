@@ -77,11 +77,6 @@
         }
 
         if (pagItems) {
-            if (sectionIndex == 3) {
-                document.querySelector('.pag__arrow-line').style.opacity = 0;
-            } else {
-                document.querySelector('.pag__arrow-line').style.opacity = 1;
-            }
 
             if (section.classList.contains('index-bottom')) {
                 pagination.classList.add('hidden');

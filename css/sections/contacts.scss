@@ -3,33 +3,40 @@
 
   &__bread {
     padding-top: 150px;
-    @include lg{
+    @include lg {
       padding-top: 100px;
-    };
-    @include slg{
+    }
+  ;
+    @include slg {
       display: flex;
       justify-content: center;
       padding-top: 70px;
-    };
-    @include sm{
+    }
+  ;
+    @include sm {
       padding-top: 50px;
-    };
-    @include xs{
+    }
+  ;
+    @include xs {
       padding-top: 30px;
-    };
+    }
+  ;
   }
 
 
-  @include xlg{
+  @include xlg {
     background-position: right -100px;
-  };
-  @include md{
+  }
+;
+  @include md {
     background-size: cover;
     background-position: right 0;
-  };
-  @include xs{
+  }
+;
+  @include xs {
     background-position: 0 0;
-  };
+  }
+;
 
   &-first {
     display: flex;
@@ -39,21 +46,21 @@
     padding-left: 130px;
     padding-right: 360px;
 
-    @include xlg{
+    @include xlg {
       padding: 160px 30px 0 0;
-    };
-    @include lg{
+    }
+    @include lg {
       padding-top: 200px;
-    };
-    @include md{
+    }
+    @include md {
       padding: 190px 30px 0 0;
-    };
-    @include sm{
+    }
+    @include sm {
       padding: 180px 15px 0 15px;
-    };
-    @include xs{
+    }
+    @include xs {
       padding: 20px 15px 0 15px;
-    };
+    }
 
     &__title {
       opacity: 0;
@@ -64,17 +71,20 @@
       font-size: 50px;
       font-weight: 300;
       margin-bottom: 25px;
-      @include xlg{
+      @include xlg {
         font-size: 36px;
-      };
-      @include md{
+      }
+    ;
+      @include md {
         font-size: 24px;
         margin-bottom: 10px;
-      };
-      @include sm{
+      }
+    ;
+      @include sm {
         font-size: 19px;
         text-align: center;
-      };
+      }
+    ;
     }
 
     &__list {
@@ -83,19 +93,22 @@
       padding-bottom: 50px;
       margin-bottom: 45px;
       position: relative;
-      @include xlg{
+      @include xlg {
         padding-bottom: 34px;
         margin-bottom: 30px;
-      };
-      @include md{
+      }
+    ;
+      @include md {
         padding-bottom: 15px;
         margin-bottom: 15px;
-      };
-      @include xs{
+      }
+    ;
+      @include xs {
         flex-direction: column;
         align-items: center;
         width: 100%;
-      };
+      }
+    ;
 
       &:after {
         content: '';
@@ -105,10 +118,10 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.3) 30%,rgba(255,255,255,0.3) 70%,rgba(255,255,255,0) 100%);
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 70%, rgba(255, 255, 255, 0) 100%);
       }
     }
-    
+
     &__item {
       font-size: 35px;
       font-weight: 300;
@@ -117,19 +130,23 @@
       align-items: center;
       margin-right: 15px;
 
-      @include xlg{
+      @include xlg {
         font-size: 24px;
-      };
-      @include md{
+      }
+    ;
+      @include md {
         font-size: 18px;
-      };
-      @include sm{
+      }
+    ;
+      @include sm {
         margin-right: 10px;
         font-size: 13px;
-      };
-      @include xs{
+      }
+    ;
+      @include xs {
         margin-bottom: 5px;
-      };
+      }
+    ;
 
       &:last-child {
         margin-right: 0;
@@ -143,12 +160,14 @@
         content: '/';
         margin-left: 25px;
         color: #ffb900;
-        @include sm{
+        @include sm {
           margin-left: 10px;
-        };
-        @include xs{
+        }
+      ;
+        @include xs {
           display: none;
-        };
+        }
+      ;
       }
     }
 
@@ -156,32 +175,37 @@
       display: flex;
       flex-wrap: wrap;
       margin-bottom: 50px;
-      @include sm{
+      @include sm {
         margin-bottom: 25px;
-      };
-      @include xs{
+      }
+    ;
+      @include xs {
         flex-direction: column;
         align-items: center;
-      };
+      }
+    ;
     }
 
     &__pin {
       display: flex;
       align-items: center;
       margin-right: 80px;
-      @include sm{
+      @include sm {
         margin-right: 10px;
-      };
-      @include xs{
+      }
+    ;
+      @include xs {
         margin-bottom: 8px;
         margin-right: 0;
-      };
+      }
+    ;
 
       &:last-child {
         margin-right: 0;
-        @include xs{
+        @include xs {
           margin-bottom: 0;
-        };
+        }
+      ;
       }
 
       &-svg {
@@ -189,26 +213,31 @@
         height: 22px;
         fill: #ffb400;
         margin-right: 10px;
-        @include md{
+        @include md {
           width: 18px;
           height: 18px;
-        };
-        @include sm{
+        }
+      ;
+        @include sm {
           width: 13px;
           height: 13px;
-        };
+        }
+      ;
       }
+
       &-title {
         color: $text;
         font-family: "Exo 2";
         font-size: 19px;
         font-weight: 300;
-        @include md{
+        @include md {
           font-size: 15px;
-        };
-        @include sm{
+        }
+      ;
+        @include sm {
           font-size: 13px;
-        };
+        }
+      ;
       }
     }
   }
@@ -221,11 +250,12 @@
       padding-left: 130px;
       padding-right: 360px;
       margin-bottom: 110px;
-      @include xlg{
+      @include xlg {
         padding-left: 0;
         padding-right: 30px;
         margin-bottom: 20px;
-      };
+      }
+    ;
     }
 
     &__title {
@@ -234,18 +264,20 @@
       margin-bottom: 20px;
       padding-right: 360px;
       color: $Selective-yellow;
-      @include xlg{
+      @include xlg {
         padding-right: 30px;
-      };
-      @include sm{
+      }
+    ;
+      @include sm {
         padding-right: 15px;
-      };
+      }
+    ;
     }
 
     &__button {
       width: 206px;
       height: 60px;
-      border: 1px solid rgba($text,.2);
+      border: 1px solid rgba($text, .2);
       color: $text;
       font-family: "Exo 2";
       font-size: 13px;
@@ -253,12 +285,13 @@
       text-transform: uppercase;
       display: block;
       margin: 0 auto;
-      @include sm{
+      @include sm {
         font-size: 11px;
         width: auto;
         height: auto;
         padding: 8px 10px;
-      };
+      }
+    ;
     }
 
     &__map {
@@ -272,10 +305,11 @@
         display: block;
         margin-right: 220px;
         height: 1px;
-        background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.3) 30%,rgba(255,255,255,0.3) 70%,rgba(255,255,255,0) 100%);
-        @include slg{
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 70%, rgba(255, 255, 255, 0) 100%);
+        @include slg {
           margin-right: 0;
-        };
+        }
+      ;
       }
 
       &-content {
@@ -286,30 +320,59 @@
         &:before {
           opacity: 0;
         }
+
         .conts-map__close {
           display: block;
           display: none;
         }
+
         .conts-map__wrap {
-          height: 880px;
-            @include xlg{
-              height: 700px;
-            };
-          @include md{
-            height: 450px;
-          };
-          @include sm{
-            height: 300px;
-          };
+          //height: 880px;
+          //@include xlg {
+          //  height: 700px;
+          //}
+          //@include md {
+          //  height: 450px;
+          //}
+          //@include sm {
+          //  height: 300px;
+          //}
         }
       }
     }
 
+    &__wraps {
+      height: 880px;
+      position: relative;
+      @include xlg {
+        height: 700px;
+      }
+      @include md {
+        height: 450px;
+      }
+      @include sm {
+        height: 300px;
+      }
+    }
+
     &__wrap {
-      height: 0px;
+      //height: 0px;
       overflow: hidden;
       transition: .4s;
-      position: relative;
+      //position: relative;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0;
+      z-index: 0;
+
+
+      &.active {
+        opacity: 1;
+        z-index: 20;
+      }
     }
 
     &__close {
@@ -320,18 +383,20 @@
 
       width: 76px;
       height: 76px;
-      background-color: rgba($bg,.5);
+      background-color: rgba($bg, .5);
       border-radius: 50%;
 
-      @include xlg{
+      @include xlg {
         right: 30px;
-      };
-      @include sm{
+      }
+    ;
+      @include sm {
         width: 40px;
         height: 40px;
-      };
+      }
+    ;
 
-      &:after,&:before {
+      &:after, &:before {
         content: '';
         display: block;
         position: absolute;
@@ -342,30 +407,60 @@
         left: 50%;
         margin-left: -17.5px;
         background-color: $text;
-        @include sm{
+        @include sm {
           width: 26px;
           margin-left: -13px;
-        };
+        }
+      ;
       }
+
       &:after {
         transform: rotate(45deg);
       }
+
       &:before {
         transform: rotate(-45deg);
       }
 
     }
 
+    &__buttons{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding-right: 30px;
+    }
+
+    &__button2 {
+      width: 30px;
+
+      &:first-child {
+        margin-right: 30px;
+      }
+    }
 
 
   }
 
   &-det {
+    padding-left: 130px;
+    padding-right: 360px;
+
+    @include xlg {
+      padding-right: 30px;
+      padding-left: 0;
+    }
+    @include sm {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
     &__title {
       font-weight: 300;
       margin-bottom: 20px;
       text-align: center;
       color: $Selective-yellow;
+      font-size: 60px;
     }
 
     &__row {
@@ -379,15 +474,17 @@
       margin-left: 15px;
       margin-right: 15px;
       width: calc(50% - 30px);
-     @include sm{
-       width: calc(100% - 30px);
-     };
+      @include sm {
+        width: calc(100% - 30px);
+      }
+    ;
     }
 
     &__li {
       font-size: 15px;
       margin-bottom: 10px;
       text-align: center;
+
       &:last-child {
         margin-bottom: 0;
       }
@@ -400,3 +497,5 @@
     padding-top: 110px;
   }
 }
+
+

@@ -710,7 +710,8 @@
     &__button {
       padding: 15px 20px;
       border: 1px solid rgba($bg,.7);
-      margin: 0 auto;
+      //margin: 0 auto;
+      margin-right: auto;
 
       display: flex;
       align-items: center;

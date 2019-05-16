@@ -77,7 +77,7 @@ const formFields = {
             fields: formFields['1']
         },
         '6': {
-            title: 'Узнаете стоимость продвижения',
+            title: 'Узнайте стоимость продвижения',
             subtitle: 'Мы ответим на все интересующие вас вопросы',
             btntitle: 'Получить консультацию',
             fields: formFields['1']
@@ -105,8 +105,15 @@ const formFields = {
             subtitle: 'Мы ответим на все интересующие вас вопросы',
             btntitle: 'Получить консультацию',
             fields: formFields['1']
-        }
-    }
+        },
+        '11': {
+            title: 'Оставить заявку',
+            subtitle: 'Мы ответим на все интересующие вас вопросы',
+            btntitle: 'Отправить',
+            fields: formFields['1']
+        },
+
+    },
     formTemplate = $('.callorderTemplate').find('.callorder');
 
 function generateForm(formId, themeText) {
@@ -122,6 +129,7 @@ function generateForm(formId, themeText) {
     title.text(params.title);
     subtitle.text(params.subtitle);
     btntitle.text(params.btntitle);
+
     if (themeText){
         theme.val(themeText);
     } else {
@@ -155,7 +163,6 @@ if (callorderOpenAll) {
         let callorderOpen = callorderOpenAll[i];
 
         callorderOpen.addEventListener('click', function (e) {
-
             let formId = this.dataset.formid || 1,
                 theme = this.dataset.theme || '',
                 data = {
@@ -163,7 +170,7 @@ if (callorderOpenAll) {
                     formId: formId,
                     theme: theme
                 },
-                html = generateForm(formId);
+                html = generateForm(formId,theme);
 
             $(popupWrapper).html(html);
             $('input[type=tel]').mask('+7 (999) 999-99-99');
@@ -283,7 +290,7 @@ if (promotionOpenAll) {
                     if (result.status) {
                         popupWrapper.innerHTML = result.html;
                         popup.classList.add('active');
-
+                        $('input[type=tel]').mask('+7 (999) 999-99-99');
                         $(document.querySelector('.promotion .form')).validate(
                             {
                                 rules: {
@@ -337,7 +344,7 @@ if (pushOpenAll) {
 
                         popupWrapper.innerHTML = result.html;
                         popup.classList.add('active');
-
+                        $('input[type=tel]').mask('+7 (999) 999-99-99');
                         // $(document.querySelector('.callorder .form')).validate(
                         //     {
                         //         rules: {
@@ -507,7 +514,7 @@ if (tarifs) {
                     if (result.status) {
                         popupWrapper.innerHTML = result.html;
                         popup.classList.add('active');
-
+                        $('input[type=tel]').mask('+7 (999) 999-99-99');
                         $(document.querySelector('.hosting')).validate(
                             {
                                 rules: {
